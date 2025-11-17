@@ -1,0 +1,94 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { useForm } from 'react-hook-form'
+import { useAvaliacao } from '@/context/AvaliacaoContext'
+import { ProgressBar } from '@/components/avaliacao/ProgressBar'
+import { Checkbox } from '@/components/ui/Checkbox'
+import { Button } from '@/components/ui/Button'
+import { Card } from '@/components/ui/Card'
+import { ArrowLeft } from 'lucide-react'
+
+const sintomas = [
+  { id: 'fadiga', label: 'Fadiga / Cansaço excessivo' },
+  { id: 'caimbras', label: 'Cãibras musculares frequentes' },
+  { id: 'formigamento', label: 'Formigamento em mãos/pés' },
+  { id: 'imunidade baixa', label: 'Imunidade baixa (resfriados frequentes)' },
+  { id: 'queda_cabelo', label: 'Queda de cabelo' },
+  { id: 'unhas_fracas', label: 'Unhas fracas/quebradiças' },
+  { id: 'pele_seca', label: 'Pele muito seca' },
+  { id: 'dores_musculares', label: 'Dores musculares/ósseas' },
+  { id: 'insonia', label: 'Insônia / Dificuldade para dormir' },
+  { id: 'ansiedade_sintoma', label: 'Ansiedade' },
+  { id: 'problemas_memoria', label: 'Problemas de memória/concentração' },
+  { id: 'tontura', label: 'Tonturas frequentes' },
+  { id: 'palpitacoes', label: 'Palpitações cardíacas' },
+  { id: 'falta_ar', label: 'Falta de ar ao esforço' },
+]
+
+export default function Passo5Page() {
+  const router = useRouter()
+  const { perfil, updatePerfil, setPassoAtual } = useAvaliacao()
+
+  const { register, handleSubmit } = useForm({
+    defaultValues: {
+      sintomas: perfil.sintomas || [],
+    },
+  })
+
+  const onSubmit = (data: { sintomas: string[] }) => {
+    updatePerfil({
+      sintomas: data.sintomas || [],
+    })
+    setPassoAtual(6)
+    router.push('/avaliacao/passo-6')
+  }
+
+  const handleBack = () => {
+    setPassoAtual(4)
+    router.push('/avaliacao/passo-4')
+  }
+
+  return (
+    <div className="max-w-2xl mx-auto py-8 px-4">
+      <ProgressBar currentStep={5} totalSteps={6} />
+
+      <Card className="p-8">
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">Sintomas</h1>
+        <p className="text-gray-600 mb-6">
+          Selecione os sintomas que você tem sentido nos últimos meses
+        </p>
+
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+          <div className="space-y-3">
+            {sintomas.map((sintoma) => (
+              <Checkbox
+                key={sintoma.id}
+                label={sintoma.label}
+                value={sintoma.id}
+                {...register('sintomas')}
+              />
+            ))}
+          </div>
+
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-sm text-blue-800">
+              💡 <strong>Dica:</strong> Alguns sintomas podem indicar deficiências específicas de nutrientes.
+              Vamos analisar isso nas recomendações.
+            </p>
+          </div>
+
+          <div className="flex justify-between pt-4">
+            <Button type="button" variant="outline" onClick={handleBack}>
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Voltar
+            </Button>
+            <Button type="submit" size="lg">
+              Próximo →
+            </Button>
+          </div>
+        </form>
+      </Card>
+    </div>
+  )
+}
