@@ -15,7 +15,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Pill className="w-8 h-8 text-primary-600" />
             <span className="text-2xl font-bold text-gray-900">
-              Vita<span className="text-primary-600">Guia</span>
+              Suplementa <span className="text-primary-600">Já</span>
             </span>
           </Link>
 

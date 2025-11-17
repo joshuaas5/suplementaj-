@@ -42,8 +42,8 @@ export default function ResultadosPage() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Minhas Recomendações VitaGuia',
-          text: 'Confira minhas recomendações personalizadas de suplementação do VitaGuia!',
+          title: 'Minhas Recomendações Suplementa Já',
+          text: 'Confira minhas recomendações personalizadas de suplementação do Suplementa Já!',
           url: window.location.href,
         })
       } catch {

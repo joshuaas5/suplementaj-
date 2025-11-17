@@ -83,23 +83,23 @@ export default function Passo6Page() {
             <h2 className="text-lg font-semibold text-gray-900 mb-3">Informações Básicas</h2>
             <div className="bg-gray-50 rounded-lg p-4 space-y-2">
               <div className="flex justify-between">
-                <span className="text-gray-600">Idade:</span>
-                <span className="font-medium">{perfil.idade} anos</span>
+                <span className="text-gray-700 font-medium">Idade:</span>
+                <span className="font-semibold text-gray-900">{perfil.idade} anos</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">Sexo:</span>
-                <span className="font-medium">{perfil.sexo === 'F' ? 'Feminino' : 'Masculino'}</span>
+                <span className="text-gray-700 font-medium">Sexo:</span>
+                <span className="font-semibold text-gray-900">{perfil.sexo === 'F' ? 'Feminino' : 'Masculino'}</span>
               </div>
               {perfil.peso && (
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Peso:</span>
-                  <span className="font-medium">{perfil.peso} kg</span>
+                  <span className="text-gray-700 font-medium">Peso:</span>
+                  <span className="font-semibold text-gray-900">{perfil.peso} kg</span>
                 </div>
               )}
               {perfil.altura && (
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Altura:</span>
-                  <span className="font-medium">{perfil.altura} cm</span>
+                  <span className="text-gray-700 font-medium">Altura:</span>
+                  <span className="font-semibold text-gray-900">{perfil.altura} cm</span>
                 </div>
               )}
             </div>
@@ -110,12 +110,12 @@ export default function Passo6Page() {
             <h2 className="text-lg font-semibold text-gray-900 mb-3">Estilo de Vida</h2>
             <div className="bg-gray-50 rounded-lg p-4 space-y-2">
               <div className="flex justify-between">
-                <span className="text-gray-600">Dieta:</span>
-                <span className="font-medium">{getDietaLabel(perfil.dieta)}</span>
+                <span className="text-gray-700 font-medium">Dieta:</span>
+                <span className="font-semibold text-gray-900">{getDietaLabel(perfil.dieta)}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">Exposição solar:</span>
-                <span className="font-medium">{getExposicaoLabel(perfil.exposicao_solar)}</span>
+                <span className="text-gray-700 font-medium">Exposição solar:</span>
+                <span className="font-semibold text-gray-900">{getExposicaoLabel(perfil.exposicao_solar)}</span>
               </div>
             </div>
           </div>

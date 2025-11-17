@@ -2,29 +2,48 @@ import jsPDF from 'jspdf'
 import { Perfil } from '@/types/perfil'
 import { RecomendacaoEnriquecida } from '@/types'
 
+// Função para remover acentos e caracteres especiais
+function removerAcentos(texto: string): string {
+  return texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ç/g, 'c')
+    .replace(/Ç/g, 'C')
+    .replace(/ñ/g, 'n')
+    .replace(/Ñ/g, 'N')
+}
+
 export function gerarPDFResultados(
   perfil: Perfil,
   recomendacoes: RecomendacaoEnriquecida[]
 ) {
-  const doc = new jsPDF()
+  const doc = new jsPDF({
+    orientation: 'portrait',
+    unit: 'mm',
+    format: 'a4',
+    putOnlyUsedFonts: true,
+    compress: true
+  })
+
   const pageWidth = doc.internal.pageSize.getWidth()
+  const pageHeight = doc.internal.pageSize.getHeight()
   const margin = 20
   let yPosition = 20
 
-  // Header
-  doc.setFontSize(24)
+  // Header com melhor contraste
+  doc.setFontSize(28)
   doc.setTextColor(79, 70, 229) // primary-600
-  doc.text('VitaGuia', margin, yPosition)
+  doc.text(removerAcentos('Suplementa Ja'), margin, yPosition)
 
   yPosition += 8
   doc.setFontSize(16)
   doc.setTextColor(50, 50, 50)
-  doc.text('Relatório de Recomendações Personalizadas', margin, yPosition)
+  doc.text(removerAcentos('Relatorio de Recomendacoes Personalizadas'), margin, yPosition)
 
   yPosition += 5
   doc.setFontSize(10)
   doc.setTextColor(100, 100, 100)
-  doc.text(`Gerado em: ${new Date().toLocaleDateString('pt-BR')}`, margin, yPosition)
+  doc.text(removerAcentos(`Gerado em: ${new Date().toLocaleDateString('pt-BR')}`), margin, yPosition)
 
   // Linha divisória
   yPosition += 8
@@ -35,7 +54,7 @@ export function gerarPDFResultados(
   // Seção: Resumo do Perfil
   doc.setFontSize(14)
   doc.setTextColor(50, 50, 50)
-  doc.text('📋 Seu Perfil', margin, yPosition)
+  doc.text(removerAcentos('Seu Perfil'), margin, yPosition)
   yPosition += 8
 
   doc.setFontSize(10)
@@ -47,13 +66,13 @@ export function gerarPDFResultados(
     perfil.peso ? `Peso: ${perfil.peso}kg` : null,
     perfil.altura ? `Altura: ${perfil.altura}cm` : null,
     `Dieta: ${getDietaLabel(perfil.dieta)}`,
-    `Exposição Solar: ${getExposicaoLabel(perfil.exposicao_solar)}`,
-    `Atividade Física: ${getAtividadeLabel(perfil.atividade_fisica)}`,
+    `Exposicao Solar: ${getExposicaoLabel(perfil.exposicao_solar)}`,
+    `Atividade Fisica: ${getAtividadeLabel(perfil.atividade_fisica)}`,
   ].filter(Boolean)
 
   perfilInfo.forEach(info => {
     if (info) {
-      doc.text(info, margin + 5, yPosition)
+      doc.text(removerAcentos(info), margin + 5, yPosition)
       yPosition += 5
     }
   })
@@ -64,12 +83,12 @@ export function gerarPDFResultados(
   if (perfil.condicoes_saude && perfil.condicoes_saude.length > 0) {
     doc.setFontSize(11)
     doc.setTextColor(50, 50, 50)
-    doc.text('Condições de Saúde:', margin, yPosition)
+    doc.text(removerAcentos('Condicoes de Saude:'), margin, yPosition)
     yPosition += 6
     doc.setFontSize(10)
     doc.setTextColor(70, 70, 70)
     perfil.condicoes_saude.forEach(cond => {
-      doc.text(`• ${formatCondicao(cond)}`, margin + 5, yPosition)
+      doc.text(removerAcentos(`• ${formatCondicao(cond)}`), margin + 5, yPosition)
       yPosition += 5
     })
     yPosition += 3
@@ -79,12 +98,12 @@ export function gerarPDFResultados(
   if (perfil.medicamentos && perfil.medicamentos.length > 0) {
     doc.setFontSize(11)
     doc.setTextColor(50, 50, 50)
-    doc.text('Medicamentos:', margin, yPosition)
+    doc.text(removerAcentos('Medicamentos:'), margin, yPosition)
     yPosition += 6
     doc.setFontSize(10)
     doc.setTextColor(70, 70, 70)
     perfil.medicamentos.forEach(med => {
-      doc.text(`• ${formatMedicamento(med)}`, margin + 5, yPosition)
+      doc.text(removerAcentos(`• ${formatMedicamento(med)}`), margin + 5, yPosition)
       yPosition += 5
     })
     yPosition += 3
@@ -97,13 +116,13 @@ export function gerarPDFResultados(
   // Título de Recomendações
   doc.setFontSize(16)
   doc.setTextColor(50, 50, 50)
-  doc.text('💊 Suas Recomendações Personalizadas', margin, yPosition)
+  doc.text(removerAcentos('Suas Recomendacoes Personalizadas'), margin, yPosition)
   yPosition += 10
 
   // Disclaimer
   doc.setFontSize(8)
   doc.setTextColor(200, 60, 60)
-  const disclaimer = 'IMPORTANTE: Este relatório não substitui consulta médica. Consulte um profissional de saúde antes de iniciar qualquer suplementação.'
+  const disclaimer = removerAcentos('IMPORTANTE: Este relatorio nao substitui consulta medica. Consulte um profissional de saude antes de iniciar qualquer suplementacao.')
   const disclaimerLines = doc.splitTextToSize(disclaimer, pageWidth - margin * 2)
   doc.text(disclaimerLines, margin, yPosition)
   yPosition += disclaimerLines.length * 4 + 5
@@ -118,7 +137,7 @@ export function gerarPDFResultados(
   if (recsAlta.length > 0) {
     doc.setFontSize(12)
     doc.setTextColor(22, 163, 74) // green
-    doc.text('🔴 PRIORIDADE ALTA', margin, yPosition)
+    doc.text(removerAcentos('PRIORIDADE ALTA'), margin, yPosition)
     yPosition += 8
 
     recsAlta.forEach(rec => {
@@ -135,7 +154,7 @@ export function gerarPDFResultados(
 
     doc.setFontSize(12)
     doc.setTextColor(245, 158, 11) // orange
-    doc.text('🟡 PRIORIDADE MÉDIA', margin, yPosition)
+    doc.text(removerAcentos('PRIORIDADE MEDIA'), margin, yPosition)
     yPosition += 8
 
     recsMedia.forEach(rec => {
@@ -152,7 +171,7 @@ export function gerarPDFResultados(
 
     doc.setFontSize(12)
     doc.setTextColor(59, 130, 246) // blue
-    doc.text('🔵 PRIORIDADE BAIXA', margin, yPosition)
+    doc.text(removerAcentos('PRIORIDADE BAIXA'), margin, yPosition)
     yPosition += 8
 
     recsBaixa.forEach(rec => {
@@ -169,7 +188,7 @@ export function gerarPDFResultados(
 
     doc.setFontSize(12)
     doc.setTextColor(220, 38, 38) // red
-    doc.text('❌ NÃO RECOMENDADOS', margin, yPosition)
+    doc.text(removerAcentos('NAO RECOMENDADOS'), margin, yPosition)
     yPosition += 8
 
     recsNao.forEach(rec => {
@@ -184,7 +203,7 @@ export function gerarPDFResultados(
     doc.setFontSize(8)
     doc.setTextColor(150, 150, 150)
     doc.text(
-      `VitaGuia - Página ${i} de ${pageCount}`,
+      removerAcentos(`Suplementa Ja - Pagina ${i} de ${pageCount}`),
       pageWidth / 2,
       doc.internal.pageSize.getHeight() - 10,
       { align: 'center' }
@@ -192,7 +211,7 @@ export function gerarPDFResultados(
   }
 
   // Salvar PDF
-  const fileName = `VitaGuia-Recomendacoes-${new Date().toISOString().split('T')[0]}.pdf`
+  const fileName = `Suplementa-Ja-Recomendacoes-${new Date().toISOString().split('T')[0]}.pdf`
   doc.save(fileName)
 }
 
@@ -206,52 +225,105 @@ function adicionarRecomendacao(
   const maxWidth = pageWidth - margin * 2
 
   // Verificar se precisa de nova página
-  if (yPosition > 250) {
+  if (yPosition > 230) {
     doc.addPage()
     yPosition = 20
   }
 
-  // Nome do nutriente
-  doc.setFontSize(11)
-  doc.setTextColor(50, 50, 50)
-  doc.text(`${rec.nutriente_emoji} ${rec.nutriente_nome}`, margin + 3, yPosition)
-  yPosition += 7
+  // Caixa de destaque para o nutriente
+  doc.setFillColor(249, 250, 251) // gray-50
+  doc.rect(margin, yPosition - 3, pageWidth - margin * 2, 8, 'F')
 
-  // Dosagem recomendada
+  // Nome do nutriente
+  doc.setFontSize(12)
+  doc.setTextColor(30, 30, 30)
+  doc.setFont('helvetica', 'bold')
+  doc.text(removerAcentos(`${rec.nutriente_nome}`), margin + 3, yPosition + 3)
+  doc.setFont('helvetica', 'normal')
+  yPosition += 10
+
+  // Dosagem recomendada em destaque
   doc.setFontSize(10)
   doc.setTextColor(79, 70, 229) // primary
+  doc.setFont('helvetica', 'bold')
   doc.text(
-    `Dosagem: ${rec.dose_min}${rec.dose_max !== rec.dose_min ? `-${rec.dose_max}` : ''} ${rec.unidade}/dia`,
+    removerAcentos(`Dosagem recomendada: ${rec.dose_min}${rec.dose_max !== rec.dose_min ? `-${rec.dose_max}` : ''} ${rec.unidade}/dia`),
     margin + 3,
     yPosition
   )
-  yPosition += 6
+  doc.setFont('helvetica', 'normal')
+  yPosition += 7
 
-  // Motivos
+  // Motivos personalizados
   if (rec.motivos && rec.motivos.length > 0) {
     doc.setFontSize(9)
-    doc.setTextColor(70, 70, 70)
-    doc.text('Por que para você:', margin + 3, yPosition)
+    doc.setTextColor(50, 50, 50)
+    doc.setFont('helvetica', 'bold')
+    doc.text(removerAcentos('Por que para voce:'), margin + 3, yPosition)
+    doc.setFont('helvetica', 'normal')
     yPosition += 5
 
+    doc.setTextColor(70, 70, 70)
     rec.motivos.slice(0, 3).forEach(motivo => {
-      const lines = doc.splitTextToSize(`• ${motivo}`, maxWidth - 10)
+      const lines = doc.splitTextToSize(removerAcentos(`• ${motivo}`), maxWidth - 10)
       doc.text(lines, margin + 6, yPosition)
       yPosition += lines.length * 4
     })
-  }
-
-  // Observações
-  if (rec.nota_especial) {
     yPosition += 2
-    doc.setFontSize(8)
-    doc.setTextColor(100, 100, 100)
-    const obsLines = doc.splitTextToSize(`ℹ️ ${rec.nota_especial}`, maxWidth - 6)
-    doc.text(obsLines, margin + 3, yPosition)
-    yPosition += obsLines.length * 3.5
   }
 
-  yPosition += 6
+  // Benefícios principais
+  if (rec.nutriente_completo?.funcoes_corporais && rec.nutriente_completo.funcoes_corporais.length > 0) {
+    doc.setFontSize(9)
+    doc.setTextColor(50, 50, 50)
+    doc.setFont('helvetica', 'bold')
+    doc.text(removerAcentos('Beneficios principais:'), margin + 3, yPosition)
+    doc.setFont('helvetica', 'normal')
+    yPosition += 5
+
+    doc.setTextColor(70, 70, 70)
+    rec.nutriente_completo.funcoes_corporais.slice(0, 3).forEach(funcao => {
+      const lines = doc.splitTextToSize(removerAcentos(`• ${funcao}`), maxWidth - 10)
+      doc.text(lines, margin + 6, yPosition)
+      yPosition += lines.length * 4
+    })
+    yPosition += 2
+  }
+
+  // Fontes alimentares
+  if (rec.nutriente_completo?.fontes_alimentares && rec.nutriente_completo.fontes_alimentares.length > 0) {
+    doc.setFontSize(9)
+    doc.setTextColor(50, 50, 50)
+    doc.setFont('helvetica', 'bold')
+    doc.text(removerAcentos('Fontes alimentares:'), margin + 3, yPosition)
+    doc.setFont('helvetica', 'normal')
+    yPosition += 5
+
+    doc.setTextColor(70, 70, 70)
+    const fontes = rec.nutriente_completo.fontes_alimentares.slice(0, 4)
+    const fontesTexto = fontes.map(f => `${f.alimento} (${f.quantidade}${f.unidade})`).join(', ')
+    const lines = doc.splitTextToSize(removerAcentos(fontesTexto), maxWidth - 10)
+    doc.text(lines, margin + 6, yPosition)
+    yPosition += lines.length * 4 + 2
+  }
+
+  // Observações importantes
+  if (rec.nota_especial) {
+    doc.setFillColor(254, 252, 232) // yellow-50
+    doc.rect(margin + 2, yPosition - 2, pageWidth - margin * 2 - 4, 1, 'F')
+    yPosition += 1
+    doc.setFontSize(8)
+    doc.setTextColor(120, 53, 15) // yellow-900
+    const obsLines = doc.splitTextToSize(removerAcentos(`IMPORTANTE: ${rec.nota_especial}`), maxWidth - 10)
+    doc.text(obsLines, margin + 5, yPosition)
+    yPosition += obsLines.length * 3.5 + 2
+  }
+
+  // Linha separadora
+  doc.setDrawColor(220, 220, 220)
+  doc.line(margin, yPosition + 2, pageWidth - margin, yPosition + 2)
+  yPosition += 8
+
   return yPosition
 }
 
@@ -264,27 +336,37 @@ function adicionarContraindicacao(
 ): number {
   const maxWidth = pageWidth - margin * 2
 
-  if (yPosition > 250) {
+  if (yPosition > 240) {
     doc.addPage()
     yPosition = 20
   }
 
+  // Caixa de alerta vermelha
+  doc.setFillColor(254, 242, 242) // red-50
+  doc.rect(margin, yPosition - 3, pageWidth - margin * 2, 8, 'F')
+
   doc.setFontSize(11)
   doc.setTextColor(220, 38, 38) // danger
-  doc.text(`${rec.nutriente_emoji} ${rec.nutriente_nome} - NÃO RECOMENDADO`, margin + 3, yPosition)
-  yPosition += 7
+  doc.setFont('helvetica', 'bold')
+  doc.text(removerAcentos(`${rec.nutriente_nome} - NAO RECOMENDADO`), margin + 3, yPosition + 2)
+  doc.setFont('helvetica', 'normal')
+  yPosition += 10
 
   if (rec.motivos && rec.motivos.length > 0) {
     doc.setFontSize(9)
     doc.setTextColor(70, 70, 70)
     rec.motivos.forEach(motivo => {
-      const lines = doc.splitTextToSize(`⚠️ ${motivo}`, maxWidth - 6)
+      const lines = doc.splitTextToSize(removerAcentos(`ALERTA: ${motivo}`), maxWidth - 10)
       doc.text(lines, margin + 6, yPosition)
       yPosition += lines.length * 4
     })
   }
 
-  yPosition += 6
+  // Linha separadora
+  doc.setDrawColor(220, 220, 220)
+  doc.line(margin, yPosition + 2, pageWidth - margin, yPosition + 2)
+  yPosition += 8
+
   return yPosition
 }
 

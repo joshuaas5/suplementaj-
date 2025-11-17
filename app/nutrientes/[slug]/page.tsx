@@ -8,6 +8,7 @@ import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
 import nutrientesData from '@/data/nutrientes.json'
 import type { Nutriente } from '@/types/nutriente'
+import { addAmazonAffiliateTag } from '@/lib/affiliate'
 
 const nutrientes = nutrientesData as Record<string, Nutriente>
 
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${nutriente.nome} (${nutriente.nome_cientifico}) - VitaGuia`,
+    title: `${nutriente.nome} (${nutriente.nome_cientifico}) - Suplementa Já`,
     description: nutriente.descricao_curta,
     keywords: nutriente.seo?.keywords?.join(', '),
   }
@@ -432,14 +433,31 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                     )}
                     <div className="flex flex-wrap gap-2 mt-2">
                       <Badge variant="neutral">{evidencia.tipo}</Badge>
+                      {evidencia.revista && (
+                        <Badge variant="info" size="sm">{evidencia.revista}</Badge>
+                      )}
+                    </div>
+                    <div className="flex flex-wrap gap-3 mt-3">
                       {evidencia.doi && (
                         <a
                           href={`https://doi.org/${evidencia.doi}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs text-primary-600 hover:text-primary-700"
+                          className="inline-flex items-center gap-1 text-sm text-primary-600 hover:text-primary-700 font-medium underline"
                         >
-                          DOI: {evidencia.doi}
+                          <ExternalLink className="w-3 h-3" />
+                          Ver artigo completo (DOI)
+                        </a>
+                      )}
+                      {evidencia.pmid && (
+                        <a
+                          href={`https://pubmed.ncbi.nlm.nih.gov/${evidencia.pmid}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-sm text-success-600 hover:text-success-700 font-medium underline"
+                        >
+                          <ExternalLink className="w-3 h-3" />
+                          PubMed
                         </a>
                       )}
                     </div>
@@ -459,7 +477,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             <CardContent>
               <Alert variant="info" className="mb-4">
                 <p className="text-sm">
-                  Os links abaixo são afiliados da Amazon. Ao comprar através deles, você ajuda a manter o VitaGuia
+                  Os links abaixo são afiliados da Amazon. Ao comprar através deles, você ajuda a manter o Suplementa Já
                   sem custo adicional. Sempre consulte um profissional de saúde antes de iniciar qualquer suplementação.
                 </p>
               </Alert>
@@ -474,7 +492,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                       <p className="text-sm text-gray-600 mb-3">Aprox. R$ {produto.preco_aprox.toFixed(2)}</p>
                     )}
                     <a
-                      href={produto.link}
+                      href={addAmazonAffiliateTag(produto.link)}
                       target="_blank"
                       rel="noopener noreferrer nofollow sponsored"
                       className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-medium text-sm"

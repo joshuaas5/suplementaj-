@@ -100,7 +100,7 @@ export default function Home() {
       </section>
 
       {/* Disclaimer */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <DisclaimerBanner />
       </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Por que escolher o VitaGuia?
+            Por que escolher o Suplementa Já?
           </h2>
           <p className="text-xl text-gray-600">
             Tecnologia e ciência trabalhando para sua saúde
@@ -418,7 +418,7 @@ export default function Home() {
           </h2>
 
           <p className="text-xl sm:text-2xl mb-10 text-primary-100 leading-relaxed">
-            Milhares de pessoas já usaram o VitaGuia para tomar decisões mais informadas
+            Milhares de pessoas já usaram o Suplementa Já para tomar decisões mais informadas
             sobre suplementação. Faça sua avaliação agora e receba resultados em 2 minutos.
           </p>
 

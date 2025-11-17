@@ -27,14 +27,14 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Pill className="w-8 h-8 text-primary-600" />
               <span className="text-2xl font-bold text-gray-900">
-                Vita<span className="text-primary-600">Guia</span>
+                Suplementa <span className="text-primary-600">Já</span>
               </span>
             </div>
             <p className="text-gray-600 text-sm mb-4">
               Recomendações personalizadas de suplementação vitamínica e mineral baseadas em evidências científicas.
             </p>
             <p className="text-gray-500 text-xs">
-              © {currentYear} VitaGuia. Todos os direitos reservados.
+              © {currentYear} Suplementa Já. Todos os direitos reservados.
             </p>
           </div>
 
