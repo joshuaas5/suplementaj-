@@ -64,15 +64,21 @@ export default function Passo2Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={2} totalSteps={6} />
 
-      <Card className="p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Estilo de Vida</h1>
-        <p className="text-gray-600 mb-6">Informações sobre sua rotina e hábitos</p>
+      <Card className="p-8 bg-lime-400">
+        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black rotate-1">
+          <h1 className="text-3xl font-black text-lime-400 uppercase">Estilo de Vida</h1>
+        </div>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Informações sobre sua rotina e hábitos
+          </p>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           {showStatusReprodutivo && (
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <label className="block text-sm font-medium text-gray-700">
+                <label className="block text-sm font-black text-black uppercase">
                   Status reprodutivo
                 </label>
                 <Tooltip content="Diferentes fases do ciclo reprodutivo alteram necessidades nutricionais. Gravidez e lactação aumentam necessidade de ferro, ácido fólico, cálcio e iodo. Menopausa aumenta necessidade de cálcio e vitamina D para prevenir osteoporose." />
@@ -95,8 +101,8 @@ export default function Passo2Page() {
 
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <label className="block text-sm font-medium text-gray-700">
-                Dieta * <span className="text-danger-600">*</span>
+              <label className="block text-sm font-black text-black uppercase">
+                Dieta *
               </label>
               <Tooltip content="Dietas vegetarianas e veganas têm maior risco de deficiência de B12 (só em produtos animais), ferro (menor absorção do ferro vegetal), ômega-3 (EPA/DHA só em peixes), zinco, cálcio e vitamina D. Veganos também precisam de taurina e carnitina." />
             </div>
@@ -114,8 +120,8 @@ export default function Passo2Page() {
 
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <label className="block text-sm font-medium text-gray-700">
-                Exposição solar * <span className="text-danger-600">*</span>
+              <label className="block text-sm font-black text-black uppercase">
+                Exposição solar *
               </label>
               <Tooltip content="O sol é a principal fonte de vitamina D. 90% da vitamina D vem da exposição solar. Exposição mínima (sempre em ambientes fechados ou com protetor solar total) leva à deficiência. São necessários 15-30 minutos de sol direto nos braços e pernas, 2-3x por semana." />
             </div>
@@ -133,8 +139,8 @@ export default function Passo2Page() {
 
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <label className="block text-sm font-medium text-gray-700">
-                Atividade física * <span className="text-danger-600">*</span>
+              <label className="block text-sm font-black text-black uppercase">
+                Atividade física *
               </label>
               <Tooltip content="Atividade física intensa aumenta necessidades de magnésio (contração muscular), vitaminas B (energia), ferro (transporte de oxigênio), antioxidantes, glutamina (recuperação), carnitina (queima de gordura) e CoQ10 (energia mitocondrial)." />
             </div>
@@ -153,7 +159,7 @@ export default function Passo2Page() {
 
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-black text-black uppercase">
                 Consumo de álcool
               </label>
               <Tooltip content="O álcool depleta vitaminas do complexo B (especialmente B1, B6, B9 e B12), magnésio, zinco e antioxidantes. Também interfere na absorção de nutrientes e sobrecarrega o fígado. Consumo frequente requer suplementação de vitaminas B e antioxidantes (NAC, glutationa)." />
@@ -172,7 +178,7 @@ export default function Passo2Page() {
 
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <label className="block text-sm font-medium text-gray-700">
+              <label className="block text-sm font-black text-black uppercase">
                 Tabagismo
               </label>
               <Tooltip content="Fumantes têm necessidade MUITO aumentada de vitamina C (fumante perde 25-40mg de vitamina C por cigarro), antioxidantes (vitamina E, beta-caroteno, NAC), e vitaminas B. O tabaco também danifica pulmões - NAC é mucolítico e protetor pulmonar essencial." />
@@ -193,7 +199,7 @@ export default function Passo2Page() {
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar
             </Button>
-            <Button type="submit" size="lg">
+            <Button type="submit" size="lg" variant="success">
               Próximo →
             </Button>
           </div>

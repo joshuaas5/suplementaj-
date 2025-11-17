@@ -10,7 +10,6 @@ import { Input } from '@/components/ui/Input'
 import { Select } from '@/components/ui/Select'
 import { Button } from '@/components/ui/Button'
 import { Card } from '@/components/ui/Card'
-import { Alert } from '@/components/ui/Alert'
 
 const schema = z.object({
   idade: z.number().min(18, 'Idade mínima: 18 anos').max(120, 'Idade inválida'),
@@ -50,16 +49,22 @@ export default function Passo1Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={1} totalSteps={6} />
 
-      <Card className="p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Informações Básicas</h1>
-        <p className="text-gray-600 mb-6">Vamos começar com algumas informações sobre você</p>
+      <Card className="p-8 bg-yellow-400">
+        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black -rotate-1">
+          <h1 className="text-3xl font-black text-yellow-400 uppercase">Informações Básicas</h1>
+        </div>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Vamos começar com algumas informações sobre você
+          </p>
+        </div>
 
-        <Alert variant="info" className="mb-6">
-          <p className="text-sm">
-            <strong>💡 Dica:</strong> Suas respostas nos ajudam a calcular suas necessidades nutricionais específicas.
+        <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 mb-6">
+          <p className="text-sm text-black font-bold">
+            💡 <span className="bg-black text-lime-400 px-2 py-1 font-black">DICA:</span> Suas respostas nos ajudam a calcular suas necessidades nutricionais específicas.
             Todos os dados ficam apenas no seu navegador.
           </p>
-        </Alert>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <Input
@@ -105,7 +110,7 @@ export default function Passo1Page() {
           </div>
 
           <div className="flex justify-end pt-4">
-            <Button type="submit" size="lg">
+            <Button type="submit" size="lg" variant="success">
               Próximo →
             </Button>
           </div>

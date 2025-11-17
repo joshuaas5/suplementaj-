@@ -52,11 +52,15 @@ export default function Passo3Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={3} totalSteps={6} />
 
-      <Card className="p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Condições de Saúde</h1>
-        <p className="text-gray-600 mb-6">
-          Selecione as condições de saúde que você tem (se houver). Deixe em branco se não tiver nenhuma.
-        </p>
+      <Card className="p-8 bg-pink-500">
+        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black -rotate-1">
+          <h1 className="text-3xl font-black text-pink-500 uppercase">Condições de Saúde</h1>
+        </div>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Selecione as condições de saúde que você tem (se houver). Deixe em branco se não tiver nenhuma.
+          </p>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <div className="space-y-3">
@@ -70,9 +74,9 @@ export default function Passo3Page() {
             ))}
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <p className="text-sm text-blue-800">
-              💡 <strong>Dica:</strong> Essas informações são importantes para identificar necessidades específicas
+          <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+            <p className="text-sm text-black font-bold">
+              💡 <span className="bg-black text-cyan-400 px-2 py-1 font-black">DICA:</span> Essas informações são importantes para identificar necessidades específicas
               e evitar contraindicações.
             </p>
           </div>
@@ -82,7 +86,7 @@ export default function Passo3Page() {
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar
             </Button>
-            <Button type="submit" size="lg">
+            <Button type="submit" size="lg" variant="success">
               Próximo →
             </Button>
           </div>

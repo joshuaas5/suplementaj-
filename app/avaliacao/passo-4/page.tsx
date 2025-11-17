@@ -57,15 +57,21 @@ export default function Passo4Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={4} totalSteps={6} />
 
-      <Card className="p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Medicamentos e Cirurgias</h1>
-        <p className="text-gray-600 mb-6">
-          Selecione os medicamentos que você usa regularmente e cirurgias que já fez
-        </p>
+      <Card className="p-8 bg-cyan-400">
+        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black rotate-1">
+          <h1 className="text-3xl font-black text-cyan-400 uppercase">Medicamentos e Cirurgias</h1>
+        </div>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Selecione os medicamentos que você usa regularmente e cirurgias que já fez
+          </p>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           <div>
-            <h2 className="text-lg font-semibold text-gray-900 mb-4">Medicamentos de uso contínuo</h2>
+            <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
+              <h2 className="text-lg font-black text-cyan-400 uppercase">Medicamentos de uso contínuo</h2>
+            </div>
             <div className="space-y-3">
               {medicamentos.map((medicamento) => (
                 <Checkbox
@@ -79,7 +85,9 @@ export default function Passo4Page() {
           </div>
 
           <div>
-            <h2 className="text-lg font-semibold text-gray-900 mb-4">Cirurgias realizadas</h2>
+            <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
+              <h2 className="text-lg font-black text-cyan-400 uppercase">Cirurgias realizadas</h2>
+            </div>
             <div className="space-y-3">
               {cirurgias.map((cirurgia) => (
                 <Checkbox
@@ -92,9 +100,9 @@ export default function Passo4Page() {
             </div>
           </div>
 
-          <div className="bg-warning-50 border border-warning-200 rounded-lg p-4">
-            <p className="text-sm text-warning-800">
-              ⚠️ <strong>Importante:</strong> Alguns medicamentos podem interferir na absorção de nutrientes.
+          <div className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+            <p className="text-sm text-black font-bold">
+              ⚠️ <span className="bg-black text-yellow-400 px-2 py-1 font-black">IMPORTANTE:</span> Alguns medicamentos podem interferir na absorção de nutrientes.
               Vamos considerar isso nas recomendações.
             </p>
           </div>
@@ -104,7 +112,7 @@ export default function Passo4Page() {
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar
             </Button>
-            <Button type="submit" size="lg">
+            <Button type="submit" size="lg" variant="success">
               Próximo →
             </Button>
           </div>
