@@ -53,11 +53,15 @@ export default function Passo5Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={5} totalSteps={6} />
 
-      <Card className="p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Sintomas</h1>
-        <p className="text-gray-600 mb-6">
-          Selecione os sintomas que você tem sentido nos últimos meses
-        </p>
+      <Card className="p-8 bg-cyan-400">
+        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black -rotate-1">
+          <h1 className="text-3xl font-black text-cyan-400 uppercase">Sintomas</h1>
+        </div>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Selecione os sintomas que você tem sentido nos últimos meses
+          </p>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <div className="space-y-3">
@@ -71,9 +75,9 @@ export default function Passo5Page() {
             ))}
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <p className="text-sm text-blue-800">
-              💡 <strong>Dica:</strong> Alguns sintomas podem indicar deficiências específicas de nutrientes.
+          <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+            <p className="text-sm text-black font-bold">
+              💡 <span className="bg-black text-lime-400 px-2 py-1 font-black">Dica:</span> Alguns sintomas podem indicar deficiências específicas de nutrientes.
               Vamos analisar isso nas recomendações.
             </p>
           </div>
@@ -83,7 +87,7 @@ export default function Passo5Page() {
               <ArrowLeft className="w-4 h-4 mr-2" />
               Voltar
             </Button>
-            <Button type="submit" size="lg">
+            <Button type="submit" size="lg" variant="success">
               Próximo →
             </Button>
           </div>

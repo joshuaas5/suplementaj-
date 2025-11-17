@@ -64,42 +64,68 @@ export default function Passo6Page() {
     return exposicao ? labels[exposicao] : '-'
   }
 
+  const getSintomaLabel = (sintoma: string) => {
+    const labels: Record<string, string> = {
+      fadiga: 'Fadiga / Cansaço excessivo',
+      caimbras: 'Cãibras musculares frequentes',
+      formigamento: 'Formigamento em mãos/pés',
+      'imunidade baixa': 'Imunidade baixa (resfriados frequentes)',
+      queda_cabelo: 'Queda de cabelo',
+      unhas_fracas: 'Unhas fracas/quebradiças',
+      pele_seca: 'Pele muito seca',
+      dores_musculares: 'Dores musculares/ósseas',
+      insonia: 'Insônia / Dificuldade para dormir',
+      ansiedade_sintoma: 'Ansiedade',
+      problemas_memoria: 'Problemas de memória/concentração',
+      tontura: 'Tonturas frequentes',
+      palpitacoes: 'Palpitações cardíacas',
+      falta_ar: 'Falta de ar ao esforço',
+    }
+    return labels[sintoma] || sintoma
+  }
+
   return (
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={6} totalSteps={6} />
 
-      <Card className="p-8">
+      <Card className="p-8 bg-yellow-400">
         <div className="flex items-center gap-3 mb-4">
-          <CheckCircle2 className="w-8 h-8 text-success-600" />
-          <h1 className="text-2xl font-bold text-gray-900">Resumo da Avaliação</h1>
+          <div className="w-12 h-12 bg-black flex items-center justify-center border-2 border-black">
+            <CheckCircle2 className="w-8 h-8 text-yellow-400" />
+          </div>
+          <h1 className="text-3xl font-black text-black uppercase">Resumo da Avaliação</h1>
         </div>
-        <p className="text-gray-600 mb-6">
-          Revise suas informações antes de gerar as recomendações
-        </p>
+        <div className="bg-white border-4 border-black p-4 mb-6">
+          <p className="text-black font-bold">
+            Revise suas informações antes de gerar as recomendações
+          </p>
+        </div>
 
         <div className="space-y-6">
           {/* Informações Básicas */}
           <div>
-            <h2 className="text-lg font-semibold text-gray-900 mb-3">Informações Básicas</h2>
-            <div className="bg-gray-50 rounded-lg p-4 space-y-2">
-              <div className="flex justify-between">
-                <span className="text-gray-700 font-medium">Idade:</span>
-                <span className="font-semibold text-gray-900">{perfil.idade} anos</span>
+            <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+              <h2 className="text-lg font-black text-yellow-400 uppercase">Informações Básicas</h2>
+            </div>
+            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 space-y-3">
+              <div className="flex justify-between border-b-2 border-black pb-2">
+                <span className="text-black font-bold uppercase text-sm">Idade:</span>
+                <span className="font-black text-black text-lg">{perfil.idade} anos</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-gray-700 font-medium">Sexo:</span>
-                <span className="font-semibold text-gray-900">{perfil.sexo === 'F' ? 'Feminino' : 'Masculino'}</span>
+              <div className="flex justify-between border-b-2 border-black pb-2">
+                <span className="text-black font-bold uppercase text-sm">Sexo:</span>
+                <span className="font-black text-black text-lg">{perfil.sexo === 'F' ? 'Feminino' : 'Masculino'}</span>
               </div>
               {perfil.peso && (
-                <div className="flex justify-between">
-                  <span className="text-gray-700 font-medium">Peso:</span>
-                  <span className="font-semibold text-gray-900">{perfil.peso} kg</span>
+                <div className="flex justify-between border-b-2 border-black pb-2">
+                  <span className="text-black font-bold uppercase text-sm">Peso:</span>
+                  <span className="font-black text-black text-lg">{perfil.peso} kg</span>
                 </div>
               )}
               {perfil.altura && (
                 <div className="flex justify-between">
-                  <span className="text-gray-700 font-medium">Altura:</span>
-                  <span className="font-semibold text-gray-900">{perfil.altura} cm</span>
+                  <span className="text-black font-bold uppercase text-sm">Altura:</span>
+                  <span className="font-black text-black text-lg">{perfil.altura} cm</span>
                 </div>
               )}
             </div>
@@ -107,15 +133,17 @@ export default function Passo6Page() {
 
           {/* Estilo de Vida */}
           <div>
-            <h2 className="text-lg font-semibold text-gray-900 mb-3">Estilo de Vida</h2>
-            <div className="bg-gray-50 rounded-lg p-4 space-y-2">
-              <div className="flex justify-between">
-                <span className="text-gray-700 font-medium">Dieta:</span>
-                <span className="font-semibold text-gray-900">{getDietaLabel(perfil.dieta)}</span>
+            <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+              <h2 className="text-lg font-black text-cyan-400 uppercase">Estilo de Vida</h2>
+            </div>
+            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 space-y-3">
+              <div className="flex justify-between border-b-2 border-black pb-2">
+                <span className="text-black font-bold uppercase text-sm">Dieta:</span>
+                <span className="font-black text-black text-lg">{getDietaLabel(perfil.dieta)}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-700 font-medium">Exposição solar:</span>
-                <span className="font-semibold text-gray-900">{getExposicaoLabel(perfil.exposicao_solar)}</span>
+                <span className="text-black font-bold uppercase text-sm">Exposição solar:</span>
+                <span className="font-black text-black text-lg">{getExposicaoLabel(perfil.exposicao_solar)}</span>
               </div>
             </div>
           </div>
@@ -123,10 +151,12 @@ export default function Passo6Page() {
           {/* Condições de Saúde */}
           {perfil.condicoes_saude && perfil.condicoes_saude.length > 0 && (
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 mb-3">Condições de Saúde</h2>
+              <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+                <h2 className="text-lg font-black text-lime-400 uppercase">Condições de Saúde</h2>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {perfil.condicoes_saude.map((condicao) => (
-                  <Badge key={condicao} variant="info">
+                  <Badge key={condicao} variant="success" size="lg">
                     {condicao}
                   </Badge>
                 ))}
@@ -137,10 +167,12 @@ export default function Passo6Page() {
           {/* Medicamentos */}
           {perfil.medicamentos && perfil.medicamentos.length > 0 && (
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 mb-3">Medicamentos</h2>
+              <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+                <h2 className="text-lg font-black text-pink-500 uppercase">Medicamentos</h2>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {perfil.medicamentos.map((med) => (
-                  <Badge key={med} variant="warning">
+                  <Badge key={med} variant="danger" size="lg">
                     {med}
                   </Badge>
                 ))}
@@ -151,11 +183,13 @@ export default function Passo6Page() {
           {/* Sintomas */}
           {perfil.sintomas && perfil.sintomas.length > 0 && (
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 mb-3">Sintomas</h2>
+              <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+                <h2 className="text-lg font-black text-cyan-400 uppercase">Sintomas</h2>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {perfil.sintomas.map((sintoma) => (
-                  <Badge key={sintoma} variant="neutral">
-                    {sintoma}
+                  <Badge key={sintoma} variant="info" size="lg">
+                    {getSintomaLabel(sintoma)}
                   </Badge>
                 ))}
               </div>
@@ -163,9 +197,9 @@ export default function Passo6Page() {
           )}
         </div>
 
-        <div className="mt-8 bg-primary-50 border border-primary-200 rounded-lg p-4">
-          <p className="text-sm text-primary-800">
-            ✨ <strong>Pronto!</strong> Com base nas suas informações, vamos gerar recomendações
+        <div className="mt-8 bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+          <p className="text-sm text-black font-bold">
+            ✨ <span className="bg-black text-lime-400 px-2 py-1 font-black uppercase">Pronto!</span> Com base nas suas informações, vamos gerar recomendações
             personalizadas de suplementação com dosagens e referências científicas.
           </p>
         </div>
