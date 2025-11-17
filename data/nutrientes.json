@@ -1,0 +1,2062 @@
+{
+  "vitamina-b12": {
+    "slug": "vitamina-b12",
+    "nome": "Vitamina B12",
+    "nome_cientifico": "Cobalamina",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "💉",
+    "descricao_curta": "Vitamina essencial para formação de células sanguíneas e função neurológica",
+    "descricao_longa": "A vitamina B12, ou cobalamina, é uma vitamina hidrossolúvel essencial que desempenha papel crucial na formação de glóbulos vermelhos, síntese de DNA, função neurológica e metabolismo energético. É encontrada naturalmente apenas em alimentos de origem animal, tornando sua suplementação crítica para vegetarianos e veganos.",
+    "funcoes_corporais": [
+      "Formação de glóbulos vermelhos (eritropoiese)",
+      "Síntese e reparação de DNA",
+      "Manutenção da bainha de mielina (proteção dos nervos)",
+      "Metabolismo de homocisteína (saúde cardiovascular)",
+      "Produção de energia celular",
+      "Função cognitiva e memória"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Fígado bovino (100g)",
+        "quantidade": 60,
+        "unidade": "mcg",
+        "percentual_vd": 2500
+      },
+      {
+        "alimento": "Salmão (100g)",
+        "quantidade": 4.8,
+        "unidade": "mcg",
+        "percentual_vd": 200
+      },
+      {
+        "alimento": "Atum (100g)",
+        "quantidade": 2.5,
+        "unidade": "mcg",
+        "percentual_vd": 104
+      },
+      {
+        "alimento": "Carne vermelha (100g)",
+        "quantidade": 2.4,
+        "unidade": "mcg",
+        "percentual_vd": 100
+      },
+      {
+        "alimento": "Ovos (1 unidade)",
+        "quantidade": 0.6,
+        "unidade": "mcg",
+        "percentual_vd": 25
+      },
+      {
+        "alimento": "Leite (1 copo)",
+        "quantidade": 1.2,
+        "unidade": "mcg",
+        "percentual_vd": 50
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 2.4,
+          "unidade": "mcg"
+        },
+        "gestantes": {
+          "valor": 2.6,
+          "unidade": "mcg"
+        },
+        "lactantes": {
+          "valor": 2.8,
+          "unidade": "mcg"
+        },
+        "idosos_50_plus": {
+          "valor": 2.4,
+          "unidade": "mcg",
+          "nota": "Suplementação recomendada devido à absorção reduzida"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 500,
+        "unidade": "mcg",
+        "nota": "Doses preventivas para adultos saudáveis com risco de deficiência"
+      },
+      "suplementacao_terapeutica": {
+        "min": 500,
+        "max": 2000,
+        "unidade": "mcg",
+        "nota": "Para correção de deficiência diagnosticada"
+      },
+      "limite_superior": null,
+      "nota_limite": "Não há limite superior estabelecido. Vitamina B12 é considerada muito segura mesmo em doses altas (>1000 mcg/dia). Excesso é excretado pela urina."
+    },
+    "deficiencia": {
+      "prevalencia": "Afeta 15-40% dos adultos acima de 50 anos",
+      "sintomas": [
+        "Fadiga extrema e fraqueza",
+        "Anemia megaloblástica",
+        "Formigamento e dormência em mãos e pés (neuropatia periférica)",
+        "Dificuldade de equilíbrio e coordenação",
+        "Confusão mental e problemas de memória",
+        "Depressão e alterações de humor",
+        "Glossite (língua inchada e vermelha)",
+        "Palpitações cardíacas"
+      ],
+      "causas": [
+        "Idade avançada (>50 anos) - redução de ácido gástrico",
+        "Dieta vegetariana/vegana estrita",
+        "Uso prolongado de medicamentos (metformina, IBP, antiácidos)",
+        "Cirurgia bariátrica ou gastrectomia",
+        "Doença celíaca ou Crohn",
+        "Anemia perniciosa (falta de fator intrínseco)",
+        "Gastrite atrófica",
+        "Infecção por H. pylori"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Muito baixa - não há toxicidade conhecida",
+      "sintomas_raros": [
+        "Acne ou erupções cutâneas (raríssimo)",
+        "Reações alérgicas (extremamente raro)"
+      ],
+      "nota": "Estudos mostram que doses até 2.000 mcg/dia são seguras a longo prazo. O corpo excreta o excesso pela urina."
+    },
+    "interacoes": {
+      "medicamentos_reduzem_absorcao": [
+        {
+          "nome": "Metformina",
+          "efeito": "Reduz absorção em 30-50%",
+          "recomendacao": "Suplementar B12"
+        },
+        {
+          "nome": "Inibidores de bomba de prótons (omeprazol, pantoprazol)",
+          "efeito": "Reduz ácido gástrico necessário para absorção",
+          "recomendacao": "Considerar suplementação após 1 ano de uso"
+        },
+        {
+          "nome": "Antiácidos (hidróxido de alumínio)",
+          "efeito": "Interfere na absorção",
+          "recomendacao": "Tomar suplemento 2h após antiácido"
+        },
+        {
+          "nome": "Antibióticos (cloranfenicol)",
+          "efeito": "Pode interferir na resposta à suplementação",
+          "recomendacao": "Monitorar níveis"
+        }
+      ],
+      "nutrientes_sinergicos": [
+        "Ácido fólico (B9) - trabalham juntos na síntese de DNA",
+        "Vitamina B6 - metabolismo de homocisteína",
+        "Ferro - absorção e utilização"
+      ],
+      "nutrientes_antagonistas": [],
+      "nota_alcool": "Consumo excessivo de álcool pode reduzir absorção de B12"
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Idosos (50+ anos)",
+        "motivo": "Produção reduzida de ácido gástrico, necessário para absorção",
+        "prevalencia": "10-30% têm deficiência"
+      },
+      {
+        "grupo": "Vegetarianos e veganos",
+        "motivo": "B12 é encontrada apenas em produtos animais",
+        "prevalencia": "Até 90% dos veganos têm deficiência sem suplementação"
+      },
+      {
+        "grupo": "Usuários de metformina",
+        "motivo": "Medicamento reduz absorção intestinal de B12",
+        "prevalencia": "10-30% após uso prolongado"
+      },
+      {
+        "grupo": "Cirurgia bariátrica",
+        "motivo": "Redução da área de absorção intestinal",
+        "prevalencia": "70% desenvolvem deficiência sem suplementação"
+      },
+      {
+        "grupo": "Doença celíaca ou Crohn",
+        "motivo": "Má absorção intestinal",
+        "prevalencia": "Variável, requer monitoramento"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Cianocobalamina",
+        "descricao": "Forma sintética mais estável e comum",
+        "vantagens": [
+          "Mais barata",
+          "Estável em temperatura ambiente",
+          "Bem estudada"
+        ],
+        "desvantagens": [
+          "Requer conversão metabólica",
+          "Libera pequena quantidade de cianeto (insignificante)"
+        ],
+        "nota": "Forma padrão e mais recomendada pela maioria dos especialistas"
+      },
+      {
+        "forma": "Metilcobalamina",
+        "descricao": "Forma ativa (metilada) da B12",
+        "vantagens": [
+          "Já na forma ativa",
+          "Não precisa conversão",
+          "Pode ser sublingual"
+        ],
+        "desvantagens": [
+          "Mais cara",
+          "Menos estável (degrada com luz)"
+        ],
+        "nota": "Preferida por alguns para absorção sublingual"
+      },
+      {
+        "forma": "Adenosilcobalamina",
+        "descricao": "Outra forma ativa, menos comum",
+        "nota": "Menos disponível comercialmente"
+      },
+      {
+        "forma": "Hidroxocobalamina",
+        "descricao": "Forma injetável usada em hospitais",
+        "nota": "Geralmente reservada para casos graves ou injeções"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-b12-001",
+        "titulo": "High intake of vitamin B12 in supplements not associated with adverse effects on mortality",
+        "autores": "Flores-Guerrero JL, et al.",
+        "revista": "BMC Medicine",
+        "ano": 2020,
+        "tipo": "Meta-análise",
+        "doi": "10.1186/s12916-020-01771-y",
+        "pmid": "33287854",
+        "citacao_chave": "A alta ingestão de vitamina B12 na forma de suplementos não foi associada a nenhum efeito adverso na mortalidade",
+        "conclusao": "Suplementação de B12 é segura mesmo em doses altas",
+        "relevancia": [
+          "seguranca",
+          "dosagem"
+        ]
+      },
+      {
+        "id": "ref-b12-002",
+        "titulo": "Vitamin B12 and cardiovascular disease risk in women during menopause",
+        "revista": "Journal of Women's Health",
+        "ano": 2022,
+        "tipo": "Estudo de coorte",
+        "citacao_chave": "Vitaminas B6 e B12 reduzem níveis de homocisteína e risco cardiovascular em mulheres na menopausa",
+        "conclusao": "Suplementação reduz risco cardiovascular",
+        "relevancia": [
+          "menopausa",
+          "cardiovascular"
+        ]
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina B12: Para Que Serve, Dosagem e Quando Suplementar",
+      "meta_description": "Guia completo sobre vitamina B12: benefícios, sintomas de deficiência, doses seguras e quem precisa suplementar. Baseado em evidências científicas.",
+      "keywords": [
+        "vitamina b12",
+        "cobalamina",
+        "suplementação b12",
+        "deficiência b12",
+        "dose vitamina b12"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina B12 Metilcobalamina 1000mcg - 60 cápsulas",
+          "link": "https://amzn.to/EXEMPLO1",
+          "badge": "Mais Vendido",
+          "preco_aprox": 35
+        },
+        {
+          "nome": "Complexo B com B12 - 120 cápsulas",
+          "link": "https://amzn.to/EXEMPLO2",
+          "badge": null,
+          "preco_aprox": 45
+        }
+      ],
+      "iherb": []
+    }
+  },
+  "vitamina-d": {
+    "slug": "vitamina-d",
+    "nome": "Vitamina D",
+    "nome_cientifico": "Colecalciferol (D3) / Ergocalciferol (D2)",
+    "categoria": "vitamina",
+    "subcategoria": "lipossolúvel",
+    "emoji": "☀️",
+    "descricao_curta": "Vitamina essencial para saúde óssea, imunidade e função muscular",
+    "descricao_longa": "A vitamina D é um hormônio esteroide lipossolúvel essencial para absorção de cálcio, saúde óssea, função imunológica e regulação de centenas de genes. É produzida naturalmente na pele através da exposição solar (UVB), mas a deficiência é extremamente comum devido à vida indoor moderna.",
+    "funcoes_corporais": [
+      "Absorção intestinal de cálcio e fósforo",
+      "Manutenção da densidade óssea e prevenção de osteoporose",
+      "Função imunológica e redução de infecções",
+      "Função muscular e prevenção de quedas",
+      "Regulação do humor e prevenção de depressão",
+      "Saúde cardiovascular",
+      "Regulação de mais de 200 genes"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Salmão selvagem (100g)",
+        "quantidade": 600,
+        "unidade": "UI",
+        "percentual_vd": 150
+      },
+      {
+        "alimento": "Atum (100g)",
+        "quantidade": 236,
+        "unidade": "UI",
+        "percentual_vd": 59
+      },
+      {
+        "alimento": "Gema de ovo (1 unidade)",
+        "quantidade": 44,
+        "unidade": "UI",
+        "percentual_vd": 11
+      },
+      {
+        "alimento": "Cogumelos expostos ao sol (100g)",
+        "quantidade": 400,
+        "unidade": "UI",
+        "percentual_vd": 100
+      },
+      {
+        "alimento": "Leite fortificado (1 copo)",
+        "quantidade": 120,
+        "unidade": "UI",
+        "percentual_vd": 30
+      }
+    ],
+    "nota_fontes": "A principal fonte é a síntese cutânea através da exposição solar (10-30 min/dia de braços e pernas). Alimentos sozinhos raramente fornecem quantidade suficiente.",
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 600,
+          "unidade": "UI"
+        },
+        "idosos_70_plus": {
+          "valor": 800,
+          "unidade": "UI"
+        },
+        "gestantes_lactantes": {
+          "valor": 600,
+          "unidade": "UI"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 1000,
+        "max": 2000,
+        "unidade": "UI",
+        "nota": "Doses recomendadas pela maioria dos endocrinologistas para manter níveis adequados"
+      },
+      "suplementacao_terapeutica": {
+        "min": 2000,
+        "max": 5000,
+        "unidade": "UI",
+        "nota": "Para correção de deficiência. Doses até 10.000 UI/dia podem ser usadas sob supervisão médica."
+      },
+      "limite_superior": {
+        "valor": 4000,
+        "unidade": "UI"
+      },
+      "nota_limite": "Limite oficial, mas doses até 10.000 UI/dia são consideradas seguras por curto prazo sob supervisão"
+    },
+    "deficiencia": {
+      "prevalencia": "Afeta 40-60% da população brasileira, especialmente em áreas urbanas",
+      "sintomas": [
+        "Fadiga crônica e fraqueza",
+        "Dores musculares e ósseas",
+        "Depressão e alterações de humor",
+        "Imunidade baixa (resfriados frequentes)",
+        "Osteoporose e fraturas",
+        "Dificuldade de cicatrização",
+        "Queda de cabelo"
+      ],
+      "niveis_sanguineos": {
+        "deficiencia_severa": "< 10 ng/mL",
+        "deficiencia": "10-20 ng/mL",
+        "insuficiencia": "20-30 ng/mL",
+        "adequado": "30-50 ng/mL",
+        "ideal": "40-60 ng/mL",
+        "alto": "> 100 ng/mL",
+        "toxicidade": "> 150 ng/mL"
+      }
+    },
+    "excesso": {
+      "toxicidade": "Rara, requer doses muito altas (>10.000 UI/dia) por meses",
+      "sintomas": [
+        "Hipercalcemia (cálcio alto no sangue)",
+        "Náusea e vômito",
+        "Fraqueza",
+        "Cálculos renais",
+        "Calcificação de tecidos moles"
+      ],
+      "nota": "Toxicidade é muito rara. Doses até 4.000 UI/dia são consideradas seguras a longo prazo."
+    },
+    "interacoes": {
+      "medicamentos": [
+        {
+          "nome": "Corticosteroides",
+          "efeito": "Reduzem absorção de cálcio e podem reduzir níveis de vitamina D"
+        },
+        {
+          "nome": "Orlistat (emagrecedor)",
+          "efeito": "Reduz absorção de vitaminas lipossolúveis"
+        },
+        {
+          "nome": "Estatinas",
+          "efeito": "Podem aumentar risco de miopatia quando D está baixa"
+        }
+      ],
+      "nutrientes_sinergicos": [
+        "Vitamina K2 - direciona cálcio para ossos (não artérias)",
+        "Magnésio - necessário para conversão da vitamina D em forma ativa",
+        "Cálcio - trabalham juntos para saúde óssea"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Pessoas com pouca exposição solar",
+        "motivo": "Trabalho/estudo indoor, uso de filtro solar constante",
+        "prevalencia": "Maioria da população urbana"
+      },
+      {
+        "grupo": "Idosos",
+        "motivo": "Síntese cutânea reduzida, menos exposição solar",
+        "prevalencia": "70-90% têm deficiência"
+      },
+      {
+        "grupo": "Pessoas com pele escura",
+        "motivo": "Melanina reduz síntese de vitamina D",
+        "prevalencia": "Risco 5-10x maior de deficiência"
+      },
+      {
+        "grupo": "Obesos",
+        "motivo": "Vitamina D é sequestrada pelo tecido adiposo",
+        "prevalencia": "Risco aumentado"
+      },
+      {
+        "grupo": "Menopausa",
+        "motivo": "Necessidade aumentada para prevenção de osteoporose",
+        "prevalencia": "Alta"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Vitamina D3 (Colecalciferol)",
+        "descricao": "Forma natural, produzida na pele",
+        "nota": "Preferida - mais eficaz que D2 em aumentar níveis séricos"
+      },
+      {
+        "forma": "Vitamina D2 (Ergocalciferol)",
+        "descricao": "Forma derivada de plantas/fungos",
+        "nota": "Menos eficaz que D3, não é a primeira escolha"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-d-001",
+        "titulo": "Vitamin D supplementation reduces fracture risk in postmenopausal women",
+        "revista": "JAMA",
+        "ano": 2019,
+        "tipo": "Meta-análise",
+        "citacao_chave": "Suplementação de vitamina D reduz risco de fraturas em 15% em mulheres pós-menopausa",
+        "relevancia": [
+          "menopausa",
+          "ossos",
+          "fraturas"
+        ]
+      },
+      {
+        "id": "ref-d-002",
+        "titulo": "Vitamin D deficiency linked to increased cardiovascular risk in menopause",
+        "revista": "Journal of Clinical Endocrinology & Metabolism",
+        "ano": 2021,
+        "tipo": "Estudo observacional",
+        "citacao_chave": "Deficiência de vitamina D está diretamente relacionada ao aumento do risco de doenças cardiovasculares na pós-menopausa",
+        "relevancia": [
+          "menopausa",
+          "cardiovascular"
+        ]
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina D: Benefícios, Dose Diária e Quando Suplementar",
+      "meta_description": "Guia completo sobre vitamina D: para que serve, sintomas de deficiência, doses recomendadas e exposição solar. Baseado em evidências científicas.",
+      "keywords": [
+        "vitamina d",
+        "colecalciferol",
+        "deficiência vitamina d",
+        "dose vitamina d",
+        "suplemento vitamina d"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina D3 2000 UI - 120 cápsulas",
+          "link": "https://amzn.to/EXEMPLO3",
+          "badge": "Escolha Amazon",
+          "preco_aprox": 28
+        },
+        {
+          "nome": "Vitamina D3 + K2 - 60 cápsulas",
+          "link": "https://amzn.to/EXEMPLO4",
+          "badge": "Combinação Ideal",
+          "preco_aprox": 42
+        }
+      ]
+    }
+  },
+  "calcio": {
+    "slug": "calcio",
+    "nome": "Cálcio",
+    "nome_cientifico": "Ca",
+    "categoria": "mineral",
+    "emoji": "🦴",
+    "descricao_curta": "Mineral essencial para saúde óssea, dentes e contração muscular",
+    "descricao_longa": "O cálcio é o mineral mais abundante no corpo humano, essencial para formação e manutenção de ossos e dentes, contração muscular, coagulação sanguínea e transmissão nervosa. 99% do cálcio está nos ossos, servindo como reserva.",
+    "funcoes_corporais": [
+      "Formação e manutenção de ossos e dentes",
+      "Contração muscular (incluindo coração)",
+      "Coagulação sanguínea",
+      "Transmissão de impulsos nervosos",
+      "Liberação de hormônios e enzimas",
+      "Regulação da pressão arterial"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Leite (1 copo 240ml)",
+        "quantidade": 300,
+        "unidade": "mg",
+        "percentual_vd": 30
+      },
+      {
+        "alimento": "Iogurte natural (200g)",
+        "quantidade": 240,
+        "unidade": "mg",
+        "percentual_vd": 24
+      },
+      {
+        "alimento": "Queijo mussarela (30g)",
+        "quantidade": 200,
+        "unidade": "mg",
+        "percentual_vd": 20
+      },
+      {
+        "alimento": "Sardinha com espinha (100g)",
+        "quantidade": 382,
+        "unidade": "mg",
+        "percentual_vd": 38
+      },
+      {
+        "alimento": "Tofu fortificado (100g)",
+        "quantidade": 350,
+        "unidade": "mg",
+        "percentual_vd": 35
+      },
+      {
+        "alimento": "Couve cozida (1 xícara)",
+        "quantidade": 94,
+        "unidade": "mg",
+        "percentual_vd": 9
+      },
+      {
+        "alimento": "Brócolis cozido (1 xícara)",
+        "quantidade": 62,
+        "unidade": "mg",
+        "percentual_vd": 6
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos_19_50": {
+          "valor": 1000,
+          "unidade": "mg"
+        },
+        "mulheres_51_plus": {
+          "valor": 1200,
+          "unidade": "mg",
+          "nota": "Aumentada devido à menopausa"
+        },
+        "homens_71_plus": {
+          "valor": 1200,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 500,
+        "max": 1000,
+        "unidade": "mg",
+        "nota": "Complementar dieta. Total (dieta + suplemento) não deve exceder 2000-2500 mg/dia"
+      },
+      "limite_superior": {
+        "valor": 2500,
+        "unidade": "mg"
+      },
+      "nota_limite": "Excesso pode aumentar risco de cálculos renais e calcificação vascular"
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Osteoporose e osteopenia",
+        "Cãibras musculares",
+        "Formigamento em mãos, pés e face",
+        "Unhas fracas",
+        "Fraturas de estresse",
+        "Espasmos musculares (tetania em casos graves)"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Possível com suplementação excessiva prolongada",
+      "sintomas": [
+        "Hipercalcemia",
+        "Cálculos renais",
+        "Calcificação de tecidos moles e artérias",
+        "Constipação",
+        "Náusea",
+        "Interferência na absorção de outros minerais (ferro, zinco)"
+      ],
+      "nota": "Excesso por dieta sozinha é raro. Problema ocorre com suplementação excessiva."
+    },
+    "interacoes": {
+      "nutrientes_necessarios": [
+        "Vitamina D - essencial para absorção de cálcio",
+        "Vitamina K2 - direciona cálcio para ossos (não artérias)",
+        "Magnésio - trabalha em equilíbrio com cálcio"
+      ],
+      "interfere_absorcao_de": [
+        "Ferro - tomar em horários diferentes",
+        "Zinco - tomar em horários diferentes"
+      ],
+      "medicamentos": [
+        {
+          "nome": "Bifosfonatos (alendronato)",
+          "efeito": "Tomar cálcio 2h após medicamento"
+        },
+        {
+          "nome": "Antibióticos (quinolonas, tetraciclinas)",
+          "efeito": "Cálcio reduz absorção - espaçar 2-4h"
+        },
+        {
+          "nome": "Hormônios tireoidianos",
+          "efeito": "Cálcio reduz absorção - tomar 4h após"
+        }
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Mulheres na menopausa",
+        "motivo": "Perda acelerada de massa óssea devido à queda de estrogênio",
+        "prevalencia": "Alta - principal grupo de risco"
+      },
+      {
+        "grupo": "Veganos",
+        "motivo": "Sem consumo de laticínios",
+        "nota": "Precisam focar em fontes vegetais e considerar suplementação"
+      },
+      {
+        "grupo": "Intolerantes à lactose",
+        "motivo": "Limitação de consumo de laticínios",
+        "nota": "Podem usar laticínios sem lactose ou fontes alternativas"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Citrato de cálcio",
+        "absorcao": "~30%",
+        "vantagens": [
+          "Pode ser tomado com ou sem alimentos",
+          "Melhor para quem tem baixa acidez gástrica",
+          "Menos constipação"
+        ],
+        "desvantagens": [
+          "Mais caro",
+          "Comprimidos maiores"
+        ],
+        "nota": "Preferido para idosos e quem usa antiácidos"
+      },
+      {
+        "forma": "Carbonato de cálcio",
+        "absorcao": "~40% com alimentos",
+        "vantagens": [
+          "Mais barato",
+          "Mais concentrado (mais cálcio por comprimido)"
+        ],
+        "desvantagens": [
+          "Deve ser tomado com alimentos",
+          "Pode causar constipação",
+          "Requer ácido gástrico"
+        ],
+        "nota": "Opção econômica, mas tomar com refeições"
+      },
+      {
+        "forma": "Hidroxiapatita de cálcio",
+        "descricao": "Forma natural encontrada nos ossos",
+        "nota": "Mais cara, evidência de superioridade é limitada"
+      }
+    ],
+    "nota_importante": "Absorção de cálcio é limitada - o corpo absorve apenas 500mg por vez. Dividir dose em 2-3 vezes ao dia aumenta absorção total.",
+    "evidencias": [
+      {
+        "id": "ref-ca-001",
+        "titulo": "Calcium and vitamin D supplementation reduces fracture risk in elderly",
+        "revista": "Osteoporosis International",
+        "ano": 2020,
+        "tipo": "Meta-análise",
+        "citacao_chave": "Suplementação combinada de cálcio e vitamina D reduz risco de fraturas em 15-20% em idosos",
+        "relevancia": [
+          "ossos",
+          "fraturas",
+          "idosos"
+        ]
+      }
+    ],
+    "seo": {
+      "meta_title": "Cálcio: Benefícios, Fontes e Quantidade Diária Recomendada",
+      "meta_description": "Guia completo sobre cálcio: importância para os ossos, melhores fontes alimentares, doses e quando suplementar. Baseado em ciência.",
+      "keywords": [
+        "cálcio",
+        "suplemento cálcio",
+        "osteoporose",
+        "saúde óssea",
+        "menopausa"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Citrato de Cálcio 500mg + D3 - 90 cápsulas",
+          "link": "https://amzn.to/EXEMPLO5",
+          "badge": "Melhor Absorção",
+          "preco_aprox": 38
+        }
+      ]
+    }
+  },
+  "magnesio": {
+    "slug": "magnesio",
+    "nome": "Magnésio",
+    "nome_cientifico": "Mg",
+    "categoria": "mineral",
+    "emoji": "⚡",
+    "descricao_curta": "Mineral essencial para energia, músculos e função nervosa",
+    "descricao_longa": "O magnésio é o quarto mineral mais abundante no corpo humano, essencial para mais de 300 reações enzimáticas.",
+    "funcoes_corporais": [
+      "Produção de energia (ATP)",
+      "Função muscular e prevenção de cãibras",
+      "Transmissão nervosa"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Sementes de abóbora (30g)",
+        "quantidade": 150,
+        "unidade": "mg",
+        "percentual_vd": 37
+      },
+      {
+        "alimento": "Espinafre cozido (1 xícara)",
+        "quantidade": 157,
+        "unidade": "mg",
+        "percentual_vd": 39
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "mulheres": {
+          "valor": 320,
+          "unidade": "mg"
+        },
+        "homens": {
+          "valor": 420,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 300,
+        "max": 400,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 350,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Cãibras musculares",
+        "Fadiga",
+        "Insônia"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Rara",
+      "sintomas": [
+        "Diarreia"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitamina D",
+        "Cálcio"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Diabéticos",
+        "motivo": "Perda urinária aumentada"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Glicinato de magnésio",
+        "nota": "Melhor absorção"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-mg-001",
+        "titulo": "Magnesium and diabetes",
+        "ano": 2021,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Magnésio",
+      "meta_description": "Guia sobre magnésio",
+      "keywords": [
+        "magnésio"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Magnésio Glicinato 400mg",
+          "link": "https://amzn.to/EXEMPLO6",
+          "preco_aprox": 45
+        }
+      ]
+    }
+  },
+  "ferro": {
+    "slug": "ferro",
+    "nome": "Ferro",
+    "nome_cientifico": "Fe",
+    "categoria": "mineral",
+    "emoji": "🩸",
+    "descricao_curta": "Mineral essencial para transporte de oxigênio",
+    "descricao_longa": "O ferro é fundamental para formação da hemoglobina.",
+    "funcoes_corporais": [
+      "Transporte de oxigênio",
+      "Produção de energia"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Fígado (100g)",
+        "quantidade": 5,
+        "unidade": "mg",
+        "percentual_vd": 27
+      },
+      {
+        "alimento": "Carne vermelha (100g)",
+        "quantidade": 2.7,
+        "unidade": "mg",
+        "percentual_vd": 15
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "mulheres_menstruadas": {
+          "valor": 18,
+          "unidade": "mg"
+        },
+        "homens": {
+          "valor": 8,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 14,
+        "max": 18,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 45,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Fadiga",
+        "Anemia",
+        "Palidez"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Perigoso",
+      "sintomas": [
+        "Náusea",
+        "Danos ao fígado"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitamina C"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Mulheres menstruadas",
+        "motivo": "Perda mensal de sangue"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Ferro quelado",
+        "nota": "Melhor tolerado"
+      }
+    ],
+    "nota_importante": "CONTRAINDICADO para hemocromatose",
+    "evidencias": [
+      {
+        "id": "ref-fe-001",
+        "titulo": "Iron and anemia",
+        "ano": 2020,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Ferro",
+      "meta_description": "Guia sobre ferro",
+      "keywords": [
+        "ferro",
+        "anemia"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Ferro Quelado 14mg",
+          "link": "https://amzn.to/EXEMPLO7",
+          "preco_aprox": 32
+        }
+      ]
+    }
+  },
+  "omega-3": {
+    "slug": "omega-3",
+    "nome": "Ômega-3",
+    "nome_cientifico": "EPA e DHA",
+    "categoria": "vitamina",
+    "subcategoria": "ácido graxo",
+    "emoji": "🐟",
+    "descricao_curta": "Ácidos graxos essenciais para saúde cardiovascular",
+    "descricao_longa": "Ômega-3 são ácidos graxos essenciais com efeitos anti-inflamatórios.",
+    "funcoes_corporais": [
+      "Saúde cardiovascular",
+      "Função cerebral",
+      "Redução de inflamação"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Salmão (100g)",
+        "quantidade": 2260,
+        "unidade": "mg",
+        "percentual_vd": 100
+      },
+      {
+        "alimento": "Sardinha (100g)",
+        "quantidade": 1480,
+        "unidade": "mg",
+        "percentual_vd": 65
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 250,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 1000,
+        "max": 2000,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 3000,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Pele seca",
+        "Fadiga",
+        "Problemas de memória"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Baixa",
+      "sintomas": [
+        "Sangramento prolongado"
+      ]
+    },
+    "interacoes": {
+      "medicamentos": [
+        {
+          "nome": "Anticoagulantes",
+          "efeito": "Potencializa efeito"
+        }
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Baixo consumo de peixe",
+        "motivo": "Principal fonte"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Óleo de peixe",
+        "nota": "Preferir purificado"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-omega-001",
+        "titulo": "Omega-3 and CVD",
+        "ano": 2021,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Ômega-3",
+      "meta_description": "Guia sobre ômega-3",
+      "keywords": [
+        "ômega-3",
+        "EPA",
+        "DHA"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Ômega-3 1000mg",
+          "link": "https://amzn.to/EXEMPLO8",
+          "preco_aprox": 48
+        }
+      ]
+    }
+  },
+  "vitamina-c": {
+    "slug": "vitamina-c",
+    "nome": "Vitamina C",
+    "nome_cientifico": "Ácido Ascórbico",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "🍊",
+    "descricao_curta": "Vitamina antioxidante essencial para imunidade e produção de colágeno",
+    "descricao_longa": "A vitamina C é um potente antioxidante, essencial para síntese de colágeno, função imunológica e absorção de ferro.",
+    "funcoes_corporais": [
+      "Síntese de colágeno",
+      "Antioxidante",
+      "Função imunológica",
+      "Absorção de ferro"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Acerola (100g)",
+        "quantidade": 1800,
+        "unidade": "mg",
+        "percentual_vd": 2000
+      },
+      {
+        "alimento": "Laranja (1 média)",
+        "quantidade": 70,
+        "unidade": "mg",
+        "percentual_vd": 77
+      },
+      {
+        "alimento": "Morango (1 xícara)",
+        "quantidade": 90,
+        "unidade": "mg",
+        "percentual_vd": 100
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "mulheres": {
+          "valor": 75,
+          "unidade": "mg"
+        },
+        "homens": {
+          "valor": 90,
+          "unidade": "mg"
+        },
+        "fumantes": {
+          "valor": 125,
+          "unidade": "mg",
+          "nota": "+35mg para fumantes"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 500,
+        "max": 1000,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 2000,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Fadiga",
+        "Sangramento gengival",
+        "Má cicatrização",
+        "Escorbuto (casos graves)"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Baixa (hidrossolúvel)",
+      "sintomas": [
+        "Diarreia",
+        "Náusea",
+        "Cálculos renais (doses muito altas)"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Ferro - aumenta absorção"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Fumantes",
+        "motivo": "Necessidade aumentada"
+      },
+      {
+        "grupo": "Idosos",
+        "motivo": "Ingestão inadequada"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Ácido ascórbico",
+        "nota": "Forma padrão"
+      },
+      {
+        "forma": "Ester-C",
+        "nota": "Menos ácida, melhor tolerada"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-c-001",
+        "titulo": "Vitamin C and immune function",
+        "ano": 2020,
+        "tipo": "Revisão sistemática"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina C",
+      "meta_description": "Guia sobre vitamina C",
+      "keywords": [
+        "vitamina c",
+        "imunidade"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina C 1000mg",
+          "link": "https://amzn.to/EXEMPLO9",
+          "preco_aprox": 28
+        }
+      ]
+    }
+  },
+  "vitamina-e": {
+    "slug": "vitamina-e",
+    "nome": "Vitamina E",
+    "nome_cientifico": "Tocoferol",
+    "categoria": "vitamina",
+    "subcategoria": "lipossolúvel",
+    "emoji": "🌰",
+    "descricao_curta": "Antioxidante lipossolúvel que protege células",
+    "descricao_longa": "A vitamina E é um antioxidante que protege membranas celulares da oxidação.",
+    "funcoes_corporais": [
+      "Antioxidante",
+      "Proteção celular",
+      "Saúde cardiovascular"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Sementes de girassol (30g)",
+        "quantidade": 10,
+        "unidade": "mg",
+        "percentual_vd": 66
+      },
+      {
+        "alimento": "Amêndoas (30g)",
+        "quantidade": 7.3,
+        "unidade": "mg",
+        "percentual_vd": 48
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 15,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 400,
+        "unidade": "UI"
+      },
+      "limite_superior": {
+        "valor": 1000,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Fraqueza muscular",
+        "Problemas de visão",
+        "Neuropatia"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Rara",
+      "sintomas": [
+        "Pode aumentar risco de sangramento"
+      ]
+    },
+    "interacoes": {
+      "medicamentos": [
+        {
+          "nome": "Anticoagulantes",
+          "efeito": "Potencializa"
+        }
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Má absorção de gorduras",
+        "motivo": "Vitamina E é lipossolúvel"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "d-alfa-tocoferol",
+        "nota": "Forma natural"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-e-001",
+        "titulo": "Vitamin E and oxidative stress",
+        "ano": 2019,
+        "tipo": "Revisão"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina E",
+      "meta_description": "Guia sobre vitamina E",
+      "keywords": [
+        "vitamina e"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina E 400 UI",
+          "link": "https://amzn.to/EXEMPLO10",
+          "preco_aprox": 35
+        }
+      ]
+    }
+  },
+  "zinco": {
+    "slug": "zinco",
+    "nome": "Zinco",
+    "nome_cientifico": "Zn",
+    "categoria": "mineral",
+    "emoji": "🛡️",
+    "descricao_curta": "Mineral essencial para imunidade, cicatrização e metabolismo",
+    "descricao_longa": "O zinco é essencial para mais de 300 enzimas, crucial para imunidade, cicatrização e síntese de proteínas.",
+    "funcoes_corporais": [
+      "Função imunológica",
+      "Cicatrização",
+      "Síntese de proteínas",
+      "Paladar e olfato"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Ostras (6 unidades)",
+        "quantidade": 32,
+        "unidade": "mg",
+        "percentual_vd": 290
+      },
+      {
+        "alimento": "Carne vermelha (100g)",
+        "quantidade": 4.8,
+        "unidade": "mg",
+        "percentual_vd": 43
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "mulheres": {
+          "valor": 8,
+          "unidade": "mg"
+        },
+        "homens": {
+          "valor": 11,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 15,
+        "max": 30,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 40,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Imunidade baixa",
+        "Perda de paladar",
+        "Queda de cabelo",
+        "Má cicatrização"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Possível",
+      "sintomas": [
+        "Náusea",
+        "Reduz cobre"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_antagonistas": [
+        "Cálcio e Ferro - competem por absorção"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Vegetarianos",
+        "motivo": "Zinco vegetal tem menor biodisponibilidade"
+      },
+      {
+        "grupo": "Idosos",
+        "motivo": "Absorção reduzida"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Quelato de zinco",
+        "nota": "Melhor absorção"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-zn-001",
+        "titulo": "Zinc and immune function",
+        "ano": 2020,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Zinco",
+      "meta_description": "Guia sobre zinco",
+      "keywords": [
+        "zinco",
+        "imunidade"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Zinco Quelado 30mg",
+          "link": "https://amzn.to/EXEMPLO11",
+          "preco_aprox": 25
+        }
+      ]
+    }
+  },
+  "acido-folico": {
+    "slug": "acido-folico",
+    "nome": "Ácido Fólico",
+    "nome_cientifico": "Vitamina B9 / Folato",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "🤰",
+    "descricao_curta": "Vitamina essencial para formação do DNA e prevenção de defeitos do tubo neural",
+    "descricao_longa": "O ácido fólico é crucial para síntese de DNA, formação de células sanguíneas e prevenção de defeitos congênitos.",
+    "funcoes_corporais": [
+      "Síntese de DNA",
+      "Formação de glóbulos vermelhos",
+      "Prevenção de defeitos do tubo neural"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Fígado (100g)",
+        "quantidade": 290,
+        "unidade": "mcg",
+        "percentual_vd": 72
+      },
+      {
+        "alimento": "Lentilhas (1 xícara)",
+        "quantidade": 358,
+        "unidade": "mcg",
+        "percentual_vd": 89
+      },
+      {
+        "alimento": "Espinafre (1 xícara)",
+        "quantidade": 263,
+        "unidade": "mcg",
+        "percentual_vd": 65
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 400,
+          "unidade": "mcg"
+        },
+        "gestantes": {
+          "valor": 600,
+          "unidade": "mcg"
+        },
+        "lactantes": {
+          "valor": 500,
+          "unidade": "mcg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 400,
+        "max": 800,
+        "unidade": "mcg"
+      },
+      "limite_superior": {
+        "valor": 1000,
+        "unidade": "mcg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Anemia megaloblástica",
+        "Fadiga",
+        "Defeitos do tubo neural no feto"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Baixa",
+      "nota": "Excesso pode mascarar deficiência de B12"
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitamina B12 - trabalham juntos"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Gestantes",
+        "motivo": "ESSENCIAL para prevenção de defeitos congênitos"
+      },
+      {
+        "grupo": "Mulheres tentando engravidar",
+        "motivo": "Iniciar antes da concepção"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Ácido fólico (sintético)",
+        "nota": "Forma padrão"
+      },
+      {
+        "forma": "Metilfolato",
+        "nota": "Forma ativa"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-b9-001",
+        "titulo": "Folic acid and neural tube defects",
+        "ano": 2020,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Ácido Fólico",
+      "meta_description": "Guia sobre ácido fólico",
+      "keywords": [
+        "ácido fólico",
+        "gravidez",
+        "B9"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Ácido Fólico 800mcg",
+          "link": "https://amzn.to/EXEMPLO12",
+          "preco_aprox": 18
+        }
+      ]
+    }
+  },
+  "vitamina-b6": {
+    "slug": "vitamina-b6",
+    "nome": "Vitamina B6",
+    "nome_cientifico": "Piridoxina",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "🧠",
+    "descricao_curta": "Vitamina essencial para metabolismo de proteínas e função neurológica",
+    "descricao_longa": "A vitamina B6 é crucial para metabolismo de aminoácidos, produção de neurotransmissores e função imunológica.",
+    "funcoes_corporais": [
+      "Metabolismo de proteínas",
+      "Produção de neurotransmissores",
+      "Função imunológica"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Grão-de-bico (1 xícara)",
+        "quantidade": 1.1,
+        "unidade": "mg",
+        "percentual_vd": 55
+      },
+      {
+        "alimento": "Frango (100g)",
+        "quantidade": 0.5,
+        "unidade": "mg",
+        "percentual_vd": 25
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 1.3,
+          "unidade": "mg"
+        },
+        "idosos_50_plus": {
+          "valor": 1.7,
+          "unidade": "mg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 10,
+        "max": 50,
+        "unidade": "mg"
+      },
+      "limite_superior": {
+        "valor": 100,
+        "unidade": "mg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Irritabilidade",
+        "Depressão",
+        "Confusão",
+        "Anemia"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Doses muito altas podem causar neuropatia",
+      "sintomas": [
+        "Formigamento",
+        "Danos nervosos"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitaminas B12 e B9"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Idosos",
+        "motivo": "Absorção reduzida"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Piridoxina HCl",
+        "nota": "Forma padrão"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-b6-001",
+        "titulo": "Vitamin B6 and cognition",
+        "ano": 2021,
+        "tipo": "Estudo"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina B6",
+      "meta_description": "Guia sobre vitamina B6",
+      "keywords": [
+        "vitamina b6",
+        "piridoxina"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina B6 50mg",
+          "link": "https://amzn.to/EXEMPLO13",
+          "preco_aprox": 22
+        }
+      ]
+    }
+  },
+  "vitamina-k2": {
+    "slug": "vitamina-k2",
+    "nome": "Vitamina K2",
+    "nome_cientifico": "Menaquinona",
+    "categoria": "vitamina",
+    "subcategoria": "lipossolúvel",
+    "emoji": "🦴",
+    "descricao_curta": "Vitamina que direciona cálcio para ossos (não artérias)",
+    "descricao_longa": "A vitamina K2 ativa proteínas que direcionam cálcio para os ossos, evitando calcificação arterial.",
+    "funcoes_corporais": [
+      "Direcionamento de cálcio",
+      "Saúde óssea",
+      "Saúde cardiovascular"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Natto (100g)",
+        "quantidade": 1000,
+        "unidade": "mcg",
+        "percentual_vd": 1000
+      },
+      {
+        "alimento": "Queijos fermentados",
+        "quantidade": 76,
+        "unidade": "mcg",
+        "percentual_vd": 76
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 90,
+          "unidade": "mcg",
+          "nota": "Não estabelecido especificamente para K2"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 200,
+        "unidade": "mcg"
+      },
+      "limite_superior": null
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Fragilidade óssea",
+        "Calcificação arterial"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Muito baixa"
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitamina D - trabalham juntos",
+        "Cálcio - direciona para ossos"
+      ],
+      "medicamentos": [
+        {
+          "nome": "Anticoagulantes (varfarina)",
+          "efeito": "CONTRAINDICADO - antagoniza efeito"
+        }
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Menopausa",
+        "motivo": "Prevenção de osteoporose"
+      },
+      {
+        "grupo": "Suplementação de cálcio",
+        "motivo": "Evita calcificação arterial"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "MK-7 (menaquinona-7)",
+        "nota": "Forma de longa duração"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-k2-001",
+        "titulo": "Vitamin K2 and bone health",
+        "ano": 2020,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina K2",
+      "meta_description": "Guia sobre vitamina K2",
+      "keywords": [
+        "vitamina k2",
+        "osteoporose"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina K2 MK-7 100mcg",
+          "link": "https://amzn.to/EXEMPLO14",
+          "preco_aprox": 38
+        }
+      ]
+    }
+  },
+  "iodo": {
+    "slug": "iodo",
+    "nome": "Iodo",
+    "nome_cientifico": "I",
+    "categoria": "mineral",
+    "emoji": "🧂",
+    "descricao_curta": "Mineral essencial para função da tireoide",
+    "descricao_longa": "O iodo é fundamental para síntese dos hormônios tireoidianos T3 e T4, que regulam metabolismo.",
+    "funcoes_corporais": [
+      "Produção de hormônios tireoidianos",
+      "Regulação do metabolismo",
+      "Desenvolvimento fetal"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Algas marinhas (1g)",
+        "quantidade": 232,
+        "unidade": "mcg",
+        "percentual_vd": 154
+      },
+      {
+        "alimento": "Sal iodado (1g)",
+        "quantidade": 45,
+        "unidade": "mcg",
+        "percentual_vd": 30
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 150,
+          "unidade": "mcg"
+        },
+        "gestantes": {
+          "valor": 220,
+          "unidade": "mcg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 150,
+        "max": 300,
+        "unidade": "mcg"
+      },
+      "limite_superior": {
+        "valor": 1100,
+        "unidade": "mcg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Hipotireoidismo",
+        "Bócio",
+        "Fadiga",
+        "Ganho de peso"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Possível",
+      "sintomas": [
+        "Hipertireoidismo",
+        "Bócio"
+      ]
+    },
+    "interacoes": {},
+    "grupos_risco": [
+      {
+        "grupo": "Gestantes",
+        "motivo": "Necessidade aumentada para desenvolvimento fetal"
+      },
+      {
+        "grupo": "Vegetarianos que não consomem sal iodado",
+        "motivo": "Baixa ingestão"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Iodeto de potássio",
+        "nota": "Forma padrão"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-i-001",
+        "titulo": "Iodine and thyroid",
+        "ano": 2020,
+        "tipo": "Revisão"
+      }
+    ],
+    "seo": {
+      "meta_title": "Iodo",
+      "meta_description": "Guia sobre iodo",
+      "keywords": [
+        "iodo",
+        "tireoide"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Iodo 150mcg",
+          "link": "https://amzn.to/EXEMPLO15",
+          "preco_aprox": 28
+        }
+      ]
+    }
+  },
+  "selenio": {
+    "slug": "selenio",
+    "nome": "Selênio",
+    "nome_cientifico": "Se",
+    "categoria": "mineral",
+    "emoji": "🌰",
+    "descricao_curta": "Mineral antioxidante essencial para tireoide e imunidade",
+    "descricao_longa": "O selênio é um mineral essencial com função antioxidante, crucial para tireoide e imunidade.",
+    "funcoes_corporais": [
+      "Antioxidante",
+      "Função tireoidiana",
+      "Função imunológica",
+      "Reprodução"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Castanha-do-pará (1 unidade)",
+        "quantidade": 96,
+        "unidade": "mcg",
+        "percentual_vd": 174
+      },
+      {
+        "alimento": "Atum (100g)",
+        "quantidade": 92,
+        "unidade": "mcg",
+        "percentual_vd": 167
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 55,
+          "unidade": "mcg"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 200,
+        "unidade": "mcg"
+      },
+      "limite_superior": {
+        "valor": 400,
+        "unidade": "mcg"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Fadiga",
+        "Imunidade baixa",
+        "Problemas tireoidianos",
+        "Infertilidade"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Possível",
+      "sintomas": [
+        "Queda de cabelo",
+        "Unhas quebradiças",
+        "Náusea"
+      ]
+    },
+    "interacoes": {
+      "nutrientes_sinergicos": [
+        "Vitamina E"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Solo pobre em selênio",
+        "motivo": "Alimentos com baixo teor"
+      },
+      {
+        "grupo": "Problemas tireoidianos",
+        "motivo": "Necessário para conversão de hormônios"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Selenometionina",
+        "nota": "Forma orgânica, melhor absorção"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-se-001",
+        "titulo": "Selenium and thyroid",
+        "ano": 2021,
+        "tipo": "Revisão"
+      }
+    ],
+    "seo": {
+      "meta_title": "Selênio",
+      "meta_description": "Guia sobre selênio",
+      "keywords": [
+        "selênio",
+        "castanha-do-pará"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Selênio 200mcg",
+          "link": "https://amzn.to/EXEMPLO16",
+          "preco_aprox": 24
+        }
+      ]
+    }
+  },
+  "vitamina-a": {
+    "slug": "vitamina-a",
+    "nome": "Vitamina A",
+    "nome_cientifico": "Retinol",
+    "categoria": "vitamina",
+    "subcategoria": "lipossolúvel",
+    "emoji": "🥕",
+    "descricao_curta": "Vitamina essencial para visão, imunidade e pele",
+    "descricao_longa": "A vitamina A é crucial para visão noturna, função imunológica, reprodução e saúde da pele.",
+    "funcoes_corporais": [
+      "Visão (rodopsina)",
+      "Função imunológica",
+      "Saúde da pele",
+      "Reprodução"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Fígado (100g)",
+        "quantidade": 16898,
+        "unidade": "IU",
+        "percentual_vd": 337
+      },
+      {
+        "alimento": "Cenoura (1 média)",
+        "quantidade": 10191,
+        "unidade": "IU",
+        "percentual_vd": 203
+      },
+      {
+        "alimento": "Batata-doce (1 média)",
+        "quantidade": 21907,
+        "unidade": "IU",
+        "percentual_vd": 438
+      }
+    ],
+    "nota_fontes": "Retinol (animal) é absorvido diretamente. Beta-caroteno (vegetal) precisa conversão.",
+    "dosagem": {
+      "rda": {
+        "mulheres": {
+          "valor": 700,
+          "unidade": "mcg RAE"
+        },
+        "homens": {
+          "valor": 900,
+          "unidade": "mcg RAE"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 3000,
+        "max": 5000,
+        "unidade": "IU"
+      },
+      "limite_superior": {
+        "valor": 10000,
+        "unidade": "IU"
+      }
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Cegueira noturna",
+        "Xeroftalmia",
+        "Imunidade baixa",
+        "Pele seca"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "PERIGOSO em excesso (lipossolúvel acumula)",
+      "sintomas": [
+        "Náusea",
+        "Tonturas",
+        "Dor de cabeça",
+        "Danos ao fígado",
+        "TERATOGÊNICO (defeitos fetais)"
+      ]
+    },
+    "interacoes": {},
+    "grupos_risco": [
+      {
+        "grupo": "Deficiência é rara em países desenvolvidos",
+        "motivo": "Presente em muitos alimentos"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Retinol (pré-formado)",
+        "nota": "Atenção à dosagem - pode acumular"
+      },
+      {
+        "forma": "Beta-caroteno",
+        "nota": "Mais seguro - conversão limitada"
+      }
+    ],
+    "nota_importante": "GESTANTES: não exceder 3.000 IU/dia de retinol pré-formado (risco de defeitos fetais). Preferir beta-caroteno.",
+    "evidencias": [
+      {
+        "id": "ref-a-001",
+        "titulo": "Vitamin A and vision",
+        "ano": 2020,
+        "tipo": "Revisão"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina A",
+      "meta_description": "Guia sobre vitamina A",
+      "keywords": [
+        "vitamina a",
+        "retinol",
+        "visão"
+      ]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina A 5000 IU",
+          "link": "https://amzn.to/EXEMPLO17",
+          "preco_aprox": 26
+        }
+      ]
+    }
+  }
+}

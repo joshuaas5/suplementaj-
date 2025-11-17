@@ -1,0 +1,518 @@
+{
+  "vitamina-b12": {
+    "slug": "vitamina-b12",
+    "nome": "Vitamina B12",
+    "nome_cientifico": "Cobalamina",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "💉",
+    "descricao_curta": "Vitamina essencial para formação de células sanguíneas e função neurológica",
+    "descricao_longa": "A vitamina B12, ou cobalamina, é uma vitamina hidrossolúvel essencial que desempenha papel crucial na formação de glóbulos vermelhos, síntese de DNA, função neurológica e metabolismo energético. É encontrada naturalmente apenas em alimentos de origem animal, tornando sua suplementação crítica para vegetarianos e veganos.",
+    "funcoes_corporais": [
+      "Formação de glóbulos vermelhos (eritropoiese)",
+      "Síntese e reparação de DNA",
+      "Manutenção da bainha de mielina (proteção dos nervos)",
+      "Metabolismo de homocisteína (saúde cardiovascular)",
+      "Produção de energia celular",
+      "Função cognitiva e memória"
+    ],
+    "fontes_alimentares": [
+      { "alimento": "Fígado bovino (100g)", "quantidade": 60, "unidade": "mcg", "percentual_vd": 2500 },
+      { "alimento": "Salmão (100g)", "quantidade": 4.8, "unidade": "mcg", "percentual_vd": 200 },
+      { "alimento": "Atum (100g)", "quantidade": 2.5, "unidade": "mcg", "percentual_vd": 104 },
+      { "alimento": "Carne vermelha (100g)", "quantidade": 2.4, "unidade": "mcg", "percentual_vd": 100 },
+      { "alimento": "Ovos (1 unidade)", "quantidade": 0.6, "unidade": "mcg", "percentual_vd": 25 },
+      { "alimento": "Leite (1 copo)", "quantidade": 1.2, "unidade": "mcg", "percentual_vd": 50 }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": { "valor": 2.4, "unidade": "mcg" },
+        "gestantes": { "valor": 2.6, "unidade": "mcg" },
+        "lactantes": { "valor": 2.8, "unidade": "mcg" },
+        "idosos_50_plus": { "valor": 2.4, "unidade": "mcg", "nota": "Suplementação recomendada devido à absorção reduzida" }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 500,
+        "unidade": "mcg",
+        "nota": "Doses preventivas para adultos saudáveis com risco de deficiência"
+      },
+      "suplementacao_terapeutica": {
+        "min": 500,
+        "max": 2000,
+        "unidade": "mcg",
+        "nota": "Para correção de deficiência diagnosticada"
+      },
+      "limite_superior": null,
+      "nota_limite": "Não há limite superior estabelecido. Vitamina B12 é considerada muito segura mesmo em doses altas (>1000 mcg/dia). Excesso é excretado pela urina."
+    },
+    "deficiencia": {
+      "prevalencia": "Afeta 15-40% dos adultos acima de 50 anos",
+      "sintomas": [
+        "Fadiga extrema e fraqueza",
+        "Anemia megaloblástica",
+        "Formigamento e dormência em mãos e pés (neuropatia periférica)",
+        "Dificuldade de equilíbrio e coordenação",
+        "Confusão mental e problemas de memória",
+        "Depressão e alterações de humor",
+        "Glossite (língua inchada e vermelha)",
+        "Palpitações cardíacas"
+      ],
+      "causas": [
+        "Idade avançada (>50 anos) - redução de ácido gástrico",
+        "Dieta vegetariana/vegana estrita",
+        "Uso prolongado de medicamentos (metformina, IBP, antiácidos)",
+        "Cirurgia bariátrica ou gastrectomia",
+        "Doença celíaca ou Crohn",
+        "Anemia perniciosa (falta de fator intrínseco)",
+        "Gastrite atrófica",
+        "Infecção por H. pylori"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Muito baixa - não há toxicidade conhecida",
+      "sintomas_raros": [
+        "Acne ou erupções cutâneas (raríssimo)",
+        "Reações alérgicas (extremamente raro)"
+      ],
+      "nota": "Estudos mostram que doses até 2.000 mcg/dia são seguras a longo prazo. O corpo excreta o excesso pela urina."
+    },
+    "interacoes": {
+      "medicamentos_reduzem_absorcao": [
+        { "nome": "Metformina", "efeito": "Reduz absorção em 30-50%", "recomendacao": "Suplementar B12" },
+        { "nome": "Inibidores de bomba de prótons (omeprazol, pantoprazol)", "efeito": "Reduz ácido gástrico necessário para absorção", "recomendacao": "Considerar suplementação após 1 ano de uso" },
+        { "nome": "Antiácidos (hidróxido de alumínio)", "efeito": "Interfere na absorção", "recomendacao": "Tomar suplemento 2h após antiácido" },
+        { "nome": "Antibióticos (cloranfenicol)", "efeito": "Pode interferir na resposta à suplementação", "recomendacao": "Monitorar níveis" }
+      ],
+      "nutrientes_sinergicos": [
+        "Ácido fólico (B9) - trabalham juntos na síntese de DNA",
+        "Vitamina B6 - metabolismo de homocisteína",
+        "Ferro - absorção e utilização"
+      ],
+      "nutrientes_antagonistas": [],
+      "nota_alcool": "Consumo excessivo de álcool pode reduzir absorção de B12"
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Idosos (50+ anos)",
+        "motivo": "Produção reduzida de ácido gástrico, necessário para absorção",
+        "prevalencia": "10-30% têm deficiência"
+      },
+      {
+        "grupo": "Vegetarianos e veganos",
+        "motivo": "B12 é encontrada apenas em produtos animais",
+        "prevalencia": "Até 90% dos veganos têm deficiência sem suplementação"
+      },
+      {
+        "grupo": "Usuários de metformina",
+        "motivo": "Medicamento reduz absorção intestinal de B12",
+        "prevalencia": "10-30% após uso prolongado"
+      },
+      {
+        "grupo": "Cirurgia bariátrica",
+        "motivo": "Redução da área de absorção intestinal",
+        "prevalencia": "70% desenvolvem deficiência sem suplementação"
+      },
+      {
+        "grupo": "Doença celíaca ou Crohn",
+        "motivo": "Má absorção intestinal",
+        "prevalencia": "Variável, requer monitoramento"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Cianocobalamina",
+        "descricao": "Forma sintética mais estável e comum",
+        "vantagens": ["Mais barata", "Estável em temperatura ambiente", "Bem estudada"],
+        "desvantagens": ["Requer conversão metabólica", "Libera pequena quantidade de cianeto (insignificante)"],
+        "nota": "Forma padrão e mais recomendada pela maioria dos especialistas"
+      },
+      {
+        "forma": "Metilcobalamina",
+        "descricao": "Forma ativa (metilada) da B12",
+        "vantagens": ["Já na forma ativa", "Não precisa conversão", "Pode ser sublingual"],
+        "desvantagens": ["Mais cara", "Menos estável (degrada com luz)"],
+        "nota": "Preferida por alguns para absorção sublingual"
+      },
+      {
+        "forma": "Adenosilcobalamina",
+        "descricao": "Outra forma ativa, menos comum",
+        "nota": "Menos disponível comercialmente"
+      },
+      {
+        "forma": "Hidroxocobalamina",
+        "descricao": "Forma injetável usada em hospitais",
+        "nota": "Geralmente reservada para casos graves ou injeções"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-b12-001",
+        "titulo": "High intake of vitamin B12 in supplements not associated with adverse effects on mortality",
+        "autores": "Flores-Guerrero JL, et al.",
+        "revista": "BMC Medicine",
+        "ano": 2020,
+        "tipo": "Meta-análise",
+        "doi": "10.1186/s12916-020-01771-y",
+        "pmid": "33287854",
+        "citacao_chave": "A alta ingestão de vitamina B12 na forma de suplementos não foi associada a nenhum efeito adverso na mortalidade",
+        "conclusao": "Suplementação de B12 é segura mesmo em doses altas",
+        "relevancia": ["seguranca", "dosagem"]
+      },
+      {
+        "id": "ref-b12-002",
+        "titulo": "Vitamin B12 and cardiovascular disease risk in women during menopause",
+        "revista": "Journal of Women's Health",
+        "ano": 2022,
+        "tipo": "Estudo de coorte",
+        "citacao_chave": "Vitaminas B6 e B12 reduzem níveis de homocisteína e risco cardiovascular em mulheres na menopausa",
+        "conclusao": "Suplementação reduz risco cardiovascular",
+        "relevancia": ["menopausa", "cardiovascular"]
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina B12: Para Que Serve, Dosagem e Quando Suplementar",
+      "meta_description": "Guia completo sobre vitamina B12: benefícios, sintomas de deficiência, doses seguras e quem precisa suplementar. Baseado em evidências científicas.",
+      "keywords": ["vitamina b12", "cobalamina", "suplementação b12", "deficiência b12", "dose vitamina b12"]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina B12 Metilcobalamina 1000mcg - 60 cápsulas",
+          "link": "https://amzn.to/EXEMPLO1",
+          "badge": "Mais Vendido",
+          "preco_aprox": 35
+        },
+        {
+          "nome": "Complexo B com B12 - 120 cápsulas",
+          "link": "https://amzn.to/EXEMPLO2",
+          "badge": null,
+          "preco_aprox": 45
+        }
+      ],
+      "iherb": []
+    }
+  },
+  "vitamina-d": {
+    "slug": "vitamina-d",
+    "nome": "Vitamina D",
+    "nome_cientifico": "Colecalciferol (D3) / Ergocalciferol (D2)",
+    "categoria": "vitamina",
+    "subcategoria": "lipossolúvel",
+    "emoji": "☀️",
+    "descricao_curta": "Vitamina essencial para saúde óssea, imunidade e função muscular",
+    "descricao_longa": "A vitamina D é um hormônio esteroide lipossolúvel essencial para absorção de cálcio, saúde óssea, função imunológica e regulação de centenas de genes. É produzida naturalmente na pele através da exposição solar (UVB), mas a deficiência é extremamente comum devido à vida indoor moderna.",
+    "funcoes_corporais": [
+      "Absorção intestinal de cálcio e fósforo",
+      "Manutenção da densidade óssea e prevenção de osteoporose",
+      "Função imunológica e redução de infecções",
+      "Função muscular e prevenção de quedas",
+      "Regulação do humor e prevenção de depressão",
+      "Saúde cardiovascular",
+      "Regulação de mais de 200 genes"
+    ],
+    "fontes_alimentares": [
+      { "alimento": "Salmão selvagem (100g)", "quantidade": 600, "unidade": "UI", "percentual_vd": 150 },
+      { "alimento": "Atum (100g)", "quantidade": 236, "unidade": "UI", "percentual_vd": 59 },
+      { "alimento": "Gema de ovo (1 unidade)", "quantidade": 44, "unidade": "UI", "percentual_vd": 11 },
+      { "alimento": "Cogumelos expostos ao sol (100g)", "quantidade": 400, "unidade": "UI", "percentual_vd": 100 },
+      { "alimento": "Leite fortificado (1 copo)", "quantidade": 120, "unidade": "UI", "percentual_vd": 30 }
+    ],
+    "nota_fontes": "A principal fonte é a síntese cutânea através da exposição solar (10-30 min/dia de braços e pernas). Alimentos sozinhos raramente fornecem quantidade suficiente.",
+    "dosagem": {
+      "rda": {
+        "adultos": { "valor": 600, "unidade": "UI" },
+        "idosos_70_plus": { "valor": 800, "unidade": "UI" },
+        "gestantes_lactantes": { "valor": 600, "unidade": "UI" }
+      },
+      "suplementacao_preventiva": {
+        "min": 1000,
+        "max": 2000,
+        "unidade": "UI",
+        "nota": "Doses recomendadas pela maioria dos endocrinologistas para manter níveis adequados"
+      },
+      "suplementacao_terapeutica": {
+        "min": 2000,
+        "max": 5000,
+        "unidade": "UI",
+        "nota": "Para correção de deficiência. Doses até 10.000 UI/dia podem ser usadas sob supervisão médica."
+      },
+      "limite_superior": {
+        "valor": 4000,
+        "unidade": "UI"
+      },
+      "nota_limite": "Limite oficial, mas doses até 10.000 UI/dia são consideradas seguras por curto prazo sob supervisão"
+    },
+    "deficiencia": {
+      "prevalencia": "Afeta 40-60% da população brasileira, especialmente em áreas urbanas",
+      "sintomas": [
+        "Fadiga crônica e fraqueza",
+        "Dores musculares e ósseas",
+        "Depressão e alterações de humor",
+        "Imunidade baixa (resfriados frequentes)",
+        "Osteoporose e fraturas",
+        "Dificuldade de cicatrização",
+        "Queda de cabelo"
+      ],
+      "niveis_sanguineos": {
+        "deficiencia_severa": "< 10 ng/mL",
+        "deficiencia": "10-20 ng/mL",
+        "insuficiencia": "20-30 ng/mL",
+        "adequado": "30-50 ng/mL",
+        "ideal": "40-60 ng/mL",
+        "alto": "> 100 ng/mL",
+        "toxicidade": "> 150 ng/mL"
+      }
+    },
+    "excesso": {
+      "toxicidade": "Rara, requer doses muito altas (>10.000 UI/dia) por meses",
+      "sintomas": [
+        "Hipercalcemia (cálcio alto no sangue)",
+        "Náusea e vômito",
+        "Fraqueza",
+        "Cálculos renais",
+        "Calcificação de tecidos moles"
+      ],
+      "nota": "Toxicidade é muito rara. Doses até 4.000 UI/dia são consideradas seguras a longo prazo."
+    },
+    "interacoes": {
+      "medicamentos": [
+        { "nome": "Corticosteroides", "efeito": "Reduzem absorção de cálcio e podem reduzir níveis de vitamina D" },
+        { "nome": "Orlistat (emagrecedor)", "efeito": "Reduz absorção de vitaminas lipossolúveis" },
+        { "nome": "Estatinas", "efeito": "Podem aumentar risco de miopatia quando D está baixa" }
+      ],
+      "nutrientes_sinergicos": [
+        "Vitamina K2 - direciona cálcio para ossos (não artérias)",
+        "Magnésio - necessário para conversão da vitamina D em forma ativa",
+        "Cálcio - trabalham juntos para saúde óssea"
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Pessoas com pouca exposição solar",
+        "motivo": "Trabalho/estudo indoor, uso de filtro solar constante",
+        "prevalencia": "Maioria da população urbana"
+      },
+      {
+        "grupo": "Idosos",
+        "motivo": "Síntese cutânea reduzida, menos exposição solar",
+        "prevalencia": "70-90% têm deficiência"
+      },
+      {
+        "grupo": "Pessoas com pele escura",
+        "motivo": "Melanina reduz síntese de vitamina D",
+        "prevalencia": "Risco 5-10x maior de deficiência"
+      },
+      {
+        "grupo": "Obesos",
+        "motivo": "Vitamina D é sequestrada pelo tecido adiposo",
+        "prevalencia": "Risco aumentado"
+      },
+      {
+        "grupo": "Menopausa",
+        "motivo": "Necessidade aumentada para prevenção de osteoporose",
+        "prevalencia": "Alta"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Vitamina D3 (Colecalciferol)",
+        "descricao": "Forma natural, produzida na pele",
+        "nota": "Preferida - mais eficaz que D2 em aumentar níveis séricos"
+      },
+      {
+        "forma": "Vitamina D2 (Ergocalciferol)",
+        "descricao": "Forma derivada de plantas/fungos",
+        "nota": "Menos eficaz que D3, não é a primeira escolha"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-d-001",
+        "titulo": "Vitamin D supplementation reduces fracture risk in postmenopausal women",
+        "revista": "JAMA",
+        "ano": 2019,
+        "tipo": "Meta-análise",
+        "citacao_chave": "Suplementação de vitamina D reduz risco de fraturas em 15% em mulheres pós-menopausa",
+        "relevancia": ["menopausa", "ossos", "fraturas"]
+      },
+      {
+        "id": "ref-d-002",
+        "titulo": "Vitamin D deficiency linked to increased cardiovascular risk in menopause",
+        "revista": "Journal of Clinical Endocrinology & Metabolism",
+        "ano": 2021,
+        "tipo": "Estudo observacional",
+        "citacao_chave": "Deficiência de vitamina D está diretamente relacionada ao aumento do risco de doenças cardiovasculares na pós-menopausa",
+        "relevancia": ["menopausa", "cardiovascular"]
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina D: Benefícios, Dose Diária e Quando Suplementar",
+      "meta_description": "Guia completo sobre vitamina D: para que serve, sintomas de deficiência, doses recomendadas e exposição solar. Baseado em evidências científicas.",
+      "keywords": ["vitamina d", "colecalciferol", "deficiência vitamina d", "dose vitamina d", "suplemento vitamina d"]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Vitamina D3 2000 UI - 120 cápsulas",
+          "link": "https://amzn.to/EXEMPLO3",
+          "badge": "Escolha Amazon",
+          "preco_aprox": 28
+        },
+        {
+          "nome": "Vitamina D3 + K2 - 60 cápsulas",
+          "link": "https://amzn.to/EXEMPLO4",
+          "badge": "Combinação Ideal",
+          "preco_aprox": 42
+        }
+      ]
+    }
+  },
+  "calcio": {
+    "slug": "calcio",
+    "nome": "Cálcio",
+    "nome_cientifico": "Ca",
+    "categoria": "mineral",
+    "emoji": "🦴",
+    "descricao_curta": "Mineral essencial para saúde óssea, dentes e contração muscular",
+    "descricao_longa": "O cálcio é o mineral mais abundante no corpo humano, essencial para formação e manutenção de ossos e dentes, contração muscular, coagulação sanguínea e transmissão nervosa. 99% do cálcio está nos ossos, servindo como reserva.",
+    "funcoes_corporais": [
+      "Formação e manutenção de ossos e dentes",
+      "Contração muscular (incluindo coração)",
+      "Coagulação sanguínea",
+      "Transmissão de impulsos nervosos",
+      "Liberação de hormônios e enzimas",
+      "Regulação da pressão arterial"
+    ],
+    "fontes_alimentares": [
+      { "alimento": "Leite (1 copo 240ml)", "quantidade": 300, "unidade": "mg", "percentual_vd": 30 },
+      { "alimento": "Iogurte natural (200g)", "quantidade": 240, "unidade": "mg", "percentual_vd": 24 },
+      { "alimento": "Queijo mussarela (30g)", "quantidade": 200, "unidade": "mg", "percentual_vd": 20 },
+      { "alimento": "Sardinha com espinha (100g)", "quantidade": 382, "unidade": "mg", "percentual_vd": 38 },
+      { "alimento": "Tofu fortificado (100g)", "quantidade": 350, "unidade": "mg", "percentual_vd": 35 },
+      { "alimento": "Couve cozida (1 xícara)", "quantidade": 94, "unidade": "mg", "percentual_vd": 9 },
+      { "alimento": "Brócolis cozido (1 xícara)", "quantidade": 62, "unidade": "mg", "percentual_vd": 6 }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos_19_50": { "valor": 1000, "unidade": "mg" },
+        "mulheres_51_plus": { "valor": 1200, "unidade": "mg", "nota": "Aumentada devido à menopausa" },
+        "homens_71_plus": { "valor": 1200, "unidade": "mg" }
+      },
+      "suplementacao_preventiva": {
+        "min": 500,
+        "max": 1000,
+        "unidade": "mg",
+        "nota": "Complementar dieta. Total (dieta + suplemento) não deve exceder 2000-2500 mg/dia"
+      },
+      "limite_superior": {
+        "valor": 2500,
+        "unidade": "mg"
+      },
+      "nota_limite": "Excesso pode aumentar risco de cálculos renais e calcificação vascular"
+    },
+    "deficiencia": {
+      "sintomas": [
+        "Osteoporose e osteopenia",
+        "Cãibras musculares",
+        "Formigamento em mãos, pés e face",
+        "Unhas fracas",
+        "Fraturas de estresse",
+        "Espasmos musculares (tetania em casos graves)"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Possível com suplementação excessiva prolongada",
+      "sintomas": [
+        "Hipercalcemia",
+        "Cálculos renais",
+        "Calcificação de tecidos moles e artérias",
+        "Constipação",
+        "Náusea",
+        "Interferência na absorção de outros minerais (ferro, zinco)"
+      ],
+      "nota": "Excesso por dieta sozinha é raro. Problema ocorre com suplementação excessiva."
+    },
+    "interacoes": {
+      "nutrientes_necessarios": [
+        "Vitamina D - essencial para absorção de cálcio",
+        "Vitamina K2 - direciona cálcio para ossos (não artérias)",
+        "Magnésio - trabalha em equilíbrio com cálcio"
+      ],
+      "interfere_absorcao_de": [
+        "Ferro - tomar em horários diferentes",
+        "Zinco - tomar em horários diferentes"
+      ],
+      "medicamentos": [
+        { "nome": "Bifosfonatos (alendronato)", "efeito": "Tomar cálcio 2h após medicamento" },
+        { "nome": "Antibióticos (quinolonas, tetraciclinas)", "efeito": "Cálcio reduz absorção - espaçar 2-4h" },
+        { "nome": "Hormônios tireoidianos", "efeito": "Cálcio reduz absorção - tomar 4h após" }
+      ]
+    },
+    "grupos_risco": [
+      {
+        "grupo": "Mulheres na menopausa",
+        "motivo": "Perda acelerada de massa óssea devido à queda de estrogênio",
+        "prevalencia": "Alta - principal grupo de risco"
+      },
+      {
+        "grupo": "Veganos",
+        "motivo": "Sem consumo de laticínios",
+        "nota": "Precisam focar em fontes vegetais e considerar suplementação"
+      },
+      {
+        "grupo": "Intolerantes à lactose",
+        "motivo": "Limitação de consumo de laticínios",
+        "nota": "Podem usar laticínios sem lactose ou fontes alternativas"
+      }
+    ],
+    "formas_suplemento": [
+      {
+        "forma": "Citrato de cálcio",
+        "absorcao": "~30%",
+        "vantagens": ["Pode ser tomado com ou sem alimentos", "Melhor para quem tem baixa acidez gástrica", "Menos constipação"],
+        "desvantagens": ["Mais caro", "Comprimidos maiores"],
+        "nota": "Preferido para idosos e quem usa antiácidos"
+      },
+      {
+        "forma": "Carbonato de cálcio",
+        "absorcao": "~40% com alimentos",
+        "vantagens": ["Mais barato", "Mais concentrado (mais cálcio por comprimido)"],
+        "desvantagens": ["Deve ser tomado com alimentos", "Pode causar constipação", "Requer ácido gástrico"],
+        "nota": "Opção econômica, mas tomar com refeições"
+      },
+      {
+        "forma": "Hidroxiapatita de cálcio",
+        "descricao": "Forma natural encontrada nos ossos",
+        "nota": "Mais cara, evidência de superioridade é limitada"
+      }
+    ],
+    "nota_importante": "Absorção de cálcio é limitada - o corpo absorve apenas 500mg por vez. Dividir dose em 2-3 vezes ao dia aumenta absorção total.",
+    "evidencias": [
+      {
+        "id": "ref-ca-001",
+        "titulo": "Calcium and vitamin D supplementation reduces fracture risk in elderly",
+        "revista": "Osteoporosis International",
+        "ano": 2020,
+        "tipo": "Meta-análise",
+        "citacao_chave": "Suplementação combinada de cálcio e vitamina D reduz risco de fraturas em 15-20% em idosos",
+        "relevancia": ["ossos", "fraturas", "idosos"]
+      }
+    ],
+    "seo": {
+      "meta_title": "Cálcio: Benefícios, Fontes e Quantidade Diária Recomendada",
+      "meta_description": "Guia completo sobre cálcio: importância para os ossos, melhores fontes alimentares, doses e quando suplementar. Baseado em ciência.",
+      "keywords": ["cálcio", "suplemento cálcio", "osteoporose", "saúde óssea", "menopausa"]
+    },
+    "afiliados": {
+      "amazon": [
+        {
+          "nome": "Citrato de Cálcio 500mg + D3 - 90 cápsulas",
+          "link": "https://amzn.to/EXEMPLO5",
+          "badge": "Melhor Absorção",
+          "preco_aprox": 38
+        }
+      ]
+    }
+  }
+}

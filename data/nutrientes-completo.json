@@ -1,0 +1,75 @@
+{
+  "vitamina-b12": {
+    "slug": "vitamina-b12",
+    "nome": "Vitamina B12",
+    "nome_cientifico": "Cobalamina",
+    "categoria": "vitamina",
+    "subcategoria": "hidrossolúvel",
+    "emoji": "💉",
+    "descricao_curta": "Vitamina essencial para formação de células sanguíneas e função neurológica",
+    "descricao_longa": "A vitamina B12, ou cobalamina, é uma vitamina hidrossolúvel essencial que desempenha papel crucial na formação de glóbulos vermelhos, síntese de DNA, função neurológica e metabolismo energético.",
+    "funcoes_corporais": [
+      "Formação de glóbulos vermelhos",
+      "Síntese e reparação de DNA",
+      "Manutenção da bainha de mielina",
+      "Metabolismo de homocisteína",
+      "Produção de energia celular",
+      "Função cognitiva e memória"
+    ],
+    "fontes_alimentares": [
+      { "alimento": "Fígado bovino (100g)", "quantidade": 60, "unidade": "mcg", "percentual_vd": 2500 },
+      { "alimento": "Salmão (100g)", "quantidade": 4.8, "unidade": "mcg", "percentual_vd": 200 },
+      { "alimento": "Ovos (1 unidade)", "quantidade": 0.6, "unidade": "mcg", "percentual_vd": 25 }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": { "valor": 2.4, "unidade": "mcg" }
+      },
+      "suplementacao_preventiva": {
+        "min": 100,
+        "max": 500,
+        "unidade": "mcg"
+      },
+      "limite_superior": null
+    },
+    "deficiencia": {
+      "prevalencia": "15-40% dos adultos acima de 50 anos",
+      "sintomas": ["Fadiga extrema", "Anemia megaloblástica", "Formigamento em extremidades"]
+    },
+    "excesso": {
+      "toxicidade": "Muito baixa"
+    },
+    "interacoes": {
+      "medicamentos_reduzem_absorcao": [
+        { "nome": "Metformina", "efeito": "Reduz absorção em 30-50%" }
+      ],
+      "nutrientes_sinergicos": ["Ácido fólico (B9)", "Vitamina B6"]
+    },
+    "grupos_risco": [
+      { "grupo": "Idosos (50+ anos)", "motivo": "Produção reduzida de ácido gástrico" },
+      { "grupo": "Vegetarianos e veganos", "motivo": "B12 apenas em produtos animais" }
+    ],
+    "formas_suplemento": [
+      { "forma": "Cianocobalamina", "descricao": "Forma sintética mais estável" },
+      { "forma": "Metilcobalamina", "descricao": "Forma ativa" }
+    ],
+    "evidencias": [
+      {
+        "id": "ref-b12-001",
+        "titulo": "High intake of vitamin B12 in supplements not associated with adverse effects",
+        "ano": 2020,
+        "tipo": "Meta-análise"
+      }
+    ],
+    "seo": {
+      "meta_title": "Vitamina B12: Para Que Serve, Dosagem e Quando Suplementar",
+      "meta_description": "Guia completo sobre vitamina B12",
+      "keywords": ["vitamina b12", "cobalamina"]
+    },
+    "afiliados": {
+      "amazon": [
+        { "nome": "Vitamina B12 1000mcg - 60 cápsulas", "link": "https://amzn.to/EXEMPLO1", "preco_aprox": 35 }
+      ]
+    }
+  }
+}
