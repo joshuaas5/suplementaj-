@@ -11,10 +11,9 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm text-warning-800 text-center">
             ⚠️ <strong>IMPORTANTE:</strong> As informações fornecidas neste site são exclusivamente educativas
-            e não substituem consulta, diagnóstico ou tratamento médico profissional. Sempre
-            consulte um nutricionista, nutrólogo ou médico qualificado antes de iniciar
-            qualquer suplementação. Este site não vende produtos e as recomendações são
-            baseadas em evidências científicas gerais, não constituindo prescrição médica.
+            e não substituem consulta, diagnóstico ou tratamento médico profissional. O ideal é
+            consultar um nutricionista, nutrólogo ou médico qualificado para orientação personalizada.
+            Este site não vende produtos e as recomendações são baseadas em evidências científicas gerais.
           </p>
         </div>
       </div>

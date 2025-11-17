@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { CheckCircle2, XCircle, AlertTriangle, ExternalLink } from 'lucide-react'
 import { BadgePrioridade } from './BadgePrioridade'
 import { RecomendacaoEnriquecida } from '@/types'
+import { addAmazonAffiliateTag } from '@/lib/affiliate'
 
 interface CardNutrienteProps {
   recomendacao: RecomendacaoEnriquecida
@@ -102,6 +103,52 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
         </div>
       )}
 
+      {/* Link para evidência científica */}
+      {nutriente_completo.evidencias && nutriente_completo.evidencias.length > 0 && (
+        <div className="bg-gradient-to-r from-primary-50 to-blue-50 border border-primary-200 rounded-lg p-4 mb-4">
+          <div className="flex items-start gap-3">
+            <div className="flex-shrink-0">
+              <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
+                <ExternalLink className="w-4 h-4 text-white" />
+              </div>
+            </div>
+            <div className="flex-1">
+              <h4 className="text-sm font-semibold text-gray-900 mb-1">📚 Evidência Científica</h4>
+              <p className="text-sm text-gray-700 mb-2">{nutriente_completo.evidencias[0].titulo}</p>
+              {nutriente_completo.evidencias[0].citacao_chave && (
+                <p className="text-xs text-gray-600 italic mb-3">
+                  &ldquo;{nutriente_completo.evidencias[0].citacao_chave}&rdquo;
+                </p>
+              )}
+              <div className="flex flex-wrap gap-2">
+                {nutriente_completo.evidencias[0].doi && (
+                  <a
+                    href={`https://doi.org/${nutriente_completo.evidencias[0].doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary-600 hover:bg-primary-700 text-white text-xs font-medium rounded-md transition-colors"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    Ver estudo completo (DOI)
+                  </a>
+                )}
+                {nutriente_completo.evidencias[0].pmid && (
+                  <a
+                    href={`https://pubmed.ncbi.nlm.nih.gov/${nutriente_completo.evidencias[0].pmid}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1.5 bg-success-600 hover:bg-success-700 text-white text-xs font-medium rounded-md transition-colors"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    PubMed
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Links de produtos (placeholders) */}
       {nutriente_completo.afiliados?.amazon && nutriente_completo.afiliados.amazon.length > 0 && (
         <div className="border-t border-gray-200 pt-4 mt-4">
@@ -110,9 +157,9 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
             {nutriente_completo.afiliados.amazon.slice(0, 2).map((produto, i) => (
               <a
                 key={i}
-                href={produto.link}
+                href={addAmazonAffiliateTag(produto.link)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow sponsored"
                 className="flex items-center justify-between p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors"
               >
                 <div className="flex-1">

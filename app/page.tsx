@@ -125,9 +125,9 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Nosso algoritmo inteligente analisa <strong>50+ fatores</strong> do seu perfil:
-                idade, sexo, dieta, condições de saúde, medicamentos e sintomas para
-                recomendações ultra-precisas.
+                Nosso algoritmo inteligente analisa <strong>50+ fatores</strong>{' '}
+                do seu perfil: idade, sexo, dieta, condições de saúde, medicamentos e sintomas{' '}
+                para recomendações ultra-precisas.
               </p>
               <div className="mt-6 p-4 bg-primary-50 rounded-lg">
                 <p className="text-sm text-primary-800 font-medium">
@@ -148,7 +148,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Todas as recomendações são fundamentadas em <strong>estudos científicos</strong>
+                Todas as recomendações são fundamentadas em <strong>estudos científicos</strong>{' '}
                 publicados em revistas médicas. Incluímos referências clicáveis com DOI para
                 você verificar.
               </p>
@@ -171,8 +171,8 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Alertas automáticos sobre <strong>contraindicações</strong> importantes,
-                interações medicamentosas perigosas e dosagens seguras para cada perfil.
+                Alertas automáticos sobre <strong>contraindicações</strong>{' '}
+                importantes, interações medicamentosas perigosas e dosagens seguras para cada perfil.
               </p>
               <div className="mt-6 p-4 bg-warning-50 rounded-lg">
                 <p className="text-sm text-warning-800 font-medium">
@@ -214,8 +214,9 @@ export default function Home() {
                       <h3 className="text-2xl font-bold text-gray-900">Responda o Questionário</h3>
                     </div>
                     <p className="text-gray-600 text-lg">
-                      6 passos rápidos sobre sua saúde, dieta e estilo de vida.
-                      Leva apenas <strong>2-3 minutos</strong> para completar.
+                      6 passos rápidos sobre sua saúde, dieta e estilo de vida.{' '}
+                      Leva apenas <strong>2-3 minutos</strong>{' '}
+                      para completar.
                     </p>
                     <div className="mt-4 flex gap-2 flex-wrap">
                       <Badge variant="info">Dados demográficos</Badge>
@@ -238,7 +239,7 @@ export default function Home() {
                       <h3 className="text-2xl font-bold text-gray-900">Receba Recomendações</h3>
                     </div>
                     <p className="text-gray-600 text-lg">
-                      Nosso algoritmo analisa seu perfil e gera <strong>recomendações instantâneas</strong>
+                      Nosso algoritmo analisa seu perfil e gera <strong>recomendações instantâneas</strong>{' '}
                       com dosagens específicas, prioridades e justificativas científicas.
                     </p>
                     <div className="mt-4 flex gap-2 flex-wrap">
@@ -262,8 +263,8 @@ export default function Home() {
                       <h3 className="text-2xl font-bold text-gray-900">Consulte seu Médico</h3>
                     </div>
                     <p className="text-gray-600 text-lg">
-                      Use os resultados como <strong>base para conversar</strong> com seu
-                      nutricionista ou médico. Nosso relatório facilita a discussão.
+                      Use os resultados como <strong>base para conversar</strong>{' '}
+                      com seu nutricionista ou médico. Nosso relatório facilita a discussão.
                     </p>
                     <div className="mt-4 flex gap-2 flex-wrap">
                       <Badge variant="warning">Relatório completo</Badge>

@@ -90,7 +90,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {/* Disclaimer */}
         <DisclaimerBanner
           variant="warning"
-          message="As informações nesta página são educacionais e não substituem orientação médica. Consulte um profissional de saúde antes de iniciar qualquer suplementação."
+          message="As informações nesta página são educacionais. O ideal é consultar um profissional de saúde para orientação personalizada."
         />
 
         {/* Funções Corporais */}
@@ -478,7 +478,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
               <Alert variant="info" className="mb-4">
                 <p className="text-sm">
                   Os links abaixo são afiliados da Amazon. Ao comprar através deles, você ajuda a manter o Suplementa Já
-                  sem custo adicional. Sempre consulte um profissional de saúde antes de iniciar qualquer suplementação.
+                  sem custo adicional. O ideal é consultar um profissional de saúde para orientação personalizada.
                 </p>
               </Alert>
               <div className="grid gap-4 sm:grid-cols-2">

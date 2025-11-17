@@ -8,7 +8,7 @@ interface DisclaimerBannerProps {
 export function DisclaimerBanner({ variant = 'warning', message }: DisclaimerBannerProps) {
   const defaultMessage =
     "AVISO: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. " +
-    "NÃO substituem avaliação médica individualizada. Consulte um profissional de saúde antes de iniciar suplementação."
+    "Para orientação personalizada, o ideal é consultar um profissional de saúde."
 
   const variants = {
     warning: {

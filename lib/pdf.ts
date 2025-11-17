@@ -121,7 +121,7 @@ export function gerarPDFResultados(
   // Disclaimer
   doc.setFontSize(8)
   doc.setTextColor(200, 60, 60)
-  const disclaimer = removerAcentos('IMPORTANTE: Este relatorio nao substitui consulta medica. Consulte um profissional de saude antes de iniciar qualquer suplementacao.')
+  const disclaimer = removerAcentos('IMPORTANTE: Este relatorio e informativo. O ideal e consultar um profissional de saude para orientacao personalizada.')
   const disclaimerLines = doc.splitTextToSize(disclaimer, pageWidth - margin * 2)
   doc.text(disclaimerLines, margin, yPosition)
   yPosition += disclaimerLines.length * 4 + 5

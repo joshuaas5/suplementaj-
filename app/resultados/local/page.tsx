@@ -112,7 +112,7 @@ export default function ResultadosPage() {
         {/* Disclaimer */}
         <DisclaimerBanner
           variant="warning"
-          message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. NÃO substituem avaliação médica individualizada. Consulte um nutricionista, nutrólogo ou médico antes de iniciar qualquer suplementação."
+          message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
         {/* Ações */}
