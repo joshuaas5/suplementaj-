@@ -10,6 +10,7 @@ import { Input } from '@/components/ui/Input'
 import { Select } from '@/components/ui/Select'
 import { Button } from '@/components/ui/Button'
 import { Card } from '@/components/ui/Card'
+import { Alert } from '@/components/ui/Alert'
 
 const schema = z.object({
   idade: z.number().min(18, 'Idade mínima: 18 anos').max(120, 'Idade inválida'),
@@ -53,6 +54,13 @@ export default function Passo1Page() {
         <h1 className="text-2xl font-bold text-gray-900 mb-2">Informações Básicas</h1>
         <p className="text-gray-600 mb-6">Vamos começar com algumas informações sobre você</p>
 
+        <Alert variant="info" className="mb-6">
+          <p className="text-sm">
+            <strong>💡 Dica:</strong> Suas respostas nos ajudam a calcular suas necessidades nutricionais específicas.
+            Todos os dados ficam apenas no seu navegador.
+          </p>
+        </Alert>
+
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <Input
             label="Idade *"
@@ -60,12 +68,14 @@ export default function Passo1Page() {
             {...register('idade', { valueAsNumber: true })}
             error={errors.idade?.message}
             placeholder="Ex: 45"
+            helpText="Necessidades nutricionais variam com a idade"
           />
 
           <Select
             label="Sexo biológico *"
             {...register('sexo')}
             error={errors.sexo?.message}
+            helpText="Importante para calcular necessidades de ferro, cálcio e outros nutrientes"
             options={[
               { value: '', label: 'Selecione...' },
               { value: 'F', label: 'Feminino' },

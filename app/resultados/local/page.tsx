@@ -9,9 +9,11 @@ import { Button } from '@/components/ui/Button'
 import { Alert } from '@/components/ui/Alert'
 import { Download, Share2 } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
+import { Perfil } from '@/types/perfil'
+import { gerarPDFResultados } from '@/lib/pdf'
 
 interface AvaliacaoLocal {
-  perfil: unknown
+  perfil: Perfil
   recomendacoes: RecomendacaoEnriquecida[]
   data: string
 }
@@ -20,6 +22,40 @@ export default function ResultadosPage() {
   const router = useRouter()
   const [avaliacao, setAvaliacao] = useState<AvaliacaoLocal | null>(null)
   const [loading, setLoading] = useState(true)
+  const [downloadingPDF, setDownloadingPDF] = useState(false)
+
+  const handleDownloadPDF = () => {
+    if (!avaliacao) return
+
+    try {
+      setDownloadingPDF(true)
+      gerarPDFResultados(avaliacao.perfil, avaliacao.recomendacoes)
+    } catch (error) {
+      console.error('Erro ao gerar PDF:', error)
+      alert('Erro ao gerar PDF. Por favor, tente novamente.')
+    } finally {
+      setDownloadingPDF(false)
+    }
+  }
+
+  const handleCompartilhar = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: 'Minhas Recomendações VitaGuia',
+          text: 'Confira minhas recomendações personalizadas de suplementação do VitaGuia!',
+          url: window.location.href,
+        })
+      } catch {
+        // Usuário cancelou ou erro
+        console.log('Compartilhamento cancelado')
+      }
+    } else {
+      // Fallback: copiar link
+      navigator.clipboard.writeText(window.location.href)
+      alert('Link copiado para a área de transferência!')
+    }
+  }
 
   useEffect(() => {
     // Carregar do localStorage
@@ -81,11 +117,17 @@ export default function ResultadosPage() {
 
         {/* Ações */}
         <div className="flex flex-wrap gap-3 justify-center mb-8">
-          <Button variant="outline" size="sm">
+          <Button
+            variant="primary"
+            size="sm"
+            onClick={handleDownloadPDF}
+            loading={downloadingPDF}
+            disabled={downloadingPDF}
+          >
             <Download className="w-4 h-4 mr-2" />
-            Baixar PDF (em breve)
+            {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
           </Button>
-          <Button variant="outline" size="sm">
+          <Button variant="outline" size="sm" onClick={handleCompartilhar}>
             <Share2 className="w-4 h-4 mr-2" />
             Compartilhar
           </Button>
