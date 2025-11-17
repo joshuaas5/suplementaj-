@@ -27,13 +27,13 @@ export default function Home() {
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-black mb-6 leading-tight uppercase">
               Descubra os Suplementos{' '}
-              <span className="bg-black text-yellow-400 px-3 py-2 inline-block rotate-1">
+              <span className="bg-black text-yellow-400 px-3 py-2 inline-block sm:rotate-1">
                 Certos
               </span>{' '}
               para Você
             </h1>
 
-            <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 max-w-3xl mx-auto mb-10">
+            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 max-w-3xl mx-auto mb-10">
               <p className="text-xl sm:text-2xl text-black font-bold leading-relaxed">
                 Recomendações personalizadas de vitaminas e minerais baseadas em{' '}
                 <span className="bg-cyan-400 px-2 py-1">evidências científicas</span>.
@@ -97,8 +97,8 @@ export default function Home() {
       {/* Features Section - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <div className="inline-block bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 rotate-1">
-            <h2 className="text-4xl font-black text-black uppercase">
+          <div className="inline-block bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:rotate-1">
+            <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
               Por que Suplementa Já?
             </h2>
           </div>
@@ -107,7 +107,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {/* Feature 1 */}
           <Card className="transform -rotate-1 hover:rotate-0 transition-all bg-lime-400">
             <CardHeader>
@@ -185,8 +185,8 @@ export default function Home() {
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-block bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 -rotate-1">
-              <h2 className="text-4xl font-black text-black uppercase">
+            <div className="inline-block bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:-rotate-1">
+              <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
                 Como Funciona
               </h2>
             </div>
@@ -195,10 +195,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {/* Step 1 */}
             <div className="relative">
-              <div className="bg-cyan-400 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform rotate-1">
+              <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 md:p-8 transform sm:rotate-1">
                 <div className="w-16 h-16 bg-black text-cyan-400 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
                   1
                 </div>
@@ -221,7 +221,7 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="relative">
-              <div className="bg-lime-400 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform -rotate-1">
+              <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 md:p-8 transform sm:-rotate-1">
                 <div className="w-16 h-16 bg-black text-lime-400 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
                   2
                 </div>
@@ -242,7 +242,7 @@ export default function Home() {
             </div>
 
             {/* Step 3 */}
-            <div className="bg-pink-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform rotate-1">
+            <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 md:p-8 transform sm:rotate-1">
               <div className="w-16 h-16 bg-black text-pink-500 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
                 3
               </div>
@@ -264,8 +264,8 @@ export default function Home() {
       {/* Nutrients Showcase - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-12">
-          <div className="inline-block bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 rotate-1">
-            <h2 className="text-4xl font-black text-black uppercase">
+          <div className="inline-block bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:rotate-1">
+            <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
               39 Nutrientes Essenciais
             </h2>
           </div>
@@ -278,7 +278,7 @@ export default function Home() {
           {/* Left - Benefits */}
           <div className="space-y-6">
             <Card className="bg-cyan-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <CardContent className="p-6">
+              <CardContent className="p-4 sm:p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
                     <TrendingUp className="w-6 h-6 text-cyan-400" />
@@ -295,7 +295,7 @@ export default function Home() {
             </Card>
 
             <Card className="bg-lime-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <CardContent className="p-6">
+              <CardContent className="p-4 sm:p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
                     <Shield className="w-6 h-6 text-lime-400" />
@@ -312,7 +312,7 @@ export default function Home() {
             </Card>
 
             <Card className="bg-yellow-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <CardContent className="p-6">
+              <CardContent className="p-4 sm:p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
                     <Brain className="w-6 h-6 text-yellow-400" />
@@ -329,7 +329,7 @@ export default function Home() {
             </Card>
 
             <Card className="bg-pink-500 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <CardContent className="p-6">
+              <CardContent className="p-4 sm:p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
                     <Star className="w-6 h-6 text-pink-500" />
@@ -348,7 +348,7 @@ export default function Home() {
 
           {/* Right - Nutrients Grid */}
           <div>
-            <div className="bg-yellow-400 border-4 border-black shadow-[12px_12px_0_0_#000] p-8">
+            <div className="bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-4 sm:p-6 md:p-8">
               <h3 className="text-3xl font-black text-black mb-6 uppercase text-center">
                 Nutrientes Analisados
               </h3>
@@ -403,13 +403,13 @@ export default function Home() {
 
           <h2 className="text-4xl sm:text-6xl font-black mb-8 text-white uppercase leading-tight">
             Pronto para Descobrir{' '}
-            <span className="bg-black text-pink-500 px-3 py-2 inline-block -rotate-1">
+            <span className="bg-black text-pink-500 px-3 py-2 inline-block sm:-rotate-1">
               Suas Necessidades
             </span>{' '}
             Nutricionais?
           </h2>
 
-          <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-10 max-w-2xl mx-auto">
+          <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 mb-10 max-w-2xl mx-auto">
             <p className="text-xl text-black font-bold leading-relaxed">
               Milhares de pessoas já usaram o Suplementa Já para tomar decisões mais informadas
               sobre suplementação. Faça sua avaliação agora e receba resultados em 2 minutos.

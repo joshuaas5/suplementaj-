@@ -19,12 +19,12 @@ export default function NutrientesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header - NEOBRUTALISM */}
         <div className="text-center mb-16">
-          <div className="inline-block bg-cyan-400 border-4 border-black shadow-[8px_8px_0_0_#000] px-8 py-4 mb-6 rotate-1">
-            <h1 className="text-4xl sm:text-5xl font-black text-black uppercase">
+          <div className="inline-block bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] px-4 py-2 sm:px-8 sm:py-4 mb-6 sm:rotate-1">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl font-black text-black uppercase">
               Biblioteca de Nutrientes
             </h1>
           </div>
-          <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 max-w-3xl mx-auto">
+          <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] px-4 sm:px-6 py-6 max-w-3xl mx-auto">
             <p className="text-lg text-black font-bold leading-relaxed">
               Explore informações detalhadas sobre <span className="bg-yellow-400 px-2 py-1">vitaminas</span>,{' '}
               <span className="bg-lime-400 px-2 py-1">minerais</span> e{' '}
@@ -38,12 +38,12 @@ export default function NutrientesPage() {
         {vitaminas.length > 0 && (
           <section className="mb-20">
             <div className="flex items-center gap-4 mb-8">
-              <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-3 -rotate-1">
-                <h2 className="text-3xl font-black text-black uppercase">Vitaminas</h2>
+              <div className="bg-cyan-400 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:-rotate-1">
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">Vitaminas</h2>
               </div>
               <Badge variant="info" size="lg">{vitaminas.length}</Badge>
             </div>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
               {vitaminas.map((nutriente) => (
                 <NutrienteCard key={nutriente.slug} nutriente={nutriente} color="cyan" />
               ))}
@@ -55,12 +55,12 @@ export default function NutrientesPage() {
         {minerais.length > 0 && (
           <section className="mb-20">
             <div className="flex items-center gap-4 mb-8">
-              <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-3 rotate-1">
-                <h2 className="text-3xl font-black text-black uppercase">Minerais</h2>
+              <div className="bg-lime-400 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:rotate-1">
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">Minerais</h2>
               </div>
               <Badge variant="success" size="lg">{minerais.length}</Badge>
             </div>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
               {minerais.map((nutriente) => (
                 <NutrienteCard key={nutriente.slug} nutriente={nutriente} color="lime" />
               ))}
@@ -72,12 +72,12 @@ export default function NutrientesPage() {
         {outros.length > 0 && (
           <section className="mb-20">
             <div className="flex items-center gap-4 mb-8">
-              <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-3 -rotate-1">
-                <h2 className="text-3xl font-black text-white uppercase">Outros Nutrientes</h2>
+              <div className="bg-pink-500 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:-rotate-1">
+                <h2 className="text-xl sm:text-3xl font-black text-white uppercase">Outros Nutrientes</h2>
               </div>
               <Badge variant="danger" size="lg">{outros.length}</Badge>
             </div>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
               {outros.map((nutriente) => (
                 <NutrienteCard key={nutriente.slug} nutriente={nutriente} color="pink" />
               ))}

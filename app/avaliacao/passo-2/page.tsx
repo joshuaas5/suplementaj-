@@ -64,9 +64,9 @@ export default function Passo2Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={2} totalSteps={6} />
 
-      <Card className="p-8 bg-lime-400">
-        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black rotate-1">
-          <h1 className="text-3xl font-black text-lime-400 uppercase">Estilo de Vida</h1>
+      <Card className="p-4 sm:p-8 bg-lime-400">
+        <div className="bg-black px-4 sm:px-6 py-2 sm:py-3 mb-4 inline-block border-2 border-black sm:rotate-1">
+          <h1 className="text-xl sm:text-3xl font-black text-lime-400 uppercase">Estilo de Vida</h1>
         </div>
         <div className="bg-white border-4 border-black p-4 mb-6">
           <p className="text-black font-bold">

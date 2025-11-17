@@ -65,14 +65,14 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         </div>
 
         {/* Header - NEOBRUTALISM */}
-        <div className={`bg-${categoryColor} border-4 border-black shadow-[8px_8px_0_0_#000] p-8 mb-8 transform -rotate-1`}>
+        <div className={`bg-${categoryColor} border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 md:p-8 mb-8 transform sm:-rotate-1`}>
           <div className="flex items-start gap-6 mb-4">
             <div className="w-24 h-24 bg-black border-4 border-black flex items-center justify-center text-6xl flex-shrink-0">
               {nutriente.emoji}
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-3 flex-wrap">
-                <h1 className={`text-4xl sm:text-5xl font-black ${categoryTextColor} uppercase`}>
+                <h1 className={`text-2xl sm:text-4xl md:text-5xl font-black ${categoryTextColor} uppercase`}>
                   {nutriente.nome}
                 </h1>
                 <Badge variant={nutriente.categoria === 'vitamina' ? 'info' : nutriente.categoria === 'mineral' ? 'success' : 'danger'} size="lg">
@@ -104,7 +104,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.funcoes_corporais && nutriente.funcoes_corporais.length > 0 && (
           <Card className="mb-8 bg-lime-400">
             <CardHeader>
-              <CardTitle className="text-3xl">🎯 Funções no Organismo</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">🎯 Funções no Organismo</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="grid gap-3 sm:grid-cols-2">
@@ -123,7 +123,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.fontes_alimentares && nutriente.fontes_alimentares.length > 0 && (
           <Card className="mb-8 bg-cyan-400">
             <CardHeader>
-              <CardTitle className="text-3xl">🍽️ Fontes Alimentares</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">🍽️ Fontes Alimentares</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="overflow-x-auto">
@@ -171,7 +171,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.dosagem && (
           <Card className="mb-8 bg-yellow-400">
             <CardHeader>
-              <CardTitle className="text-3xl">💊 Dosagens Recomendadas</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">💊 Dosagens Recomendadas</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               {/* RDA */}
@@ -237,7 +237,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                   <div className="bg-black border-4 border-black px-4 py-2 mb-4 inline-block">
                     <h3 className="font-black text-lime-400 uppercase">Suplementação Preventiva</h3>
                   </div>
-                  <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-6">
+                  <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-6">
                     <p className="text-3xl font-black text-black mb-2">
                       {nutriente.dosagem.suplementacao_preventiva.min} - {nutriente.dosagem.suplementacao_preventiva.max} {nutriente.dosagem.suplementacao_preventiva.unidade}
                     </p>
@@ -254,7 +254,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                   <div className="bg-black border-4 border-black px-4 py-2 mb-4 inline-block">
                     <h3 className="font-black text-cyan-400 uppercase">Suplementação Terapêutica</h3>
                   </div>
-                  <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-6">
+                  <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-6">
                     <p className="text-3xl font-black text-black mb-2">
                       {nutriente.dosagem.suplementacao_terapeutica.min} - {nutriente.dosagem.suplementacao_terapeutica.max} {nutriente.dosagem.suplementacao_terapeutica.unidade}
                     </p>
@@ -290,7 +290,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.deficiencia && (
           <Card className="mb-8 bg-pink-500">
             <CardHeader>
-              <CardTitle className="text-3xl text-white">⚠️ Deficiência</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl text-white">⚠️ Deficiência</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               {nutriente.deficiencia.prevalencia && (
@@ -325,7 +325,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.excesso && (
           <Card className="mb-8 bg-pink-500">
             <CardHeader>
-              <CardTitle className="text-3xl text-white">🔴 Excesso e Toxicidade</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl text-white">🔴 Excesso e Toxicidade</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               {nutriente.excesso.toxicidade && (
@@ -357,7 +357,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.interacoes && (
           <Card className="mb-8 bg-yellow-400">
             <CardHeader>
-              <CardTitle className="text-3xl">🔄 Interações</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">🔄 Interações</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               {nutriente.interacoes.medicamentos && nutriente.interacoes.medicamentos.length > 0 && (
@@ -367,7 +367,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                   </div>
                   <div className="space-y-3">
                     {nutriente.interacoes.medicamentos.map((interacao, idx) => (
-                      <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+                      <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4">
                         <p className="font-black text-black mb-2 uppercase">{interacao.nome}</p>
                         <p className="text-sm text-black font-bold mb-2">{interacao.efeito}</p>
                         {interacao.recomendacao && (
@@ -416,12 +416,12 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.formas_suplemento && nutriente.formas_suplemento.length > 0 && (
           <Card className="mb-8 bg-cyan-400">
             <CardHeader>
-              <CardTitle className="text-3xl">💊 Formas de Suplemento</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">💊 Formas de Suplemento</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
                 {nutriente.formas_suplemento.map((forma, idx) => (
-                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4">
                     <h3 className="font-black text-black text-lg mb-2 uppercase">{forma.forma}</h3>
                     {forma.descricao && (
                       <p className="text-sm text-black font-bold mb-3">{forma.descricao}</p>
@@ -460,12 +460,12 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.evidencias && nutriente.evidencias.length > 0 && (
           <Card className="mb-8 bg-lime-400">
             <CardHeader>
-              <CardTitle className="text-3xl">🔬 Evidências Científicas</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">🔬 Evidências Científicas</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
                 {nutriente.evidencias.map((evidencia, idx) => (
-                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-6">
+                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-6">
                     <div className="mb-3">
                       <h3 className="font-black text-black text-lg uppercase">{evidencia.titulo}</h3>
                       {evidencia.autores && (
@@ -521,7 +521,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         {nutriente.afiliados.amazon && nutriente.afiliados.amazon.length > 0 && (
           <Card className="mb-8 bg-yellow-400">
             <CardHeader>
-              <CardTitle className="text-3xl">🛒 Suplementos Recomendados</CardTitle>
+              <CardTitle className="text-xl sm:text-2xl md:text-3xl">🛒 Suplementos Recomendados</CardTitle>
             </CardHeader>
             <CardContent>
               <Alert variant="info" className="mb-6">
@@ -532,7 +532,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
               </Alert>
               <div className="grid gap-4 sm:grid-cols-2">
                 {nutriente.afiliados.amazon.slice(0, 4).map((produto, idx) => (
-                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-6 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all">
+                  <div key={idx} className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-6 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all">
                     <h4 className="font-black text-black mb-2 text-lg uppercase">{produto.nome}</h4>
                     {produto.badge && (
                       <Badge variant="success" size="sm" className="mb-3">{produto.badge}</Badge>
@@ -559,9 +559,9 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         )}
 
         {/* CTA Final - NEOBRUTALISM */}
-        <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-12 text-center mb-8">
-          <div className="bg-black px-6 py-3 mb-6 inline-block -rotate-1 border-4 border-black">
-            <h3 className="text-3xl font-black text-pink-500 uppercase">
+        <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-6 sm:p-8 md:p-12 text-center mb-8">
+          <div className="bg-black px-6 py-3 mb-6 inline-block sm:-rotate-1 border-4 border-black">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-pink-500 uppercase">
               Descubra Se Você Precisa de {nutriente.nome}
             </h3>
           </div>

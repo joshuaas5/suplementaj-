@@ -24,14 +24,14 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
   // Nutriente NÃO recomendado - NEOBRUTALISM
   if (prioridade === 'nao_recomendado') {
     return (
-      <div className="bg-pink-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-6">
+      <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6">
         <div className="flex items-start gap-4">
-          <div className="w-16 h-16 bg-black border-2 border-black flex items-center justify-center text-4xl flex-shrink-0">
+          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-black border-2 border-black flex items-center justify-center text-3xl sm:text-4xl flex-shrink-0">
             {nutriente_completo.emoji}
           </div>
           <div className="flex-1">
             <div className="flex items-center gap-3 mb-3 flex-wrap">
-              <h3 className="text-2xl font-black text-white uppercase">{nutriente_completo.nome}</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase">{nutriente_completo.nome}</h3>
               <div className="bg-black px-3 py-1 border-2 border-black">
                 <XCircle className="w-5 h-5 text-pink-500" />
               </div>
@@ -41,7 +41,7 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
               <BadgePrioridade prioridade={prioridade} />
             </div>
 
-            <div className="bg-white border-4 border-black p-4">
+            <div className="bg-white border-4 border-black p-3 sm:p-4">
               <p className="text-sm text-black font-bold">
                 {contraindicacao || nota_especial}
               </p>
@@ -56,15 +56,15 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
   const bgColor = prioridade === 'alta' ? 'bg-lime-400' : prioridade === 'media' ? 'bg-yellow-400' : 'bg-cyan-400'
 
   return (
-    <div className={`${bgColor} border-4 border-black shadow-[8px_8px_0_0_#000] p-6`}>
+    <div className={`${bgColor} border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6`}>
       {/* Header */}
       <div className="flex items-start gap-4 mb-4">
-        <div className="w-16 h-16 bg-black border-2 border-black flex items-center justify-center text-4xl flex-shrink-0">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 bg-black border-2 border-black flex items-center justify-center text-3xl sm:text-4xl flex-shrink-0">
           {nutriente_completo.emoji}
         </div>
         <div className="flex-1">
           <div className="flex items-center gap-3 mb-2 flex-wrap">
-            <h3 className="text-2xl font-black text-black uppercase">{nutriente_completo.nome}</h3>
+            <h3 className="text-xl sm:text-2xl font-black text-black uppercase">{nutriente_completo.nome}</h3>
             <BadgePrioridade prioridade={prioridade} />
           </div>
           <p className="text-sm text-black font-bold italic">{nutriente_completo.nome_cientifico}</p>
@@ -74,12 +74,12 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
       {/* Por que para você */}
       {motivos.length > 0 && (
         <div className="mb-4">
-          <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+          <div className="bg-black px-3 py-1 sm:px-4 sm:py-2 mb-3 inline-block border-2 border-black">
             <h4 className="text-sm font-black text-yellow-400 uppercase">📌 Por que para você?</h4>
           </div>
           <ul className="space-y-2">
             {motivos.map((motivo, i) => (
-              <li key={i} className="flex items-start gap-3 bg-white border-2 border-black p-3">
+              <li key={i} className="flex items-start gap-3 bg-white border-2 border-black p-3 sm:p-4">
                 <CheckCircle2 className="w-5 h-5 text-black mt-0.5 flex-shrink-0 font-black" />
                 <span className="text-sm text-black font-bold">{motivo}</span>
               </li>
@@ -89,11 +89,11 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
       )}
 
       {/* Dosagem */}
-      <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 mb-4">
-        <div className="bg-black px-3 py-1 mb-2 inline-block border-2 border-black">
+      <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-3 sm:p-4 mb-4">
+        <div className="bg-black px-3 py-1 sm:px-4 sm:py-2 mb-2 inline-block border-2 border-black">
           <h4 className="text-sm font-black text-lime-400 uppercase">💊 Dose recomendada</h4>
         </div>
-        <p className="text-2xl font-black text-black">
+        <p className="text-xl sm:text-2xl font-black text-black">
           {dose_min === dose_max ? (
             `${dose_min} ${unidade}/dia`
           ) : (
@@ -110,7 +110,7 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
 
       {/* Nota especial */}
       {nota_especial && (
-        <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 mb-4">
+        <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-3 sm:p-4 mb-4">
           <div className="flex gap-3">
             <div className="bg-black p-2 border-2 border-black flex-shrink-0">
               <AlertTriangle className="w-5 h-5 text-cyan-400" />
@@ -122,15 +122,15 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
 
       {/* Link para evidência científica */}
       {nutriente_completo.evidencias && nutriente_completo.evidencias.length > 0 && (
-        <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-6 mb-4">
+        <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 mb-4">
           <div className="flex items-start gap-4">
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 bg-black flex items-center justify-center border-2 border-black">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-black flex items-center justify-center border-2 border-black">
                 <ExternalLink className="w-6 h-6 text-yellow-400" />
               </div>
             </div>
             <div className="flex-1">
-              <div className="bg-black px-3 py-1 mb-2 inline-block border-2 border-black">
+              <div className="bg-black px-3 py-1 sm:px-4 sm:py-2 mb-2 inline-block border-2 border-black">
                 <h4 className="text-sm font-black text-lime-400 uppercase">📚 Evidência Científica</h4>
               </div>
               <p className="text-sm text-black font-bold mb-2">{nutriente_completo.evidencias[0].titulo}</p>
@@ -173,7 +173,7 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
       {/* Links de produtos */}
       {nutriente_completo.afiliados?.amazon && nutriente_completo.afiliados.amazon.length > 0 && (
         <div className="border-t-4 border-black pt-4 mt-4">
-          <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
+          <div className="bg-black px-3 py-1 sm:px-4 sm:py-2 mb-3 inline-block border-2 border-black">
             <h4 className="text-sm font-black text-yellow-400 uppercase">🛒 Onde comprar</h4>
           </div>
           <div className="space-y-3">

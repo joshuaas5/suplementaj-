@@ -102,12 +102,12 @@ export default function ResultadosPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header - NEOBRUTALISM */}
         <div className="text-center mb-8">
-          <div className="inline-block bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] px-8 py-4 mb-4 rotate-1">
-            <h1 className="text-3xl sm:text-4xl font-black text-black uppercase">
+          <div className="inline-block bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] px-4 py-2 sm:px-8 sm:py-4 mb-4 sm:rotate-1">
+            <h1 className="text-2xl sm:text-4xl font-black text-black uppercase">
               Suas Recomendações
             </h1>
           </div>
-          <div className="bg-white border-4 border-black p-4 inline-block">
+          <div className="bg-white border-4 border-black p-3 sm:p-4 inline-block">
             <p className="text-black font-bold">
               Baseado no perfil fornecido • {new Date(avaliacao.data).toLocaleDateString('pt-BR')}
             </p>
@@ -146,10 +146,10 @@ export default function ResultadosPage() {
         {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
         {recomendacoesAlta.length > 0 && (
           <section className="mb-12">
-            <div className="bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 inline-block -rotate-1">
-              <h2 className="text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
+            <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
             </div>
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               {recomendacoesAlta.map(rec => (
                 <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
               ))}
@@ -160,10 +160,10 @@ export default function ResultadosPage() {
         {/* Recomendações de Prioridade Média - NEOBRUTALISM */}
         {recomendacoesMedia.length > 0 && (
           <section className="mb-12">
-            <div className="bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 inline-block rotate-1">
-              <h2 className="text-3xl font-black text-black uppercase">⚡ Prioridade Média</h2>
+            <div className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">⚡ Prioridade Média</h2>
             </div>
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               {recomendacoesMedia.map(rec => (
                 <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
               ))}
@@ -174,10 +174,10 @@ export default function ResultadosPage() {
         {/* Recomendações de Prioridade Baixa - NEOBRUTALISM */}
         {recomendacoesBaixa.length > 0 && (
           <section className="mb-12">
-            <div className="bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 inline-block -rotate-1">
-              <h2 className="text-3xl font-black text-black uppercase">💡 Prioridade Baixa</h2>
+            <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">💡 Prioridade Baixa</h2>
             </div>
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               {recomendacoesBaixa.map(rec => (
                 <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
               ))}
@@ -188,10 +188,10 @@ export default function ResultadosPage() {
         {/* Não Recomendados - NEOBRUTALISM */}
         {naoRecomendados.length > 0 && (
           <section className="mb-12">
-            <div className="bg-pink-500 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 inline-block rotate-1">
-              <h2 className="text-3xl font-black text-white uppercase">⛔ Não Recomendados</h2>
+            <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-white uppercase">⛔ Não Recomendados</h2>
             </div>
-            <div className="grid gap-6">
+            <div className="grid gap-4 sm:gap-6">
               {naoRecomendados.map(rec => (
                 <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
               ))}
@@ -200,24 +200,24 @@ export default function ResultadosPage() {
         )}
 
         {/* Footer da página de resultados - NEOBRUTALISM */}
-        <div className="bg-yellow-400 border-8 border-black shadow-[12px_12px_0_0_#000] p-8 mt-12">
+        <div className="bg-yellow-400 border-4 sm:border-8 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-4 sm:p-8 mt-12">
           <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
             <strong className="text-yellow-400 font-black uppercase">Próximos passos:</strong>
           </div>
           <ul className="text-sm space-y-3">
-            <li className="flex items-start gap-3 bg-white border-2 border-black p-3">
+            <li className="flex items-start gap-3 bg-white border-2 border-black p-2 sm:p-3">
               <span className="text-black font-black">1.</span>
               <span className="text-black font-bold">Leve essas recomendações para discussão com seu médico ou nutricionista</span>
             </li>
-            <li className="flex items-start gap-3 bg-white border-2 border-black p-3">
+            <li className="flex items-start gap-3 bg-white border-2 border-black p-2 sm:p-3">
               <span className="text-black font-black">2.</span>
               <span className="text-black font-bold">Explore cada nutriente para entender melhor suas funções</span>
             </li>
-            <li className="flex items-start gap-3 bg-white border-2 border-black p-3">
+            <li className="flex items-start gap-3 bg-white border-2 border-black p-2 sm:p-3">
               <span className="text-black font-black">3.</span>
               <span className="text-black font-bold">Considere fazer exames laboratoriais para confirmar deficiências</span>
             </li>
-            <li className="flex items-start gap-3 bg-white border-2 border-black p-3">
+            <li className="flex items-start gap-3 bg-white border-2 border-black p-2 sm:p-3">
               <span className="text-black font-black">4.</span>
               <span className="text-black font-bold">Não inicie suplementação sem orientação profissional</span>
             </li>

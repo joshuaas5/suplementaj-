@@ -88,12 +88,12 @@ export default function Passo6Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={6} totalSteps={6} />
 
-      <Card className="p-8 bg-yellow-400">
+      <Card className="p-4 sm:p-8 bg-yellow-400">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-12 h-12 bg-black flex items-center justify-center border-2 border-black">
             <CheckCircle2 className="w-8 h-8 text-yellow-400" />
           </div>
-          <h1 className="text-3xl font-black text-black uppercase">Resumo da Avaliação</h1>
+          <h1 className="text-xl sm:text-3xl font-black text-black uppercase">Resumo da Avaliação</h1>
         </div>
         <div className="bg-white border-4 border-black p-4 mb-6">
           <p className="text-black font-bold">
@@ -101,13 +101,13 @@ export default function Passo6Page() {
           </p>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-6">
           {/* Informações Básicas */}
           <div>
             <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
               <h2 className="text-lg font-black text-yellow-400 uppercase">Informações Básicas</h2>
             </div>
-            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 space-y-3">
+            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 space-y-3">
               <div className="flex justify-between border-b-2 border-black pb-2">
                 <span className="text-black font-bold uppercase text-sm">Idade:</span>
                 <span className="font-black text-black text-lg">{perfil.idade} anos</span>
@@ -136,7 +136,7 @@ export default function Passo6Page() {
             <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
               <h2 className="text-lg font-black text-cyan-400 uppercase">Estilo de Vida</h2>
             </div>
-            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 space-y-3">
+            <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 space-y-3">
               <div className="flex justify-between border-b-2 border-black pb-2">
                 <span className="text-black font-bold uppercase text-sm">Dieta:</span>
                 <span className="font-black text-black text-lg">{getDietaLabel(perfil.dieta)}</span>
@@ -154,7 +154,7 @@ export default function Passo6Page() {
               <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
                 <h2 className="text-lg font-black text-lime-400 uppercase">Condições de Saúde</h2>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 sm:gap-3">
                 {perfil.condicoes_saude.map((condicao) => (
                   <Badge key={condicao} variant="success" size="lg">
                     {condicao}
@@ -170,7 +170,7 @@ export default function Passo6Page() {
               <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
                 <h2 className="text-lg font-black text-pink-500 uppercase">Medicamentos</h2>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 sm:gap-3">
                 {perfil.medicamentos.map((med) => (
                   <Badge key={med} variant="danger" size="lg">
                     {med}
@@ -186,7 +186,7 @@ export default function Passo6Page() {
               <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
                 <h2 className="text-lg font-black text-cyan-400 uppercase">Sintomas</h2>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 sm:gap-3">
                 {perfil.sintomas.map((sintoma) => (
                   <Badge key={sintoma} variant="info" size="lg">
                     {getSintomaLabel(sintoma)}
@@ -197,7 +197,7 @@ export default function Passo6Page() {
           )}
         </div>
 
-        <div className="mt-8 bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
+        <div className="mt-8 bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-3 sm:p-4">
           <p className="text-sm text-black font-bold">
             ✨ <span className="bg-black text-lime-400 px-2 py-1 font-black uppercase">Pronto!</span> Com base nas suas informações, vamos gerar recomendações
             personalizadas de suplementação com dosagens e referências científicas.

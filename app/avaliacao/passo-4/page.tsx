@@ -57,9 +57,9 @@ export default function Passo4Page() {
     <div className="max-w-2xl mx-auto py-8 px-4">
       <ProgressBar currentStep={4} totalSteps={6} />
 
-      <Card className="p-8 bg-cyan-400">
-        <div className="bg-black px-6 py-3 mb-4 inline-block border-2 border-black rotate-1">
-          <h1 className="text-3xl font-black text-cyan-400 uppercase">Medicamentos e Cirurgias</h1>
+      <Card className="p-4 sm:p-8 bg-cyan-400">
+        <div className="bg-black px-4 sm:px-6 py-2 sm:py-3 mb-4 inline-block border-2 border-black sm:rotate-1">
+          <h1 className="text-xl sm:text-3xl font-black text-cyan-400 uppercase">Medicamentos e Cirurgias</h1>
         </div>
         <div className="bg-white border-4 border-black p-4 mb-6">
           <p className="text-black font-bold">
@@ -70,7 +70,7 @@ export default function Passo4Page() {
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           <div>
             <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
-              <h2 className="text-lg font-black text-cyan-400 uppercase">Medicamentos de uso contínuo</h2>
+              <h2 className="text-base sm:text-lg font-black text-cyan-400 uppercase">Medicamentos de uso contínuo</h2>
             </div>
             <div className="space-y-3">
               {medicamentos.map((medicamento) => (
@@ -86,7 +86,7 @@ export default function Passo4Page() {
 
           <div>
             <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
-              <h2 className="text-lg font-black text-cyan-400 uppercase">Cirurgias realizadas</h2>
+              <h2 className="text-base sm:text-lg font-black text-cyan-400 uppercase">Cirurgias realizadas</h2>
             </div>
             <div className="space-y-3">
               {cirurgias.map((cirurgia) => (
