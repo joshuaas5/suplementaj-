@@ -26,7 +26,6 @@ export function gerarPDFResultados(
   })
 
   const pageWidth = doc.internal.pageSize.getWidth()
-  const pageHeight = doc.internal.pageSize.getHeight()
   const margin = 20
   let yPosition = 20
 
