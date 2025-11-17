@@ -20,23 +20,23 @@ export function Button({
   ...props
 }: ButtonProps) {
   const variants = {
-    primary: 'bg-primary-600 hover:bg-primary-700 text-white',
-    secondary: 'bg-gray-600 hover:bg-gray-700 text-white',
-    outline: 'border-2 border-primary-600 text-primary-600 hover:bg-primary-50',
-    danger: 'bg-danger-600 hover:bg-danger-700 text-white',
-    success: 'bg-success-600 hover:bg-success-700 text-white',
+    primary: 'bg-yellow-400 hover:bg-yellow-300 text-black border-black hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000]',
+    secondary: 'bg-cyan-400 hover:bg-cyan-300 text-black border-black hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000]',
+    outline: 'bg-white hover:bg-gray-50 text-black border-black hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000]',
+    danger: 'bg-pink-500 hover:bg-pink-400 text-white border-black hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000]',
+    success: 'bg-lime-400 hover:bg-lime-300 text-black border-black hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000]',
   }
 
   const sizes = {
-    sm: 'px-3 py-1.5 text-sm',
-    md: 'px-4 py-2 text-base',
-    lg: 'px-6 py-3 text-lg',
+    sm: 'px-4 py-2 text-sm',
+    md: 'px-6 py-3 text-base',
+    lg: 'px-8 py-4 text-lg',
   }
 
   return (
     <button
       className={cn(
-        'inline-flex items-center justify-center font-medium rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed',
+        'inline-flex items-center justify-center font-black uppercase tracking-wide border-4 shadow-[6px_6px_0_0_#000] transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed active:translate-x-1 active:translate-y-1 active:shadow-[4px_4px_0_0_#000]',
         variants[variant],
         sizes[size],
         fullWidth && 'w-full',

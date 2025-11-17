@@ -8,29 +8,31 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <header className="bg-yellow-400 border-b-4 border-black sticky top-0 z-50 shadow-[0_4px_0_0_#000]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Pill className="w-8 h-8 text-primary-600" />
-            <span className="text-2xl font-bold text-gray-900">
-              Suplementa <span className="text-primary-600">Já</span>
+          <Link href="/" className="flex items-center gap-3 hover:scale-105 transition-transform">
+            <div className="bg-black p-2 border-2 border-black rotate-3">
+              <Pill className="w-8 h-8 text-yellow-400" />
+            </div>
+            <span className="text-3xl font-black text-black uppercase tracking-tighter">
+              Suplementa <span className="bg-black text-yellow-400 px-2">Já</span>
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="/avaliacao" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+          <nav className="hidden md:flex items-center gap-3">
+            <Link href="/avaliacao" className="px-4 py-2 bg-black text-yellow-400 font-black uppercase text-sm border-2 border-black hover:bg-yellow-400 hover:text-black transition-all hover:scale-105">
               Fazer Avaliação
             </Link>
-            <Link href="/nutrientes" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <Link href="/nutrientes" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-cyan-400 transition-all hover:scale-105">
               Nutrientes
             </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <Link href="/blog" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-lime-400 transition-all hover:scale-105">
               Blog
             </Link>
-            <Link href="/sobre" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <Link href="/sobre" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-pink-500 hover:text-white transition-all hover:scale-105">
               Sobre
             </Link>
           </nav>
@@ -38,7 +40,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-gray-700 hover:text-primary-600"
+            className="md:hidden p-3 bg-black text-yellow-400 border-2 border-black hover:scale-110 transition-transform"
             aria-label="Menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -47,32 +49,32 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-gray-200">
+          <nav className="md:hidden py-4 border-t-4 border-black">
             <div className="flex flex-col gap-3">
               <Link
                 href="/avaliacao"
-                className="text-gray-700 hover:text-primary-600 font-medium py-2"
+                className="px-4 py-3 bg-black text-yellow-400 font-black uppercase text-center border-2 border-black hover:bg-white hover:text-black transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Fazer Avaliação
               </Link>
               <Link
                 href="/nutrientes"
-                className="text-gray-700 hover:text-primary-600 font-medium py-2"
+                className="px-4 py-3 bg-white text-black font-bold uppercase text-center border-2 border-black hover:bg-cyan-400 transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Nutrientes
               </Link>
               <Link
                 href="/blog"
-                className="text-gray-700 hover:text-primary-600 font-medium py-2"
+                className="px-4 py-3 bg-white text-black font-bold uppercase text-center border-2 border-black hover:bg-lime-400 transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link
                 href="/sobre"
-                className="text-gray-700 hover:text-primary-600 font-medium py-2"
+                className="px-4 py-3 bg-white text-black font-bold uppercase text-center border-2 border-black hover:bg-pink-500 hover:text-white transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Sobre

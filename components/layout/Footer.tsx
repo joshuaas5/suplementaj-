@@ -5,12 +5,12 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-gray-50 border-t border-gray-200 mt-16">
+    <footer className="bg-black border-t-8 border-yellow-400 mt-16">
       {/* Disclaimer Banner */}
-      <div className="bg-warning-50 border-y border-warning-200 py-4">
+      <div className="bg-pink-500 border-b-4 border-black py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-warning-800 text-center">
-            ⚠️ <strong>IMPORTANTE:</strong> As informações fornecidas neste site são exclusivamente educativas
+          <p className="text-sm text-white text-center font-bold">
+            ⚠️ <span className="bg-black px-2 py-1">IMPORTANTE:</span> As informações fornecidas neste site são exclusivamente educativas
             e não substituem consulta, diagnóstico ou tratamento médico profissional. O ideal é
             consultar um nutricionista, nutrólogo ou médico qualificado para orientação personalizada.
             Este site não vende produtos e as recomendações são baseadas em evidências científicas gerais.
@@ -23,42 +23,44 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <Pill className="w-8 h-8 text-primary-600" />
-              <span className="text-2xl font-bold text-gray-900">
-                Suplementa <span className="text-primary-600">Já</span>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-yellow-400 p-2 border-2 border-yellow-400 rotate-3">
+                <Pill className="w-8 h-8 text-black" />
+              </div>
+              <span className="text-3xl font-black text-yellow-400 uppercase tracking-tighter">
+                Suplementa <span className="bg-yellow-400 text-black px-2">Já</span>
               </span>
             </div>
-            <p className="text-gray-600 text-sm mb-4">
+            <p className="text-gray-300 text-sm mb-4 font-medium">
               Recomendações personalizadas de suplementação vitamínica e mineral baseadas em evidências científicas.
             </p>
-            <p className="text-gray-500 text-xs">
+            <p className="text-gray-400 text-xs font-bold uppercase">
               © {currentYear} Suplementa Já. Todos os direitos reservados.
             </p>
           </div>
 
           {/* Links Rápidos */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Links Rápidos</h3>
+            <h3 className="font-black text-cyan-400 mb-4 uppercase text-lg">Links Rápidos</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/avaliacao" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Fazer Avaliação
+                <Link href="/avaliacao" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Fazer Avaliação
                 </Link>
               </li>
               <li>
-                <Link href="/nutrientes" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Nutrientes
+                <Link href="/nutrientes" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Nutrientes
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Blog
+                <Link href="/blog" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Blog
                 </Link>
               </li>
               <li>
-                <Link href="/sobre" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Sobre
+                <Link href="/sobre" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Sobre
                 </Link>
               </li>
             </ul>
@@ -66,16 +68,16 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Legal</h3>
+            <h3 className="font-black text-lime-400 mb-4 uppercase text-lg">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/termos" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Termos de Uso
+                <Link href="/termos" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Termos de Uso
                 </Link>
               </li>
               <li>
-                <Link href="/privacidade" className="text-gray-600 hover:text-primary-600 text-sm transition-colors">
-                  Política de Privacidade
+                <Link href="/privacidade" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Privacidade
                 </Link>
               </li>
             </ul>
@@ -83,11 +85,10 @@ export function Footer() {
         </div>
 
         {/* Affiliate Disclosure */}
-        <div className="mt-8 pt-8 border-t border-gray-200">
-          <p className="text-xs text-gray-500 text-center">
-            Este site participa do Programa de Associados da Amazon, um programa de publicidade de afiliados
-            projetado para fornecer um meio para sites ganharem taxas de publicidade através de links para Amazon.com.br.
-            As compras feitas através desses links não geram custo adicional para você.
+        <div className="mt-8 pt-8 border-t-4 border-yellow-400">
+          <p className="text-xs text-gray-400 text-center font-bold uppercase">
+            Este site participa do Programa de Associados da Amazon. As compras feitas através dos nossos links{' '}
+            <span className="text-yellow-400">não geram custo adicional</span> para você.
           </p>
         </div>
       </div>

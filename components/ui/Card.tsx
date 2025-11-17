@@ -19,9 +19,9 @@ export function Card({ children, className, padding = 'md', hover = false }: Car
   return (
     <div
       className={cn(
-        'bg-white rounded-lg border border-gray-200 shadow-sm',
+        'bg-white border-4 border-black shadow-[8px_8px_0_0_#000]',
         paddings[padding],
-        hover && 'transition-shadow duration-200 hover:shadow-md',
+        hover && 'transition-all duration-150 hover:translate-x-1 hover:translate-y-1 hover:shadow-[6px_6px_0_0_#000]',
         className
       )}
     >
@@ -50,7 +50,7 @@ interface CardTitleProps {
 
 export function CardTitle({ children, className }: CardTitleProps) {
   return (
-    <h3 className={cn('text-xl font-bold text-gray-900', className)}>
+    <h3 className={cn('text-2xl font-black text-black uppercase tracking-tight', className)}>
       {children}
     </h3>
   )
