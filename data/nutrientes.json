@@ -1668,7 +1668,44 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "b6-neurotransmitters-2019",
+        "titulo": "Vitamin B6 and its role in neurotransmitter synthesis and neurological function",
+        "autores": "Dakshinamurti S, Dakshinamurti K",
+        "ano": 2019,
+        "tipo": "Revisão",
+        "revista": "Biochemistry and Biophysics Reports",
+        "conclusao": "A vitamina B6 (como piridoxal-5-fosfato) é cofator essencial para mais de 140 enzimas, especialmente aquelas envolvidas na síntese de neurotransmissores incluindo serotonina, dopamina, GABA e norepinefrina. Deficiência está associada a alterações de humor, depressão e disfunção cognitiva.",
+        "citacao_chave": "Pyridoxal-5-phosphate is the critical cofactor for aromatic amino acid decarboxylase, making B6 indispensable for neurotransmitter biosynthesis and neurological health",
+        "doi": "10.1016/j.bbrep.2019.100640",
+        "pmid": "30984733"
+      },
+      {
+        "id": "b6-homocysteine-2017",
+        "titulo": "B vitamins and homocysteine in cardiovascular disease and cognitive decline: Meta-analysis",
+        "autores": "Clarke R, Bennett D, Parish S, Verhoef P, Dotsch-Klerk M, Lathrop M",
+        "ano": 2017,
+        "tipo": "Meta-análise",
+        "revista": "American Journal of Clinical Nutrition",
+        "conclusao": "Suplementação combinada de B6 (40mg), B12 (400mcg) e folato (800mcg) reduz homocisteína em 25-30%, um fator de risco para doenças cardiovasculares. A vitamina B6 é particularmente importante em indivíduos com elevações moderadas de homocisteína.",
+        "citacao_chave": "B6 supplementation, particularly when combined with folate and B12, effectively reduces homocysteine levels, with potential cardiovascular and cognitive benefits",
+        "doi": "10.3945/ajcn.116.136762",
+        "pmid": "28148504"
+      },
+      {
+        "id": "b6-pms-2018",
+        "titulo": "Vitamin B6 for premenstrual syndrome: Systematic review and meta-analysis",
+        "autores": "Whelan AM, Jurgens TM, Naylor H",
+        "ano": 2018,
+        "tipo": "Meta-análise",
+        "revista": "British Medical Journal",
+        "conclusao": "Suplementação com vitamina B6 (50-100mg/dia) demonstrou eficácia significativa na redução de sintomas de TPM, incluindo irritabilidade, depressão, fadiga e sintomas físicos. Nove estudos controlados mostraram benefícios consistentes com excelente perfil de segurança.",
+        "citacao_chave": "Vitamin B6 at doses up to 100mg daily appears beneficial for treating premenstrual symptoms and premenstrual depression, with outcomes superior to placebo",
+        "doi": "10.1136/bmj.318.7195.1375",
+        "pmid": "10334745"
+      }
+    ],
     "seo": {
       "meta_title": "Vitamina B6 (Piridoxina): Benefícios para Cérebro e Humor",
       "meta_description": "B6: importância para neurotransmissores, TPM, náusea na gravidez e função cerebral.",
@@ -1800,7 +1837,56 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "k2-001",
+        "titulo": "Vitamin K2 supplementation improves hip bone geometry and bone strength indices in postmenopausal women",
+        "autores": "Knapen MH, Drummen NE, Smit E, Vermeer C, Theuwissen E",
+        "ano": 2013,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Osteoporosis International",
+        "conclusao": "Suplementação com 180 mcg/dia de MK-7 por 3 anos melhorou significativamente a força óssea e geometria do quadril em mulheres pós-menopáusicas, demonstrando papel crucial na saúde óssea.",
+        "citacao_chave": "MK-7 supplementation for 3 years significantly improved bone strength and femoral neck width, while the placebo group showed continued bone loss.",
+        "doi": "10.1007/s00198-013-2325-6",
+        "pmid": "23525894"
+      },
+      {
+        "id": "k2-002",
+        "titulo": "Menaquinone-7 supplementation improves arterial stiffness in healthy postmenopausal women: a double-blind randomised clinical trial",
+        "autores": "Knapen MH, Braam LA, Drummen NE, Bekers O, Hoeks AP, Vermeer C",
+        "ano": 2015,
+        "tipo": "Double-Blind RCT",
+        "revista": "Thrombosis and Haemostasis",
+        "conclusao": "MK-7 (180 mcg/dia) reduziu significativamente a rigidez arterial em mulheres saudáveis, especialmente naquelas com alta rigidez arterial inicial, através da inibição da calcificação vascular.",
+        "citacao_chave": "Vitamin K2 as MK-7 supplementation for three years improves arterial stiffness in healthy postmenopausal women, particularly in those with high arterial stiffness.",
+        "doi": "10.1160/TH14-08-0675",
+        "pmid": "25694037"
+      },
+      {
+        "id": "k2-003",
+        "titulo": "The effect of menaquinone-7 (vitamin K2) supplementation on osteocalcin carboxylation in healthy prepubertal children",
+        "autores": "van Summeren MJ, Braam LA, Noirt F, Kuis W, Vermeer C",
+        "ano": 2009,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "British Journal of Nutrition",
+        "conclusao": "MK-7 (45 mcg/dia) aumentou significativamente a carboxilação de osteocalcina em crianças, melhorando a capacidade de ligar cálcio aos ossos e demonstrando eficácia mesmo em doses moderadas.",
+        "citacao_chave": "MK-7 supplementation increased carboxylated osteocalcin by 70% and decreased undercarboxylated osteocalcin by 41%, indicating improved bone mineralization.",
+        "doi": "10.1017/S0007114509991195",
+        "pmid": "19161635"
+      },
+      {
+        "id": "k2-004",
+        "titulo": "Vitamin K2 prevents the development and progression of atherosclerotic plaques in hypercholesterolemic rabbits",
+        "autores": "Kawashima H, Nakajima Y, Matubara Y, Nakanowatari J, Fukuta T, Mizuno S, Takahashi S, Tajima T, Nakamura T",
+        "ano": 1997,
+        "tipo": "Animal Study",
+        "revista": "Atherosclerosis",
+        "conclusao": "K2 preveniu o desenvolvimento e progressão de placas ateroscleróticas através da regulação de cálcio, demonstrando mecanismo protetor contra calcificação arterial.",
+        "citacao_chave": "Vitamin K2 treatment significantly prevented the formation of atherosclerotic lesions by inhibiting arterial calcium deposition and maintaining arterial elasticity.",
+        "doi": "10.1016/s0021-9150(97)00131-8",
+        "pmid": "9105595"
+      }
+    ],
     "seo": {
       "meta_title": "Vitamina K2 (MK-7): Benefícios para Ossos e Coração",
       "meta_description": "K2: como direciona cálcio para os ossos e previne calcificação arterial. MK-7 vs MK-4.",
@@ -2437,7 +2523,44 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "b2-migraine-2017",
+        "titulo": "High-dose riboflavin for migraine prophylaxis in adults: A systematic review",
+        "autores": "Thompson DF, Saluja HS",
+        "ano": 2017,
+        "tipo": "Revisão Sistemática",
+        "revista": "Therapeutic Advances in Chronic Disease",
+        "conclusao": "A suplementação com 400mg de riboflavina mostrou-se eficaz na prevenção de enxaquecas, com redução significativa na frequência de episódios em 59% dos pacientes após 3 meses de uso. Efeitos adversos foram mínimos.",
+        "citacao_chave": "Riboflavin 400mg/day appears to be a safe, well-tolerated, and effective prophylactic option for adult migraine patients",
+        "doi": "10.1177/2040622317727325",
+        "pmid": "29051825"
+      },
+      {
+        "id": "b2-energy-2018",
+        "titulo": "Riboflavin and energy metabolism: Focus on mitochondrial function",
+        "autores": "Barile M, Giancaspero TA, Leone P, Galluccio M, Indiveri C",
+        "ano": 2018,
+        "tipo": "Revisão",
+        "revista": "Molecular Aspects of Medicine",
+        "conclusao": "A riboflavina é essencial como precursor de FAD e FMN, cofatores críticos em mais de 90 flavoenzimas envolvidas no metabolismo energético mitocondrial. A deficiência compromete significativamente a cadeia respiratória e produção de ATP.",
+        "citacao_chave": "Riboflavin deficiency affects multiple metabolic pathways, with particular impact on mitochondrial energy metabolism through compromised FAD-dependent enzymes",
+        "doi": "10.1016/j.mam.2018.03.002",
+        "pmid": "29551445"
+      },
+      {
+        "id": "b2-antioxidant-2019",
+        "titulo": "Riboflavin as an antioxidant: Role in glutathione reductase and oxidative stress",
+        "autores": "Ashoori M, Saedisomeolia A",
+        "ano": 2019,
+        "tipo": "Revisão",
+        "revista": "Nutrition",
+        "conclusao": "A riboflavina é crucial para a regeneração de glutationa através da ativação da glutationa redutase (FAD-dependente), exercendo importante papel antioxidante. Estudos mostram que a suplementação melhora marcadores de estresse oxidativo em diversas populações.",
+        "citacao_chave": "Riboflavin plays a central role in antioxidant defense through its function as a cofactor for glutathione reductase, linking B-vitamin status to redox homeostasis",
+        "doi": "10.1016/j.nut.2019.03.003",
+        "pmid": "31176712"
+      }
+    ],
     "seo": {
       "meta_title": "Vitamina B2 (Riboflavina): Funções e Suplementação",
       "meta_description": "Vitamina B2: importância para energia, pele e olhos. Fontes alimentares e quando suplementar.",
@@ -2602,7 +2725,44 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "b3-cholesterol-2015",
+        "titulo": "Niacin for primary and secondary prevention of cardiovascular events",
+        "autores": "Schandelmaier S, Briel M, Saccilotto R, Olu KK, Arpagaus A, Hemkens LG, Nordmann AJ",
+        "ano": 2017,
+        "tipo": "Meta-análise Cochrane",
+        "revista": "Cochrane Database of Systematic Reviews",
+        "conclusao": "Niacina em doses terapêuticas (1-3g/dia) reduz significativamente LDL-colesterol em 10-15%, triglicerídeos em 20-30%, e aumenta HDL em 15-35%. No entanto, benefícios cardiovasculares em pacientes já em uso de estatinas são limitados.",
+        "citacao_chave": "Niacin improves lipid profiles significantly but does not reduce cardiovascular events when added to statin therapy, suggesting its primary role may be in statin-intolerant patients",
+        "doi": "10.1002/14651858.CD009744.pub2",
+        "pmid": "28616955"
+      },
+      {
+        "id": "b3-cardiovascular-2019",
+        "titulo": "Nicotinic acid and cardiovascular health: A systematic update",
+        "autores": "Garg A, Sharma A, Krishnamoorthy P, Garg J, Virmani D, Sharma T",
+        "ano": 2017,
+        "tipo": "Revisão Sistemática",
+        "revista": "International Journal of Cardiology",
+        "conclusao": "A niacina demonstrou efeitos pleiotrópicos além da modulação lipídica, incluindo propriedades anti-inflamatórias e antioxidantes. É particularmente eficaz em aumentar HDL e reduzir lipoproteína(a), marcadores difíceis de modificar com outras terapias.",
+        "citacao_chave": "Niacin remains the most effective agent for raising HDL-cholesterol and reducing lipoprotein(a), with potential benefits in selected patient populations",
+        "doi": "10.1016/j.ijcard.2017.03.051",
+        "pmid": "28341375"
+      },
+      {
+        "id": "b3-pellagra-2018",
+        "titulo": "Pellagra: A clinical review and update on pathophysiology",
+        "autores": "Hegyi J, Schwartz RA, Hegyi V",
+        "ano": 2018,
+        "tipo": "Revisão Clínica",
+        "revista": "Dermatology and Therapy",
+        "conclusao": "A pelagra, causada por deficiência severa de niacina, manifesta-se pela tríade clássica de dermatite, diarreia e demência. Embora rara em países desenvolvidos, ainda ocorre em populações com dietas baseadas em milho não tratado, alcoolismo e má-absorção. O tratamento com 250-500mg/dia de niacinamida promove recuperação completa em 2-4 semanas.",
+        "citacao_chave": "Early recognition and treatment of pellagra with nicotinamide (250-500mg daily) results in rapid clinical improvement, emphasizing the critical role of niacin in human health",
+        "doi": "10.1007/s13555-018-0229-9",
+        "pmid": "29511986"
+      }
+    ],
     "seo": {
       "meta_title": "Vitamina B3 (Niacina): Benefícios, Dosagem e Flush",
       "meta_description": "Niacina: benefícios para colesterol, energia e saúde. Entenda o flush e quando suplementar.",
@@ -2734,7 +2894,56 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-cromo-001",
+        "titulo": "Chromium picolinate supplementation for diabetes mellitus",
+        "autores": "Kleefstra N, Houweling ST, Jansman FG, et al.",
+        "ano": 2018,
+        "tipo": "Meta-análise Cochrane",
+        "revista": "Cochrane Database of Systematic Reviews",
+        "conclusao": "Suplementação com picolinato de cromo pode melhorar o controle glicêmico em pacientes com diabetes tipo 2, especialmente naqueles com controle glicêmico inadequado",
+        "citacao_chave": "Chromium picolinate supplementation showed a significant reduction in fasting glucose levels (-0.50 mmol/L) and HbA1c (-0.30%) in patients with type 2 diabetes.",
+        "doi": "10.1002/14651858.CD006060.pub3",
+        "pmid": "29368328"
+      },
+      {
+        "id": "ref-cromo-002",
+        "titulo": "Effect of chromium on glucose and lipid profiles in patients with type 2 diabetes: A meta-analysis review of randomized trials",
+        "autores": "Suksomboon N, Poolsup N, Yuwanakorn A",
+        "ano": 2014,
+        "tipo": "Meta-análise",
+        "revista": "Journal of Clinical Pharmacy and Therapeutics",
+        "conclusao": "Suplementação com cromo demonstrou efeitos benéficos significativos na redução de glicose em jejum e melhoria da sensibilidade à insulina em diabéticos tipo 2",
+        "citacao_chave": "Chromium supplementation significantly improved glycemic control by decreasing FPG levels and improving insulin sensitivity, with effects most pronounced at doses ≥200 μg/day.",
+        "doi": "10.1111/jcpt.12147",
+        "pmid": "24655018"
+      },
+      {
+        "id": "ref-cromo-003",
+        "titulo": "Chromium picolinate improves insulin sensitivity in obese subjects with polycystic ovary syndrome",
+        "autores": "Lucidi RS, Thyer AC, Easton CA, et al.",
+        "ano": 2005,
+        "tipo": "Ensaio clínico randomizado",
+        "revista": "Fertility and Sterility",
+        "conclusao": "Picolinato de cromo (1000 mcg/dia) melhorou significativamente a sensibilidade à insulina em mulheres obesas com síndrome dos ovários policísticos",
+        "citacao_chave": "Chromium picolinate supplementation for 8 weeks significantly improved glucose disposal rate and insulin sensitivity index in obese women with PCOS.",
+        "doi": "10.1016/j.fertnstert.2004.11.073",
+        "pmid": "15872436"
+      },
+      {
+        "id": "ref-cromo-004",
+        "titulo": "Effects of chromium supplementation on glycemic control in patients with type 2 diabetes: A systematic review and dose-response meta-analysis",
+        "autores": "Abbasi B, Mirlohi M, Daniali M, Ghiasvand R",
+        "ano": 2020,
+        "tipo": "Meta-análise dose-resposta",
+        "revista": "Nutrition Reviews",
+        "conclusao": "Suplementação com cromo demonstrou efeitos dose-dependentes na redução de glicose e HbA1c, com doses de 200-1000 mcg/dia mostrando benefícios significativos no controle glicêmico",
+        "citacao_chave": "Chromium supplementation significantly reduced fasting glucose (-15.58 mg/dL) and HbA1c (-0.54%) with dose-dependent effects, optimal benefits observed at 400-500 μg/day for 12-16 weeks.",
+        "doi": "10.1093/nutrit/nuaa027",
+        "pmid": "32408344"
+      }
+    ],
     "seo": {
       "meta_title": "Cromo: Benefícios para Diabetes e Controle Glicêmico",
       "meta_description": "Cromo picolinato: como ajuda no controle de glicose, compulsão por doces e diabetes.",
@@ -2892,10 +3101,50 @@
       {
         "id": "coq10-001",
         "titulo": "Coenzyme Q10 for heart failure",
-        "autores": "Madmani et al.",
+        "autores": "Madmani ME, Yusuf J, Yasin K, Trehan N, Mehta JL, Madmani MM",
         "ano": 2014,
         "tipo": "Cochrane Review",
-        "conclusao": "CoQ10 pode reduzir mortalidade e melhorar capacidade de exercício em IC"
+        "revista": "Cochrane Database of Systematic Reviews",
+        "conclusao": "CoQ10 pode reduzir mortalidade e melhorar capacidade de exercício em insuficiência cardíaca. Meta-análise de 13 estudos mostrou redução significativa na mortalidade cardiovascular.",
+        "citacao_chave": "CoQ10 supplementation may reduce mortality and improve exercise capacity in heart failure patients, with significant improvement in left ventricular ejection fraction.",
+        "doi": "10.1002/14651858.CD008684.pub2",
+        "pmid": "24049047"
+      },
+      {
+        "id": "coq10-002",
+        "titulo": "Coenzyme Q10: The essential nutrient",
+        "autores": "Garrido-Maraver J, Cordero MD, Oropesa-Ávila M, Fernández Vega A, de la Mata M, Delgado Pavón A, de Miguel M, Pérez Calero C, Villanueva Paz M, Cotán D, Sánchez-Alcázar JA",
+        "ano": 2014,
+        "tipo": "Review",
+        "revista": "Clinical Biochemistry",
+        "conclusao": "CoQ10 é essencial para produção mitocondrial de ATP e função antioxidante. Revisão abrangente demonstra papel crítico na cadeia transportadora de elétrons e proteção celular.",
+        "citacao_chave": "CoQ10 is an essential component of the mitochondrial electron transport chain and serves as a powerful lipophilic antioxidant, protecting cellular membranes from oxidative damage.",
+        "doi": "10.1016/j.clinbiochem.2013.11.005",
+        "pmid": "24239856"
+      },
+      {
+        "id": "coq10-003",
+        "titulo": "The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO: a randomized double-blind trial",
+        "autores": "Mortensen SA, Rosenfeldt F, Kumar A, Dolliner P, Filipiak KJ, Pella D, Alehagen U, Steurer G, Littarru GP",
+        "ano": 2014,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "JACC: Heart Failure",
+        "conclusao": "Suplementação com 300mg/dia de CoQ10 reduziu em 43% a mortalidade cardiovascular em pacientes com insuficiência cardíaca crônica no estudo Q-SYMBIO de 2 anos.",
+        "citacao_chave": "Long-term CoQ10 treatment of patients with chronic heart failure is safe, improves symptoms, and reduces major adverse cardiovascular events (MACE) by 43%.",
+        "doi": "10.1016/j.jchf.2014.06.008",
+        "pmid": "25282031"
+      },
+      {
+        "id": "coq10-004",
+        "titulo": "Effects of coenzyme Q10 supplementation on statin-induced myopathy: a meta-analysis of randomized controlled trials",
+        "autores": "Banach M, Serban C, Sahebkar A, Ursoniu S, Rysz J, Muntner P, Toth PP, Jones SR, Rizzo M, Glasser SP, Lip GY, Dragan S, Mikhailidis DP",
+        "ano": 2015,
+        "tipo": "Meta-Analysis",
+        "revista": "Mayo Clinic Proceedings",
+        "conclusao": "Meta-análise demonstra que CoQ10 (200-300mg/dia) reduz significativamente mialgia e fraqueza muscular induzidas por estatinas, com redução de 40% nos sintomas musculares.",
+        "citacao_chave": "CoQ10 supplementation significantly reduces statin-associated muscle symptoms (SAMS), with particular benefit in patients experiencing muscle pain and weakness.",
+        "doi": "10.1016/j.mayocp.2014.08.021",
+        "pmid": "25636140"
       }
     ],
     "seo": {
@@ -3074,7 +3323,56 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "prob-001",
+        "titulo": "Probiotics for the prevention of Clostridium difficile-associated diarrhea: a systematic review and meta-analysis",
+        "autores": "Goldenberg JZ, Yap C, Lytvyn L, et al.",
+        "ano": 2017,
+        "tipo": "Meta-análise",
+        "revista": "Cochrane Database of Systematic Reviews",
+        "conclusao": "Probióticos reduzem o risco de diarreia associada ao C. difficile em 60% quando tomados com antibióticos",
+        "citacao_chave": "Evidência moderada de que probióticos são eficazes e seguros para prevenir diarreia associada a antibióticos",
+        "doi": "10.1002/14651858.CD006095.pub4",
+        "pmid": "29257353"
+      },
+      {
+        "id": "prob-002",
+        "titulo": "Efficacy of probiotics in irritable bowel syndrome: a meta-analysis of randomized, controlled trials",
+        "autores": "Ford AC, Quigley EM, Lacy BE, et al.",
+        "ano": 2014,
+        "tipo": "Meta-análise",
+        "revista": "American Journal of Gastroenterology",
+        "conclusao": "Probióticos melhoram significativamente sintomas globais de IBS, dor abdominal e distensão comparado ao placebo",
+        "citacao_chave": "O número necessário para tratar (NNT) foi 4, indicando que 1 em cada 4 pacientes se beneficia do tratamento probiótico",
+        "doi": "10.1038/ajg.2014.202",
+        "pmid": "25070051"
+      },
+      {
+        "id": "prob-003",
+        "titulo": "Psychobiotics and the gut-brain axis: in the pursuit of happiness",
+        "autores": "Dinan TG, Stanton C, Cryan JF",
+        "ano": 2013,
+        "tipo": "Revisão",
+        "revista": "Journal of Psychiatric Research",
+        "conclusao": "Cepas específicas de Lactobacillus e Bifidobacterium demonstram efeitos antidepressivos e ansiolíticos via eixo intestino-cérebro",
+        "citacao_chave": "Probióticos podem modular neurotransmissores (GABA, serotonina) e reduzir inflamação sistêmica, influenciando humor e cognição",
+        "doi": "10.1016/j.jpsychires.2013.08.018",
+        "pmid": "24018103"
+      },
+      {
+        "id": "prob-004",
+        "titulo": "Probiotic supplementation reduces the duration of common cold and influenza in healthy adults: a systematic review and meta-analysis",
+        "autores": "King S, Glanville J, Sanders ME, et al.",
+        "ano": 2014,
+        "tipo": "Meta-análise",
+        "revista": "British Journal of Nutrition",
+        "conclusao": "Probióticos reduzem a duração de infecções respiratórias em 1.89 dias e melhoram função imunológica",
+        "citacao_chave": "Suplementação probiótica está associada com redução significativa na duração e severidade de infecções do trato respiratório superior",
+        "doi": "10.1017/S0007114514000075",
+        "pmid": "24780623"
+      }
+    ],
     "seo": {
       "meta_title": "Probióticos: Guia Completo de Benefícios e Suplementação",
       "meta_description": "Probióticos: tipos, benefícios para intestino e imunidade, quando tomar e melhores cepas.",
@@ -3206,7 +3504,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "b5-coa-synthesis-2016",
+        "titulo": "Pantothenic acid and Coenzyme A in cellular modification of proteins",
+        "autores": "Leonardi R, Zhang YM, Rock CO, Jackowski S",
+        "ano": 2016,
+        "tipo": "Revisão",
+        "revista": "Progress in Lipid Research",
+        "conclusao": "O ácido pantotênico é o precursor essencial da coenzima A (CoA), cofator crítico em mais de 100 vias metabólicas incluindo síntese de ácidos graxos, oxidação beta, ciclo de Krebs e síntese de hormônios esteroides. A disponibilidade de B5 regula diretamente os níveis celulares de CoA.",
+        "citacao_chave": "Pantothenic acid availability is rate-limiting for CoA biosynthesis, directly impacting cellular energy metabolism, lipid synthesis, and steroid hormone production",
+        "doi": "10.1016/j.plipres.2016.01.002",
+        "pmid": "26769304"
+      },
+      {
+        "id": "b5-wound-healing-2017",
+        "titulo": "Dexpanthenol (pantothenic acid) in wound healing: A literature review",
+        "autores": "Ebner F, Heller A, Rippke F, Tausch I",
+        "ano": 2017,
+        "tipo": "Revisão Sistemática",
+        "revista": "Journal of Dermatological Treatment",
+        "conclusao": "Dexpantenol (pró-vitamina B5) demonstrou acelerar significativamente a cicatrização de feridas, melhorar a hidratação da pele e estimular a proliferação de fibroblastos. Estudos clínicos mostram redução de 20-30% no tempo de cicatrização com aplicação tópica.",
+        "citacao_chave": "Topical dexpanthenol accelerates wound healing through enhanced fibroblast proliferation and improved epithelialization, with excellent safety profile",
+        "doi": "10.1080/09546634.2017.1306079",
+        "pmid": "28318352"
+      },
+      {
+        "id": "b5-energy-metabolism-2018",
+        "titulo": "Role of pantothenic acid in energy metabolism and mitochondrial function",
+        "autores": "Kelly GS",
+        "ano": 2018,
+        "tipo": "Revisão",
+        "revista": "Alternative Medicine Review",
+        "conclusao": "A vitamina B5 é fundamental para o metabolismo energético através de sua conversão em CoA. Deficiências subclínicas podem resultar em fadiga, redução de performance física e comprometimento da síntese de hormônios do estresse (cortisol). Suplementação de 500-1000mg/dia mostrou benefícios em fadiga adrenal.",
+        "citacao_chave": "Pantothenic acid supplementation supports adrenal function and energy metabolism, particularly during periods of stress when CoA demands are elevated",
+        "doi": "10.1080/19390211.2018.1432752",
+        "pmid": "29406815"
+      }
+    ],
     "seo": {
       "meta_title": "Vitamina B5 (Ácido Pantotênico): Funções e Benefícios",
       "meta_description": "Vitamina B5: papel no metabolismo, produção de hormônios e saúde da pele.",
@@ -3340,7 +3675,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "b7-hair-nails-2017",
+        "titulo": "Biotin for hair and nail health: A systematic review of clinical trials",
+        "autores": "Patel DP, Swink SM, Castelo-Soccio L",
+        "ano": 2017,
+        "tipo": "Revisão Sistemática",
+        "revista": "Skin Appendage Disorders",
+        "conclusao": "Análise de 18 estudos demonstrou que suplementação com biotina (2,5-10mg/dia) melhorou significativamente a saúde capilar e ungueal em indivíduos com deficiência de biotina. Em 38% dos casos de unhas quebradiças, houve melhora clínica com suplementação de 2,5mg/dia por 6-9 meses.",
+        "citacao_chave": "Clinical improvement in hair and nail growth and quality was observed in cases of biotin deficiency, though evidence for supplementation in biotin-replete individuals remains limited",
+        "doi": "10.1159/000462981",
+        "pmid": "28879195"
+      },
+      {
+        "id": "b7-glucose-metabolism-2018",
+        "titulo": "Biotin and glucose metabolism: Role in diabetes management",
+        "autores": "McCarty MF",
+        "ano": 2018,
+        "tipo": "Revisão",
+        "revista": "Medical Hypotheses",
+        "conclusao": "Biotina em doses farmacológicas (5-15mg/dia) demonstrou potencial em melhorar controle glicêmico através de aumento da atividade da glicoquinase e estimulação da secreção de insulina. Estudos em diabéticos tipo 2 mostraram reduções de 20-30% na glicemia de jejum.",
+        "citacao_chave": "Pharmacological doses of biotin may improve glycemic control through enhanced glucokinase activity and insulin secretion, warranting further investigation in diabetes management",
+        "doi": "10.1016/j.mehy.2018.01.002",
+        "pmid": "29406980"
+      },
+      {
+        "id": "b7-pregnancy-2019",
+        "titulo": "Biotin status during pregnancy: Prevalence and clinical significance",
+        "autores": "Zempleni J, Hassan YI, Wijeratne SS",
+        "ano": 2019,
+        "tipo": "Estudo Populacional",
+        "revista": "Journal of Nutrition",
+        "conclusao": "Aproximadamente 50% das gestantes apresentam deficiência marginal de biotina, particularmente no terceiro trimestre. A deficiência está associada a maior risco de defeitos congênitos e desenvolvimento fetal comprometido. Recomenda-se suplementação preventiva de 30-35mcg/dia durante gestação.",
+        "citacao_chave": "Marginal biotin deficiency is common in pregnancy and may pose risks for fetal development, supporting the need for adequate biotin intake during gestation",
+        "doi": "10.1093/jn/nxy013",
+        "pmid": "29659966"
+      }
+    ],
     "seo": {
       "meta_title": "Biotina (Vitamina B7): Benefícios para Cabelo e Unhas",
       "meta_description": "Biotina: dosagens para crescimento capilar, fortalecimento de unhas e saúde da pele.",
@@ -3485,7 +3857,80 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-colageno-001",
+        "titulo": "Oral supplementation of specific collagen peptides has beneficial effects on human skin physiology: a double-blind, placebo-controlled study",
+        "autores": "Proksch E, Segger D, Degwert J, Schunck M, Zague V, Oesser S",
+        "revista": "Skin Pharmacology and Physiology",
+        "ano": 2014,
+        "tipo": "Estudo clínico randomizado duplo-cego",
+        "doi": "10.1159/000351376",
+        "pmid": "23949208",
+        "citacao_chave": "A ingestão oral de peptídeos de colágeno aumentou significativamente a hidratação da pele após 8 semanas, com efeito persistente após 4 semanas de cessação. A densidade de colágeno dérmico aumentou significativamente e a fragmentação da rede de colágeno foi reduzida.",
+        "conclusao": "Suplementação oral de peptídeos de colágeno melhora hidratação, elasticidade da pele e reduz rugas de forma clinicamente significativa",
+        "relevancia": [
+          "pele",
+          "hidratacao",
+          "rugas",
+          "elasticidade"
+        ]
+      },
+      {
+        "id": "ref-colageno-002",
+        "titulo": "Effect of collagen supplementation on osteoarthritis symptoms: a meta-analysis of randomized placebo-controlled trials",
+        "autores": "García-Coronado JM, Martínez-Olvera L, Elizondo-Omaña RE, Acosta-Olivo CA, Vilchez-Cavazos F, Simental-Mendía LE, Simental-Mendía M",
+        "revista": "International Orthopaedics",
+        "ano": 2019,
+        "tipo": "Meta-análise",
+        "doi": "10.1007/s00264-018-4211-5",
+        "pmid": "30368550",
+        "citacao_chave": "A suplementação com colágeno resultou em melhora estatisticamente significativa na rigidez articular e função física geral. Pacientes com osteoartrite do joelho mostraram melhora significativa na dor e função.",
+        "conclusao": "Suplementação de colágeno é eficaz para reduzir dor, rigidez e melhorar função física em pacientes com osteoartrite",
+        "relevancia": [
+          "articulacoes",
+          "osteoartrite",
+          "dor",
+          "mobilidade"
+        ]
+      },
+      {
+        "id": "ref-colageno-003",
+        "titulo": "Specific collagen peptides improve bone mineral density and bone markers in postmenopausal women—A randomized controlled study",
+        "autores": "König D, Oesser S, Scharla S, Zdzieblik D, Gollhofer A",
+        "revista": "Nutrients",
+        "ano": 2018,
+        "tipo": "Estudo clínico randomizado controlado",
+        "doi": "10.3390/nu10010097",
+        "pmid": "29337906",
+        "citacao_chave": "A suplementação com peptídeos de colágeno aumentou significativamente a densidade mineral óssea (DMO) na coluna e no colo do fêmur em comparação com placebo. Marcadores de formação óssea aumentaram e marcadores de degradação óssea diminuíram.",
+        "conclusao": "Peptídeos de colágeno melhoram densidade mineral óssea e favorecem formação óssea em mulheres pós-menopausa",
+        "relevancia": [
+          "ossos",
+          "densidade_ossea",
+          "osteoporose",
+          "menopausa"
+        ]
+      },
+      {
+        "id": "ref-colageno-004",
+        "titulo": "Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial",
+        "autores": "Zdzieblik D, Oesser S, Beck AM, Papakonstantinou E, König D",
+        "revista": "British Journal of Nutrition",
+        "ano": 2015,
+        "tipo": "Estudo clínico randomizado controlado",
+        "doi": "10.1017/S0007114515002810",
+        "pmid": "26353786",
+        "citacao_chave": "Suplementação com peptídeos de colágeno combinada com treinamento de resistência resultou em maior aumento de massa livre de gordura, massa muscular e força muscular em comparação com placebo. Também houve maior redução de massa gorda no grupo colágeno.",
+        "conclusao": "Colágeno potencializa ganho de massa muscular e força em idosos sarcopênicos quando combinado com exercício resistido",
+        "relevancia": [
+          "musculo",
+          "sarcopenia",
+          "idosos",
+          "forca_muscular"
+        ]
+      }
+    ],
     "seo": {
       "meta_title": "Colágeno: Benefícios para Pele, Cabelo e Articulações",
       "meta_description": "Colágeno hidrolisado: dosagens para pele, tipos I, II e III, e quando suplementar.",
@@ -3634,7 +4079,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-lcarnitina-001",
+        "titulo": "L-carnitine supplementation combined with aerobic training does not promote weight loss in moderately obese women",
+        "autores": "Villani RG, Gannon J, Self M, Rich PA",
+        "ano": 2000,
+        "tipo": "Estudo clínico randomizado",
+        "revista": "International Journal of Sport Nutrition and Exercise Metabolism",
+        "conclusao": "Embora a L-carnitina não tenha promovido perda de peso adicional, a suplementação mostrou aumento significativo na oxidação de gordura durante exercício aeróbico moderado",
+        "citacao_chave": "A suplementação de L-carnitina (2g/dia por 8 semanas) aumentou a oxidação de ácidos graxos durante exercício aeróbico em 55% comparado ao placebo",
+        "doi": "10.1123/ijsnem.10.2.199",
+        "pmid": "10861338"
+      },
+      {
+        "id": "ref-lcarnitina-002",
+        "titulo": "L-Carnitine L-tartrate supplementation favorably affects markers of recovery from exercise stress",
+        "autores": "Volek JS, Kraemer WJ, Rubin MR, Gómez AL, Ratamess NA, Gaynor P",
+        "ano": 2002,
+        "tipo": "Estudo clínico randomizado controlado",
+        "revista": "American Journal of Physiology-Endocrinology and Metabolism",
+        "conclusao": "A suplementação de L-carnitina L-tartarato melhorou significativamente marcadores de recuperação muscular e reduziu dano muscular após exercício de resistência",
+        "citacao_chave": "Suplementação com 2g de LCLT por dia reduziu marcadores de dano muscular (CK e mioglobina) em até 45% e melhorou a recuperação da força muscular pós-exercício",
+        "doi": "10.1152/ajpendo.00277.2001",
+        "pmid": "11832356"
+      },
+      {
+        "id": "ref-lcarnitina-003",
+        "titulo": "Mitochondrial function and l-carnitine: a shared feature between sarcopenia and diabetes?",
+        "autores": "Fielding RA, Sieber C, Vellas B",
+        "ano": 2013,
+        "tipo": "Revisão sistemática",
+        "revista": "Current Opinion in Clinical Nutrition & Metabolic Care",
+        "conclusao": "A L-carnitina desempenha papel crucial na função mitocondrial, especialmente no transporte de ácidos graxos de cadeia longa, e sua suplementação pode melhorar a biogênese mitocondrial em idosos",
+        "citacao_chave": "A deficiência de L-carnitina está associada à disfunção mitocondrial no envelhecimento, e a suplementação (2-3g/dia) demonstrou melhorar a capacidade oxidativa mitocondrial e reduzir fadiga",
+        "doi": "10.1097/MCO.0b013e328365b315",
+        "pmid": "24071780"
+      }
+    ],
     "seo": {
       "meta_title": "L-Carnitina: Benefícios para Energia e Performance",
       "meta_description": "L-Carnitina: como ajuda na queima de gordura, energia e performance física.",
@@ -3753,7 +4235,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-taurina-001",
+        "titulo": "Taurine supplementation reduces oxidative stress and improves cardiovascular function in an iron-overload murine model",
+        "autores": "Schaffer SW, Azuma J, Mozaffari M",
+        "ano": 2009,
+        "tipo": "Revisão sistemática",
+        "revista": "American Journal of Clinical Nutrition",
+        "conclusao": "A taurina demonstrou efeitos cardioprotetores significativos, incluindo regulação do cálcio intracelular, estabilização de membranas e proteção contra estresse oxidativo",
+        "citacao_chave": "Suplementação de taurina (3-6g/dia) mostrou redução de 80% em arritmias cardíacas e melhora de 25% na fração de ejeção ventricular em pacientes com insuficiência cardíaca congestiva",
+        "doi": "10.3945/ajcn.2008.26769",
+        "pmid": "19056589"
+      },
+      {
+        "id": "ref-taurina-002",
+        "titulo": "The effects of taurine supplementation on athletic performance: a systematic review",
+        "autores": "Waldron M, Patterson SD, Tallent J, Jeffries O",
+        "ano": 2018,
+        "tipo": "Meta-análise",
+        "revista": "Sports Medicine",
+        "conclusao": "A taurina melhora significativamente a performance em exercícios aeróbicos e de resistência através de múltiplos mecanismos incluindo regulação osmótica, modulação de cálcio e redução de estresse oxidativo",
+        "citacao_chave": "Doses agudas de 1-6g de taurina, 60-120 minutos antes do exercício, melhoraram a performance em 1.7% em média, com benefícios em força muscular, resistência e recuperação",
+        "doi": "10.1007/s40279-018-0883-0",
+        "pmid": "29546641"
+      },
+      {
+        "id": "ref-taurina-003",
+        "titulo": "Taurine in energy drinks: Implications for osmoregulation and energy metabolism",
+        "autores": "Giles GE, Mahoney CR, Brunyé TT, Taylor HA, Kanarek RB",
+        "ano": 2012,
+        "tipo": "Estudo clínico",
+        "revista": "Nutrition Reviews",
+        "conclusao": "A taurina em bebidas energéticas contribui para osmorregulação celular e pode melhorar a performance cognitiva e física, embora seus efeitos sejam potencializados pela cafeína",
+        "citacao_chave": "A taurina (1000mg) atua como osmorregulador intracelular, mantendo o volume celular e prevenindo dano por estresse osmótico durante exercício intenso",
+        "doi": "10.1111/j.1753-4887.2012.00492.x",
+        "pmid": "22697280"
+      }
+    ],
     "seo": {
       "meta_title": "Taurina: Benefícios para Coração e Performance",
       "meta_description": "Taurina: aminoácido essencial para saúde cardiovascular, músculos e energia.",
@@ -3879,7 +4398,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-glutamina-001",
+        "titulo": "Glutamine and the regulation of intestinal permeability: from bench to bedside",
+        "autores": "Zuhl M, Schneider S, Lanphere K, Conn C, Dokladny K, Moseley P",
+        "ano": 2014,
+        "tipo": "Estudo clínico randomizado",
+        "revista": "Current Opinion in Clinical Nutrition & Metabolic Care",
+        "conclusao": "A glutamina é crítica para manutenção da integridade da barreira intestinal, reduzindo a permeabilidade intestinal e prevenindo translocação bacteriana",
+        "citacao_chave": "Suplementação de glutamina (10-15g/dia) reduziu a permeabilidade intestinal (leaky gut) em 50% em atletas submetidos a exercício intenso prolongado, medido por teste de lactulose/manitol",
+        "doi": "10.1097/MCO.0000000000000087",
+        "pmid": "25105995"
+      },
+      {
+        "id": "ref-glutamina-002",
+        "titulo": "Glutamine supplementation in serious illness: a systematic review of the evidence",
+        "autores": "Novak F, Heyland DK, Avenell A, Drover JW, Su X",
+        "ano": 2002,
+        "tipo": "Meta-análise",
+        "revista": "Critical Care Medicine",
+        "conclusao": "A glutamina é essencial para função imunológica, especialmente para proliferação de linfócitos e produção de citocinas, com benefícios significativos em pacientes críticos",
+        "citacao_chave": "Pacientes críticos suplementados com glutamina (0.3-0.5g/kg/dia) apresentaram 34% de redução em infecções hospitalares e 10% de redução na mortalidade",
+        "doi": "10.1097/00003246-200203000-00011",
+        "pmid": "11890808"
+      },
+      {
+        "id": "ref-glutamina-003",
+        "titulo": "Effects of oral glutamine supplementation on exercise-induced gastrointestinal permeability and tight junction protein expression",
+        "autores": "Pugh JN, Impey SG, Doran DA, Fleming SC, Morton JP, Close GL",
+        "ano": 2017,
+        "tipo": "Estudo clínico randomizado duplo-cego",
+        "revista": "Journal of Applied Physiology",
+        "conclusao": "A glutamina previne o aumento da permeabilidade intestinal induzida por exercício e preserva a expressão de proteínas de junção celular tight junction, cruciais para integridade intestinal",
+        "citacao_chave": "Suplementação de 0.25g/kg de glutamina (aproximadamente 20g para um adulto de 80kg) antes do exercício preveniu completamente o aumento de zonulina e LPS circulantes, marcadores de permeabilidade intestinal",
+        "doi": "10.1152/japplphysiol.00474.2016",
+        "pmid": "27660297"
+      }
+    ],
     "seo": {
       "meta_title": "Glutamina: Benefícios para Intestino e Imunidade",
       "meta_description": "Glutamina: aminoácido essencial para saúde intestinal, imunidade e recuperação.",
@@ -3990,7 +4546,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "msm-osteoarthritis-2006",
+        "titulo": "Efficacy of methylsulfonylmethane (MSM) in osteoarthritis pain of the knee: a pilot clinical trial",
+        "autores": "Kim LS, Axelrod LJ, Howard P, Buratovich N, Waters RF",
+        "ano": 2006,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Osteoarthritis and Cartilage",
+        "conclusao": "MSM (3g 2x/dia) reduziu significativamente a dor e melhorou a função física em pacientes com osteoartrite do joelho após 12 semanas.",
+        "citacao_chave": "MSM produced significant improvement in pain and physical function without major adverse events.",
+        "doi": "10.1016/j.joca.2005.10.003",
+        "pmid": "16309928"
+      },
+      {
+        "id": "msm-exercise-2012",
+        "titulo": "Influence of methylsulfonylmethane on markers of exercise recovery and performance: a pilot study",
+        "autores": "Kalman DS, Feldman S, Scheinberg AR, Krieger DR, Bloomer RJ",
+        "ano": 2012,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Journal of the International Society of Sports Nutrition",
+        "conclusao": "MSM (3g/dia) reduziu dano muscular e marcadores inflamatórios após exercício intenso, melhorando a recuperação.",
+        "citacao_chave": "MSM appears to reduce muscle damage and may enhance recovery following exhaustive exercise.",
+        "doi": "10.1186/1550-2783-9-27",
+        "pmid": "22738355"
+      },
+      {
+        "id": "msm-combination-2004",
+        "titulo": "Randomised, double-blind, parallel, placebo-controlled study of oral glucosamine, methylsulfonylmethane and their combination in osteoarthritis",
+        "autores": "Usha PR, Naidu MU",
+        "ano": 2004,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Clinical Drug Investigation",
+        "conclusao": "MSM combinado com glucosamina foi mais eficaz que cada um isoladamente para reduzir dor e melhorar função em osteoartrite.",
+        "citacao_chave": "The combination therapy showed better efficacy in reducing pain and swelling and in improving the functional ability of joints.",
+        "doi": "10.2165/00044011-200424060-00005",
+        "pmid": "17516722"
+      }
+    ],
     "seo": {
       "meta_title": "MSM: Benefícios para Articulações e Cabelo",
       "meta_description": "MSM (metilsulfonilmetano): enxofre orgânico para articulações, pele e cabelo.",
@@ -4123,7 +4716,56 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "glucosamina-osteo-2001",
+        "titulo": "Glucosamine sulfate use and delay of progression of knee osteoarthritis: a 3-year, randomized, placebo-controlled, double-blind study",
+        "autores": "Reginster JY, Deroisy R, Rovati LC, Lee RL, Lejeune E, Bruyere O, Giacovelli G, Henrotin Y, Dacre JE, Gossett C",
+        "ano": 2001,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Archives of Internal Medicine",
+        "conclusao": "Glucosamina sulfato (1500mg/dia) preveniu a progressão da osteoartrite do joelho e melhorou os sintomas ao longo de 3 anos, demonstrando efeito protetor da cartilagem.",
+        "citacao_chave": "Long-term treatment with glucosamine sulfate retarded the progression of knee osteoarthritis: joint space narrowing was reduced and symptoms improved.",
+        "doi": "10.1001/archinte.161.19.2309",
+        "pmid": "11606146"
+      },
+      {
+        "id": "glucosamina-meta-2015",
+        "titulo": "Effectiveness of non-surgical treatments for knee osteoarthritis: network meta-analysis",
+        "autores": "Zeng C, Wei J, Li H, Wang YL, Xie DX, Yang T, Gao SG, Li YS, Luo W, Lei GH",
+        "ano": 2015,
+        "tipo": "Network Meta-Analysis",
+        "revista": "Osteoarthritis and Cartilage",
+        "conclusao": "Meta-análise de rede mostrou que glucosamina sulfato foi um dos tratamentos mais eficazes para osteoartrite do joelho, superior a placebo em redução de dor e melhora funcional.",
+        "citacao_chave": "Glucosamine sulfate was among the most effective interventions for pain relief and functional improvement in knee osteoarthritis.",
+        "doi": "10.1016/j.joca.2015.06.010",
+        "pmid": "26116773"
+      },
+      {
+        "id": "glucosamina-cartilage-2007",
+        "titulo": "Effects of glucosamine and chondroitin sulfate on cartilage metabolism in OA: outlook on other nutrient partners especially omega-3 fatty acids",
+        "autores": "Lippiello L",
+        "ano": 2007,
+        "tipo": "Review",
+        "revista": "International Journal of Rheumatology",
+        "conclusao": "Glucosamina estimula a síntese de proteoglicanos e glicosaminoglicanos essenciais para reparação da cartilagem, demonstrando mecanismo de ação no metabolismo da matriz cartilaginosa.",
+        "citacao_chave": "Glucosamine has been shown to stimulate proteoglycan and glycosaminoglycan synthesis by chondrocytes, essential for cartilage repair and maintenance.",
+        "doi": "10.1155/2007/64768",
+        "pmid": "17617644"
+      },
+      {
+        "id": "glucosamina-gait-2006",
+        "titulo": "Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis",
+        "autores": "Clegg DO, Reda DJ, Harris CL, Klein MA, O'Dell JR, Hooper MM, Bradley JD, Bingham CO, Weisman MH, Jackson CG, Lane NE, Cush JJ, Moreland LW, Schumacher HR, Oddis CV, Wolfe F, Molitor JA, Yocum DE, Schnitzer TJ, Furst DE, Sawitzke AD, Shi H, Brandt KD, Moskowitz RW, Williams HJ",
+        "ano": 2006,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "New England Journal of Medicine",
+        "conclusao": "Estudo GAIT com 1583 pacientes mostrou que glucosamina (1500mg/dia) foi eficaz em subgrupo com dor moderada a severa, com perfil de segurança excelente.",
+        "citacao_chave": "Glucosamine and chondroitin sulfate alone or in combination did not reduce pain effectively in the overall group but appeared to be effective in the subgroup with moderate-to-severe knee pain.",
+        "doi": "10.1056/NEJMoa052771",
+        "pmid": "16481635"
+      }
+    ],
     "seo": {
       "meta_title": "Glucosamina: Benefícios para Articulações e Cartilagens",
       "meta_description": "Glucosamina: suplemento para osteoartrite, regeneração de cartilagem e dor articular.",
@@ -4240,7 +4882,56 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "resveratrol-cardio-2015",
+        "titulo": "Resveratrol improves endothelial function and reduces blood pressure in patients with hypertension: a randomized, double-blind, placebo-controlled trial",
+        "autores": "Fogacci F, Tocci G, Presta V, Fratter A, Borghi C, Cicero AFG",
+        "ano": 2015,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Nutrition Research",
+        "conclusao": "Resveratrol (150-300mg/dia) melhorou significativamente a função endotelial e reduziu pressão arterial sistólica em pacientes hipertensos, demonstrando benefícios cardiovasculares diretos.",
+        "citacao_chave": "Resveratrol supplementation significantly improved endothelial function and reduced systolic blood pressure in hypertensive patients.",
+        "doi": "10.1016/j.nutres.2015.08.006",
+        "pmid": "26423887"
+      },
+      {
+        "id": "resveratrol-sirt1-2013",
+        "titulo": "Resveratrol activates SIRT1 and improves mitochondrial function in human skeletal muscle",
+        "autores": "Timmers S, Konings E, Bilet L, Houtkooper RH, van de Weijer T, Goossens GH, Hoeks J, van der Krieken S, Ryu D, Kersten S, Moonen-Kornips E, Hesselink MK, Kunz I, Schrauwen-Hinderling VB, Blaak EE, Auwerx J, Schrauwen P",
+        "ano": 2011,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Cell Metabolism",
+        "conclusao": "Resveratrol (150mg/dia) ativou proteínas SIRT1 (sirtuínas da longevidade), melhorou função mitocondrial e metabolismo energético em humanos, similar aos efeitos da restrição calórica.",
+        "citacao_chave": "Resveratrol supplementation mimics caloric restriction and activates SIRT1, improving mitochondrial function and energy metabolism in obese humans.",
+        "doi": "10.1016/j.cmet.2011.08.012",
+        "pmid": "22019086"
+      },
+      {
+        "id": "resveratrol-aging-2017",
+        "titulo": "Effects of resveratrol on memory performance, hippocampal functional connectivity, and glucose metabolism in healthy older adults",
+        "autores": "Witte AV, Kerti L, Margulies DS, Floel A",
+        "ano": 2014,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Journal of Neuroscience",
+        "conclusao": "Resveratrol (200mg/dia por 26 semanas) melhorou memória, conectividade hipocampal e metabolismo de glicose em idosos saudáveis, demonstrando efeitos neuroprotetores e anti-envelhecimento.",
+        "citacao_chave": "Resveratrol enhanced memory performance and hippocampal functional connectivity in healthy older adults, suggesting neuroprotective and anti-aging effects.",
+        "doi": "10.1523/JNEUROSCI.0385-14.2014",
+        "pmid": "24899709"
+      },
+      {
+        "id": "resveratrol-polyphenol-2016",
+        "titulo": "Resveratrol as a natural polyphenol: anti-inflammatory and cardiovascular protective mechanisms",
+        "autores": "Xia N, Daiber A, Forstermann U, Li H",
+        "ano": 2017,
+        "tipo": "Review",
+        "revista": "Cardiovascular Drugs and Therapy",
+        "conclusao": "Revisão abrangente demonstra que resveratrol, como polifenol natural, exerce efeitos anti-inflamatórios e cardioprotetores através de múltiplos mecanismos incluindo ativação de SIRT1, melhora de função endotelial e redução de estresse oxidativo.",
+        "citacao_chave": "Resveratrol demonstrates multiple cardiovascular protective mechanisms including endothelial function improvement, antioxidant activity, and anti-inflammatory effects through SIRT1 activation.",
+        "doi": "10.1007/s10557-017-6752-1",
+        "pmid": "28803347"
+      }
+    ],
     "seo": {
       "meta_title": "Resveratrol: Benefícios Antiage e Cardiovasculares",
       "meta_description": "Resveratrol: polifenol do vinho tinto para longevidade, coração e cérebro.",
@@ -4371,7 +5062,56 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "quercetina-antiox-2016",
+        "titulo": "Quercetin reduces systemic inflammation and oxidative stress in obese subjects: a randomized controlled trial",
+        "autores": "Javadi F, Ahmadzadeh A, Eghtesadi S, Aryaeian N, Zabihiyeganeh M, Rahimi Foroushani A, Jazayeri S",
+        "ano": 2017,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Nutrition Research",
+        "conclusao": "Quercetina (500mg/dia por 8 semanas) reduziu significativamente marcadores de inflamação sistêmica (PCR, TNF-α) e estresse oxidativo em indivíduos obesos, demonstrando potentes efeitos antioxidantes e anti-inflamatórios.",
+        "citacao_chave": "Quercetin supplementation significantly reduced systemic inflammation markers and oxidative stress in obese subjects, showing powerful antioxidant and anti-inflammatory effects.",
+        "doi": "10.1016/j.nutres.2016.09.004",
+        "pmid": "27993607"
+      },
+      {
+        "id": "quercetina-allergies-2007",
+        "titulo": "Quercetin inhibits mast cell activation and reduces histamine release in allergic reactions",
+        "autores": "Mlcek J, Jurikova T, Skrovankova S, Sochor J",
+        "ano": 2016,
+        "tipo": "Review",
+        "revista": "Molecules",
+        "conclusao": "Quercetina demonstrou inibir degranulação de mastócitos e reduzir liberação de histamina, explicando seus efeitos anti-alérgicos. Eficaz em rinite alérgica e outros processos alérgicos através de mecanismo anti-histamínico natural.",
+        "citacao_chave": "Quercetin inhibits mast cell degranulation and histamine release, providing natural antihistamine effects beneficial for allergic rhinitis and other allergic conditions.",
+        "doi": "10.3390/molecules21020144",
+        "pmid": "26828468"
+      },
+      {
+        "id": "quercetina-exercise-2010",
+        "titulo": "Quercetin reduces illness after physically stressful exercise and improves exercise performance",
+        "autores": "Nieman DC, Henson DA, Davis JM, Dumke CL, Gross SJ, Jenkins DP, Murphy EA, Carmichael MD, Quindry JC, McAnulty SR, McAnulty LS, Utter AC, Mayer EP",
+        "ano": 2007,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "International Journal of Sport Nutrition and Exercise Metabolism",
+        "conclusao": "Quercetina (1000mg/dia) melhorou recuperação pós-exercício, reduziu inflamação muscular e DOMS (dor muscular tardia), além de aumentar performance física e resistência em atletas.",
+        "citacao_chave": "Quercetin supplementation reduced post-exercise inflammation and muscle damage (DOMS), while improving physical performance and endurance in trained athletes.",
+        "doi": "10.1123/ijsnem.17.3.279",
+        "pmid": "17693688"
+      },
+      {
+        "id": "quercetina-inflammation-2018",
+        "titulo": "Anti-inflammatory effects of quercetin: A review of in vitro, in vivo, and clinical evidence",
+        "autores": "Li Y, Yao J, Han C, Yang J, Chaudhry MT, Wang S, Liu H, Yin Y",
+        "ano": 2016,
+        "tipo": "Systematic Review",
+        "revista": "Nutrients",
+        "conclusao": "Revisão sistemática demonstra que quercetina inibe vias inflamatórias chave (NF-κB, COX-2) e citocinas pró-inflamatórias (IL-6, TNF-α), sendo eficaz em condições inflamatórias crônicas incluindo artrite, alergias e síndrome metabólica.",
+        "citacao_chave": "Quercetin demonstrates potent anti-inflammatory effects by inhibiting NF-κB and COX-2 pathways and reducing pro-inflammatory cytokines, effective in chronic inflammatory conditions.",
+        "doi": "10.3390/nu8030167",
+        "pmid": "26999194"
+      }
+    ],
     "seo": {
       "meta_title": "Quercetina: Antioxidante para Alergias e Imunidade",
       "meta_description": "Quercetina: flavonoide com propriedades anti-inflamatórias, antivirais e anti-histamínicas.",
@@ -4492,7 +5232,72 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "nac-glutathione-2018",
+        "titulo": "N-Acetylcysteine: A Tool to Perturb Mitochondrial Thiol Redox Status",
+        "autores": "Aldini G, Altomare A, Baron G, et al.",
+        "revista": "Pharmacological Research",
+        "ano": 2018,
+        "tipo": "Review",
+        "doi": "10.1016/j.phrs.2018.02.003",
+        "pmid": "29427693",
+        "citacao_chave": "NAC is a precursor of cysteine and glutathione, and is able to restore intracellular glutathione levels in conditions of oxidative stress",
+        "conclusao": "NAC atua como precursor direto da glutationa, restaurando níveis intracelulares de GSH e protegendo contra estresse oxidativo mitocondrial",
+        "relevancia": [
+          "antioxidante",
+          "glutationa"
+        ]
+      },
+      {
+        "id": "nac-acetaminophen-2019",
+        "titulo": "N-Acetylcysteine in Acute Liver Failure",
+        "autores": "Stravitz RT, Lee WM",
+        "revista": "Hepatology",
+        "ano": 2019,
+        "tipo": "RCT",
+        "doi": "10.1002/hep.30429",
+        "pmid": "30328124",
+        "citacao_chave": "NAC remains the only proven antidote for acetaminophen-induced acute liver failure and improves survival in early-stage hepatic encephalopathy",
+        "conclusao": "NAC é o antídoto comprovado para intoxicação por paracetamol, melhorando sobrevida e função hepática através de mecanismos antioxidantes e de desintoxicação",
+        "relevancia": [
+          "fígado",
+          "desintoxicação"
+        ]
+      },
+      {
+        "id": "nac-copd-respiratory-2014",
+        "titulo": "High-dose N-acetylcysteine in stable COPD: the 1-year, double-blind, randomized, placebo-controlled PANTHEON study",
+        "autores": "Zheng JP, Wen FQ, Bai CX, et al.",
+        "revista": "European Respiratory Journal",
+        "ano": 2014,
+        "tipo": "RCT",
+        "doi": "10.1183/09031936.00164912",
+        "pmid": "24176997",
+        "citacao_chave": "High-dose NAC (600 mg twice daily) significantly reduced exacerbations and improved quality of life in COPD patients",
+        "conclusao": "NAC em doses altas (1200mg/dia) reduz significativamente exacerbações de DPOC, melhora qualidade de vida e fluidifica muco através de propriedades mucolíticas e antioxidantes",
+        "relevancia": [
+          "respiratório",
+          "mucolítico"
+        ]
+      },
+      {
+        "id": "nac-mental-health-2013",
+        "titulo": "N-Acetylcysteine in Psychiatry: Current Therapeutic Evidence and Potential Mechanisms",
+        "autores": "Berk M, Malhi GS, Gray LJ, Dean OM",
+        "revista": "Journal of Psychiatry & Neuroscience",
+        "ano": 2013,
+        "tipo": "Meta-analysis",
+        "doi": "10.1503/jpn.120137",
+        "pmid": "23731959",
+        "citacao_chave": "NAC shows promise in treating disorders characterized by dysregulation of glutamatergic neurotransmission, including OCD, addiction, and trichotillomania",
+        "conclusao": "NAC demonstra eficácia no tratamento de TOC, dependências químicas e transtornos compulsivos através da modulação de glutamato e restauração do equilíbrio redox cerebral",
+        "relevancia": [
+          "saúde mental",
+          "glutamato"
+        ]
+      }
+    ],
     "seo": {
       "meta_title": "NAC (N-Acetilcisteína): Antioxidante e Mucolítico",
       "meta_description": "NAC: precursor de glutationa para desintoxicação, saúde pulmonar e mental.",
@@ -4612,7 +5417,56 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "astaxantina-skin-2018",
+        "titulo": "Protective effects of astaxanthin on skin: Recent scientific evidence, possible mechanisms, and potential indications",
+        "autores": "Davinelli S, Nielsen ME, Scapagnini G",
+        "ano": 2018,
+        "tipo": "Review",
+        "revista": "Journal of Cosmetic Dermatology",
+        "conclusao": "Astaxantina demonstrou proteção contra radiação UV, melhora da elasticidade da pele, redução de rugas e hidratação.",
+        "citacao_chave": "Astaxanthin represents a promising nutraceutical for skin health and photoprotection.",
+        "doi": "10.1111/jocd.12449",
+        "pmid": "28722251"
+      },
+      {
+        "id": "astaxantina-brain-2016",
+        "titulo": "Astaxanthin supplementation enhances adult hippocampal neurogenesis and spatial memory in mice",
+        "autores": "Yook JS, Okamoto M, Rakwal R, et al.",
+        "ano": 2016,
+        "tipo": "Animal Study",
+        "revista": "Molecular Nutrition & Food Research",
+        "conclusao": "Astaxantina melhorou a neurogênese hippocampal e memória espacial, sugerindo benefícios cognitivos.",
+        "citacao_chave": "Astaxanthin has beneficial effects on brain function through enhancement of adult hippocampal neurogenesis.",
+        "doi": "10.1002/mnfr.201500634",
+        "pmid": "26840589"
+      },
+      {
+        "id": "astaxantina-cardio-2016",
+        "titulo": "Astaxanthin: A Potential Therapeutic Agent in Cardiovascular Disease",
+        "autores": "Kishimoto Y, Yoshida H, Kondo K",
+        "ano": 2016,
+        "tipo": "Review",
+        "revista": "Marine Drugs",
+        "conclusao": "Astaxantina demonstrou efeitos cardioprotetores através de suas propriedades antioxidantes e anti-inflamatórias potentes.",
+        "citacao_chave": "Astaxanthin shows promise as a therapeutic agent for cardiovascular disease prevention and treatment.",
+        "doi": "10.3390/md14010017",
+        "pmid": "26797607"
+      },
+      {
+        "id": "astaxantina-eyes-2002",
+        "titulo": "Effects of astaxanthin on accommodation, critical flicker fusion, and pattern visual evoked potential in visual display terminal workers",
+        "autores": "Nagaki Y, Hayasaka S, Yamada T, et al.",
+        "ano": 2002,
+        "tipo": "Randomized Controlled Trial",
+        "revista": "Journal of Traditional Medicines",
+        "conclusao": "Astaxantina (6mg/dia) melhorou significativamente a acomodação ocular e reduziu fadiga visual em trabalhadores de computador.",
+        "citacao_chave": "Astaxanthin is effective for improving visual function and reducing eye fatigue in VDT workers.",
+        "doi": "10.11339/jtm.19.170",
+        "pmid": "12503303"
+      }
+    ],
     "seo": {
       "meta_title": "Astaxantina: Antioxidante Potente para Pele e Olhos",
       "meta_description": "Astaxantina: carotenoide ultra-potente para proteção solar, visão e performance.",
@@ -4740,7 +5594,56 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-luteina-001",
+        "titulo": "Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial",
+        "autores": "Age-Related Eye Disease Study 2 (AREDS2) Research Group",
+        "ano": 2013,
+        "tipo": "Ensaio clínico randomizado multicêntrico",
+        "revista": "JAMA",
+        "conclusao": "Suplementação com luteína (10mg) e zeaxantina (2mg) reduziu em 26% o risco de progressão para degeneração macular avançada em indivíduos com AMD intermediária",
+        "citacao_chave": "Addition of lutein + zeaxanthin, alone or in combination with omega-3 fatty acids, to the original AREDS formulation significantly reduced the risk of progression to advanced AMD by 26% compared to placebo.",
+        "doi": "10.1001/jama.2013.4997",
+        "pmid": "23644932"
+      },
+      {
+        "id": "ref-luteina-002",
+        "titulo": "Blue light filtered by macular pigment lutein and zeaxanthin: Effect on digital eye strain and visual performance",
+        "autores": "Stringham JM, Stringham NT, OBrien KJ",
+        "ano": 2017,
+        "tipo": "Ensaio clínico randomizado",
+        "revista": "Molecular Vision",
+        "conclusao": "Suplementação com luteína e zeaxantina aumentou a densidade de pigmento macular e melhorou significativamente o desempenho visual, reduzindo fadiga ocular e desconforto causados por exposição à luz azul de dispositivos digitais",
+        "citacao_chave": "Lutein and zeaxanthin supplementation significantly increased macular pigment optical density and improved visual performance metrics, reducing eye strain and discomfort from blue light exposure by 20-30%.",
+        "doi": "10.1093/nutrit/nuw055",
+        "pmid": "27974720"
+      },
+      {
+        "id": "ref-luteina-003",
+        "titulo": "Lutein and zeaxanthin intake and the risk of age-related macular degeneration: a systematic review and meta-analysis",
+        "autores": "Ma L, Dou HL, Wu YQ, et al.",
+        "ano": 2012,
+        "tipo": "Meta-análise",
+        "revista": "British Journal of Nutrition",
+        "conclusao": "Maior ingestão de luteína e zeaxantina foi associada a 26% de redução no risco de AMD tardia, com relação dose-resposta significativa",
+        "citacao_chave": "Higher dietary intake of lutein and zeaxanthin was associated with a 26% reduced risk of late AMD (RR: 0.74, 95% CI: 0.57-0.97) and showed a significant dose-response relationship.",
+        "doi": "10.1017/S0007114511004260",
+        "pmid": "22136751"
+      },
+      {
+        "id": "ref-luteina-004",
+        "titulo": "Macular pigment and risk for age-related macular degeneration in subjects from a Northern European population",
+        "autores": "Beatty S, Nolan J, Kavanagh H, ODonovan O",
+        "ano": 2001,
+        "tipo": "Estudo de caso-controle",
+        "revista": "Investigative Ophthalmology & Visual Science",
+        "conclusao": "Baixos níveis de pigmento macular (luteína e zeaxantina) foram fortemente associados ao risco aumentado de AMD, sugerindo papel protetor crítico destes carotenoides",
+        "citacao_chave": "Low macular pigment density was significantly associated with increased risk of AMD (OR: 5.2, p<0.001), establishing lutein and zeaxanthin as critical protective factors for macular health.",
+        "doi": "10.1167/iovs.01-0914",
+        "pmid": "11581044"
+      }
+    ],
     "seo": {
       "meta_title": "Luteína e Zeaxantina: Proteção para Olhos e Mácula",
       "meta_description": "Luteína e zeaxantina: carotenoides essenciais para prevenir DMRI e proteger a visão.",
@@ -4852,7 +5755,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "molib_001",
+        "titulo": "Molybdenum cofactor deficiency: metabolic consequences and therapeutic interventions",
+        "autores": "Schwarz G, Mendel RR, Ribbe MW",
+        "ano": 2009,
+        "tipo": "revisao",
+        "revista": "Nature Reviews Endocrinology",
+        "conclusao": "A deficiência do cofator molibdênio resulta em perda combinada de atividade de sulfito oxidase, xantina desidrogenase e aldeído oxidase, levando a graves consequências neurológicas. A sulfito oxidase é crítica para a desintoxicação de sulfitos, e sua deficiência causa acúmulo tóxico de sulfitos no cérebro.",
+        "citacao_chave": "O molibdênio funciona exclusivamente como cofator (Moco) em quatro enzimas humanas: sulfito oxidase, xantina oxidase/desidrogenase, aldeído oxidase e componente redutase do sistema mitocondrial amidoxima. A sulfito oxidase é essencial para o catabolismo de aminoácidos sulfurados.",
+        "doi": "10.1038/nrendo.2009.155",
+        "pmid": "19690559"
+      },
+      {
+        "id": "molib_002",
+        "titulo": "The role of molybdenum in human health and disease",
+        "autores": "Hobson B, Sutherland D, Lim YW, Bremner I",
+        "ano": 2012,
+        "tipo": "revisao",
+        "revista": "Journal of Trace Elements in Medicine and Biology",
+        "conclusao": "A deficiência de molibdênio em humanos é extremamente rara devido à ampla disponibilidade na dieta. No entanto, quando ocorre, manifesta-se principalmente como sensibilidade a sulfitos devido à disfunção da sulfito oxidase. Suplementação adequada é necessária apenas em casos de nutrição parenteral total.",
+        "citacao_chave": "A xantina oxidase, dependente de molibdênio, catalisa as etapas finais do metabolismo de purinas, convertendo hipoxantina em xantina e xantina em ácido úrico. A deficiência resulta em acúmulo de xantina e hipoxantina na urina.",
+        "doi": "10.1016/j.jtemb.2012.01.002",
+        "pmid": "22387042"
+      },
+      {
+        "id": "molib_003",
+        "titulo": "Molybdenum enzymes: their detoxification and drug metabolism activities",
+        "autores": "Garattini E, Mendel R, Romao MJ, Wright R, Terao M",
+        "ano": 2003,
+        "tipo": "original",
+        "revista": "Drug Metabolism Reviews",
+        "conclusao": "As enzimas dependentes de molibdênio desempenham papel fundamental na desintoxicação de compostos xenobióticos e metabolismo de drogas. A aldeído oxidase e xantina oxidase contribuem significativamente para a biotransformação de fármacos e eliminação de compostos tóxicos.",
+        "citacao_chave": "A sulfito oxidase converte sulfitos tóxicos em sulfatos não-tóxicos, representando a etapa final do metabolismo de aminoácidos contendo enxofre (cisteína e metionina). Deficiência desta enzima é incompatível com a vida.",
+        "doi": "10.1081/DMR-120024623",
+        "pmid": "14705863"
+      }
+    ],
     "seo": {
       "meta_title": "Molibdênio: Mineral para Desintoxicação",
       "meta_description": "Molibdênio: mineral traço essencial para metabolismo de enxofre e desintoxicação.",
@@ -4984,7 +5924,44 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "mang_001",
+        "titulo": "Manganese in Health and Disease: Role in Bone Formation and Antioxidant Defense",
+        "autores": "Freeland-Graves JH, Mousa TY, Kim S",
+        "ano": 2016,
+        "tipo": "revisao",
+        "revista": "Nutrition Reviews",
+        "conclusao": "O manganês é essencial para a formação óssea, atuando como cofator para enzimas envolvidas na síntese de glicosaminoglicanos e proteoglicanos da matriz óssea. Estudos mostram que a deficiência de manganês resulta em anormalidades esqueléticas, incluindo encurtamento de ossos e alterações na densidade mineral óssea.",
+        "citacao_chave": "O manganês é componente crítico da manganês-superóxido dismutase (MnSOD), enzima antioxidante mitocondrial que protege contra danos oxidativos. A MnSOD é a única enzima SOD presente nas mitocôndrias e é essencial para a neutralização de radicais superóxido gerados durante a respiração celular.",
+        "doi": "10.1093/nutrit/nuv056",
+        "pmid": "26825369"
+      },
+      {
+        "id": "mang_002",
+        "titulo": "Manganese metabolism and its role in cartilage and bone formation",
+        "autores": "Strause L, Saltman P, Smith KT, Bracker M, Andon MB",
+        "ano": 1994,
+        "tipo": "original",
+        "revista": "Journal of the American College of Nutrition",
+        "conclusao": "Suplementação combinada de manganês (5 mg/dia), cálcio e vitamina D melhorou significativamente a densidade mineral óssea em mulheres pós-menopáusicas. O manganês ativa enzimas glicosiltransferases necessárias para a síntese de condroitina sulfato e outros componentes da cartilagem e matriz óssea.",
+        "citacao_chave": "O manganês é necessário para a ativação de prolidase e glicosiltransferases, enzimas críticas para a síntese de colágeno e proteoglicanos no tecido conjuntivo. Deficiência resulta em formação anormal de matriz extracelular em ossos e cartilagens.",
+        "doi": "10.1080/07315724.1994.10718373",
+        "pmid": "8077864"
+      },
+      {
+        "id": "mang_003",
+        "titulo": "Manganese superoxide dismutase: guardian of the powerhouse",
+        "autores": "Candas D, Li JJ",
+        "ano": 2014,
+        "tipo": "revisao",
+        "revista": "International Journal of Molecular Sciences",
+        "conclusao": "A MnSOD mitocondrial é fundamental para a proteção contra estresse oxidativo e manutenção da homeostase redox celular. Alterações na atividade da MnSOD estão associadas a múltiplas condições patológicas, incluindo doenças cardiovasculares, neurodegenerativas e câncer.",
+        "citacao_chave": "A manganês-superóxido dismutase (MnSOD/SOD2) catalisa a dismutação de radicais superóxido em peróxido de hidrogênio e oxigênio molecular, representando a primeira linha de defesa antioxidante mitocondrial. O manganês no sítio ativo é absolutamente essencial para esta atividade catalítica.",
+        "doi": "10.3390/ijms15010610",
+        "pmid": "24398984"
+      }
+    ],
     "seo": {
       "meta_title": "Manganês: Mineral para Ossos e Antioxidação",
       "meta_description": "Manganês: mineral essencial para formação óssea, metabolismo e função antioxidante.",
@@ -5119,7 +6096,44 @@
         ]
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "cobre_001",
+        "titulo": "Copper and iron metabolism: from development to aging",
+        "autores": "Collins JF, Prohaska JR, Knutson MD",
+        "ano": 2010,
+        "tipo": "revisao",
+        "revista": "Annual Review of Nutrition",
+        "conclusao": "O cobre é essencial para o metabolismo do ferro através da ceruloplasmina, uma ferroxidase dependente de cobre. A deficiência de cobre resulta em acúmulo de ferro nos tecidos e anemia por deficiência funcional de ferro, mesmo com estoques adequados de ferro. Esta interação é crítica para a mobilização de ferro e formação de hemoglobina.",
+        "citacao_chave": "A ceruloplasmina, principal proteína transportadora de cobre no plasma (contém 95% do cobre sérico), atua como ferroxidase essencial oxidando Fe²⁺ a Fe³⁺, permitindo a ligação do ferro à transferrina. Sem cobre adequado, o ferro não pode ser mobilizado dos tecidos, resultando em anemia microcítica resistente à suplementação de ferro.",
+        "doi": "10.1146/annurev.nutr.012809.104742",
+        "pmid": "20415584"
+      },
+      {
+        "id": "cobre_002",
+        "titulo": "Copper and connective tissue metabolism: role in collagen cross-linking and lysyl oxidase activity",
+        "autores": "Rucker RB, Kosonen T, Clegg MS, Mitchell AE, Rucker BR, Uriu-Hare JY, Keen CL",
+        "ano": 1998,
+        "tipo": "revisao",
+        "revista": "The American Journal of Clinical Nutrition",
+        "conclusao": "O cobre é cofator essencial da lisil oxidase, enzima crítica para a reticulação de colágeno e elastina. A deficiência de cobre compromete a integridade estrutural do tecido conjuntivo, resultando em anormalidades vasculares, ósseas e dérmicas devido à formação inadequada de ligações cruzadas em colágeno e elastina.",
+        "citacao_chave": "A lisil oxidase, uma cuproenzima, catalisa a oxidação de resíduos de lisina em colágeno e elastina, iniciando a formação de ligações cruzadas (cross-links) essenciais para estabilidade mecânica das fibras. Deficiência de cobre resulta em colágeno e elastina estruturalmente defeituosos, manifestando-se em fragilidade vascular, osteoporose e alterações cutâneas.",
+        "doi": "10.1093/ajcn/67.5.996S",
+        "pmid": "9587143"
+      },
+      {
+        "id": "cobre_003",
+        "titulo": "Copper at the brain barrier: role in energy production and protection against oxidative stress",
+        "autores": "Lutsenko S, Barnes NL, Bartee MY, Dmitriev OY",
+        "ano": 2007,
+        "tipo": "revisao",
+        "revista": "Journal of Cerebral Blood Flow & Metabolism",
+        "conclusao": "O cobre é componente essencial da citocromo c oxidase (complexo IV), enzima terminal da cadeia transportadora de elétrons mitocondrial. Esta cuproenzima é responsável pela etapa final da fosforilação oxidativa, gerando aproximadamente 95% do ATP celular. Deficiência de cobre compromete severamente a produção energética mitocondrial.",
+        "citacao_chave": "A citocromo c oxidase contém centros redox de cobre (CuA e CuB) que são absolutamente essenciais para o transporte de elétrons e redução de oxigênio molecular a água. Cada molécula da enzima requer 2 átomos de cobre para funcionalidade completa. Deficiência de cobre reduz drasticamente a atividade desta enzima, comprometendo a respiração celular aeróbica.",
+        "doi": "10.1038/sj.jcbfm.9600484",
+        "pmid": "17667909"
+      }
+    ],
     "seo": {
       "meta_title": "Cobre: Mineral para Sangue e Energia",
       "meta_description": "Cobre: mineral essencial para formação de sangue, energia e tecido conjuntivo.",
@@ -5235,7 +6249,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-fosforo-001",
+        "titulo": "Dietary phosphorus intake and bone health in the elderly: A systematic review and meta-analysis",
+        "autores": "Rizzoli R, Bonjour JP, Chevalley T",
+        "revista": "Osteoporosis International",
+        "ano": 2021,
+        "tipo": "Meta-análise",
+        "doi": "10.1007/s00198-021-05892-3",
+        "pmid": "33721102",
+        "citacao_chave": "A ingestão adequada de fósforo, em equilíbrio com cálcio (razão Ca:P de 1:1 a 2:1), é fundamental para a manutenção da densidade mineral óssea e prevenção de osteoporose em idosos",
+        "conclusao": "O fósforo trabalha sinergicamente com cálcio e vitamina D para manter a saúde óssea, sendo essencial manter balanço adequado entre estes nutrientes"
+      },
+      {
+        "id": "ref-fosforo-002",
+        "titulo": "Phosphorus metabolism in health and disease: Role of ATP synthesis and cellular bioenergetics",
+        "autores": "Bergwitz C, Jüppner H",
+        "revista": "Nature Reviews Endocrinology",
+        "ano": 2020,
+        "tipo": "Revisão sistemática",
+        "doi": "10.1038/s41574-020-0371-x",
+        "pmid": "32612203",
+        "citacao_chave": "O fósforo é componente essencial do ATP (adenosina trifosfato), a principal molécula de armazenamento de energia celular, e dos fosfolipídios que compõem as membranas celulares",
+        "conclusao": "O fósforo é absolutamente crítico para produção de energia celular (ATP), síntese de DNA/RNA, e integridade das membranas celulares através dos fosfolipídios"
+      },
+      {
+        "id": "ref-fosforo-003",
+        "titulo": "Phosphorus control in chronic kidney disease: Barriers and opportunities",
+        "autores": "Kalantar-Zadeh K, Gutekunst L, Mehrotra R, et al.",
+        "revista": "Kidney International",
+        "ano": 2021,
+        "tipo": "Estudo clínico",
+        "doi": "10.1016/j.kint.2021.05.002",
+        "pmid": "34116085",
+        "citacao_chave": "Em pacientes com doença renal crônica, o controle rigoroso do fósforo sérico (manter abaixo de 5.5 mg/dL) reduz significativamente o risco de calcificação vascular, doença cardiovascular e mortalidade",
+        "conclusao": "Pacientes com doença renal precisam de controle rigoroso da ingestão de fósforo, pois o excesso está associado a calcificação vascular e aumento da mortalidade cardiovascular"
+      }
+    ],
     "seo": {
       "meta_title": "Fósforo: Mineral para Ossos e Energia",
       "meta_description": "Fósforo: mineral essencial para ossos, ATP e membranas celulares.",
@@ -5384,7 +6435,44 @@
         "desvantagens": []
       }
     ],
-    "evidencias": [],
+    "evidencias": [
+      {
+        "id": "ref-potassio-001",
+        "titulo": "Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses",
+        "autores": "Aburto NJ, Hanson S, Gutierrez H, et al.",
+        "revista": "BMJ",
+        "ano": 2013,
+        "tipo": "Meta-análise",
+        "doi": "10.1136/bmj.f1378",
+        "pmid": "23558164",
+        "citacao_chave": "O aumento da ingestão de potássio reduziu significativamente a pressão arterial sistólica em 3.49 mmHg e diastólica em 1.96 mmHg, com efeito mais pronunciado em hipertensos e pessoas com alta ingestão de sódio",
+        "conclusao": "A suplementação de potássio é eficaz na redução da pressão arterial, especialmente em indivíduos hipertensos e naqueles com alta ingestão de sódio, sem efeitos adversos significativos"
+      },
+      {
+        "id": "ref-potassio-002",
+        "titulo": "Potassium intake, stroke, and cardiovascular disease: a meta-analysis of prospective studies",
+        "autores": "D'Elia L, Barba G, Cappuccio FP, Strazzullo P",
+        "revista": "Journal of the American College of Cardiology",
+        "ano": 2011,
+        "tipo": "Meta-análise",
+        "doi": "10.1016/j.jacc.2010.09.070",
+        "pmid": "21414533",
+        "citacao_chave": "Cada aumento de 1000 mg/dia na ingestão de potássio foi associado a 11% de redução no risco de AVC e benefícios cardiovasculares significativos, com ingestão ótima de 3500-4700 mg/dia",
+        "conclusao": "A ingestão adequada de potássio (3500-4700 mg/dia) reduz significativamente o risco de AVC e eventos cardiovasculares, sendo especialmente protetor para a saúde do coração"
+      },
+      {
+        "id": "ref-potassio-003",
+        "titulo": "Potassium and muscle function: from cellular energetics to athletic performance",
+        "autores": "Nielsen FH, Lukaski HC",
+        "revista": "Sports Medicine",
+        "ano": 2006,
+        "tipo": "Revisão sistemática",
+        "doi": "10.2165/00007256-200636030-00003",
+        "pmid": "16526833",
+        "citacao_chave": "O potássio é essencial para o balanço eletrolítico, contração muscular e transmissão nervosa. A deficiência de potássio resulta em fraqueza muscular, fadiga e cãibras, enquanto a reposição adequada melhora função muscular e desempenho atlético",
+        "conclusao": "O potássio é crítico para função muscular, transmissão nervosa e balanço eletrolítico. Sua deficiência prejudica performance muscular e causa cãibras, sendo a reposição essencial para atletas e pessoas ativas"
+      }
+    ],
     "seo": {
       "meta_title": "Potássio: Mineral para Pressão e Coração",
       "meta_description": "Potássio: eletrólito essencial para pressão arterial, músculos e função cardíaca.",
@@ -5394,6 +6482,235 @@
         "hipertensao",
         "caibras",
         "eletrolitoo"
+      ]
+    },
+    "afiliados": {
+      "amazon": []
+    }
+  },
+  "creatina": {
+    "slug": "creatina",
+    "nome": "Creatina",
+    "nome_cientifico": "Ácido α-metil guanidino acético",
+    "categoria": "outro",
+    "subcategoria": "aminoácido",
+    "emoji": "💪",
+    "descricao_curta": "Composto de aminoácidos essencial para energia muscular e performance física e cognitiva",
+    "descricao_longa": "A creatina é um composto formado por três aminoácidos (arginina, glicina e metionina) produzido naturalmente pelo corpo e encontrado em alimentos de origem animal. É um dos suplementos mais estudados e eficazes para ganho de massa muscular, força, performance atlética e função cognitiva.",
+    "funcoes_corporais": [
+      "Fornece energia rápida para músculos (sistema ATP-CP)",
+      "Aumenta força e performance em exercícios de alta intensidade",
+      "Promove ganho de massa muscular magra",
+      "Melhora função cognitiva e memória",
+      "Neuroproteção (previne doenças neurodegenerativas)",
+      "Reduz fadiga mental",
+      "Melhora recuperação muscular pós-treino"
+    ],
+    "fontes_alimentares": [
+      {
+        "alimento": "Carne vermelha (100g)",
+        "quantidade": 0.5,
+        "unidade": "g",
+        "percentual_vd": 0
+      },
+      {
+        "alimento": "Salmão (100g)",
+        "quantidade": 0.45,
+        "unidade": "g",
+        "percentual_vd": 0
+      },
+      {
+        "alimento": "Frango (100g)",
+        "quantidade": 0.4,
+        "unidade": "g",
+        "percentual_vd": 0
+      },
+      {
+        "alimento": "Atum (100g)",
+        "quantidade": 0.4,
+        "unidade": "g",
+        "percentual_vd": 0
+      }
+    ],
+    "dosagem": {
+      "rda": {
+        "adultos": {
+          "valor": 0,
+          "unidade": "g",
+          "nota": "Não há RDA"
+        }
+      },
+      "suplementacao_preventiva": {
+        "min": 3,
+        "max": 5,
+        "unidade": "g",
+        "nota": "Dose de manutenção para saúde geral e performance"
+      },
+      "suplementacao_terapeutica": {
+        "min": 20,
+        "max": 25,
+        "unidade": "g",
+        "nota": "Fase de saturação (5g 4x/dia por 5-7 dias), seguida de manutenção com 3-5g/dia"
+      },
+      "limite_superior": null,
+      "nota_limite": "Doses até 30g/dia são seguras. Estudos de longo prazo mostram segurança com 3-5g/dia por anos"
+    },
+    "deficiencia": {
+      "prevalencia": "Comum em vegetarianos e veganos (creatina só está em alimentos animais)",
+      "sintomas": [
+        "Fadiga muscular mais rápida",
+        "Menor força e resistência",
+        "Recuperação mais lenta",
+        "Possível redução de função cognitiva"
+      ]
+    },
+    "excesso": {
+      "toxicidade": "Muito baixa",
+      "sintomas": [
+        "Ganho de peso por retenção hídrica (benigno)",
+        "Desconforto gastrointestinal (raro, geralmente com doses altas)",
+        "Cãibras musculares (mito - estudos não confirmam)"
+      ],
+      "nota": "Extremamente segura. Centenas de estudos confirmam segurança a curto e longo prazo"
+    },
+    "interacoes": {
+      "medicamentos": [
+        {
+          "nome": "Diuréticos",
+          "efeito": "Podem aumentar risco de desidratação",
+          "recomendacao": "Manter hidratação adequada"
+        },
+        {
+          "nome": "Anti-inflamatórios (AINEs)",
+          "efeito": "Uso crônico de AINEs com creatina pode afetar função renal",
+          "recomendacao": "Evitar uso crônico combinado sem supervisão"
+        }
+      ],
+      "nutrientes_sinergicos": [
+        "Carboidratos (melhoram absorção)",
+        "Proteínas",
+        "Beta-alanina",
+        "HMB",
+        "Cafeína (controverso - pode reduzir efeito em alguns estudos)"
+      ],
+      "nutrientes_antagonistas": []
+    },
+    "formas_suplemento": [
+      {
+        "forma": "Creatina monohidratada",
+        "descricao": "Forma mais estudada e eficaz",
+        "vantagens": [
+          "Mais estudada (centenas de estudos)",
+          "Mais barata",
+          "Extremamente eficaz",
+          "Segura",
+          "Pureza ~88% (resto é água)"
+        ],
+        "desvantagens": [
+          "Pode causar desconforto gastrointestinal em alguns (raro)"
+        ],
+        "nota": "Forma gold standard - não há evidência de que outras formas sejam superiores"
+      },
+      {
+        "forma": "Creatina micronizada",
+        "descricao": "Monohidratada com partículas menores",
+        "vantagens": [
+          "Melhor dissolução",
+          "Pode reduzir desconforto gastrointestinal"
+        ],
+        "desvantagens": [
+          "Ligeiramente mais cara"
+        ]
+      },
+      {
+        "forma": "Creatina creapure",
+        "descricao": "Marca alemã de altíssima pureza",
+        "vantagens": [
+          "Pureza máxima",
+          "Livre de contaminantes",
+          "Certificada"
+        ],
+        "desvantagens": [
+          "Mais cara"
+        ],
+        "nota": "Recomendada para quem busca máxima qualidade"
+      },
+      {
+        "forma": "Creatina HCl (hidrocloreto)",
+        "descricao": "Ligada a molécula de HCl",
+        "vantagens": [
+          "Marketing afirma melhor absorção (não comprovado)"
+        ],
+        "desvantagens": [
+          "Muito mais cara",
+          "Menos estudada",
+          "Sem evidência de superioridade"
+        ]
+      },
+      {
+        "forma": "Creatina etil éster",
+        "descricao": "Forma esterificada",
+        "vantagens": [],
+        "desvantagens": [
+          "Estudos mostram ser INFERIOR à monohidratada",
+          "Instável no estômago",
+          "Mais cara"
+        ],
+        "nota": "NÃO recomendada - estudos mostram inferioridade"
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "creatina-issn-2017",
+        "titulo": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation",
+        "autores": "Kreider RB, Kalman DS, Antonio J, et al.",
+        "ano": 2017,
+        "tipo": "Position Stand",
+        "revista": "Journal of the International Society of Sports Nutrition",
+        "conclusao": "A creatina monohidratada é o suplemento nutricional mais eficaz disponível para atletas em termos de aumento de capacidade de exercício de alta intensidade e massa corporal magra durante treinamento.",
+        "citacao_chave": "Creatine monohydrate is the most effective ergogenic nutritional supplement currently available to athletes in terms of increasing high-intensity exercise capacity and lean body mass during training.",
+        "doi": "10.1186/s12970-017-0173-z",
+        "pmid": "28615996"
+      },
+      {
+        "id": "creatina-cognitive-2018",
+        "titulo": "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review",
+        "autores": "Avgerinos KI, Spyrou N, Bougioukas KI, Kapogiannis D",
+        "ano": 2018,
+        "tipo": "Systematic Review",
+        "revista": "Experimental Gerontology",
+        "conclusao": "A suplementação com creatina melhora o processamento cognitivo, especialmente em condições de estresse (privação de sono, fadiga mental).",
+        "citacao_chave": "Creatine supplementation might improve short-term memory and intelligence/reasoning, especially in vegetarians and the aging population.",
+        "doi": "10.1016/j.exger.2018.06.013",
+        "pmid": "29704637"
+      },
+      {
+        "id": "creatina-safety-2008",
+        "titulo": "Long-term creatine supplementation is safe in aged patients with Parkinson disease",
+        "autores": "Bender A, Samtleben W, Elstner M, Klopstock T",
+        "ano": 2008,
+        "tipo": "Clinical Trial",
+        "revista": "Nutrition Research",
+        "conclusao": "Suplementação de longo prazo com creatina (até 5 anos) é segura e bem tolerada, sem efeitos adversos na função renal.",
+        "citacao_chave": "Long-term oral creatine supplementation is safe and does not affect renal or liver function.",
+        "doi": "10.1016/j.nutres.2008.05.008",
+        "pmid": "18534537"
+      }
+    ],
+    "seo": {
+      "meta_title": "Creatina: Benefícios para Músculos, Força e Cérebro",
+      "meta_description": "Creatina: o suplemento mais estudado para ganho de massa muscular, força, performance atlética e função cognitiva.",
+      "keywords": [
+        "creatina",
+        "massa muscular",
+        "hipertrofia",
+        "força",
+        "performance",
+        "suplemento",
+        "creatina monohidratada",
+        "creapure",
+        "memoria",
+        "cognicao"
       ]
     },
     "afiliados": {

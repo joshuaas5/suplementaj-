@@ -143,15 +143,26 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                           {fonte.quantidade} {fonte.unidade}
                         </td>
                         <td className="py-3 px-4 text-right">
-                          <Badge variant={fonte.percentual_vd >= 100 ? 'success' : 'neutral'}>
-                            {fonte.percentual_vd}%
-                          </Badge>
+                          {fonte.percentual_vd === 0 ? (
+                            <Badge variant="neutral">N/A</Badge>
+                          ) : (
+                            <Badge variant={fonte.percentual_vd >= 100 ? 'success' : 'neutral'}>
+                              {fonte.percentual_vd}%
+                            </Badge>
+                          )}
                         </td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
+              {nutriente.fontes_alimentares.some(f => f.percentual_vd === 0) && (
+                <div className="mt-4 bg-yellow-400 border-2 border-black p-3">
+                  <p className="text-xs text-black font-bold">
+                    💡 N/A = Não é possível calcular % do Valor Diário pois este nutriente não possui RDA estabelecida.
+                  </p>
+                </div>
+              )}
             </CardContent>
           </Card>
         )}
@@ -173,9 +184,20 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                     {nutriente.dosagem.rda.adultos && (
                       <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4">
                         <p className="text-sm font-black text-black mb-2 uppercase">Adultos</p>
-                        <p className="text-3xl font-black text-black">
-                          {nutriente.dosagem.rda.adultos.valor} {nutriente.dosagem.rda.adultos.unidade}
-                        </p>
+                        {nutriente.dosagem.rda.adultos.valor === 0 && nutriente.dosagem.rda.adultos.nota ? (
+                          <div>
+                            <p className="text-xl font-black text-black mb-2 bg-cyan-400 border-2 border-black p-3 inline-block">
+                              {nutriente.dosagem.rda.adultos.nota}
+                            </p>
+                            <p className="text-xs text-black font-bold mt-2">
+                              Este nutriente não possui RDA estabelecida, pois não é classificado como essencial.
+                            </p>
+                          </div>
+                        ) : (
+                          <p className="text-3xl font-black text-black">
+                            {nutriente.dosagem.rda.adultos.valor} {nutriente.dosagem.rda.adultos.unidade}
+                          </p>
+                        )}
                       </div>
                     )}
                     {nutriente.dosagem.rda.gestantes && (
