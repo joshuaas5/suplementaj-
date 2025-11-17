@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award, Brain } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -8,57 +8,52 @@ import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section with Animated Gradient */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900">
-        {/* Animated Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }} />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24">
+      {/* Hero Section - NEOBRUTALISM */}
+      <section className="relative overflow-hidden bg-yellow-400 border-b-8 border-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20">
           <div className="text-center">
             {/* Trust Badges */}
             <div className="flex justify-center gap-3 mb-8 flex-wrap">
-              <Badge variant="success" className="bg-white/20 text-white border-white/30 backdrop-blur-sm">
-                <Star className="w-3 h-3 mr-1" /> Baseado em Ciência
+              <Badge variant="success" size="lg">
+                <Star className="w-4 h-4 mr-1" /> Baseado em Ciência
               </Badge>
-              <Badge variant="info" className="bg-white/20 text-white border-white/30 backdrop-blur-sm">
-                <Shield className="w-3 h-3 mr-1" /> 100% Gratuito
+              <Badge variant="info" size="lg">
+                <Shield className="w-4 h-4 mr-1" /> 100% Gratuito
               </Badge>
-              <Badge variant="warning" className="bg-white/20 text-white border-white/30 backdrop-blur-sm">
-                <Award className="w-3 h-3 mr-1" /> Sem Cadastro
+              <Badge variant="danger" size="lg">
+                <Award className="w-4 h-4 mr-1" /> Sem Cadastro
               </Badge>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight">
-              Descubra os Suplementos<br />
-              <span className="bg-gradient-to-r from-yellow-200 to-yellow-400 bg-clip-text text-transparent">
-                Certos para Você
-              </span>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-black mb-6 leading-tight uppercase">
+              Descubra os Suplementos{' '}
+              <span className="bg-black text-yellow-400 px-3 py-2 inline-block rotate-1">
+                Certos
+              </span>{' '}
+              para Você
             </h1>
 
-            <p className="text-xl sm:text-2xl text-primary-100 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Recomendações personalizadas de vitaminas e minerais baseadas em
-              <span className="font-semibold text-white"> evidências científicas</span>.
-              <br />Responda 6 perguntas e receba seu plano em 2 minutos.
-            </p>
+            <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 max-w-3xl mx-auto mb-10">
+              <p className="text-xl sm:text-2xl text-black font-bold leading-relaxed">
+                Recomendações personalizadas de vitaminas e minerais baseadas em{' '}
+                <span className="bg-cyan-400 px-2 py-1">evidências científicas</span>.
+                <br />Responda 6 perguntas e receba seu plano em 2 minutos.
+              </p>
+            </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto mb-12">
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">39</div>
-                <div className="text-sm text-primary-200">Nutrientes</div>
+            <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-12">
+              <div className="bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform -rotate-1">
+                <div className="text-4xl sm:text-5xl font-black text-black mb-1">39</div>
+                <div className="text-sm font-bold uppercase text-black">Nutrientes</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">50+</div>
-                <div className="text-sm text-primary-200">Condições</div>
+              <div className="bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform rotate-1">
+                <div className="text-4xl sm:text-5xl font-black text-black mb-1">50+</div>
+                <div className="text-sm font-bold uppercase text-black">Condições</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-white mb-1">2min</div>
-                <div className="text-sm text-primary-200">Avaliação</div>
+              <div className="bg-pink-500 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform -rotate-1">
+                <div className="text-4xl sm:text-5xl font-black text-white mb-1">2min</div>
+                <div className="text-sm font-bold uppercase text-white">Avaliação</div>
               </div>
             </div>
 
@@ -66,36 +61,31 @@ export default function Home() {
               <Link href="/avaliacao">
                 <Button
                   size="lg"
-                  variant="secondary"
-                  className="group shadow-2xl shadow-black/20 text-lg px-8 py-6 hover:scale-105 transition-transform"
+                  variant="primary"
+                  className="text-xl px-10 py-7"
                 >
                   Fazer Avaliação Gratuita
-                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="ml-2 w-6 h-6" />
                 </Button>
               </Link>
               <Link href="/nutrientes">
                 <Button
-                  variant="outline"
+                  variant="success"
                   size="lg"
-                  className="border-2 border-white text-white hover:bg-white hover:text-primary-600 text-lg px-8 py-6 transition-all"
+                  className="text-xl px-10 py-7"
                 >
                   Explorar Nutrientes
                 </Button>
               </Link>
             </div>
 
-            <p className="text-sm text-primary-200 flex items-center justify-center gap-2">
-              <Clock className="w-4 h-4" />
-              Resultado instantâneo • Nenhum e-mail necessário
-            </p>
+            <div className="bg-black border-4 border-black p-4 inline-block">
+              <p className="text-sm text-yellow-400 flex items-center gap-2 font-bold uppercase">
+                <Clock className="w-4 h-4" />
+                Resultado instantâneo • Nenhum e-mail necessário
+              </p>
+            </div>
           </div>
-        </div>
-
-        {/* Wave Divider */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-            <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
-          </svg>
         </div>
       </section>
 
@@ -104,33 +94,36 @@ export default function Home() {
         <DisclaimerBanner />
       </div>
 
-      {/* Features Section with Cards */}
+      {/* Features Section - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Por que escolher o Suplementa Já?
-          </h2>
-          <p className="text-xl text-gray-600">
+          <div className="inline-block bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 rotate-1">
+            <h2 className="text-4xl font-black text-black uppercase">
+              Por que Suplementa Já?
+            </h2>
+          </div>
+          <p className="text-xl text-gray-800 font-bold">
             Tecnologia e ciência trabalhando para sua saúde
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <Card className="border-2 hover:border-primary-300 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          {/* Feature 1 */}
+          <Card className="transform -rotate-1 hover:rotate-0 transition-all bg-lime-400">
             <CardHeader>
-              <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <Sparkles className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-black border-4 border-black flex items-center justify-center mb-6 shadow-[4px_4px_0_0_#000]">
+                <Sparkles className="w-8 h-8 text-lime-400" />
               </div>
               <CardTitle className="text-2xl">100% Personalizado</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Nosso algoritmo inteligente analisa <strong>50+ fatores</strong>{' '}
+              <p className="text-black text-base leading-relaxed font-bold">
+                Nosso algoritmo inteligente analisa <span className="bg-black text-lime-400 px-2 py-1">50+ fatores</span>{' '}
                 do seu perfil: idade, sexo, dieta, condições de saúde, medicamentos e sintomas{' '}
                 para recomendações ultra-precisas.
               </p>
-              <div className="mt-6 p-4 bg-primary-50 rounded-lg">
-                <p className="text-sm text-primary-800 font-medium">
+              <div className="mt-6 p-4 bg-white border-4 border-black">
+                <p className="text-sm text-black font-bold uppercase leading-relaxed">
                   ✓ Análise de interações medicamentosas<br />
                   ✓ Identificação de contraindicações<br />
                   ✓ Dosagens personalizadas
@@ -139,21 +132,22 @@ export default function Home() {
             </CardContent>
           </Card>
 
-          <Card className="border-2 hover:border-success-300 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          {/* Feature 2 */}
+          <Card className="transform rotate-1 hover:rotate-0 transition-all bg-cyan-400">
             <CardHeader>
-              <div className="w-16 h-16 bg-gradient-to-br from-success-500 to-success-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <Shield className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-black border-4 border-black flex items-center justify-center mb-6 shadow-[4px_4px_0_0_#000]">
+                <Shield className="w-8 h-8 text-cyan-400" />
               </div>
               <CardTitle className="text-2xl">Baseado em Ciência</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Todas as recomendações são fundamentadas em <strong>estudos científicos</strong>{' '}
+              <p className="text-black text-base leading-relaxed font-bold">
+                Todas as recomendações são fundamentadas em <span className="bg-black text-cyan-400 px-2 py-1">estudos científicos</span>{' '}
                 publicados em revistas médicas. Incluímos referências clicáveis com DOI para
                 você verificar.
               </p>
-              <div className="mt-6 p-4 bg-success-50 rounded-lg">
-                <p className="text-sm text-success-800 font-medium">
+              <div className="mt-6 p-4 bg-white border-4 border-black">
+                <p className="text-sm text-black font-bold uppercase leading-relaxed">
                   ✓ Revisões sistemáticas e meta-análises<br />
                   ✓ Guidelines de organizações médicas<br />
                   ✓ Estudos randomizados controlados
@@ -162,20 +156,21 @@ export default function Home() {
             </CardContent>
           </Card>
 
-          <Card className="border-2 hover:border-warning-300 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          {/* Feature 3 */}
+          <Card className="transform -rotate-1 hover:rotate-0 transition-all bg-pink-500">
             <CardHeader>
-              <div className="w-16 h-16 bg-gradient-to-br from-warning-500 to-warning-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <Users className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-black border-4 border-black flex items-center justify-center mb-6 shadow-[4px_4px_0_0_#000]">
+                <Users className="w-8 h-8 text-pink-500" />
               </div>
               <CardTitle className="text-2xl">Seguro e Completo</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Alertas automáticos sobre <strong>contraindicações</strong>{' '}
+              <p className="text-white text-base leading-relaxed font-bold">
+                Alertas automáticos sobre <span className="bg-black text-pink-500 px-2 py-1">contraindicações</span>{' '}
                 importantes, interações medicamentosas perigosas e dosagens seguras para cada perfil.
               </p>
-              <div className="mt-6 p-4 bg-warning-50 rounded-lg">
-                <p className="text-sm text-warning-800 font-medium">
+              <div className="mt-6 p-4 bg-white border-4 border-black">
+                <p className="text-sm text-black font-bold uppercase leading-relaxed">
                   ✓ Alertas de contraindicação (ex: K2 + warfarin)<br />
                   ✓ Limites superiores toleráveis<br />
                   ✓ Recomendações de timing
@@ -186,263 +181,259 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works - Timeline Style */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* How It Works - NEOBRUTALISM */}
+      <section className="bg-white py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Como Funciona
-            </h2>
-            <p className="text-xl text-gray-600">
+            <div className="inline-block bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 -rotate-1">
+              <h2 className="text-4xl font-black text-black uppercase">
+                Como Funciona
+              </h2>
+            </div>
+            <p className="text-xl text-gray-800 font-bold">
               3 passos simples para resultados personalizados
             </p>
           </div>
 
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary-300 via-primary-400 to-primary-500" />
-
-            <div className="space-y-16">
-              {/* Step 1 */}
-              <div className="relative flex items-center md:justify-end">
-                <div className="md:w-5/12 md:pr-12">
-                  <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-primary-200">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 bg-gradient-to-br from-primary-500 to-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
-                        1
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900">Responda o Questionário</h3>
-                    </div>
-                    <p className="text-gray-600 text-lg">
-                      6 passos rápidos sobre sua saúde, dieta e estilo de vida.{' '}
-                      Leva apenas <strong>2-3 minutos</strong>{' '}
-                      para completar.
-                    </p>
-                    <div className="mt-4 flex gap-2 flex-wrap">
-                      <Badge variant="info">Dados demográficos</Badge>
-                      <Badge variant="info">Estilo de vida</Badge>
-                      <Badge variant="info">Condições de saúde</Badge>
-                    </div>
-                  </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Step 1 */}
+            <div className="relative">
+              <div className="bg-cyan-400 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform rotate-1">
+                <div className="w-16 h-16 bg-black text-cyan-400 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
+                  1
                 </div>
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-primary-500 rounded-full border-4 border-white shadow-lg" />
+                <h3 className="text-2xl font-black text-black uppercase mb-4">Responda o Questionário</h3>
+                <p className="text-black font-bold mb-4 leading-relaxed">
+                  6 passos rápidos sobre sua saúde, dieta e estilo de vida.{' '}
+                  Leva apenas <span className="bg-black text-cyan-400 px-2 py-1">2-3 minutos</span>{' '}
+                  para completar.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <Badge variant="info" size="sm">Dados demográficos</Badge>
+                  <Badge variant="info" size="sm">Estilo de vida</Badge>
+                  <Badge variant="info" size="sm">Condições de saúde</Badge>
+                </div>
               </div>
-
-              {/* Step 2 */}
-              <div className="relative flex items-center md:justify-start">
-                <div className="md:w-5/12 md:ml-auto md:pl-12">
-                  <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-success-200">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 bg-gradient-to-br from-success-500 to-success-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
-                        2
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900">Receba Recomendações</h3>
-                    </div>
-                    <p className="text-gray-600 text-lg">
-                      Nosso algoritmo analisa seu perfil e gera <strong>recomendações instantâneas</strong>{' '}
-                      com dosagens específicas, prioridades e justificativas científicas.
-                    </p>
-                    <div className="mt-4 flex gap-2 flex-wrap">
-                      <Badge variant="success">Dosagens personalizadas</Badge>
-                      <Badge variant="success">Priorização clara</Badge>
-                      <Badge variant="success">Links científicos</Badge>
-                    </div>
-                  </div>
-                </div>
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-success-500 rounded-full border-4 border-white shadow-lg" />
+              <div className="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2 z-10">
+                <ArrowRight className="w-8 h-8 text-black" />
               </div>
+            </div>
 
-              {/* Step 3 */}
-              <div className="relative flex items-center md:justify-end">
-                <div className="md:w-5/12 md:pr-12">
-                  <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-warning-200">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 bg-gradient-to-br from-warning-500 to-warning-600 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
-                        3
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900">Consulte seu Médico</h3>
-                    </div>
-                    <p className="text-gray-600 text-lg">
-                      Use os resultados como <strong>base para conversar</strong>{' '}
-                      com seu nutricionista ou médico. Nosso relatório facilita a discussão.
-                    </p>
-                    <div className="mt-4 flex gap-2 flex-wrap">
-                      <Badge variant="warning">Relatório completo</Badge>
-                      <Badge variant="warning">Justificativas claras</Badge>
-                      <Badge variant="warning">Referências científicas</Badge>
-                    </div>
-                  </div>
+            {/* Step 2 */}
+            <div className="relative">
+              <div className="bg-lime-400 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform -rotate-1">
+                <div className="w-16 h-16 bg-black text-lime-400 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
+                  2
                 </div>
-                <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-warning-500 rounded-full border-4 border-white shadow-lg" />
+                <h3 className="text-2xl font-black text-black uppercase mb-4">Receba Recomendações</h3>
+                <p className="text-black font-bold mb-4 leading-relaxed">
+                  Nosso algoritmo analisa seu perfil e gera <span className="bg-black text-lime-400 px-2 py-1">recomendações instantâneas</span>{' '}
+                  com dosagens específicas, prioridades e justificativas científicas.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <Badge variant="success" size="sm">Dosagens personalizadas</Badge>
+                  <Badge variant="success" size="sm">Priorização clara</Badge>
+                  <Badge variant="success" size="sm">Links científicos</Badge>
+                </div>
+              </div>
+              <div className="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2 z-10">
+                <ArrowRight className="w-8 h-8 text-black" />
+              </div>
+            </div>
+
+            {/* Step 3 */}
+            <div className="bg-pink-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 transform rotate-1">
+              <div className="w-16 h-16 bg-black text-pink-500 border-4 border-black flex items-center justify-center text-3xl font-black shadow-[4px_4px_0_0_#000] mb-6">
+                3
+              </div>
+              <h3 className="text-2xl font-black text-white uppercase mb-4">Consulte seu Médico</h3>
+              <p className="text-white font-bold mb-4 leading-relaxed">
+                Use os resultados como <span className="bg-black text-pink-500 px-2 py-1">base para conversar</span>{' '}
+                com seu nutricionista ou médico. Nosso relatório facilita a discussão.
+              </p>
+              <div className="flex gap-2 flex-wrap">
+                <Badge variant="danger" size="sm">Relatório completo</Badge>
+                <Badge variant="danger" size="sm">Justificativas claras</Badge>
+                <Badge variant="danger" size="sm">Referências científicas</Badge>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Nutrients Showcase */}
+      {/* Nutrients Showcase - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left - Benefits */}
-          <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Análise Completa de 39 Nutrientes Essenciais
+        <div className="text-center mb-12">
+          <div className="inline-block bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-3 mb-6 rotate-1">
+            <h2 className="text-4xl font-black text-black uppercase">
+              39 Nutrientes Essenciais
             </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Cada nutriente é avaliado considerando seu perfil único de saúde
-            </p>
+          </div>
+          <p className="text-xl text-gray-800 font-bold">
+            Cada nutriente é avaliado considerando seu perfil único
+          </p>
+        </div>
 
-            <ul className="space-y-6">
-              <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-success-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <CheckCircle2 className="w-6 h-6 text-success-600" />
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+          {/* Left - Benefits */}
+          <div className="space-y-6">
+            <Card className="bg-cyan-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
+                    <TrendingUp className="w-6 h-6 text-cyan-400" />
+                  </div>
+                  <div>
+                    <strong className="text-lg text-black block mb-2 font-black uppercase">Economia Inteligente</strong>
+                    <p className="text-black font-bold">
+                      Evite gastar dinheiro com suplementos que você não precisa.
+                      Focamos apenas no que é essencial para você.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <strong className="text-lg text-gray-900 block mb-1">Economia Inteligente</strong>
-                  <p className="text-gray-600">
-                    Evite gastar dinheiro com suplementos que você não precisa.
-                    Focamos apenas no que é essencial para você.
-                  </p>
-                </div>
-              </li>
+              </CardContent>
+            </Card>
 
-              <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-warning-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Shield className="w-6 h-6 text-warning-600" />
+            <Card className="bg-lime-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-6 h-6 text-lime-400" />
+                  </div>
+                  <div>
+                    <strong className="text-lg text-black block mb-2 font-black uppercase">Máxima Segurança</strong>
+                    <p className="text-black font-bold">
+                      Alertas automáticos sobre contraindicações e interações perigosas
+                      com medicamentos que você usa.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <strong className="text-lg text-gray-900 block mb-1">Máxima Segurança</strong>
-                  <p className="text-gray-600">
-                    Alertas automáticos sobre contraindicações e interações perigosas
-                    com medicamentos que você usa.
-                  </p>
-                </div>
-              </li>
+              </CardContent>
+            </Card>
 
-              <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <TrendingUp className="w-6 h-6 text-primary-600" />
+            <Card className="bg-yellow-400 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
+                    <Brain className="w-6 h-6 text-yellow-400" />
+                  </div>
+                  <div>
+                    <strong className="text-lg text-black block mb-2 font-black uppercase">Educação Contínua</strong>
+                    <p className="text-black font-bold">
+                      Aprenda sobre cada nutriente: funções, fontes alimentares,
+                      deficiências e evidências científicas.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <strong className="text-lg text-gray-900 block mb-1">Educação Contínua</strong>
-                  <p className="text-gray-600">
-                    Aprenda sobre cada nutriente: funções, fontes alimentares,
-                    deficiências e evidências científicas.
-                  </p>
-                </div>
-              </li>
+              </CardContent>
+            </Card>
 
-              <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Star className="w-6 h-6 text-blue-600" />
+            <Card className="bg-pink-500 hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#000] transition-all">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-black flex items-center justify-center flex-shrink-0">
+                    <Star className="w-6 h-6 text-pink-500" />
+                  </div>
+                  <div>
+                    <strong className="text-lg text-white block mb-2 font-black uppercase">100% Gratuito</strong>
+                    <p className="text-white font-bold">
+                      Sem pegadinhas, sem cadastro obrigatório, sem limites de uso.
+                      Queremos democratizar acesso à informação de qualidade.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <strong className="text-lg text-gray-900 block mb-1">100% Gratuito</strong>
-                  <p className="text-gray-600">
-                    Sem pegadinhas, sem cadastro obrigatório, sem limites de uso.
-                    Queremos democratizar acesso à informação de qualidade.
-                  </p>
-                </div>
-              </li>
-            </ul>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Right - Nutrients Grid */}
-          <div className="relative">
-            <div className="bg-gradient-to-br from-primary-500 via-primary-600 to-primary-700 rounded-3xl p-10 shadow-2xl">
-              <h3 className="text-3xl font-bold text-white mb-8 text-center">
+          <div>
+            <div className="bg-yellow-400 border-4 border-black shadow-[12px_12px_0_0_#000] p-8">
+              <h3 className="text-3xl font-black text-black mb-6 uppercase text-center">
                 Nutrientes Analisados
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-3 gap-3 mb-6">
                 {[
-                  { name: 'Vitamina B12', emoji: '💉' },
-                  { name: 'Vitamina D', emoji: '☀️' },
-                  { name: 'Cálcio', emoji: '🦴' },
-                  { name: 'Magnésio', emoji: '⚡' },
-                  { name: 'Ferro', emoji: '🩸' },
-                  { name: 'Ômega-3', emoji: '🐟' },
-                  { name: 'Vitamina C', emoji: '🍊' },
-                  { name: 'Vitamina E', emoji: '🌰' },
-                  { name: 'Zinco', emoji: '🛡️' },
-                  { name: 'Ácido Fólico', emoji: '🤰' },
-                  { name: 'Vitamina B6', emoji: '🧠' },
-                  { name: 'Vitamina K2', emoji: '🫀' },
-                  { name: 'Iodo', emoji: '🦋' },
-                  { name: 'Selênio', emoji: '💪' },
-                  { name: 'Vitamina A', emoji: '👁️' }
+                  { name: 'B12', emoji: '💉', color: 'bg-cyan-400' },
+                  { name: 'D', emoji: '☀️', color: 'bg-lime-400' },
+                  { name: 'Cálcio', emoji: '🦴', color: 'bg-pink-500' },
+                  { name: 'Mg', emoji: '⚡', color: 'bg-cyan-400' },
+                  { name: 'Ferro', emoji: '🩸', color: 'bg-lime-400' },
+                  { name: 'Ω-3', emoji: '🐟', color: 'bg-pink-500' },
+                  { name: 'C', emoji: '🍊', color: 'bg-cyan-400' },
+                  { name: 'E', emoji: '🌰', color: 'bg-lime-400' },
+                  { name: 'Zinco', emoji: '🛡️', color: 'bg-pink-500' },
+                  { name: 'Folato', emoji: '🤰', color: 'bg-cyan-400' },
+                  { name: 'B6', emoji: '🧠', color: 'bg-lime-400' },
+                  { name: 'K2', emoji: '🫀', color: 'bg-pink-500' },
+                  { name: 'Iodo', emoji: '🦋', color: 'bg-cyan-400' },
+                  { name: 'Se', emoji: '💪', color: 'bg-lime-400' },
+                  { name: 'A', emoji: '👁️', color: 'bg-pink-500' }
                 ].map((nutrient, idx) => (
                   <div
                     key={idx}
-                    className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 text-white hover:bg-white/20 transition-all cursor-pointer"
+                    className={`${nutrient.color} border-2 border-black shadow-[3px_3px_0_0_#000] p-3 text-center hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all cursor-pointer`}
                   >
-                    <div className="text-2xl mb-2">{nutrient.emoji}</div>
-                    <div className="text-sm font-medium">{nutrient.name}</div>
+                    <div className="text-2xl mb-1">{nutrient.emoji}</div>
+                    <div className="text-xs font-black uppercase text-black">{nutrient.name}</div>
                   </div>
                 ))}
               </div>
 
-              <div className="mt-8 text-center">
+              <div className="text-center">
                 <Link href="/nutrientes">
-                  <button className="text-white border-2 border-white px-6 py-3 rounded-lg hover:bg-white hover:text-primary-600 transition-all font-semibold">
-                    Explorar Todos os Nutrientes →
-                  </button>
+                  <Button variant="primary" size="lg" className="w-full">
+                    Ver Todos os 39 Nutrientes →
+                  </Button>
                 </Link>
               </div>
             </div>
-
-            {/* Decorative Elements */}
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-yellow-400 rounded-full opacity-20 blur-2xl" />
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-400 rounded-full opacity-20 blur-2xl" />
           </div>
         </div>
       </section>
 
-      {/* CTA Final - More Engaging */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-primary-600 via-primary-700 to-purple-700 text-white py-24">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }} />
-        </div>
-
-        <div className="relative max-w-4xl mx-auto text-center px-4">
-          <div className="inline-block mb-6">
-            <Badge variant="success" className="bg-yellow-400 text-gray-900 border-yellow-500 text-base px-4 py-2">
+      {/* CTA Final - NEOBRUTALISM */}
+      <section className="relative overflow-hidden bg-pink-500 border-t-8 border-black border-b-8 py-20">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <div className="inline-block mb-8">
+            <Badge variant="warning" size="lg" className="text-xl px-6 py-3">
               ⚡ Gratuito e Sem Cadastro
             </Badge>
           </div>
 
-          <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
-            Pronto para Descobrir Suas<br />Necessidades Nutricionais?
+          <h2 className="text-4xl sm:text-6xl font-black mb-8 text-white uppercase leading-tight">
+            Pronto para Descobrir{' '}
+            <span className="bg-black text-pink-500 px-3 py-2 inline-block -rotate-1">
+              Suas Necessidades
+            </span>{' '}
+            Nutricionais?
           </h2>
 
-          <p className="text-xl sm:text-2xl mb-10 text-primary-100 leading-relaxed">
-            Milhares de pessoas já usaram o Suplementa Já para tomar decisões mais informadas
-            sobre suplementação. Faça sua avaliação agora e receba resultados em 2 minutos.
-          </p>
+          <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-10 max-w-2xl mx-auto">
+            <p className="text-xl text-black font-bold leading-relaxed">
+              Milhares de pessoas já usaram o Suplementa Já para tomar decisões mais informadas
+              sobre suplementação. Faça sua avaliação agora e receba resultados em 2 minutos.
+            </p>
+          </div>
 
           <Link href="/avaliacao">
             <Button
               size="lg"
               variant="secondary"
-              className="group shadow-2xl shadow-black/30 text-xl px-10 py-7 hover:scale-105 transition-transform"
+              className="text-2xl px-12 py-8"
             >
               Começar Avaliação Gratuita
-              <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-2 transition-transform" />
+              <ArrowRight className="ml-3 w-8 h-8" />
             </Button>
           </Link>
 
-          <p className="mt-6 text-primary-200 flex items-center justify-center gap-2 text-sm">
-            <CheckCircle2 className="w-4 h-4" />
-            Sem e-mail • Sem cadastro • Resultado instantâneo
-          </p>
+          <div className="mt-8 bg-black border-4 border-black p-4 inline-block">
+            <p className="text-pink-500 flex items-center gap-2 font-bold uppercase">
+              <CheckCircle2 className="w-5 h-5" />
+              Sem e-mail • Sem cadastro • Resultado instantâneo
+            </p>
+          </div>
         </div>
-
-        {/* Decorative circles */}
-        <div className="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 right-10 w-60 h-60 bg-purple-400/20 rounded-full blur-3xl" />
       </section>
     </div>
   )
