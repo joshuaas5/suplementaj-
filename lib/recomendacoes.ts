@@ -356,6 +356,403 @@ export function gerarRecomendacoes(perfil: Perfil): Recomendacao[] {
   }
 
   // ==============================================
+  // VITAMINA B6
+  // ==============================================
+  const precisaB6 =
+    perfil.sexo === 'F' ||
+    perfil.medicamentos.includes('anticoncepcional') ||
+    perfil.condicoes_saude.includes('depressao') ||
+    (perfil.status_reprodutivo === 'gravida' && perfil.sintomas.includes('nausea'))
+
+  if (precisaB6) {
+    const motivos: string[] = []
+
+    if (perfil.sexo === 'F' && !perfil.status_reprodutivo?.includes('menopausa')) {
+      motivos.push('B6 ajuda na TPM e regulação hormonal feminina')
+    }
+    if (perfil.medicamentos.includes('anticoncepcional')) {
+      motivos.push('Anticoncepcionais reduzem níveis de vitamina B6')
+    }
+    if (perfil.condicoes_saude.includes('depressao')) {
+      motivos.push('B6 é essencial para produção de serotonina e dopamina')
+    }
+    if (perfil.status_reprodutivo === 'gravida' && perfil.sintomas.includes('nausea')) {
+      motivos.push('B6 ajuda a reduzir náuseas na gravidez')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b6',
+      prioridade: 'media',
+      dose_min: 10,
+      dose_max: 50,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Não exceder 100mg/dia. Doses altas crônicas podem causar neuropatia periférica.',
+    })
+  }
+
+  // ==============================================
+  // BIOTINA (B7)
+  // ==============================================
+  if (
+    perfil.status_reprodutivo === 'gravida' ||
+    perfil.sintomas.includes('queda de cabelo') ||
+    perfil.sintomas.includes('unhas fracas')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.status_reprodutivo === 'gravida') {
+      motivos.push('Necessidade aumentada durante gravidez')
+    }
+    if (perfil.sintomas.includes('queda de cabelo')) {
+      motivos.push('Biotina fortalece cabelos e reduz queda')
+    }
+    if (perfil.sintomas.includes('unhas fracas')) {
+      motivos.push('Biotina fortalece unhas quebradiças')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b7',
+      prioridade: 'media',
+      dose_min: 2500,
+      dose_max: 10000,
+      unidade: 'mcg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Doses para cabelo e unhas são bem acima da RDA. Extremamente segura.',
+    })
+  }
+
+  // ==============================================
+  // COENZIMA Q10
+  // ==============================================
+  const precisaCoQ10 =
+    perfil.medicamentos.includes('estatina') ||
+    perfil.idade >= 40 ||
+    perfil.condicoes_saude.includes('cardiovascular') ||
+    perfil.sintomas.includes('fadiga')
+
+  if (precisaCoQ10) {
+    const motivos: string[] = []
+
+    if (perfil.medicamentos.includes('estatina')) {
+      motivos.push('ESSENCIAL: Estatinas REDUZEM drasticamente os níveis de CoQ10')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('CoQ10 melhora função cardíaca e energia mitocondrial')
+    }
+    if (perfil.idade >= 40) {
+      motivos.push('Produção natural de CoQ10 diminui após os 40 anos')
+    }
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('CoQ10 é essencial para produção de energia celular (ATP)')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'coenzima-q10',
+      prioridade: perfil.medicamentos.includes('estatina') ? 'alta' : 'media',
+      dose_min: 100,
+      dose_max: 200,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Preferir forma Ubiquinol (reduzida) se >40 anos. Tomar com gordura para melhor absorção.',
+    })
+  }
+
+  // ==============================================
+  // PROBIÓTICOS
+  // ==============================================
+  const precisaProbioticos =
+    perfil.medicamentos.includes('antibiotico') ||
+    perfil.condicoes_saude.includes('sindrome_intestino_irritavel') ||
+    perfil.sintomas.includes('digestao irregular') ||
+    perfil.sintomas.includes('imunidade baixa')
+
+  if (precisaProbioticos) {
+    const motivos: string[] = []
+
+    if (perfil.medicamentos.includes('antibiotico')) {
+      motivos.push('ESSENCIAL: Antibióticos destroem microbiota intestinal. Restauração é crucial.')
+    }
+    if (perfil.condicoes_saude.includes('sindrome_intestino_irritavel')) {
+      motivos.push('Probióticos melhoram sintomas de SII')
+    }
+    if (perfil.sintomas.includes('digestao irregular')) {
+      motivos.push('Restauram equilíbrio intestinal e melhoram digestão')
+    }
+    if (perfil.sintomas.includes('imunidade baixa')) {
+      motivos.push('70% do sistema imune está no intestino - probióticos fortalecem imunidade')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'probioticos',
+      prioridade: perfil.medicamentos.includes('antibiotico') ? 'alta' : 'media',
+      dose_min: 5000000000,
+      dose_max: 10000000000,
+      unidade: 'UFC',
+      motivos,
+      referencias: [],
+      nota_especial: perfil.medicamentos.includes('antibiotico')
+        ? 'Tomar 2-3h após antibiótico. Continuar por 2 semanas após término do antibiótico.'
+        : 'Buscar multi-cepas com Lactobacillus e Bifidobacterium',
+    })
+  }
+
+  // ==============================================
+  // COLÁGENO
+  // ==============================================
+  if (
+    perfil.idade >= 30 ||
+    perfil.sintomas.includes('dor articular') ||
+    perfil.condicoes_saude.includes('osteoartrite')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.idade >= 30) {
+      motivos.push('Produção de colágeno diminui ~1%/ano após 25 anos')
+    }
+    if (perfil.sintomas.includes('dor articular')) {
+      motivos.push('Colágeno tipo II melhora saúde das cartilagens e reduz dor articular')
+    }
+    if (perfil.condicoes_saude.includes('osteoartrite')) {
+      motivos.push('Evidências sólidas de benefício para osteoartrite')
+    }
+
+    const doseMin = perfil.sintomas.includes('dor articular') || perfil.condicoes_saude.includes('osteoartrite') ? 10000 : 2500
+    const doseMax = perfil.sintomas.includes('dor articular') || perfil.condicoes_saude.includes('osteoartrite') ? 15000 : 5000
+
+    recomendacoes.push({
+      nutriente_slug: 'colageno',
+      prioridade: perfil.condicoes_saude.includes('osteoartrite') ? 'alta' : 'media',
+      dose_min: doseMin,
+      dose_max: doseMax,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: perfil.sintomas.includes('dor articular')
+        ? 'Para articulações: Colágeno tipo II (40mg UC-II) ou hidrolisado 10-15g/dia'
+        : 'Para pele: peptídeos de colágeno hidrolisado 2,5-5g/dia',
+    })
+  }
+
+  // ==============================================
+  // CROMO
+  // ==============================================
+  if (perfil.condicoes_saude.includes('diabetes') || perfil.condicoes_saude.includes('sindrome_metabolica')) {
+    const motivos: string[] = []
+
+    if (perfil.condicoes_saude.includes('diabetes')) {
+      motivos.push('Cromo potencializa ação da insulina e melhora controle glicêmico')
+    }
+    if (perfil.condicoes_saude.includes('sindrome_metabolica')) {
+      motivos.push('Melhora sensibilidade à insulina e metabolismo de carboidratos')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'cromo',
+      prioridade: 'media',
+      dose_min: 200,
+      dose_max: 400,
+      unidade: 'mcg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Monitorar glicemia se diabético - pode potencializar medicamentos antidiabéticos.',
+    })
+  }
+
+  // ==============================================
+  // VITAMINAS B1, B2, B3 (COMPLEXO B)
+  // ==============================================
+  if (
+    perfil.alcool === 'frequente' ||
+    perfil.idade >= 60 ||
+    perfil.sintomas.includes('fadiga') ||
+    perfil.dieta === 'vegana'
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.alcool === 'frequente') {
+      motivos.push('Consumo de álcool depleta vitaminas do complexo B, especialmente B1')
+    }
+    if (perfil.idade >= 60) {
+      motivos.push('Absorção reduzida de vitaminas B com envelhecimento')
+    }
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('Vitaminas B são essenciais para metabolismo energético')
+    }
+
+    // Recomendar complexo B completo
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b1',
+      prioridade: perfil.alcool === 'frequente' ? 'alta' : 'media',
+      dose_min: 10,
+      dose_max: 50,
+      unidade: 'mg',
+      motivos: ['Parte do complexo B - essencial para metabolismo energético', ...motivos],
+      referencias: [],
+      nota_especial: 'Considerar suplemento de Complexo B para cobertura completa.',
+    })
+  }
+
+  // ==============================================
+  // GLUCOSAMINA + MSM (Para articulações)
+  // ==============================================
+  if (perfil.sintomas.includes('dor articular') || perfil.condicoes_saude.includes('osteoartrite')) {
+    const motivos = [
+      'Glucosamina ajuda na regeneração de cartilagens',
+      'MSM possui efeito anti-inflamatório natural',
+      'Combinação potencializa efeitos para saúde articular',
+    ]
+
+    recomendacoes.push({
+      nutriente_slug: 'glucosamina',
+      prioridade: 'alta',
+      dose_min: 1500,
+      dose_max: 2000,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Preferir sulfato de glucosamina. Combinar com MSM e Colágeno tipo II para melhores resultados.',
+    })
+
+    recomendacoes.push({
+      nutriente_slug: 'msm',
+      prioridade: 'media',
+      dose_min: 3000,
+      dose_max: 6000,
+      unidade: 'mg',
+      motivos: ['Anti-inflamatório natural para articulações', 'Trabalha em sinergia com glucosamina'],
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // L-CARNITINA
+  // ==============================================
+  if (
+    perfil.dieta === 'vegetariana' ||
+    perfil.dieta === 'vegana' ||
+    perfil.sintomas.includes('fadiga') ||
+    perfil.atividade_fisica === 'intenso'
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.dieta === 'vegetariana' || perfil.dieta === 'vegana') {
+      motivos.push('Dietas vegetais são pobres em carnitina (presente principalmente em carnes)')
+    }
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('Carnitina transporta gorduras para produção de energia')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Melhora performance e recuperação muscular')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'l-carnitina',
+      prioridade: 'media',
+      dose_min: 500,
+      dose_max: 2000,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Para função cognitiva, preferir Acetil-L-Carnitina (ALCAR).',
+    })
+  }
+
+  // ==============================================
+  // GLUTAMINA
+  // ==============================================
+  if (
+    perfil.condicoes_saude.includes('sindrome_intestino_irritavel') ||
+    perfil.condicoes_saude.includes('doenca_celiaca') ||
+    perfil.condicoes_saude.includes('doenca_crohn') ||
+    perfil.atividade_fisica === 'intenso'
+  ) {
+    const motivos: string[] = []
+
+    if (
+      perfil.condicoes_saude.includes('sindrome_intestino_irritavel') ||
+      perfil.condicoes_saude.includes('doenca_celiaca') ||
+      perfil.condicoes_saude.includes('doenca_crohn')
+    ) {
+      motivos.push('Glutamina é combustível primário para células intestinais')
+      motivos.push('Ajuda a restaurar integridade da barreira intestinal (leaky gut)')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Melhora recuperação muscular e função imunológica')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'glutamina',
+      prioridade: 'media',
+      dose_min: 5,
+      dose_max: 10,
+      unidade: 'g',
+      motivos,
+      referencias: [],
+      nota_especial: 'Tomar em jejum ou entre refeições para melhor absorção.',
+    })
+  }
+
+  // ==============================================
+  // NAC (N-Acetilcisteína)
+  // ==============================================
+  if (
+    perfil.tabagismo === 'sim' ||
+    perfil.condicoes_saude.includes('doenca_hepatica') ||
+    perfil.sintomas.includes('problemas respiratorios')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.tabagismo === 'sim') {
+      motivos.push('NAC é mucolítico e protege pulmões de fumantes')
+    }
+    if (perfil.condicoes_saude.includes('doenca_hepatica')) {
+      motivos.push('NAC é precursor de glutationa - essencial para desintoxicação hepática')
+    }
+    if (perfil.sintomas.includes('problemas respiratorios')) {
+      motivos.push('NAC fluidifica muco e facilita expectoração')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'nac',
+      prioridade: 'media',
+      dose_min: 600,
+      dose_max: 1200,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'NAC aumenta níveis de glutationa - o antioxidante mais importante do corpo.',
+    })
+  }
+
+  // ==============================================
+  // TAURINA
+  // ==============================================
+  if (perfil.dieta === 'vegana' || perfil.condicoes_saude.includes('cardiovascular')) {
+    const motivos: string[] = []
+
+    if (perfil.dieta === 'vegana') {
+      motivos.push('Taurina não está presente em alimentos vegetais')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('Taurina melhora função cardíaca e regula pressão arterial')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'taurina',
+      prioridade: 'media',
+      dose_min: 500,
+      dose_max: 2000,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
   // ORDENAR POR PRIORIDADE
   // ==============================================
   const ordem: Record<string, number> = { alta: 0, media: 1, baixa: 2, nao_recomendado: 3 }

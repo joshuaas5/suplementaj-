@@ -120,7 +120,7 @@ export interface Nutriente {
   slug: string
   nome: string
   nome_cientifico: string
-  categoria: 'vitamina' | 'mineral'
+  categoria: 'vitamina' | 'mineral' | 'outro'
   subcategoria?: string
   emoji: string
 
@@ -138,7 +138,7 @@ export interface Nutriente {
 
   interacoes: Interacoes
 
-  grupos_risco: GrupoRisco[]
+  grupos_risco?: GrupoRisco[]
 
   formas_suplemento: FormaSuplemento[]
 

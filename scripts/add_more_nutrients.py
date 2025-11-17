@@ -1,0 +1,2346 @@
+#!/usr/bin/env python3
+import json
+import os
+
+# Carregar nutrientes existentes
+script_dir = os.path.dirname(os.path.abspath(__file__))
+nutrients_file = os.path.join(script_dir, '..', 'data', 'nutrientes.json')
+
+with open(nutrients_file, 'r', encoding='utf-8') as f:
+    nutrientes = json.load(f)
+
+# Nutrientes adicionais com dados completos
+novos_nutrientes = {
+    "vitamina-b1": {
+        "slug": "vitamina-b1",
+        "nome": "Vitamina B1",
+        "nome_cientifico": "Tiamina",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "⚡",
+        "descricao_curta": "Essencial para metabolismo energético e função nervosa",
+        "descricao_longa": "A vitamina B1 (tiamina) é crucial para o metabolismo de carboidratos e produção de energia celular. Desempenha papel vital na função nervosa, muscular e cardiovascular.",
+        "funcoes_corporais": [
+            "Metabolismo de carboidratos e produção de ATP",
+            "Função do sistema nervoso central e periférico",
+            "Síntese de neurotransmissores",
+            "Função cardiovascular",
+            "Metabolismo de aminoácidos",
+            "Função muscular"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Carne de porco (100g)", "quantidade": 0.9, "unidade": "mg", "percentual_vd": 75},
+            {"alimento": "Sementes de girassol (30g)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 42},
+            {"alimento": "Feijão preto cozido (1 xícara)", "quantidade": 0.4, "unidade": "mg", "percentual_vd": 33},
+            {"alimento": "Lentilhas cozidas (1 xícara)", "quantidade": 0.3, "unidade": "mg", "percentual_vd": 25},
+            {"alimento": "Arroz integral (1 xícara)", "quantidade": 0.2, "unidade": "mg", "percentual_vd": 17},
+            {"alimento": "Aveia (100g)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 42}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 1.2, "unidade": "mg"},
+                "adultos_f": {"valor": 1.1, "unidade": "mg"},
+                "gestantes": {"valor": 1.4, "unidade": "mg"},
+                "lactantes": {"valor": 1.4, "unidade": "mg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 10,
+                "max": 50,
+                "unidade": "mg",
+                "nota": "Para prevenção em grupos de risco"
+            },
+            "suplementacao_terapeutica": {
+                "min": 50,
+                "max": 300,
+                "unidade": "mg",
+                "nota": "Para deficiência ou alcoolismo"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior estabelecido. Excesso é excretado pela urina."
+        },
+        "deficiencia": {
+            "prevalencia": "Comum em alcoólatras e pessoas com dieta pobre",
+            "sintomas": [
+                "Fadiga e fraqueza muscular",
+                "Irritabilidade e confusão mental",
+                "Beribéri (seco ou úmido)",
+                "Síndrome de Wernicke-Korsakoff",
+                "Perda de apetite",
+                "Formigamento nas extremidades",
+                "Insuficiência cardíaca (beribéri úmido)"
+            ],
+            "causas": [
+                "Alcoolismo crônico",
+                "Dieta rica em carboidratos refinados",
+                "Má absorção intestinal",
+                "Hipertireoidismo",
+                "Gravidez e lactação"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa - é hidrossolúvel",
+            "sintomas": [],
+            "nota": "Doses até 300mg/dia são consideradas seguras"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Diuréticos de alça (furosemida)",
+                    "efeito": "Aumentam excreção urinária de tiamina",
+                    "recomendacao": "Considerar suplementação"
+                }
+            ],
+            "nutrientes_sinergicos": ["Vitaminas do complexo B", "Magnésio"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Tiamina HCl (cloridrato)",
+                "descricao": "Forma mais comum e acessível",
+                "vantagens": ["Baixo custo", "Bem absorvida"],
+                "desvantagens": ["Absorção limitada em doses altas"]
+            },
+            {
+                "forma": "Benfotiamina",
+                "descricao": "Forma lipossolúvel sintética",
+                "vantagens": ["Maior biodisponibilidade", "Melhor penetração nos tecidos"],
+                "desvantagens": ["Mais cara"]
+            }
+        ],
+        "evidencias": [
+            {
+                "id": "b1-001",
+                "titulo": "Thiamine deficiency and its prevention and control in major emergencies",
+                "autores": "WHO",
+                "ano": 1999,
+                "tipo": "Guideline",
+                "conclusao": "Deficiência de tiamina é problema de saúde pública em situações de emergência"
+            }
+        ],
+        "seo": {
+            "meta_title": "Vitamina B1 (Tiamina): Funções, Deficiência e Suplementação",
+            "meta_description": "Tudo sobre vitamina B1: funções no metabolismo, sinais de deficiência, fontes alimentares e quando suplementar.",
+            "keywords": ["vitamina b1", "tiamina", "beribéri", "metabolismo energético", "alcoolismo"]
+        },
+        "afiliados": {
+            "amazon": []
+        }
+    },
+
+    "vitamina-b2": {
+        "slug": "vitamina-b2",
+        "nome": "Vitamina B2",
+        "nome_cientifico": "Riboflavina",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "💛",
+        "descricao_curta": "Importante para produção de energia e saúde da pele",
+        "descricao_longa": "A vitamina B2 (riboflavina) é essencial para o metabolismo energético, função antioxidante e saúde da pele, olhos e sistema nervoso.",
+        "funcoes_corporais": [
+            "Metabolismo de carboidratos, proteínas e gorduras",
+            "Produção de energia celular (FAD)",
+            "Função antioxidante (glutationa redutase)",
+            "Saúde da pele, olhos e mucosas",
+            "Crescimento e desenvolvimento",
+            "Metabolismo do ferro"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Fígado bovino (100g)", "quantidade": 2.8, "unidade": "mg", "percentual_vd": 215},
+            {"alimento": "Amêndoas (30g)", "quantidade": 0.3, "unidade": "mg", "percentual_vd": 23},
+            {"alimento": "Ovo (1 unidade)", "quantidade": 0.2, "unidade": "mg", "percentual_vd": 15},
+            {"alimento": "Leite (1 copo)", "quantidade": 0.4, "unidade": "mg", "percentual_vd": 31},
+            {"alimento": "Espinafre cozido (1 xícara)", "quantidade": 0.4, "unidade": "mg", "percentual_vd": 31}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 1.3, "unidade": "mg"},
+                "adultos_f": {"valor": 1.1, "unidade": "mg"},
+                "gestantes": {"valor": 1.4, "unidade": "mg"},
+                "lactantes": {"valor": 1.6, "unidade": "mg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 10,
+                "max": 25,
+                "unidade": "mg",
+                "nota": "Geralmente em complexo B"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior. Excesso deixa urina amarelo-fluorescente (inofensivo)."
+        },
+        "deficiencia": {
+            "prevalencia": "Rara, mas pode ocorrer em dietas muito restritas",
+            "sintomas": [
+                "Rachaduras nos cantos da boca (queilose)",
+                "Inflamação da língua (glossite)",
+                "Pele seca e descamativa",
+                "Olhos vermelhos e sensíveis à luz",
+                "Anemia",
+                "Fadiga"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "nota": "Urina amarelo-fluorescente é efeito normal, não tóxico"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Outras vitaminas B", "Ferro"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Riboflavina",
+                "descricao": "Forma padrão",
+                "vantagens": ["Eficaz", "Segura"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Vitamina B2 (Riboflavina): Funções e Suplementação",
+            "meta_description": "Vitamina B2: importância para energia, pele e olhos. Fontes alimentares e quando suplementar.",
+            "keywords": ["vitamina b2", "riboflavina", "queilose", "energia"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "vitamina-b3": {
+        "slug": "vitamina-b3",
+        "nome": "Vitamina B3",
+        "nome_cientifico": "Niacina",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "💊",
+        "descricao_curta": "Essencial para metabolismo energético e saúde cardiovascular",
+        "descricao_longa": "A vitamina B3 (niacina) é crucial para centenas de reações metabólicas, produção de energia, síntese de DNA e saúde cardiovascular. Em doses terapêuticas, reduz colesterol.",
+        "funcoes_corporais": [
+            "Metabolismo energético (NAD/NADP)",
+            "Síntese e reparo de DNA",
+            "Saúde cardiovascular",
+            "Redução de colesterol LDL (doses altas)",
+            "Função cerebral e nervosa",
+            "Saúde da pele"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Frango (100g)", "quantidade": 10, "unidade": "mg", "percentual_vd": 63},
+            {"alimento": "Atum (100g)", "quantidade": 18, "unidade": "mg", "percentual_vd": 113},
+            {"alimento": "Amendoim (30g)", "quantidade": 4, "unidade": "mg", "percentual_vd": 25},
+            {"alimento": "Cogumelos (1 xícara)", "quantidade": 7, "unidade": "mg", "percentual_vd": 44},
+            {"alimento": "Fígado bovino (100g)", "quantidade": 16, "unidade": "mg", "percentual_vd": 100}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 16, "unidade": "mg"},
+                "adultos_f": {"valor": 14, "unidade": "mg"},
+                "gestantes": {"valor": 18, "unidade": "mg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 20,
+                "max": 50,
+                "unidade": "mg",
+                "nota": "Para prevenção geral"
+            },
+            "suplementacao_terapeutica": {
+                "min": 500,
+                "max": 2000,
+                "unidade": "mg",
+                "nota": "Para redução de colesterol (sob supervisão médica)"
+            },
+            "limite_superior": {
+                "valor": 35,
+                "unidade": "mg"
+            },
+            "nota_limite": "Limite para niacina (ácido nicotínico). Niacinamida não causa flush."
+        },
+        "deficiencia": {
+            "prevalencia": "Rara em países desenvolvidos",
+            "sintomas": [
+                "Pelagra (3 Ds: dermatite, diarreia, demência)",
+                "Fadiga severa",
+                "Lesões de pele",
+                "Problemas digestivos",
+                "Confusão mental"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Moderada em doses muito altas",
+            "sintomas": [
+                "Flush (vermelhidão e calor na pele)",
+                "Náusea",
+                "Dano hepático (doses muito altas crônicas)",
+                "Aumento de glicemia"
+            ],
+            "nota": "Flush é mais comum com ácido nicotínico, menos com niacinamida"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Estatinas",
+                    "efeito": "Combinação pode aumentar risco de miopatia",
+                    "recomendacao": "Usar com cautela e supervisão médica"
+                }
+            ],
+            "nutrientes_sinergicos": ["Outras vitaminas B"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Niacinamida (Nicotinamida)",
+                "descricao": "Não causa flush",
+                "vantagens": ["Sem flush", "Bem tolerada"],
+                "desvantagens": ["Não reduz colesterol"]
+            },
+            {
+                "forma": "Ácido Nicotínico",
+                "descricao": "Causa flush, mas reduz colesterol",
+                "vantagens": ["Reduz LDL e triglicerídeos", "Aumenta HDL"],
+                "desvantagens": ["Flush", "Desconforto inicial"]
+            },
+            {
+                "forma": "Niacina de liberação prolongada",
+                "descricao": "Reduz flush",
+                "vantagens": ["Menos flush"],
+                "desvantagens": ["Maior risco hepático"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Vitamina B3 (Niacina): Benefícios, Dosagem e Flush",
+            "meta_description": "Niacina: benefícios para colesterol, energia e saúde. Entenda o flush e quando suplementar.",
+            "keywords": ["vitamina b3", "niacina", "colesterol", "flush", "pelagra"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "cromo": {
+        "slug": "cromo",
+        "nome": "Cromo",
+        "nome_cientifico": "Chromium",
+        "categoria": "mineral",
+        "subcategoria": "traço",
+        "emoji": "🔬",
+        "descricao_curta": "Mineral essencial para metabolismo de glicose e insulina",
+        "descricao_longa": "O cromo é um mineral traço essencial que potencializa a ação da insulina, ajudando no metabolismo de carboidratos, proteínas e lipídios. É frequentemente usado para controle glicêmico.",
+        "funcoes_corporais": [
+            "Potencialização da ação da insulina",
+            "Metabolismo de glicose",
+            "Metabolismo de lipídios",
+            "Controle de apetite e compulsão por doces",
+            "Síntese de proteínas"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Brócolis (1 xícara)", "quantidade": 22, "unidade": "mcg", "percentual_vd": 63},
+            {"alimento": "Carne bovina (100g)", "quantidade": 2, "unidade": "mcg", "percentual_vd": 6},
+            {"alimento": "Vinho tinto (150ml)", "quantidade": 1-13, "unidade": "mcg", "percentual_vd": 3-37},
+            {"alimento": "Alho (1 dente)", "quantidade": 3, "unidade": "mcg", "percentual_vd": 9}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 35, "unidade": "mcg"},
+                "adultos_f": {"valor": 25, "unidade": "mcg"},
+                "gestantes": {"valor": 30, "unidade": "mcg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 200,
+                "max": 400,
+                "unidade": "mcg",
+                "nota": "Para controle glicêmico"
+            },
+            "suplementacao_terapeutica": {
+                "min": 400,
+                "max": 1000,
+                "unidade": "mcg",
+                "nota": "Para diabetes tipo 2 (sob supervisão)"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior estabelecido oficialmente"
+        },
+        "deficiencia": {
+            "prevalencia": "Difícil de diagnosticar, pode ser subclínico",
+            "sintomas": [
+                "Resistência à insulina",
+                "Hiperglicemia",
+                "Compulsão por doces",
+                "Fadiga",
+                "Dificuldade de perda de peso"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Baixa na forma trivalente (suplementos)",
+            "nota": "Cromo hexavalente (industrial) é tóxico, mas não está em suplementos"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Insulina e antidiabéticos orais",
+                    "efeito": "Pode potencializar efeito hipoglicemiante",
+                    "recomendacao": "Monitorar glicemia de perto"
+                }
+            ],
+            "nutrientes_sinergicos": [],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Picolinato de cromo",
+                "descricao": "Forma mais comum",
+                "vantagens": ["Bem estudada", "Boa absorção"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Cromo GTF (Glucose Tolerance Factor)",
+                "descricao": "Forma biologicamente ativa",
+                "vantagens": ["Alta biodisponibilidade"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Cromo: Benefícios para Diabetes e Controle Glicêmico",
+            "meta_description": "Cromo picolinato: como ajuda no controle de glicose, compulsão por doces e diabetes.",
+            "keywords": ["cromo", "picolinato de cromo", "diabetes", "glicemia", "insulina"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "coenzima-q10": {
+        "slug": "coenzima-q10",
+        "nome": "Coenzima Q10",
+        "nome_cientifico": "Ubiquinona",
+        "categoria": "outro",
+        "subcategoria": "coenzima",
+        "emoji": "❤️",
+        "descricao_curta": "Antioxidante essencial para produção de energia celular",
+        "descricao_longa": "A Coenzima Q10 (CoQ10) é um composto semelhante a vitamina, presente em todas as células. É crucial para produção de ATP (energia) nas mitocôndrias e atua como poderoso antioxidante.",
+        "funcoes_corporais": [
+            "Produção de energia nas mitocôndrias (ATP)",
+            "Antioxidante potente",
+            "Saúde cardiovascular",
+            "Proteção neuronal",
+            "Função imunológica",
+            "Saúde da pele"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Coração de boi (100g)", "quantidade": 11, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Sardinha (100g)", "quantidade": 6, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Amendoim (30g)", "quantidade": 0.8, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Brócolis (1 xícara)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA estabelecida - o corpo produz CoQ10"}
+            },
+            "suplementacao_preventiva": {
+                "min": 100,
+                "max": 200,
+                "unidade": "mg",
+                "nota": "Para saúde geral e energia"
+            },
+            "suplementacao_terapeutica": {
+                "min": 200,
+                "max": 600,
+                "unidade": "mg",
+                "nota": "Para insuficiência cardíaca, estatinas, enxaqueca"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior. Doses até 1200mg/dia são seguras."
+        },
+        "deficiencia": {
+            "prevalencia": "Reduz naturalmente com idade; comum em usuários de estatinas",
+            "sintomas": [
+                "Fadiga e fraqueza muscular",
+                "Dor muscular (mialgia)",
+                "Problemas cardiovasculares",
+                "Declínio cognitivo"
+            ],
+            "causas": [
+                "Envelhecimento (produção diminui após 40 anos)",
+                "Uso de estatinas",
+                "Deficiências nutricionais (vitaminas B)",
+                "Doenças mitocondriais"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Insônia (se tomada à noite)", "Náusea leve (raro)"],
+            "nota": "Extremamente segura mesmo em doses altas"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Estatinas (atorvastatina, sinvastatina)",
+                    "efeito": "Estatinas REDUZEM níveis de CoQ10",
+                    "recomendacao": "Suplementar 100-200mg/dia se usar estatina"
+                },
+                {
+                    "nome": "Warfarin",
+                    "efeito": "CoQ10 pode reduzir efeito anticoagulante",
+                    "recomendacao": "Monitorar INR se combinar"
+                },
+                {
+                    "nome": "Medicamentos para pressão",
+                    "efeito": "CoQ10 pode potencializar redução de pressão",
+                    "recomendacao": "Monitorar pressão"
+                }
+            ],
+            "nutrientes_sinergicos": ["Vitamina E", "Selênio"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Ubiquinona",
+                "descricao": "Forma oxidada padrão",
+                "vantagens": ["Mais barata", "Eficaz"],
+                "desvantagens": ["Precisa ser convertida no corpo"]
+            },
+            {
+                "forma": "Ubiquinol",
+                "descricao": "Forma reduzida ativa",
+                "vantagens": ["Melhor absorção", "Não precisa conversão", "Ideal para >40 anos"],
+                "desvantagens": ["Mais cara"]
+            }
+        ],
+        "evidencias": [
+            {
+                "id": "coq10-001",
+                "titulo": "Coenzyme Q10 for heart failure",
+                "autores": "Madmani et al.",
+                "ano": 2014,
+                "tipo": "Cochrane Review",
+                "conclusao": "CoQ10 pode reduzir mortalidade e melhorar capacidade de exercício em IC"
+            }
+        ],
+        "seo": {
+            "meta_title": "Coenzima Q10 (CoQ10): Benefícios, Dosagem e Ubiquinol",
+            "meta_description": "CoQ10: benefícios para coração, energia e estatinas. Ubiquinona vs Ubiquinol explicado.",
+            "keywords": ["coenzima q10", "coq10", "ubiquinol", "estatinas", "energia", "coração"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "probioticos": {
+        "slug": "probioticos",
+        "nome": "Probióticos",
+        "nome_cientifico": "Microrganismos vivos benéficos",
+        "categoria": "outro",
+        "subcategoria": "microrganismos",
+        "emoji": "🦠",
+        "descricao_curta": "Bactérias benéficas essenciais para saúde intestinal e imunidade",
+        "descricao_longa": "Probióticos são microrganismos vivos que, quando administrados em quantidades adequadas, conferem benefícios à saúde. São essenciais para microbiota intestinal saudável, digestão, imunidade e até saúde mental.",
+        "funcoes_corporais": [
+            "Equilíbrio da microbiota intestinal",
+            "Digestão e absorção de nutrientes",
+            "Função imunológica (70% do sistema imune está no intestino)",
+            "Síntese de vitaminas (K2, B12, biotina)",
+            "Saúde mental (eixo intestino-cérebro)",
+            "Prevenção de diarreias",
+            "Redução de inflamação"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Iogurte natural (1 pote)", "quantidade": 1000000000, "unidade": "UFC", "percentual_vd": 0},
+            {"alimento": "Kefir (1 copo)", "quantidade": 10000000000, "unidade": "UFC", "percentual_vd": 0},
+            {"alimento": "Chucrute (1/2 xícara)", "quantidade": 1000000000, "unidade": "UFC", "percentual_vd": 0},
+            {"alimento": "Kombucha (1 copo)", "quantidade": 1000000, "unidade": "UFC", "percentual_vd": 0},
+            {"alimento": "Kimchi (1/2 xícara)", "quantidade": 1000000000, "unidade": "UFC", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "UFC", "nota": "Não há RDA - não é nutriente essencial"}
+            },
+            "suplementacao_preventiva": {
+                "min": 5000000000,
+                "max": 10000000000,
+                "unidade": "UFC",
+                "nota": "5-10 bilhões UFC/dia para manutenção"
+            },
+            "suplementacao_terapeutica": {
+                "min": 20000000000,
+                "max": 100000000000,
+                "unidade": "UFC",
+                "nota": "20-100 bilhões UFC/dia para condições específicas"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior. Geralmente muito seguros."
+        },
+        "deficiencia": {
+            "prevalencia": "Disbiose intestinal é comum após antibióticos",
+            "sintomas": [
+                "Diarreia ou constipação",
+                "Gases e inchaço abdominal",
+                "Infecções recorrentes",
+                "Alergias e problemas de pele",
+                "Fadiga",
+                "Problemas de humor"
+            ],
+            "causas": [
+                "Uso de antibióticos",
+                "Dieta pobre em fibras",
+                "Estresse crônico",
+                "Excesso de açúcar e processados"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Gases temporários (adaptação)", "Inchaço leve inicial"],
+            "nota": "Sintomas iniciais geralmente desaparecem em 1-2 semanas"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Antibióticos",
+                    "efeito": "Antibióticos matam probióticos",
+                    "recomendacao": "Tomar probióticos 2-3h após antibiótico, continuar por 2 semanas após término"
+                },
+                {
+                    "nome": "Imunossupressores",
+                    "efeito": "Risco teórico de infecção",
+                    "recomendacao": "Consultar médico antes de usar"
+                }
+            ],
+            "nutrientes_sinergicos": ["Prebióticos (fibras)", "Glutamina"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Lactobacillus acidophilus",
+                "descricao": "Cepa mais comum",
+                "vantagens": ["Bem estudada", "Ajuda digestão de lactose"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Bifidobacterium",
+                "descricao": "Importante para intestino grosso",
+                "vantagens": ["Melhora constipação", "Reforça barreira intestinal"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Saccharomyces boulardii",
+                "descricao": "Levedura probiótica (não é bactéria)",
+                "vantagens": ["Resiste a antibióticos", "Excelente para diarreia"],
+                "desvantagens": ["Mais cara"],
+                "nota": "Única que pode ser tomada JUNTO com antibiótico"
+            },
+            {
+                "forma": "Multi-cepas",
+                "descricao": "Combinação de várias cepas",
+                "vantagens": ["Diversidade", "Efeito mais amplo"],
+                "desvantagens": ["Pode ser mais cara"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Probióticos: Guia Completo de Benefícios e Suplementação",
+            "meta_description": "Probióticos: tipos, benefícios para intestino e imunidade, quando tomar e melhores cepas.",
+            "keywords": ["probioticos", "lactobacillus", "bifidobacterium", "microbiota", "intestino"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "vitamina-b5": {
+        "slug": "vitamina-b5",
+        "nome": "Vitamina B5",
+        "nome_cientifico": "Ácido Pantotênico",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "🌟",
+        "descricao_curta": "Essencial para síntese de hormônios e metabolismo energético",
+        "descricao_longa": "A vitamina B5 é fundamental para síntese de coenzima A (CoA), essencial no metabolismo de nutrientes e produção de hormônios esteroides, neurotransmissores e hemoglobina.",
+        "funcoes_corporais": [
+            "Síntese de coenzima A (CoA)",
+            "Metabolismo de carboidratos, proteínas e lipídios",
+            "Síntese de hormônios esteroides (cortisol, testosterona, estrogênio)",
+            "Produção de neurotransmissores",
+            "Saúde da pele e cicatrização",
+            "Síntese de colesterol e vitamina D"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Fígado bovino (100g)", "quantidade": 7, "unidade": "mg", "percentual_vd": 140},
+            {"alimento": "Abacate (1 unidade)", "quantidade": 2, "unidade": "mg", "percentual_vd": 40},
+            {"alimento": "Frango (100g)", "quantidade": 1.5, "unidade": "mg", "percentual_vd": 30},
+            {"alimento": "Cogumelos (1 xícara)", "quantidade": 2.5, "unidade": "mg", "percentual_vd": 50},
+            {"alimento": "Batata doce (1 média)", "quantidade": 1, "unidade": "mg", "percentual_vd": 20}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 5, "unidade": "mg"},
+                "gestantes": {"valor": 6, "unidade": "mg"},
+                "lactantes": {"valor": 7, "unidade": "mg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 50,
+                "max": 250,
+                "unidade": "mg",
+                "nota": "Geralmente em complexo B"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior estabelecido"
+        },
+        "deficiencia": {
+            "prevalencia": "Muito rara, pois está presente em muitos alimentos",
+            "sintomas": [
+                "Fadiga extrema",
+                "Irritabilidade",
+                "Dormência e formigamento",
+                "Problemas gastrointestinais",
+                "Insônia"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Diarreia leve em doses muito altas (>10g/dia)"]
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Outras vitaminas B", "Vitamina C"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Ácido pantotênico",
+                "descricao": "Forma padrão",
+                "vantagens": ["Bem absorvida"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Pantotenato de cálcio",
+                "descricao": "Forma estável comum em suplementos",
+                "vantagens": ["Estável", "Eficaz"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Vitamina B5 (Ácido Pantotênico): Funções e Benefícios",
+            "meta_description": "Vitamina B5: papel no metabolismo, produção de hormônios e saúde da pele.",
+            "keywords": ["vitamina b5", "acido pantotenico", "coenzima a", "hormônios"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "vitamina-b6": {
+        "slug": "vitamina-b6",
+        "nome": "Vitamina B6",
+        "nome_cientifico": "Piridoxina",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "🧠",
+        "descricao_curta": "Crucial para função cerebral, humor e metabolismo de proteínas",
+        "descricao_longa": "A vitamina B6 é essencial para mais de 100 reações enzimáticas, especialmente no metabolismo de aminoácidos e produção de neurotransmissores como serotonina, dopamina e GABA.",
+        "funcoes_corporais": [
+            "Metabolismo de aminoácidos e proteínas",
+            "Síntese de neurotransmissores (serotonina, dopamina, GABA)",
+            "Formação de hemoglobina",
+            "Regulação de homocisteína",
+            "Função imunológica",
+            "Metabolismo de glicogênio",
+            "Síntese de vitamina B3 (niacina)"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Salmão (100g)", "quantidade": 0.6, "unidade": "mg", "percentual_vd": 35},
+            {"alimento": "Banana (1 média)", "quantidade": 0.4, "unidade": "mg", "percentual_vd": 24},
+            {"alimento": "Batata (1 média)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 29},
+            {"alimento": "Frango (100g)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 29},
+            {"alimento": "Grão de bico (1 xícara)", "quantidade": 1.1, "unidade": "mg", "percentual_vd": 65}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 1.3, "unidade": "mg"},
+                "adultos_f": {"valor": 1.3, "unidade": "mg"},
+                "gestantes": {"valor": 1.9, "unidade": "mg"},
+                "lactantes": {"valor": 2.0, "unidade": "mg"},
+                "idosos_50plus": {"valor": 1.7, "unidade": "mg", "nota": "Necessidade aumenta com idade"}
+            },
+            "suplementacao_preventiva": {
+                "min": 10,
+                "max": 50,
+                "unidade": "mg",
+                "nota": "Para TPM, náusea gravidez"
+            },
+            "limite_superior": {
+                "valor": 100,
+                "unidade": "mg"
+            },
+            "nota_limite": "Doses acima de 100mg/dia podem causar neuropatia periférica"
+        },
+        "deficiencia": {
+            "prevalencia": "Comum em idosos e usuários de certos medicamentos",
+            "sintomas": [
+                "Depressão e irritabilidade",
+                "Confusão mental",
+                "Anemia microcítica",
+                "Dermatite seborreica",
+                "Glossite (língua inchada)",
+                "Sistema imunológico comprometido"
+            ],
+            "causas": [
+                "Alcoolismo",
+                "Doença renal",
+                "Uso de anticoncepcionais",
+                "Má absorção"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Moderada em doses muito altas (>200mg/dia crônico)",
+            "sintomas": [
+                "Neuropatia periférica",
+                "Dormência e formigamento",
+                "Perda de coordenação"
+            ],
+            "nota": "Sintomas revertem após descontinuação"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Anticoncepcionais orais",
+                    "efeito": "Reduzem níveis de B6",
+                    "recomendacao": "Considerar suplementação"
+                },
+                {
+                    "nome": "Levodopa (Parkinson)",
+                    "efeito": "B6 reduz eficácia da levodopa (mas não do Sinemet)",
+                    "recomendacao": "Evitar suplementação se usar levodopa isolada"
+                }
+            ],
+            "nutrientes_sinergicos": ["B12", "Folato", "Magnésio"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Piridoxina HCl",
+                "descricao": "Forma sintética comum",
+                "vantagens": ["Barata", "Eficaz"],
+                "desvantagens": ["Precisa ser convertida em P5P"]
+            },
+            {
+                "forma": "Piridoxal-5-fosfato (P5P)",
+                "descricao": "Forma ativa biodisponível",
+                "vantagens": ["Não precisa conversão", "Melhor para alguns indivíduos"],
+                "desvantagens": ["Mais cara"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Vitamina B6 (Piridoxina): Benefícios para Cérebro e Humor",
+            "meta_description": "B6: importância para neurotransmissores, TPM, náusea na gravidez e função cerebral.",
+            "keywords": ["vitamina b6", "piridoxina", "p5p", "serotonina", "tpm"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "vitamina-b7": {
+        "slug": "vitamina-b7",
+        "nome": "Vitamina B7",
+        "nome_cientifico": "Biotina",
+        "categoria": "vitamina",
+        "subcategoria": "hidrossolúvel",
+        "emoji": "💇",
+        "descricao_curta": "Essencial para cabelo, pele, unhas e metabolismo energético",
+        "descricao_longa": "A biotina (vitamina B7) é crucial para metabolismo de macronutrientes e é amplamente conhecida por seus benefícios para cabelo, pele e unhas. Também é essencial para expressão gênica e função celular.",
+        "funcoes_corporais": [
+            "Metabolismo de carboidratos, gorduras e proteínas",
+            "Saúde do cabelo, pele e unhas",
+            "Expressão gênica",
+            "Função neurológica",
+            "Controle glicêmico"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Fígado bovino (100g)", "quantidade": 35, "unidade": "mcg", "percentual_vd": 117},
+            {"alimento": "Ovo cozido (1 unidade)", "quantidade": 10, "unidade": "mcg", "percentual_vd": 33},
+            {"alimento": "Amêndoas (30g)", "quantidade": 1.5, "unidade": "mcg", "percentual_vd": 5},
+            {"alimento": "Batata doce (1 média)", "quantidade": 2.4, "unidade": "mcg", "percentual_vd": 8},
+            {"alimento": "Salmão (100g)", "quantidade": 5, "unidade": "mcg", "percentual_vd": 17}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 30, "unidade": "mcg"},
+                "gestantes": {"valor": 30, "unidade": "mcg"},
+                "lactantes": {"valor": 35, "unidade": "mcg"}
+            },
+            "suplementacao_preventiva": {
+                "min": 2500,
+                "max": 10000,
+                "unidade": "mcg",
+                "nota": "2,5-10mg para cabelo e unhas (doses populares, acima da RDA)"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior estabelecido"
+        },
+        "deficiencia": {
+            "prevalencia": "Rara, mas pode ocorrer com consumo crônico de clara de ovo crua",
+            "sintomas": [
+                "Queda de cabelo (alopecia)",
+                "Erupções cutâneas ao redor de olhos, nariz e boca",
+                "Unhas quebradiças",
+                "Depressão",
+                "Fadiga",
+                "Dormência e formigamento"
+            ],
+            "causas": [
+                "Consumo de clara de ovo crua (avidina liga à biotina)",
+                "Uso prolongado de antibióticos",
+                "Gravidez",
+                "Alcoolismo"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "nota": "Doses até 300mg/dia são consideradas seguras"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Anticonvulsivantes",
+                    "efeito": "Podem reduzir níveis de biotina",
+                    "recomendacao": "Monitorar necessidade de suplementação"
+                }
+            ],
+            "nutrientes_sinergicos": ["Outras vitaminas B"],
+            "nutrientes_antagonistas": ["Avidina (na clara de ovo crua)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "D-Biotina",
+                "descricao": "Forma natural biologicamente ativa",
+                "vantagens": ["Forma correta", "Bem absorvida"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Biotina (Vitamina B7): Benefícios para Cabelo e Unhas",
+            "meta_description": "Biotina: dosagens para crescimento capilar, fortalecimento de unhas e saúde da pele.",
+            "keywords": ["biotina", "vitamina b7", "cabelo", "unhas", "queda de cabelo"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "vitamina-k2": {
+        "slug": "vitamina-k2",
+        "nome": "Vitamina K2",
+        "nome_cientifico": "Menaquinona",
+        "categoria": "vitamina",
+        "subcategoria": "lipossolúvel",
+        "emoji": "🦴",
+        "descricao_curta": "Essencial para saúde óssea e cardiovascular",
+        "descricao_longa": "A vitamina K2 (menaquinona) ativa proteínas que direcionam cálcio para os ossos e dentes, removendo-o das artérias. É crucial para prevenir osteoporose e calcificação arterial.",
+        "funcoes_corporais": [
+            "Ativação de osteocalcina (deposição de cálcio nos ossos)",
+            "Ativação de MGP (previne calcificação arterial)",
+            "Saúde cardiovascular",
+            "Saúde dental",
+            "Regulação de cálcio no corpo"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Natto (100g)", "quantidade": 1000, "unidade": "mcg", "percentual_vd": 833},
+            {"alimento": "Queijo gouda (30g)", "quantidade": 25, "unidade": "mcg", "percentual_vd": 21},
+            {"alimento": "Gema de ovo (1 unidade)", "quantidade": 15, "unidade": "mcg", "percentual_vd": 13},
+            {"alimento": "Fígado de frango (100g)", "quantidade": 13, "unidade": "mcg", "percentual_vd": 11},
+            {"alimento": "Manteiga grass-fed (1 colher)", "quantidade": 3, "unidade": "mcg", "percentual_vd": 3}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 120, "unidade": "mcg", "nota": "RDA é para vitamina K total (K1+K2)"}
+            },
+            "suplementacao_preventiva": {
+                "min": 100,
+                "max": 200,
+                "unidade": "mcg",
+                "nota": "MK-7 para saúde óssea e cardiovascular"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior estabelecido"
+        },
+        "deficiencia": {
+            "prevalencia": "Comum em dietas ocidentais (natto não é consumido)",
+            "sintomas": [
+                "Osteoporose",
+                "Calcificação arterial",
+                "Sangramento fácil",
+                "Fraturas ósseas"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "nota": "Sem efeitos adversos conhecidos"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Warfarin e outros anticoagulantes",
+                    "efeito": "Vitamina K antagoniza efeito anticoagulante",
+                    "recomendacao": "Contraindicado ou usar dose consistente com monitoramento INR"
+                }
+            ],
+            "nutrientes_sinergicos": ["Vitamina D3", "Cálcio", "Magnésio"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "MK-4 (Menatetrenona)",
+                "descricao": "Forma sintética de cadeia curta",
+                "vantagens": ["Usada em estudos japoneses"],
+                "desvantagens": ["Meia-vida curta", "Requer doses múltiplas/dia"]
+            },
+            {
+                "forma": "MK-7 (Menaquinona-7)",
+                "descricao": "Forma natural de cadeia longa (do natto)",
+                "vantagens": ["Meia-vida longa (72h)", "1x ao dia", "Melhor biodisponibilidade"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Vitamina K2 (MK-7): Benefícios para Ossos e Coração",
+            "meta_description": "K2: como direciona cálcio para os ossos e previne calcificação arterial. MK-7 vs MK-4.",
+            "keywords": ["vitamina k2", "mk7", "mk4", "natto", "osteoporose", "calcio"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "colageno": {
+        "slug": "colageno",
+        "nome": "Colágeno",
+        "nome_cientifico": "Collagen peptides",
+        "categoria": "outro",
+        "subcategoria": "proteína",
+        "emoji": "✨",
+        "descricao_curta": "Proteína estrutural para pele, articulações e tecidos",
+        "descricao_longa": "O colágeno é a proteína mais abundante no corpo, essencial para estrutura e elasticidade de pele, cabelo, unhas, articulações, ossos e intestino. Suplementação com peptídeos bioativos melhora elasticidade da pele e saúde articular.",
+        "funcoes_corporais": [
+            "Estrutura e elasticidade da pele",
+            "Saúde de cabelo e unhas",
+            "Integridade de cartilagens e articulações",
+            "Saúde óssea",
+            "Integridade intestinal",
+            "Cicatrização de feridas"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Caldo de ossos (1 xícara)", "quantidade": 6000, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Pele de frango (100g)", "quantidade": 20000, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Peixe com pele (100g)", "quantidade": 5000, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Gelatina (1 envelope)", "quantidade": 6000, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "g", "nota": "Não há RDA - o corpo produz colágeno"}
+            },
+            "suplementacao_preventiva": {
+                "min": 2500,
+                "max": 5000,
+                "unidade": "mg",
+                "nota": "2,5-5g para pele"
+            },
+            "suplementacao_terapeutica": {
+                "min": 10000,
+                "max": 15000,
+                "unidade": "mg",
+                "nota": "10-15g para articulações"
+            },
+            "limite_superior": None,
+            "nota_limite": "Sem limite superior. Doses até 30g/dia são seguras."
+        },
+        "deficiencia": {
+            "prevalencia": "Produção diminui ~1%/ano após 25 anos",
+            "sintomas": [
+                "Rugas e perda de elasticidade da pele",
+                "Dores articulares",
+                "Unhas quebradiças",
+                "Cabelo fino",
+                "Perda óssea"
+            ],
+            "causas": [
+                "Envelhecimento natural",
+                "Exposição solar excessiva",
+                "Tabagismo",
+                "Dieta pobre em proteína",
+                "Deficiência de vitamina C"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Sensação de plenitude gástrica"],
+            "nota": "Muito seguro mesmo em doses altas"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Vitamina C (essencial para síntese)", "Zinco", "Cobre"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Colágeno hidrolisado (peptídeos)",
+                "descricao": "Forma quebrada em peptídeos pequenos",
+                "vantagens": ["Alta biodisponibilidade", "Dissolve em líquidos", "Sem sabor"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Colágeno tipo I e III",
+                "descricao": "De bovinos ou peixes",
+                "vantagens": ["Melhor para pele, cabelo, unhas"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Colágeno tipo II",
+                "descricao": "De cartilagem de frango",
+                "vantagens": ["Melhor para articulações"],
+                "desvantagens": ["Doses menores (40mg UC-II)"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Colágeno: Benefícios para Pele, Cabelo e Articulações",
+            "meta_description": "Colágeno hidrolisado: dosagens para pele, tipos I, II e III, e quando suplementar.",
+            "keywords": ["colageno", "peptideos de colageno", "pele", "articulacoes", "rugas"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "l-carnitina": {
+        "slug": "l-carnitina",
+        "nome": "L-Carnitina",
+        "nome_cientifico": "L-Carnitine",
+        "categoria": "outro",
+        "subcategoria": "aminoácido",
+        "emoji": "⚡",
+        "descricao_curta": "Aminoácido essencial para metabolismo de gorduras e energia",
+        "descricao_longa": "A L-carnitina transporta ácidos graxos de cadeia longa para dentro das mitocôndrias, onde são queimados para produzir energia. É popular para performance física e queima de gordura.",
+        "funcoes_corporais": [
+            "Transporte de ácidos graxos para mitocôndrias",
+            "Produção de energia a partir de gorduras",
+            "Performance física e recuperação",
+            "Função cerebral e cognitiva",
+            "Saúde cardiovascular"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Carne bovina (100g)", "quantidade": 95, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Carne de porco (100g)", "quantidade": 28, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Peixe (100g)", "quantidade": 5, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Frango (100g)", "quantidade": 3, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Leite (1 copo)", "quantidade": 8, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não é essencial - o corpo produz"}
+            },
+            "suplementacao_preventiva": {
+                "min": 500,
+                "max": 2000,
+                "unidade": "mg",
+                "nota": "Para energia e metabolismo"
+            },
+            "suplementacao_terapeutica": {
+                "min": 2000,
+                "max": 3000,
+                "unidade": "mg",
+                "nota": "Para performance atlética"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 3g/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Rara em onívoros, mais comum em vegetarianos/veganos",
+            "sintomas": [
+                "Fadiga muscular",
+                "Hipoglicemia",
+                "Cardiomiopatia",
+                "Confusão mental"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Baixa",
+            "sintomas": ["Náusea", "Diarreia", "Odor corporal de peixe (doses muito altas)"],
+            "nota": "Efeitos colaterais são leves e dose-dependentes"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Ácido valproico (anticonvulsivante)",
+                    "efeito": "Reduz níveis de carnitina",
+                    "recomendacao": "Considerar suplementação"
+                }
+            ],
+            "nutrientes_sinergicos": ["CoQ10", "Ácido alfa-lipóico"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "L-Carnitina L-Tartarato (LCLT)",
+                "descricao": "Forma mais comum e estudada",
+                "vantagens": ["Boa absorção", "Eficaz para exercício"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Acetil-L-Carnitina (ALCAR)",
+                "descricao": "Cruza barreira hematoencefálica",
+                "vantagens": ["Melhor para função cognitiva", "Neuroproteção"],
+                "desvantagens": ["Mais cara"]
+            },
+            {
+                "forma": "Propionil-L-Carnitina",
+                "descricao": "Melhor para circulação",
+                "vantagens": ["Benefícios cardiovasculares"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "L-Carnitina: Benefícios para Energia e Performance",
+            "meta_description": "L-Carnitina: como ajuda na queima de gordura, energia e performance física.",
+            "keywords": ["l-carnitina", "acetil l-carnitina", "queima gordura", "energia"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "taurina": {
+        "slug": "taurina",
+        "nome": "Taurina",
+        "nome_cientifico": "Taurine",
+        "categoria": "outro",
+        "subcategoria": "aminoácido",
+        "emoji": "🧪",
+        "descricao_curta": "Aminoácido essencial para coração, cérebro e músculos",
+        "descricao_longa": "A taurina é um aminoácido sulfônico crucial para função cardiovascular, desenvolvimento cerebral, função muscular e saúde dos olhos. É o segundo aminoácido mais abundante no músculo.",
+        "funcoes_corporais": [
+            "Função cardiovascular e pressão arterial",
+            "Regulação de cálcio no coração",
+            "Função muscular e performance",
+            "Saúde ocular (retina)",
+            "Desenvolvimento cerebral",
+            "Antioxidante"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Moluscos (100g)", "quantidade": 240, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Atum (100g)", "quantidade": 70, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Frango escuro (100g)", "quantidade": 170, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Leite (1 copo)", "quantidade": 6, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não é essencial - o corpo produz"}
+            },
+            "suplementacao_preventiva": {
+                "min": 500,
+                "max": 2000,
+                "unidade": "mg",
+                "nota": "Para saúde cardiovascular"
+            },
+            "suplementacao_terapeutica": {
+                "min": 3000,
+                "max": 6000,
+                "unidade": "mg",
+                "nota": "Para insuficiência cardíaca ou performance"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 6g/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Mais comum em veganos (não há em vegetais)",
+            "sintomas": [
+                "Problemas de visão",
+                "Arritmias cardíacas",
+                "Fraqueza muscular",
+                "Ansiedade"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": [],
+            "nota": "Extremamente segura"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Lítio",
+                    "efeito": "Taurina pode reduzir efeitos colaterais do lítio",
+                    "recomendacao": "Pode ser benéfico sob supervisão"
+                }
+            ],
+            "nutrientes_sinergicos": ["Magnésio"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "L-Taurina",
+                "descricao": "Forma padrão",
+                "vantagens": ["Bem absorvida", "Eficaz"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Taurina: Benefícios para Coração e Performance",
+            "meta_description": "Taurina: aminoácido essencial para saúde cardiovascular, músculos e energia.",
+            "keywords": ["taurina", "coração", "performance", "energia"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "glutamina": {
+        "slug": "glutamina",
+        "nome": "Glutamina",
+        "nome_cientifico": "L-Glutamine",
+        "categoria": "outro",
+        "subcategoria": "aminoácido",
+        "emoji": "🏋️",
+        "descricao_curta": "Aminoácido crucial para intestino, imunidade e recuperação muscular",
+        "descricao_longa": "A glutamina é o aminoácido mais abundante no corpo. É combustível primário para células intestinais e imunológicas, essencial para integridade intestinal, função imune e recuperação muscular pós-treino.",
+        "funcoes_corporais": [
+            "Combustível para enterócitos (células intestinais)",
+            "Integridade da barreira intestinal",
+            "Função imunológica",
+            "Síntese proteica e recuperação muscular",
+            "Balanço ácido-base",
+            "Precursor de glutationa (antioxidante)"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Carne bovina (100g)", "quantidade": 1200, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Frango (100g)", "quantidade": 1100, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Peixe (100g)", "quantidade": 1000, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Ovos (1 unidade)", "quantidade": 650, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Tofu (100g)", "quantidade": 600, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "g", "nota": "Não essencial - o corpo produz"}
+            },
+            "suplementacao_preventiva": {
+                "min": 5,
+                "max": 10,
+                "unidade": "g",
+                "nota": "Para saúde intestinal e imunidade"
+            },
+            "suplementacao_terapeutica": {
+                "min": 10,
+                "max": 30,
+                "unidade": "g",
+                "nota": "Para síndrome do intestino permeável, pós-cirurgia"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 40g/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Comum em estresse metabólico severo",
+            "sintomas": [
+                "Intestino permeável (leaky gut)",
+                "Imunidade comprometida",
+                "Recuperação lenta",
+                "Perda muscular"
+            ],
+            "causas": [
+                "Exercício intenso prolongado",
+                "Cirurgia/trauma",
+                "Infecção",
+                "Doença inflamatória intestinal"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": [],
+            "nota": "Muito segura mesmo em doses altas"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Probióticos", "Zinco"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "L-Glutamina",
+                "descricao": "Forma livre padrão",
+                "vantagens": ["Bem absorvida", "Eficaz"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Glutamina: Benefícios para Intestino e Imunidade",
+            "meta_description": "Glutamina: aminoácido essencial para saúde intestinal, imunidade e recuperação.",
+            "keywords": ["glutamina", "intestino permeavel", "leaky gut", "imunidade"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "msm": {
+        "slug": "msm",
+        "nome": "MSM",
+        "nome_cientifico": "Metilsulfonilmetano",
+        "categoria": "outro",
+        "subcategoria": "composto de enxofre",
+        "emoji": "💎",
+        "descricao_curta": "Composto de enxofre essencial para articulações e tecido conjuntivo",
+        "descricao_longa": "MSM é um composto orgânico de enxofre presente naturalmente em alimentos. É crucial para formação de colágeno, saúde articular, cabelo, pele e unhas. Possui propriedades anti-inflamatórias potentes.",
+        "funcoes_corporais": [
+            "Formação de colágeno e queratina",
+            "Saúde articular e cartilagens",
+            "Anti-inflamatório natural",
+            "Saúde de cabelo, pele e unhas",
+            "Desintoxicação hepática",
+            "Permeabilidade celular"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Leite cru (1 copo)", "quantidade": 3, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Café (1 xícara)", "quantidade": 1, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Tomate (1 unidade)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "g", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 1000,
+                "max": 3000,
+                "unidade": "mg",
+                "nota": "Para saúde geral"
+            },
+            "suplementacao_terapeutica": {
+                "min": 3000,
+                "max": 6000,
+                "unidade": "mg",
+                "nota": "Para dor articular e inflamação"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 6g/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Difícil de medir",
+            "sintomas": [
+                "Dores articulares",
+                "Cabelo e unhas fracos",
+                "Fadiga",
+                "Inflamação crônica"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Desconforto gastrointestinal leve (raro)"],
+            "nota": "Extremamente seguro"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Glucosamina", "Condroitina", "Vitamina C"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "MSM cristalino",
+                "descricao": "Forma padrão em pó ou cápsulas",
+                "vantagens": ["Puro", "Bem absorvido"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "MSM: Benefícios para Articulações e Cabelo",
+            "meta_description": "MSM (metilsulfonilmetano): enxofre orgânico para articulações, pele e cabelo.",
+            "keywords": ["msm", "metilsulfonilmetano", "enxofre", "articulacoes", "cabelo"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "glucosamina": {
+        "slug": "glucosamina",
+        "nome": "Glucosamina",
+        "nome_cientifico": "Glucosamine",
+        "categoria": "outro",
+        "subcategoria": "aminosacarídeo",
+        "emoji": "🦴",
+        "descricao_curta": "Essencial para regeneração de cartilagens e saúde articular",
+        "descricao_longa": "A glucosamina é um aminosacarídeo natural que compõe cartilagens. É amplamente usada para osteoartrite, ajudando na regeneração da cartilagem e redução da dor articular.",
+        "funcoes_corporais": [
+            "Formação e reparação de cartilagens",
+            "Produção de glicosaminoglicanos",
+            "Lubrificação articular (líquido sinovial)",
+            "Saúde de tendões e ligamentos",
+            "Anti-inflamatório articular"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Caldo de ossos com cartilagem", "quantidade": 500, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Conchas de crustáceos", "quantidade": 1000, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA - corpo produz"}
+            },
+            "suplementacao_preventiva": {
+                "min": 1000,
+                "max": 1500,
+                "unidade": "mg",
+                "nota": "Para prevenção de desgaste articular"
+            },
+            "suplementacao_terapeutica": {
+                "min": 1500,
+                "max": 2000,
+                "unidade": "mg",
+                "nota": "Para osteoartrite estabelecida"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 2000mg/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Produção diminui com idade",
+            "sintomas": [
+                "Dores articulares",
+                "Rigidez matinal",
+                "Desgaste de cartilagens",
+                "Osteoartrite"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Desconforto gastrointestinal leve"],
+            "nota": "Muito segura"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Warfarin",
+                    "efeito": "Pode potencializar efeito anticoagulante (dados limitados)",
+                    "recomendacao": "Monitorar INR se combinar"
+                }
+            ],
+            "nutrientes_sinergicos": ["Condroitina", "MSM", "Colágeno tipo II"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Sulfato de glucosamina",
+                "descricao": "Forma mais estudada",
+                "vantagens": ["Mais evidências científicas", "Eficaz"],
+                "desvantagens": ["Contém sódio ou potássio"]
+            },
+            {
+                "forma": "Cloridrato de glucosamina",
+                "descricao": "Forma alternativa",
+                "vantagens": ["Sem sódio/potássio adicional"],
+                "desvantagens": ["Menos estudada"]
+            },
+            {
+                "forma": "N-Acetil-Glucosamina",
+                "descricao": "Forma acetilada",
+                "vantagens": ["Pode ser melhor para intestino"],
+                "desvantagens": ["Menos evidências para articulações"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Glucosamina: Benefícios para Articulações e Cartilagens",
+            "meta_description": "Glucosamina: suplemento para osteoartrite, regeneração de cartilagem e dor articular.",
+            "keywords": ["glucosamina", "osteoartrite", "cartilagem", "articulacoes", "dor"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "resveratrol": {
+        "slug": "resveratrol",
+        "nome": "Resveratrol",
+        "nome_cientifico": "Resveratrol",
+        "categoria": "outro",
+        "subcategoria": "polifenol",
+        "emoji": "🍇",
+        "descricao_curta": "Polifenol antioxidante com benefícios antiage e cardiovasculares",
+        "descricao_longa": "Resveratrol é um polifenol presente em uvas, vinho tinto e frutas vermelhas. Possui potentes propriedades antioxidantes, anti-inflamatórias e pode ativar sirtuínas (proteínas da longevidade).",
+        "funcoes_corporais": [
+            "Antioxidante potente",
+            "Ativação de sirtuínas (proteínas da longevidade)",
+            "Saúde cardiovascular",
+            "Neuroproteção",
+            "Anti-inflamatório",
+            "Sensibilidade à insulina"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Vinho tinto (1 taça)", "quantidade": 2, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Uvas vermelhas (1 xícara)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Amendoim (30g)", "quantidade": 0.1, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Mirtilos (1 xícara)", "quantidade": 0.04, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 100,
+                "max": 250,
+                "unidade": "mg",
+                "nota": "Para longevidade e saúde geral"
+            },
+            "suplementacao_terapeutica": {
+                "min": 500,
+                "max": 1000,
+                "unidade": "mg",
+                "nota": "Para benefícios metabólicos"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 1500mg/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Não aplicável - não é essencial",
+            "sintomas": []
+        },
+        "excesso": {
+            "toxicidade": "Baixa",
+            "sintomas": ["Diarreia leve (doses muito altas)"],
+            "nota": "Geralmente bem tolerado"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Anticoagulantes",
+                    "efeito": "Pode potencializar efeito anticoagulante",
+                    "recomendacao": "Usar com cautela"
+                }
+            ],
+            "nutrientes_sinergicos": ["Quercetina", "Vitamina C"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Trans-resveratrol",
+                "descricao": "Forma ativa biodisponível",
+                "vantagens": ["Forma biologicamente ativa"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Resveratrol: Benefícios Antiage e Cardiovasculares",
+            "meta_description": "Resveratrol: polifenol do vinho tinto para longevidade, coração e cérebro.",
+            "keywords": ["resveratrol", "vinho tinto", "longevidade", "antioxidante", "sirtuinas"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "quercetina": {
+        "slug": "quercetina",
+        "nome": "Quercetina",
+        "nome_cientifico": "Quercetin",
+        "categoria": "outro",
+        "subcategoria": "flavonoide",
+        "emoji": "🧅",
+        "descricao_curta": "Flavonoide antioxidante com propriedades anti-inflamatórias e antivirais",
+        "descricao_longa": "Quercetina é um flavonoide presente em cebolas, maçãs e chás. Possui propriedades antioxidantes, anti-inflamatórias, antivirais e anti-histamínicas potentes.",
+        "funcoes_corporais": [
+            "Antioxidante potente",
+            "Anti-inflamatório",
+            "Anti-histamínico (alergias)",
+            "Antiviral",
+            "Saúde cardiovascular",
+            "Senolítico (remove células senescentes)"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Cebola roxa (1 média)", "quantidade": 20, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Maçã com casca (1 unidade)", "quantidade": 10, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Chá verde (1 xícara)", "quantidade": 15, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Brócolis (1 xícara)", "quantidade": 3, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 500,
+                "max": 1000,
+                "unidade": "mg",
+                "nota": "Para alergias e imunidade"
+            },
+            "suplementacao_terapeutica": {
+                "min": 1000,
+                "max": 2000,
+                "unidade": "mg",
+                "nota": "Para inflamação crônica"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 2000mg/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Não aplicável - não é essencial",
+            "sintomas": []
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Cefaleia leve (raro)", "Formigamento (doses muito altas)"],
+            "nota": "Geralmente muito bem tolerada"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Antibióticos fluoroquinolonas",
+                    "efeito": "Pode reduzir absorção",
+                    "recomendacao": "Tomar com 2h de intervalo"
+                }
+            ],
+            "nutrientes_sinergicos": ["Vitamina C", "Bromelaína", "Resveratrol"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Quercetina dihidratada",
+                "descricao": "Forma padrão",
+                "vantagens": ["Mais estudada"],
+                "desvantagens": ["Absorção limitada"]
+            },
+            {
+                "forma": "Quercetina fitossoma",
+                "descricao": "Complexada com lecitina",
+                "vantagens": ["20x mais biodisponível"],
+                "desvantagens": ["Mais cara"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Quercetina: Antioxidante para Alergias e Imunidade",
+            "meta_description": "Quercetina: flavonoide com propriedades anti-inflamatórias, antivirais e anti-histamínicas.",
+            "keywords": ["quercetina", "alergias", "anti-histaminico", "antioxidante", "antiviral"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "nac": {
+        "slug": "nac",
+        "nome": "NAC",
+        "nome_cientifico": "N-Acetilcisteína",
+        "categoria": "outro",
+        "subcategoria": "aminoácido",
+        "emoji": "💨",
+        "descricao_curta": "Precursor de glutationa, potente antioxidante e mucolítico",
+        "descricao_longa": "NAC é um derivado do aminoácido cisteína e precursor direto da glutationa, o antioxidante mais importante do corpo. Possui propriedades mucolíticas, antioxidantes e hepatoprotetoras.",
+        "funcoes_corporais": [
+            "Precursor de glutationa (antioxidante mestre)",
+            "Desintoxicação hepática",
+            "Mucolítico (fluidifica muco)",
+            "Proteção pulmonar",
+            "Saúde mental (modulação de glutamato)",
+            "Quelação de metais pesados"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Carne de frango (100g)", "quantidade": 200, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Ovo (1 unidade)", "quantidade": 25, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Iogurte (1 pote)", "quantidade": 50, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 600,
+                "max": 1200,
+                "unidade": "mg",
+                "nota": "Para antioxidação e saúde pulmonar"
+            },
+            "suplementacao_terapeutica": {
+                "min": 1200,
+                "max": 2400,
+                "unidade": "mg",
+                "nota": "Para intoxicações, DPOC, saúde mental"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 3g/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Rara - corpo produz cisteína",
+            "sintomas": [
+                "Baixos níveis de glutationa",
+                "Estresse oxidativo aumentado",
+                "Função imune comprometida"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Baixa",
+            "sintomas": ["Náusea", "Vômito", "Diarreia (doses muito altas)"],
+            "nota": "Bem tolerada em doses recomendadas"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Nitroglicerina",
+                    "efeito": "NAC pode potencializar efeitos",
+                    "recomendacao": "Usar com cautela"
+                }
+            ],
+            "nutrientes_sinergicos": ["Vitamina C", "Selênio", "Glicina"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "N-Acetil-L-Cisteína",
+                "descricao": "Forma padrão",
+                "vantagens": ["Bem absorvida", "Eficaz"],
+                "desvantagens": ["Odor sulfúrico leve"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "NAC (N-Acetilcisteína): Antioxidante e Mucolítico",
+            "meta_description": "NAC: precursor de glutationa para desintoxicação, saúde pulmonar e mental.",
+            "keywords": ["nac", "n-acetilcisteina", "glutationa", "antioxidante", "fígado"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "astaxantina": {
+        "slug": "astaxantina",
+        "nome": "Astaxantina",
+        "nome_cientifico": "Astaxanthin",
+        "categoria": "outro",
+        "subcategoria": "carotenoide",
+        "emoji": "🦞",
+        "descricao_curta": "Carotenoide antioxidante ultra-potente para pele, olhos e cérebro",
+        "descricao_longa": "Astaxantina é um carotenoide vermelho presente em algas, salmão e crustáceos. É considerado um dos antioxidantes mais potentes da natureza, com benefícios para pele, olhos, cérebro e resistência física.",
+        "funcoes_corporais": [
+            "Antioxidante ultra-potente (6000x mais que vitamina C)",
+            "Proteção solar interna",
+            "Saúde ocular (retina e mácula)",
+            "Neuroproteção",
+            "Performance atlética e recuperação",
+            "Anti-inflamatório"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Salmão selvagem (100g)", "quantidade": 5, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Camarão (100g)", "quantidade": 1, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Lagosta (100g)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 4,
+                "max": 12,
+                "unidade": "mg",
+                "nota": "Para saúde geral e pele"
+            },
+            "suplementacao_terapeutica": {
+                "min": 12,
+                "max": 24,
+                "unidade": "mg",
+                "nota": "Para atletas e condições específicas"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 40mg/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Não aplicável - não é essencial",
+            "sintomas": []
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Coloração alaranjada leve da pele (benigna)"],
+            "nota": "Extremamente segura"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Vitamina E", "Ômega-3"],
+            "nutrientes_antagonistas": []
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Astaxantina natural (de Haematococcus pluvialis)",
+                "descricao": "Extraída de algas",
+                "vantagens": ["Forma natural", "Mais estudada", "Contém outros carotenoides"],
+                "desvantagens": ["Mais cara"]
+            },
+            {
+                "forma": "Astaxantina sintética",
+                "descricao": "Produzida quimicamente",
+                "vantagens": ["Mais barata"],
+                "desvantagens": ["Menos eficaz", "Não aprovada para humanos em alguns países"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Astaxantina: Antioxidante Potente para Pele e Olhos",
+            "meta_description": "Astaxantina: carotenoide ultra-potente para proteção solar, visão e performance.",
+            "keywords": ["astaxantina", "antioxidante", "pele", "olhos", "salmao"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "luteina-zeaxantina": {
+        "slug": "luteina-zeaxantina",
+        "nome": "Luteína e Zeaxantina",
+        "nome_cientifico": "Lutein and Zeaxanthin",
+        "categoria": "outro",
+        "subcategoria": "carotenoide",
+        "emoji": "👁️",
+        "descricao_curta": "Carotenoides essenciais para saúde ocular e prevenção de degeneração macular",
+        "descricao_longa": "Luteína e zeaxantina são carotenoides que se concentram na mácula do olho. Protegem contra luz azul, estresse oxidativo e são essenciais para prevenir degeneração macular relacionada à idade (DMRI).",
+        "funcoes_corporais": [
+            "Proteção da mácula e retina",
+            "Filtro de luz azul",
+            "Prevenção de degeneração macular (DMRI)",
+            "Prevenção de catarata",
+            "Saúde cognitiva",
+            "Saúde da pele"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Couve (1 xícara cozida)", "quantidade": 23, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Espinafre (1 xícara cozido)", "quantidade": 20, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Brócolis (1 xícara)", "quantidade": 2, "unidade": "mg", "percentual_vd": 0},
+            {"alimento": "Gema de ovo (1 unidade)", "quantidade": 0.2, "unidade": "mg", "percentual_vd": 0}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 0, "unidade": "mg", "nota": "Não há RDA"}
+            },
+            "suplementacao_preventiva": {
+                "min": 10,
+                "max": 20,
+                "unidade": "mg",
+                "nota": "Luteína + 2-4mg zeaxantina"
+            },
+            "suplementacao_terapeutica": {
+                "min": 20,
+                "max": 40,
+                "unidade": "mg",
+                "nota": "Para DMRI ou alto risco"
+            },
+            "limite_superior": None,
+            "nota_limite": "Doses até 40mg/dia são seguras"
+        },
+        "deficiencia": {
+            "prevalencia": "Comum em quem não come vegetais verdes",
+            "sintomas": [
+                "Maior risco de DMRI",
+                "Fadiga ocular",
+                "Sensibilidade à luz"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Muito baixa",
+            "sintomas": ["Coloração amarelada leve da pele (benigna)"],
+            "nota": "Extremamente segura"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Ômega-3", "Zinco", "Vitamina E"],
+            "nutrientes_antagonistas": ["Beta-caroteno (pode competir por absorção)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Luteína livre (FloraGLO)",
+                "descricao": "Forma esterificada natural",
+                "vantagens": ["Bem estudada", "Boa absorção"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Zeaxantina (ZeaONE, Optisharp)",
+                "descricao": "Extraída de pimentão",
+                "vantagens": ["Natural", "Eficaz"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Luteína e Zeaxantina: Proteção para Olhos e Mácula",
+            "meta_description": "Luteína e zeaxantina: carotenoides essenciais para prevenir DMRI e proteger a visão.",
+            "keywords": ["luteina", "zeaxantina", "dmri", "degeneracao macular", "olhos", "visao"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "molibdenio": {
+        "slug": "molibdenio",
+        "nome": "Molibdênio",
+        "nome_cientifico": "Molybdenum",
+        "categoria": "mineral",
+        "subcategoria": "traço",
+        "emoji": "⚛️",
+        "descricao_curta": "Mineral traço essencial para metabolismo de enxofre e desintoxicação",
+        "descricao_longa": "O molibdênio é um mineral traço essencial que atua como cofator em enzimas envolvidas no metabolismo de enxofre, purinas e desintoxicação de compostos tóxicos.",
+        "funcoes_corporais": [
+            "Metabolismo de aminoácidos sulfurados",
+            "Desintoxicação de sulfitos",
+            "Metabolismo de purinas (ácido úrico)",
+            "Função de enzimas (sulfito oxidase, xantina oxidase)",
+            "Metabolismo de ferro"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Leguminosas (1 xícara)", "quantidade": 150, "unidade": "mcg", "percentual_vd": 333},
+            {"alimento": "Grãos integrais (1 xícara)", "quantidade": 50, "unidade": "mcg", "percentual_vd": 111},
+            {"alimento": "Fígado bovino (100g)", "quantidade": 120, "unidade": "mcg", "percentual_vd": 267},
+            {"alimento": "Nozes (30g)", "quantidade": 20, "unidade": "mcg", "percentual_vd": 44}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 45, "unidade": "mcg"},
+                "gestantes": {"valor": 50, "unidade": "mcg"},
+                "lactantes": {"valor": 50, "unidade": "mcg"}
+            },
+            "limite_superior": {
+                "valor": 2000,
+                "unidade": "mcg"
+            }
+        },
+        "deficiencia": {
+            "prevalencia": "Muito rara",
+            "sintomas": [
+                "Sensibilidade a sulfitos",
+                "Taquicardia",
+                "Náusea",
+                "Desorientação"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Baixa, mas possível em doses muito altas",
+            "sintomas": ["Sintomas semelhantes à gota (altos níveis de ácido úrico)"],
+            "nota": "Raro de ocorrer com suplementação normal"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": [],
+            "nutrientes_antagonistas": ["Cobre (altas doses de molibdênio reduzem cobre)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Molibdato de sódio",
+                "descricao": "Forma comum em multivitamínicos",
+                "vantagens": ["Bem absorvida"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Molibdênio: Mineral para Desintoxicação",
+            "meta_description": "Molibdênio: mineral traço essencial para metabolismo de enxofre e desintoxicação.",
+            "keywords": ["molibdenio", "sulfitos", "desintoxicacao", "mineral"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "manganes": {
+        "slug": "manganes",
+        "nome": "Manganês",
+        "nome_cientifico": "Manganese",
+        "categoria": "mineral",
+        "subcategoria": "traço",
+        "emoji": "🥜",
+        "descricao_curta": "Mineral essencial para ossos, metabolismo e função antioxidante",
+        "descricao_longa": "O manganês é um mineral traço essencial envolvido em formação óssea, metabolismo de carboidratos, colesterol e aminoácidos. É componente da enzima antioxidante superóxido dismutase (SOD).",
+        "funcoes_corporais": [
+            "Formação óssea e de cartilagens",
+            "Metabolismo de carboidratos e lipídios",
+            "Função antioxidante (SOD)",
+            "Cicatrização de feridas",
+            "Metabolismo de aminoácidos",
+            "Função cerebral"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Abacaxi (1 xícara)", "quantidade": 2.6, "unidade": "mg", "percentual_vd": 113},
+            {"alimento": "Nozes pecã (30g)", "quantidade": 1.3, "unidade": "mg", "percentual_vd": 57},
+            {"alimento": "Espinafre cozido (1 xícara)", "quantidade": 1.7, "unidade": "mg", "percentual_vd": 74},
+            {"alimento": "Chá preto (1 xícara)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 22},
+            {"alimento": "Aveia (1 xícara)", "quantidade": 3.7, "unidade": "mg", "percentual_vd": 161}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos_m": {"valor": 2.3, "unidade": "mg"},
+                "adultos_f": {"valor": 1.8, "unidade": "mg"},
+                "gestantes": {"valor": 2.0, "unidade": "mg"}
+            },
+            "limite_superior": {
+                "valor": 11,
+                "unidade": "mg"
+            }
+        },
+        "deficiencia": {
+            "prevalencia": "Rara",
+            "sintomas": [
+                "Alterações ósseas",
+                "Problemas de crescimento",
+                "Alterações de pele",
+                "Alteração de colesterol"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Moderada em doses muito altas (ocupacional)",
+            "sintomas": ["Neurotoxicidade (tremores, sintomas parkinsonianos)"],
+            "nota": "Toxicidade geralmente por exposição ocupacional, não suplementação"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Cálcio", "Vitamina K"],
+            "nutrientes_antagonistas": ["Ferro (competem por absorção)", "Cálcio (altas doses)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Glicinato de manganês",
+                "descricao": "Forma quelada",
+                "vantagens": ["Boa absorção", "Bem tolerada"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Sulfato de manganês",
+                "descricao": "Forma inorgânica",
+                "vantagens": ["Barata"],
+                "desvantagens": ["Menor absorção"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Manganês: Mineral para Ossos e Antioxidação",
+            "meta_description": "Manganês: mineral essencial para formação óssea, metabolismo e função antioxidante.",
+            "keywords": ["manganes", "mineral", "ossos", "sod", "antioxidante"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "cobre": {
+        "slug": "cobre",
+        "nome": "Cobre",
+        "nome_cientifico": "Copper",
+        "categoria": "mineral",
+        "subcategoria": "traço",
+        "emoji": "🔶",
+        "descricao_curta": "Mineral essencial para formação de sangue, energia e tecido conjuntivo",
+        "descricao_longa": "O cobre é um mineral traço essencial para formação de glóbulos vermelhos, produção de energia, síntese de colágeno e elastina, função imunológica e neurológica.",
+        "funcoes_corporais": [
+            "Formação de hemoglobina e glóbulos vermelhos",
+            "Metabolismo energético (citocromo c oxidase)",
+            "Síntese de colágeno e elastina",
+            "Função imunológica",
+            "Antioxidante (SOD)",
+            "Formação de melanina",
+            "Saúde do sistema nervoso"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Fígado bovino (100g)", "quantidade": 12, "unidade": "mg", "percentual_vd": 1333},
+            {"alimento": "Ostras (100g)", "quantidade": 7.6, "unidade": "mg", "percentual_vd": 844},
+            {"alimento": "Castanha de caju (30g)", "quantidade": 0.6, "unidade": "mg", "percentual_vd": 67},
+            {"alimento": "Chocolate amargo (30g)", "quantidade": 0.5, "unidade": "mg", "percentual_vd": 56},
+            {"alimento": "Grão de bico (1 xícara)", "quantidade": 0.6, "unidade": "mg", "percentual_vd": 67}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 900, "unidade": "mcg"},
+                "gestantes": {"valor": 1000, "unidade": "mcg"},
+                "lactantes": {"valor": 1300, "unidade": "mcg"}
+            },
+            "limite_superior": {
+                "valor": 10,
+                "unidade": "mg"
+            }
+        },
+        "deficiencia": {
+            "prevalencia": "Rara, mas pode ocorrer",
+            "sintomas": [
+                "Anemia (não responsiva a ferro)",
+                "Neutropenia (baixos neutrófilos)",
+                "Osteoporose",
+                "Problemas neurológicos",
+                "Despigmentação de cabelo e pele"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Moderada em doses altas",
+            "sintomas": ["Náusea", "Vômito", "Diarreia", "Dano hepático (crônico)"],
+            "nota": "Evitar suplementação isolada de cobre; balancear com zinco"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": [],
+            "nutrientes_antagonistas": ["Zinco (competem; razão ideal Zn:Cu = 10:1)", "Vitamina C (altas doses)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Glicinato de cobre",
+                "descricao": "Forma quelada",
+                "vantagens": ["Boa absorção", "Bem tolerada"],
+                "desvantagens": []
+            },
+            {
+                "forma": "Sulfato de cobre",
+                "descricao": "Forma inorgânica",
+                "vantagens": ["Barata"],
+                "desvantagens": ["Pode causar irritação gástrica"]
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Cobre: Mineral para Sangue e Energia",
+            "meta_description": "Cobre: mineral essencial para formação de sangue, energia e tecido conjuntivo.",
+            "keywords": ["cobre", "mineral", "anemia", "colageno", "energia"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "fosforo": {
+        "slug": "fosforo",
+        "nome": "Fósforo",
+        "nome_cientifico": "Phosphorus",
+        "categoria": "mineral",
+        "subcategoria": "macromineral",
+        "emoji": "💪",
+        "descricao_curta": "Mineral essencial para ossos, energia (ATP) e membranas celulares",
+        "descricao_longa": "O fósforo é o segundo mineral mais abundante no corpo, essencial para formação óssea, produção de energia (ATP), síntese de DNA/RNA e membranas celulares.",
+        "funcoes_corporais": [
+            "Formação óssea e dental (85% está nos ossos)",
+            "Produção de energia (ATP)",
+            "Síntese de DNA e RNA",
+            "Membranas celulares (fosfolipídios)",
+            "Balanço ácido-base",
+            "Ativação de enzimas"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Queijo (100g)", "quantidade": 500, "unidade": "mg", "percentual_vd": 50},
+            {"alimento": "Salmão (100g)", "quantidade": 250, "unidade": "mg", "percentual_vd": 25},
+            {"alimento": "Lentilhas (1 xícara)", "quantidade": 350, "unidade": "mg", "percentual_vd": 35},
+            {"alimento": "Carne bovina (100g)", "quantidade": 200, "unidade": "mg", "percentual_vd": 20},
+            {"alimento": "Nozes (30g)", "quantidade": 100, "unidade": "mg", "percentual_vd": 10}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 700, "unidade": "mg"}
+            },
+            "limite_superior": {
+                "valor": 4000,
+                "unidade": "mg"
+            }
+        },
+        "deficiencia": {
+            "prevalencia": "Muito rara (fósforo está em muitos alimentos)",
+            "sintomas": [
+                "Fraqueza muscular",
+                "Dor óssea",
+                "Fadiga extrema",
+                "Perda de apetite"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Moderada (mais comum em doença renal)",
+            "sintomas": [
+                "Calcificação de tecidos moles",
+                "Interferência com absorção de cálcio",
+                "Problemas cardiovasculares (doença renal)"
+            ],
+            "nota": "Excesso geralmente vem de refrigerantes e alimentos processados"
+        },
+        "interacoes": {
+            "medicamentos": [],
+            "nutrientes_sinergicos": ["Cálcio", "Vitamina D"],
+            "nutrientes_antagonistas": ["Alumínio (antiácidos)", "Cálcio (desequilíbrio)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Fosfato de cálcio",
+                "descricao": "Combo cálcio + fósforo",
+                "vantagens": ["Fornece ambos minerais"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Fósforo: Mineral para Ossos e Energia",
+            "meta_description": "Fósforo: mineral essencial para ossos, ATP e membranas celulares.",
+            "keywords": ["fosforo", "mineral", "ossos", "atp", "energia"]
+        },
+        "afiliados": {"amazon": []}
+    },
+
+    "potassio": {
+        "slug": "potassio",
+        "nome": "Potássio",
+        "nome_cientifico": "Potassium",
+        "categoria": "mineral",
+        "subcategoria": "eletrólito",
+        "emoji": "🍌",
+        "descricao_curta": "Eletrólito essencial para pressão arterial, músculos e coração",
+        "descricao_longa": "O potássio é um eletrólito essencial para função muscular, cardíaca e nervosa. Regula pressão arterial, balanço hídrico e é crucial para contração muscular e transmissão nervosa.",
+        "funcoes_corporais": [
+            "Regulação de pressão arterial",
+            "Contração muscular (incluindo coração)",
+            "Transmissão nervosa",
+            "Balanço hídrico e eletrólítico",
+            "Função renal",
+            "Síntese proteica"
+        ],
+        "fontes_alimentares": [
+            {"alimento": "Batata assada com casca (1 média)", "quantidade": 925, "unidade": "mg", "percentual_vd": 20},
+            {"alimento": "Banana (1 média)", "quantidade": 422, "unidade": "mg", "percentual_vd": 9},
+            {"alimento": "Espinafre cozido (1 xícara)", "quantidade": 840, "unidade": "mg", "percentual_vd": 18},
+            {"alimento": "Abacate (1/2 unidade)", "quantidade": 487, "unidade": "mg", "percentual_vd": 10},
+            {"alimento": "Feijão (1 xícara)", "quantidade": 600, "unidade": "mg", "percentual_vd": 13}
+        ],
+        "dosagem": {
+            "rda": {
+                "adultos": {"valor": 3400, "unidade": "mg", "nota": "Homens"},
+                "adultos_f": {"valor": 2600, "unidade": "mg", "nota": "Mulheres"}
+            },
+            "limite_superior": None,
+            "nota_limite": "Não há UL estabelecido, mas excesso pode ser perigoso"
+        },
+        "deficiencia": {
+            "prevalencia": "Comum (dieta pobre em frutas/vegetais)",
+            "sintomas": [
+                "Fraqueza muscular e cãibras",
+                "Fadiga",
+                "Constipação",
+                "Arritmias cardíacas",
+                "Pressão alta"
+            ],
+            "causas": [
+                "Dieta pobre em vegetais/frutas",
+                "Uso de diuréticos",
+                "Diarreia ou vômito",
+                "Excesso de sódio"
+            ]
+        },
+        "excesso": {
+            "toxicidade": "Perigosa (hipercalemia)",
+            "sintomas": [
+                "Fraqueza muscular severa",
+                "Paralisia",
+                "Arritmias cardíacas perigosas",
+                "Parada cardíaca"
+            ],
+            "nota": "Excesso geralmente só ocorre com insuficiência renal ou suplementação excessiva"
+        },
+        "interacoes": {
+            "medicamentos": [
+                {
+                    "nome": "Diuréticos poupadores de potássio",
+                    "efeito": "Podem causar hipercalemia",
+                    "recomendacao": "Não suplementar sem supervisão médica"
+                },
+                {
+                    "nome": "Inibidores da ECA",
+                    "efeito": "Podem aumentar potássio",
+                    "recomendacao": "Cuidado com suplementação"
+                }
+            ],
+            "nutrientes_sinergicos": ["Magnésio"],
+            "nutrientes_antagonistas": ["Sódio (excesso de sódio aumenta perda de potássio)"]
+        },
+        "formas_suplemento": [
+            {
+                "forma": "Cloreto de potássio",
+                "descricao": "Forma mais comum (substituto de sal)",
+                "vantagens": ["Eficaz"],
+                "desvantagens": ["Sabor desagradável", "Limite de 99mg por dose nos EUA"]
+            },
+            {
+                "forma": "Citrato de potássio",
+                "descricao": "Forma alcalinizante",
+                "vantagens": ["Bem tolerada", "Alcaliniza urina"],
+                "desvantagens": []
+            }
+        ],
+        "evidencias": [],
+        "seo": {
+            "meta_title": "Potássio: Mineral para Pressão e Coração",
+            "meta_description": "Potássio: eletrólito essencial para pressão arterial, músculos e função cardíaca.",
+            "keywords": ["potassio", "pressao arterial", "hipertensao", "caibras", "eletrolitoo"]
+        },
+        "afiliados": {"amazon": []}
+    }
+}
+
+# Adicionar os novos nutrientes
+nutrientes.update(novos_nutrientes)
+
+# Salvar arquivo atualizado
+with open(nutrients_file, 'w', encoding='utf-8') as f:
+    json.dump(nutrientes, f, ensure_ascii=False, indent=2)
+
+print(f"✅ Adicionados {len(novos_nutrientes)} novos nutrientes!")
+print(f"📊 Total agora: {len(nutrientes)} nutrientes")
+print("\nNutrientes adicionados:")
+for slug, data in novos_nutrientes.items():
+    print(f"  - {data['emoji']} {data['nome']} ({data['categoria']})")
