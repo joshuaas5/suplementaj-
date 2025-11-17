@@ -11,6 +11,7 @@ export default function NutrientesPage() {
   // Categorizar nutrientes
   const vitaminas = nutrientes.filter(n => n.categoria === 'vitamina')
   const minerais = nutrientes.filter(n => n.categoria === 'mineral')
+  const outros = nutrientes.filter(n => n.categoria === 'outro')
 
   return (
     <div className="min-h-screen bg-gray-50 py-12">
@@ -58,6 +59,22 @@ export default function NutrientesPage() {
           </section>
         )}
 
+        {/* Outros Nutrientes */}
+        {outros.length > 0 && (
+          <section className="mb-16">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="h-1 w-12 bg-warning-600 rounded"></div>
+              <h2 className="text-3xl font-bold text-gray-900">Outros Nutrientes Essenciais</h2>
+              <Badge variant="warning">{outros.length}</Badge>
+            </div>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {outros.map((nutriente) => (
+                <NutrienteCard key={nutriente.slug} nutriente={nutriente} />
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* CTA */}
         <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-3">
@@ -90,7 +107,10 @@ function NutrienteCard({ nutriente }: NutrienteCardProps) {
         <CardHeader>
           <div className="flex items-start justify-between mb-2">
             <span className="text-4xl">{nutriente.emoji}</span>
-            <Badge variant={nutriente.categoria === 'vitamina' ? 'info' : 'success'}>
+            <Badge variant={
+              nutriente.categoria === 'vitamina' ? 'info' :
+              nutriente.categoria === 'mineral' ? 'success' : 'warning'
+            }>
               {nutriente.subcategoria}
             </Badge>
           </div>
