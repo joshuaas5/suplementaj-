@@ -97,8 +97,8 @@ export function EmailCapturePopup() {
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm animate-fadeIn">
-      <div className="relative bg-white border-4 border-black shadow-[12px_12px_0_0_#000] max-w-md w-full p-8 transform transition-all animate-scaleIn">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm animate-fadeIn overflow-y-auto">
+      <div className="relative bg-white border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] max-w-md w-full p-6 sm:p-8 my-auto transform transition-all animate-scaleIn">
         {/* Close Button */}
         <button
           onClick={handleClose}
