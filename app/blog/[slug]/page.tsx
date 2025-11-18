@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { Calendar, Clock, User, ArrowLeft } from 'lucide-react'
+import { Clock, User, ArrowLeft } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -197,14 +197,6 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
               {artigo.autor}
-            </div>
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              {new Date(artigo.data).toLocaleDateString('pt-BR', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })}
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />

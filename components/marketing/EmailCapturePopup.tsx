@@ -10,7 +10,6 @@ export function EmailCapturePopup() {
   const [nome, setNome] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
-  const [shouldShow, setShouldShow] = useState(true)
 
   useEffect(() => {
     // Verificar se o usuário já fechou ou enviou o formulário
@@ -20,7 +19,6 @@ export function EmailCapturePopup() {
 
     // Se já foi mostrado nesta sessão, não mostrar novamente
     if (hasClosedPopup || hasSubmittedEmail || popupShownThisSession) {
-      setShouldShow(false)
       return
     }
 
@@ -34,7 +32,7 @@ export function EmailCapturePopup() {
 
     // Abrir quando o usuário tentar sair da página (exit intent)
     const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0 && !isOpen) {
+      if (e.clientY <= 0) {
         setIsOpen(true)
       }
     }
@@ -45,6 +43,7 @@ export function EmailCapturePopup() {
       clearTimeout(timer)
       document.removeEventListener('mouseleave', handleMouseLeave)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleClose = () => {
