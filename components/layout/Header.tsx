@@ -12,12 +12,12 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 hover:scale-105 transition-transform">
-            <div className="bg-black p-2 border-2 border-black rotate-3">
-              <Pill className="w-8 h-8 text-yellow-400" />
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:scale-105 transition-transform">
+            <div className="bg-black p-1.5 sm:p-2 border-2 border-black rotate-3">
+              <Pill className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-400" />
             </div>
-            <span className="text-3xl font-black text-black uppercase tracking-tighter">
-              Suplementa <span className="bg-black text-yellow-400 px-2">Já</span>
+            <span className="text-xl sm:text-3xl font-black text-black uppercase tracking-tighter">
+              Suplementa <span className="bg-black text-yellow-400 px-1.5 sm:px-2">Já</span>
             </span>
           </Link>
 
