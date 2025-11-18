@@ -126,11 +126,11 @@ export function EmailCapturePopup() {
             {/* Header */}
             <div className="mb-6">
               <div className="inline-block bg-yellow-400 border-4 border-black px-4 py-2 mb-4 -rotate-1">
-                <h3 className="text-2xl font-black uppercase">🎁 Oferta Especial</h3>
+                <h3 className="text-2xl font-black uppercase">🎯 Lista VIP</h3>
               </div>
               <p className="text-lg font-bold text-gray-900 leading-relaxed">
-                Receba <span className="bg-lime-400 px-2 py-1 border-2 border-black">GRÁTIS</span> o
-                guia completo de suplementação + recomendações personalizadas por email!
+                Entre na lista <span className="bg-lime-400 px-2 py-1 border-2 border-black">VIP</span> e
+                fique por dentro de tudo sobre suplementação!
               </p>
             </div>
 
@@ -177,26 +177,26 @@ export function EmailCapturePopup() {
                 disabled={loading}
                 className="w-full text-lg"
               >
-                {loading ? 'Enviando...' : 'Quero Receber Grátis! 🚀'}
+                {loading ? 'Enviando...' : 'Entrar na Lista VIP! 🚀'}
               </Button>
 
               <p className="text-xs text-gray-600 text-center font-bold">
-                ✓ Sem spam. ✓ Cancele quando quiser. ✓ 100% gratuito.
+                ✓ Sem spam. ✓ Cancele quando quiser. ✓ Conteúdo exclusivo.
               </p>
             </form>
           </>
         ) : (
           <div className="text-center py-8">
             <div className="inline-block bg-lime-400 border-4 border-black px-6 py-3 mb-4">
-              <h3 className="text-3xl font-black">✅ Sucesso!</h3>
+              <h3 className="text-3xl font-black">✅ Bem-vindo à Lista VIP!</h3>
             </div>
             <p className="text-lg font-bold text-gray-900 mb-2">
               Obrigado por se cadastrar, {nome}!
             </p>
             <p className="text-gray-600 font-bold">
-              Enviamos seu guia para <span className="text-blue-600">{email}</span>
+              Você receberá conteúdos exclusivos em <span className="text-blue-600">{email}</span>
             </p>
-            <p className="text-sm text-gray-500 mt-4 font-bold">Verifique sua caixa de entrada</p>
+            <p className="text-sm text-gray-500 mt-4 font-bold">Fique de olho na sua caixa de entrada! 📬</p>
           </div>
         )}
       </div>

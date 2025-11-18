@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { Calendar, Clock, ArrowRight } from 'lucide-react'
+import { Clock, ArrowRight } from 'lucide-react'
 import artigosData from '@/data/artigos.json'
 import type { Artigo } from '@/types/artigo'
 
@@ -129,12 +129,6 @@ function ArtigoCard({ artigo, index }: ArtigoCardProps) {
                 #{tag}
               </span>
             ))}
-          </div>
-
-          {/* Meta */}
-          <div className="flex items-center gap-2 text-xs text-black font-bold border-t-2 border-black pt-3">
-            <Calendar className="w-4 h-4" />
-            {new Date(artigo.data).toLocaleDateString('pt-BR')}
           </div>
 
           {/* CTA */}
