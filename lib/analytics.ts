@@ -38,15 +38,15 @@ export function trackQuizStart() {
  * Rastreia conclusão do quiz
  */
 export function trackQuizComplete(perfil: {
-  sexo?: string
-  idade?: string
+  sexo?: string | number
+  idade?: string | number
   dieta?: string
 }) {
   trackEvent('quiz_complete', {
     event_category: 'engagement',
     event_label: 'avaliacao_concluida',
-    sexo: perfil.sexo,
-    idade: perfil.idade,
+    sexo: perfil.sexo?.toString(),
+    idade: perfil.idade?.toString(),
     dieta: perfil.dieta,
   })
 }
