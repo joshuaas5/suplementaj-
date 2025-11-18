@@ -142,24 +142,24 @@ export default function ResultadosPage() {
                 {recomendacoesAlta.length > 0 && (
                   <div className="bg-red-100 border-2 border-black p-4">
                     <div className="text-4xl font-black text-red-600 mb-1">{recomendacoesAlta.length}</div>
-                    <div className="text-sm font-bold text-black uppercase">Deficiências Graves</div>
+                    <div className="text-sm font-bold text-black uppercase">Possíveis Deficiências Graves</div>
                   </div>
                 )}
                 {recomendacoesMedia.length > 0 && (
                   <div className="bg-yellow-100 border-2 border-black p-4">
                     <div className="text-4xl font-black text-orange-600 mb-1">{recomendacoesMedia.length}</div>
-                    <div className="text-sm font-bold text-black uppercase">Deficiências Moderadas</div>
+                    <div className="text-sm font-bold text-black uppercase">Possíveis Deficiências Moderadas</div>
                   </div>
                 )}
                 <div className="bg-lime-100 border-2 border-black p-4">
                   <div className="text-4xl font-black text-green-600 mb-1">
                     {recomendacoesAlta.length + recomendacoesMedia.length}
                   </div>
-                  <div className="text-sm font-bold text-black uppercase">Total de Nutrientes Necessários</div>
+                  <div className="text-sm font-bold text-black uppercase">Nutrientes que Você Pode Precisar</div>
                 </div>
               </div>
               <p className="text-black font-bold mt-4 text-center">
-                📋 Veja abaixo cada deficiência identificada e como corrigir
+                📋 Veja abaixo as possíveis deficiências identificadas e como corrigir
               </p>
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function ResultadosPage() {
               </div>
               <div className="bg-white border-4 border-black p-6 max-w-4xl mx-auto">
                 <p className="text-xl sm:text-2xl font-black text-black mb-3 leading-tight">
-                  Você viu que precisa de <span className="bg-red-400 px-2 py-1">{recomendacoesAlta.length + recomendacoesMedia.length} nutrientes diferentes</span>...
+                  Você viu que pode estar precisando de <span className="bg-red-400 px-2 py-1">{recomendacoesAlta.length + recomendacoesMedia.length} nutrientes diferentes</span>...
                 </p>
                 <p className="text-lg sm:text-xl text-black font-bold mb-4">
                   Ao invés de comprar {recomendacoesAlta.length + recomendacoesMedia.length} frascos separados e tomar <span className="bg-yellow-400 px-2 py-1">10+ cápsulas por dia</span>:
@@ -242,7 +242,7 @@ export default function ResultadosPage() {
                     ✅ Use 1 Multivitamínico Completo
                   </p>
                   <p className="text-lg font-bold text-black mt-2">
-                    Que já contém <span className="bg-black text-lime-400 px-2 py-1">{Math.round((multivitaminicosRecomendados[0]?.porcentagem_cobertura || 0))}%</span> do que você precisa!
+                    Que já contém <span className="bg-black text-lime-400 px-2 py-1">{Math.round((multivitaminicosRecomendados[0]?.porcentagem_cobertura || 0))}%</span> do que você pode precisar!
                   </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
@@ -281,7 +281,7 @@ export default function ResultadosPage() {
               </p>
               <p className="text-black font-bold text-sm sm:text-base">
                 Comece com o multivitamínico acima como sua <span className="bg-black text-cyan-400 px-2 py-1">BASE DIÁRIA</span>.
-                Se precisar de doses mais altas de algum nutriente específico, complemente com suplementos individuais (veja na seção &quot;Prioridade Baixa&quot; abaixo).
+                Se você precisar de doses mais altas de algum nutriente específico, pode complementar com suplementos individuais (veja na seção &quot;Prioridade Baixa&quot; abaixo).
               </p>
             </div>
           </section>
