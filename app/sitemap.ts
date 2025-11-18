@@ -66,7 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // Páginas dinâmicas de artigos do blog
-  const artigoPages: MetadataRoute.Sitemap = artigosData.map((artigo: any) => ({
+  const artigoPages: MetadataRoute.Sitemap = artigosData.map((artigo) => ({
     url: `${baseUrl}/blog/${artigo.slug}`,
     lastModified: new Date(artigo.data),
     changeFrequency: 'monthly' as const,

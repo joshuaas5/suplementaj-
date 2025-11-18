@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics'
+import { GoogleAdSense } from '@/components/analytics/GoogleAdSense'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,6 +40,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <GoogleAnalytics />
+        <GoogleAdSense />
         <Header />
         <main className="min-h-screen">
           {children}
