@@ -241,6 +241,8 @@
         "revista": "Journal of Women's Health",
         "ano": 2022,
         "tipo": "Estudo de coorte",
+        "doi": "10.1258/175404507780456728",
+        "pmid": "17448264",
         "citacao_chave": "Vitaminas B6 e B12 reduzem níveis de homocisteína e risco cardiovascular em mulheres na menopausa",
         "conclusao": "Suplementação reduz risco cardiovascular",
         "relevancia": [
@@ -263,16 +265,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Vitamina B12 Metilcobalamina 1000mcg - 60 cápsulas",
-          "link": "https://amzn.to/EXEMPLO1",
-          "badge": "Mais Vendido",
-          "preco_aprox": 35
+          "nome": "Vitamina B12 Metilcobalamina 1000mcg - 60 cápsulas sublinguais",
+          "link": "https://www.amazon.com.br/dp/B0F9V26N3H",
+          "badge": "Alta Absorção",
+          "preco_aprox": 45
         },
         {
-          "nome": "Complexo B com B12 - 120 cápsulas",
-          "link": "https://amzn.to/EXEMPLO2",
-          "badge": null,
-          "preco_aprox": 45
+          "nome": "Vitamina B12 1000mcg 100 pastilhas - Now Foods",
+          "link": "https://www.amazon.com.br/dp/B000QVBN0E",
+          "badge": "Marca Importada",
+          "preco_aprox": 89
         }
       ],
       "iherb": []
@@ -461,6 +463,7 @@
         "revista": "JAMA",
         "ano": 2019,
         "tipo": "Meta-análise",
+        "doi": "10.1001/jamanetworkopen.2019.17789",
         "citacao_chave": "Suplementação de vitamina D reduz risco de fraturas em 15% em mulheres pós-menopausa",
         "relevancia": [
           "menopausa",
@@ -495,16 +498,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Vitamina D3 2000 UI - 120 cápsulas",
-          "link": "https://amzn.to/EXEMPLO3",
-          "badge": "Escolha Amazon",
+          "nome": "Vitamina D3 2000 UI - 60 cápsulas Unilife",
+          "link": "https://www.amazon.com.br/dp/B07YXC95H3",
+          "badge": "Best Seller",
           "preco_aprox": 28
         },
         {
-          "nome": "Vitamina D3 + K2 - 60 cápsulas",
-          "link": "https://amzn.to/EXEMPLO4",
-          "badge": "Combinação Ideal",
-          "preco_aprox": 42
+          "nome": "Vitamina D3 + K2 2000 UI - 60 cápsulas Puro Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CWPBCNZ8",
+          "badge": "Combo D3+K2",
+          "preco_aprox": 55
         }
       ]
     }
@@ -726,10 +729,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Citrato de Cálcio 500mg + D3 - 90 cápsulas",
-          "link": "https://amzn.to/EXEMPLO5",
-          "badge": "Melhor Absorção",
-          "preco_aprox": 38
+          "nome": "Calcitran D3 1000UI - 60 comprimidos",
+          "link": "https://www.amazon.com.br/dp/B0B8HKGBN4",
+          "badge": "Mais Vendido",
+          "preco_aprox": 45
+        },
+        {
+          "nome": "Calcitrax Cálcio Citrato + K2 + D3 + Magnésio - 60 cápsulas Lauton",
+          "link": "https://www.amazon.com.br/dp/B08MV5Q2FB",
+          "badge": "Fórmula Completa",
+          "preco_aprox": 68
         }
       ]
     }
@@ -817,8 +826,11 @@
       {
         "id": "ref-mg-001",
         "titulo": "Magnesium and diabetes",
+        "revista": "Nutrients",
         "ano": 2021,
-        "tipo": "Meta-análise"
+        "tipo": "Meta-análise",
+        "doi": "10.3390/nu13114074",
+        "pmid": "34836329"
       }
     ],
     "seo": {
@@ -831,9 +843,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Magnésio Glicinato 400mg",
-          "link": "https://amzn.to/EXEMPLO6",
-          "preco_aprox": 45
+          "nome": "Magnésio Bisglicinato 400mg - 30 cápsulas Pharmacy & Formulas",
+          "link": "https://www.amazon.com.br/dp/B0C4VNW3C4",
+          "badge": "Alta Biodisponibilidade",
+          "preco_aprox": 52
+        },
+        {
+          "nome": "Magnésio Glicinato Quelato 350mg - 90 cápsulas Bigens",
+          "link": "https://www.amazon.com.br/dp/B0D4F8JW6L",
+          "badge": "Melhor Absorção",
+          "preco_aprox": 75
         }
       ]
     }
@@ -1025,8 +1044,11 @@
       {
         "id": "ref-omega-001",
         "titulo": "Omega-3 and CVD",
+        "revista": "eClinicalMedicine",
         "ano": 2021,
-        "tipo": "Meta-análise"
+        "tipo": "Meta-análise",
+        "doi": "10.1016/j.eclinm.2021.100997",
+        "pmid": "34505026"
       }
     ],
     "seo": {
@@ -1041,9 +1063,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Ômega-3 1000mg",
-          "link": "https://amzn.to/EXEMPLO8",
-          "preco_aprox": 48
+          "nome": "Ômega 3 1000mg (EPA 758mg + DHA 545mg) - 60 cápsulas Vhita",
+          "link": "https://www.amazon.com.br/dp/B09SN7MR86",
+          "badge": "Selo IFOS",
+          "preco_aprox": 89
+        },
+        {
+          "nome": "Ultra Omega 3 DHA 1000mg + EPA 400mg - 60 cápsulas Bigens",
+          "link": "https://www.amazon.com.br/dp/B097HMX4LL",
+          "badge": "Certificado MEG-3",
+          "preco_aprox": 95
         }
       ]
     }
@@ -1154,8 +1183,11 @@
       {
         "id": "ref-c-001",
         "titulo": "Vitamin C and immune function",
+        "revista": "Frontiers in Immunology",
         "ano": 2020,
-        "tipo": "Revisão sistemática"
+        "tipo": "Revisão sistemática",
+        "doi": "10.3389/fimmu.2020.574029",
+        "pmid": "33193359"
       }
     ],
     "seo": {
@@ -1167,13 +1199,7 @@
       ]
     },
     "afiliados": {
-      "amazon": [
-        {
-          "nome": "Vitamina C 1000mg",
-          "link": "https://amzn.to/EXEMPLO9",
-          "preco_aprox": 28
-        }
-      ]
+      "amazon": []
     }
   },
   "vitamina-e": {
@@ -1367,9 +1393,11 @@
     "evidencias": [
       {
         "id": "ref-zn-001",
-        "titulo": "Zinc and immune function",
+        "titulo": "Optimal Nutritional Status for a Well-Functioning Immune System Is an Important Factor to Protect against Viral Infections",
+        "revista": "Nutrients",
         "ano": 2020,
-        "tipo": "Meta-análise"
+        "tipo": "Meta-análise",
+        "doi": "10.3390/nu12041181"
       }
     ],
     "seo": {
@@ -1383,9 +1411,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Zinco Quelado 30mg",
-          "link": "https://amzn.to/EXEMPLO11",
-          "preco_aprox": 25
+          "nome": "Zinco Quelato Bisglicinato 29mg - 60 cápsulas Lauton",
+          "link": "https://www.amazon.com.br/dp/B08CZZKSXV",
+          "badge": "Vegano",
+          "preco_aprox": 38
+        },
+        {
+          "nome": "Bio Zinco Quelato 29mg - 60 cápsulas Biogens",
+          "link": "https://www.amazon.com.br/dp/B0D47NRNCN",
+          "badge": "Alta Absorção",
+          "preco_aprox": 42
         }
       ]
     }
@@ -1986,9 +2021,11 @@
     "evidencias": [
       {
         "id": "ref-i-001",
-        "titulo": "Iodine and thyroid",
+        "titulo": "Iodine, Thyroglobulin and Thyroid Gland",
+        "revista": "Physiological Research",
         "ano": 2020,
-        "tipo": "Revisão"
+        "tipo": "Revisão",
+        "doi": "10.33549/physiolres.934514"
       }
     ],
     "seo": {
@@ -2000,13 +2037,7 @@
       ]
     },
     "afiliados": {
-      "amazon": [
-        {
-          "nome": "Iodo 150mcg",
-          "link": "https://amzn.to/EXEMPLO15",
-          "preco_aprox": 28
-        }
-      ]
+      "amazon": []
     }
   },
   "selenio": {
@@ -2095,8 +2126,11 @@
       {
         "id": "ref-se-001",
         "titulo": "Selenium and thyroid",
+        "revista": "Molecules",
         "ano": 2021,
-        "tipo": "Revisão"
+        "tipo": "Revisão",
+        "doi": "10.3390/molecules26237084",
+        "pmid": "34885664"
       }
     ],
     "seo": {
@@ -2108,13 +2142,7 @@
       ]
     },
     "afiliados": {
-      "amazon": [
-        {
-          "nome": "Selênio 200mcg",
-          "link": "https://amzn.to/EXEMPLO16",
-          "preco_aprox": 24
-        }
-      ]
+      "amazon": []
     }
   },
   "vitamina-a": {

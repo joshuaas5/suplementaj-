@@ -526,7 +526,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             <CardContent>
               <Alert variant="info" className="mb-6">
                 <p className="text-sm font-bold">
-                  💡 Selecionamos produtos de qualidade na Amazon. Ao comprar através desses links, você ajuda a manter o site funcionando, sem custo adicional para você. Consulte sempre um profissional de saúde antes de suplementar.
+                  ⚠️ Consulte sempre um profissional de saúde antes de iniciar qualquer suplementação. As dosagens e indicações são apenas informativas.
                 </p>
               </Alert>
               <div className="grid gap-4 sm:grid-cols-2">
