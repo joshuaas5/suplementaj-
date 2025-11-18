@@ -305,7 +305,7 @@ export default function TermosPage() {
                 Dúvidas sobre estes Termos de Uso?
               </p>
               <p className="text-black font-bold text-sm">
-                📧 <strong>E-mail:</strong> [SEU EMAIL DE CONTATO]
+                📧 <strong>E-mail:</strong> suplementaja@gmail.com
               </p>
             </div>
           </CardContent>

@@ -158,7 +158,7 @@ const faqs = [
       },
       {
         q: 'Como posso entrar em contato?',
-        a: 'Para dúvidas, sugestões ou exercer seus direitos sob a LGPD, envie e-mail para [SEU EMAIL]. Respondemos em até 15 dias úteis.'
+        a: 'Para dúvidas, sugestões ou exercer seus direitos sob a LGPD, envie e-mail para suplementaja@gmail.com. Respondemos em até 15 dias úteis.'
       },
       {
         q: 'Vocês têm app mobile?',
@@ -166,7 +166,7 @@ const faqs = [
       },
       {
         q: 'Posso sugerir melhorias ou reportar erros?',
-        a: 'Sim! Adoramos feedback. Envie suas sugestões, dúvidas ou relatos de bugs para [SEU EMAIL]. Sua contribuição nos ajuda a melhorar o serviço.'
+        a: 'Sim! Adoramos feedback. Envie suas sugestões, dúvidas ou relatos de bugs para suplementaja@gmail.com. Sua contribuição nos ajuda a melhorar o serviço.'
       }
     ]
   }
@@ -242,7 +242,7 @@ export default function FAQPage() {
             </p>
             <div className="bg-white border-4 border-black p-4 inline-block">
               <p className="text-black font-bold">
-                📧 <strong>E-mail:</strong> [SEU EMAIL DE CONTATO]
+                📧 <strong>E-mail:</strong> suplementaja@gmail.com
               </p>
             </div>
           </CardContent>

@@ -287,7 +287,7 @@ export default function PrivacidadePage() {
                 Para exercer seus direitos sob a LGPD ou esclarecer dúvidas sobre esta Política:
               </p>
               <div className="space-y-2 text-sm font-bold text-black">
-                <p><strong>📧 E-mail:</strong> [SEU EMAIL DE CONTATO]</p>
+                <p><strong>📧 E-mail:</strong> suplementaja@gmail.com</p>
                 <p><strong>⏱️ Prazo de resposta:</strong> até 15 dias úteis</p>
               </div>
             </div>
