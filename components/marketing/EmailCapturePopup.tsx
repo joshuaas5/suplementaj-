@@ -12,23 +12,35 @@ export function EmailCapturePopup() {
   const [submitted, setSubmitted] = useState(false)
 
   useEffect(() => {
-    // Verificar se o usuário já fechou ou enviou o formulário
+    // Verificar se o usuÃ¡rio jÃ¡ fechou ou enviou o formulÃ¡rio
     const hasClosedPopup = localStorage.getItem('emailPopupClosed')
     const hasSubmittedEmail = localStorage.getItem('emailSubmitted')
+    const popupShownThisSession = sessionStorage.getItem('emailPopupShown')
 
-    if (hasClosedPopup || hasSubmittedEmail) {
+    // Se jÃ¡ foi mostrado, fechado ou submetido, NÃƒO mostrar
+    if (hasClosedPopup || hasSubmittedEmail || popupShownThisSession) {
       return
     }
 
-    // Abrir após 15 segundos
-    const timer = setTimeout(() => {
-      setIsOpen(true)
-    }, 15000)
+    // FunÃ§Ã£o para abrir o popup (sÃ³ abre se ainda nÃ£o foi mostrado)
+    const openPopup = () => {
+      const alreadyShown = sessionStorage.getItem('emailPopupShown')
+      const alreadyClosed = localStorage.getItem('emailPopupClosed')
+      const alreadySubmitted = localStorage.getItem('emailSubmitted')
 
-    // Abrir quando o usuário tentar sair da página (exit intent)
+      if (!alreadyShown && !alreadyClosed && !alreadySubmitted) {
+        sessionStorage.setItem('emailPopupShown', 'true')
+        setIsOpen(true)
+      }
+    }
+
+    // Abrir apÃ³s 15 segundos
+    const timer = setTimeout(openPopup, 15000)
+
+    // Abrir quando o usuÃ¡rio tentar sair da pÃ¡gina (exit intent)
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0) {
-        setIsOpen(true)
+        openPopup()
       }
     }
 
@@ -38,6 +50,7 @@ export function EmailCapturePopup() {
       clearTimeout(timer)
       document.removeEventListener('mouseleave', handleMouseLeave)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleClose = () => {
@@ -50,24 +63,30 @@ export function EmailCapturePopup() {
     setLoading(true)
 
     try {
-      // Aqui você pode integrar com sua ferramenta de email marketing
-      // Por enquanto, vamos apenas salvar no localStorage
-      const lead = {
-        email,
-        nome,
-        data: new Date().toISOString(),
-        origem: 'popup-homepage',
+      // Enviar para API (que conecta com Brevo)
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email,
+          nome,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Erro ao processar email')
       }
 
-      // Salvar no localStorage
-      const leads = JSON.parse(localStorage.getItem('leads') || '[]')
-      leads.push(lead)
-      localStorage.setItem('leads', JSON.stringify(leads))
+      // Salvar flag no localStorage para nÃ£o mostrar popup novamente
       localStorage.setItem('emailSubmitted', 'true')
 
       // Enviar evento para Google Analytics
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        ;(window as any).gtag('event', 'generate_lead', {
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'generate_lead', {
           event_category: 'engagement',
           event_label: 'email_popup',
           value: email,
@@ -76,12 +95,13 @@ export function EmailCapturePopup() {
 
       setSubmitted(true)
 
-      // Fechar após 3 segundos
+      // Fechar apÃ³s 3 segundos
       setTimeout(() => {
         setIsOpen(false)
       }, 3000)
     } catch (error) {
       console.error('Erro ao salvar lead:', error)
+      alert('Erro ao processar seu cadastro. Por favor, tente novamente.')
     } finally {
       setLoading(false)
     }
@@ -90,8 +110,8 @@ export function EmailCapturePopup() {
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm animate-fadeIn">
-      <div className="relative bg-white border-4 border-black shadow-[12px_12px_0_0_#000] max-w-md w-full p-8 transform transition-all animate-scaleIn">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black bg-opacity-50 backdrop-blur-sm animate-fadeIn overflow-y-auto">
+      <div className="relative bg-white border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] max-w-md w-full p-6 sm:p-8 my-auto transform transition-all animate-scaleIn">
         {/* Close Button */}
         <button
           onClick={handleClose}
@@ -106,11 +126,11 @@ export function EmailCapturePopup() {
             {/* Header */}
             <div className="mb-6">
               <div className="inline-block bg-yellow-400 border-4 border-black px-4 py-2 mb-4 -rotate-1">
-                <h3 className="text-2xl font-black uppercase">< Oferta Especial</h3>
+                <h3 className="text-2xl font-black uppercase">ðŸŽ¯ Lista VIP</h3>
               </div>
               <p className="text-lg font-bold text-gray-900 leading-relaxed">
-                Receba <span className="bg-lime-400 px-2 py-1 border-2 border-black">GRÁTIS</span> o
-                guia completo de suplementação + recomendações personalizadas por email!
+                Entre na lista <span className="bg-lime-400 px-2 py-1 border-2 border-black">VIP</span> e
+                fique por dentro de tudo sobre suplementaÃ§Ã£o!
               </p>
             </div>
 
@@ -157,26 +177,26 @@ export function EmailCapturePopup() {
                 disabled={loading}
                 className="w-full text-lg"
               >
-                {loading ? 'Enviando...' : 'Quero Receber Grátis! =€'}
+                {loading ? 'Enviando...' : 'Entrar na Lista VIP! ðŸš€'}
               </Button>
 
               <p className="text-xs text-gray-600 text-center font-bold">
-                 Sem spam.  Cancele quando quiser.  100% gratuito.
+                âœ“ Sem spam. âœ“ Cancele quando quiser. âœ“ ConteÃºdo exclusivo.
               </p>
             </form>
           </>
         ) : (
           <div className="text-center py-8">
             <div className="inline-block bg-lime-400 border-4 border-black px-6 py-3 mb-4">
-              <h3 className="text-3xl font-black"><‰ Sucesso!</h3>
+              <h3 className="text-3xl font-black">âœ… Bem-vindo Ã  Lista VIP!</h3>
             </div>
             <p className="text-lg font-bold text-gray-900 mb-2">
               Obrigado por se cadastrar, {nome}!
             </p>
             <p className="text-gray-600 font-bold">
-              Enviamos seu guia para <span className="text-blue-600">{email}</span>
+              VocÃª receberÃ¡ conteÃºdos exclusivos em <span className="text-blue-600">{email}</span>
             </p>
-            <p className="text-sm text-gray-500 mt-4 font-bold">Verificque sua caixa de entrada</p>
+            <p className="text-sm text-gray-500 mt-4 font-bold">Fique de olho na sua caixa de entrada! ðŸ“¬</p>
           </div>
         )}
       </div>

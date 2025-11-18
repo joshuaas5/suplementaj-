@@ -4,12 +4,12 @@
 
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void
+    gtag?: (command: string, eventName: string, params?: Record<string, unknown>) => void
   }
 }
 
 interface EventParams {
-  [key: string]: any
+  [key: string]: string | number | boolean | undefined
 }
 
 /**
@@ -25,7 +25,7 @@ export function trackEvent(
 }
 
 /**
- * Rastreia inÌcio do quiz
+ * Rastreia in√≠cio do quiz
  */
 export function trackQuizStart() {
   trackEvent('quiz_start', {
@@ -35,14 +35,18 @@ export function trackQuizStart() {
 }
 
 /**
- * Rastreia conclus„o do quiz
+ * Rastreia conclus√£o do quiz
  */
-export function trackQuizComplete(perfil: any) {
+export function trackQuizComplete(perfil: {
+  sexo?: string | number
+  idade?: string | number
+  dieta?: string
+}) {
   trackEvent('quiz_complete', {
     event_category: 'engagement',
     event_label: 'avaliacao_concluida',
-    sexo: perfil.sexo,
-    idade: perfil.idade,
+    sexo: perfil.sexo?.toString(),
+    idade: perfil.idade?.toString(),
     dieta: perfil.dieta,
   })
 }
@@ -61,7 +65,7 @@ export function trackProductClick(
     value: productPrice,
   })
 
-  // TambÈm enviar como evento de convers„o
+  // Tamb√©m enviar como evento de convers√£o
   trackEvent('click_affiliate_link', {
     event_category: 'ecommerce',
     event_label: productName,
@@ -100,7 +104,7 @@ export function trackSocialShare(platform: string) {
 }
 
 /**
- * Rastreia visualizaÁ„o de p·gina de resultado
+ * Rastreia visualiza√ß√£o de p√°gina de resultado
  */
 export function trackResultsView(numRecomendacoes: number) {
   trackEvent('view_results', {
@@ -122,7 +126,7 @@ export function trackArticleView(articleSlug: string, category: string) {
 }
 
 /**
- * Rastreia tempo gasto em uma p·gina (chamar ao desmontar componente)
+ * Rastreia tempo gasto em uma p√°gina (chamar ao desmontar componente)
  */
 export function trackTimeOnPage(pageId: string, timeInSeconds: number) {
   trackEvent('time_on_page', {

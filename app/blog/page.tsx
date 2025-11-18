@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { Calendar, Clock, ArrowRight } from 'lucide-react'
+import { Clock, ArrowRight } from 'lucide-react'
 import artigosData from '@/data/artigos.json'
 import type { Artigo } from '@/types/artigo'
 
@@ -50,8 +50,8 @@ export default function BlogPage() {
 
         {/* Grid de Artigos */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {artigosOrdenados.map((artigo) => (
-            <ArtigoCard key={artigo.slug} artigo={artigo} />
+          {artigosOrdenados.map((artigo, index) => (
+            <ArtigoCard key={artigo.slug} artigo={artigo} index={index} />
           ))}
         </div>
 
@@ -81,12 +81,25 @@ export default function BlogPage() {
 
 interface ArtigoCardProps {
   artigo: Artigo
+  index: number
 }
 
-function ArtigoCard({ artigo }: ArtigoCardProps) {
+function ArtigoCard({ artigo, index }: ArtigoCardProps) {
+  // Cores vibrantes alternadas para os cards
+  const cores = [
+    'bg-cyan-400',
+    'bg-yellow-400',
+    'bg-pink-400',
+    'bg-lime-400',
+    'bg-purple-400',
+    'bg-orange-400',
+  ]
+
+  const corCard = cores[index % cores.length]
+
   return (
     <Link href={`/blog/${artigo.slug}`}>
-      <Card className="h-full bg-cyan-400 hover:-rotate-1 transition-all cursor-pointer">
+      <Card className={`h-full ${corCard} hover:-rotate-1 transition-all cursor-pointer`}>
         <CardHeader>
           <div className="flex items-center justify-between mb-3">
             <Badge variant="success" size="sm">
@@ -116,12 +129,6 @@ function ArtigoCard({ artigo }: ArtigoCardProps) {
                 #{tag}
               </span>
             ))}
-          </div>
-
-          {/* Meta */}
-          <div className="flex items-center gap-2 text-xs text-black font-bold border-t-2 border-black pt-3">
-            <Calendar className="w-4 h-4" />
-            {new Date(artigo.data).toLocaleDateString('pt-BR')}
           </div>
 
           {/* CTA */}

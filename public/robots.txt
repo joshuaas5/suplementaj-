@@ -1,22 +1,17 @@
-# robots.txt para Suplementa Já
-# Permite rastreamento de todos os bots
-
+# Robots.txt para Suplementa Já
 User-agent: *
 Allow: /
 
-# Páginas principais
-Allow: /avaliacao
-Allow: /resultados
-Allow: /nutrientes
-Allow: /sobre
-Allow: /privacidade
-Allow: /termos
-Allow: /faq
-
-# Disallow pages that shouldn't be indexed
-Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-
 # Sitemap
 Sitemap: https://suplementaja.vercel.app/sitemap.xml
+
+# Bloquear apenas admin/private se houver
+Disallow: /api/
+Disallow: /admin/
+
+# Permitir crawlers importantes
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Facebook, Twitter, Linkedin, Link2, Check } from 'lucide-react'
+import { Facebook, Twitter, Link2, Check } from 'lucide-react'
 
 interface SocialShareButtonsProps {
   title?: string
@@ -11,8 +11,8 @@ interface SocialShareButtonsProps {
 }
 
 export function SocialShareButtons({
-  title = 'Suplementa Já - Descubra suas deficiências nutricionais',
-  text = 'Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! =Š',
+  title = 'Suplementa JÃ¡ - Descubra como melhorar sua saÃºde',
+  text = 'Acabei de descobrir como melhorar minha saÃºde! Foi pelo Suplementa JÃ¡! FaÃ§a vocÃª tambÃ©m, Ã© grÃ¡tis! ðŸš€',
   url,
   showLabel = true,
 }: SocialShareButtonsProps) {
@@ -30,8 +30,8 @@ export function SocialShareButtons({
       setCopied(true)
 
       // Enviar evento para GA
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        ;(window as any).gtag('event', 'share', {
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'share', {
           method: 'copy_link',
           content_type: 'url',
           item_id: shareUrl,
@@ -46,8 +46,8 @@ export function SocialShareButtons({
 
   const handleShare = (platform: string, url: string) => {
     // Enviar evento para GA
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      ;(window as any).gtag('event', 'share', {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'share', {
         method: platform,
         content_type: 'url',
         item_id: shareUrl,
@@ -68,7 +68,7 @@ export function SocialShareButtons({
     <div className="space-y-4">
       {showLabel && (
         <div className="bg-black border-4 border-black px-4 py-2 inline-block">
-          <p className="text-yellow-400 font-black text-sm uppercase">=â Compartilhe seus resultados</p>
+          <p className="text-yellow-400 font-black text-sm uppercase">ðŸš€ Compartilhe seus resultados</p>
         </div>
       )}
 
@@ -105,16 +105,6 @@ export function SocialShareButtons({
           <span className="hidden sm:inline">X (Twitter)</span>
         </button>
 
-        {/* LinkedIn */}
-        <button
-          onClick={() => handleShare('linkedin', shareLinks.linkedin)}
-          className="bg-[#0A66C2] hover:bg-[#004182] border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] transition-all px-4 py-3 font-black text-white flex items-center gap-2 transform hover:translate-x-[2px] hover:translate-y-[2px]"
-          aria-label="Compartilhar no LinkedIn"
-        >
-          <Linkedin className="w-5 h-5" />
-          <span className="hidden sm:inline">LinkedIn</span>
-        </button>
-
         {/* Copiar Link */}
         <button
           onClick={handleCopyLink}
@@ -131,8 +121,8 @@ export function SocialShareButtons({
       {showLabel && (
         <div className="bg-cyan-400 border-4 border-black p-4 mt-4">
           <p className="text-black font-bold text-sm leading-relaxed">
-            =¡ <span className="bg-white px-2 py-1">Ajude seus amigos!</span> Compartilhe para que
-            mais pessoas descubram suas deficiências nutricionais e melhorem sua saúde.
+            ðŸŽ¯ <span className="bg-white px-2 py-1">Ajude seus amigos!</span> Compartilhe para que
+            mais pessoas descubram como melhorar a saÃºde delas tambÃ©m!
           </p>
         </div>
       )}

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { Calendar, Clock, User, ArrowLeft } from 'lucide-react'
+import { Clock, User, ArrowLeft } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -38,6 +38,81 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       tags: artigo.tags,
     },
   }
+}
+
+// Componente especial para RESUMO RÁPIDO
+function ResumoRapido({ texto }: { texto: string }) {
+  // Extrair bullets do texto
+  const linhas = texto.split('\n').filter((l) => l.trim())
+  const bullets = linhas
+    .filter((l) => l.trim().startsWith('•'))
+    .map((l) => l.trim().substring(1).trim())
+
+  return (
+    <div className="my-8 bg-gradient-to-br from-yellow-400 via-yellow-300 to-lime-400 border-4 border-black shadow-[8px_8px_0_0_#000] p-1">
+      <div className="bg-white border-2 border-black p-6 sm:p-8">
+        {/* Cabeçalho */}
+        <div className="flex items-center gap-3 mb-6">
+          <span className="text-4xl">📋</span>
+          <h3 className="text-2xl sm:text-3xl font-black text-black uppercase">
+            RESUMO RÁPIDO
+          </h3>
+        </div>
+
+        {/* Bullets */}
+        <div className="grid gap-3">
+          {bullets.map((bullet, index) => {
+            // Separar label (antes do :) do conteúdo
+            const match = bullet.match(/\*\*(.*?)\*\*:\s*(.+)/)
+            if (match) {
+              const [, label, conteudo] = match
+              return (
+                <div
+                  key={index}
+                  className="bg-cyan-50 border-2 border-black p-4 hover:bg-cyan-100 transition-colors"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-xl font-black text-black shrink-0">•</span>
+                    <div className="flex-1">
+                      <span className="bg-yellow-400 px-2 py-1 font-black text-black uppercase text-sm border-2 border-black">
+                        {label}
+                      </span>
+                      <span className="ml-2 text-black font-bold">{conteudo}</span>
+                    </div>
+                  </div>
+                </div>
+              )
+            }
+
+            // Caso não tenha label (formato simples)
+            return (
+              <div
+                key={index}
+                className="bg-cyan-50 border-2 border-black p-4 hover:bg-cyan-100 transition-colors"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="text-xl font-black text-black shrink-0">•</span>
+                  <span
+                    className="text-black font-bold flex-1"
+                    dangerouslySetInnerHTML={{
+                      __html: bullet.replace(/\*\*(.*?)\*\*/g, '<strong class="bg-yellow-400 px-1">$1</strong>'),
+                    }}
+                  />
+                </div>
+              </div>
+            )
+          })}
+        </div>
+
+        {/* Rodapé */}
+        <div className="mt-6 pt-4 border-t-2 border-black">
+          <p className="text-sm text-gray-700 font-bold text-center">
+            ⏱️ Sem tempo para ler tudo? Este resumo tem as informações essenciais!
+          </p>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export default function ArtigoPage({ params }: { params: { slug: string } }) {
@@ -122,14 +197,6 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
               {artigo.autor}
-            </div>
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              {new Date(artigo.data).toLocaleDateString('pt-BR', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })}
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -274,6 +341,11 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       )
 
     case 'alerta':
+      // Detectar se é um RESUMO RÁPIDO e renderizar de forma especial
+      if (bloco.texto.includes('RESUMO RÁPIDO')) {
+        return <ResumoRapido texto={bloco.texto} />
+      }
+
       return (
         <Alert variant={bloco.variante} className="mb-6">
           <div
