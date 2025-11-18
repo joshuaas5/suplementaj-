@@ -47,8 +47,40 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     notFound()
   }
 
+  // Schema markup para Article
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: artigo.titulo,
+    description: artigo.descricao,
+    author: {
+      '@type': 'Organization',
+      name: artigo.autor,
+    },
+    datePublished: artigo.data,
+    dateModified: artigo.data,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Suplementa Já',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://suplementaja.vercel.app/logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://suplementaja.vercel.app/blog/${artigo.slug}`,
+    },
+    keywords: artigo.tags.join(', '),
+  }
+
   return (
     <div className="min-h-screen bg-white py-12">
+      {/* JSON-LD Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb / Voltar */}
         <Link

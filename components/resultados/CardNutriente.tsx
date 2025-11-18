@@ -6,6 +6,7 @@ import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
 import { addAmazonAffiliateTag } from '@/lib/affiliate'
 import { selecionaEvidencia } from '@/lib/seleciona-evidencia'
+import { trackProductClick } from '@/lib/analytics'
 
 interface CardNutrienteProps {
   recomendacao: RecomendacaoEnriquecida
@@ -189,6 +190,13 @@ export function CardNutriente({ recomendacao, perfil }: CardNutrienteProps) {
                 href={addAmazonAffiliateTag(produto.link)}
                 target="_blank"
                 rel="noopener noreferrer nofollow sponsored"
+                onClick={() =>
+                  trackProductClick(
+                    produto.nome,
+                    produto.preco_aprox || 0,
+                    'suplemento_individual'
+                  )
+                }
                 className="flex items-center justify-between p-4 bg-white border-4 border-black shadow-[4px_4px_0_0_#000] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all"
               >
                 <div className="flex-1">
