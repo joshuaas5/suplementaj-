@@ -1787,7 +1787,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Complexo B Premium com 8 Vitaminas B - 60 cápsulas Montenegro",
+          "link": "https://www.amazon.com.br/dp/B0BTZNDNMG",
+          "badge": "Formas Ativas",
+          "preco_aprox": 75
+        },
+        {
+          "nome": "B Complex 120 cápsulas - Essential Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CXQ4P75B",
+          "badge": "120 Doses",
+          "preco_aprox": 95
+        }
+      ]
     }
   },
   "vitamina-k2": {
@@ -2318,9 +2331,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Vitamina A 5000 IU",
-          "link": "https://amzn.to/EXEMPLO17",
-          "preco_aprox": 26
+          "nome": "Vitamina A 5000 UI - 60 cápsulas",
+          "link": "https://www.amazon.com.br/dp/B0F24WY79R",
+          "badge": "Dose Diária",
+          "preco_aprox": 35
+        },
+        {
+          "nome": "Vitamina A 10.000 IU - 100 softgels Now Foods",
+          "link": "https://www.amazon.com.br/dp/B0001SQXH0",
+          "badge": "Alta Potência",
+          "preco_aprox": 89
         }
       ]
     }
@@ -2498,7 +2518,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Complexo B Premium com 8 Vitaminas B - 60 cápsulas Montenegro",
+          "link": "https://www.amazon.com.br/dp/B0BTZNDNMG",
+          "badge": "Formas Ativas",
+          "preco_aprox": 75
+        },
+        {
+          "nome": "B Complex 120 cápsulas - Essential Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CXQ4P75B",
+          "badge": "120 Doses",
+          "preco_aprox": 95
+        }
+      ]
     }
   },
   "vitamina-b2": {
@@ -2660,7 +2693,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Complexo B Premium com 8 Vitaminas B - 60 cápsulas Montenegro",
+          "link": "https://www.amazon.com.br/dp/B0BTZNDNMG",
+          "badge": "Formas Ativas",
+          "preco_aprox": 75
+        },
+        {
+          "nome": "B Complex 120 cápsulas - Essential Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CXQ4P75B",
+          "badge": "120 Doses",
+          "preco_aprox": 95
+        }
+      ]
     }
   },
   "vitamina-b3": {
@@ -2863,7 +2909,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Complexo B Premium com 8 Vitaminas B - 60 cápsulas Montenegro",
+          "link": "https://www.amazon.com.br/dp/B0BTZNDNMG",
+          "badge": "Formas Ativas",
+          "preco_aprox": 75
+        },
+        {
+          "nome": "B Complex 120 cápsulas - Essential Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CXQ4P75B",
+          "badge": "120 Doses",
+          "preco_aprox": 95
+        }
+      ]
     }
   },
   "cromo": {
@@ -3473,7 +3532,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Probiótico 5 Cepas Premium 10 bilhões UFC - 30 cápsulas",
+          "link": "https://www.amazon.com.br/dp/B0FCHD3B1W",
+          "badge": "5 Cepas",
+          "preco_aprox": 58
+        },
+        {
+          "nome": "Culturelle Probiótico Saúde Digestiva - 30 cápsulas",
+          "link": "https://www.amazon.com.br/dp/B0CKYH5LRK",
+          "badge": "Marca Internacional",
+          "preco_aprox": 125
+        }
+      ]
     }
   },
   "vitamina-b5": {
@@ -3641,7 +3713,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Complexo B Premium com 8 Vitaminas B - 60 cápsulas Montenegro",
+          "link": "https://www.amazon.com.br/dp/B0BTZNDNMG",
+          "badge": "Formas Ativas",
+          "preco_aprox": 75
+        },
+        {
+          "nome": "B Complex 120 cápsulas - Essential Nutrition",
+          "link": "https://www.amazon.com.br/dp/B0CXQ4P75B",
+          "badge": "120 Doses",
+          "preco_aprox": 95
+        }
+      ]
     }
   },
   "vitamina-b7": {
@@ -3813,7 +3898,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Biotina Pura 60 cápsulas - Vitamina B7 para cabelo e unhas",
+          "link": "https://www.amazon.com.br/dp/B0FJH15NR8",
+          "badge": "Alta Concentração",
+          "preco_aprox": 48
+        },
+        {
+          "nome": "Biotina + Puro Nutrition com Vitaminas do Complexo B - 60 cápsulas",
+          "link": "https://www.amazon.com.br/dp/B0DRDJXCFC",
+          "badge": "Fórmula Completa",
+          "preco_aprox": 65
+        }
+      ]
     }
   },
   "colageno": {
@@ -4031,7 +4129,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Colágeno Tipo 1, 2 e 3 + Vitamina C - 60 cápsulas Upgold",
+          "link": "https://www.amazon.com.br/dp/B0CF3RKNMG",
+          "badge": "3 Tipos de Colágeno",
+          "preco_aprox": 52
+        },
+        {
+          "nome": "Ácido Hialurônico + Colágeno Tipo 1 e 2 + Vitamina C - 330g Bodyactive",
+          "link": "https://www.amazon.com.br/dp/B098BPQ3FF",
+          "badge": "Com Ác. Hialurônico",
+          "preco_aprox": 78
+        }
+      ]
     }
   },
   "l-carnitina": {
@@ -6802,7 +6913,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Creatina Pura Monohidratada 300g - Dark Lab",
+          "link": "https://www.amazon.com.br/dp/B081QQFXMK",
+          "badge": "100% Pura",
+          "preco_aprox": 68
+        },
+        {
+          "nome": "Creatina Hardcore Monohidratada 300g - Integralmedica",
+          "link": "https://www.amazon.com.br/dp/B07L5WFHXW",
+          "badge": "Marca Nacional",
+          "preco_aprox": 85
+        }
+      ]
     }
   }
 }
