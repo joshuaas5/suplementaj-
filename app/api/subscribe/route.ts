@@ -62,9 +62,82 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify(brevoPayload),
     })
 
-    const data = await response.json()
+    console.log('📥 Resposta Brevo (raw):', {
+      status: response.status,
+      ok: response.ok,
+      statusText: response.statusText,
+      contentType: response.headers.get('content-type'),
+      contentLength: response.headers.get('content-length'),
+    })
 
-    console.log('📥 Resposta Brevo:', {
+    // Verificar se resposta tem conteúdo antes de parsear
+    const contentType = response.headers.get('content-type')
+    const contentLength = response.headers.get('content-length')
+
+    // Se não tem content-type JSON ou content-length é 0, não tentar parsear
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text()
+      console.error('❌ Resposta não é JSON:', {
+        contentType,
+        text: text.substring(0, 500),
+      })
+
+      // Se resposta foi bem-sucedida mesmo sem JSON, considerar sucesso
+      if (response.ok) {
+        console.log('✅ Resposta OK mesmo sem JSON (assumindo sucesso)')
+        return NextResponse.json({
+          success: true,
+          message: 'Email cadastrado com sucesso!',
+        })
+      }
+
+      return NextResponse.json(
+        {
+          error: 'Resposta inválida do Brevo',
+          details: text,
+        },
+        { status: 500 }
+      )
+    }
+
+    // Se content-length é 0, resposta está vazia mas foi sucesso
+    if (contentLength === '0' && response.ok) {
+      console.log('✅ Resposta vazia mas OK (sucesso)')
+      return NextResponse.json({
+        success: true,
+        message: 'Email cadastrado com sucesso!',
+      })
+    }
+
+    // Tentar parsear JSON
+    let data
+    try {
+      data = await response.json()
+      console.log('📥 JSON parseado com sucesso:', data)
+    } catch (parseError) {
+      console.error('❌ Erro ao parsear JSON:', parseError)
+      const text = await response.text()
+      console.error('❌ Texto da resposta:', text.substring(0, 500))
+
+      // Se resposta foi bem-sucedida, considerar sucesso mesmo com erro de parse
+      if (response.ok) {
+        console.log('✅ Resposta OK apesar de erro de parse (assumindo sucesso)')
+        return NextResponse.json({
+          success: true,
+          message: 'Email cadastrado com sucesso!',
+        })
+      }
+
+      return NextResponse.json(
+        {
+          error: 'Erro ao processar resposta do Brevo',
+          details: parseError instanceof Error ? parseError.message : 'Erro desconhecido',
+        },
+        { status: 500 }
+      )
+    }
+
+    console.log('📥 Dados finais:', {
       status: response.status,
       ok: response.ok,
       data: data,
