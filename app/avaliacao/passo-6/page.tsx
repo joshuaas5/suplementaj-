@@ -64,6 +64,44 @@ export default function Passo6Page() {
     return exposicao ? labels[exposicao] : '-'
   }
 
+  const getCondicaoLabel = (condicao: string) => {
+    const labels: Record<string, string> = {
+      osteoporose: 'Osteoporose',
+      osteopenia: 'Osteopenia',
+      diabetes: 'Diabetes tipo 2',
+      cardiovascular: 'Doença cardiovascular',
+      hipertensao: 'Hipertensão (pressão alta)',
+      depressao: 'Depressão',
+      ansiedade: 'Ansiedade',
+      anemia: 'Anemia',
+      hipotireoidismo: 'Hipotireoidismo (tireoide)',
+      hemocromatose: 'Hemocromatose (excesso de ferro)',
+      doenca_celiaca: 'Doença celíaca',
+      doenca_crohn: 'Doença de Crohn',
+      gastrite: 'Gastrite',
+    }
+    return labels[condicao] || condicao
+  }
+
+  const getMedicamentoLabel = (medicamento: string) => {
+    const labels: Record<string, string> = {
+      metformina: 'Metformina (diabetes)',
+      omeprazol: 'Omeprazol / Pantoprazol (IBP - estômago)',
+      antiácidos: 'Antiácidos (azia)',
+      varfarina: 'Varfarina (anticoagulante)',
+      aspirina: 'AAS / Aspirina',
+      estatinas: 'Estatinas (colesterol)',
+      corticosteroides: 'Corticosteroides (anti-inflamatórios)',
+      diureticos: 'Diuréticos (pressão alta)',
+      levotiroxina: 'Levotiroxina (hormônio da tireoide)',
+      antibioticos: 'Antibióticos (uso contínuo)',
+      anticonvulsivantes: 'Anticonvulsivantes',
+      bariátrica: 'Cirurgia bariátrica (redução de estômago)',
+      gastrectomia: 'Gastrectomia (retirada parcial/total do estômago)',
+    }
+    return labels[medicamento] || medicamento
+  }
+
   const getSintomaLabel = (sintoma: string) => {
     const labels: Record<string, string> = {
       fadiga: 'Fadiga / Cansaço excessivo',
@@ -157,7 +195,7 @@ export default function Passo6Page() {
               <div className="flex flex-wrap gap-2 sm:gap-3">
                 {perfil.condicoes_saude.map((condicao) => (
                   <Badge key={condicao} variant="success" size="lg">
-                    {condicao}
+                    {getCondicaoLabel(condicao)}
                   </Badge>
                 ))}
               </div>
@@ -173,7 +211,7 @@ export default function Passo6Page() {
               <div className="flex flex-wrap gap-2 sm:gap-3">
                 {perfil.medicamentos.map((med) => (
                   <Badge key={med} variant="danger" size="lg">
-                    {med}
+                    {getMedicamentoLabel(med)}
                   </Badge>
                 ))}
               </div>

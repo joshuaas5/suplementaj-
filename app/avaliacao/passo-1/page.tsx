@@ -14,8 +14,8 @@ import { Card } from '@/components/ui/Card'
 const schema = z.object({
   idade: z.number().min(18, 'Idade mínima: 18 anos').max(120, 'Idade inválida'),
   sexo: z.enum(['M', 'F'], { message: 'Selecione o sexo' }),
-  peso: z.number().min(30, 'Peso mínimo: 30kg').max(300, 'Peso máximo: 300kg').optional().or(z.literal(0)),
-  altura: z.number().min(100, 'Altura mínima: 100cm').max(250, 'Altura máxima: 250cm').optional().or(z.literal(0)),
+  peso: z.number().min(30, 'Peso mínimo: 30kg').max(300, 'Peso máximo: 300kg'),
+  altura: z.number().min(100, 'Altura mínima: 100cm').max(250, 'Altura máxima: 250cm'),
 })
 
 type FormData = z.infer<typeof schema>
@@ -38,8 +38,8 @@ export default function Passo1Page() {
     updatePerfil({
       idade: data.idade,
       sexo: data.sexo,
-      peso: data.peso && data.peso > 0 ? data.peso : undefined,
-      altura: data.altura && data.altura > 0 ? data.altura : undefined,
+      peso: data.peso,
+      altura: data.altura,
     })
     setPassoAtual(2)
     router.push('/avaliacao/passo-2')
@@ -90,22 +90,20 @@ export default function Passo1Page() {
 
           <div className="grid grid-cols-2 gap-4">
             <Input
-              label="Peso (kg)"
+              label="Peso (kg) *"
               type="number"
               step="0.1"
               {...register('peso', { valueAsNumber: true })}
               error={errors.peso?.message}
               placeholder="Ex: 70"
-              helpText="Opcional"
             />
 
             <Input
-              label="Altura (cm)"
+              label="Altura (cm) *"
               type="number"
               {...register('altura', { valueAsNumber: true })}
               error={errors.altura?.message}
               placeholder="Ex: 165"
-              helpText="Opcional"
             />
           </div>
 

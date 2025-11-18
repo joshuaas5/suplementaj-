@@ -5,10 +5,9 @@ import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import { Button } from '@/components/ui/Button'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
-import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
+import { ArrowLeft, ExternalLink } from 'lucide-react'
 import nutrientesData from '@/data/nutrientes.json'
 import type { Nutriente } from '@/types/nutriente'
-import { addAmazonAffiliateTag } from '@/lib/affiliate'
 
 const nutrientes = nutrientesData as Record<string, Nutriente>
 
@@ -517,7 +516,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           </Card>
         )}
 
-        {/* Links Afiliados Amazon */}
+        {/* Links Afiliados Amazon - TEMPORARIAMENTE DESABILITADO (links são placeholders)
         {nutriente.afiliados.amazon && nutriente.afiliados.amazon.length > 0 && (
           <Card className="mb-8 bg-yellow-400">
             <CardHeader>
@@ -557,6 +556,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </CardContent>
           </Card>
         )}
+        */}
 
         {/* CTA Final - NEOBRUTALISM */}
         <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-6 sm:p-8 md:p-12 text-center mb-8">
