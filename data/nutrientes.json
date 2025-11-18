@@ -955,9 +955,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Ferro Quelado 14mg",
-          "link": "https://amzn.to/EXEMPLO7",
-          "preco_aprox": 32
+          "nome": "Ferro Quelato 14mg - 60 cápsulas Unilife",
+          "link": "https://www.amazon.com.br/dp/B07WTPVTK5",
+          "badge": "Melhor Custo-Benefício",
+          "preco_aprox": 19
+        },
+        {
+          "nome": "Ferro Quelato + Vitamina C - 60 cápsulas Ocen Drop",
+          "link": "https://www.amazon.com.br/dp/B0D5J82YZW",
+          "badge": "Com Vitamina C",
+          "preco_aprox": 35
         }
       ]
     }
@@ -1199,7 +1206,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Vitamina C 1000mg - 60 comprimidos Nutralin",
+          "link": "https://www.amazon.com.br/dp/B0977KDCLZ",
+          "badge": "Nacional",
+          "preco_aprox": 32
+        },
+        {
+          "nome": "Vitamina C 1000mg - 100 tabletes Now Foods",
+          "link": "https://www.amazon.com.br/dp/B001G3P0Y6",
+          "badge": "Marca Importada",
+          "preco_aprox": 78
+        }
+      ]
     }
   },
   "vitamina-e": {
@@ -1298,9 +1318,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Vitamina E 400 UI",
-          "link": "https://amzn.to/EXEMPLO10",
-          "preco_aprox": 35
+          "nome": "Vitamina E 400 UI - 60 cápsulas Nesh",
+          "link": "https://www.amazon.com.br/dp/B08MLDX4ZS",
+          "badge": "Tocoferol Natural",
+          "preco_aprox": 43
+        },
+        {
+          "nome": "Vitamina E 400 UI - 250 softgels Now Foods",
+          "link": "https://www.amazon.com.br/dp/B0013OVYSO",
+          "badge": "Grande Quantidade",
+          "preco_aprox": 145
         }
       ]
     }
@@ -1540,9 +1567,16 @@
     "afiliados": {
       "amazon": [
         {
-          "nome": "Ácido Fólico 800mcg",
-          "link": "https://amzn.to/EXEMPLO12",
-          "preco_aprox": 18
+          "nome": "Metilfolato (Ácido Fólico) 800mcg - 60 cápsulas",
+          "link": "https://www.amazon.com.br/dp/B0D3J91FBQ",
+          "badge": "Forma Ativa",
+          "preco_aprox": 38
+        },
+        {
+          "nome": "Methyl Folate 800mcg - 120 cápsulas Healthy Origins",
+          "link": "https://www.amazon.com.br/dp/B01MZ87LVO",
+          "badge": "Importado",
+          "preco_aprox": 95
         }
       ]
     }
@@ -2037,7 +2071,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Kelp (Iodo Natural) 150mcg - 200 tabletes Now Foods",
+          "link": "https://www.amazon.com.br/dp/B0041X30UO",
+          "badge": "De Algas Marinhas",
+          "preco_aprox": 78
+        },
+        {
+          "nome": "Iodine Plus Drops 150mcg - Life-flo",
+          "link": "https://www.amazon.com.br/dp/B07FB5YFSS",
+          "badge": "Forma Líquida",
+          "preco_aprox": 115
+        }
+      ]
     }
   },
   "selenio": {
@@ -2142,7 +2189,20 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Selênio 200mcg - 100 comprimidos Vitgold",
+          "link": "https://www.amazon.com.br/dp/B07NWQ9SB3",
+          "badge": "Nacional",
+          "preco_aprox": 38
+        },
+        {
+          "nome": "Selenium 200mcg - 180 cápsulas Now Foods",
+          "link": "https://www.amazon.com.br/dp/B000MGSG8A",
+          "badge": "L-Selenometionina",
+          "preco_aprox": 118
+        }
+      ]
     }
   },
   "vitamina-a": {
