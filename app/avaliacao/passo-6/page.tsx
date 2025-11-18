@@ -242,8 +242,8 @@ export default function Passo6Page() {
           </p>
         </div>
 
-        <div className="flex justify-between pt-6">
-          <Button type="button" variant="outline" onClick={handleBack}>
+        <div className="flex flex-col sm:flex-row justify-between gap-3 pt-6">
+          <Button type="button" variant="outline" onClick={handleBack} className="w-full sm:w-auto">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar
           </Button>
@@ -253,8 +253,9 @@ export default function Passo6Page() {
             variant="success"
             loading={loading}
             disabled={loading}
+            className="w-full sm:w-auto text-sm sm:text-base px-4 sm:px-6"
           >
-            {loading ? 'Gerando recomendações...' : 'Gerar Recomendações'}
+            {loading ? 'Gerando...' : 'Gerar Recomendações'}
           </Button>
         </div>
       </Card>
