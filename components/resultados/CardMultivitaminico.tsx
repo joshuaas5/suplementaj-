@@ -9,12 +9,6 @@ interface CardMultivitaminicoProps {
 }
 
 export function CardMultivitaminico({ multi, ranking }: CardMultivitaminicoProps) {
-  const getBadgeColor = () => {
-    if (ranking === 1) return 'bg-yellow-400 text-black'
-    if (ranking === 2) return 'bg-lime-400 text-black'
-    return 'bg-cyan-400 text-black'
-  }
-
   const getCardBg = () => {
     if (ranking === 1) return 'bg-yellow-400'
     if (ranking === 2) return 'bg-lime-400'
