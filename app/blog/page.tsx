@@ -50,8 +50,8 @@ export default function BlogPage() {
 
         {/* Grid de Artigos */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {artigosOrdenados.map((artigo) => (
-            <ArtigoCard key={artigo.slug} artigo={artigo} />
+          {artigosOrdenados.map((artigo, index) => (
+            <ArtigoCard key={artigo.slug} artigo={artigo} index={index} />
           ))}
         </div>
 
@@ -81,12 +81,25 @@ export default function BlogPage() {
 
 interface ArtigoCardProps {
   artigo: Artigo
+  index: number
 }
 
-function ArtigoCard({ artigo }: ArtigoCardProps) {
+function ArtigoCard({ artigo, index }: ArtigoCardProps) {
+  // Cores vibrantes alternadas para os cards
+  const cores = [
+    'bg-cyan-400',
+    'bg-yellow-400',
+    'bg-pink-400',
+    'bg-lime-400',
+    'bg-purple-400',
+    'bg-orange-400',
+  ]
+
+  const corCard = cores[index % cores.length]
+
   return (
     <Link href={`/blog/${artigo.slug}`}>
-      <Card className="h-full bg-cyan-400 hover:-rotate-1 transition-all cursor-pointer">
+      <Card className={`h-full ${corCard} hover:-rotate-1 transition-all cursor-pointer`}>
         <CardHeader>
           <div className="flex items-center justify-between mb-3">
             <Badge variant="success" size="sm">
