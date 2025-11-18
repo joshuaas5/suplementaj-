@@ -29,19 +29,17 @@ export function selecionaEvidencia(evidencias: Evidencia[], perfil?: Perfil): Ev
     if (perfil.idade < 18) caracteristicasPerfil.push('adolescente')
   }
 
-  // Gestação
-  if (perfil.gestante) {
-    caracteristicasPerfil.push('gestante', 'gravidez', 'gestacao')
-  }
-
-  // Lactação
-  if (perfil.amamentando) {
-    caracteristicasPerfil.push('amamentando', 'lactante', 'lactacao')
-  }
-
-  // Menopausa
-  if (perfil.menopausa) {
-    caracteristicasPerfil.push('menopausa', 'pos-menopausa', 'pós-menopausa')
+  // Status reprodutivo
+  if (perfil.status_reprodutivo) {
+    if (perfil.status_reprodutivo === 'gravida') {
+      caracteristicasPerfil.push('gestante', 'gravidez', 'gestacao', 'gravida')
+    }
+    if (perfil.status_reprodutivo === 'lactante') {
+      caracteristicasPerfil.push('amamentando', 'lactante', 'lactacao')
+    }
+    if (perfil.status_reprodutivo === 'menopausa' || perfil.status_reprodutivo === 'pos_menopausa') {
+      caracteristicasPerfil.push('menopausa', 'pos-menopausa', 'pós-menopausa')
+    }
   }
 
   // Dieta
@@ -53,11 +51,6 @@ export function selecionaEvidencia(evidencias: Evidencia[], perfil?: Perfil): Ev
   // Condições de saúde
   if (perfil.condicoes_saude) {
     caracteristicasPerfil.push(...perfil.condicoes_saude)
-  }
-
-  // Objetivos de saúde
-  if (perfil.objetivos_saude) {
-    caracteristicasPerfil.push(...perfil.objetivos_saude)
   }
 
   // Sintomas
