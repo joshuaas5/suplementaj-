@@ -836,5 +836,59 @@
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Problema**: B12 NÃO existe em plantas. Veganos precisam suplementar obrigatoriamente\n• **Dose**: 50-100 mcg/dia OU 1.000 mcg 2x/semana OU 2.000 mcg 1x/semana\n• **Melhor Forma**: Metilcobalamina sublingual > Cianocobalamina\n• **Tempo para Efeito**: 2-4 semanas (energia) | 2-3 meses (exames normalizarem)\n• **Sintomas de Deficiência**: Fadiga, formigamento mãos/pés, anemia, depressão, perda de memória\n• **Cuidado**: Danos neurológicos podem ser IRREVERSÍVEIS se não tratar\n• **Custo**: R$20-40/ano"
       }
     ]
+  },
+  {
+    "slug": "omega-3-beneficios-epa-dha",
+    "titulo": "Ômega-3: EPA e DHA - O Guia Definitivo (Óleo de Peixe vs Algas)",
+    "descricao": "Tudo sobre ômega-3: diferença entre EPA e DHA, benefícios para coração e cérebro, óleo de peixe vs algas, dosagem ideal e quando suplementar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-19",
+    "categoria": "Suplementos Essenciais",
+    "tags": [
+      "omega 3",
+      "epa",
+      "dha",
+      "oleo de peixe",
+      "coração",
+      "cerebro"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/omega-3.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "cor": "azul",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Para Que Serve**: Saúde cardiovascular, cérebro, anti-inflamatório, triglicerídeos, depressão\n• **Dose Ideal**: 1.000-2.000 mg EPA+DHA combinados/dia | 2.000-4.000 mg/dia (triglicerídeos altos)\n• **EPA vs DHA**: EPA = coração, depressão | DHA = cérebro, visão, gravidez\n• **Melhor Fonte**: Óleo de peixe concentrado > Óleo de algas (vegano) > Comer peixe 2-3x/semana\n• **Quando Tomar**: Com refeição gordurosa (absorção 3x maior)\n• **Sinais de Deficiência**: Pele seca, fadiga, depressão, má memória, dor nas articulações\n• **Tempo para Efeito**: 4-8 semanas (triglicerídeos) | 8-12 semanas (depressão, inflamação)\n• **Cuidado**: > 3g/dia pode aumentar sangramento (cuidado com anticoagulantes)\n• **Custo**: R$40-80/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Ômega-3 é uma das poucas gorduras essenciais que o corpo NÃO consegue produzir. Você precisa obtê-la da dieta ou suplementos. Estudos mostram que 95% dos brasileiros consomem menos ômega-3 do que o recomendado, levando a inflamação crônica, risco cardiovascular e problemas cognitivos."
+      }
+    ]
+  },
+  {
+    "slug": "proteina-whey-guia-completo",
+    "titulo": "Whey Protein: Guia Completo - Concentrado, Isolado ou Hidrolisado?",
+    "descricao": "Descubra qual o melhor whey protein para você: diferença entre concentrado, isolado e hidrolisado, quando tomar, quanto de proteína você realmente precisa.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-20",
+    "categoria": "Suplementos Esportivos",
+    "tags": [
+      "whey protein",
+      "proteina",
+      "massa muscular",
+      "concentrado",
+      "isolado",
+      "hidrolisado"
+    ],
+    "tempo_leitura": "11 min",
+    "imagem": "/images/blog/whey-protein.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "cor": "verde",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Para Que Serve**: Ganho de massa muscular, recuperação pós-treino, saciedade, perda de gordura\n• **Quanto Tomar**: 20-40g por dose | 1,6-2,2g de proteína/kg de peso corporal TOTAL no dia\n• **Concentrado**: 70-80% proteína, barato (R$60-100/kg), lactose presente, ideal para maioria\n• **Isolado**: 90%+ proteína, sem lactose, mais caro (R$100-150/kg), ideal para intolerantes\n• **Hidrolisado**: Absorção rápida, mais caro (R$150-250/kg), benefício marginal\n• **Melhor Horário**: Pós-treino imediato OU qualquer hora (importa mais o TOTAL diário)\n• **Tempo para Efeito**: 4-8 semanas (hipertrofia visível com treino)\n• **Mito**: NÃO faz mal para rins (em pessoas saudáveis)\n• **Custo**: R$60-150/mês"
+      }
+    ]
   }
 ]
