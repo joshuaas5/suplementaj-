@@ -5,7 +5,8 @@ import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import { Button } from '@/components/ui/Button'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
-import { ArrowLeft, ExternalLink } from 'lucide-react'
+import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
+import { addAmazonAffiliateTag } from '@/lib/affiliate'
 import nutrientesData from '@/data/nutrientes.json'
 import type { Nutriente } from '@/types/nutriente'
 
@@ -516,8 +517,8 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           </Card>
         )}
 
-        {/* Links Afiliados Amazon - TEMPORARIAMENTE DESABILITADO (links são placeholders)
-        {nutriente.afiliados.amazon && nutriente.afiliados.amazon.length > 0 && (
+        {/* Suplementos Recomendados */}
+        {nutriente.afiliados?.amazon && nutriente.afiliados.amazon.length > 0 && (
           <Card className="mb-8 bg-yellow-400">
             <CardHeader>
               <CardTitle className="text-xl sm:text-2xl md:text-3xl">🛒 Suplementos Recomendados</CardTitle>
@@ -525,8 +526,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             <CardContent>
               <Alert variant="info" className="mb-6">
                 <p className="text-sm font-bold">
-                  Os links abaixo são afiliados da Amazon. Ao comprar através deles, você ajuda a manter o Suplementa Já
-                  sem custo adicional. O ideal é consultar um profissional de saúde para orientação personalizada.
+                  💡 Selecionamos produtos de qualidade na Amazon. Ao comprar através desses links, você ajuda a manter o site funcionando, sem custo adicional para você. Consulte sempre um profissional de saúde antes de suplementar.
                 </p>
               </Alert>
               <div className="grid gap-4 sm:grid-cols-2">
@@ -556,7 +556,6 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </CardContent>
           </Card>
         )}
-        */}
 
         {/* CTA Final - NEOBRUTALISM */}
         <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-6 sm:p-8 md:p-12 text-center mb-8">
