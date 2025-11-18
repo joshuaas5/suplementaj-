@@ -18,7 +18,6 @@ export function RewardedAdModal({ onComplete, waitTime = 8 }: RewardedAdModalPro
     // Carrega o ad
     if (adsenseId) {
       try {
-        // @ts-expect-error - adsbygoogle is added by Google AdSense script
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       } catch (err) {
         console.error('AdSense error:', err)
