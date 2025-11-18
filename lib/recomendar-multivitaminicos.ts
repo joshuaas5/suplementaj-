@@ -99,9 +99,10 @@ export function recomendarMultivitaminicos(
     }
   })
 
-  // Filtrar multis com cobertura mínima
+  // Filtrar e ordenar multivitamínicos por score
+  // SEMPRE mostrar multivitamínicos, mesmo com cobertura baixa (mínimo 1 nutriente)
   const multisFiltrados = multisComScore
-    .filter((m) => m.nutrientes_cobertos.length >= 3)
+    .filter((m) => m.nutrientes_cobertos.length >= 1)
     .sort((a, b) => b.score - a.score)
 
   // Priorizar multis específicos para o perfil
@@ -143,7 +144,15 @@ export function recomendarMultivitaminicos(
   const faltam = Math.max(0, 3 - especificos.length)
   const genericos = multisGenericos.slice(0, faltam)
 
-  return [...especificos, ...genericos]
+  const resultado = [...especificos, ...genericos]
+
+  // GARANTIR que sempre retorne pelo menos 1 multivitamínico
+  // Se não houver nenhum, retorna os top 2 do score geral
+  if (resultado.length === 0 && multisFiltrados.length > 0) {
+    return multisFiltrados.slice(0, 2)
+  }
+
+  return resultado
 }
 
 /**
