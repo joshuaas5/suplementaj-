@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { CardNutriente } from '@/components/resultados/CardNutriente'
+import { CardMultivitaminico } from '@/components/resultados/CardMultivitaminico'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { Button } from '@/components/ui/Button'
 import { RewardedAdModal } from '@/components/ads/RewardedAdModal'
@@ -11,6 +12,7 @@ import { Download, Share2 } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
 import { gerarPDFResultados } from '@/lib/pdf'
+import { recomendarMultivitaminicos } from '@/lib/recomendar-multivitaminicos'
 
 interface AvaliacaoLocal {
   perfil: Perfil
@@ -105,6 +107,9 @@ export default function ResultadosPage() {
   const recomendacoesBaixa = avaliacao.recomendacoes.filter(r => r.prioridade === 'baixa')
   const naoRecomendados = avaliacao.recomendacoes.filter(r => r.prioridade === 'nao_recomendado')
 
+  // Recomendar multivitamínicos baseado nas necessidades
+  const multivitaminicosRecomendados = recomendarMultivitaminicos(avaliacao.recomendacoes, avaliacao.perfil)
+
   // Mostrar Rewarded Ad antes de exibir resultados
   if (showRewardedAd && !adWatched) {
     return <RewardedAdModal onComplete={handleAdComplete} waitTime={8} />
@@ -155,6 +160,55 @@ export default function ResultadosPage() {
             </Button>
           </Link>
         </div>
+
+        {/* Multivitamínicos Recomendados - SEÇÃO ESPECIAL */}
+        {multivitaminicosRecomendados.length > 0 && (
+          <section className="mb-16">
+            <div className="bg-pink-500 border-8 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-6 sm:p-8 mb-8">
+              <div className="text-center mb-6">
+                <div className="inline-block bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-3 mb-4 sm:-rotate-2">
+                  <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
+                    💊 Opção Prática: Complexos Multivitamínicos
+                  </h2>
+                </div>
+                <div className="bg-white border-4 border-black p-4 sm:p-6 max-w-3xl mx-auto">
+                  <p className="text-black font-bold text-base sm:text-lg leading-relaxed">
+                    <span className="bg-lime-400 px-2 py-1">Simplifique sua vida!</span> Ao invés de comprar{' '}
+                    {recomendacoesAlta.length + recomendacoesMedia.length} suplementos individuais,
+                    considere um <span className="bg-cyan-400 px-2 py-1">complexo multivitamínico</span> que já
+                    contém vários dos nutrientes que você precisa.
+                  </p>
+                  <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                    <div className="bg-lime-400 border-2 border-black px-4 py-2">
+                      <p className="font-black text-black text-sm">✅ Menos cápsulas por dia</p>
+                    </div>
+                    <div className="bg-cyan-400 border-2 border-black px-4 py-2">
+                      <p className="font-black text-black text-sm">💰 Mais econômico</p>
+                    </div>
+                    <div className="bg-yellow-400 border-2 border-black px-4 py-2">
+                      <p className="font-black text-black text-sm">🎯 Mais prático</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Cards de Multivitamínicos */}
+            <div className="grid gap-8 lg:grid-cols-1 xl:grid-cols-2">
+              {multivitaminicosRecomendados.map((multi, index) => (
+                <CardMultivitaminico key={multi.id} multi={multi} ranking={index + 1} />
+              ))}
+            </div>
+
+            {/* Info adicional */}
+            <div className="mt-8 bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-6 text-center">
+              <p className="text-black font-bold text-sm sm:text-base">
+                💡 <strong>Dica:</strong> Você pode usar um multivitamínico como <span className="bg-black text-cyan-400 px-2 py-1">base</span> e
+                complementar apenas com os nutrientes específicos que precisa em <span className="bg-black text-cyan-400 px-2 py-1">doses mais altas</span> (veja abaixo).
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
         {recomendacoesAlta.length > 0 && (

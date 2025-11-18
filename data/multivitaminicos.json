@@ -1,0 +1,180 @@
+[
+  {
+    "id": "multi-completo-geral",
+    "nome": "Multivitamínico Completo A-Z",
+    "marca": "Vitafor",
+    "descricao": "Fórmula completa com 27 vitaminas e minerais essenciais em doses ideais para adultos",
+    "preco_aprox": 45,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B07WHQG8K1",
+    "nutrientes_incluidos": [
+      { "nutriente": "vitamina-a", "dose": 600, "unidade": "mcg" },
+      { "nutriente": "vitamina-d", "dose": 10, "unidade": "mcg" },
+      { "nutriente": "vitamina-e", "dose": 10, "unidade": "mg" },
+      { "nutriente": "vitamina-c", "dose": 90, "unidade": "mg" },
+      { "nutriente": "vitamina-b1", "dose": 1.2, "unidade": "mg" },
+      { "nutriente": "vitamina-b2", "dose": 1.3, "unidade": "mg" },
+      { "nutriente": "vitamina-b3", "dose": 16, "unidade": "mg" },
+      { "nutriente": "vitamina-b5", "dose": 5, "unidade": "mg" },
+      { "nutriente": "vitamina-b6", "dose": 1.3, "unidade": "mg" },
+      { "nutriente": "vitamina-b12", "dose": 2.4, "unidade": "mcg" },
+      { "nutriente": "acido-folico", "dose": 400, "unidade": "mcg" },
+      { "nutriente": "biotina", "dose": 30, "unidade": "mcg" },
+      { "nutriente": "calcio", "dose": 200, "unidade": "mg" },
+      { "nutriente": "magnesio", "dose": 100, "unidade": "mg" },
+      { "nutriente": "zinco", "dose": 11, "unidade": "mg" },
+      { "nutriente": "selenio", "dose": 55, "unidade": "mcg" },
+      { "nutriente": "ferro", "dose": 14, "unidade": "mg" },
+      { "nutriente": "iodo", "dose": 150, "unidade": "mcg" },
+      { "nutriente": "cobre", "dose": 900, "unidade": "mcg" },
+      { "nutriente": "manganes", "dose": 2.3, "unidade": "mg" }
+    ],
+    "ideal_para": ["Adultos saudáveis", "Prevenção geral", "Dieta restrita"],
+    "vantagens": [
+      "Cobre 20+ nutrientes essenciais",
+      "Doses preventivas seguras",
+      "Excelente custo-benefício",
+      "1 cápsula por dia"
+    ]
+  },
+  {
+    "id": "multi-50-plus",
+    "nome": "Multivitamínico 50+ Senior",
+    "marca": "Centrum",
+    "descricao": "Fórmula específica para maiores de 50 anos com nutrientes para ossos, cérebro e imunidade",
+    "preco_aprox": 68,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B00K0EGZDS",
+    "nutrientes_incluidos": [
+      { "nutriente": "vitamina-d", "dose": 25, "unidade": "mcg" },
+      { "nutriente": "vitamina-b12", "dose": 25, "unidade": "mcg" },
+      { "nutriente": "vitamina-b6", "dose": 3, "unidade": "mg" },
+      { "nutriente": "calcio", "dose": 220, "unidade": "mg" },
+      { "nutriente": "magnesio", "dose": 100, "unidade": "mg" },
+      { "nutriente": "zinco", "dose": 11, "unidade": "mg" },
+      { "nutriente": "vitamina-c", "dose": 100, "unidade": "mg" },
+      { "nutriente": "vitamina-e", "dose": 13.5, "unidade": "mg" },
+      { "nutriente": "selenio", "dose": 55, "unidade": "mcg" },
+      { "nutriente": "vitamina-k2", "dose": 25, "unidade": "mcg" }
+    ],
+    "ideal_para": ["Maiores de 50 anos", "Prevenção de osteoporose", "Saúde cognitiva"],
+    "vantagens": [
+      "Doses elevadas de B12 e D (essenciais para idosos)",
+      "Cálcio + K2 para saúde óssea",
+      "Antioxidantes para proteção celular",
+      "Fórmula validada cientificamente"
+    ]
+  },
+  {
+    "id": "multi-mulher",
+    "nome": "Multivitamínico Mulher",
+    "marca": "Lavitan",
+    "descricao": "Complexo completo desenvolvido para necessidades femininas com ferro, ácido fólico e cálcio",
+    "preco_aprox": 52,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B07D3JZ9VK",
+    "nutrientes_incluidos": [
+      { "nutriente": "ferro", "dose": 18, "unidade": "mg" },
+      { "nutriente": "acido-folico", "dose": 400, "unidade": "mcg" },
+      { "nutriente": "calcio", "dose": 300, "unidade": "mg" },
+      { "nutriente": "vitamina-d", "dose": 10, "unidade": "mcg" },
+      { "nutriente": "vitamina-b12", "dose": 2.4, "unidade": "mcg" },
+      { "nutriente": "vitamina-b6", "dose": 1.3, "unidade": "mg" },
+      { "nutriente": "biotina", "dose": 30, "unidade": "mcg" },
+      { "nutriente": "zinco", "dose": 8, "unidade": "mg" },
+      { "nutriente": "vitamina-c", "dose": 75, "unidade": "mg" },
+      { "nutriente": "vitamina-e", "dose": 15, "unidade": "mg" },
+      { "nutriente": "magnesio", "dose": 80, "unidade": "mg" }
+    ],
+    "ideal_para": ["Mulheres em idade fértil", "Menstruação abundante", "Gestantes (consultar médico)"],
+    "vantagens": [
+      "Dose adequada de ferro para mulheres",
+      "Ácido fólico para prevenção de defeitos do tubo neural",
+      "Cálcio para saúde óssea",
+      "Biotina para cabelo e unhas"
+    ]
+  },
+  {
+    "id": "multi-vegano",
+    "nome": "Multivitamínico Vegano Completo",
+    "marca": "Garden of Life",
+    "descricao": "Fórmula 100% vegana com B12, ferro, zinco e ômega-3 de algas",
+    "preco_aprox": 95,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B00K0DXK8M",
+    "nutrientes_incluidos": [
+      { "nutriente": "vitamina-b12", "dose": 100, "unidade": "mcg" },
+      { "nutriente": "vitamina-d", "dose": 50, "unidade": "mcg" },
+      { "nutriente": "ferro", "dose": 18, "unidade": "mg" },
+      { "nutriente": "zinco", "dose": 15, "unidade": "mg" },
+      { "nutriente": "iodo", "dose": 150, "unidade": "mcg" },
+      { "nutriente": "omega-3", "dose": 300, "unidade": "mg" },
+      { "nutriente": "calcio", "dose": 250, "unidade": "mg" },
+      { "nutriente": "selenio", "dose": 70, "unidade": "mcg" },
+      { "nutriente": "vitamina-k2", "dose": 80, "unidade": "mcg" }
+    ],
+    "ideal_para": ["Veganos", "Vegetarianos estritos", "Dietas plant-based"],
+    "vantagens": [
+      "B12 em dose terapêutica (ESSENCIAL para veganos)",
+      "Vitamina D de líquens (não de lanolina)",
+      "Ômega-3 de algas (DHA+EPA)",
+      "100% plant-based e certificado"
+    ]
+  },
+  {
+    "id": "multi-energia-homem",
+    "nome": "Multivitamínico Energy Homem",
+    "marca": "Vitafor",
+    "descricao": "Fórmula para homens ativos com doses elevadas de vitaminas B, zinco e magnésio",
+    "preco_aprox": 58,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B08KRQV4DL",
+    "nutrientes_incluidos": [
+      { "nutriente": "vitamina-b1", "dose": 1.2, "unidade": "mg" },
+      { "nutriente": "vitamina-b2", "dose": 1.3, "unidade": "mg" },
+      { "nutriente": "vitamina-b3", "dose": 16, "unidade": "mg" },
+      { "nutriente": "vitamina-b5", "dose": 5, "unidade": "mg" },
+      { "nutriente": "vitamina-b6", "dose": 1.3, "unidade": "mg" },
+      { "nutriente": "vitamina-b12", "dose": 2.4, "unidade": "mcg" },
+      { "nutriente": "vitamina-d", "dose": 20, "unidade": "mcg" },
+      { "nutriente": "zinco", "dose": 11, "unidade": "mg" },
+      { "nutriente": "magnesio", "dose": 420, "unidade": "mg" },
+      { "nutriente": "selenio", "dose": 55, "unidade": "mcg" },
+      { "nutriente": "vitamina-c", "dose": 90, "unidade": "mg" }
+    ],
+    "ideal_para": ["Homens adultos", "Atletas", "Alta demanda energética"],
+    "vantagens": [
+      "Complexo B completo para energia",
+      "Magnésio em dose elevada (performance muscular)",
+      "Zinco para testosterona e imunidade",
+      "Vitamina D para força óssea"
+    ]
+  },
+  {
+    "id": "multi-prenatal",
+    "nome": "Multivitamínico Pré-Natal",
+    "marca": "NatureMade",
+    "descricao": "Fórmula específica para gestantes com ácido fólico, ferro, cálcio e DHA",
+    "preco_aprox": 78,
+    "doses_por_frasco": 60,
+    "link_amazon": "https://www.amazon.com.br/dp/B004GW4S0G",
+    "nutrientes_incluidos": [
+      { "nutriente": "acido-folico", "dose": 800, "unidade": "mcg" },
+      { "nutriente": "ferro", "dose": 27, "unidade": "mg" },
+      { "nutriente": "calcio", "dose": 300, "unidade": "mg" },
+      { "nutriente": "vitamina-d", "dose": 25, "unidade": "mcg" },
+      { "nutriente": "omega-3", "dose": 200, "unidade": "mg" },
+      { "nutriente": "vitamina-b12", "dose": 8, "unidade": "mcg" },
+      { "nutriente": "vitamina-b6", "dose": 4, "unidade": "mg" },
+      { "nutriente": "iodo", "dose": 220, "unidade": "mcg" },
+      { "nutriente": "zinco", "dose": 15, "unidade": "mg" }
+    ],
+    "ideal_para": ["Gestantes", "Planejando gravidez", "Lactantes"],
+    "vantagens": [
+      "Ácido fólico em dose gestacional (previne defeitos)",
+      "Ferro para anemia gestacional",
+      "DHA para desenvolvimento cerebral do bebê",
+      "Fórmula recomendada por obstetras"
+    ]
+  }
+]
