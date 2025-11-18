@@ -131,67 +131,6 @@ export default function ResultadosPage() {
           message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
-        {/* Resumo Executivo */}
-        {(recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
-          <div className="bg-gradient-to-r from-red-500 to-orange-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-12">
-            <div className="bg-white border-4 border-black p-6">
-              <h3 className="text-2xl sm:text-3xl font-black text-black mb-4 uppercase">
-                ⚠️ Resumo da Sua Avaliação
-              </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {recomendacoesAlta.length > 0 && (
-                  <div className="bg-red-100 border-2 border-black p-4">
-                    <div className="text-4xl font-black text-red-600 mb-1">{recomendacoesAlta.length}</div>
-                    <div className="text-sm font-bold text-black uppercase">Possíveis Deficiências Graves</div>
-                  </div>
-                )}
-                {recomendacoesMedia.length > 0 && (
-                  <div className="bg-yellow-100 border-2 border-black p-4">
-                    <div className="text-4xl font-black text-orange-600 mb-1">{recomendacoesMedia.length}</div>
-                    <div className="text-sm font-bold text-black uppercase">Possíveis Deficiências Moderadas</div>
-                  </div>
-                )}
-                <div className="bg-lime-100 border-2 border-black p-4">
-                  <div className="text-4xl font-black text-green-600 mb-1">
-                    {recomendacoesAlta.length + recomendacoesMedia.length}
-                  </div>
-                  <div className="text-sm font-bold text-black uppercase">Nutrientes que Você Pode Precisar</div>
-                </div>
-              </div>
-              <p className="text-black font-bold mt-4 text-center">
-                📋 Veja abaixo as possíveis deficiências identificadas e como corrigir
-              </p>
-            </div>
-          </div>
-        )}
-
-        {/* Ações - NEOBRUTALISM */}
-        <div className="flex flex-wrap gap-3 justify-center mb-8">
-          <Button
-            variant="primary"
-            size="lg"
-            onClick={handleDownloadPDF}
-            loading={downloadingPDF}
-            disabled={downloadingPDF}
-          >
-            <Download className="w-5 h-5 mr-2" />
-            {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
-          </Button>
-          <Link href="/avaliacao">
-            <Button variant="outline" size="lg">
-              Fazer Nova Avaliação
-            </Button>
-          </Link>
-        </div>
-
-        {/* Compartilhar nas Redes Sociais */}
-        <div className="mb-12 max-w-3xl mx-auto">
-          <SocialShareButtons
-            title="Suplementa Já - Minhas Recomendações Personalizadas"
-            text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
-          />
-        </div>
-
         {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
         {recomendacoesAlta.length > 0 && (
           <section className="mb-12">
@@ -223,65 +162,44 @@ export default function ResultadosPage() {
         {/* SOLUÇÃO: MULTIVITAMÍNICOS - Aparece DEPOIS de mostrar o problema */}
         {multivitaminicosRecomendados.length > 0 && (recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
           <section className="mb-16">
-            {/* Banner de Destaque */}
-            <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-8 mb-8 text-center">
-              <div className="inline-block bg-black px-6 py-3 mb-4 border-4 border-black shadow-[6px_6px_0_0_rgba(255,255,255,0.3)] rotate-2">
-                <h2 className="text-3xl sm:text-5xl font-black text-yellow-400 uppercase">
-                  💡 Solução Inteligente
+            {/* Banner de Destaque - MAIS CLEAN */}
+            <div className="bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mb-8">
+              <div className="text-center mb-4">
+                <h2 className="text-2xl sm:text-4xl font-black text-black uppercase mb-3">
+                  💡 Simplifique: Use 1 Multivitamínico
                 </h2>
+                <p className="text-base sm:text-lg text-black font-bold max-w-3xl mx-auto">
+                  Ao invés de {recomendacoesAlta.length + recomendacoesMedia.length} suplementos separados,
+                  um multivitamínico cobre <span className="bg-black text-yellow-400 px-2 py-1">{Math.round((multivitaminicosRecomendados[0]?.porcentagem_cobertura || 0))}%</span> das suas necessidades
+                </p>
               </div>
-              <div className="bg-white border-4 border-black p-6 max-w-4xl mx-auto">
-                <p className="text-xl sm:text-2xl font-black text-black mb-3 leading-tight">
-                  Você viu que pode estar precisando de <span className="bg-red-400 px-2 py-1">{recomendacoesAlta.length + recomendacoesMedia.length} nutrientes diferentes</span>...
-                </p>
-                <p className="text-lg sm:text-xl text-black font-bold mb-4">
-                  Ao invés de comprar {recomendacoesAlta.length + recomendacoesMedia.length} frascos separados e tomar <span className="bg-yellow-400 px-2 py-1">10+ cápsulas por dia</span>:
-                </p>
-                <div className="bg-lime-400 border-4 border-black p-6 mb-4">
-                  <p className="text-2xl sm:text-3xl font-black text-black uppercase">
-                    ✅ Use 1 Multivitamínico Completo
-                  </p>
-                  <p className="text-lg font-bold text-black mt-2">
-                    Que já contém <span className="bg-black text-lime-400 px-2 py-1">{Math.round((multivitaminicosRecomendados[0]?.porcentagem_cobertura || 0))}%</span> do que você pode precisar!
-                  </p>
+              <div className="grid grid-cols-3 gap-2 sm:gap-3 max-w-2xl mx-auto">
+                <div className="bg-white border-2 border-black p-3 text-center">
+                  <div className="text-2xl mb-1">⚡</div>
+                  <p className="font-black text-black text-xs sm:text-sm">1-2 Cápsulas/dia</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
-                  <div className="bg-cyan-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">⚡</div>
-                    <p className="font-black text-black uppercase text-sm">Apenas 1-2 Cápsulas</p>
-                    <p className="text-xs text-black font-bold mt-1">Por dia, sem complicação</p>
-                  </div>
-                  <div className="bg-pink-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">💰</div>
-                    <p className="font-black text-black uppercase text-sm">Economize Muito</p>
-                    <p className="text-xs text-black font-bold mt-1">
-                      Até R${multivitaminicosRecomendados[0]?.economia_estimada || 200}/mês
-                    </p>
-                  </div>
-                  <div className="bg-lime-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">🎯</div>
-                    <p className="font-black text-black uppercase text-sm">Super Prático</p>
-                    <p className="text-xs text-black font-bold mt-1">1 produto ao invés de {recomendacoesAlta.length + recomendacoesMedia.length}</p>
-                  </div>
+                <div className="bg-white border-2 border-black p-3 text-center">
+                  <div className="text-2xl mb-1">💰</div>
+                  <p className="font-black text-black text-xs sm:text-sm">Economize R${multivitaminicosRecomendados[0]?.economia_estimada || 200}</p>
+                </div>
+                <div className="bg-white border-2 border-black p-3 text-center">
+                  <div className="text-2xl mb-1">🎯</div>
+                  <p className="font-black text-black text-xs sm:text-sm">Mais Prático</p>
                 </div>
               </div>
             </div>
 
             {/* Cards de Multivitamínicos */}
-            <div className="grid gap-8 lg:grid-cols-1 xl:grid-cols-2 mb-8">
+            <div className="grid gap-6 lg:grid-cols-1 xl:grid-cols-2 mb-6">
               {multivitaminicosRecomendados.map((multi, index) => (
                 <CardMultivitaminico key={multi.id} multi={multi} ranking={index + 1} />
               ))}
             </div>
 
-            {/* Info adicional */}
-            <div className="bg-gradient-to-r from-cyan-400 to-blue-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 text-center">
-              <p className="text-black font-black text-lg sm:text-xl mb-2 uppercase">
-                💡 Estratégia Recomendada
-              </p>
-              <p className="text-black font-bold text-sm sm:text-base">
-                Comece com o multivitamínico acima como sua <span className="bg-black text-cyan-400 px-2 py-1">BASE DIÁRIA</span>.
-                Se você precisar de doses mais altas de algum nutriente específico, pode complementar com suplementos individuais (veja na seção &quot;Prioridade Baixa&quot; abaixo).
+            {/* Dica simplificada */}
+            <div className="bg-cyan-100 border-2 border-black p-4 text-center">
+              <p className="text-black font-bold text-sm">
+                💡 Use o multivitamínico como base e complemente apenas se precisar de doses mais altas de nutrientes específicos
               </p>
             </div>
           </section>
@@ -338,6 +256,35 @@ export default function ResultadosPage() {
               <span className="text-black font-bold">Não inicie suplementação sem orientação profissional</span>
             </li>
           </ul>
+        </div>
+
+        {/* Ações no final - Compartilhar e PDF */}
+        <div className="mt-8 space-y-4">
+          <div className="flex flex-wrap gap-3 justify-center">
+            <Button
+              variant="primary"
+              size="lg"
+              onClick={handleDownloadPDF}
+              loading={downloadingPDF}
+              disabled={downloadingPDF}
+            >
+              <Download className="w-5 h-5 mr-2" />
+              {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
+            </Button>
+            <Link href="/avaliacao">
+              <Button variant="outline" size="lg">
+                Fazer Nova Avaliação
+              </Button>
+            </Link>
+          </div>
+
+          {/* Compartilhar nas Redes Sociais - FINAL DA PÁGINA */}
+          <div className="max-w-3xl mx-auto">
+            <SocialShareButtons
+              title="Suplementa Já - Minhas Recomendações Personalizadas"
+              text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
+            />
+          </div>
         </div>
 
         <div className="text-center mt-8">
