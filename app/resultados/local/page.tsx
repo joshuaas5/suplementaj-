@@ -151,7 +151,7 @@ export default function ResultadosPage() {
             </div>
             <div className="grid gap-4 sm:gap-6">
               {recomendacoesAlta.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
               ))}
             </div>
           </section>
@@ -165,7 +165,7 @@ export default function ResultadosPage() {
             </div>
             <div className="grid gap-4 sm:gap-6">
               {recomendacoesMedia.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
               ))}
             </div>
           </section>
@@ -179,7 +179,7 @@ export default function ResultadosPage() {
             </div>
             <div className="grid gap-4 sm:gap-6">
               {recomendacoesBaixa.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
               ))}
             </div>
           </section>
@@ -193,7 +193,7 @@ export default function ResultadosPage() {
             </div>
             <div className="grid gap-4 sm:gap-6">
               {naoRecomendados.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} />
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
               ))}
             </div>
           </section>

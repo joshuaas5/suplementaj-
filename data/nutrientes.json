@@ -482,6 +482,16 @@
           "menopausa",
           "cardiovascular"
         ]
+      },
+      {
+        "id": "ref-d-003",
+        "titulo": "Vitamin D supplementation and prevention of disease: A systematic review",
+        "revista": "The Lancet Diabetes & Endocrinology",
+        "ano": 2022,
+        "tipo": "Revisão sistemática",
+        "doi": "10.1016/S2213-8587(21)00345-5",
+        "pmid": "35934097",
+        "citacao_chave": "Suplementação de vitamina D demonstra benefícios significativos na saúde óssea, função imunológica e redução de risco de infecções respiratórias na população geral"
       }
     ],
     "seo": {

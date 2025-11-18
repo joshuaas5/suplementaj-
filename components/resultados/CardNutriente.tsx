@@ -3,13 +3,16 @@ import { CheckCircle2, XCircle, AlertTriangle, ExternalLink } from 'lucide-react
 import { BadgePrioridade } from './BadgePrioridade'
 import { Button } from '@/components/ui/Button'
 import { RecomendacaoEnriquecida } from '@/types'
+import { Perfil } from '@/types/perfil'
 import { addAmazonAffiliateTag } from '@/lib/affiliate'
+import { selecionaEvidencia } from '@/lib/seleciona-evidencia'
 
 interface CardNutrienteProps {
   recomendacao: RecomendacaoEnriquecida
+  perfil?: Perfil
 }
 
-export function CardNutriente({ recomendacao }: CardNutrienteProps) {
+export function CardNutriente({ recomendacao, perfil }: CardNutrienteProps) {
   const {
     nutriente_completo,
     prioridade,
@@ -20,6 +23,9 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
     nota_especial,
     contraindicacao,
   } = recomendacao
+
+  // Seleciona a evidência mais relevante baseada no perfil
+  const evidenciaSelecionada = selecionaEvidencia(nutriente_completo.evidencias, perfil)
 
   // Nutriente NÃO recomendado - NEOBRUTALISM
   if (prioridade === 'nao_recomendado') {
@@ -121,7 +127,7 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
       )}
 
       {/* Link para evidência científica */}
-      {nutriente_completo.evidencias && nutriente_completo.evidencias.length > 0 && (
+      {evidenciaSelecionada && (
         <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 mb-4">
           <div className="flex items-start gap-4">
             <div className="flex-shrink-0">
@@ -133,16 +139,16 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
               <div className="bg-black px-3 py-1 sm:px-4 sm:py-2 mb-2 inline-block border-2 border-black">
                 <h4 className="text-sm font-black text-lime-400 uppercase">📚 Evidência Científica</h4>
               </div>
-              <p className="text-sm text-black font-bold mb-2">{nutriente_completo.evidencias[0].titulo}</p>
-              {nutriente_completo.evidencias[0].citacao_chave && (
+              <p className="text-sm text-black font-bold mb-2">{evidenciaSelecionada.titulo}</p>
+              {evidenciaSelecionada.citacao_chave && (
                 <p className="text-xs text-black italic mb-3 bg-cyan-400 border-2 border-black p-3 font-bold">
-                  &ldquo;{nutriente_completo.evidencias[0].citacao_chave}&rdquo;
+                  &ldquo;{evidenciaSelecionada.citacao_chave}&rdquo;
                 </p>
               )}
               <div className="flex flex-wrap gap-2">
-                {nutriente_completo.evidencias[0].doi && (
+                {evidenciaSelecionada.doi && (
                   <a
-                    href={`https://doi.org/${nutriente_completo.evidencias[0].doi}`}
+                    href={`https://doi.org/${evidenciaSelecionada.doi}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -152,9 +158,9 @@ export function CardNutriente({ recomendacao }: CardNutrienteProps) {
                     </Button>
                   </a>
                 )}
-                {nutriente_completo.evidencias[0].pmid && (
+                {evidenciaSelecionada.pmid && (
                   <a
-                    href={`https://pubmed.ncbi.nlm.nih.gov/${nutriente_completo.evidencias[0].pmid}`}
+                    href={`https://pubmed.ncbi.nlm.nih.gov/${evidenciaSelecionada.pmid}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
