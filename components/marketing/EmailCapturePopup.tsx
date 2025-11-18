@@ -10,15 +10,22 @@ export function EmailCapturePopup() {
   const [nome, setNome] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [shouldShow, setShouldShow] = useState(true)
 
   useEffect(() => {
     // Verificar se o usuário já fechou ou enviou o formulário
     const hasClosedPopup = localStorage.getItem('emailPopupClosed')
     const hasSubmittedEmail = localStorage.getItem('emailSubmitted')
+    const popupShownThisSession = sessionStorage.getItem('emailPopupShown')
 
-    if (hasClosedPopup || hasSubmittedEmail) {
+    // Se já foi mostrado nesta sessão, não mostrar novamente
+    if (hasClosedPopup || hasSubmittedEmail || popupShownThisSession) {
+      setShouldShow(false)
       return
     }
+
+    // Marcar que vai mostrar nesta sessão
+    sessionStorage.setItem('emailPopupShown', 'true')
 
     // Abrir após 15 segundos
     const timer = setTimeout(() => {
@@ -27,7 +34,7 @@ export function EmailCapturePopup() {
 
     // Abrir quando o usuário tentar sair da página (exit intent)
     const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0) {
+      if (e.clientY <= 0 && !isOpen) {
         setIsOpen(true)
       }
     }
