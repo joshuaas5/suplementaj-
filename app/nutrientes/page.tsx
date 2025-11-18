@@ -86,21 +86,21 @@ export default function NutrientesPage() {
         )}
 
         {/* CTA - NEOBRUTALISM */}
-        <div className="bg-yellow-400 border-8 border-black shadow-[12px_12px_0_0_#000] p-12 text-center">
-          <div className="inline-block bg-black px-6 py-3 mb-6 -rotate-1">
-            <h3 className="text-3xl font-black text-yellow-400 uppercase">
+        <div className="bg-yellow-400 border-4 sm:border-8 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-6 sm:p-12 text-center">
+          <div className="inline-block bg-black px-4 py-2 sm:px-6 sm:py-3 mb-4 sm:mb-6 sm:-rotate-1">
+            <h3 className="text-xl sm:text-3xl font-black text-yellow-400 uppercase">
               Descubra Quais Nutrientes Você Precisa
             </h3>
           </div>
-          <div className="bg-white border-4 border-black p-6 mb-8 max-w-2xl mx-auto">
-            <p className="text-lg text-black font-bold leading-relaxed">
+          <div className="bg-white border-4 border-black p-4 sm:p-6 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-black font-bold leading-relaxed">
               Faça nossa avaliação personalizada e receba recomendações específicas para seu perfil.
             </p>
           </div>
-          <Link href="/avaliacao">
-            <Button variant="primary" size="lg" className="text-xl px-10 py-6">
+          <Link href="/avaliacao" className="inline-block w-full sm:w-auto">
+            <Button variant="primary" size="lg" className="text-lg sm:text-xl px-8 py-5 sm:px-10 sm:py-6 w-full sm:w-auto">
               Fazer Avaliação Gratuita
-              <ArrowRight className="w-6 h-6 ml-2" />
+              <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 ml-2" />
             </Button>
           </Link>
         </div>
