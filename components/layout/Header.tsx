@@ -26,6 +26,9 @@ export function Header() {
             <Link href="/avaliacao" className="px-4 py-2 bg-black text-yellow-400 font-black uppercase text-sm border-2 border-black hover:bg-yellow-400 hover:text-black transition-all hover:scale-105">
               Fazer Avaliação
             </Link>
+            <Link href="/calculadoras" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-orange-400 transition-all hover:scale-105">
+              Calculadoras
+            </Link>
             <Link href="/nutrientes" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-cyan-400 transition-all hover:scale-105">
               Nutrientes
             </Link>
@@ -57,6 +60,13 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Fazer Avaliação
+              </Link>
+              <Link
+                href="/calculadoras"
+                className="px-4 py-3 bg-white text-black font-bold uppercase text-center border-2 border-black hover:bg-orange-400 transition-all"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Calculadoras
               </Link>
               <Link
                 href="/nutrientes"
