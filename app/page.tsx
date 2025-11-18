@@ -47,6 +47,24 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
+
+      {/* Botão Fixo Mobile - Aparece SEMPRE no mobile */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
+        <Link href="/avaliacao" className="block">
+          <div className="bg-gradient-to-r from-lime-400 to-green-500 border-t-4 border-black p-4 shadow-[0_-8px_0_0_#000]">
+            <Button
+              variant="primary"
+              size="lg"
+              className="w-full text-lg font-black uppercase py-6 shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] transition-all"
+            >
+              <Sparkles className="w-6 h-6 mr-2" />
+              Fazer Avaliação Grátis
+              <ArrowRight className="w-6 h-6 ml-2" />
+            </Button>
+          </div>
+        </Link>
+      </div>
+
       {/* Hero Section - NEOBRUTALISM */}
       <section className="relative overflow-hidden bg-yellow-400 border-b-8 border-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20">
@@ -474,6 +492,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Padding no final para não cobrir conteúdo com o botão fixo mobile */}
+      <div className="h-24 md:hidden" />
     </div>
   )
 }
