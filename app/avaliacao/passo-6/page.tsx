@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/Badge'
 import { ArrowLeft, CheckCircle2 } from 'lucide-react'
 import { gerarRecomendacoes, enriquecerRecomendacoes } from '@/lib/recomendacoes'
 import { Perfil } from '@/types'
+import { trackQuizComplete } from '@/lib/analytics'
 
 export default function Passo6Page() {
   const router = useRouter()
@@ -35,6 +36,9 @@ export default function Passo6Page() {
         recomendacoes: recomendacoesEnriquecidas,
         data: new Date().toISOString(),
       }))
+
+      // Rastrear conclusão do quiz no Google Analytics
+      trackQuizComplete(perfil)
 
       // Redirecionar para resultados
       router.push('/resultados/local')

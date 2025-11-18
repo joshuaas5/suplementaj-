@@ -2,6 +2,7 @@ import { ExternalLink, Pill, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { MultivitaminicoRecomendado, getNutrienteNome } from '@/lib/recomendar-multivitaminicos'
+import { trackProductClick } from '@/lib/analytics'
 
 interface CardMultivitaminicoProps {
   multi: MultivitaminicoRecomendado
@@ -136,6 +137,7 @@ export function CardMultivitaminico({ multi, ranking }: CardMultivitaminicoProps
         href={multi.link_amazon}
         target="_blank"
         rel="noopener noreferrer nofollow sponsored"
+        onClick={() => trackProductClick(multi.nome, multi.preco_aprox, 'multivitaminico')}
         className="block"
       >
         <Button

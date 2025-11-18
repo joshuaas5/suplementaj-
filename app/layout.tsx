@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics'
 import { GoogleAdSense } from '@/components/analytics/GoogleAdSense'
+import { EmailCapturePopup } from '@/components/marketing/EmailCapturePopup'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,6 +42,7 @@ export default function RootLayout({
       >
         <GoogleAnalytics />
         <GoogleAdSense />
+        <EmailCapturePopup />
         <Header />
         <main className="min-h-screen">
           {children}

@@ -6,8 +6,47 @@ import { Badge } from '@/components/ui/Badge'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 
 export default function Home() {
+  // Schema markup para rich snippets do Google
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Suplementa Já',
+    url: 'https://suplementaja.vercel.app',
+    logo: 'https://suplementaja.vercel.app/logo.png',
+    description:
+      'Plataforma gratuita de recomendações personalizadas de suplementação baseadas em evidências científicas',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Service',
+      availableLanguage: 'Portuguese',
+    },
+  }
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Suplementa Já',
+    url: 'https://suplementaja.vercel.app',
+    description:
+      'Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://suplementaja.vercel.app/nutrientes?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
   return (
     <div className="min-h-screen">
+      {/* JSON-LD Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       {/* Hero Section - NEOBRUTALISM */}
       <section className="relative overflow-hidden bg-yellow-400 border-b-8 border-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20">

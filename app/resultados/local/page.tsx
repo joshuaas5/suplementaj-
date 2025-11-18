@@ -8,11 +8,13 @@ import { CardMultivitaminico } from '@/components/resultados/CardMultivitaminico
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { Button } from '@/components/ui/Button'
 import { RewardedAdModal } from '@/components/ads/RewardedAdModal'
-import { Download, Share2 } from 'lucide-react'
+import { Download } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
 import { gerarPDFResultados } from '@/lib/pdf'
 import { recomendarMultivitaminicos } from '@/lib/recomendar-multivitaminicos'
+import { SocialShareButtons } from '@/components/marketing/SocialShareButtons'
+import { trackPDFDownload, trackResultsView } from '@/lib/analytics'
 
 interface AvaliacaoLocal {
   perfil: Perfil
@@ -39,30 +41,14 @@ export default function ResultadosPage() {
     try {
       setDownloadingPDF(true)
       gerarPDFResultados(avaliacao.perfil, avaliacao.recomendacoes)
+
+      // Rastrear download no Google Analytics
+      trackPDFDownload()
     } catch (error) {
       console.error('Erro ao gerar PDF:', error)
       alert('Erro ao gerar PDF. Por favor, tente novamente.')
     } finally {
       setDownloadingPDF(false)
-    }
-  }
-
-  const handleCompartilhar = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: 'Minhas Recomendações Suplementa Já',
-          text: 'Confira minhas recomendações personalizadas de suplementação do Suplementa Já!',
-          url: window.location.href,
-        })
-      } catch {
-        // Usuário cancelou ou erro
-        console.log('Compartilhamento cancelado')
-      }
-    } else {
-      // Fallback: copiar link
-      navigator.clipboard.writeText(window.location.href)
-      alert('Link copiado para a área de transferência!')
     }
   }
 
@@ -84,6 +70,13 @@ export default function ResultadosPage() {
       setLoading(false)
     }
   }, [router])
+
+  // Rastrear visualização dos resultados
+  useEffect(() => {
+    if (avaliacao && !showRewardedAd) {
+      trackResultsView(avaliacao.recomendacoes.length)
+    }
+  }, [avaliacao, showRewardedAd])
 
   if (loading) {
     return (
@@ -150,15 +143,19 @@ export default function ResultadosPage() {
             <Download className="w-5 h-5 mr-2" />
             {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
           </Button>
-          <Button variant="secondary" size="lg" onClick={handleCompartilhar}>
-            <Share2 className="w-5 h-5 mr-2" />
-            Compartilhar
-          </Button>
           <Link href="/avaliacao">
             <Button variant="outline" size="lg">
               Fazer Nova Avaliação
             </Button>
           </Link>
+        </div>
+
+        {/* Compartilhar nas Redes Sociais */}
+        <div className="mb-12 max-w-3xl mx-auto">
+          <SocialShareButtons
+            title="Suplementa Já - Minhas Recomendações Personalizadas"
+            text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
+          />
         </div>
 
         {/* Multivitamínicos Recomendados - SEÇÃO ESPECIAL */}
