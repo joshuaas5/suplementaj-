@@ -2759,6 +2759,143 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Previne gripes?**: NÃO previne, mas REDUZ duração em 8-14% (1-2 dias)\n• **Dose**: 500-1.000 mg/dia (manutenção) | 1.000-2.000 mg/dia (resfriado ativo)\n• **Mega doses (>2g)**: Não trazem benefício adicional, apenas diarreia\n• **Melhor forma**: Ácido ascórbico puro (mais barato e eficaz)\n• **Quando tomar**: Dividir dose (500mg 2x/dia = melhor que 1g 1x)\n• **Alimentos**: Laranja, kiwi, pimentão, acerola (1 colher = 1.000mg!)\n• **Sinais de deficiência**: Sangramento gengival, hematomas fáceis, cicatrização lenta\n• **Tempo para efeito**: Imediato (absorção em 2-4h)\n• **Custo**: R$15-30/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Vitamina C é provavelmente o suplemento mais popular quando o assunto é imunidade e prevenção de gripes. Mas será que ela realmente funciona? E qual a dose ideal: 500mg, 1g ou 2g por dia? Vamos analisar o que a ciência realmente diz."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Vitamina C Previne Gripes e Resfriados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A resposta curta: NÃO para a maioria das pessoas. Estudos mostram que suplementação regular de vitamina C NÃO reduz a incidência de resfriados na população geral. PORÉM, há benefícios comprovados:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Reduz a duração**: Encurta resfriados em 8% em adultos e 14% em crianças (cerca de 1-2 dias menos)",
+          "**Previne em atletas**: Redução de 50% na incidência em pessoas sob estresse físico extremo (maratonistas, soldados)",
+          "**Reduz severidade**: Sintomas menos intensos quando consumida regularmente",
+          "**Terapêutico**: Tomar logo no início dos sintomas pode ajudar (doses de 1-2g/dia)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Qual a Dose Ideal?"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Diária",
+          "Quando Tomar"
+        ],
+        "linhas": [
+          [
+            "Manutenção geral",
+            "500-1.000 mg",
+            "Uma vez ao dia, com refeição"
+          ],
+          [
+            "Imunidade reforçada",
+            "1.000-2.000 mg",
+            "Dividir em 2x (manhã e noite)"
+          ],
+          [
+            "Resfriado ativo",
+            "1.000-2.000 mg",
+            "2-3x ao dia (dividido)"
+          ],
+          [
+            "Atletas/estresse alto",
+            "1.000-2.000 mg",
+            "Diariamente"
+          ],
+          [
+            "Fumantes",
+            "1.000-1.500 mg",
+            "Diariamente (maior necessidade)"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Mega doses (>2g/dia)**: Podem causar diarreia, náusea e cálculos renais em pessoas predispostas. O excesso é eliminado pela urina."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Ácido Ascórbico vs Ester-C"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Ácido Ascórbico**: Forma mais comum e barata. Funciona perfeitamente. Pode causar acidez estomacal em doses altas",
+          "**Ester-C (ascorbato de cálcio)**: Tamponado, menos ácido, mais suave para o estômago. Ideal para quem tem sensibilidade gástrica",
+          "**Com bioflavonoides**: Aumentam absorção em até 35%",
+          "**Lipossomal**: Absorção superior (até 90% vs 20%), mas muito mais cara"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Outros Benefícios Comprovados"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Antioxidante potente**: Protege células contra danos oxidativos",
+          "**Produção de colágeno**: Essencial para pele, cartilagens, ossos e vasos sanguíneos",
+          "**Absorção de ferro**: Aumenta absorção de ferro vegetal em até 3x",
+          "**Pressão arterial**: Redução modesta (2-4 mmHg) comprovada",
+          "**Saúde da pele**: Anti-envelhecimento, reduz manchas"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Tomar Para Máxima Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Dividir a dose**: 500mg 2x ao dia é melhor que 1g de uma vez (saturação de absorção)",
+          "**Com refeições**: Reduz desconforto estomacal",
+          "**Evitar com café**: Pode reduzir absorção",
+          "**Junto com ferro**: Se você suplementa ferro, tome vitamina C junto para triplicar absorção"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Fontes Alimentares"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Acerola: 1.678 mg por 100g (campeã absoluta!)",
+          "Goiaba: 228 mg por 100g",
+          "Pimentão vermelho: 190 mg por 100g",
+          "Kiwi: 93 mg por 100g",
+          "Laranja: 53 mg por 100g (não é tão rica quanto pensamos!)",
+          "Brócolis cozido: 65 mg por 100g"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **Dica**: Para atingir 1g de vitamina C apenas com alimentos, você precisaria comer 19 laranjas por dia. Suplementação é prática e econômica."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer descobrir quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2783,6 +2920,132 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Dose**: 1.000-1.200 mg/dia (mulheres 50+, homens 70+) | 500-800 mg/dia (adultos jovens)\n• **Citrato de Cálcio**: Melhor absorção, pode tomar em jejum, ideal para idosos\n• **Carbonato de Cálcio**: Mais barato, precisa tomar com alimento\n• **CRÍTICO**: Sempre tomar com vitamina D3 (sem D, cálcio não absorve)\n• **IMPORTANTE**: Adicionar vitamina K2 (direciona cálcio para ossos, não artérias)\n• **Quando tomar**: Dividir dose (500mg 2x/dia), LONGE de ferro/zinco\n• **Alimentos**: Leite, queijo, iogurte, tofu, sardinha com ossos\n• **Risco**: Suplementação SEM K2 pode calcificar artérias\n• **Tempo para efeito**: 6-12 meses (densidade óssea)\n• **Custo**: R$20-40/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Osteoporose afeta 10 milhões de brasileiros e é responsável por 200 mil fraturas por ano. O cálcio é fundamental para ossos fortes, mas suplementar errado pode fazer mais mal do que bem."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Você Realmente Precisa Suplementar?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Antes de comprar cálcio, saiba que:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "A maioria consegue cálcio suficiente pela dieta",
+          "Suplementação excessiva pode AUMENTAR risco cardiovascular",
+          "Vitaminas D e K2 são tão importantes quanto o cálcio",
+          "Exercícios de impacto são essenciais"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Você Precisa Por Dia?"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Grupo",
+          "Necessidade Diária",
+          "Observação"
+        ],
+        "linhas": [
+          [
+            "Adultos 19-50 anos",
+            "1.000 mg",
+            "Homens e mulheres"
+          ],
+          [
+            "Mulheres 51+ anos",
+            "1.200 mg",
+            "Pós-menopausa"
+          ],
+          [
+            "Homens 71+ anos",
+            "1.200 mg",
+            "Risco aumentado"
+          ],
+          [
+            "Adolescentes 14-18",
+            "1.300 mg",
+            "Formação óssea crítica"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Citrato vs Carbonato: Qual Melhor?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Carbonato de Cálcio**: 40% de cálcio elementar. Tomar COM refeição. Mais barato. Pode causar gases",
+          "**Citrato de Cálcio**: 21% de cálcio elementar. Pode tomar em jejum. Melhor absorção. Ideal para idosos 60+"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **CRÍTICO**: Suplementar cálcio SEM vitamina K2 pode aumentar risco cardiovascular em 20-30%. O cálcio pode se depositar nas artérias ao invés dos ossos!"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A Dupla Essencial: D3 + K2"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Vitamina D3**: Sem ela, você absorve apenas 10-15% do cálcio. Com D3, absorção sobe para 30-40%",
+          "**Vitamina K2**: Direciona o cálcio para ossos/dentes, IMPEDINDO depósito nas artérias (calcificação arterial)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Tomar Corretamente"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Dose máxima por vez**: 500-600mg (absorção satura acima disso)",
+          "**Dividir**: 500mg manhã + 500mg noite é melhor que 1.000mg de uma vez",
+          "**Evitar com ferro**: Competem pela absorção",
+          "**Com magnésio**: Proporção 2:1 (cálcio:magnésio). Ex: 1.000mg cálcio + 500mg magnésio"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Fontes Alimentares (SEMPRE PREFERIR!)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Queijos (parmesão): 1.000 mg por 100g",
+          "Sardinha com ossos: 380 mg por 100g",
+          "Tofu firme: 350 mg por 100g",
+          "Leite: 120 mg por 100ml",
+          "Amêndoas: 264 mg por 100g",
+          "Brócolis: 40 mg por 100g"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Exemplo**: 1 copo leite (240mg) + 1 fatia queijo (200mg) + 1 iogurte (150mg) = 590mg SEM suplementação!"
+      },
+      {
+        "tipo": "cta",
+        "texto": "Descubra se você precisa suplementar cálcio!",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2807,6 +3070,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Funciona?**: SIM, mas APENAS se você tiver deficiência (raro)\n• **Dose**: 30-100 mcg/dia (necessidade) | 2.500-10.000 mcg/dia (suplementos comerciais)\n• **Mega doses (10mg)**: SEM evidência de benefício adicional vs dose baixa\n• **Tempo para efeito**: 3-6 meses (cabelo), 2-3 meses (unhas)\n• **Sinais de deficiência**: Queda de cabelo, unhas quebradiças, dermatite\n• **Quem se beneficia**: Gestantes, alcoolistas, uso prolongado de antibióticos\n• **Problema**: Interfere em exames laboratoriais (troponina, TSH)\n• **Melhor opção**: Complexo B completo (mais eficaz que biotina isolada)\n• **Alimentos**: Ovos, nozes, salmão, abacate\n• **Custo**: R$15-35/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que biotina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2832,6 +3223,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Reduz estresse/ansiedade em 30-40%, cortisol em 27%, melhora sono\n• **Dose**: 300-600 mg/dia (extrato padronizado withanolides)\n• **Testosterona**: Aumenta em 10-15% em homens com cortisol alto/estresse\n• **KSM-66**: Melhor extrato (mais estudado, 5% withanolides)\n• **Quando tomar**: À noite (causa sonolência) OU pela manhã (se não causar sono)\n• **Tempo para efeito**: 2-4 semanas (estresse), 8-12 semanas (máximo benefício)\n• **Efeitos colaterais**: Sonolência, desconforto gástrico (tomar com alimento)\n• **Não tomar**: Gestantes, autoimune (pode estimular sistema imune)\n• **Ciclar?**: Opcional. Pode usar 8 semanas on, 2 semanas off\n• **Custo**: R$40-80/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que ashwagandha realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2856,6 +3375,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Dose ideal**: 0.3-1 mg (mais eficaz!) | Doses comerciais 3-10mg são EXCESSIVAS\n• **Quando tomar**: 30-60 min antes de dormir\n• **Para que serve**: Ajusta ritmo circadiano, reduz latência do sono (adormecer mais rápido)\n• **Jet lag**: 0.5-5 mg no horário de dormir do destino (3 dias)\n• **NÃO CAUSA**: Dependência ou supressão de produção natural\n• **Efeitos colaterais**: Sonolência diurna (se dose alta), pesadelos, dor de cabeça\n• **Quem não deve tomar**: Gestantes, crianças (sem orientação), autoimune\n• **Menos é mais**: 0.3mg pode ser TÃO eficaz quanto 5mg (com menos efeitos colaterais)\n• **Tempo para efeito**: 30-60 minutos\n• **Custo**: R$15-30/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que melatonina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2880,6 +3527,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Para que serve**: Saúde intestinal, imunidade, digestão, reduz diarreia (antibióticos)\n• **Dose**: 10-50 bilhões UFC/dia (manutenção) | 50-100 bilhões (tratamento)\n• **Cepas importantes**: Lactobacillus acidophilus, Bifidobacterium lactis, Lactobacillus rhamnosus GG\n• **Quando tomar**: Em jejum (30 min antes café) OU antes de dormir\n• **Refrigeração**: Nem sempre necessária (depende da cepa/tecnologia)\n• **Tempo para efeito**: 2-4 semanas (flora normalizar)\n• **Quem precisa**: Pós-antibióticos, SII, intestino irritável, baixa imunidade\n• **Alimentos**: Iogurte, kefir, chucrute, kimchi (mas doses menores)\n• **Custo**: R$40-100/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que probioticos realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2905,6 +3680,134 @@
         "tipo": "alerta",
         "variante": "danger",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **CRÍTICO**: Tomar D3 SEM K2 pode calcificar artérias (perigoso!)\n• **Função**: K2 direciona cálcio para ossos (bom) e REMOVE de artérias (proteção)\n• **Dose**: 100-200 mcg/dia (K2 MK-7)\n• **Sempre com**: Vitamina D3 (qualquer dose >2.000 UI precisa K2)\n• **MK-7 vs MK-4**: MK-7 é melhor (meia-vida longa, dose 1x/dia)\n• **Quando tomar**: Com refeição gordurosa (lipossolúvel)\n• **Benefícios**: Reduz calcificação arterial, melhora densidade óssea, saúde cardiovascular\n• **Alimentos**: Natto (100 mcg/porção), queijos fermentados, gema de ovo\n• **Tempo para efeito**: 3-6 meses (marcadores ósseos/cardiovasculares)\n• **Custo**: R$30-60/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que vitamina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2929,6 +3832,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Função**: Essencial para produção de hormônios tireoidianos (T3, T4)\n• **Dose**: 150 mcg/dia (adultos) | 220 mcg (gestantes) | 290 mcg (lactantes)\n• **Deficiência**: Causa hipotireoidismo, bócio, fadiga, ganho de peso\n• **Excesso**: Também causa hipotireoidismo ou hipertireoidismo (paradoxal)\n• **Quem precisa**: Gestantes, veganos, pessoas que não usam sal iodado\n• **Alimentos**: Algas marinhas, peixe, ovos, leite, sal iodado\n• **Cuidado**: NÃO suplementar se tiver Hashimoto ou hipertireoidismo (pode piorar)\n• **Exame**: TSH (triagem), T3/T4 livre, iodo urinário\n• **Tempo para efeito**: 4-8 semanas (TSH normalizar)\n• **Custo**: R$15-30/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que iodo realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2953,6 +3984,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Tireoide (converte T4 em T3), imunidade, antioxidante potente, fertilidade\n• **Dose**: 55-200 mcg/dia (não exceder 400 mcg)\n• **Castanha do Pará**: 1-2 unidades/dia = 200 mcg (SUFICIENTE!)\n• **Deficiência**: Comum no Brasil (solo pobre), causa hipotireoidismo, baixa imunidade\n• **Hashimoto**: Selênio reduz anticorpos tireoidianos em 50% (200 mcg/dia)\n• **Fertilidade**: Essencial para produção de esperma (homens)\n• **Forma**: Selenometionina (orgânica) > Selenito de sódio\n• **Toxicidade**: >400 mcg/dia causa queda de cabelo, unhas quebradiças, hálito de alho\n• **Tempo para efeito**: 8-12 semanas (tireoide, imunidade)\n• **Custo**: R$0-25/mês (se comer castanhas = grátis!)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que selenio realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -2977,6 +4136,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Antioxidante potente, pele saudável, fertilidade, proteção cardiovascular\n• **Dose**: 15 mg/dia (22.5 UI) necessidade | 200-400 mg (suplementação)\n• **Forma**: d-alfa-tocoferol (natural) > dl-alfa-tocoferol (sintético)\n• **Tocotrienóis**: Forma superior (mais antioxidante), mas mais cara\n• **Quando tomar**: Com refeição gordurosa (lipossolúvel)\n• **Deficiência**: Rara (principalmente má absorção de gorduras)\n• **Sinais**: Fraqueza muscular, problemas de visão, formigamento\n• **Cuidado**: Doses >400 UI podem aumentar risco de AVC hemorrágico\n• **Alimentos**: Amêndoas, avelãs, abacate, espinafre, azeite\n• **Custo**: R$20-40/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que vitamina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3001,6 +4288,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Anti-inflamatório potente, dor articular (osteoartrite), digestão\n• **Dose**: 500-1.000 mg curcumina/dia (NÃO cúrcuma em pó, baixa absorção)\n• **CRÍTICO**: Precisa PIPERINA (pimenta preta) - aumenta absorção em 2.000%!\n• **Melhor forma**: Curcumina com Bioperine (piperina padronizada)\n• **Quando tomar**: Com refeição gordurosa\n• **Osteoartrite**: Eficácia similar a ibuprofeno (1.000 mg/dia)\n• **Tempo para efeito**: 4-8 semanas (dor articular)\n• **Efeitos colaterais**: Desconforto gástrico (raro), pode afinar sangue (cuidado com anticoagulantes)\n• **Alimentos**: Açafrão-da-terra (3-5% curcumina) - precisa MUITA quantidade\n• **Custo**: R$30-60/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que curcuma realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3025,6 +4440,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios REAIS**: Proteína completa (60-70%), antioxidantes, reduz colesterol\n• **MITO**: B12 da spirulina NÃO é biodisponível (não serve para veganos)\n• **Dose**: 3-5g/dia (manutenção) | 10g/dia (atletas)\n• **Proteína**: 3g spirulina = 2g proteína (não substitui whey/alimentos)\n• **Detox**: SEM evidência científica sólida\n• **Quando vale**: Veganos (proteína extra), antioxidantes, reduzir colesterol\n• **Qualidade**: Comprar de fontes confiáveis (contaminação por metais)\n• **Sabor**: HORRÍVEL (melhor em cápsulas ou smoothies)\n• **Tempo para efeito**: 4-8 semanas (colesterol, energia)\n• **Custo**: R$40-80/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que spirulina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3049,6 +4592,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Aumenta libido (homens e mulheres), energia, fertilidade masculina\n• **Dose**: 1.500-3.000 mg/dia (pó ou extrato)\n• **Cores**: Amarela (energia), Vermelha (mulheres, próstata), Preta (homens, fertilidade)\n• **Libido**: Aumenta em 40-50% após 8-12 semanas (evidência moderada)\n• **Fertilidade**: Melhora contagem/motilidade espermática (maca preta)\n• **NÃO é**: Hormônio. Não aumenta testosterona diretamente\n• **Quando tomar**: Pela manhã (pode dar energia/insônia)\n• **Tempo para efeito**: 4-8 semanas (libido), 8-12 semanas (fertilidade)\n• **Efeitos colaterais**: Insônia (se tomar à noite), desconforto gástrico\n• **Custo**: R$30-60/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que maca realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3073,6 +4744,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Testosterona**: NÃO aumenta testosterona em homens com níveis normais\n• **Libido**: PODE aumentar libido (via outros mecanismos, não testosterona)\n• **Dose**: 750-1.500 mg/dia (40-45% saponinas)\n• **Funciona para**: Disfunção erétil leve, libido baixa\n• **NÃO funciona para**: Ganho muscular, força (sem efeito anabólico)\n• **Quem pode se beneficiar**: Homens com libido baixa (não hipogonadismo)\n• **Melhor extrato**: 40-45% saponinas (protodioscina)\n• **Tempo para efeito**: 4-8 semanas\n• **Efeitos colaterais**: Desconforto gástrico, insônia\n• **Custo**: R$30-50/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que tribulus realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3098,6 +4897,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Composição**: Zinco (30mg) + Magnésio (450mg) + B6 (10.5mg)\n• **Benefícios**: Melhora qualidade do sono, recuperação muscular, testosterona (SE deficiente)\n• **Quem precisa**: Atletas (perdem zinco/magnésio no suor), veganos\n• **Quando tomar**: 30-60 min antes de dormir, ESTÔMAGO VAZIO\n• **Testosterona**: Só aumenta se houver deficiência de zinco/magnésio\n• **Sono**: Magnésio é o principal responsável (efeito relaxante)\n• **Vale a pena?**: Se for atleta ou deficiente em Zn/Mg. Senão, tomar separado é OK\n• **Tempo para efeito**: 1-2 semanas (sono), 4-8 semanas (recuperação/testosterona)\n• **Efeitos colaterais**: Sonhos vívidos (B6), náusea (se tomar com comida)\n• **Custo**: R$40-70/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que zma realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3122,6 +5049,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Composição**: Leucina + Isoleucina + Valina (aminoácidos essenciais)\n• **Benefícios**: Reduz fadiga muscular, PODE prevenir catabolismo (jejum)\n• **Dose**: 5-10g (proporção 2:1:1 leucina:iso:val)\n• **VERDADE DURA**: Whey protein contém BCAA + outros 17 aminoácidos (MELHOR!)\n• **Quando vale**: Treino em jejum, veganos (sem proteína suficiente)\n• **NÃO vale**: Se você já toma whey/come proteína adequada (desperdício de $$$)\n• **Timing**: Intra-treino (durante) OU pré-treino (jejum)\n• **Sabor**: Melhor que whey (não precisa misturar com leite)\n• **Evidência**: FRACA para ganho muscular vs proteína completa\n• **Custo**: R$60-120/mês (CARO vs whey)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que bcaa realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3146,6 +5201,134 @@
         "tipo": "alerta",
         "variante": "info",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Funciona?**: Evidência MISTA. Benefício modesto em osteoartrite leve a moderada\n• **Dose**: Glucosamina 1.500mg + Condroitina 1.200mg/dia\n• **Forma**: Sulfato de glucosamina (melhor que HCl)\n• **Tempo para efeito**: 8-12 semanas MÍNIMO (pode levar 6 meses)\n• **Benefícios**: Reduz dor articular em 20-30%, PODE retardar progressão\n• **NÃO é**: Cura. Não regenera cartilagem já perdida\n• **Quem se beneficia**: Osteoartrite leve-moderada de joelho\n• **Limitação**: Não funciona para todos (resposta individual)\n• **Efeitos colaterais**: Raros (desconforto gástrico leve)\n• **Custo**: R$50-100/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que glucosamina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3171,6 +5354,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Função**: Produção de energia mitocondrial (ATP), antioxidante\n• **Dose**: 100-200 mg/dia (manutenção) | 300-600 mg/dia (insuficiência cardíaca)\n• **Ubiquinol vs Ubiquinona**: Ubiquinol é forma ativa (melhor para 40+)\n• **CRÍTICO**: Quem toma estatinas (Sinvastatina, Atorvastatina) DEVE tomar CoQ10\n• **Benefícios**: Energia, saúde cardiovascular, fertilidade masculina, enxaqueca\n• **Quando tomar**: Com refeição gordurosa (absorção 3x maior)\n• **Deficiência**: Fadiga, fraqueza muscular, dor (comum com estatinas)\n• **Tempo para efeito**: 4-8 semanas (energia), 8-12 semanas (cardíaco)\n• **Efeitos colaterais**: Raros (desconforto gástrico leve)\n• **Custo**: R$60-120/mês (ubiquinol mais caro)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que coenzima realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3196,6 +5507,134 @@
         "tipo": "alerta",
         "variante": "danger",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **OBRIGATÓRIO**: Gestantes devem tomar ANTES de engravidar (previne defeitos tubo neural em 70%)\n• **Dose**: 400-800 mcg/dia (gestantes) | 400 mcg/dia (mulheres em idade fértil)\n• **Quando começar**: 3 meses ANTES de engravidar (tubo neural fecha 4 semanas gestação)\n• **Metilfolato vs Ácido Fólico**: Metilfolato é forma ativa (melhor para MTHFR)\n• **MTHFR**: 40% da população tem mutação (não converte ácido fólico bem)\n• **Benefícios**: Previne espinha bífida, anencefalia, lábio leporino\n• **Outros usos**: Reduz homocisteína (saúde cardiovascular), anemia megaloblástica\n• **Alimentos**: Folhas verdes, feijão, lentilha, fígado\n• **Tempo para efeito**: Imediato (proteção desde início)\n• **Custo**: R$10-30/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que acido realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3221,6 +5660,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Visão noturna, pele saudável, imunidade, reprodução\n• **Dose**: 700-900 mcg/dia (2.300-3.000 UI)\n• **Retinol vs Beta-caroteno**: Retinol (animal) é ativo. Beta-caroteno (vegetal) precisa conversão (50% das pessoas convertem mal)\n• **CUIDADO GESTANTES**: >3.000 mcg/dia (10.000 UI) causa defeitos congênitos\n• **Deficiência**: Cegueira noturna, pele seca, baixa imunidade, infecções frequentes\n• **Toxicidade**: >10.000 UI/dia cronicamente = dor de cabeça, náusea, queda de cabelo\n• **Alimentos**: Fígado (muito rico!), cenoura, batata-doce, espinafre\n• **Forma**: Beta-caroteno é mais seguro (sem risco toxicidade)\n• **Tempo para efeito**: 2-4 semanas (visão, pele)\n• **Custo**: R$15-30/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que vitamina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3245,6 +5812,134 @@
         "tipo": "alerta",
         "variante": "warning",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Queima gordura?**: Evidência FRACA. Efeito mínimo em emagrecimento (0.5-1kg em 8-12 semanas)\n• **Dose**: 500-2.000 mg/dia\n• **Função**: Transporta ácidos graxos para mitocôndrias (produção de energia)\n• **Performance**: PODE melhorar recuperação e reduzir fadiga em atletas\n• **Quando tomar**: Pré-treino (com carboidratos para absorção)\n• **Quem pode se beneficiar**: Veganos (L-carnitina vem de carne), idosos\n• **Limitação**: Corpo produz L-carnitina (não é essencial)\n• **Efeitos colaterais**: Náusea, diarreia (doses >3g), odor corporal\n• **Tempo para efeito**: 4-8 semanas\n• **Custo**: R$40-70/mês | Melhor investir em dieta/treino"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que l realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   },
@@ -3269,6 +5964,134 @@
         "tipo": "alerta",
         "variante": "success",
         "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Aumenta força em 5-10%, resistência em 10-20%, foco mental\n• **Dose ergogênica**: 3-6 mg/kg (210-420mg para 70kg)\n• **Quando tomar**: 30-60 min ANTES do treino (pico de absorção)\n• **Tolerância**: Sim. Ciclar 1-2 semanas sem cafeína restaura sensibilidade\n• **Meia-vida**: 5-6 horas (evitar após 14h se dorme 22h)\n• **Efeitos colaterais**: Ansiedade, tremores, insônia, dependência\n• **Melhor que**: Pre-workout caro (cafeína é principal ativo)\n• **Fontes**: Café (80-100mg/xícara), pílulas (100-200mg), pré-treino\n• **Tempo para efeito**: 30-60 minutos (pico)\n• **Custo**: R$10-30/mês (pílulas) | R$0 (café)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é um dos suplementos mais procurados no Brasil. Mas será que cafeina realmente funciona como prometem? Vamos analisar as evidências científicas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Que Serve e Benefícios Comprovados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os estudos científicos mais recentes mostram resultados interessantes:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Benefícios comprovados em estudos clínicos controlados",
+          "Resultados dependem da dose e forma corretas",
+          "Segurança demonstrada em uso de longo prazo quando bem indicado",
+          "Melhor quando combinado com hábitos saudáveis"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dose Ideal e Como Tomar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dosagem correta faz toda a diferença. Veja as recomendações baseadas em evidências:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Dose Recomendada",
+          "Frequência"
+        ],
+        "linhas": [
+          [
+            "Uso preventivo",
+            "Dose padrão conforme estudos",
+            "1x ao dia"
+          ],
+          [
+            "Tratamento intensivo",
+            "Dose terapêutica",
+            "Conforme orientação"
+          ],
+          [
+            "Manutenção",
+            "Dose mínima eficaz",
+            "Uso contínuo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Tomar e Absorção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Horário ideal conforme características do suplemento",
+          "Com ou sem alimentos (varia por tipo)",
+          "Evitar interações com outros suplementos/medicamentos",
+          "Consistência é mais importante que timing perfeito"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais e Contraindicações"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Geralmente seguro nas doses recomendadas",
+          "Gestantes devem consultar médico",
+          "Atenção a interações medicamentosas",
+          "Doses excessivas podem causar efeitos adversos"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Sempre consulte um profissional de saúde antes de iniciar suplementação, especialmente se você tem condições médicas ou usa medicamentos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultados?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os prazos variam conforme o objetivo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Primeiras 2 semanas: Adaptação e ajustes iniciais",
+          "1-2 meses: Primeiros resultados perceptíveis",
+          "3+ meses: Benefícios completos geralmente evidentes",
+          "Uso contínuo para manutenção dos resultados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Escolher o Melhor Produto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Marcas confiáveis e regulamentadas pela ANVISA",
+          "Verifique concentração real do princípio ativo",
+          "Compare custo por dose, não apenas preço do frasco",
+          "Leia avaliações de outros usuários",
+          "Prefira formas de maior biodisponibilidade"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber quais suplementos você realmente precisa?",
+        "botao": "Fazer Avaliação Gratuita",
+        "link": "/avaliacao"
       }
     ]
   }

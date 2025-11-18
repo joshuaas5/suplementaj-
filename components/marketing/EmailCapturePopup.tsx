@@ -17,23 +17,30 @@ export function EmailCapturePopup() {
     const hasSubmittedEmail = localStorage.getItem('emailSubmitted')
     const popupShownThisSession = sessionStorage.getItem('emailPopupShown')
 
-    // Se já foi mostrado nesta sessão, não mostrar novamente
+    // Se já foi mostrado, fechado ou submetido, NÃO mostrar
     if (hasClosedPopup || hasSubmittedEmail || popupShownThisSession) {
       return
     }
 
-    // Marcar que vai mostrar nesta sessão
-    sessionStorage.setItem('emailPopupShown', 'true')
+    // Função para abrir o popup (só abre se ainda não foi mostrado)
+    const openPopup = () => {
+      const alreadyShown = sessionStorage.getItem('emailPopupShown')
+      const alreadyClosed = localStorage.getItem('emailPopupClosed')
+      const alreadySubmitted = localStorage.getItem('emailSubmitted')
+
+      if (!alreadyShown && !alreadyClosed && !alreadySubmitted) {
+        sessionStorage.setItem('emailPopupShown', 'true')
+        setIsOpen(true)
+      }
+    }
 
     // Abrir após 15 segundos
-    const timer = setTimeout(() => {
-      setIsOpen(true)
-    }, 15000)
+    const timer = setTimeout(openPopup, 15000)
 
     // Abrir quando o usuário tentar sair da página (exit intent)
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0) {
-        setIsOpen(true)
+        openPopup()
       }
     }
 
