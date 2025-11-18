@@ -6,7 +6,7 @@
     "descricao": "Fórmula ultra-concentrada com 17 vitaminas e minerais fornecendo 100% da RDA em apenas 1 cápsula",
     "preco_aprox": 49,
     "doses_por_frasco": 90,
-    "link_amazon": "https://www.amazon.com.br/dp/B07MS89BTR",
+    "link_amazon": "https://www.amazon.com.br/dp/B07MS89BTR?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "vitamina-a", "dose": 600, "unidade": "mcg" },
       { "nutriente": "vitamina-d", "dose": 5, "unidade": "mcg" },
@@ -40,7 +40,7 @@
     "descricao": "Fórmula premium com 13 vitaminas e 10 minerais oferecendo 100% do VD em cada nutriente",
     "preco_aprox": 60,
     "doses_por_frasco": 60,
-    "link_amazon": "https://www.amazon.com.br/dp/B07MBHCVVH",
+    "link_amazon": "https://www.amazon.com.br/dp/B07MBHCVVH?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "vitamina-a", "dose": 800, "unidade": "mcg" },
       { "nutriente": "vitamina-d", "dose": 15, "unidade": "mcg" },
@@ -79,7 +79,7 @@
     "descricao": "Multivitamínico completo com 26 micronutrientes incluindo Vitamina D3, marca #1 recomendada por médicos",
     "preco_aprox": 85,
     "doses_por_frasco": 150,
-    "link_amazon": "https://www.amazon.com.br/dp/B0872FHWYY",
+    "link_amazon": "https://www.amazon.com.br/dp/B0872FHWYY?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "vitamina-a", "dose": 400, "unidade": "mcg" },
       { "nutriente": "vitamina-d", "dose": 5, "unidade": "mcg" },
@@ -118,7 +118,7 @@
     "descricao": "Fórmula específica para homens acima de 50 anos com doses elevadas de B12, D3 e antioxidantes",
     "preco_aprox": 110,
     "doses_por_frasco": 60,
-    "link_amazon": "https://www.amazon.com.br/dp/B099XRM79L",
+    "link_amazon": "https://www.amazon.com.br/dp/B099XRM79L?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "vitamina-d", "dose": 15, "unidade": "mcg" },
       { "nutriente": "vitamina-b12", "dose": 7.5, "unidade": "mcg" },
@@ -147,7 +147,7 @@
     "descricao": "Multivitamínico desenvolvido para mulheres com ferro e ácido fólico em doses adequadas",
     "preco_aprox": 35,
     "doses_por_frasco": 30,
-    "link_amazon": "https://www.amazon.com.br/dp/B0C83BH7FV",
+    "link_amazon": "https://www.amazon.com.br/dp/B0C83BH7FV?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "vitamina-a", "dose": 600, "unidade": "mcg" },
       { "nutriente": "vitamina-d", "dose": 5, "unidade": "mcg" },
@@ -178,7 +178,7 @@
     "descricao": "Suplemento específico para gestantes com 14 vitaminas e 6 minerais, rico em ácido fólico e ferro",
     "preco_aprox": 45,
     "doses_por_frasco": 30,
-    "link_amazon": "https://www.amazon.com.br/dp/B0CBHYM5QS",
+    "link_amazon": "https://www.amazon.com.br/dp/B0CBHYM5QS?tag=105c91-20",
     "nutrientes_incluidos": [
       { "nutriente": "acido-folico", "dose": 600, "unidade": "mcg" },
       { "nutriente": "ferro", "dose": 27, "unidade": "mg" },
