@@ -25,7 +25,7 @@ export function trackEvent(
 }
 
 /**
- * Rastreia inÌcio do quiz
+ * Rastreia in√≠cio do quiz
  */
 export function trackQuizStart() {
   trackEvent('quiz_start', {
@@ -35,7 +35,7 @@ export function trackQuizStart() {
 }
 
 /**
- * Rastreia conclus„o do quiz
+ * Rastreia conclus√£o do quiz
  */
 export function trackQuizComplete(perfil: any) {
   trackEvent('quiz_complete', {
@@ -61,7 +61,7 @@ export function trackProductClick(
     value: productPrice,
   })
 
-  // TambÈm enviar como evento de convers„o
+  // Tamb√©m enviar como evento de convers√£o
   trackEvent('click_affiliate_link', {
     event_category: 'ecommerce',
     event_label: productName,
@@ -100,7 +100,7 @@ export function trackSocialShare(platform: string) {
 }
 
 /**
- * Rastreia visualizaÁ„o de p·gina de resultado
+ * Rastreia visualiza√ß√£o de p√°gina de resultado
  */
 export function trackResultsView(numRecomendacoes: number) {
   trackEvent('view_results', {
@@ -122,7 +122,7 @@ export function trackArticleView(articleSlug: string, category: string) {
 }
 
 /**
- * Rastreia tempo gasto em uma p·gina (chamar ao desmontar componente)
+ * Rastreia tempo gasto em uma p√°gina (chamar ao desmontar componente)
  */
 export function trackTimeOnPage(pageId: string, timeInSeconds: number) {
   trackEvent('time_on_page', {

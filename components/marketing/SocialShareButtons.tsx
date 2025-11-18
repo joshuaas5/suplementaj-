@@ -11,8 +11,8 @@ interface SocialShareButtonsProps {
 }
 
 export function SocialShareButtons({
-  title = 'Suplementa Já - Descubra suas deficiências nutricionais',
-  text = 'Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! =Š',
+  title = 'Suplementa JÃ¡ - Descubra suas deficiÃªncias nutricionais',
+  text = 'Acabei de descobrir minhas deficiÃªncias nutricionais com o Suplementa JÃ¡! FaÃ§a vocÃª tambÃ©m, Ã© grÃ¡tis! ðŸš€',
   url,
   showLabel = true,
 }: SocialShareButtonsProps) {
@@ -68,7 +68,7 @@ export function SocialShareButtons({
     <div className="space-y-4">
       {showLabel && (
         <div className="bg-black border-4 border-black px-4 py-2 inline-block">
-          <p className="text-yellow-400 font-black text-sm uppercase">=â Compartilhe seus resultados</p>
+          <p className="text-yellow-400 font-black text-sm uppercase">ðŸš€ Compartilhe seus resultados</p>
         </div>
       )}
 
@@ -131,8 +131,8 @@ export function SocialShareButtons({
       {showLabel && (
         <div className="bg-cyan-400 border-4 border-black p-4 mt-4">
           <p className="text-black font-bold text-sm leading-relaxed">
-            =¡ <span className="bg-white px-2 py-1">Ajude seus amigos!</span> Compartilhe para que
-            mais pessoas descubram suas deficiências nutricionais e melhorem sua saúde.
+            ðŸŽ¯ <span className="bg-white px-2 py-1">Ajude seus amigos!</span> Compartilhe para que
+            mais pessoas descubram suas deficiÃªncias nutricionais e melhorem sua saÃºde.
           </p>
         </div>
       )}

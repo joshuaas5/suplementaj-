@@ -12,7 +12,7 @@ export function EmailCapturePopup() {
   const [submitted, setSubmitted] = useState(false)
 
   useEffect(() => {
-    // Verificar se o usuário já fechou ou enviou o formulário
+    // Verificar se o usuÃ¡rio jÃ¡ fechou ou enviou o formulÃ¡rio
     const hasClosedPopup = localStorage.getItem('emailPopupClosed')
     const hasSubmittedEmail = localStorage.getItem('emailSubmitted')
 
@@ -20,12 +20,12 @@ export function EmailCapturePopup() {
       return
     }
 
-    // Abrir após 15 segundos
+    // Abrir apÃ³s 15 segundos
     const timer = setTimeout(() => {
       setIsOpen(true)
     }, 15000)
 
-    // Abrir quando o usuário tentar sair da página (exit intent)
+    // Abrir quando o usuÃ¡rio tentar sair da pÃ¡gina (exit intent)
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0) {
         setIsOpen(true)
@@ -50,7 +50,7 @@ export function EmailCapturePopup() {
     setLoading(true)
 
     try {
-      // Aqui você pode integrar com sua ferramenta de email marketing
+      // Aqui vocÃª pode integrar com sua ferramenta de email marketing
       // Por enquanto, vamos apenas salvar no localStorage
       const lead = {
         email,
@@ -76,7 +76,7 @@ export function EmailCapturePopup() {
 
       setSubmitted(true)
 
-      // Fechar após 3 segundos
+      // Fechar apÃ³s 3 segundos
       setTimeout(() => {
         setIsOpen(false)
       }, 3000)
@@ -106,11 +106,11 @@ export function EmailCapturePopup() {
             {/* Header */}
             <div className="mb-6">
               <div className="inline-block bg-yellow-400 border-4 border-black px-4 py-2 mb-4 -rotate-1">
-                <h3 className="text-2xl font-black uppercase">< Oferta Especial</h3>
+                <h3 className="text-2xl font-black uppercase">ğŸ Oferta Especial</h3>
               </div>
               <p className="text-lg font-bold text-gray-900 leading-relaxed">
-                Receba <span className="bg-lime-400 px-2 py-1 border-2 border-black">GRÁTIS</span> o
-                guia completo de suplementação + recomendações personalizadas por email!
+                Receba <span className="bg-lime-400 px-2 py-1 border-2 border-black">GRÃTIS</span> o
+                guia completo de suplementaÃ§Ã£o + recomendaÃ§Ãµes personalizadas por email!
               </p>
             </div>
 
@@ -157,18 +157,18 @@ export function EmailCapturePopup() {
                 disabled={loading}
                 className="w-full text-lg"
               >
-                {loading ? 'Enviando...' : 'Quero Receber Grátis! =€'}
+                {loading ? 'Enviando...' : 'Quero Receber GrÃ¡tis! ğŸš€'}
               </Button>
 
               <p className="text-xs text-gray-600 text-center font-bold">
-                 Sem spam.  Cancele quando quiser.  100% gratuito.
+                âœ“ Sem spam. âœ“ Cancele quando quiser. âœ“ 100% gratuito.
               </p>
             </form>
           </>
         ) : (
           <div className="text-center py-8">
             <div className="inline-block bg-lime-400 border-4 border-black px-6 py-3 mb-4">
-              <h3 className="text-3xl font-black"><‰ Sucesso!</h3>
+              <h3 className="text-3xl font-black">âœ… Sucesso!</h3>
             </div>
             <p className="text-lg font-bold text-gray-900 mb-2">
               Obrigado por se cadastrar, {nome}!
@@ -176,7 +176,7 @@ export function EmailCapturePopup() {
             <p className="text-gray-600 font-bold">
               Enviamos seu guia para <span className="text-blue-600">{email}</span>
             </p>
-            <p className="text-sm text-gray-500 mt-4 font-bold">Verificque sua caixa de entrada</p>
+            <p className="text-sm text-gray-500 mt-4 font-bold">Verifique sua caixa de entrada</p>
           </div>
         )}
       </div>
