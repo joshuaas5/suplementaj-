@@ -66,8 +66,8 @@ export function EmailCapturePopup() {
       localStorage.setItem('emailSubmitted', 'true')
 
       // Enviar evento para Google Analytics
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        ;(window as any).gtag('event', 'generate_lead', {
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'generate_lead', {
           event_category: 'engagement',
           event_label: 'email_popup',
           value: email,

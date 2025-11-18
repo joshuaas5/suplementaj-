@@ -30,8 +30,8 @@ export function SocialShareButtons({
       setCopied(true)
 
       // Enviar evento para GA
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        ;(window as any).gtag('event', 'share', {
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'share', {
           method: 'copy_link',
           content_type: 'url',
           item_id: shareUrl,
@@ -46,8 +46,8 @@ export function SocialShareButtons({
 
   const handleShare = (platform: string, url: string) => {
     // Enviar evento para GA
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      ;(window as any).gtag('event', 'share', {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'share', {
         method: platform,
         content_type: 'url',
         item_id: shareUrl,

@@ -4,12 +4,12 @@
 
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void
+    gtag?: (command: string, eventName: string, params?: Record<string, unknown>) => void
   }
 }
 
 interface EventParams {
-  [key: string]: any
+  [key: string]: string | number | boolean | undefined
 }
 
 /**
@@ -37,7 +37,11 @@ export function trackQuizStart() {
 /**
  * Rastreia conclusão do quiz
  */
-export function trackQuizComplete(perfil: any) {
+export function trackQuizComplete(perfil: {
+  sexo?: string
+  idade?: string
+  dieta?: string
+}) {
   trackEvent('quiz_complete', {
     event_category: 'engagement',
     event_label: 'avaliacao_concluida',
