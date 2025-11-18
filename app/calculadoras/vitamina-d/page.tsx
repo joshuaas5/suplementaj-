@@ -9,6 +9,8 @@ import { Card, CardContent } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import { trackEvent } from '@/lib/analytics'
+import { getAmazonProductUrl } from '@/lib/amazon-products'
+import { ExternalLink } from 'lucide-react'
 
 interface VitaminaDResult {
   producaoDiaria: number
@@ -281,17 +283,44 @@ export default function CalculadoraVitaminaDPage() {
                       <Badge variant="warning" className="mt-2">Suplementação Recomendada</Badge>
                     )}
                   </div>
-                  <Link href="/nutrientes/vitamina-d">
-                    <Badge variant="neutral" className="uppercase text-xs">Ver Detalhes</Badge>
-                  </Link>
+                  <div className="flex gap-2">
+                    <Link href="/nutrientes/vitamina-d">
+                      <Badge variant="neutral" className="uppercase text-xs">
+                        Saiba Mais
+                      </Badge>
+                    </Link>
+                    <a
+                      href={getAmazonProductUrl('vitamina-d')}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow sponsored"
+                    >
+                      <Badge variant="success" className="uppercase text-xs flex items-center gap-1">
+                        <ExternalLink className="w-3 h-3" />
+                        Comprar
+                      </Badge>
+                    </a>
+                  </div>
                 </div>
-                <div className="space-y-2 text-sm text-gray-700">
+                <div className="space-y-2 text-sm text-gray-700 mb-4">
                   <p><strong>Dose ideal:</strong> {resultado.doseSugerida > 0 ? `${resultado.doseSugerida} UI/dia` : 'Não necessária (exposição solar suficiente)'}</p>
                   <p><strong>Melhor forma:</strong> D3 (mais eficaz que D2)</p>
                   <p><strong>Quando tomar:</strong> Junto com refeição que contenha gordura</p>
                   <p><strong>Segurança:</strong> Até 4000 UI/dia é seguro sem supervisão médica</p>
                   <p className="text-xs text-gray-600 mt-2">⚠️ Faça exame de 25(OH)D para verificar seus níveis reais (ideal: 30-50 ng/ml)</p>
                 </div>
+                {resultado.suplementacaoNecessaria && (
+                  <a
+                    href={getAmazonProductUrl('vitamina-d')}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow sponsored"
+                    className="block"
+                  >
+                    <Button variant="primary" size="sm" className="w-full">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Comprar Vitamina D3 na Amazon
+                    </Button>
+                  </a>
+                )}
               </div>
             </div>
 

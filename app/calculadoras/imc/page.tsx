@@ -9,6 +9,8 @@ import { Card, CardContent } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import { trackEvent } from '@/lib/analytics'
+import { getAmazonProductUrl } from '@/lib/amazon-products'
+import { ExternalLink } from 'lucide-react'
 
 interface IMCResult {
   imc: number
@@ -294,13 +296,36 @@ export default function CalculadoraIMCPage() {
                   <div key={idx} className="bg-white border-2 border-black p-4">
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-bold text-black">{sup.nome}</h4>
-                      <Link href={`/nutrientes/${sup.slug}`}>
-                        <Badge variant="neutral" className="uppercase text-xs">
-                          Ver Detalhes
-                        </Badge>
-                      </Link>
+                      <div className="flex gap-2">
+                        <Link href={`/nutrientes/${sup.slug}`}>
+                          <Badge variant="neutral" className="uppercase text-xs">
+                            Saiba Mais
+                          </Badge>
+                        </Link>
+                        <a
+                          href={getAmazonProductUrl(sup.slug)}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow sponsored"
+                        >
+                          <Badge variant="success" className="uppercase text-xs flex items-center gap-1">
+                            <ExternalLink className="w-3 h-3" />
+                            Comprar
+                          </Badge>
+                        </a>
+                      </div>
                     </div>
-                    <p className="text-sm text-gray-600">{sup.razao}</p>
+                    <p className="text-sm text-gray-600 mb-3">{sup.razao}</p>
+                    <a
+                      href={getAmazonProductUrl(sup.slug)}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow sponsored"
+                      className="block"
+                    >
+                      <Button variant="primary" size="sm" className="w-full">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Ver na Amazon
+                      </Button>
+                    </a>
                   </div>
                 ))}
               </div>

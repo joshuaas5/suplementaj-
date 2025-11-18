@@ -83,7 +83,7 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mb-12">
               <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:-rotate-1">
-                <div className="text-4xl sm:text-5xl font-black text-black mb-1">39</div>
+                <div className="text-4xl sm:text-5xl font-black text-black mb-1">40+</div>
                 <div className="text-sm font-bold uppercase text-black">Nutrientes</div>
               </div>
               <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:rotate-1">
