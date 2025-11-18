@@ -51,7 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   // Páginas dinâmicas de nutrientes
-  const nutrientePages: MetadataRoute.Sitemap = nutrientesData.map((nutriente) => ({
+  const nutrientePages: MetadataRoute.Sitemap = Object.values(nutrientesData).map((nutriente) => ({
     url: `${baseUrl}/nutrientes/${nutriente.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
