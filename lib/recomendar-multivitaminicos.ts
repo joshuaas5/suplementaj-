@@ -99,11 +99,51 @@ export function recomendarMultivitaminicos(
     }
   })
 
-  // Ordenar por score e retornar top 3
-  return multisComScore
-    .filter((m) => m.nutrientes_cobertos.length >= 3) // Mínimo 3 nutrientes cobertos
+  // Filtrar multis com cobertura mínima
+  const multisFiltrados = multisComScore
+    .filter((m) => m.nutrientes_cobertos.length >= 3)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
+
+  // Priorizar multis específicos para o perfil
+  const multisEspecificos: MultivitaminicoRecomendado[] = []
+  const multisGenericos: MultivitaminicoRecomendado[] = []
+
+  for (const multi of multisFiltrados) {
+    let isEspecifico = false
+
+    // Verifica se é específico para o perfil
+    if (perfil.idade && perfil.idade >= 50 && multi.id.includes('50-plus')) {
+      isEspecifico = true
+    }
+    if (perfil.sexo === 'F' && multi.id.includes('mulher')) {
+      isEspecifico = true
+    }
+    if (perfil.sexo === 'M' && multi.id.includes('homem')) {
+      isEspecifico = true
+    }
+    if (perfil.dieta === 'vegana' && multi.id.includes('vegano')) {
+      isEspecifico = true
+    }
+    if (
+      (perfil.status_reprodutivo === 'gravida' || perfil.status_reprodutivo === 'lactante') &&
+      multi.id.includes('prenatal')
+    ) {
+      isEspecifico = true
+    }
+
+    if (isEspecifico) {
+      multisEspecificos.push(multi)
+    } else {
+      multisGenericos.push(multi)
+    }
+  }
+
+  // Retorna: até 2 específicos + completa com genéricos se necessário (max 3 total)
+  const especificos = multisEspecificos.slice(0, 2)
+  const faltam = Math.max(0, 3 - especificos.length)
+  const genericos = multisGenericos.slice(0, faltam)
+
+  return [...especificos, ...genericos]
 }
 
 /**
