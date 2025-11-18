@@ -113,6 +113,28 @@ export default function CalculadoraIMCPage() {
   const [altura, setAltura] = useState('')
   const [resultado, setResultado] = useState<IMCResult | null>(null)
 
+  const handleAlturaChange = (value: string) => {
+    // Remove caracteres não numéricos exceto ponto
+    const cleanValue = value.replace(/[^\d.]/g, '')
+
+    // Se estiver vazio, só atualiza
+    if (!cleanValue) {
+      setAltura('')
+      return
+    }
+
+    const numValue = parseFloat(cleanValue)
+
+    // Se digitar >= 10 (ex: 175), assume que é cm e converte para metros
+    if (numValue >= 10) {
+      const metros = (numValue / 100).toFixed(2)
+      setAltura(metros)
+    } else {
+      // Já está em metros, mantém
+      setAltura(cleanValue)
+    }
+  }
+
   const handleCalcular = () => {
     const pesoNum = parseFloat(peso)
     const alturaNum = parseFloat(altura)
@@ -173,17 +195,17 @@ export default function CalculadoraIMCPage() {
           </div>
           <div>
             <label className="block text-sm font-bold text-black mb-2 uppercase">
-              Altura (m)
+              Altura (digite em cm ou m)
             </label>
             <Input
-              type="number"
-              placeholder="Ex: 1.75"
+              type="text"
+              placeholder="Ex: 175 ou 1.75"
               value={altura}
-              onChange={(e) => setAltura(e.target.value)}
-              min="1.0"
-              max="2.5"
-              step="0.01"
+              onChange={(e) => handleAlturaChange(e.target.value)}
             />
+            <p className="text-xs text-gray-600 mt-1">
+              Digite 175 (converte para 1.75m automaticamente)
+            </p>
           </div>
         </div>
 

@@ -81,6 +81,28 @@ export default function CalculadoraDeficitCaloricoPage() {
   const [atividade, setAtividade] = useState('moderado')
   const [resultado, setResultado] = useState<CaloriasResult | null>(null)
 
+  const handleAlturaChange = (value: string) => {
+    // Remove caracteres não numéricos exceto ponto
+    const cleanValue = value.replace(/[^\d.]/g, '')
+
+    // Se estiver vazio, só atualiza
+    if (!cleanValue) {
+      setAltura('')
+      return
+    }
+
+    const numValue = parseFloat(cleanValue)
+
+    // Se digitar >= 10 (ex: 175), assume que é cm e converte para metros
+    if (numValue >= 10) {
+      const metros = (numValue / 100).toFixed(2)
+      setAltura(metros)
+    } else {
+      // Já está em metros, mantém
+      setAltura(cleanValue)
+    }
+  }
+
   const handleCalcular = () => {
     const pesoNum = parseFloat(peso)
     const alturaNum = parseFloat(altura)
@@ -130,8 +152,9 @@ export default function CalculadoraDeficitCaloricoPage() {
             <Input type="number" placeholder="Ex: 70" value={peso} onChange={(e) => setPeso(e.target.value)} />
           </div>
           <div>
-            <label className="block text-sm font-bold text-black mb-2 uppercase">Altura (m)</label>
-            <Input type="number" placeholder="Ex: 1.75" value={altura} onChange={(e) => setAltura(e.target.value)} step="0.01" />
+            <label className="block text-sm font-bold text-black mb-2 uppercase">Altura (digite em cm ou m)</label>
+            <Input type="text" placeholder="Ex: 175 ou 1.75" value={altura} onChange={(e) => handleAlturaChange(e.target.value)} />
+            <p className="text-xs text-gray-600 mt-1">Digite 175 (converte para 1.75m automaticamente)</p>
           </div>
           <div>
             <label className="block text-sm font-bold text-black mb-2 uppercase">Idade</label>
