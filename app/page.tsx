@@ -37,7 +37,7 @@ export default function Home() {
               <p className="text-xl sm:text-2xl text-black font-bold leading-relaxed">
                 Recomendações personalizadas de vitaminas e minerais baseadas em{' '}
                 <span className="bg-cyan-400 px-2 py-1">evidências científicas</span>.
-                <br />Responda 6 perguntas e receba seu plano em 2 minutos.
+                <br />Responda algumas perguntas e receba seu plano personalizado!
               </p>
             </div>
 
