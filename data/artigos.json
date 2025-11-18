@@ -2737,5 +2737,539 @@
         "texto": "Colágeno funciona, mas não é mágica. Combine com protetor solar, dieta rica em antioxidantes, hidratação e sono adequado para resultados ótimos."
       }
     ]
+  },
+  {
+    "slug": "vitamina-c-imunidade-gripes-resfriados",
+    "titulo": "Vitamina C: Imunidade, Gripes e Dose Ideal (1g ou 2g?)",
+    "descricao": "Descubra a verdade sobre vitamina C: previne gripes? Quanto tomar? Ácido ascórbico vs ester-C. Mega doses funcionam?",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-26",
+    "categoria": "Vitaminas",
+    "tags": [
+      "vitamina c",
+      "imunidade",
+      "gripes",
+      "resfriados",
+      "ácido ascórbico"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/vitamina-c.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Previne gripes?**: NÃO previne, mas REDUZ duração em 8-14% (1-2 dias)\n• **Dose**: 500-1.000 mg/dia (manutenção) | 1.000-2.000 mg/dia (resfriado ativo)\n• **Mega doses (>2g)**: Não trazem benefício adicional, apenas diarreia\n• **Melhor forma**: Ácido ascórbico puro (mais barato e eficaz)\n• **Quando tomar**: Dividir dose (500mg 2x/dia = melhor que 1g 1x)\n• **Alimentos**: Laranja, kiwi, pimentão, acerola (1 colher = 1.000mg!)\n• **Sinais de deficiência**: Sangramento gengival, hematomas fáceis, cicatrização lenta\n• **Tempo para efeito**: Imediato (absorção em 2-4h)\n• **Custo**: R$15-30/mês"
+      }
+    ]
+  },
+  {
+    "slug": "calcio-ossos-osteoporose-qual-tomar",
+    "titulo": "Cálcio: Como Prevenir Osteoporose e Qual Suplemento Tomar",
+    "descricao": "Guia completo sobre suplementação de cálcio: citrato vs carbonato, dose ideal, quando tomar com vitamina D e K2.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Minerais",
+    "tags": [
+      "cálcio",
+      "ossos",
+      "osteoporose",
+      "vitamina d",
+      "vitamina k2"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/calcio.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Dose**: 1.000-1.200 mg/dia (mulheres 50+, homens 70+) | 500-800 mg/dia (adultos jovens)\n• **Citrato de Cálcio**: Melhor absorção, pode tomar em jejum, ideal para idosos\n• **Carbonato de Cálcio**: Mais barato, precisa tomar com alimento\n• **CRÍTICO**: Sempre tomar com vitamina D3 (sem D, cálcio não absorve)\n• **IMPORTANTE**: Adicionar vitamina K2 (direciona cálcio para ossos, não artérias)\n• **Quando tomar**: Dividir dose (500mg 2x/dia), LONGE de ferro/zinco\n• **Alimentos**: Leite, queijo, iogurte, tofu, sardinha com ossos\n• **Risco**: Suplementação SEM K2 pode calcificar artérias\n• **Tempo para efeito**: 6-12 meses (densidade óssea)\n• **Custo**: R$20-40/mês"
+      }
+    ]
+  },
+  {
+    "slug": "biotina-cabelo-unhas-dose-funciona",
+    "titulo": "Biotina para Cabelo e Unhas: Funciona? Dose de 5mg ou 10mg?",
+    "descricao": "Verdade sobre biotina: realmente faz cabelo crescer? Dose ideal, quanto tempo para ver resultado, mitos e evidências.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-28",
+    "categoria": "Beleza",
+    "tags": [
+      "biotina",
+      "cabelo",
+      "unhas",
+      "vitamina b7",
+      "queda de cabelo"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/biotina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Funciona?**: SIM, mas APENAS se você tiver deficiência (raro)\n• **Dose**: 30-100 mcg/dia (necessidade) | 2.500-10.000 mcg/dia (suplementos comerciais)\n• **Mega doses (10mg)**: SEM evidência de benefício adicional vs dose baixa\n• **Tempo para efeito**: 3-6 meses (cabelo), 2-3 meses (unhas)\n• **Sinais de deficiência**: Queda de cabelo, unhas quebradiças, dermatite\n• **Quem se beneficia**: Gestantes, alcoolistas, uso prolongado de antibióticos\n• **Problema**: Interfere em exames laboratoriais (troponina, TSH)\n• **Melhor opção**: Complexo B completo (mais eficaz que biotina isolada)\n• **Alimentos**: Ovos, nozes, salmão, abacate\n• **Custo**: R$15-35/mês"
+      }
+    ]
+  },
+  {
+    "slug": "ashwagandha-estresse-ansiedade-cortisol",
+    "titulo": "Ashwagandha: Reduz Estresse e Cortisol? Dose e Efeitos Colaterais",
+    "descricao": "Guia completo sobre ashwagandha: benefícios para estresse, ansiedade, testosterona, dose ideal e quando NÃO tomar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-29",
+    "categoria": "Adaptógenos",
+    "tags": [
+      "ashwagandha",
+      "estresse",
+      "ansiedade",
+      "cortisol",
+      "testosterona",
+      "adaptógeno"
+    ],
+    "tempo_leitura": "11 min",
+    "imagem": "/images/blog/ashwagandha.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Reduz estresse/ansiedade em 30-40%, cortisol em 27%, melhora sono\n• **Dose**: 300-600 mg/dia (extrato padronizado withanolides)\n• **Testosterona**: Aumenta em 10-15% em homens com cortisol alto/estresse\n• **KSM-66**: Melhor extrato (mais estudado, 5% withanolides)\n• **Quando tomar**: À noite (causa sonolência) OU pela manhã (se não causar sono)\n• **Tempo para efeito**: 2-4 semanas (estresse), 8-12 semanas (máximo benefício)\n• **Efeitos colaterais**: Sonolência, desconforto gástrico (tomar com alimento)\n• **Não tomar**: Gestantes, autoimune (pode estimular sistema imune)\n• **Ciclar?**: Opcional. Pode usar 8 semanas on, 2 semanas off\n• **Custo**: R$40-80/mês"
+      }
+    ]
+  },
+  {
+    "slug": "melatonina-sono-insonia-dose-ideal",
+    "titulo": "Melatonina: Dose Ideal para Insônia (0.5mg, 3mg ou 10mg?)",
+    "descricao": "Descubra a dose certa de melatonina, quando tomar, efeitos colaterais e por que menos pode ser mais eficaz.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-30",
+    "categoria": "Sono",
+    "tags": [
+      "melatonina",
+      "sono",
+      "insônia",
+      "jet lag",
+      "hormônio do sono"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/melatonina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Dose ideal**: 0.3-1 mg (mais eficaz!) | Doses comerciais 3-10mg são EXCESSIVAS\n• **Quando tomar**: 30-60 min antes de dormir\n• **Para que serve**: Ajusta ritmo circadiano, reduz latência do sono (adormecer mais rápido)\n• **Jet lag**: 0.5-5 mg no horário de dormir do destino (3 dias)\n• **NÃO CAUSA**: Dependência ou supressão de produção natural\n• **Efeitos colaterais**: Sonolência diurna (se dose alta), pesadelos, dor de cabeça\n• **Quem não deve tomar**: Gestantes, crianças (sem orientação), autoimune\n• **Menos é mais**: 0.3mg pode ser TÃO eficaz quanto 5mg (com menos efeitos colaterais)\n• **Tempo para efeito**: 30-60 minutos\n• **Custo**: R$15-30/mês"
+      }
+    ]
+  },
+  {
+    "slug": "probioticos-intestino-flora-intestinal",
+    "titulo": "Probióticos: Guia Completo para Saúde Intestinal e Imunidade",
+    "descricao": "Tudo sobre probióticos: bilhões de UFC, cepas certas, quando tomar, benefícios e como escolher o melhor.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-31",
+    "categoria": "Saúde Intestinal",
+    "tags": [
+      "probióticos",
+      "intestino",
+      "flora intestinal",
+      "imunidade",
+      "digestão"
+    ],
+    "tempo_leitura": "11 min",
+    "imagem": "/images/blog/probioticos.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Para que serve**: Saúde intestinal, imunidade, digestão, reduz diarreia (antibióticos)\n• **Dose**: 10-50 bilhões UFC/dia (manutenção) | 50-100 bilhões (tratamento)\n• **Cepas importantes**: Lactobacillus acidophilus, Bifidobacterium lactis, Lactobacillus rhamnosus GG\n• **Quando tomar**: Em jejum (30 min antes café) OU antes de dormir\n• **Refrigeração**: Nem sempre necessária (depende da cepa/tecnologia)\n• **Tempo para efeito**: 2-4 semanas (flora normalizar)\n• **Quem precisa**: Pós-antibióticos, SII, intestino irritável, baixa imunidade\n• **Alimentos**: Iogurte, kefir, chucrute, kimchi (mas doses menores)\n• **Custo**: R$40-100/mês"
+      }
+    ]
+  },
+  {
+    "slug": "vitamina-k2-d3-calcio-ossos-coracao",
+    "titulo": "Vitamina K2 + D3: A Dupla Essencial para Ossos e Coração",
+    "descricao": "Por que vitamina K2 é crítica com D3, como prevenir calcificação arterial e dose ideal de K2 MK-7.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-01",
+    "categoria": "Vitaminas",
+    "tags": [
+      "vitamina k2",
+      "vitamina d3",
+      "calcio",
+      "ossos",
+      "coração",
+      "mk-7"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/vitamina-k2.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "danger",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **CRÍTICO**: Tomar D3 SEM K2 pode calcificar artérias (perigoso!)\n• **Função**: K2 direciona cálcio para ossos (bom) e REMOVE de artérias (proteção)\n• **Dose**: 100-200 mcg/dia (K2 MK-7)\n• **Sempre com**: Vitamina D3 (qualquer dose >2.000 UI precisa K2)\n• **MK-7 vs MK-4**: MK-7 é melhor (meia-vida longa, dose 1x/dia)\n• **Quando tomar**: Com refeição gordurosa (lipossolúvel)\n• **Benefícios**: Reduz calcificação arterial, melhora densidade óssea, saúde cardiovascular\n• **Alimentos**: Natto (100 mcg/porção), queijos fermentados, gema de ovo\n• **Tempo para efeito**: 3-6 meses (marcadores ósseos/cardiovasculares)\n• **Custo**: R$30-60/mês"
+      }
+    ]
+  },
+  {
+    "slug": "iodo-tireoide-hipotireoidismo-dose",
+    "titulo": "Iodo para Tireoide: Previne Hipotireoidismo? Dose e Riscos",
+    "descricao": "Descubra se você precisa suplementar iodo, dose ideal, relação com hipotireoidismo e quando evitar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-02",
+    "categoria": "Minerais",
+    "tags": [
+      "iodo",
+      "tireoide",
+      "hipotireoidismo",
+      "tsh",
+      "hormônios"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/iodo.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Função**: Essencial para produção de hormônios tireoidianos (T3, T4)\n• **Dose**: 150 mcg/dia (adultos) | 220 mcg (gestantes) | 290 mcg (lactantes)\n• **Deficiência**: Causa hipotireoidismo, bócio, fadiga, ganho de peso\n• **Excesso**: Também causa hipotireoidismo ou hipertireoidismo (paradoxal)\n• **Quem precisa**: Gestantes, veganos, pessoas que não usam sal iodado\n• **Alimentos**: Algas marinhas, peixe, ovos, leite, sal iodado\n• **Cuidado**: NÃO suplementar se tiver Hashimoto ou hipertireoidismo (pode piorar)\n• **Exame**: TSH (triagem), T3/T4 livre, iodo urinário\n• **Tempo para efeito**: 4-8 semanas (TSH normalizar)\n• **Custo**: R$15-30/mês"
+      }
+    ]
+  },
+  {
+    "slug": "selenio-tireoide-imunidade-antioxidante",
+    "titulo": "Selênio: Tireoide, Imunidade e Poder Antioxidante",
+    "descricao": "Benefícios do selênio para tireoide, imunidade e fertilidade. Dose de 200 mcg, castanha do pará e suplementação.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-03",
+    "categoria": "Minerais",
+    "tags": [
+      "selênio",
+      "tireoide",
+      "imunidade",
+      "antioxidante",
+      "castanha do pará"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/selenio.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Tireoide (converte T4 em T3), imunidade, antioxidante potente, fertilidade\n• **Dose**: 55-200 mcg/dia (não exceder 400 mcg)\n• **Castanha do Pará**: 1-2 unidades/dia = 200 mcg (SUFICIENTE!)\n• **Deficiência**: Comum no Brasil (solo pobre), causa hipotireoidismo, baixa imunidade\n• **Hashimoto**: Selênio reduz anticorpos tireoidianos em 50% (200 mcg/dia)\n• **Fertilidade**: Essencial para produção de esperma (homens)\n• **Forma**: Selenometionina (orgânica) > Selenito de sódio\n• **Toxicidade**: >400 mcg/dia causa queda de cabelo, unhas quebradiças, hálito de alho\n• **Tempo para efeito**: 8-12 semanas (tireoide, imunidade)\n• **Custo**: R$0-25/mês (se comer castanhas = grátis!)"
+      }
+    ]
+  },
+  {
+    "slug": "vitamina-e-antioxidante-pele-fertilidade",
+    "titulo": "Vitamina E: Antioxidante para Pele, Fertilidade e Coração",
+    "descricao": "Benefícios da vitamina E, dose ideal, tocoferóis vs tocotrienóis, e quando suplementar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-04",
+    "categoria": "Vitaminas",
+    "tags": [
+      "vitamina e",
+      "antioxidante",
+      "pele",
+      "fertilidade",
+      "tocoferol"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/vitamina-e.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Antioxidante potente, pele saudável, fertilidade, proteção cardiovascular\n• **Dose**: 15 mg/dia (22.5 UI) necessidade | 200-400 mg (suplementação)\n• **Forma**: d-alfa-tocoferol (natural) > dl-alfa-tocoferol (sintético)\n• **Tocotrienóis**: Forma superior (mais antioxidante), mas mais cara\n• **Quando tomar**: Com refeição gordurosa (lipossolúvel)\n• **Deficiência**: Rara (principalmente má absorção de gorduras)\n• **Sinais**: Fraqueza muscular, problemas de visão, formigamento\n• **Cuidado**: Doses >400 UI podem aumentar risco de AVC hemorrágico\n• **Alimentos**: Amêndoas, avelãs, abacate, espinafre, azeite\n• **Custo**: R$20-40/mês"
+      }
+    ]
+  },
+  {
+    "slug": "curcuma-curcumina-inflamacao-articulacoes",
+    "titulo": "Cúrcuma/Curcumina: Anti-inflamatório Natural para Articulações",
+    "descricao": "Benefícios da curcumina, dose com piperina, efeitos anti-inflamatórios e quando realmente funciona.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-05",
+    "categoria": "Anti-inflamatórios",
+    "tags": [
+      "cúrcuma",
+      "curcumina",
+      "inflamação",
+      "articulações",
+      "piperina"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/curcuma.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Anti-inflamatório potente, dor articular (osteoartrite), digestão\n• **Dose**: 500-1.000 mg curcumina/dia (NÃO cúrcuma em pó, baixa absorção)\n• **CRÍTICO**: Precisa PIPERINA (pimenta preta) - aumenta absorção em 2.000%!\n• **Melhor forma**: Curcumina com Bioperine (piperina padronizada)\n• **Quando tomar**: Com refeição gordurosa\n• **Osteoartrite**: Eficácia similar a ibuprofeno (1.000 mg/dia)\n• **Tempo para efeito**: 4-8 semanas (dor articular)\n• **Efeitos colaterais**: Desconforto gástrico (raro), pode afinar sangue (cuidado com anticoagulantes)\n• **Alimentos**: Açafrão-da-terra (3-5% curcumina) - precisa MUITA quantidade\n• **Custo**: R$30-60/mês"
+      }
+    ]
+  },
+  {
+    "slug": "spirulina-superalimento-proteina-vegana",
+    "titulo": "Spirulina: Superalimento ou Hype? Proteína, B12 e Detox",
+    "descricao": "Verdade sobre spirulina: benefícios reais, mitos (B12 não funciona!), dose ideal e quando vale a pena.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-06",
+    "categoria": "Superalimentos",
+    "tags": [
+      "spirulina",
+      "proteína vegana",
+      "superalimento",
+      "algas",
+      "detox"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/spirulina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios REAIS**: Proteína completa (60-70%), antioxidantes, reduz colesterol\n• **MITO**: B12 da spirulina NÃO é biodisponível (não serve para veganos)\n• **Dose**: 3-5g/dia (manutenção) | 10g/dia (atletas)\n• **Proteína**: 3g spirulina = 2g proteína (não substitui whey/alimentos)\n• **Detox**: SEM evidência científica sólida\n• **Quando vale**: Veganos (proteína extra), antioxidantes, reduzir colesterol\n• **Qualidade**: Comprar de fontes confiáveis (contaminação por metais)\n• **Sabor**: HORRÍVEL (melhor em cápsulas ou smoothies)\n• **Tempo para efeito**: 4-8 semanas (colesterol, energia)\n• **Custo**: R$40-80/mês"
+      }
+    ]
+  },
+  {
+    "slug": "maca-peruana-libido-energia-hormônios",
+    "titulo": "Maca Peruana: Libido, Energia e Equilíbrio Hormonal",
+    "descricao": "Benefícios da maca peruana para libido, energia, fertilidade e hormônios. Dose ideal e cores (amarela, vermelha, preta).",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-07",
+    "categoria": "Adaptógenos",
+    "tags": [
+      "maca peruana",
+      "libido",
+      "energia",
+      "fertilidade",
+      "adaptógeno"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/maca-peruana.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Aumenta libido (homens e mulheres), energia, fertilidade masculina\n• **Dose**: 1.500-3.000 mg/dia (pó ou extrato)\n• **Cores**: Amarela (energia), Vermelha (mulheres, próstata), Preta (homens, fertilidade)\n• **Libido**: Aumenta em 40-50% após 8-12 semanas (evidência moderada)\n• **Fertilidade**: Melhora contagem/motilidade espermática (maca preta)\n• **NÃO é**: Hormônio. Não aumenta testosterona diretamente\n• **Quando tomar**: Pela manhã (pode dar energia/insônia)\n• **Tempo para efeito**: 4-8 semanas (libido), 8-12 semanas (fertilidade)\n• **Efeitos colaterais**: Insônia (se tomar à noite), desconforto gástrico\n• **Custo**: R$30-60/mês"
+      }
+    ]
+  },
+  {
+    "slug": "tribulus-terrestris-testosterona-libido",
+    "titulo": "Tribulus Terrestris: Aumenta Testosterona? Libido e Performance",
+    "descricao": "Verdade sobre tribulus: realmente aumenta testosterona? Dose, saponinas, benefícios e limitações.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-08",
+    "categoria": "Testosterona",
+    "tags": [
+      "tribulus terrestris",
+      "testosterona",
+      "libido",
+      "saponinas",
+      "performance"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/tribulus.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Testosterona**: NÃO aumenta testosterona em homens com níveis normais\n• **Libido**: PODE aumentar libido (via outros mecanismos, não testosterona)\n• **Dose**: 750-1.500 mg/dia (40-45% saponinas)\n• **Funciona para**: Disfunção erétil leve, libido baixa\n• **NÃO funciona para**: Ganho muscular, força (sem efeito anabólico)\n• **Quem pode se beneficiar**: Homens com libido baixa (não hipogonadismo)\n• **Melhor extrato**: 40-45% saponinas (protodioscina)\n• **Tempo para efeito**: 4-8 semanas\n• **Efeitos colaterais**: Desconforto gástrico, insônia\n• **Custo**: R$30-50/mês"
+      }
+    ]
+  },
+  {
+    "slug": "zma-zinco-magnesio-b6-sono-testosterona",
+    "titulo": "ZMA (Zinco + Magnésio + B6): Sono, Testosterona e Recuperação",
+    "descricao": "Benefícios do ZMA para atletas: melhora sono, testosterona e recuperação muscular. Dose ideal e quando tomar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-09",
+    "categoria": "Suplementos Esportivos",
+    "tags": [
+      "zma",
+      "zinco",
+      "magnésio",
+      "vitamina b6",
+      "sono",
+      "testosterona"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/zma.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Composição**: Zinco (30mg) + Magnésio (450mg) + B6 (10.5mg)\n• **Benefícios**: Melhora qualidade do sono, recuperação muscular, testosterona (SE deficiente)\n• **Quem precisa**: Atletas (perdem zinco/magnésio no suor), veganos\n• **Quando tomar**: 30-60 min antes de dormir, ESTÔMAGO VAZIO\n• **Testosterona**: Só aumenta se houver deficiência de zinco/magnésio\n• **Sono**: Magnésio é o principal responsável (efeito relaxante)\n• **Vale a pena?**: Se for atleta ou deficiente em Zn/Mg. Senão, tomar separado é OK\n• **Tempo para efeito**: 1-2 semanas (sono), 4-8 semanas (recuperação/testosterona)\n• **Efeitos colaterais**: Sonhos vívidos (B6), náusea (se tomar com comida)\n• **Custo**: R$40-70/mês"
+      }
+    ]
+  },
+  {
+    "slug": "bcaa-aminoacidos-massa-muscular-funciona",
+    "titulo": "BCAA: Vale a Pena ou é Desperdício de Dinheiro?",
+    "descricao": "Verdade sobre BCAA: benefícios reais, quando vale a pena vs quando whey protein é melhor e mais barato.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-10",
+    "categoria": "Suplementos Esportivos",
+    "tags": [
+      "bcaa",
+      "aminoácidos",
+      "massa muscular",
+      "whey protein",
+      "leucina"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/bcaa.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Composição**: Leucina + Isoleucina + Valina (aminoácidos essenciais)\n• **Benefícios**: Reduz fadiga muscular, PODE prevenir catabolismo (jejum)\n• **Dose**: 5-10g (proporção 2:1:1 leucina:iso:val)\n• **VERDADE DURA**: Whey protein contém BCAA + outros 17 aminoácidos (MELHOR!)\n• **Quando vale**: Treino em jejum, veganos (sem proteína suficiente)\n• **NÃO vale**: Se você já toma whey/come proteína adequada (desperdício de $$$)\n• **Timing**: Intra-treino (durante) OU pré-treino (jejum)\n• **Sabor**: Melhor que whey (não precisa misturar com leite)\n• **Evidência**: FRACA para ganho muscular vs proteína completa\n• **Custo**: R$60-120/mês (CARO vs whey)"
+      }
+    ]
+  },
+  {
+    "slug": "glucosamina-condroitina-articulacoes-artrite",
+    "titulo": "Glucosamina e Condroitina: Funciona para Articulações?",
+    "descricao": "Evidências sobre glucosamina/condroitina para osteoartrite, dose ideal, quanto tempo tomar e limitações.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-11",
+    "categoria": "Articulações",
+    "tags": [
+      "glucosamina",
+      "condroitina",
+      "articulações",
+      "osteoartrite",
+      "cartilagem"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/glucosamina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Funciona?**: Evidência MISTA. Benefício modesto em osteoartrite leve a moderada\n• **Dose**: Glucosamina 1.500mg + Condroitina 1.200mg/dia\n• **Forma**: Sulfato de glucosamina (melhor que HCl)\n• **Tempo para efeito**: 8-12 semanas MÍNIMO (pode levar 6 meses)\n• **Benefícios**: Reduz dor articular em 20-30%, PODE retardar progressão\n• **NÃO é**: Cura. Não regenera cartilagem já perdida\n• **Quem se beneficia**: Osteoartrite leve-moderada de joelho\n• **Limitação**: Não funciona para todos (resposta individual)\n• **Efeitos colaterais**: Raros (desconforto gástrico leve)\n• **Custo**: R$50-100/mês"
+      }
+    ]
+  },
+  {
+    "slug": "coenzima-q10-coq10-energia-coracao",
+    "titulo": "Coenzima Q10 (CoQ10): Energia, Coração e Anti-Envelhecimento",
+    "descricao": "Benefícios da CoQ10 para energia mitocondrial, coração, estatinas e dose ideal de ubiquinol vs ubiquinona.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-12",
+    "categoria": "Energia",
+    "tags": [
+      "coenzima q10",
+      "coq10",
+      "energia",
+      "coração",
+      "mitocôndrias",
+      "ubiquinol"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/coq10.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Função**: Produção de energia mitocondrial (ATP), antioxidante\n• **Dose**: 100-200 mg/dia (manutenção) | 300-600 mg/dia (insuficiência cardíaca)\n• **Ubiquinol vs Ubiquinona**: Ubiquinol é forma ativa (melhor para 40+)\n• **CRÍTICO**: Quem toma estatinas (Sinvastatina, Atorvastatina) DEVE tomar CoQ10\n• **Benefícios**: Energia, saúde cardiovascular, fertilidade masculina, enxaqueca\n• **Quando tomar**: Com refeição gordurosa (absorção 3x maior)\n• **Deficiência**: Fadiga, fraqueza muscular, dor (comum com estatinas)\n• **Tempo para efeito**: 4-8 semanas (energia), 8-12 semanas (cardíaco)\n• **Efeitos colaterais**: Raros (desconforto gástrico leve)\n• **Custo**: R$60-120/mês (ubiquinol mais caro)"
+      }
+    ]
+  },
+  {
+    "slug": "acido-folico-b9-gestantes-gravidez",
+    "titulo": "Ácido Fólico (B9): Essencial para Gestantes e Prevenção de Defeitos",
+    "descricao": "Por que gestantes DEVEM tomar ácido fólico, dose ideal, metilfolato vs ácido fólico, e mutação MTHFR.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-13",
+    "categoria": "Vitaminas",
+    "tags": [
+      "ácido fólico",
+      "vitamina b9",
+      "gestantes",
+      "gravidez",
+      "metilfolato",
+      "mthfr"
+    ],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/acido-folico.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "danger",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **OBRIGATÓRIO**: Gestantes devem tomar ANTES de engravidar (previne defeitos tubo neural em 70%)\n• **Dose**: 400-800 mcg/dia (gestantes) | 400 mcg/dia (mulheres em idade fértil)\n• **Quando começar**: 3 meses ANTES de engravidar (tubo neural fecha 4 semanas gestação)\n• **Metilfolato vs Ácido Fólico**: Metilfolato é forma ativa (melhor para MTHFR)\n• **MTHFR**: 40% da população tem mutação (não converte ácido fólico bem)\n• **Benefícios**: Previne espinha bífida, anencefalia, lábio leporino\n• **Outros usos**: Reduz homocisteína (saúde cardiovascular), anemia megaloblástica\n• **Alimentos**: Folhas verdes, feijão, lentilha, fígado\n• **Tempo para efeito**: Imediato (proteção desde início)\n• **Custo**: R$10-30/mês"
+      }
+    ]
+  },
+  {
+    "slug": "vitamina-a-retinol-visao-pele-imunidade",
+    "titulo": "Vitamina A (Retinol): Visão, Pele, Imunidade e Quando Evitar",
+    "descricao": "Benefícios da vitamina A, diferença entre retinol e beta-caroteno, dose ideal e toxicidade em gestantes.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-14",
+    "categoria": "Vitaminas",
+    "tags": [
+      "vitamina a",
+      "retinol",
+      "beta-caroteno",
+      "visão",
+      "pele",
+      "imunidade"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/vitamina-a.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Visão noturna, pele saudável, imunidade, reprodução\n• **Dose**: 700-900 mcg/dia (2.300-3.000 UI)\n• **Retinol vs Beta-caroteno**: Retinol (animal) é ativo. Beta-caroteno (vegetal) precisa conversão (50% das pessoas convertem mal)\n• **CUIDADO GESTANTES**: >3.000 mcg/dia (10.000 UI) causa defeitos congênitos\n• **Deficiência**: Cegueira noturna, pele seca, baixa imunidade, infecções frequentes\n• **Toxicidade**: >10.000 UI/dia cronicamente = dor de cabeça, náusea, queda de cabelo\n• **Alimentos**: Fígado (muito rico!), cenoura, batata-doce, espinafre\n• **Forma**: Beta-caroteno é mais seguro (sem risco toxicidade)\n• **Tempo para efeito**: 2-4 semanas (visão, pele)\n• **Custo**: R$15-30/mês"
+      }
+    ]
+  },
+  {
+    "slug": "l-carnitina-queima-gordura-performance",
+    "titulo": "L-Carnitina: Queima Gordura? Performance e Dose Ideal",
+    "descricao": "Verdade sobre L-carnitina para emagrecimento, performance atlética, dose, quando tomar e evidências científicas.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-15",
+    "categoria": "Emagrecimento",
+    "tags": [
+      "l-carnitina",
+      "queima gordura",
+      "emagrecimento",
+      "performance",
+      "energia"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/l-carnitina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Queima gordura?**: Evidência FRACA. Efeito mínimo em emagrecimento (0.5-1kg em 8-12 semanas)\n• **Dose**: 500-2.000 mg/dia\n• **Função**: Transporta ácidos graxos para mitocôndrias (produção de energia)\n• **Performance**: PODE melhorar recuperação e reduzir fadiga em atletas\n• **Quando tomar**: Pré-treino (com carboidratos para absorção)\n• **Quem pode se beneficiar**: Veganos (L-carnitina vem de carne), idosos\n• **Limitação**: Corpo produz L-carnitina (não é essencial)\n• **Efeitos colaterais**: Náusea, diarreia (doses >3g), odor corporal\n• **Tempo para efeito**: 4-8 semanas\n• **Custo**: R$40-70/mês | Melhor investir em dieta/treino"
+      }
+    ]
+  },
+  {
+    "slug": "cafeina-performance-dose-pre-treino",
+    "titulo": "Cafeína: Performance, Dose Ideal e Timing para Treino",
+    "descricao": "Benefícios da cafeína para performance, dose ergogênica, quando tomar, tolerância e efeitos colaterais.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-02-16",
+    "categoria": "Suplementos Esportivos",
+    "tags": [
+      "cafeína",
+      "performance",
+      "pré-treino",
+      "energia",
+      "foco"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/cafeina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Benefícios**: Aumenta força em 5-10%, resistência em 10-20%, foco mental\n• **Dose ergogênica**: 3-6 mg/kg (210-420mg para 70kg)\n• **Quando tomar**: 30-60 min ANTES do treino (pico de absorção)\n• **Tolerância**: Sim. Ciclar 1-2 semanas sem cafeína restaura sensibilidade\n• **Meia-vida**: 5-6 horas (evitar após 14h se dorme 22h)\n• **Efeitos colaterais**: Ansiedade, tremores, insônia, dependência\n• **Melhor que**: Pre-workout caro (cafeína é principal ativo)\n• **Fontes**: Café (80-100mg/xícara), pílulas (100-200mg), pré-treino\n• **Tempo para efeito**: 30-60 minutos (pico)\n• **Custo**: R$10-30/mês (pílulas) | R$0 (café)"
+      }
+    ]
   }
 ]
