@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
 import nutrientesData from '@/data/nutrientes.json'
+import artigosData from '@/data/artigos.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://suplementaja.com' // Atualize para seu domínio real
+  const baseUrl = 'https://suplementaja.vercel.app'
 
   // Páginas estáticas principais
   const staticPages: MetadataRoute.Sitemap = [
@@ -48,6 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ]
 
   // Páginas dinâmicas de nutrientes
@@ -58,5 +65,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPages, ...nutrientePages]
+  // Páginas dinâmicas de artigos do blog
+  const artigoPages: MetadataRoute.Sitemap = artigosData.map((artigo: any) => ({
+    url: `${baseUrl}/blog/${artigo.slug}`,
+    lastModified: new Date(artigo.data),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  return [...staticPages, ...nutrientePages, ...artigoPages]
 }
