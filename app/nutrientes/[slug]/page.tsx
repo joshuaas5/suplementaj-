@@ -298,7 +298,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                   <div className="bg-black px-4 py-2 mb-3 inline-block border-2 border-black">
                     <h3 className="font-black text-pink-500 uppercase">Prevalência</h3>
                   </div>
-                  <p className="text-white font-bold bg-white border-4 border-black p-4 text-black">{nutriente.deficiencia.prevalencia}</p>
+                  <p className="font-bold bg-white border-4 border-black p-4 text-black">{nutriente.deficiencia.prevalencia}</p>
                 </div>
               )}
 

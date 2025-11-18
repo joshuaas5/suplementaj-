@@ -42,37 +42,37 @@ export default function Home() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-12">
-              <div className="bg-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform -rotate-1">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mb-12">
+              <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:-rotate-1">
                 <div className="text-4xl sm:text-5xl font-black text-black mb-1">39</div>
                 <div className="text-sm font-bold uppercase text-black">Nutrientes</div>
               </div>
-              <div className="bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform rotate-1">
+              <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:rotate-1">
                 <div className="text-4xl sm:text-5xl font-black text-black mb-1">50+</div>
                 <div className="text-sm font-bold uppercase text-black">Condições</div>
               </div>
-              <div className="bg-pink-500 border-4 border-black shadow-[6px_6px_0_0_#000] p-4 transform -rotate-1">
+              <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:-rotate-1">
                 <div className="text-4xl sm:text-5xl font-black text-white mb-1">2min</div>
                 <div className="text-sm font-bold uppercase text-white">Avaliação</div>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Link href="/avaliacao">
+              <Link href="/avaliacao" className="w-full sm:w-auto">
                 <Button
                   size="lg"
                   variant="primary"
-                  className="text-xl px-10 py-7"
+                  className="text-base sm:text-xl px-6 sm:px-10 py-4 sm:py-7 w-full sm:w-auto"
                 >
                   Fazer Avaliação Gratuita
-                  <ArrowRight className="ml-2 w-6 h-6" />
+                  <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
                 </Button>
               </Link>
-              <Link href="/nutrientes">
+              <Link href="/nutrientes" className="w-full sm:w-auto">
                 <Button
                   variant="success"
                   size="lg"
-                  className="text-xl px-10 py-7"
+                  className="text-base sm:text-xl px-6 sm:px-10 py-4 sm:py-7 w-full sm:w-auto"
                 >
                   Explorar Nutrientes
                 </Button>
@@ -416,14 +416,14 @@ export default function Home() {
             </p>
           </div>
 
-          <Link href="/avaliacao">
+          <Link href="/avaliacao" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="secondary"
-              className="text-2xl px-12 py-8"
+              className="text-lg sm:text-2xl px-8 sm:px-12 py-5 sm:py-8 w-full sm:w-auto"
             >
               Começar Avaliação Gratuita
-              <ArrowRight className="ml-3 w-8 h-8" />
+              <ArrowRight className="ml-2 sm:ml-3 w-6 sm:w-8 h-6 sm:h-8" />
             </Button>
           </Link>
 
