@@ -753,6 +753,439 @@ export function gerarRecomendacoes(perfil: Perfil): Recomendacao[] {
   }
 
   // ==============================================
+  // VITAMINA A
+  // ==============================================
+  const precisaVitaminaA =
+    perfil.sintomas.includes('visao_problemas') ||
+    perfil.condicoes_saude.includes('visao_problemas') ||
+    perfil.idade < 18 ||
+    perfil.status_reprodutivo === 'gravida'
+
+  if (precisaVitaminaA) {
+    const motivos: string[] = []
+
+    if (perfil.sintomas.includes('visao_problemas')) {
+      motivos.push('Vitamina A é essencial para saúde ocular e visão noturna')
+    }
+    if (perfil.status_reprodutivo === 'gravida') {
+      motivos.push('Importante para desenvolvimento fetal')
+    }
+    if (perfil.idade < 18) {
+      motivos.push('Essencial para crescimento e desenvolvimento')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-a',
+      prioridade: 'media',
+      dose_min: 700,
+      dose_max: 900,
+      unidade: 'mcg',
+      motivos,
+      referencias: [],
+      nota_especial:
+        perfil.status_reprodutivo === 'gravida'
+          ? 'Não exceder 3.000 mcg/dia durante gestação (risco de malformações)'
+          : undefined,
+    })
+  }
+
+  // ==============================================
+  // VITAMINA E
+  // ==============================================
+  if (
+    perfil.idade >= 50 ||
+    perfil.condicoes_saude.includes('cardiovascular') ||
+    perfil.sintomas.includes('pele_seca')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.idade >= 50) {
+      motivos.push('Antioxidante importante para proteção celular')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('Protege contra oxidação do colesterol LDL')
+    }
+    if (perfil.sintomas.includes('pele_seca')) {
+      motivos.push('Melhora saúde da pele')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-e',
+      prioridade: 'baixa',
+      dose_min: 15,
+      dose_max: 30,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // VITAMINA B2 (RIBOFLAVINA)
+  // ==============================================
+  if (
+    perfil.sintomas.includes('fadiga') ||
+    perfil.sintomas.includes('enxaqueca') ||
+    perfil.atividade_fisica === 'intenso'
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.sintomas.includes('enxaqueca')) {
+      motivos.push('Riboflavina (400mg/dia) reduz frequência de enxaquecas')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Atletas têm necessidades aumentadas de vitaminas B')
+    }
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('Importante para produção de energia celular')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b2',
+      prioridade: perfil.sintomas.includes('enxaqueca') ? 'media' : 'baixa',
+      dose_min: 1.3,
+      dose_max: 400,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: perfil.sintomas.includes('enxaqueca')
+        ? 'Para enxaqueca, usar dose de 400mg/dia por 3-4 meses'
+        : undefined,
+    })
+  }
+
+  // ==============================================
+  // VITAMINA B3 (NIACINA)
+  // ==============================================
+  if (perfil.condicoes_saude.includes('colesterol_alto') || perfil.condicoes_saude.includes('cardiovascular')) {
+    const motivos: string[] = []
+
+    if (perfil.condicoes_saude.includes('colesterol_alto')) {
+      motivos.push('Niacina aumenta HDL (colesterol bom) e reduz LDL')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('Melhora perfil lipídico e saúde cardiovascular')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b3',
+      prioridade: 'baixa',
+      dose_min: 16,
+      dose_max: 35,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Doses altas (>100mg) devem ser supervisionadas por médico (flush de niacina)',
+    })
+  }
+
+  // ==============================================
+  // VITAMINA B5 (ÁCIDO PANTOTÊNICO)
+  // ==============================================
+  if (perfil.sintomas.includes('fadiga') || perfil.atividade_fisica === 'intenso') {
+    const motivos: string[] = []
+
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('Essencial para metabolismo energético')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Necessário para síntese de coenzima A e energia')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'vitamina-b5',
+      prioridade: 'baixa',
+      dose_min: 5,
+      dose_max: 10,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // SELÊNIO
+  // ==============================================
+  if (
+    perfil.condicoes_saude.includes('tireoide') ||
+    perfil.condicoes_saude.includes('hashimoto') ||
+    perfil.sintomas.includes('fadiga') ||
+    perfil.idade >= 50
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.condicoes_saude.includes('tireoide') || perfil.condicoes_saude.includes('hashimoto')) {
+      motivos.push('Essencial para conversão de T4 em T3 (hormônios tireoidianos)')
+    }
+    if (perfil.idade >= 50) {
+      motivos.push('Antioxidante importante para proteção celular')
+    }
+    if (perfil.sintomas.includes('fadiga')) {
+      motivos.push('Deficiência pode causar fadiga e fraqueza')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'selenio',
+      prioridade: perfil.condicoes_saude.includes('tireoide') || perfil.condicoes_saude.includes('hashimoto') ? 'alta' : 'media',
+      dose_min: 55,
+      dose_max: 200,
+      unidade: 'mcg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Não exceder 400 mcg/dia (risco de toxicidade)',
+    })
+  }
+
+  // ==============================================
+  // ASTAXANTINA
+  // ==============================================
+  if (
+    perfil.idade >= 40 ||
+    perfil.atividade_fisica === 'intenso' ||
+    perfil.sintomas.includes('dor_articular')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.idade >= 40) {
+      motivos.push('Potente antioxidante para proteção contra envelhecimento')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Reduz dano muscular e melhora recuperação')
+    }
+    if (perfil.sintomas.includes('dor_articular')) {
+      motivos.push('Propriedades anti-inflamatórias')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'astaxantina',
+      prioridade: 'baixa',
+      dose_min: 4,
+      dose_max: 12,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // COBRE
+  // ==============================================
+  if (perfil.sintomas.includes('anemia') || perfil.condicoes_saude.includes('osteoporose')) {
+    const motivos: string[] = []
+
+    if (perfil.sintomas.includes('anemia')) {
+      motivos.push('Necessário para absorção e utilização de ferro')
+    }
+    if (perfil.condicoes_saude.includes('osteoporose')) {
+      motivos.push('Importante para formação óssea e colágeno')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'cobre',
+      prioridade: 'baixa',
+      dose_min: 0.9,
+      dose_max: 2,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Geralmente obtido suficientemente pela dieta',
+    })
+  }
+
+  // ==============================================
+  // CREATINA
+  // ==============================================
+  if (
+    perfil.atividade_fisica === 'intenso' ||
+    perfil.atividade_fisica === 'moderado' ||
+    perfil.idade >= 50 ||
+    perfil.dieta === 'vegetariana' ||
+    perfil.dieta === 'vegana'
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Melhora força, potência e ganho de massa muscular')
+    }
+    if (perfil.idade >= 50) {
+      motivos.push('Previne perda de massa muscular relacionada à idade')
+    }
+    if (perfil.dieta === 'vegetariana' || perfil.dieta === 'vegana') {
+      motivos.push('Vegetarianos têm estoques reduzidos (creatina vem de carne)')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'creatina',
+      prioridade: perfil.atividade_fisica === 'intenso' ? 'media' : 'baixa',
+      dose_min: 3,
+      dose_max: 5,
+      unidade: 'g',
+      motivos,
+      referencias: [],
+      nota_especial: 'Tomar com refeição para melhor absorção. Beber água abundante.',
+    })
+  }
+
+  // ==============================================
+  // FÓSFORO
+  // ==============================================
+  // Raramente deficiente - geralmente obtido pela dieta
+  // Não adicionar rotineiramente a menos que indicação específica
+
+  // ==============================================
+  // LUTEÍNA E ZEAXANTINA
+  // ==============================================
+  if (
+    perfil.idade >= 50 ||
+    perfil.sintomas.includes('visao_problemas') ||
+    perfil.condicoes_saude.includes('visao_problemas')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.idade >= 50) {
+      motivos.push('Protege contra degeneração macular relacionada à idade')
+    }
+    if (perfil.sintomas.includes('visao_problemas')) {
+      motivos.push('Melhora saúde da mácula e filtro de luz azul')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'luteina-zeaxantina',
+      prioridade: 'media',
+      dose_min: 10,
+      dose_max: 20,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // MANGANÊS
+  // ==============================================
+  if (perfil.condicoes_saude.includes('osteoporose') || perfil.condicoes_saude.includes('diabetes')) {
+    const motivos: string[] = []
+
+    if (perfil.condicoes_saude.includes('osteoporose')) {
+      motivos.push('Importante para formação óssea')
+    }
+    if (perfil.condicoes_saude.includes('diabetes')) {
+      motivos.push('Auxilia metabolismo de carboidratos')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'manganes',
+      prioridade: 'baixa',
+      dose_min: 2.3,
+      dose_max: 5,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Geralmente obtido suficientemente pela dieta',
+    })
+  }
+
+  // ==============================================
+  // MOLIBDÊNIO
+  // ==============================================
+  // Raramente deficiente - geralmente obtido pela dieta
+  // Não adicionar rotineiramente
+
+  // ==============================================
+  // POTÁSSIO
+  // ==============================================
+  if (
+    perfil.condicoes_saude.includes('hipertensao') ||
+    perfil.sintomas.includes('caimbras') ||
+    perfil.atividade_fisica === 'intenso'
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.condicoes_saude.includes('hipertensao')) {
+      motivos.push('Ajuda a regular pressão arterial')
+    }
+    if (perfil.sintomas.includes('caimbras')) {
+      motivos.push('Deficiência pode causar cãibras musculares')
+    }
+    if (perfil.atividade_fisica === 'intenso') {
+      motivos.push('Perdido pelo suor durante exercício intenso')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'potassio',
+      prioridade: 'baixa',
+      dose_min: 2000,
+      dose_max: 3500,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+      nota_especial: 'Priorize alimentos ricos em potássio (banana, batata, feijão). Suplementos podem ser perigosos.',
+    })
+  }
+
+  // ==============================================
+  // QUERCETINA
+  // ==============================================
+  if (
+    perfil.sintomas.includes('alergias') ||
+    perfil.condicoes_saude.includes('cardiovascular') ||
+    perfil.idade >= 50
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.sintomas.includes('alergias')) {
+      motivos.push('Propriedades anti-histamínicas naturais')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('Antioxidante com efeitos cardioprotetores')
+    }
+    if (perfil.idade >= 50) {
+      motivos.push('Propriedades anti-inflamatórias e antioxidantes')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'quercetina',
+      prioridade: 'baixa',
+      dose_min: 500,
+      dose_max: 1000,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
+  // RESVERATROL
+  // ==============================================
+  if (
+    perfil.idade >= 40 ||
+    perfil.condicoes_saude.includes('cardiovascular') ||
+    perfil.condicoes_saude.includes('diabetes')
+  ) {
+    const motivos: string[] = []
+
+    if (perfil.idade >= 40) {
+      motivos.push('Ativa sirtuínas (proteínas da longevidade)')
+    }
+    if (perfil.condicoes_saude.includes('cardiovascular')) {
+      motivos.push('Protege sistema cardiovascular e melhora função endotelial')
+    }
+    if (perfil.condicoes_saude.includes('diabetes')) {
+      motivos.push('Melhora sensibilidade à insulina')
+    }
+
+    recomendacoes.push({
+      nutriente_slug: 'resveratrol',
+      prioridade: 'baixa',
+      dose_min: 150,
+      dose_max: 500,
+      unidade: 'mg',
+      motivos,
+      referencias: [],
+    })
+  }
+
+  // ==============================================
   // ORDENAR POR PRIORIDADE
   // ==============================================
   const ordem: Record<string, number> = { alta: 0, media: 1, baixa: 2, nao_recomendado: 3 }
