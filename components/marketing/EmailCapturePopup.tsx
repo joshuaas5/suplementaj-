@@ -50,19 +50,25 @@ export function EmailCapturePopup() {
     setLoading(true)
 
     try {
-      // Aqui você pode integrar com sua ferramenta de email marketing
-      // Por enquanto, vamos apenas salvar no localStorage
-      const lead = {
-        email,
-        nome,
-        data: new Date().toISOString(),
-        origem: 'popup-homepage',
+      // Enviar para API (que conecta com Brevo)
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email,
+          nome,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Erro ao processar email')
       }
 
-      // Salvar no localStorage
-      const leads = JSON.parse(localStorage.getItem('leads') || '[]')
-      leads.push(lead)
-      localStorage.setItem('leads', JSON.stringify(leads))
+      // Salvar flag no localStorage para não mostrar popup novamente
       localStorage.setItem('emailSubmitted', 'true')
 
       // Enviar evento para Google Analytics
@@ -82,6 +88,7 @@ export function EmailCapturePopup() {
       }, 3000)
     } catch (error) {
       console.error('Erro ao salvar lead:', error)
+      alert('Erro ao processar seu cadastro. Por favor, tente novamente.')
     } finally {
       setLoading(false)
     }
