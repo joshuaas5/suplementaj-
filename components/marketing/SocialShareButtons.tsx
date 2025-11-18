@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Facebook, Twitter, Linkedin, Link2, Check } from 'lucide-react'
+import { Facebook, Twitter, Link2, Check } from 'lucide-react'
 
 interface SocialShareButtonsProps {
   title?: string
@@ -11,8 +11,8 @@ interface SocialShareButtonsProps {
 }
 
 export function SocialShareButtons({
-  title = 'Suplementa Já - Descubra suas deficiências nutricionais',
-  text = 'Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 🚀',
+  title = 'Suplementa Já - Descubra como melhorar sua saúde',
+  text = 'Acabei de descobrir como melhorar minha saúde! Foi pelo Suplementa Já! Faça você também, é grátis! 🚀',
   url,
   showLabel = true,
 }: SocialShareButtonsProps) {
@@ -105,16 +105,6 @@ export function SocialShareButtons({
           <span className="hidden sm:inline">X (Twitter)</span>
         </button>
 
-        {/* LinkedIn */}
-        <button
-          onClick={() => handleShare('linkedin', shareLinks.linkedin)}
-          className="bg-[#0A66C2] hover:bg-[#004182] border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] transition-all px-4 py-3 font-black text-white flex items-center gap-2 transform hover:translate-x-[2px] hover:translate-y-[2px]"
-          aria-label="Compartilhar no LinkedIn"
-        >
-          <Linkedin className="w-5 h-5" />
-          <span className="hidden sm:inline">LinkedIn</span>
-        </button>
-
         {/* Copiar Link */}
         <button
           onClick={handleCopyLink}
@@ -132,7 +122,7 @@ export function SocialShareButtons({
         <div className="bg-cyan-400 border-4 border-black p-4 mt-4">
           <p className="text-black font-bold text-sm leading-relaxed">
             🎯 <span className="bg-white px-2 py-1">Ajude seus amigos!</span> Compartilhe para que
-            mais pessoas descubram suas deficiências nutricionais e melhorem sua saúde.
+            mais pessoas descubram como melhorar a saúde delas também!
           </p>
         </div>
       )}

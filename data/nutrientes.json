@@ -459,17 +459,12 @@
     "evidencias": [
       {
         "id": "ref-d-001",
-        "titulo": "Vitamin D supplementation reduces fracture risk in postmenopausal women",
-        "revista": "JAMA",
-        "ano": 2019,
+        "titulo": "Vitamin D supplementation to prevent acute respiratory infections: systematic review and meta-analysis",
+        "revista": "BMJ",
+        "ano": 2017,
         "tipo": "Meta-análise",
-        "doi": "10.1001/jamanetworkopen.2019.17789",
-        "citacao_chave": "Suplementação de vitamina D reduz risco de fraturas em 15% em mulheres pós-menopausa",
-        "relevancia": [
-          "menopausa",
-          "ossos",
-          "fraturas"
-        ]
+        "doi": "10.1136/bmj.i6583",
+        "citacao_chave": "Suplementação de vitamina D reduz risco de infecções respiratórias agudas em 12% na população geral, com efeitos mais pronunciados em pessoas com deficiência severa"
       },
       {
         "id": "ref-d-002",
