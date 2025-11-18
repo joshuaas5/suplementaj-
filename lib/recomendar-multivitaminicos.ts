@@ -29,30 +29,56 @@ export interface MultivitaminicoRecomendado extends Multivitaminico {
 
 /**
  * Recomenda multivitamínicos baseado nas necessidades do usuário
+ * Usa sistema de PESOS para calcular cobertura real:
+ * - Alta prioridade = 10 pontos
+ * - Média prioridade = 3 pontos
+ * - Baixa prioridade = 1 ponto
  */
 export function recomendarMultivitaminicos(
   recomendacoes: RecomendacaoEnriquecida[],
   perfil: Perfil
 ): MultivitaminicoRecomendado[] {
-  // Filtrar apenas nutrientes de prioridade alta e média
-  const nutrientesNecessarios = recomendacoes
-    .filter((r) => r.prioridade === 'alta' || r.prioridade === 'media')
-    .map((r) => r.nutriente_slug)
+  // Separar nutrientes por prioridade
+  const nutrientesAlta = recomendacoes.filter((r) => r.prioridade === 'alta').map((r) => r.nutriente_slug)
+  const nutrientesMedia = recomendacoes.filter((r) => r.prioridade === 'media').map((r) => r.nutriente_slug)
+  const nutrientesBaixa = recomendacoes.filter((r) => r.prioridade === 'baixa').map((r) => r.nutriente_slug)
 
-  if (nutrientesNecessarios.length === 0) {
+  // Calcular pontuação máxima possível (sistema de pesos)
+  const pontuacaoMaxima = (nutrientesAlta.length * 10) + (nutrientesMedia.length * 3) + (nutrientesBaixa.length * 1)
+
+  if (pontuacaoMaxima === 0) {
     return []
   }
 
   // Calcular score para cada multivitamínico
   const multisComScore = multivitaminicosData.map((multi) => {
-    const nutrientesCobertos = multi.nutrientes_incluidos
-      .map((n) => n.nutriente)
-      .filter((slug) => nutrientesNecessarios.includes(slug))
+    const nutrientesIncluidos = multi.nutrientes_incluidos.map((n) => n.nutriente)
 
-    const porcentagemCobertura = (nutrientesCobertos.length / nutrientesNecessarios.length) * 100
+    // Contar quantos nutrientes de cada prioridade são cobertos
+    const altasCobertas = nutrientesIncluidos.filter((slug) => nutrientesAlta.includes(slug))
+    const mediasCobertas = nutrientesIncluidos.filter((slug) => nutrientesMedia.includes(slug))
+    const baixasCobertas = nutrientesIncluidos.filter((slug) => nutrientesBaixa.includes(slug))
 
-    // Score base: quantidade de nutrientes cobertos
-    let score = nutrientesCobertos.length * 10
+    // Calcular pontuação obtida (com pesos)
+    const pontuacaoObtida = (altasCobertas.length * 10) + (mediasCobertas.length * 3) + (baixasCobertas.length * 1)
+
+    // Porcentagem de cobertura REAL baseada em pesos
+    const porcentagemCobertura = (pontuacaoObtida / pontuacaoMaxima) * 100
+
+    // Lista de todos os nutrientes cobertos
+    const nutrientesCobertos = [...altasCobertas, ...mediasCobertas, ...baixasCobertas]
+
+    // Score base: priorizar multis que cobrem nutrientes de ALTA prioridade
+    let score = (altasCobertas.length * 50) + (mediasCobertas.length * 10) + (baixasCobertas.length * 2)
+
+    // Bônus GRANDE por alta cobertura ponderada
+    if (porcentagemCobertura >= 70) {
+      score += 100
+    } else if (porcentagemCobertura >= 50) {
+      score += 50
+    } else if (porcentagemCobertura >= 30) {
+      score += 20
+    }
 
     // Bônus por características do perfil
     if (perfil.idade && perfil.idade >= 50 && multi.id.includes('50-plus')) {
@@ -78,13 +104,6 @@ export function recomendarMultivitaminicos(
       score += 30
     }
 
-    // Bônus por alta cobertura
-    if (porcentagemCobertura >= 70) {
-      score += 15
-    } else if (porcentagemCobertura >= 50) {
-      score += 10
-    }
-
     // Economia estimada (economiza comprar vários suplementos individuais)
     // Estimativa: cada suplemento individual custa R$30-50
     const economiaEstimada = Math.max(0, (nutrientesCobertos.length - 1) * 35 - multi.preco_aprox)
@@ -99,10 +118,10 @@ export function recomendarMultivitaminicos(
     }
   })
 
-  // Filtrar e ordenar multivitamínicos por score
-  // SEMPRE mostrar multivitamínicos, mesmo com cobertura baixa (mínimo 1 nutriente)
+  // Filtrar multivitamínicos com cobertura mínima de 40%
+  // Isso garante que só mostramos multis que realmente fazem sentido
   const multisFiltrados = multisComScore
-    .filter((m) => m.nutrientes_cobertos.length >= 1)
+    .filter((m) => m.porcentagem_cobertura >= 40)
     .sort((a, b) => b.score - a.score)
 
   // Priorizar multis específicos para o perfil
@@ -146,10 +165,11 @@ export function recomendarMultivitaminicos(
 
   const resultado = [...especificos, ...genericos]
 
-  // GARANTIR que sempre retorne pelo menos 1 multivitamínico
-  // Se não houver nenhum, retorna os top 2 do score geral
-  if (resultado.length === 0 && multisFiltrados.length > 0) {
-    return multisFiltrados.slice(0, 2)
+  // GARANTIR que sempre retorne pelo menos 1-2 multivitamínicos
+  // Mesmo que a cobertura seja menor que 40%, mostrar os melhores disponíveis
+  if (resultado.length === 0 && multisComScore.length > 0) {
+    // Pega os top 2 por score, independente de cobertura
+    return multisComScore.sort((a, b) => b.score - a.score).slice(0, 2)
   }
 
   return resultado

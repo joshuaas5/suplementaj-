@@ -131,60 +131,38 @@ export default function ResultadosPage() {
           message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
-        {/* MULTIVITAMÍNICOS - DESTAQUE PRINCIPAL */}
-        {multivitaminicosRecomendados.length > 0 && (
-          <section className="mb-12">
-            {/* Banner de Destaque */}
-            <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-8 mb-8 text-center">
-              <div className="inline-block bg-black px-6 py-3 mb-4 border-4 border-black shadow-[6px_6px_0_0_rgba(255,255,255,0.3)] rotate-2">
-                <h2 className="text-3xl sm:text-5xl font-black text-yellow-400 uppercase">
-                  🎯 Recomendação Principal
-                </h2>
-              </div>
-              <div className="bg-white border-4 border-black p-6 max-w-4xl mx-auto">
-                <p className="text-2xl sm:text-3xl font-black text-black mb-4 leading-tight">
-                  Ao invés de comprar {recomendacoesAlta.length + recomendacoesMedia.length} suplementos separados...
-                </p>
-                <p className="text-xl sm:text-2xl text-black font-bold mb-4">
-                  Simplifique sua vida com um <span className="bg-yellow-400 px-3 py-1">COMPLEXO MULTIVITAMÍNICO</span> que já contém a maioria dos nutrientes que você precisa!
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-6">
-                  <div className="bg-lime-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">✅</div>
-                    <p className="font-black text-black uppercase text-sm">Menos Cápsulas</p>
-                    <p className="text-xs text-black font-bold mt-1">1-2 por dia ao invés de 10+</p>
+        {/* Resumo Executivo */}
+        {(recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
+          <div className="bg-gradient-to-r from-red-500 to-orange-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-12">
+            <div className="bg-white border-4 border-black p-6">
+              <h3 className="text-2xl sm:text-3xl font-black text-black mb-4 uppercase">
+                ⚠️ Resumo da Sua Avaliação
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {recomendacoesAlta.length > 0 && (
+                  <div className="bg-red-100 border-2 border-black p-4">
+                    <div className="text-4xl font-black text-red-600 mb-1">{recomendacoesAlta.length}</div>
+                    <div className="text-sm font-bold text-black uppercase">Deficiências Graves</div>
                   </div>
-                  <div className="bg-cyan-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">💰</div>
-                    <p className="font-black text-black uppercase text-sm">Mais Econômico</p>
-                    <p className="text-xs text-black font-bold mt-1">Economize até R$300/mês</p>
+                )}
+                {recomendacoesMedia.length > 0 && (
+                  <div className="bg-yellow-100 border-2 border-black p-4">
+                    <div className="text-4xl font-black text-orange-600 mb-1">{recomendacoesMedia.length}</div>
+                    <div className="text-sm font-bold text-black uppercase">Deficiências Moderadas</div>
                   </div>
-                  <div className="bg-pink-400 border-4 border-black p-4">
-                    <div className="text-4xl mb-2">🎯</div>
-                    <p className="font-black text-black uppercase text-sm">Mais Prático</p>
-                    <p className="text-xs text-black font-bold mt-1">Tudo em 1 produto</p>
+                )}
+                <div className="bg-lime-100 border-2 border-black p-4">
+                  <div className="text-4xl font-black text-green-600 mb-1">
+                    {recomendacoesAlta.length + recomendacoesMedia.length}
                   </div>
+                  <div className="text-sm font-bold text-black uppercase">Total de Nutrientes Necessários</div>
                 </div>
               </div>
-            </div>
-
-            {/* Cards de Multivitamínicos */}
-            <div className="grid gap-8 lg:grid-cols-1 xl:grid-cols-2 mb-8">
-              {multivitaminicosRecomendados.map((multi, index) => (
-                <CardMultivitaminico key={multi.id} multi={multi} ranking={index + 1} />
-              ))}
-            </div>
-
-            {/* Info adicional */}
-            <div className="bg-gradient-to-r from-cyan-400 to-blue-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 text-center mb-8">
-              <p className="text-black font-black text-lg sm:text-xl mb-2 uppercase">
-                💡 Dica de Ouro
-              </p>
-              <p className="text-black font-bold text-sm sm:text-base">
-                Comece com um multivitamínico como <span className="bg-black text-cyan-400 px-2 py-1">BASE</span> e complemente apenas com os nutrientes específicos que você precisa em <span className="bg-black text-cyan-400 px-2 py-1">doses mais altas</span> (veja abaixo).
+              <p className="text-black font-bold mt-4 text-center">
+                📋 Veja abaixo cada deficiência identificada e como corrigir
               </p>
             </div>
-          </section>
+          </div>
         )}
 
         {/* Ações - NEOBRUTALISM */}
@@ -214,20 +192,6 @@ export default function ResultadosPage() {
           />
         </div>
 
-        {/* Seção de separação entre multivitamínicos e nutrientes individuais */}
-        {multivitaminicosRecomendados.length > 0 && (recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
-          <div className="mb-12">
-            <div className="bg-yellow-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 text-center">
-              <h2 className="text-2xl sm:text-3xl font-black text-black uppercase mb-3">
-                📋 Nutrientes Adicionais (Se Necessário)
-              </h2>
-              <p className="text-black font-bold text-sm sm:text-base">
-                Se você optar pelo multivitamínico acima, pode precisar complementar com alguns nutrientes específicos em doses mais altas. Veja abaixo:
-              </p>
-            </div>
-          </div>
-        )}
-
         {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
         {recomendacoesAlta.length > 0 && (
           <section className="mb-12">
@@ -252,6 +216,73 @@ export default function ResultadosPage() {
               {recomendacoesMedia.map(rec => (
                 <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* SOLUÇÃO: MULTIVITAMÍNICOS - Aparece DEPOIS de mostrar o problema */}
+        {multivitaminicosRecomendados.length > 0 && (recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
+          <section className="mb-16">
+            {/* Banner de Destaque */}
+            <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-8 mb-8 text-center">
+              <div className="inline-block bg-black px-6 py-3 mb-4 border-4 border-black shadow-[6px_6px_0_0_rgba(255,255,255,0.3)] rotate-2">
+                <h2 className="text-3xl sm:text-5xl font-black text-yellow-400 uppercase">
+                  💡 Solução Inteligente
+                </h2>
+              </div>
+              <div className="bg-white border-4 border-black p-6 max-w-4xl mx-auto">
+                <p className="text-xl sm:text-2xl font-black text-black mb-3 leading-tight">
+                  Você viu que precisa de <span className="bg-red-400 px-2 py-1">{recomendacoesAlta.length + recomendacoesMedia.length} nutrientes diferentes</span>...
+                </p>
+                <p className="text-lg sm:text-xl text-black font-bold mb-4">
+                  Ao invés de comprar {recomendacoesAlta.length + recomendacoesMedia.length} frascos separados e tomar <span className="bg-yellow-400 px-2 py-1">10+ cápsulas por dia</span>:
+                </p>
+                <div className="bg-lime-400 border-4 border-black p-6 mb-4">
+                  <p className="text-2xl sm:text-3xl font-black text-black uppercase">
+                    ✅ Use 1 Multivitamínico Completo
+                  </p>
+                  <p className="text-lg font-bold text-black mt-2">
+                    Que já contém <span className="bg-black text-lime-400 px-2 py-1">{Math.round((multivitaminicosRecomendados[0]?.porcentagem_cobertura || 0))}%</span> do que você precisa!
+                  </p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4">
+                  <div className="bg-cyan-400 border-4 border-black p-4">
+                    <div className="text-4xl mb-2">⚡</div>
+                    <p className="font-black text-black uppercase text-sm">Apenas 1-2 Cápsulas</p>
+                    <p className="text-xs text-black font-bold mt-1">Por dia, sem complicação</p>
+                  </div>
+                  <div className="bg-pink-400 border-4 border-black p-4">
+                    <div className="text-4xl mb-2">💰</div>
+                    <p className="font-black text-black uppercase text-sm">Economize Muito</p>
+                    <p className="text-xs text-black font-bold mt-1">
+                      Até R${multivitaminicosRecomendados[0]?.economia_estimada || 200}/mês
+                    </p>
+                  </div>
+                  <div className="bg-lime-400 border-4 border-black p-4">
+                    <div className="text-4xl mb-2">🎯</div>
+                    <p className="font-black text-black uppercase text-sm">Super Prático</p>
+                    <p className="text-xs text-black font-bold mt-1">1 produto ao invés de {recomendacoesAlta.length + recomendacoesMedia.length}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Cards de Multivitamínicos */}
+            <div className="grid gap-8 lg:grid-cols-1 xl:grid-cols-2 mb-8">
+              {multivitaminicosRecomendados.map((multi, index) => (
+                <CardMultivitaminico key={multi.id} multi={multi} ranking={index + 1} />
+              ))}
+            </div>
+
+            {/* Info adicional */}
+            <div className="bg-gradient-to-r from-cyan-400 to-blue-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 text-center">
+              <p className="text-black font-black text-lg sm:text-xl mb-2 uppercase">
+                💡 Estratégia Recomendada
+              </p>
+              <p className="text-black font-bold text-sm sm:text-base">
+                Comece com o multivitamínico acima como sua <span className="bg-black text-cyan-400 px-2 py-1">BASE DIÁRIA</span>.
+                Se precisar de doses mais altas de algum nutriente específico, complemente com suplementos individuais (veja na seção &quot;Prioridade Baixa&quot; abaixo).
+              </p>
             </div>
           </section>
         )}
