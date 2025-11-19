@@ -131,31 +131,43 @@ export default function ResultadosPage() {
           message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
-        {/* Ações - NEOBRUTALISM */}
-        <div className="flex flex-wrap gap-3 justify-center mb-8">
-          <Button
-            variant="primary"
-            size="lg"
-            onClick={handleDownloadPDF}
-            loading={downloadingPDF}
-            disabled={downloadingPDF}
-          >
-            <Download className="w-5 h-5 mr-2" />
-            {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
-          </Button>
-          <Link href="/avaliacao">
-            <Button variant="outline" size="lg">
-              Fazer Nova Avaliação
-            </Button>
-          </Link>
-        </div>
-
-        {/* Compartilhar nas Redes Sociais */}
-        <div className="mb-12 max-w-3xl mx-auto">
-          <SocialShareButtons
-            title="Suplementa Já - Minhas Recomendações Personalizadas"
-            text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
-          />
+        {/* Resumo de Recomendações - NEOBRUTALISM */}
+        <div className="bg-gradient-to-r from-lime-400 via-yellow-400 to-cyan-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mb-8">
+          <div className="flex flex-wrap gap-4 justify-center items-center">
+            {recomendacoesAlta.length > 0 && (
+              <div className="bg-white border-4 border-black px-6 py-3 shadow-[4px_4px_0_0_#000]">
+                <div className="flex items-center gap-2">
+                  <span className="text-3xl">🔥</span>
+                  <div>
+                    <div className="text-2xl font-black text-black">{recomendacoesAlta.length}</div>
+                    <div className="text-xs font-bold text-black uppercase">Alta</div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {recomendacoesMedia.length > 0 && (
+              <div className="bg-white border-4 border-black px-6 py-3 shadow-[4px_4px_0_0_#000]">
+                <div className="flex items-center gap-2">
+                  <span className="text-3xl">⚡</span>
+                  <div>
+                    <div className="text-2xl font-black text-black">{recomendacoesMedia.length}</div>
+                    <div className="text-xs font-bold text-black uppercase">Média</div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {recomendacoesBaixa.length > 0 && (
+              <div className="bg-white border-4 border-black px-6 py-3 shadow-[4px_4px_0_0_#000]">
+                <div className="flex items-center gap-2">
+                  <span className="text-3xl">💡</span>
+                  <div>
+                    <div className="text-2xl font-black text-black">{recomendacoesBaixa.length}</div>
+                    <div className="text-xs font-bold text-black uppercase">Baixa</div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Multivitamínicos Recomendados - SEÇÃO ESPECIAL */}
@@ -262,6 +274,35 @@ export default function ResultadosPage() {
             </div>
           </section>
         )}
+
+        {/* Ações - Baixar PDF e Compartilhar */}
+        <div className="mb-8">
+          <div className="flex flex-wrap gap-3 justify-center mb-6">
+            <Button
+              variant="primary"
+              size="lg"
+              onClick={handleDownloadPDF}
+              loading={downloadingPDF}
+              disabled={downloadingPDF}
+            >
+              <Download className="w-5 h-5 mr-2" />
+              {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
+            </Button>
+            <Link href="/avaliacao">
+              <Button variant="outline" size="lg">
+                Fazer Nova Avaliação
+              </Button>
+            </Link>
+          </div>
+
+          {/* Compartilhar nas Redes Sociais */}
+          <div className="max-w-3xl mx-auto">
+            <SocialShareButtons
+              title="Suplementa Já - Minhas Recomendações Personalizadas"
+              text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
+            />
+          </div>
+        </div>
 
         {/* Footer da página de resultados - NEOBRUTALISM */}
         <div className="bg-yellow-400 border-4 sm:border-8 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-4 sm:p-8 mt-12">
