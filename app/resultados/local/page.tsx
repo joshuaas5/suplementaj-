@@ -205,7 +205,10 @@ export default function ResultadosPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center gap-2">
+                  <span className="text-xs font-bold text-black hidden sm:inline">
+                    {showMedia ? 'recolher' : 'ver mais'}
+                  </span>
                   {showMedia ? (
                     <ChevronUp className="w-8 h-8 text-black" />
                   ) : (
@@ -288,7 +291,10 @@ export default function ResultadosPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center gap-2">
+                  <span className="text-xs font-bold text-black hidden sm:inline">
+                    {showBaixa ? 'recolher' : 'ver mais'}
+                  </span>
                   {showBaixa ? (
                     <ChevronUp className="w-8 h-8 text-black" />
                   ) : (
@@ -325,7 +331,10 @@ export default function ResultadosPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 flex items-center gap-2">
+                  <span className="text-xs font-bold text-black hidden sm:inline">
+                    {showNaoRecomendados ? 'recolher' : 'ver mais'}
+                  </span>
                   {showNaoRecomendados ? (
                     <ChevronUp className="w-8 h-8 text-black" />
                   ) : (
