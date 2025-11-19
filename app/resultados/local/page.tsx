@@ -29,6 +29,7 @@ export default function ResultadosPage() {
   const [downloadingPDF, setDownloadingPDF] = useState(false)
   const [showRewardedAd, setShowRewardedAd] = useState(true)
   const [adWatched, setAdWatched] = useState(false)
+  const [showMedia, setShowMedia] = useState(false)
   const [showBaixa, setShowBaixa] = useState(false)
   const [showNaoRecomendados, setShowNaoRecomendados] = useState(false)
 
@@ -187,17 +188,40 @@ export default function ResultadosPage() {
           </section>
         )}
 
-        {/* Recomendações de Prioridade Média - NEOBRUTALISM */}
+        {/* Recomendações de Prioridade Média - COLAPSÁVEL */}
         {recomendacoesMedia.length > 0 && (
           <section className="mb-12">
-            <div className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">⚡ Prioridade Média</h2>
+            <div
+              className="bg-yellow-100 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 cursor-pointer hover:shadow-[6px_6px_0_0_#000] transition-all"
+              onClick={() => setShowMedia(!showMedia)}
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">⚡</span>
+                  <div>
+                    <h2 className="text-lg sm:text-2xl font-black text-black uppercase">Prioridade Média</h2>
+                    <p className="text-sm text-black font-bold">
+                      {recomendacoesMedia.length} nutriente{recomendacoesMedia.length > 1 ? 's' : ''} recomendado{recomendacoesMedia.length > 1 ? 's' : ''}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-shrink-0">
+                  {showMedia ? (
+                    <ChevronUp className="w-8 h-8 text-black" />
+                  ) : (
+                    <ChevronDown className="w-8 h-8 text-black" />
+                  )}
+                </div>
+              </div>
             </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesMedia.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
+
+            {showMedia && (
+              <div className="grid gap-4 sm:gap-6 mt-4">
+                {recomendacoesMedia.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
           </section>
         )}
 
