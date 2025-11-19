@@ -131,6 +131,46 @@ export default function ResultadosPage() {
           message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
+        {/* Resumo Informativo - Clean */}
+        {(recomendacoesAlta.length > 0 || recomendacoesMedia.length > 0) && (
+          <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-6 mb-8">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-yellow-400 border-4 border-black flex items-center justify-center">
+                  <span className="text-2xl sm:text-3xl">📋</span>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl sm:text-2xl font-black text-black mb-2">
+                  Sua Análise Nutricional
+                </h3>
+                <p className="text-black font-bold mb-3 text-sm sm:text-base">
+                  Com base no seu perfil, identificamos{' '}
+                  <span className="bg-yellow-400 px-2 py-1">{recomendacoesAlta.length + recomendacoesMedia.length} nutrientes</span>{' '}
+                  que você pode precisar suplementar para otimizar sua saúde.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
+                  {recomendacoesAlta.length > 0 && (
+                    <div className="bg-lime-100 border-2 border-black px-3 py-1">
+                      <span className="font-black">{recomendacoesAlta.length}</span> de alta prioridade
+                    </div>
+                  )}
+                  {recomendacoesMedia.length > 0 && (
+                    <div className="bg-cyan-100 border-2 border-black px-3 py-1">
+                      <span className="font-black">{recomendacoesMedia.length}</span> de média prioridade
+                    </div>
+                  )}
+                  {recomendacoesBaixa.length > 0 && (
+                    <div className="bg-gray-100 border-2 border-black px-3 py-1">
+                      <span className="font-black">{recomendacoesBaixa.length}</span> de baixa prioridade
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
         {recomendacoesAlta.length > 0 && (
           <section className="mb-12">
