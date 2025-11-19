@@ -335,15 +335,6 @@
         "tipo": "Meta-análise",
         "citacao_chave": "Suplementação de vitamina D reduz risco de fraturas em 15% em mulheres pós-menopausa",
         "relevancia": ["menopausa", "ossos", "fraturas"]
-      },
-      {
-        "id": "ref-d-002",
-        "titulo": "Vitamin D deficiency linked to increased cardiovascular risk in menopause",
-        "revista": "Journal of Clinical Endocrinology & Metabolism",
-        "ano": 2021,
-        "tipo": "Estudo observacional",
-        "citacao_chave": "Deficiência de vitamina D está diretamente relacionada ao aumento do risco de doenças cardiovasculares na pós-menopausa",
-        "relevancia": ["menopausa", "cardiovascular"]
       }
     ],
     "seo": {

@@ -50,16 +50,6 @@
 
 ---
 
-### 1.3 Vitamina D (evidência 2)
-**Título:** Vitamin D deficiency linked to increased cardiovascular risk in menopause  
-**Revista:** Journal of Clinical Endocrinology & Metabolism  
-**Ano:** 2021  
-**Tipo:** Estudo observacional  
-**Citação-chave:** Deficiência de vitamina D está diretamente relacionada ao aumento do risco de doenças cardiovasculares na pós-menopausa  
-❌ **PROBLEMA:** Falta DOI e PMID
-
----
-
 ### 1.4 Cálcio
 **Título:** Calcium and vitamin D supplementation reduces fracture risk in elderly  
 **Revista:** Osteoporosis International  

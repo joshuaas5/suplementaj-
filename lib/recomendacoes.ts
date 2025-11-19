@@ -42,7 +42,7 @@ export function gerarRecomendacoes(perfil: Perfil): Recomendacao[] {
       dose_max: 2000,
       unidade: 'UI',
       motivos,
-      referencias: ['ref-d-001', 'ref-d-002'],
+      referencias: ['ref-d-001', 'ref-d-003'],
       nota_especial: perfil.condicoes_saude.includes('osteoporose')
         ? 'Considere doses maiores (até 4.000 UI) sob supervisão médica'
         : undefined,

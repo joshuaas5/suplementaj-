@@ -467,18 +467,6 @@
         "citacao_chave": "Suplementação de vitamina D reduz risco de infecções respiratórias agudas em 12% na população geral, com efeitos mais pronunciados em pessoas com deficiência severa"
       },
       {
-        "id": "ref-d-002",
-        "titulo": "Vitamin D deficiency linked to increased cardiovascular risk in menopause",
-        "revista": "Journal of Clinical Endocrinology & Metabolism",
-        "ano": 2021,
-        "tipo": "Estudo observacional",
-        "citacao_chave": "Deficiência de vitamina D está diretamente relacionada ao aumento do risco de doenças cardiovasculares na pós-menopausa",
-        "relevancia": [
-          "menopausa",
-          "cardiovascular"
-        ]
-      },
-      {
         "id": "ref-d-003",
         "titulo": "Vitamin D supplementation and prevention of disease: A systematic review",
         "revista": "The Lancet Diabetes & Endocrinology",
