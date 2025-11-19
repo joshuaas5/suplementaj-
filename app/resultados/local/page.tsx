@@ -29,6 +29,9 @@ export default function ResultadosPage() {
   const [downloadingPDF, setDownloadingPDF] = useState(false)
   const [showRewardedAd, setShowRewardedAd] = useState(true)
   const [adWatched, setAdWatched] = useState(false)
+  const [showMedia, setShowMedia] = useState(false)
+  const [showBaixa, setShowBaixa] = useState(false)
+  const [showMultivitaminicos, setShowMultivitaminicos] = useState(false)
 
   const handleAdComplete = () => {
     setAdWatched(true)
@@ -170,8 +173,35 @@ export default function ResultadosPage() {
           </div>
         </div>
 
+        {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
+        {recomendacoesAlta.length > 0 && (
+          <section className="mb-12">
+            <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
+            </div>
+            <div className="grid gap-4 sm:gap-6">
+              {recomendacoesAlta.map(rec => (
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Botão para Ver Multivitamínicos - APÓS LER AS DE ALTA */}
+        {multivitaminicosRecomendados.length > 0 && recomendacoesAlta.length > 0 && !showMultivitaminicos && (
+          <div className="mb-12 text-center">
+            <Button
+              variant="secondary"
+              size="lg"
+              onClick={() => setShowMultivitaminicos(true)}
+            >
+              💊 Ver Opções de Multivitamínicos
+            </Button>
+          </div>
+        )}
+
         {/* Multivitamínicos Recomendados - SEÇÃO ESPECIAL */}
-        {multivitaminicosRecomendados.length > 0 && (
+        {multivitaminicosRecomendados.length > 0 && showMultivitaminicos && (
           <section className="mb-16">
             <div className="bg-pink-500 border-8 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-6 sm:p-8 mb-8">
               <div className="text-center mb-6">
@@ -219,45 +249,47 @@ export default function ResultadosPage() {
           </section>
         )}
 
-        {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
-        {recomendacoesAlta.length > 0 && (
-          <section className="mb-12">
-            <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesAlta.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Recomendações de Prioridade Média - NEOBRUTALISM */}
+        {/* Recomendações de Prioridade Média - NEOBRUTALISM (COLAPSÁVEL) */}
         {recomendacoesMedia.length > 0 && (
           <section className="mb-12">
-            <div className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">⚡ Prioridade Média</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesMedia.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
+            <button
+              onClick={() => setShowMedia(!showMedia)}
+              className="w-full bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-4 sm:px-6 sm:py-5 mb-6 hover:shadow-[6px_6px_0_0_#000] sm:hover:shadow-[10px_10px_0_0_#000] transition-all"
+            >
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">⚡ Prioridade Média ({recomendacoesMedia.length})</h2>
+                <span className="text-2xl sm:text-4xl font-black text-black">{showMedia ? '▼' : '▶'}</span>
+              </div>
+            </button>
+            {showMedia && (
+              <div className="grid gap-4 sm:gap-6">
+                {recomendacoesMedia.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
           </section>
         )}
 
-        {/* Recomendações de Prioridade Baixa - NEOBRUTALISM */}
+        {/* Recomendações de Prioridade Baixa - NEOBRUTALISM (COLAPSÁVEL) */}
         {recomendacoesBaixa.length > 0 && (
           <section className="mb-12">
-            <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">💡 Prioridade Baixa</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesBaixa.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
+            <button
+              onClick={() => setShowBaixa(!showBaixa)}
+              className="w-full bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-4 sm:px-6 sm:py-5 mb-6 hover:shadow-[6px_6px_0_0_#000] sm:hover:shadow-[10px_10px_0_0_#000] transition-all"
+            >
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">💡 Prioridade Baixa ({recomendacoesBaixa.length})</h2>
+                <span className="text-2xl sm:text-4xl font-black text-black">{showBaixa ? '▼' : '▶'}</span>
+              </div>
+            </button>
+            {showBaixa && (
+              <div className="grid gap-4 sm:gap-6">
+                {recomendacoesBaixa.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
           </section>
         )}
 
