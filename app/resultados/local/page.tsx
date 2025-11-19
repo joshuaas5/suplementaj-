@@ -8,7 +8,7 @@ import { CardMultivitaminico } from '@/components/resultados/CardMultivitaminico
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { Button } from '@/components/ui/Button'
 import { RewardedAdModal } from '@/components/ads/RewardedAdModal'
-import { Download } from 'lucide-react'
+import { Download, ChevronDown, ChevronUp } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
 import { gerarPDFResultados } from '@/lib/pdf'
@@ -29,6 +29,8 @@ export default function ResultadosPage() {
   const [downloadingPDF, setDownloadingPDF] = useState(false)
   const [showRewardedAd, setShowRewardedAd] = useState(true)
   const [adWatched, setAdWatched] = useState(false)
+  const [showBaixa, setShowBaixa] = useState(false)
+  const [showNaoRecomendados, setShowNaoRecomendados] = useState(false)
 
   const handleAdComplete = () => {
     setAdWatched(true)
@@ -245,31 +247,77 @@ export default function ResultadosPage() {
           </section>
         )}
 
-        {/* Recomendações de Prioridade Baixa - NEOBRUTALISM */}
+        {/* Recomendações de Prioridade Baixa - COLAPSÁVEL */}
         {recomendacoesBaixa.length > 0 && (
           <section className="mb-12">
-            <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">💡 Prioridade Baixa</h2>
+            <div
+              className="bg-cyan-100 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 cursor-pointer hover:shadow-[6px_6px_0_0_#000] transition-all"
+              onClick={() => setShowBaixa(!showBaixa)}
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">💡</span>
+                  <div>
+                    <h2 className="text-lg sm:text-2xl font-black text-black uppercase">Prioridade Baixa</h2>
+                    <p className="text-sm text-black font-bold">
+                      {recomendacoesBaixa.length} nutriente{recomendacoesBaixa.length > 1 ? 's' : ''} opcional{recomendacoesBaixa.length > 1 ? 'ais' : ''}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-shrink-0">
+                  {showBaixa ? (
+                    <ChevronUp className="w-8 h-8 text-black" />
+                  ) : (
+                    <ChevronDown className="w-8 h-8 text-black" />
+                  )}
+                </div>
+              </div>
             </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesBaixa.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
+
+            {showBaixa && (
+              <div className="grid gap-4 sm:gap-6 mt-4">
+                {recomendacoesBaixa.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
           </section>
         )}
 
-        {/* Não Recomendados - NEOBRUTALISM */}
+        {/* Não Recomendados - COLAPSÁVEL */}
         {naoRecomendados.length > 0 && (
           <section className="mb-12">
-            <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-white uppercase">⛔ Não Recomendados</h2>
+            <div
+              className="bg-pink-100 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 cursor-pointer hover:shadow-[6px_6px_0_0_#000] transition-all"
+              onClick={() => setShowNaoRecomendados(!showNaoRecomendados)}
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">⛔</span>
+                  <div>
+                    <h2 className="text-lg sm:text-2xl font-black text-black uppercase">Não Recomendados</h2>
+                    <p className="text-sm text-black font-bold">
+                      {naoRecomendados.length} nutriente{naoRecomendados.length > 1 ? 's' : ''} que você não precisa
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-shrink-0">
+                  {showNaoRecomendados ? (
+                    <ChevronUp className="w-8 h-8 text-black" />
+                  ) : (
+                    <ChevronDown className="w-8 h-8 text-black" />
+                  )}
+                </div>
+              </div>
             </div>
-            <div className="grid gap-4 sm:gap-6">
-              {naoRecomendados.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
+
+            {showNaoRecomendados && (
+              <div className="grid gap-4 sm:gap-6 mt-4">
+                {naoRecomendados.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
           </section>
         )}
 
