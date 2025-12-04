@@ -2,12 +2,19 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowLeft, Calculator } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
-import { CalculadoraCreatina, CalculadoraProteina, CalculadoraAgua } from '@/components/calculadoras'
+import { 
+  CalculadoraCreatina, 
+  CalculadoraProteina, 
+  CalculadoraAgua,
+  CalculadoraIMC,
+  CalculadoraCalorias,
+  CalculadoraMacros
+} from '@/components/calculadoras'
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Suplementação - Suplementa Já',
-  description: 'Calculadoras gratuitas: dose de creatina por peso, necessidade diária de proteína e hidratação. Ferramentas baseadas em ciência para otimizar sua suplementação.',
-  keywords: ['calculadora creatina', 'calculadora proteína', 'quanto de creatina tomar', 'proteína por kg', 'hidratação', 'suplementação'],
+  title: 'Calculadoras de Saúde e Suplementação - Suplementa Já',
+  description: 'Calculadoras gratuitas: IMC, calorias (TMB), macros, creatina, proteína e hidratação. Ferramentas baseadas em ciência para otimizar sua saúde.',
+  keywords: ['calculadora imc', 'calculadora calorias', 'calculadora macros', 'calculadora creatina', 'calculadora proteína', 'tmb', 'gasto calórico'],
 }
 
 export default function CalculadorasPage() {
@@ -42,11 +49,28 @@ export default function CalculadorasPage() {
           </div>
         </div>
 
-        {/* Grid de Calculadoras */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          <CalculadoraCreatina />
-          <CalculadoraProteina />
-          <CalculadoraAgua />
+        {/* Seção 1: Calculadoras de Corpo */}
+        <div className="mb-10">
+          <div className="inline-block bg-pink-500 border-4 border-black px-4 py-2 mb-6 -rotate-1">
+            <h2 className="text-xl font-black text-white uppercase">⚖️ Corpo & Composição</h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <CalculadoraIMC />
+            <CalculadoraCalorias />
+            <CalculadoraMacros />
+          </div>
+        </div>
+
+        {/* Seção 2: Calculadoras de Suplementação */}
+        <div className="mb-12">
+          <div className="inline-block bg-cyan-400 border-4 border-black px-4 py-2 mb-6 rotate-1">
+            <h2 className="text-xl font-black text-black uppercase">💊 Suplementação</h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <CalculadoraCreatina />
+            <CalculadoraProteina />
+            <CalculadoraAgua />
+          </div>
         </div>
 
         {/* CTA */}

@@ -137,36 +137,45 @@ export default function Home() {
             <div className="inline-block bg-black px-6 py-3 mb-4 -rotate-1">
               <h2 className="text-2xl sm:text-3xl font-black text-cyan-400 uppercase flex items-center gap-3">
                 <Calculator className="w-8 h-8" />
-                Calculadoras Gratuitas
+                6 Calculadoras Gratuitas
               </h2>
             </div>
             <p className="text-black font-bold text-lg">
-              Ferramentas práticas para otimizar sua suplementação
+              Ferramentas práticas para saúde e suplementação
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-3 gap-4 mb-8">
-            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <div className="text-4xl mb-3">💪</div>
-              <h3 className="font-black text-black uppercase text-lg mb-2">Creatina</h3>
-              <p className="text-black font-bold text-sm">Calcule a dose ideal para seu peso corporal</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
+            <Link href="/calculadoras" className="bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">⚖️</div>
+              <h3 className="font-black text-black uppercase text-sm">IMC</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <div className="text-4xl mb-3">🥩</div>
-              <h3 className="font-black text-black uppercase text-lg mb-2">Proteína</h3>
-              <p className="text-black font-bold text-sm">Quantos gramas você precisa por dia?</p>
+            <Link href="/calculadoras" className="bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🔥</div>
+              <h3 className="font-black text-black uppercase text-sm">Calorias</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#000] transition-all">
-              <div className="text-4xl mb-3">💧</div>
-              <h3 className="font-black text-black uppercase text-lg mb-2">Água</h3>
-              <p className="text-black font-bold text-sm">Descubra sua hidratação ideal</p>
+            <Link href="/calculadoras" className="bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🍽️</div>
+              <h3 className="font-black text-black uppercase text-sm">Macros</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">💪</div>
+              <h3 className="font-black text-black uppercase text-sm">Creatina</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🥩</div>
+              <h3 className="font-black text-black uppercase text-sm">Proteína</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">💧</div>
+              <h3 className="font-black text-black uppercase text-sm">Água</h3>
             </Link>
           </div>
 
           <div className="text-center">
             <Link href="/calculadoras">
               <Button variant="primary" size="lg" className="text-lg px-8 py-5">
-                Ver Todas as Calculadoras
+                Usar Calculadoras Agora
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
