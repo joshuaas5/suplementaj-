@@ -2305,9 +2305,9 @@
       },
       {
         "tipo": "cta",
-        "texto": "Quer saber se creatina é ideal para seu perfil e objetivos? Faça nossa avaliação!",
-        "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "texto": "Calcule sua dose ideal de creatina com base no seu peso corporal!",
+        "botao": "Usar Calculadora de Creatina →",
+        "link": "/calculadoras/creatina"
       },
       {
         "tipo": "heading",
@@ -6092,6 +6092,610 @@
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
         "link": "/avaliacao"
+      }
+    ]
+  },
+  {
+    "slug": "proteina-por-dia-quanto-consumir-guia-completo",
+    "titulo": "Quanto de Proteína Por Dia: Guia Completo Por Peso e Objetivo",
+    "descricao": "Descubra exatamente quantos gramas de proteína você precisa por dia com base no seu peso, sexo e objetivo. Cálculos científicos baseados em recomendações do ISSN.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-15",
+    "categoria": "Nutrição",
+    "tags": ["proteína", "ganho muscular", "calculadora", "macros", "dieta"],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/proteina.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "A proteína é o macronutriente mais importante para quem busca construir massa muscular, perder gordura ou simplesmente manter uma composição corporal saudável. Mas quanto você realmente precisa consumir por dia?"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que a Proteína é Essencial?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A proteína fornece os aminoácidos necessários para a síntese proteica muscular (MPS), reparo de tecidos, produção de enzimas e hormônios, além de contribuir significativamente para a saciedade."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Construção e reparo muscular após treinos",
+          "Maior saciedade (ajuda em dietas de emagrecimento)",
+          "Efeito térmico elevado (gasta mais calorias para digerir)",
+          "Preservação de massa magra em déficit calórico",
+          "Suporte ao sistema imunológico"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Recomendações Científicas de Proteína"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "As recomendações variam conforme a organização e o objetivo. A RDA básica é 0,8g/kg, mas atletas e praticantes de musculação precisam de muito mais."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Objetivo/Perfil", "Homens (g/kg)", "Mulheres (g/kg)"],
+        "linhas": [
+          ["Sedentário", "0,8 - 1,0", "0,8 - 1,0"],
+          ["Atleta de endurance", "1,2 - 1,6", "1,2 - 1,4"],
+          ["Ganho muscular", "1,6 - 2,2", "1,4 - 2,0"],
+          ["Cutting (perda de gordura)", "2,0 - 2,4", "1,8 - 2,2"],
+          ["Atletas de força", "1,8 - 2,4", "1,6 - 2,2"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Calcule Sua Necessidade Exata"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não precisa fazer contas manualmente! Use nossa calculadora científica que considera seu peso, sexo e objetivo para determinar a quantidade ideal de proteína diária."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Descubra quantos gramas de proteína você precisa por dia!",
+        "botao": "Usar Calculadora de Proteína →",
+        "link": "/calculadoras/proteina"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Melhores Fontes de Proteína"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Frango e peru: ~31g por 100g",
+          "Carne bovina magra: ~26g por 100g",
+          "Ovos: ~6g por unidade",
+          "Whey Protein: ~25g por dose",
+          "Salmão: ~20g por 100g",
+          "Queijo cottage: ~11g por 100g",
+          "Tofu: ~8g por 100g",
+          "Lentilha: ~9g por 100g (cozida)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Distribuição ao Longo do Dia"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Estudos mostram que distribuir a proteína em 4-6 refeições com 20-40g cada otimiza a síntese proteica muscular. Não adianta consumir tudo de uma vez!"
+      },
+      {
+        "tipo": "alerta",
+        "texto": "Dica: Consuma proteína em todas as refeições principais, incluindo o café da manhã. A janela anabólica pós-treino existe, mas a quantidade total diária é mais importante."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Preciso de Suplementos?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Se você consegue atingir sua meta apenas com alimentos, ótimo! Mas para muitas pessoas, especialmente quem precisa de 150g+ por dia, suplementos como Whey Protein são práticos e eficazes."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A quantidade ideal de proteína varia de pessoa para pessoa. Use nossa calculadora para descobrir exatamente quanto você precisa, e foque em fontes de qualidade distribuídas ao longo do dia."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule agora sua necessidade diária de proteína!",
+        "botao": "Acessar Calculadora →",
+        "link": "/calculadoras/proteina"
+      }
+    ]
+  },
+  {
+    "slug": "imc-o-que-significa-como-calcular",
+    "titulo": "IMC: O Que Significa, Como Calcular e O Que Fazer Com o Resultado",
+    "descricao": "Entenda o Índice de Massa Corporal (IMC), suas limitações, como interpretar seu resultado e quais ações tomar para melhorar sua saúde.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-15",
+    "categoria": "Saúde",
+    "tags": ["IMC", "peso", "saúde", "calculadora", "composição corporal"],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/imc.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "O IMC (Índice de Massa Corporal) é uma das métricas mais utilizadas para avaliar se o peso de uma pessoa está adequado para sua altura. Mas o que esse número realmente significa e quais são suas limitações?"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é o IMC?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O IMC é uma fórmula simples desenvolvida pelo matemático belga Adolphe Quetelet no século XIX. Ele divide o peso (em kg) pela altura ao quadrado (em metros): IMC = peso ÷ altura²."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu IMC agora mesmo de forma rápida e precisa!",
+        "botao": "Usar Calculadora de IMC →",
+        "link": "/calculadoras/imc"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Classificação do IMC (OMS)"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["IMC", "Classificação", "Risco para Saúde"],
+        "linhas": [
+          ["Abaixo de 18,5", "Abaixo do peso", "Moderado"],
+          ["18,5 - 24,9", "Peso normal", "Baixo"],
+          ["25,0 - 29,9", "Sobrepeso", "Aumentado"],
+          ["30,0 - 34,9", "Obesidade grau I", "Alto"],
+          ["35,0 - 39,9", "Obesidade grau II", "Muito alto"],
+          ["40,0 ou mais", "Obesidade grau III", "Extremamente alto"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limitações do IMC"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Apesar de útil para a população geral, o IMC tem limitações importantes que você precisa conhecer:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Não diferencia massa muscular de gordura",
+          "Um fisiculturista pode ter IMC de 'obeso' sendo muito saudável",
+          "Não considera distribuição de gordura (visceral vs subcutânea)",
+          "Não leva em conta idade, sexo ou etnia",
+          "Pessoas idosas podem ter IMC normal mas pouca massa muscular"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "texto": "Importante: Se você treina musculação regularmente, o IMC pode não refletir sua real composição corporal. Considere medir também circunferência abdominal e percentual de gordura."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Fazer Com Seu Resultado?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Seu IMC é apenas um ponto de partida. Veja como interpretar e agir:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "IMC baixo: Consulte um nutricionista, pode precisar aumentar calorias e proteína",
+          "IMC normal: Mantenha hábitos saudáveis, foque em qualidade de vida",
+          "IMC alto: Avalie também circunferência abdominal e considere ajustes na dieta",
+          "IMC muito alto: Procure acompanhamento profissional multidisciplinar"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Próximos Passos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Depois de calcular seu IMC, recomendamos também calcular sua Taxa Metabólica Basal (TMB) e necessidade de macronutrientes para ter um panorama completo."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Descubra também quantas calorias você precisa por dia!",
+        "botao": "Calculadora de Calorias →",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "como-calcular-gasto-calorico-tmb-tdee",
+    "titulo": "Como Calcular Seu Gasto Calórico: Guia Completo de TMB e TDEE",
+    "descricao": "Aprenda a calcular sua Taxa Metabólica Basal (TMB) e Gasto Energético Total (TDEE) para emagrecer, manter ou ganhar peso de forma científica.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-15",
+    "categoria": "Nutrição",
+    "tags": ["calorias", "TMB", "TDEE", "metabolismo", "calculadora", "dieta"],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/calorias.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Entender quantas calorias seu corpo gasta é fundamental para qualquer objetivo: perder gordura, ganhar massa muscular ou manter o peso. Tudo começa com o cálculo da TMB e TDEE."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é TMB (Taxa Metabólica Basal)?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A TMB representa a quantidade de calorias que seu corpo gasta em repouso absoluto para manter funções vitais: respiração, batimentos cardíacos, temperatura corporal, função cerebral, etc."
+      },
+      {
+        "tipo": "alerta",
+        "texto": "Curiosidade: A TMB representa cerca de 60-75% do seu gasto calórico total diário. Sim, você queima a maior parte das calorias apenas existindo!"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é TDEE (Gasto Energético Total)?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O TDEE (Total Daily Energy Expenditure) é sua TMB multiplicada pelo seu nível de atividade física. É o número real de calorias que você gasta por dia."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Nível de Atividade", "Fator Multiplicador", "Descrição"],
+        "linhas": [
+          ["Sedentário", "1,2", "Pouco ou nenhum exercício, trabalho de escritório"],
+          ["Levemente ativo", "1,375", "Exercício leve 1-3x por semana"],
+          ["Moderadamente ativo", "1,55", "Exercício moderado 3-5x por semana"],
+          ["Muito ativo", "1,725", "Exercício intenso 6-7x por semana"],
+          ["Extremamente ativo", "1,9", "Atleta profissional ou trabalho físico pesado"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Fórmula de Mifflin-St Jeor"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A fórmula mais precisa para calcular TMB é a de Mifflin-St Jeor, que diferencia homens e mulheres:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Homens: TMB = (10 × peso kg) + (6,25 × altura cm) - (5 × idade) + 5",
+          "Mulheres: TMB = (10 × peso kg) + (6,25 × altura cm) - (5 × idade) - 161"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Não precisa fazer contas! Calcule automaticamente sua TMB e TDEE:",
+        "botao": "Usar Calculadora de Calorias →",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Usar o TDEE Para Seus Objetivos"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Objetivo", "Calorias", "Resultado Esperado"],
+        "linhas": [
+          ["Perder gordura", "TDEE - 300 a 500 kcal", "Perda de 0,3 a 0,5 kg/semana"],
+          ["Manter peso", "TDEE exato", "Peso estável"],
+          ["Ganhar massa", "TDEE + 200 a 400 kcal", "Ganho de 0,2 a 0,4 kg/semana"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros Comuns"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Superestimar nível de atividade física",
+          "Ignorar calorias de bebidas e molhos",
+          "Fazer déficit muito agressivo (perde músculo)",
+          "Não recalcular conforme perde peso",
+          "Confiar apenas na balança (peso flutua com água)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Próximo Passo: Dividir em Macros"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Depois de saber quantas calorias você precisa, o próximo passo é dividir essas calorias em macronutrientes (proteína, carboidratos e gorduras) de acordo com seu objetivo."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule também a divisão ideal de macronutrientes:",
+        "botao": "Calculadora de Macros →",
+        "link": "/calculadoras/macros"
+      }
+    ]
+  },
+  {
+    "slug": "como-dividir-macros-cutting-bulking-manutencao",
+    "titulo": "Como Dividir Macros: Guia Para Cutting, Bulking e Manutenção",
+    "descricao": "Aprenda a calcular e dividir seus macronutrientes (proteína, carboidratos e gorduras) de acordo com seu objetivo: emagrecer, ganhar massa ou manter peso.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-15",
+    "categoria": "Nutrição",
+    "tags": ["macros", "dieta", "cutting", "bulking", "calculadora", "nutrição"],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/macros.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Saber quantas calorias comer é apenas o primeiro passo. A divisão correta de macronutrientes é o que diferencia uma dieta eficiente de uma que não funciona."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que São Macronutrientes?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Proteína: 4 kcal/g - Construção muscular, saciedade, reparo tecidual",
+          "Carboidratos: 4 kcal/g - Energia primária, performance, recuperação",
+          "Gorduras: 9 kcal/g - Hormônios, absorção de vitaminas, saciedade"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Divisão Para Cutting (Perda de Gordura)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em cutting, a prioridade é preservar massa muscular enquanto perde gordura. Isso exige proteína alta e déficit calórico moderado."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Macro", "% das Calorias", "Por kg de Peso"],
+        "linhas": [
+          ["Proteína", "30-35%", "2,0 - 2,4 g/kg"],
+          ["Gorduras", "25-30%", "0,8 - 1,0 g/kg"],
+          ["Carboidratos", "35-45%", "Restante das calorias"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Divisão Para Bulking (Ganho de Massa)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em bulking, você precisa de superávit calórico e carboidratos suficientes para treinar pesado e recuperar. A proteína continua importante, mas não precisa ser tão alta."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Macro", "% das Calorias", "Por kg de Peso"],
+        "linhas": [
+          ["Proteína", "20-25%", "1,6 - 2,0 g/kg"],
+          ["Gorduras", "20-25%", "0,8 - 1,0 g/kg"],
+          ["Carboidratos", "50-60%", "Restante das calorias"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Divisão Para Manutenção"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em manutenção, o objetivo é equilíbrio. Proteína moderada-alta para preservar músculo, gorduras adequadas para saúde hormonal, e carboidratos para energia."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Macro", "% das Calorias", "Por kg de Peso"],
+        "linhas": [
+          ["Proteína", "25-30%", "1,4 - 1,8 g/kg"],
+          ["Gorduras", "25-30%", "0,8 - 1,0 g/kg"],
+          ["Carboidratos", "40-50%", "Restante das calorias"]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seus macros ideais automaticamente:",
+        "botao": "Usar Calculadora de Macros →",
+        "link": "/calculadoras/macros"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo Prático"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Homem, 80kg, objetivo cutting, TDEE 2500 kcal, déficit de 400 kcal = 2100 kcal/dia."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Proteína: 176g (2,2g/kg × 80kg = 704 kcal)",
+          "Gordura: 70g (0,875g/kg × 80kg = 630 kcal)",
+          "Carboidratos: 191g (766 kcal restantes ÷ 4)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dicas Importantes"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Nunca reduza gorduras abaixo de 0,5g/kg - essencial para hormônios",
+          "Proteína deve ser a primeira prioridade em qualquer objetivo",
+          "Carboidratos são flexíveis - ajuste conforme sua energia e treinos",
+          "Fibras contam como carboidratos mas têm menos calorias efetivas",
+          "Recalcule a cada 4-6 semanas ou quando o progresso parar"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Monte sua dieta com macros personalizados agora:",
+        "botao": "Acessar Calculadora de Macros →",
+        "link": "/calculadoras/macros"
+      }
+    ]
+  },
+  {
+    "slug": "quanta-agua-beber-por-dia-calculo-por-peso",
+    "titulo": "Quanta Água Beber Por Dia? Cálculo Científico Por Peso Corporal",
+    "descricao": "Descubra a quantidade ideal de água diária com base no seu peso, nível de atividade física e clima. Fórmulas científicas baseadas em recomendações do IOM.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-15",
+    "categoria": "Saúde",
+    "tags": ["água", "hidratação", "calculadora", "saúde", "performance"],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/agua.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "A hidratação adequada é fundamental para praticamente todas as funções do corpo humano. Mas a famosa regra dos '2 litros por dia' está ultrapassada - sua necessidade real depende de vários fatores."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que a Hidratação é Tão Importante?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Regula temperatura corporal durante exercícios",
+          "Transporta nutrientes e oxigênio para as células",
+          "Remove toxinas e resíduos metabólicos",
+          "Lubrifica articulações e protege órgãos",
+          "Melhora função cognitiva e foco",
+          "Auxilia na digestão e absorção de nutrientes",
+          "Impacta diretamente a performance física (até 25%!)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Fórmula Científica de Hidratação"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O Institute of Medicine (IOM) recomenda uma base de 30-35ml por kg de peso corporal, ajustada por fatores como sexo, atividade física e clima."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Fator", "Ajuste", "Motivo"],
+        "linhas": [
+          ["Peso base", "35ml × peso (kg)", "Necessidade mínima"],
+          ["Exercício intenso", "+500ml a 1L", "Perda pelo suor"],
+          ["Clima quente", "+500ml", "Maior transpiração"],
+          ["Amamentação", "+700ml", "Produção de leite"],
+          ["Altitude elevada", "+250ml", "Respiração mais acelerada"]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule sua necessidade exata de água com base no seu perfil:",
+        "botao": "Usar Calculadora de Água →",
+        "link": "/calculadoras/agua"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Diferença Entre Homens e Mulheres"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Homens geralmente precisam de mais água devido à maior massa muscular (músculos são 75% água) e taxa metabólica mais elevada."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Sexo", "Recomendação IOM", "Atletas"],
+        "linhas": [
+          ["Homens", "3,7L/dia total", "4-5L/dia"],
+          ["Mulheres", "2,7L/dia total", "3-4L/dia"]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "texto": "Nota: Esses valores incluem água de alimentos (cerca de 20% do total). Frutas, vegetais e sopas contribuem para sua hidratação!"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Sinais de Desidratação"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Urina escura (deve ser amarelo claro)",
+          "Boca seca e sede frequente",
+          "Fadiga e falta de energia",
+          "Dor de cabeça",
+          "Tontura ou confusão mental",
+          "Pele ressecada",
+          "Cãibras musculares"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dicas Para Beber Mais Água"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Tenha uma garrafa sempre visível na mesa de trabalho",
+          "Use aplicativos de lembrete de hidratação",
+          "Beba 1 copo ao acordar (antes de qualquer outra coisa)",
+          "Adicione limão, hortelã ou frutas para dar sabor",
+          "Estabeleça 'gatilhos': beber antes de cada refeição",
+          "Coma alimentos ricos em água: pepino, melancia, tomate"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Existe 'Água Demais'?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Sim, hiponatremia (intoxicação por água) existe, mas é rara em pessoas saudáveis. Só ocorre com consumo extremo (>10L/dia) ou reposição inadequada de eletrólitos em atletas de ultra-resistência."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Descubra sua quantidade ideal de água diária:",
+        "botao": "Acessar Calculadora de Água →",
+        "link": "/calculadoras/agua"
       }
     ]
   }
