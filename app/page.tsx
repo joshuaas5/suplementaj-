@@ -1,9 +1,10 @@
 import Link from 'next/link'
-import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award, Brain } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award, Brain, Calculator } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
+import { HorizontalAd } from '@/components/ads/DisplayAd'
 
 export default function Home() {
   // Schema markup para rich snippets do Google
@@ -107,13 +108,14 @@ export default function Home() {
                   <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
                 </Button>
               </Link>
-              <Link href="/nutrientes" className="w-full sm:w-auto">
+              <Link href="/calculadoras" className="w-full sm:w-auto">
                 <Button
                   variant="success"
                   size="lg"
                   className="text-base sm:text-xl px-6 sm:px-10 py-4 sm:py-7 w-full sm:w-auto"
                 >
-                  Explorar Nutrientes
+                  <Calculator className="mr-2 w-5 h-5 sm:w-6 sm:h-6" />
+                  Calculadoras Gratuitas
                 </Button>
               </Link>
             </div>
@@ -128,9 +130,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Seção Calculadoras Destaque */}
+      <section className="bg-cyan-400 border-y-8 border-black py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <div className="inline-block bg-black px-6 py-3 mb-4 -rotate-1">
+              <h2 className="text-2xl sm:text-3xl font-black text-cyan-400 uppercase flex items-center gap-3">
+                <Calculator className="w-8 h-8" />
+                6 Calculadoras Gratuitas
+              </h2>
+            </div>
+            <p className="text-black font-bold text-lg">
+              Ferramentas práticas para saúde e suplementação
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
+            <Link href="/calculadoras" className="bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">⚖️</div>
+              <h3 className="font-black text-black uppercase text-sm">IMC</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🔥</div>
+              <h3 className="font-black text-black uppercase text-sm">Calorias</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🍽️</div>
+              <h3 className="font-black text-black uppercase text-sm">Macros</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">💪</div>
+              <h3 className="font-black text-black uppercase text-sm">Creatina</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">🥩</div>
+              <h3 className="font-black text-black uppercase text-sm">Proteína</h3>
+            </Link>
+            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+              <div className="text-3xl mb-2">💧</div>
+              <h3 className="font-black text-black uppercase text-sm">Água</h3>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link href="/calculadoras">
+              <Button variant="primary" size="lg" className="text-lg px-8 py-5">
+                Usar Calculadoras Agora
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Disclaimer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <DisclaimerBanner />
+      </div>
+
+      {/* Anúncio após o Hero */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HorizontalAd />
       </div>
 
       {/* Features Section - NEOBRUTALISM */}
@@ -299,6 +359,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Anúncio entre seções */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HorizontalAd />
+      </div>
 
       {/* Nutrients Showcase - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
