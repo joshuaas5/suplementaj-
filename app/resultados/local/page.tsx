@@ -7,7 +7,6 @@ import { CardNutriente } from '@/components/resultados/CardNutriente'
 import { CardMultivitaminico } from '@/components/resultados/CardMultivitaminico'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { Button } from '@/components/ui/Button'
-import { RewardedAdModal } from '@/components/ads/RewardedAdModal'
 import { Download } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
@@ -27,13 +26,6 @@ export default function ResultadosPage() {
   const [avaliacao, setAvaliacao] = useState<AvaliacaoLocal | null>(null)
   const [loading, setLoading] = useState(true)
   const [downloadingPDF, setDownloadingPDF] = useState(false)
-  const [showRewardedAd, setShowRewardedAd] = useState(true)
-  const [adWatched, setAdWatched] = useState(false)
-
-  const handleAdComplete = () => {
-    setAdWatched(true)
-    setShowRewardedAd(false)
-  }
 
   const handleDownloadPDF = () => {
     if (!avaliacao) return
@@ -73,10 +65,10 @@ export default function ResultadosPage() {
 
   // Rastrear visualização dos resultados
   useEffect(() => {
-    if (avaliacao && !showRewardedAd) {
+    if (avaliacao) {
       trackResultsView(avaliacao.recomendacoes.length)
     }
-  }, [avaliacao, showRewardedAd])
+  }, [avaliacao])
 
   if (loading) {
     return (
@@ -102,11 +94,6 @@ export default function ResultadosPage() {
 
   // Recomendar multivitamínicos baseado nas necessidades
   const multivitaminicosRecomendados = recomendarMultivitaminicos(avaliacao.recomendacoes, avaliacao.perfil)
-
-  // Mostrar Rewarded Ad antes de exibir resultados
-  if (showRewardedAd && !adWatched) {
-    return <RewardedAdModal onComplete={handleAdComplete} waitTime={8} />
-  }
 
   return (
     <div className="min-h-screen bg-white py-8">
