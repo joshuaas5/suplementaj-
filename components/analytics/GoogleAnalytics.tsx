@@ -3,9 +3,8 @@
 import Script from 'next/script'
 
 export function GoogleAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID
-
-  if (!gaId) return null
+  // ID fornecido diretamente
+  const gaId = 'G-86758KVJKZ'
 
   return (
     <>
