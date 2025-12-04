@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     description: "Descubra quais vitaminas e minerais você realmente precisa",
     type: "website",
   },
+  verification: {
+    google: "4DA9xw0IDScqFxPZ0yI6TYuuXBes9ekaeu1ENTtS6Sg",
+  },
 };
 
 export default function RootLayout({
