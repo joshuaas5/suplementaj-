@@ -7,7 +7,7 @@ import { CardNutriente } from '@/components/resultados/CardNutriente'
 import { CardMultivitaminico } from '@/components/resultados/CardMultivitaminico'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { Button } from '@/components/ui/Button'
-import { Download } from 'lucide-react'
+import { Download, ChevronDown, ChevronUp } from 'lucide-react'
 import { RecomendacaoEnriquecida } from '@/types'
 import { Perfil } from '@/types/perfil'
 import { gerarPDFResultados } from '@/lib/pdf'
@@ -26,6 +26,8 @@ export default function ResultadosPage() {
   const [avaliacao, setAvaliacao] = useState<AvaliacaoLocal | null>(null)
   const [loading, setLoading] = useState(true)
   const [downloadingPDF, setDownloadingPDF] = useState(false)
+  const [showMediaPrioridade, setShowMediaPrioridade] = useState(false)
+  const [showBaixaPrioridade, setShowBaixaPrioridade] = useState(false)
 
   const handleDownloadPDF = () => {
     if (!avaliacao) return
@@ -118,41 +120,102 @@ export default function ResultadosPage() {
           message="⚠️ IMPORTANTE: Estas recomendações são baseadas em evidências científicas gerais e no perfil que você forneceu. Para orientação personalizada, o ideal é consultar um nutricionista, nutrólogo ou médico."
         />
 
-        {/* Ações - NEOBRUTALISM */}
-        <div className="flex flex-wrap gap-3 justify-center mb-8">
-          <Button
-            variant="primary"
-            size="lg"
-            onClick={handleDownloadPDF}
-            loading={downloadingPDF}
-            disabled={downloadingPDF}
-          >
-            <Download className="w-5 h-5 mr-2" />
-            {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
-          </Button>
-          <Link href="/avaliacao">
-            <Button variant="outline" size="lg">
-              Fazer Nova Avaliação
-            </Button>
-          </Link>
-        </div>
+        {/* ============================================ */}
+        {/* 1. PRIORIDADE ALTA - Sempre visível */}
+        {/* ============================================ */}
+        {recomendacoesAlta.length > 0 && (
+          <section className="mb-8">
+            <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
+              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
+            </div>
+            <div className="grid gap-4 sm:gap-6">
+              {recomendacoesAlta.map(rec => (
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+              ))}
+            </div>
+          </section>
+        )}
 
-        {/* Compartilhar nas Redes Sociais */}
-        <div className="mb-12 max-w-3xl mx-auto">
-          <SocialShareButtons
-            title="Suplementa Já - Minhas Recomendações Personalizadas"
-            text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
-          />
-        </div>
+        {/* ============================================ */}
+        {/* 2. PRIORIDADE MÉDIA - Colapsável */}
+        {/* ============================================ */}
+        {recomendacoesMedia.length > 0 && (
+          <section className="mb-8">
+            <button
+              onClick={() => setShowMediaPrioridade(!showMediaPrioridade)}
+              className="w-full bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-3 sm:px-6 sm:py-4 mb-4 flex items-center justify-between hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all"
+            >
+              <h2 className="text-xl sm:text-2xl font-black text-black uppercase">
+                ⚡ Prioridade Média ({recomendacoesMedia.length})
+              </h2>
+              {showMediaPrioridade ? (
+                <ChevronUp className="w-8 h-8 text-black" />
+              ) : (
+                <ChevronDown className="w-8 h-8 text-black" />
+              )}
+            </button>
+            {showMediaPrioridade && (
+              <div className="grid gap-4 sm:gap-6 animate-in slide-in-from-top-2 duration-300">
+                {recomendacoesMedia.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
+          </section>
+        )}
 
-        {/* Multivitamínicos Recomendados - SEÇÃO ESPECIAL */}
+        {/* ============================================ */}
+        {/* 3. PRIORIDADE BAIXA - Colapsável */}
+        {/* ============================================ */}
+        {recomendacoesBaixa.length > 0 && (
+          <section className="mb-8">
+            <button
+              onClick={() => setShowBaixaPrioridade(!showBaixaPrioridade)}
+              className="w-full bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-3 sm:px-6 sm:py-4 mb-4 flex items-center justify-between hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all"
+            >
+              <h2 className="text-xl sm:text-2xl font-black text-black uppercase">
+                💡 Prioridade Baixa ({recomendacoesBaixa.length})
+              </h2>
+              {showBaixaPrioridade ? (
+                <ChevronUp className="w-8 h-8 text-black" />
+              ) : (
+                <ChevronDown className="w-8 h-8 text-black" />
+              )}
+            </button>
+            {showBaixaPrioridade && (
+              <div className="grid gap-4 sm:gap-6 animate-in slide-in-from-top-2 duration-300">
+                {recomendacoesBaixa.map(rec => (
+                  <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+                ))}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* Não Recomendados (se houver) */}
+        {naoRecomendados.length > 0 && (
+          <section className="mb-8">
+            <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
+              <h2 className="text-xl sm:text-2xl font-black text-white uppercase">⛔ Não Recomendados Para Você</h2>
+            </div>
+            <div className="grid gap-4 sm:gap-6">
+              {naoRecomendados.map(rec => (
+                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ============================================ */}
+        {/* 4. MULTIVITAMÍNICOS RECOMENDADOS */}
+        {/* ============================================ */}
         {multivitaminicosRecomendados.length > 0 && (
-          <section className="mb-16">
+          <section className="mb-12 mt-12">
             <div className="bg-pink-500 border-8 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-6 sm:p-8 mb-8">
               <div className="text-center mb-6">
                 <div className="inline-block bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-3 mb-4 sm:-rotate-2">
                   <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
-                    💊 Opção Prática: Complexos Multivitamínicos
+                    💊 Onde Comprar: Multivitamínicos
                   </h2>
                 </div>
                 <div className="bg-white border-4 border-black p-4 sm:p-6 max-w-3xl mx-auto">
@@ -188,70 +251,46 @@ export default function ResultadosPage() {
             <div className="mt-8 bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-6 text-center">
               <p className="text-black font-bold text-sm sm:text-base">
                 💡 <strong>Dica:</strong> Você pode usar um multivitamínico como <span className="bg-black text-cyan-400 px-2 py-1">base</span> e
-                complementar apenas com os nutrientes específicos que precisa em <span className="bg-black text-cyan-400 px-2 py-1">doses mais altas</span> (veja abaixo).
+                complementar apenas com os nutrientes específicos que precisa em <span className="bg-black text-cyan-400 px-2 py-1">doses mais altas</span>.
               </p>
             </div>
           </section>
         )}
 
-        {/* Recomendações de Prioridade Alta - NEOBRUTALISM */}
-        {recomendacoesAlta.length > 0 && (
-          <section className="mb-12">
-            <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">🔥 Prioridade Alta</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesAlta.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
-          </section>
-        )}
+        {/* ============================================ */}
+        {/* 5. AÇÕES E COMPARTILHAR - Por último */}
+        {/* ============================================ */}
+        <div className="mt-12 pt-8 border-t-4 border-black">
+          {/* Ações - NEOBRUTALISM */}
+          <div className="flex flex-wrap gap-3 justify-center mb-8">
+            <Button
+              variant="primary"
+              size="lg"
+              onClick={handleDownloadPDF}
+              loading={downloadingPDF}
+              disabled={downloadingPDF}
+            >
+              <Download className="w-5 h-5 mr-2" />
+              {downloadingPDF ? 'Gerando PDF...' : 'Baixar PDF'}
+            </Button>
+            <Link href="/avaliacao">
+              <Button variant="outline" size="lg">
+                Fazer Nova Avaliação
+              </Button>
+            </Link>
+          </div>
 
-        {/* Recomendações de Prioridade Média - NEOBRUTALISM */}
-        {recomendacoesMedia.length > 0 && (
-          <section className="mb-12">
-            <div className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">⚡ Prioridade Média</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesMedia.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Recomendações de Prioridade Baixa - NEOBRUTALISM */}
-        {recomendacoesBaixa.length > 0 && (
-          <section className="mb-12">
-            <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:-rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-black uppercase">💡 Prioridade Baixa</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {recomendacoesBaixa.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Não Recomendados - NEOBRUTALISM */}
-        {naoRecomendados.length > 0 && (
-          <section className="mb-12">
-            <div className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 inline-block sm:rotate-1">
-              <h2 className="text-xl sm:text-3xl font-black text-white uppercase">⛔ Não Recomendados</h2>
-            </div>
-            <div className="grid gap-4 sm:gap-6">
-              {naoRecomendados.map(rec => (
-                <CardNutriente key={rec.nutriente_slug} recomendacao={rec} perfil={avaliacao.perfil} />
-              ))}
-            </div>
-          </section>
-        )}
+          {/* Compartilhar nas Redes Sociais */}
+          <div className="mb-12 max-w-3xl mx-auto">
+            <SocialShareButtons
+              title="Suplementa Já - Minhas Recomendações Personalizadas"
+              text="Acabei de descobrir minhas deficiências nutricionais com o Suplementa Já! Faça você também, é grátis! 💊"
+            />
+          </div>
+        </div>
 
         {/* Footer da página de resultados - NEOBRUTALISM */}
-        <div className="bg-yellow-400 border-4 sm:border-8 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-4 sm:p-8 mt-12">
+        <div className="bg-yellow-400 border-4 sm:border-8 border-black shadow-[6px_6px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] p-4 sm:p-8 mt-8">
           <div className="bg-black px-4 py-2 mb-4 inline-block border-2 border-black">
             <strong className="text-yellow-400 font-black uppercase">Próximos passos:</strong>
           </div>
