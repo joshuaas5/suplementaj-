@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import artigosData from '@/data/artigos.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
+import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
 
 const artigos = artigosData as Artigo[]
 
@@ -212,6 +213,9 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
           ))}
         </article>
 
+        {/* Anúncio após o conteúdo do artigo */}
+        <InArticleAd className="my-12" />
+
         {/* Footer - Links relacionados */}
         <div className="mt-16 pt-8 border-t-4 border-black">
           <div className="bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] p-8 text-center">
@@ -259,6 +263,9 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               ))}
           </div>
         </div>
+
+        {/* Anúncio final */}
+        <HorizontalAd className="mt-12" />
       </div>
     </div>
   )

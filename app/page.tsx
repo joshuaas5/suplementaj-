@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
+import { HorizontalAd } from '@/components/ads/DisplayAd'
 
 export default function Home() {
   // Schema markup para rich snippets do Google
@@ -131,6 +132,11 @@ export default function Home() {
       {/* Disclaimer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <DisclaimerBanner />
+      </div>
+
+      {/* Anúncio após o Hero */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HorizontalAd />
       </div>
 
       {/* Features Section - NEOBRUTALISM */}
@@ -299,6 +305,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Anúncio entre seções */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <HorizontalAd />
+      </div>
 
       {/* Nutrients Showcase - NEOBRUTALISM */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

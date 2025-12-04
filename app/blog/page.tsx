@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Clock, ArrowRight } from 'lucide-react'
 import artigosData from '@/data/artigos.json'
 import type { Artigo } from '@/types/artigo'
+import { HorizontalAd } from '@/components/ads/DisplayAd'
 
 export const metadata = {
   title: 'Blog - Suplementa Já | Guias e Artigos Sobre Suplementação',
@@ -47,6 +48,9 @@ export default function BlogPage() {
             </Badge>
           ))}
         </div>
+
+        {/* Anúncio antes dos artigos */}
+        <HorizontalAd className="mb-8" />
 
         {/* Grid de Artigos */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
