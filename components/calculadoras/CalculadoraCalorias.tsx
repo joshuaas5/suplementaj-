@@ -3,180 +3,173 @@
 import { useState } from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
+import { Badge } from '@/components/ui/Badge'
 
 export function CalculadoraCalorias() {
   const [peso, setPeso] = useState('')
   const [altura, setAltura] = useState('')
   const [idade, setIdade] = useState('')
   const [sexo, setSexo] = useState<'M' | 'F'>('M')
-  const [atividade, setAtividade] = useState('1.2')
+  const [atividade, setAtividade] = useState('1.55')
   const [resultado, setResultado] = useState<{
     tmb: number
-    manutencao: number
+    tdee: number
     perder: number
     ganhar: number
   } | null>(null)
 
   const calcular = () => {
-    const pesoNum = parseFloat(peso)
-    const alturaNum = parseFloat(altura)
-    const idadeNum = parseFloat(idade)
-    const fatorAtividade = parseFloat(atividade)
+    const p = parseFloat(peso)
+    const a = parseFloat(altura)
+    const i = parseFloat(idade)
+    const fa = parseFloat(atividade)
 
-    if (pesoNum > 0 && alturaNum > 0 && idadeNum > 0) {
-      // Fórmula de Mifflin-St Jeor (mais precisa)
+    if (p > 0 && a > 0 && i > 0) {
+      // Fórmula Mifflin-St Jeor (mais precisa que Harris-Benedict)
+      // Fonte: Mifflin MD et al. Am J Clin Nutr 1990
       let tmb: number
       if (sexo === 'M') {
-        tmb = (10 * pesoNum) + (6.25 * alturaNum) - (5 * idadeNum) + 5
+        tmb = (10 * p) + (6.25 * a) - (5 * i) + 5
       } else {
-        tmb = (10 * pesoNum) + (6.25 * alturaNum) - (5 * idadeNum) - 161
+        tmb = (10 * p) + (6.25 * a) - (5 * i) - 161
       }
 
-      const manutencao = tmb * fatorAtividade
-      const perder = manutencao - 500 // Déficit para perder ~0.5kg/semana
-      const ganhar = manutencao + 300 // Superávit para ganhar massa
+      const tdee = Math.round(tmb * fa)
 
       setResultado({
         tmb: Math.round(tmb),
-        manutencao: Math.round(manutencao),
-        perder: Math.round(perder),
-        ganhar: Math.round(ganhar)
+        tdee,
+        perder: Math.round(tdee - 500), // Déficit seguro ~0.5kg/sem
+        ganhar: Math.round(tdee + 300)  // Superávit moderado
       })
     }
   }
 
   return (
-    <Card className="bg-orange-400">
+    <Card className="bg-orange-400 hover:shadow-[8px_8px_0_0_#000] transition-all">
       <CardHeader>
-        <CardTitle className="text-2xl text-black">🔥 Calculadora de Calorias</CardTitle>
+        <div className="flex items-center justify-between">
+          <CardTitle className="text-2xl text-black">🔥 Calculadora de Calorias</CardTitle>
+          <Badge variant="danger">Gratuito</Badge>
+        </div>
         <p className="text-black font-bold text-sm">
-          Taxa Metabólica Basal + Gasto Diário
+          Fórmula Mifflin-St Jeor (mais precisa)
         </p>
       </CardHeader>
-      <CardContent className="space-y-4">
-        {/* Sexo */}
-        <div>
-          <label className="block text-black font-black uppercase text-sm mb-2">Sexo</label>
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              type="button"
-              onClick={() => setSexo('M')}
-              className={`p-3 border-4 border-black font-bold text-lg transition-all ${
-                sexo === 'M' 
-                  ? 'bg-black text-orange-400' 
-                  : 'bg-white text-black hover:bg-gray-100'
-              }`}
-            >
-              ♂️ Masculino
-            </button>
-            <button
-              type="button"
-              onClick={() => setSexo('F')}
-              className={`p-3 border-4 border-black font-bold text-lg transition-all ${
-                sexo === 'F' 
-                  ? 'bg-black text-orange-400' 
-                  : 'bg-white text-black hover:bg-gray-100'
-              }`}
-            >
-              ♀️ Feminino
-            </button>
-          </div>
-        </div>
-
-        {/* Inputs */}
-        <div className="grid grid-cols-3 gap-2">
+      <CardContent>
+        <div className="space-y-4">
+          {/* Sexo */}
           <div>
-            <label className="block text-black font-black uppercase text-xs mb-1">Peso (kg)</label>
-            <input
-              type="number"
-              value={peso}
-              onChange={(e) => setPeso(e.target.value)}
-              placeholder="70"
-              className="w-full p-2 border-4 border-black bg-white text-black font-bold focus:outline-none"
-            />
-          </div>
-          <div>
-            <label className="block text-black font-black uppercase text-xs mb-1">Altura (cm)</label>
-            <input
-              type="number"
-              value={altura}
-              onChange={(e) => setAltura(e.target.value)}
-              placeholder="175"
-              className="w-full p-2 border-4 border-black bg-white text-black font-bold focus:outline-none"
-            />
-          </div>
-          <div>
-            <label className="block text-black font-black uppercase text-xs mb-1">Idade</label>
-            <input
-              type="number"
-              value={idade}
-              onChange={(e) => setIdade(e.target.value)}
-              placeholder="30"
-              className="w-full p-2 border-4 border-black bg-white text-black font-bold focus:outline-none"
-            />
-          </div>
-        </div>
-
-        {/* Nível de Atividade */}
-        <div>
-          <label className="block text-black font-black uppercase text-sm mb-2">
-            Nível de Atividade
-          </label>
-          <select
-            value={atividade}
-            onChange={(e) => setAtividade(e.target.value)}
-            className="w-full p-3 border-4 border-black bg-white text-black font-bold focus:outline-none"
-          >
-            <option value="1.2">Sedentário (escritório, sem exercício)</option>
-            <option value="1.375">Leve (exercício 1-3x/semana)</option>
-            <option value="1.55">Moderado (exercício 3-5x/semana)</option>
-            <option value="1.725">Intenso (exercício 6-7x/semana)</option>
-            <option value="1.9">Muito Intenso (atleta, trabalho braçal)</option>
-          </select>
-        </div>
-
-        {/* Botão */}
-        <Button
-          onClick={calcular}
-          variant="primary"
-          size="lg"
-          className="w-full text-lg"
-        >
-          Calcular Calorias
-        </Button>
-
-        {/* Resultado */}
-        {resultado && (
-          <div className="space-y-3 mt-4">
-            {/* TMB */}
-            <div className="bg-white border-4 border-black p-4">
-              <div className="text-sm font-black text-black uppercase mb-1">🔬 Taxa Metabólica Basal (TMB)</div>
-              <div className="text-3xl font-black text-black">{resultado.tmb} kcal</div>
-              <p className="text-xs text-black font-bold">Calorias que seu corpo gasta em repouso</p>
-            </div>
-
-            {/* Gasto Total */}
-            <div className="bg-lime-400 border-4 border-black p-4">
-              <div className="text-sm font-black text-black uppercase mb-1">⚡ Gasto Diário Total (TDEE)</div>
-              <div className="text-4xl font-black text-black">{resultado.manutencao} kcal</div>
-              <p className="text-xs text-black font-bold">Para manter seu peso atual</p>
-            </div>
-
-            {/* Objetivos */}
+            <label className="block text-black font-black uppercase text-sm mb-2">Sexo</label>
             <div className="grid grid-cols-2 gap-2">
-              <div className="bg-cyan-400 border-4 border-black p-3 text-center">
-                <div className="text-xs font-black text-black uppercase">📉 Perder peso</div>
-                <div className="text-2xl font-black text-black">{resultado.perder}</div>
-                <div className="text-xs text-black font-bold">kcal/dia</div>
-              </div>
-              <div className="bg-pink-400 border-4 border-black p-3 text-center">
-                <div className="text-xs font-black text-black uppercase">📈 Ganhar massa</div>
-                <div className="text-2xl font-black text-black">{resultado.ganhar}</div>
-                <div className="text-xs text-black font-bold">kcal/dia</div>
-              </div>
+              <button
+                onClick={() => setSexo('M')}
+                className={`p-2 border-4 border-black font-bold ${
+                  sexo === 'M' ? 'bg-black text-orange-400' : 'bg-white text-black'
+                }`}
+              >
+                ♂️ Masculino
+              </button>
+              <button
+                onClick={() => setSexo('F')}
+                className={`p-2 border-4 border-black font-bold ${
+                  sexo === 'F' ? 'bg-black text-orange-400' : 'bg-white text-black'
+                }`}
+              >
+                ♀️ Feminino
+              </button>
             </div>
           </div>
-        )}
+
+          {/* Dados básicos */}
+          <div className="grid grid-cols-3 gap-2">
+            <div>
+              <label className="block text-black font-black uppercase text-xs mb-1">Idade</label>
+              <input
+                type="number"
+                value={idade}
+                onChange={(e) => setIdade(e.target.value)}
+                placeholder="30"
+                className="w-full p-2 border-4 border-black font-bold"
+              />
+            </div>
+            <div>
+              <label className="block text-black font-black uppercase text-xs mb-1">Peso (kg)</label>
+              <input
+                type="number"
+                value={peso}
+                onChange={(e) => setPeso(e.target.value)}
+                placeholder="70"
+                className="w-full p-2 border-4 border-black font-bold"
+              />
+            </div>
+            <div>
+              <label className="block text-black font-black uppercase text-xs mb-1">Altura (cm)</label>
+              <input
+                type="number"
+                value={altura}
+                onChange={(e) => setAltura(e.target.value)}
+                placeholder="175"
+                className="w-full p-2 border-4 border-black font-bold"
+              />
+            </div>
+          </div>
+
+          {/* Atividade */}
+          <div>
+            <label className="block text-black font-black uppercase text-sm mb-2">Atividade</label>
+            <select
+              value={atividade}
+              onChange={(e) => setAtividade(e.target.value)}
+              className="w-full p-3 border-4 border-black font-bold bg-white"
+            >
+              <option value="1.2">🛋️ Sedentário (sem exercício)</option>
+              <option value="1.375">🚶 Leve (1-3x/semana)</option>
+              <option value="1.55">🏃 Moderado (3-5x/semana)</option>
+              <option value="1.725">🏋️ Intenso (6-7x/semana)</option>
+              <option value="1.9">💪 Atleta (2x/dia)</option>
+            </select>
+          </div>
+
+          <Button onClick={calcular} variant="primary" size="lg" className="w-full">
+            Calcular Calorias
+          </Button>
+
+          {resultado && (
+            <div className="bg-white border-4 border-black p-4 space-y-3">
+              {/* TMB */}
+              <div className="bg-gray-100 p-3 border-2 border-black">
+                <p className="text-xs font-bold text-gray-600 uppercase">TMB (em repouso)</p>
+                <p className="text-2xl font-black text-black">{resultado.tmb} kcal</p>
+              </div>
+
+              {/* TDEE - Destaque */}
+              <div className="bg-lime-400 p-4 border-4 border-black">
+                <p className="text-sm font-black text-black uppercase">⚡ Seu Gasto Diário</p>
+                <p className="text-4xl font-black text-black">{resultado.tdee} kcal</p>
+                <p className="text-xs text-black font-bold">calorias para manter seu peso</p>
+              </div>
+
+              {/* Objetivos */}
+              <div className="grid grid-cols-2 gap-2">
+                <div className="bg-cyan-400 p-3 border-2 border-black text-center">
+                  <p className="text-xs font-bold text-black uppercase">📉 Emagrecer</p>
+                  <p className="text-xl font-black text-black">{resultado.perder}</p>
+                  <p className="text-xs text-black">kcal/dia</p>
+                </div>
+                <div className="bg-pink-400 p-3 border-2 border-black text-center">
+                  <p className="text-xs font-bold text-black uppercase">💪 Ganhar Massa</p>
+                  <p className="text-xl font-black text-black">{resultado.ganhar}</p>
+                  <p className="text-xs text-black">kcal/dia</p>
+                </div>
+              </div>
+
+              <p className="text-xs text-gray-600 bg-gray-100 p-2 border border-black">
+                📚 Fórmula Mifflin-St Jeor - Am J Clin Nutr 1990
+              </p>
+            </div>
+          )}
+        </div>
       </CardContent>
     </Card>
   )
