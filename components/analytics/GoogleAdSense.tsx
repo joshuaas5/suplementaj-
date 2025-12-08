@@ -9,11 +9,10 @@ declare global {
 }
 
 export function GoogleAdSense() {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  // ID do AdSense fixo para garantir que sempre carregue
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || 'ca-pub-4642150915962893'
 
   useEffect(() => {
-    if (!adsenseId) return
-
     // Verificar se o script já existe
     const existingScript = document.querySelector(`script[src*="adsbygoogle"]`)
     if (existingScript) return
@@ -37,9 +36,6 @@ export function GoogleAdSense() {
       }
     }
   }, [adsenseId])
-
-  // Se não tiver ID configurado, não renderiza nada
-  if (!adsenseId) return null
 
   return null
 }
