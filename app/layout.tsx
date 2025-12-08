@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/Footer'
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics'
 import { GoogleAdSense } from '@/components/analytics/GoogleAdSense'
 import { EmailCapturePopup } from '@/components/marketing/EmailCapturePopup'
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -53,6 +54,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
