@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowLeft, Calculator, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
   title: 'Calculadoras de Saúde e Suplementação - Suplementa Já',
@@ -67,6 +68,9 @@ const calculadoras = [
 ]
 
 export default function CalculadorasPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_CALCULADORAS?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-yellow-100 py-8">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,6 +101,15 @@ export default function CalculadorasPage() {
             </p>
           </div>
         </div>
+
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-8" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-8 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_CALCULADORAS para exibir o anúncio aqui.
+          </div>
+        ) : null}
 
         {/* Grid de Calculadoras */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">

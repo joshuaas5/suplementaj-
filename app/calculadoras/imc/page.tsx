@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraIMC } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
   title: 'Calculadora de IMC Online Grátis - Índice de Massa Corporal | Suplementa Já',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraIMCPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_IMC?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-pink-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -48,6 +52,15 @@ export default function CalculadoraIMCPage() {
             <span className="bg-yellow-400 px-3 py-1 border-2 border-black font-bold text-sm">🔒 Sem cadastro</span>
           </div>
         </div>
+
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_IMC para exibir o anúncio aqui.
+          </div>
+        ) : null}
 
         {/* Calculadora */}
         <CalculadoraIMC />

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraCalorias } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Calorias Online Grátis - TMB e TDEE | Suplementa Já',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraCaloriasPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_CALORIAS?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-orange-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -48,6 +52,15 @@ export default function CalculadoraCaloriasPage() {
             <span className="bg-yellow-400 px-3 py-1 border-2 border-black font-bold text-sm">⚡ Instantâneo</span>
           </div>
         </div>
+
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_CALORIAS para exibir o anúncio aqui.
+          </div>
+        ) : null}
 
         {/* Calculadora */}
         <CalculadoraCalorias />
