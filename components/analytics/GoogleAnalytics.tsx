@@ -3,9 +3,8 @@
 import Script from 'next/script'
 
 export function GoogleAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID
-
-  if (!gaId) return null
+  // Usar o novo ID do Google Analytics para suplementaja.vercel.app
+  const gaId = process.env.NEXT_PUBLIC_GA_ID || 'G-HZ95NQC0C1'
 
   return (
     <>
