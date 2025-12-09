@@ -1,15 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
 
 /**
  * API Route para capturar leads do Popup
  * 
  * Aceita EMAIL ou TELEFONE para facilitar conversão
+ * SALVA em arquivo JSON local para remarketing posterior
  * 
  * Integração futura:
  * - Mailchimp (https://mailchimp.com/developer/)
  * - ConvertKit (https://developers.convertkit.com/)
  * - WhatsApp Business API (para telefones)
- * - Google Sheets (simples, mas funcional)
+ * - Banco de dados (Prisma/Supabase)
  */
 
 export async function POST(request: NextRequest) {
@@ -43,38 +46,39 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Log do lead capturado (para análise)
-    console.log(`[LEAD CAPTURADO]`, {
-      contactType,
+    // Criar objeto do lead
+    const leadData = {
+      id: `LEAD_${Date.now()}`,
       contact,
+      contactType,
       leadMagnet,
+      source: 'popup',
       timestamp: new Date().toISOString(),
       userAgent: request.headers.get('user-agent'),
-    });
+      referer: request.headers.get('referer'),
+    };
 
-    // TODO: Salvar em banco de dados (Prisma/Supabase)
-    // await db.leads.create({
-    //   data: {
-    //     contact,
-    //     contactType,
-    //     leadMagnet,
-    //     source: 'popup',
-    //     createdAt: new Date(),
-    //   }
-    // });
+    // Salvar em arquivo JSON (para remarketing)
+    const leadsPath = path.join(process.cwd(), 'data', 'leads.json');
+    
+    let leads = [];
+    if (fs.existsSync(leadsPath)) {
+      const existingData = fs.readFileSync(leadsPath, 'utf-8');
+      leads = JSON.parse(existingData);
+    }
 
-    // TODO: Se for email, adicionar à lista de email marketing
+    leads.push(leadData);
+    fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2));
+
+    console.log(`[LEAD CAPTURADO] ${contactType}: ${contact} | Total leads: ${leads.length}`);
+
+    // TODO: Integração futura com email marketing/WhatsApp
     // if (contactType === 'email') {
     //   await mailchimp.lists.addListMember(MAILCHIMP_LIST_ID, {
     //     email_address: contact,
     //     status: 'subscribed',
     //     tags: [leadMagnet],
     //   });
-    // }
-
-    // TODO: Se for telefone, adicionar à lista do WhatsApp Business
-    // if (contactType === 'phone') {
-    //   await whatsapp.sendWelcomeMessage(contact);
     // }
 
     return NextResponse.json({
