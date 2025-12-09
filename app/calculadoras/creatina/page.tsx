@@ -145,6 +145,37 @@ export default function CalculadoraCreatinaPage() {
               • Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine. 2013
             </p>
           </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Creatina antes ou depois do treino?</h4>
+              <p className="text-black text-sm">
+                <strong>Tanto faz.</strong> Estudos mostram que o timing não importa - o que importa é tomar TODO DIA.
+                A creatina funciona por saturação muscular (acumula nos músculos ao longo dos dias).
+                Dica prática: Tome junto com a refeição pós-treino (a insulina ajuda na absorção).
+              </p>
+            </div>
+
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Creatina causa queda de cabelo?</h4>
+              <p className="text-black text-sm">
+                <strong>Não há evidências sólidas.</strong> Existe apenas 1 estudo de 2009 que mostrou aumento de DHT (hormônio ligado à calvície),
+                mas nenhum participante ficou calvo. Mais de 1.000 estudos posteriores não confirmaram isso.
+                Se você tem histórico familiar de calvície, fique atento, mas é muito provável que seja seguro.
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Posso tomar creatina todos os dias?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim e DEVE.</strong> Creatina precisa de uso contínuo para manter os músculos saturados.
+                Se você parar, os níveis voltam ao normal em 3-4 semanas (e você perde os benefícios).
+                É seguro tomar por anos - estudos de longo prazo (até 5 anos) não mostram efeitos colaterais.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}

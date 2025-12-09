@@ -116,6 +116,46 @@ export default function CalculadoraCaloriasPage() {
               in healthy individuals.&quot; Am J Clin Nutr. 1990.
             </p>
           </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Quantas calorias para emagrecer?</h4>
+              <p className="text-black text-sm">
+                Para emagrecer de forma saudável, consuma <strong>300-500 calorias a menos</strong> que seu TDEE.
+                Exemplo: Se seu TDEE é 2.000 kcal, coma 1.500-1.700 kcal/dia. Você vai perder 0,5-1kg por semana.
+                Evite déficits maiores que 500 kcal para não perder massa muscular.
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Quantas calorias para ganhar massa?</h4>
+              <p className="text-black text-sm">
+                Para hipertrofia, coma <strong>300-500 calorias a mais</strong> que seu TDEE + treine pesado.
+                Exemplo: TDEE de 2.500 kcal = coma 2.800-3.000 kcal/dia. Combine com 1,6-2g de proteína por kg.
+                Ganho ideal: 0,5-1kg por mês (mais que isso é gordura).
+              </p>
+            </div>
+
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">O que é melhor: contar calorias ou macros?</h4>
+              <p className="text-black text-sm">
+                <strong>Comece contando calorias</strong> (mais simples). Depois evolua para macros (proteína, carbo, gordura).
+                Macros importam mais para: atletas, quem quer ganhar massa magra, ou tem dificuldade de perder gordura.
+                Para 80% das pessoas, calorias + proteína alta já resolve.
+              </p>
+            </div>
+
+            <div className="bg-cyan-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Posso usar só a TMB?</h4>
+              <p className="text-black text-sm">
+                <strong>Não.</strong> A TMB é o gasto em repouso absoluto (como se você dormisse 24h).
+                Na prática, você precisa do <strong>TDEE</strong> (TMB × fator de atividade).
+                Mesmo sedentários gastam 20-30% a mais que a TMB caminhando, trabalhando, etc.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}

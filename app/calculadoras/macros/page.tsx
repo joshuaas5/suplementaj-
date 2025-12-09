@@ -169,6 +169,37 @@ export default function CalculadoraMacrosPage() {
               • Helms ER, et al. Evidence-based recommendations for contest preparation. 2014
             </p>
           </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-purple-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Macros são mais importantes que calorias?</h4>
+              <p className="text-black text-sm">
+                <strong>Não.</strong> Calorias determinam se você emagrece/ganha peso. Macros determinam COMO você perde (gordura ou músculo).
+                Ordem de importância: 1º Calorias, 2º Proteína, 3º Gordura, 4º Carboidrato.
+                Exemplo: 2.000 kcal com 40% proteína é melhor que 1.800 kcal com 15% proteína (você perde músculo).
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Low carb ou high carb para emagrecer?</h4>
+              <p className="text-black text-sm">
+                <strong>Tanto faz - o que importa é o déficit calórico.</strong> Low carb funciona porque tira comidas calóricas (pão, massa, doce).
+                Se você treina pesado, high carb é melhor (mais energia). Se é sedentário, low carb facilita.
+                O importante: manter a proteína alta (2g/kg) e o déficit calórico (300-500 kcal).
+              </p>
+            </div>
+
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Como contar macros na prática?</h4>
+              <p className="text-black text-sm">
+                Use apps: <strong>MyFitnessPal</strong> (grátis), FatSecret, Cronometer.
+                Passos: 1) Pese a comida crua, 2) Adicione no app, 3) Veja se bateu a meta.
+                Dica: Não precisa ser perfeito. ±10g de proteína ou carbo não faz diferença.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}

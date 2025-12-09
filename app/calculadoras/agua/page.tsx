@@ -141,6 +141,37 @@ export default function CalculadoraAguaPage() {
               Potassium, Sodium, Chloride, and Sulfate. National Academies Press, 2005.
             </p>
           </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-blue-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Beber muita água faz mal?</h4>
+              <p className="text-black text-sm">
+                <strong>Só em casos extremos</strong> (intoxicação por água/hiponatremia). Você precisaria beber 6-7 litros em poucas horas.
+                Para pessoas normais, o máximo seria uns 4-5 litros/dia (se você treina pesado em clima quente).
+                Sinal de alerta: urina completamente transparente o dia todo = pode estar exagerando.
+              </p>
+            </div>
+
+            <div className="bg-cyan-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Chá, café e refrigerante contam como água?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim, mas com ressalvas.</strong> Chá e café (sem açúcar) contam. Refrigerante tecnicamente hidrata, mas tem muito açúcar.
+                O ideal: 70-80% de água pura, 20-30% pode ser chás, café, água de coco.
+                Evite: refrigerantes, sucos industrializados (muito açúcar), bebidas alcoólicas (desidratam).
+              </p>
+            </div>
+
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Preciso beber 2 litros mesmo se não tiver sede?</h4>
+              <p className="text-black text-sm">
+                <strong>Não force.</strong> A sede é um mecanismo eficiente. O problema é que muita gente confunde sede com fome.
+                Dica prática: Olhe a cor da urina. Amarelo claro = hidratado. Amarelo escuro = beba mais.
+                Quem treina ou vive em clima quente precisa de mais (aí sim, programe-se para beber mesmo sem sede).
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}

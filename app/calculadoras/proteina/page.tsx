@@ -145,6 +145,37 @@ export default function CalculadoraProteinaPage() {
               • Schoenfeld BJ. How much protein can the body use in a meal? 2018
             </p>
           </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+          
+          <div className="space-y-4">
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Preciso de whey protein?</h4>
+              <p className="text-black text-sm">
+                <strong>Só se não atingir sua meta com comida.</strong> Se você precisa de 150g/dia e só come 100g, sim.
+                Whey é conveniente (rápido, barato por grama de proteína), mas não é mágico.
+                Proteína de frango, ovo, carne = mesma eficácia para hipertrofia.
+              </p>
+            </div>
+
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Whey isolado ou concentrado?</h4>
+              <p className="text-black text-sm">
+                <strong>Concentrado</strong> (70-80% proteína) é mais barato e funciona igual para 90% das pessoas.<br />
+                <strong>Isolado</strong> (90%+ proteína) só vale se: você é intolerante à lactose, está cortando peso (menos calorias), ou compete em esporte.
+                Diferença de resultado? Praticamente zero.
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Posso tomar 50g de proteína de uma vez?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim, mas não é ideal.</strong> Seu corpo absorve tudo, mas usa ~30-40g para síntese proteica por refeição.
+                O resto vira energia (ou é oxidado). Melhor: dividir em 4-5 refeições com 30-40g cada.
+                Exceção: Atletas de endurance ou jejum intermitente podem precisar de doses maiores.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}
