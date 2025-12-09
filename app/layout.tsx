@@ -21,7 +21,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://suplementaja.com'),
+  metadataBase: new URL('https://www.suplementaja.com'),
   title: {
     default: "Suplementa Já - Recomendações Personalizadas de Suplementação",
     template: "%s | Suplementa Já"

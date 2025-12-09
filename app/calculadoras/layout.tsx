@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calculadoras de Saúde - Suplementa Já',
     description: 'Calcule IMC, calorias, proteína, creatina e mais. Ferramentas gratuitas baseadas em ciência.',
-    url: 'https://suplementaja.com/calculadoras',
+    url: 'https://www.suplementaja.com/calculadoras',
   },
 }
 

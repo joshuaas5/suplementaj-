@@ -2,5 +2,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "alias": ["suplementaja.vercel.app", "suplementaja.com"]
+  "alias": ["www.suplementaja.com", "suplementaja.com"]
 }

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Avaliação Personalizada - Suplementa Já',
     description: 'Descubra quais vitaminas e minerais você realmente precisa em 3 minutos',
-    url: 'https://suplementaja.com/avaliacao',
+    url: 'https://www.suplementaja.com/avaliacao',
   },
 }
 

@@ -12,8 +12,8 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Suplementa Já',
-    url: 'https://suplementaja.vercel.app',
-    logo: 'https://suplementaja.vercel.app/logo.png',
+    url: 'https://www.suplementaja.com',
+    logo: 'https://www.suplementaja.com/logo.png',
     description:
       'Plataforma gratuita de recomendações personalizadas de suplementação baseadas em evidências científicas',
     contactPoint: {
@@ -27,12 +27,12 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Suplementa Já',
-    url: 'https://suplementaja.vercel.app',
+    url: 'https://www.suplementaja.com',
     description:
       'Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://suplementaja.vercel.app/nutrientes?q={search_term_string}',
+      target: 'https://www.suplementaja.com/nutrientes?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   }

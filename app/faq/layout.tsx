@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Perguntas Frequentes - Suplementa Já',
     description: 'Tire suas dúvidas sobre recomendações personalizadas de suplementação baseadas em ciência',
-    url: 'https://suplementaja.com/faq',
+    url: 'https://www.suplementaja.com/faq',
   },
 }
 

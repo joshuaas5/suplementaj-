@@ -65,19 +65,19 @@ export default function NutrienteDetailPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://suplementaja.com',
+        item: 'https://www.suplementaja.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Nutrientes',
-        item: 'https://suplementaja.com/nutrientes',
+        item: 'https://www.suplementaja.com/nutrientes',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: nutriente.nome,
-        item: `https://suplementaja.com/nutrientes/${params.slug}`,
+        item: `https://www.suplementaja.com/nutrientes/${params.slug}`,
       },
     ],
   }

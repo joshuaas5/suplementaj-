@@ -3,7 +3,7 @@ import nutrientesData from '@/data/nutrientes.json'
 import artigosData from '@/data/artigos.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://suplementaja.vercel.app'
+  const baseUrl = 'https://www.suplementaja.com'
 
   // Páginas estáticas principais
   const staticPages: MetadataRoute.Sitemap = [

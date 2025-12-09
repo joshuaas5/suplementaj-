@@ -165,19 +165,19 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://suplementaja.com',
+        item: 'https://www.suplementaja.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog',
-        item: 'https://suplementaja.com/blog',
+        item: 'https://www.suplementaja.com/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: artigo.titulo,
-        item: `https://suplementaja.com/blog/${artigo.slug}`,
+        item: `https://www.suplementaja.com/blog/${artigo.slug}`,
       },
     ],
   }
