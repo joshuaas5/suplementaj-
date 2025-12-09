@@ -51,8 +51,39 @@ export default function NutrienteDetailPage({ params }: PageProps) {
                         nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
   const categoryTextColor = nutriente.categoria === 'outro' ? 'text-white' : 'text-black'
 
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://suplementaja.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Nutrientes',
+        item: 'https://suplementaja.com/nutrientes',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: nutriente.nome,
+        item: `https://suplementaja.com/nutrientes/${params.slug}`,
+      },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-white py-8">
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb - NEOBRUTALISM */}
         <div className="mb-8">

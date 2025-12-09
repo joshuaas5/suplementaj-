@@ -130,6 +130,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     '@type': 'Article',
     headline: artigo.titulo,
     description: artigo.descricao,
+    image: '/og-image.jpg',
     author: {
       '@type': 'Organization',
       name: artigo.autor,
@@ -141,14 +142,40 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
       name: 'Suplementa Já',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://suplementaja.vercel.app/logo.png',
+        url: 'https://suplementaja.com/og-image.jpg',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://suplementaja.vercel.app/blog/${artigo.slug}`,
+      '@id': `https://suplementaja.com/blog/${artigo.slug}`,
     },
     keywords: artigo.tags.join(', '),
+  }
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://suplementaja.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Blog',
+        item: 'https://suplementaja.com/blog',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: artigo.titulo,
+        item: `https://suplementaja.com/blog/${artigo.slug}`,
+      },
+    ],
   }
 
   return (
@@ -157,6 +184,10 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb / Voltar */}
