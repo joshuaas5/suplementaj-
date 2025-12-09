@@ -109,7 +109,7 @@ export default function CalculadoraIMCPage() {
             <div className="bg-cyan-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Qual é o peso ideal para minha altura?</h4>
               <p className="text-black text-sm">
-                O peso ideal varia conforme o IMC. Para estar no "peso normal", seu IMC deve estar entre 18,5 e 24,9.
+                O peso ideal varia conforme o IMC. Para estar no &quot;peso normal&quot;, seu IMC deve estar entre 18,5 e 24,9.
                 Por exemplo, se você tem 1,70m, seu peso ideal está entre 53kg e 72kg. Use a calculadora acima para descobrir seu IMC atual!
               </p>
             </div>
