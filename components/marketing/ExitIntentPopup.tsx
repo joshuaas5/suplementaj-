@@ -111,8 +111,8 @@ export function ExitIntentPopup() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300 overflow-y-auto">
-      <div className="relative w-full max-w-md max-h-[90vh] overflow-y-auto my-8 bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300">
+      <div className="relative w-full max-w-md bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
         {/* Botão Fechar */}
         <button
           onClick={handleClose}
@@ -122,52 +122,52 @@ export function ExitIntentPopup() {
           <X className="w-4 h-4 sm:w-6 sm:h-6 text-white" strokeWidth={3} />
         </button>
 
-        <div className="bg-white border-4 border-black p-4 sm:p-6">
+        <div className="bg-white border-4 border-black p-3 sm:p-4">
           {!isSubmitted ? (
             <>
               {/* Ícone + Título */}
-              <div className="text-center mb-4 sm:mb-6">
-                <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-400 to-blue-500 border-3 sm:border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] mb-3">
-                  <Gift className="w-7 h-7 sm:w-9 sm:h-9 text-white" strokeWidth={3} />
+              <div className="text-center mb-3 sm:mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-cyan-400 to-blue-500 border-3 border-black shadow-[4px_4px_0_0_#000] mb-2">
+                  <Gift className="w-6 h-6 sm:w-7 sm:h-7 text-white" strokeWidth={3} />
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-black uppercase mb-1 sm:mb-2 leading-tight">
+                <h2 className="text-lg sm:text-xl md:text-2xl font-black text-black uppercase mb-1 leading-tight">
                   🎁 Presente Grátis!
                 </h2>
-                <p className="text-sm sm:text-base font-bold text-black">
-                  Pegue nosso <span className="bg-yellow-400 px-1 sm:px-2 py-0.5 sm:py-1 border-2 border-black text-xs sm:text-base">PDF EXCLUSIVO</span>
+                <p className="text-xs sm:text-sm font-bold text-black">
+                  Pegue nosso <span className="bg-yellow-400 px-1 sm:px-2 py-0.5 border-2 border-black text-xs">PDF EXCLUSIVO</span>
                 </p>
               </div>
 
               {/* Oferta */}
-              <div className="bg-cyan-400 border-3 sm:border-4 border-black p-3 sm:p-4 mb-4 sm:mb-6 shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000]">
-                <h3 className="text-base sm:text-lg font-black text-black mb-2 sm:mb-3 flex items-center gap-2 uppercase">
-                  <Download className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={3} />
+              <div className="bg-cyan-400 border-3 sm:border-4 border-black p-2 sm:p-3 mb-3 sm:mb-4 shadow-[4px_4px_0_0_#000]">
+                <h3 className="text-sm sm:text-base font-black text-black mb-2 flex items-center gap-2 uppercase">
+                  <Download className="w-4 h-4" strokeWidth={3} />
                   Top 10 Suplementos 2025
                 </h3>
-                <ul className="space-y-1.5 sm:space-y-2 text-black font-bold text-xs sm:text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="text-black font-black text-sm sm:text-base">✅</span>
+                <ul className="space-y-1 text-black font-bold text-xs">
+                  <li className="flex items-start gap-1.5">
+                    <span className="text-black font-black text-sm">✅</span>
                     <span>Análise completa de custo-benefício</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-black font-black text-sm sm:text-base">✅</span>
+                  <li className="flex items-start gap-1.5">
+                    <span className="text-black font-black text-sm">✅</span>
                     <span>Doses recomendadas com tabelas</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-black font-black text-sm sm:text-base">✅</span>
+                  <li className="flex items-start gap-1.5">
+                    <span className="text-black font-black text-sm">✅</span>
                     <span>Economize até R$ 300/mês</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-black font-black text-sm sm:text-base">✅</span>
+                  <li className="flex items-start gap-1.5">
+                    <span className="text-black font-black text-sm">✅</span>
                     <span>Links diretos para comprar</span>
                   </li>
                 </ul>
               </div>
 
               {/* Formulário */}
-              <form onSubmit={handleSubmit} className="space-y-3 sm:space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-2 sm:space-y-3">
                 <div>
-                  <label className="block text-xs sm:text-sm font-black text-black uppercase mb-1.5 sm:mb-2">
+                  <label className="block text-xs font-black text-black uppercase mb-1">
                     📧 Email OU 📱 Celular:
                   </label>
                   <input
@@ -176,15 +176,15 @@ export function ExitIntentPopup() {
                     onChange={(e) => setContact(e.target.value)}
                     placeholder="email OU (11) 99999-9999"
                     required
-                    className="w-full px-3 py-2 sm:px-4 sm:py-3 border-3 sm:border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-400 font-bold text-sm sm:text-base"
+                    className="w-full px-3 py-2 border-3 border-black focus:outline-none focus:ring-4 focus:ring-yellow-400 font-bold text-sm"
                   />
                   {contactType && (
-                    <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm font-bold text-green-600">
+                    <p className="mt-1 text-xs font-bold text-green-600">
                       {contactType === 'email' ? '✅ Email válido' : '✅ Telefone válido'}
                     </p>
                   )}
                   {error && (
-                    <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm font-bold text-red-600">
+                    <p className="mt-1 text-xs font-bold text-red-600">
                       {error}
                     </p>
                   )}
@@ -193,14 +193,14 @@ export function ExitIntentPopup() {
                 <button
                   type="submit"
                   disabled={isSubmitting || !contactType}
-                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-black py-3 sm:py-4 px-4 sm:px-6 border-3 sm:border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] sm:hover:shadow-[3px_3px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] sm:hover:translate-x-[3px] sm:hover:translate-y-[3px] transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase text-sm sm:text-base"
+                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-black py-2.5 sm:py-3 px-4 border-3 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase text-sm"
                 >
                   {isSubmitting ? 'Enviando...' : '📥 Baixar PDF Grátis'}
                 </button>
               </form>
 
               {/* Garantia */}
-              <p className="text-[10px] sm:text-xs text-center text-gray-700 mt-3 sm:mt-4 font-bold">
+              <p className="text-[10px] text-center text-gray-700 mt-2 font-bold">
                 🔒 Seguro. Sem spam. Seus dados protegidos.
               </p>
             </>
