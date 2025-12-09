@@ -86,8 +86,8 @@ export function ExitIntentPopup() {
         trackLeadMagnetDownload('Top 10 Suplementos 2025');
         setIsSubmitted(true);
         
-        // Download imediato
-        window.open('/downloads/top-10-suplementos-2025.pdf', '_blank');
+        // Download imediato - HTML com design profissional
+        window.open('/downloads/top-10-suplementos-2025.html', '_blank');
         
         // Fechar popup após 3 segundos
         setTimeout(() => {
