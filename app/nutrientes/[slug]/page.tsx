@@ -8,9 +8,14 @@ import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
 import { addAmazonAffiliateTag } from '@/lib/affiliate'
 import nutrientesData from '@/data/nutrientes.json'
+import artigosData from '@/data/artigos.json'
 import type { Nutriente } from '@/types/nutriente'
+import type { Artigo } from '@/types/artigo'
+import { RelatedContent } from '@/components/content/RelatedContent'
+import { getArtigosRelacionados } from '@/lib/related-content'
 
 const nutrientes = nutrientesData as Record<string, Nutriente>
+const artigos = artigosData as Artigo[]
 
 interface PageProps {
   params: {
@@ -606,6 +611,31 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </Button>
           </Link>
         </div>
+
+        {/* Conteúdo Relacionado */}
+        {(() => {
+          const artigosRelacionados = getArtigosRelacionados(params.slug)
+            .map((artigoSlug) => {
+              const artigo = artigos.find((a) => a.slug === artigoSlug)
+              if (!artigo) return null
+              return {
+                type: 'artigo' as const,
+                slug: artigo.slug,
+                titulo: artigo.titulo,
+                descricao: artigo.descricao,
+                categoria: artigo.categoria,
+              }
+            })
+            .filter((item) => item !== null)
+            .slice(0, 3) as Array<{ type: 'artigo'; slug: string; titulo: string; descricao: string; categoria: string }>
+          
+          return artigosRelacionados.length > 0 ? (
+            <RelatedContent
+              items={artigosRelacionados}
+              title="📚 Artigos Relacionados Sobre Este Nutriente"
+            />
+          ) : null
+        })()}
 
         {/* Back to list */}
         <div className="text-center">

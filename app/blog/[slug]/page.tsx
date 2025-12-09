@@ -6,9 +6,13 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import artigosData from '@/data/artigos.json'
+import nutrientesData from '@/data/nutrientes.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
+import type { Nutriente } from '@/types/nutriente'
 import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
 import { formatMarkdown } from '@/lib/markdown'
+import { RelatedContent } from '@/components/content/RelatedContent'
+import { getNutrientesRelacionados } from '@/lib/related-content'
 
 const artigos = artigosData as Artigo[]
 
@@ -256,6 +260,32 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
 
         {/* Anúncio após o conteúdo do artigo */}
         <InArticleAd className="my-12" />
+
+        {/* Conteúdo Relacionado */}
+        {(() => {
+          const nutrientesRelacionados = getNutrientesRelacionados(artigo.slug)
+            .map((nutrienteSlug) => {
+              const nutrientes = nutrientesData as Record<string, Nutriente>
+              const nutriente = nutrientes[nutrienteSlug]
+              if (!nutriente) return null
+              return {
+                type: 'nutriente' as const,
+                slug: nutrienteSlug,
+                titulo: nutriente.nome,
+                descricao: nutriente.descricao_curta,
+                categoria: nutriente.categoria,
+              }
+            })
+            .filter((item) => item !== null)
+            .slice(0, 3) as Array<{ type: 'nutriente'; slug: string; titulo: string; descricao: string; categoria: string }>
+          
+          return nutrientesRelacionados.length > 0 ? (
+            <RelatedContent
+              items={nutrientesRelacionados}
+              title="🔬 Nutrientes Relacionados a Este Artigo"
+            />
+          ) : null
+        })()}
 
         {/* Footer - Links relacionados */}
         <div className="mt-16 pt-8 border-t-4 border-black">
