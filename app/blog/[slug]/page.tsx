@@ -207,10 +207,19 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
 
+        {/* Anúncio no topo (antes do artigo) */}
+        <HorizontalAd className="mb-8" />
+
         {/* Conteúdo do Artigo */}
         <article className="prose prose-lg max-w-none">
           {artigo.conteudo.map((bloco, index) => (
-            <RenderBloco key={index} bloco={bloco} />
+            <div key={index}>
+              <RenderBloco bloco={bloco} />
+              {/* Anúncio no meio do artigo (após 3º bloco) */}
+              {index === 2 && <InArticleAd className="my-8" />}
+              {/* Anúncio no meio-fim (após 6º bloco) */}
+              {index === 5 && <InArticleAd className="my-8" />}
+            </div>
           ))}
         </article>
 

@@ -92,25 +92,33 @@ export default function AdminLeadsPage() {
     }
   };
 
-  const exportToCSV = () => {
+  const exportToJSON = () => {
     if (!data?.leads.length) return;
 
-    const csv = [
-      ['ID', 'Tipo', 'Contato', 'Lead Magnet', 'Data/Hora', 'Origem'],
-      ...data.leads.map(lead => [
-        lead.id,
-        lead.contactType === 'email' ? 'Email' : 'Telefone',
-        lead.contact,
-        lead.leadMagnet,
-        new Date(lead.timestamp).toLocaleString('pt-BR'),
-        lead.referer || 'Direto',
-      ])
-    ].map(row => row.join(',')).join('\n');
+    const exportData = {
+      exportadoEm: new Date().toLocaleString('pt-BR'),
+      totalLeads: data.stats.total,
+      estatisticas: {
+        emails: data.stats.emails,
+        telefones: data.stats.phones,
+        ultimoLead: data.stats.ultimoLead ? new Date(data.stats.ultimoLead.timestamp).toLocaleString('pt-BR') : null,
+      },
+      leads: data.leads.map(lead => ({
+        id: lead.id,
+        tipo: lead.contactType === 'email' ? 'Email' : 'Telefone',
+        contato: lead.contact,
+        leadMagnet: lead.leadMagnet,
+        dataHora: new Date(lead.timestamp).toLocaleString('pt-BR'),
+        origem: lead.referer || 'Direto',
+        navegador: lead.userAgent || 'Não informado',
+      }))
+    };
 
-    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const jsonString = JSON.stringify(exportData, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json;charset=utf-8;' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `leads-suplementaja-${new Date().toISOString().split('T')[0]}.csv`;
+    link.download = `leads-suplementaja-${new Date().toISOString().split('T')[0]}.json`;
     link.click();
   };
 
@@ -212,11 +220,11 @@ export default function AdminLeadsPage() {
             </div>
             <div className="flex gap-3">
               <button
-                onClick={exportToCSV}
+                onClick={exportToJSON}
                 className="bg-black text-yellow-400 font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center gap-2"
               >
                 <Download className="w-5 h-5" />
-                Exportar CSV
+                💾 Exportar JSON
               </button>
               <button
                 onClick={handleLogout}
