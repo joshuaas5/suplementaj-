@@ -17,14 +17,34 @@ export function ExitIntentPopup() {
     const hasSeenPopup = localStorage.getItem('leadMagnetShown');
     if (hasSeenPopup) return;
 
-    // Mostrar popup após 8 segundos na página
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-      trackExitIntentShow();
-      localStorage.setItem('leadMagnetShown', 'true');
-    }, 8000);
+    let hasShown = false;
 
-    return () => clearTimeout(timer);
+    // Opção 1: Mostrar após 30 segundos na página
+    const timer = setTimeout(() => {
+      if (!hasShown) {
+        setIsVisible(true);
+        trackExitIntentShow();
+        localStorage.setItem('leadMagnetShown', 'true');
+        hasShown = true;
+      }
+    }, 30000); // 30 segundos
+
+    // Opção 2: Exit intent (quando mouse sai do topo da tela)
+    const handleMouseLeave = (e: MouseEvent) => {
+      if (e.clientY <= 0 && !hasShown) {
+        setIsVisible(true);
+        trackExitIntentShow();
+        localStorage.setItem('leadMagnetShown', 'true');
+        hasShown = true;
+      }
+    };
+
+    document.addEventListener('mouseleave', handleMouseLeave);
+
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('mouseleave', handleMouseLeave);
+    };
   }, []);
 
   // Detectar tipo de contato (email ou telefone)
