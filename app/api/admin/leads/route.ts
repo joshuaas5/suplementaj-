@@ -1,42 +1,36 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
 
 /**
  * API Admin para visualizar leads capturados
  * 
- * Acesso: GET /api/admin/leads
+ * NOTA: Vercel é read-only, leads estão nos LOGS
  * 
- * TODO: Adicionar autenticação (senha admin) para proteger dados
+ * Para ver leads:
+ * 1. Vercel Dashboard → Seu Projeto → Logs
+ * 2. Filtrar por "NOVO LEAD CAPTURADO"
+ * 3. Exportar manualmente para planilha
+ * 
+ * Solução futura: Integrar com Airtable/Google Sheets
  */
 
 export async function GET() {
   try {
-    const leadsPath = path.join(process.cwd(), 'data', 'leads.json');
-    
-    // Verificar se arquivo existe
-    if (!fs.existsSync(leadsPath)) {
-      return NextResponse.json({ 
-        leads: [],
-        total: 0,
-        message: 'Nenhum lead capturado ainda' 
-      });
-    }
-
-    const leadsData = fs.readFileSync(leadsPath, 'utf-8');
-    const leads = JSON.parse(leadsData);
-
-    // Estatísticas
-    const stats = {
-      total: leads.length,
-      emails: leads.filter((l: { contactType: string }) => l.contactType === 'email').length,
-      phones: leads.filter((l: { contactType: string }) => l.contactType === 'phone').length,
-      ultimoLead: leads.length > 0 ? leads[leads.length - 1] : null,
-    };
-
+    // Retornar instruções para acessar logs
     return NextResponse.json({
-      leads: leads.reverse(), // Mais recentes primeiro
-      stats,
+      leads: [],
+      stats: {
+        total: 0,
+        emails: 0,
+        phones: 0,
+        ultimoLead: null,
+      },
+      message: 'Leads estão salvos nos LOGS do Vercel',
+      instructions: {
+        step1: 'Acesse: https://vercel.com/joshuaas5/suplementaj-/logs',
+        step2: 'Procure por: "NOVO LEAD CAPTURADO"',
+        step3: 'Copie os dados e cole em planilha',
+        step4: 'Alternativa: Configure Google Sheets (veja docs/SISTEMA-LEADS-REMARKETING.md)',
+      }
     });
 
   } catch (error) {

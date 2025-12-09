@@ -1,18 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
 
 /**
  * API Route para capturar leads do Popup
  * 
- * Aceita EMAIL ou TELEFONE para facilitar conversão
- * SALVA em arquivo JSON local para remarketing posterior
+ * IMPORTANTE: Leads são salvos via Webhook/Database
+ * Vercel é read-only, não pode salvar em arquivo
  * 
- * Integração futura:
- * - Mailchimp (https://mailchimp.com/developer/)
- * - ConvertKit (https://developers.convertkit.com/)
- * - WhatsApp Business API (para telefones)
- * - Banco de dados (Prisma/Supabase)
+ * Solução atual: Log + Google Sheets (via Webhook futuro)
  */
 
 export async function POST(request: NextRequest) {
@@ -58,28 +52,33 @@ export async function POST(request: NextRequest) {
       referer: request.headers.get('referer'),
     };
 
-    // Salvar em arquivo JSON (para remarketing)
-    const leadsPath = path.join(process.cwd(), 'data', 'leads.json');
+    // Log detalhado para Vercel Analytics
+    console.log(`
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 NOVO LEAD CAPTURADO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ID: ${leadData.id}
+Tipo: ${contactType.toUpperCase()}
+Contato: ${contact}
+Lead Magnet: ${leadMagnet}
+Data/Hora: ${new Date().toLocaleString('pt-BR')}
+Origem: ${leadData.referer || 'Direto'}
+User Agent: ${leadData.userAgent}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    `);
+
+    // TODO: Integrar com Google Sheets para salvar permanentemente
+    // Exemplo: https://developers.google.com/sheets/api/guides/values#writing_to_a_single_range
     
-    let leads = [];
-    if (fs.existsSync(leadsPath)) {
-      const existingData = fs.readFileSync(leadsPath, 'utf-8');
-      leads = JSON.parse(existingData);
-    }
-
-    leads.push(leadData);
-    fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2));
-
-    console.log(`[LEAD CAPTURADO] ${contactType}: ${contact} | Total leads: ${leads.length}`);
-
-    // TODO: Integração futura com email marketing/WhatsApp
-    // if (contactType === 'email') {
-    //   await mailchimp.lists.addListMember(MAILCHIMP_LIST_ID, {
-    //     email_address: contact,
-    //     status: 'subscribed',
-    //     tags: [leadMagnet],
-    //   });
-    // }
+    // TODO: Ou usar Airtable (mais fácil):
+    // await fetch('https://api.airtable.com/v0/YOUR_BASE/Leads', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Authorization': `Bearer ${process.env.AIRTABLE_API_KEY}`,
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify({ fields: leadData })
+    // });
 
     return NextResponse.json({
       success: true,

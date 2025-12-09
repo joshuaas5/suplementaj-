@@ -12,6 +12,7 @@
     "@hookform/resolvers": "^5.2.2",
     "@supabase/supabase-js": "^2.81.1",
     "@vercel/analytics": "^1.6.1",
+    "@vercel/kv": "^3.0.0",
     "clsx": "^2.1.1",
     "jspdf": "^3.0.3",
     "jspdf-autotable": "^5.0.2",
