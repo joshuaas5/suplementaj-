@@ -58,24 +58,101 @@ export function DisplayBanner({ className = '' }: { className?: string }) {
 
 /**
  * Anúncio In-Feed (No meio de listas)
- * VOCÊ PRECISA CRIAR ESTE SLOT NO ADSENSE
+ * Slot: 2615832690
  */
 export function InFeedAd({ className = '' }: { className?: string }) {
-  return <AdSenseUnit slot="CRIAR_SLOT_INFEED" format="auto" className={className} />
+  const adRef = useRef<HTMLModElement>(null)
+  const isLoaded = useRef(false)
+
+  useEffect(() => {
+    if (adRef.current && !isLoaded.current) {
+      try {
+        isLoaded.current = true
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [])
+
+  return (
+    <div className={`my-8 ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-format="fluid"
+        data-ad-layout-key="-ef+6q-36-dw+111"
+        data-ad-client="ca-pub-4642150915962893"
+        data-ad-slot="2615832690"
+      />
+    </div>
+  )
+}
+
+/**
+ * Anúncio In-Article (Para meio do conteúdo)
+ * Slot: 3939796306
+ */
+export function ArticleAd({ className = '' }: { className?: string }) {
+  const adRef = useRef<HTMLModElement>(null)
+  const isLoaded = useRef(false)
+
+  useEffect(() => {
+    if (adRef.current && !isLoaded.current) {
+      try {
+        isLoaded.current = true
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [])
+
+  return (
+    <div className={`my-8 text-center ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block', textAlign: 'center' }}
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-4642150915962893"
+        data-ad-slot="3939796306"
+      />
+    </div>
+  )
 }
 
 /**
  * Anúncio Multiplex (Múltiplos anúncios pequenos)
- * VOCÊ PRECISA CRIAR ESTE SLOT NO ADSENSE
+ * Slot: 2826025183
  */
 export function MultiplexAd({ className = '' }: { className?: string }) {
-  return <AdSenseUnit slot="CRIAR_SLOT_MULTIPLEX" format="auto" className={className} />
-}
+  const adRef = useRef<HTMLModElement>(null)
+  const isLoaded = useRef(false)
 
-/**
- * Anúncio de Artigo (Para meio do conteúdo)
- * VOCÊ PRECISA CRIAR ESTE SLOT NO ADSENSE
- */
-export function ArticleAd({ className = '' }: { className?: string }) {
-  return <AdSenseUnit slot="CRIAR_SLOT_ARTICLE" format="auto" className={className} />
+  useEffect(() => {
+    if (adRef.current && !isLoaded.current) {
+      try {
+        isLoaded.current = true
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [])
+
+  return (
+    <div className={`my-8 ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-format="autorelaxed"
+        data-ad-client="ca-pub-4642150915962893"
+        data-ad-slot="2826025183"
+      />
+    </div>
+  )
 }

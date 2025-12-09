@@ -9,8 +9,9 @@ import artigosData from '@/data/artigos.json'
 import nutrientesData from '@/data/nutrientes.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
 import type { Nutriente } from '@/types/nutriente'
-import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
+import { HorizontalAd } from '@/components/ads/DisplayAd'
 import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
+import { ArticleAd } from '@/components/ads/AdSenseUnits'
 import { formatMarkdown } from '@/lib/markdown'
 import { RelatedContent } from '@/components/content/RelatedContent'
 import { getNutrientesRelacionados } from '@/lib/related-content'
@@ -253,15 +254,15 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <div key={index}>
               <RenderBloco bloco={bloco} />
               {/* Anúncio no meio do artigo (após 3º bloco) */}
-              {index === 2 && <InArticleAd className="my-8" />}
+              {index === 2 && <ArticleAd className="my-8" />}
               {/* Anúncio no meio-fim (após 6º bloco) */}
-              {index === 5 && <InArticleAd className="my-8" />}
+              {index === 5 && <ArticleAd className="my-8" />}
             </div>
           ))}
         </article>
 
         {/* Anúncio após o conteúdo do artigo */}
-        <InArticleAd className="my-12" />
+        <ArticleAd className="my-12" />
 
         {/* Conteúdo Relacionado */}
         {(() => {

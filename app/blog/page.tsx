@@ -7,6 +7,7 @@ import artigosData from '@/data/artigos.json'
 import type { Artigo } from '@/types/artigo'
 import { HorizontalAd } from '@/components/ads/DisplayAd'
 import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
+import { InFeedAd } from '@/components/ads/AdSenseUnits'
 
 export const metadata = {
   title: 'Blog - Suplementa Já | Guias e Artigos Sobre Suplementação',
@@ -57,7 +58,15 @@ export default function BlogPage() {
         {/* Grid de Artigos */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {artigosOrdenados.map((artigo, index) => (
-            <ArtigoCard key={artigo.slug} artigo={artigo} index={index} />
+            <>
+              <ArtigoCard key={artigo.slug} artigo={artigo} index={index} />
+              {/* In-Feed ad a cada 6 artigos */}
+              {(index + 1) % 6 === 0 && (
+                <div className="md:col-span-2 lg:col-span-3">
+                  <InFeedAd />
+                </div>
+              )}
+            </>
           ))}
         </div>
 

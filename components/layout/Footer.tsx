@@ -1,11 +1,17 @@
 import Link from 'next/link'
 import { Pill } from 'lucide-react'
+import { MultiplexAd } from '@/components/ads/AdSenseUnits'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="bg-black border-t-8 border-yellow-400 mt-16">
+      {/* Multiplex Ad */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <MultiplexAd />
+      </div>
+      
       {/* Disclaimer Banner */}
       <div className="bg-pink-500 border-b-4 border-black py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
