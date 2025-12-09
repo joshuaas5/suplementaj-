@@ -364,5 +364,1115 @@
         "texto": "**A escolha é sua. Mas agora você sabe a verdade.**"
       }
     ]
+  },
+  {
+    "slug": "guia-completo-creatina-2025",
+    "titulo": "Guia Completo de Creatina 2025: O Que Tomar, Quando e Por Quê",
+    "descricao": "Tudo o que você precisa saber sobre creatina: dose, timing, tipos, mitos e verdades comprovadas pela ciência.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-09",
+    "categoria": "Suplementos",
+    "tags": ["creatina", "creatina monohidratada", "hipertrofia", "performance", "suplementação"],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/creatina-guia.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "⚡ **RESUMO RÁPIDO:**\n\n• **Melhor Forma**: Creatina Monohidratada (ignorar outras formas caras)\n• **Dose**: 3-5g/dia (ou 0.03g por kg de peso)\n• **Timing**: Tanto faz - o que importa é tomar TODO DIA\n• **Saturação Rápida**: 20g/dia por 5 dias (opcional)\n• **Benefícios**: +5-15% força, +1-2kg massa magra, melhor recuperação\n• **Efeitos Colaterais**: Nenhum (exceto retenção de água muscular = coisa boa)\n• **Custo**: R$ 30-40/mês\n• **Evidência**: +1.000 estudos científicos (suplemento mais pesquisado do mundo)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Se você só pudesse comprar UM suplemento para o resto da vida, deveria ser creatina. É o único suplemento além de proteína que tem eficácia comprovada inquestionável para ganho de massa e força."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que É Creatina e Como Funciona?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina é um composto natural produzido pelo corpo (fígado, rins, pâncreas) e encontrado em carnes vermelhas e peixes. Ela funciona como uma 'bateria extra' para seus músculos:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**ATP** é a 'moeda energética' dos músculos (dura 10-15 segundos de esforço máximo)",
+          "**Creatina** recarrega ATP rapidamente = você consegue fazer mais repetições",
+          "Mais volume de treino = mais estímulo = mais hipertrofia"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefícios Comprovados (Não É Marketing)"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Benefício", "Magnitude", "Evidência"],
+        "linhas": [
+          ["Aumento de Força", "+5-15%", "Meta-análise com 22 estudos"],
+          ["Ganho de Massa Magra", "+1-2kg em 4-12 semanas", "Revisão sistemática 2017"],
+          ["Performance Anaeróbica", "+10-20% mais repetições", "ISSN Position Stand"],
+          ["Recuperação Muscular", "Redução de 20-30% em dor", "Journal Sports Med"],
+          ["Função Cognitiva", "Melhora memória/foco", "Estudos emergentes"],
+          ["Saúde Óssea (idosos)", "Redução perda massa óssea", "Estudo 2020 Osteoporosis Int"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Qual Tipo Comprar? (99% Deve Comprar Monohidratada)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A indústria criou 15+ tipos de creatina. A verdade: **creatina monohidratada** é a melhor (e mais barata)."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Tipo", "Eficácia vs Monohidratada", "Custo", "Vale a Pena?"],
+        "linhas": [
+          ["Monohidratada", "100% (padrão-ouro)", "R$ 30-40/300g", "✅ SIM"],
+          ["Micronizada", "100% (mesma coisa, pó mais fino)", "R$ 40-55/300g", "🤔 Se quiser dissolver melhor"],
+          ["Creapure", "100% (marca alemã premium)", "R$ 60-80/300g", "🤔 Se quiser a mais pura"],
+          ["HCl (Cloridrato)", "95-100% (sem vantagem real)", "R$ 80-120/300g", "❌ NÃO - Marketing"],
+          ["Ethyl Ester", "50-70% (PIOR que monohidratada)", "R$ 100-150/300g", "❌ NÃO - Degradação no estômago"],
+          ["Alcalina (Kre-Alkalyn)", "100% (mesma coisa)", "R$ 120-180/300g", "❌ NÃO - 3x mais cara sem benefício"],
+          ["Tamponada", "100% (sem vantagem)", "R$ 90-130/300g", "❌ NÃO - Marketing"]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **ALERTA ANTI-MARKETING**: Todos os estudos usam creatina monohidratada. Outras formas prometem 'absorção superior', mas na prática não entregam mais resultado. Economize R$ 50-100/mês comprando a clássica."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Tomar: Dose e Timing"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Dose Recomendada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Manutenção**: 3-5g/dia (ou 0.03g por kg de peso)",
+          "**Saturação Rápida** (opcional): 20g/dia divididos em 4 doses de 5g por 5-7 dias, depois manutenção",
+          "**Exemplo**: Pessoa de 70kg = 2.1g/dia (arredondar para 3g)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Timing: Antes, Durante ou Depois do Treino?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**A resposta que a indústria não quer que você saiba: TANTO FAZ.**"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina funciona por saturação muscular (acúmulo ao longo de semanas). Tomar 30 minutos antes do treino vs 2 horas depois: mesma eficácia."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Melhor momento?** Junto com refeição que tenha carboidrato (insulina ajuda absorção)",
+          "**Prático:** Misture no shake pós-treino",
+          "**Esqueceu?** Tome em qualquer hora do dia. Sério."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mitos vs Fatos"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Afirmação", "Verdade"],
+        "linhas": [
+          ["Creatina causa queda de cabelo", "❌ FALSO - 1 estudo de 2009, não replicado. +1.000 estudos posteriores não confirmam"],
+          ["Creatina prejudica os rins", "❌ FALSO - Segura até 30g/dia por 5 anos (estudo JISSN 2017)"],
+          ["Precisa fazer ciclo (parar de tomar)", "❌ FALSO - Pode tomar continuamente sem problema"],
+          ["Creatina faz reter água e ficar inchado", "⚠️ MEIA VERDADE - Retém água DENTRO do músculo (coisa boa). Não fica 'inchado'"],
+          ["Mulheres não devem tomar", "❌ FALSO - Funciona igual para mulheres"],
+          ["Precisa tomar com suco de uva", "❌ FALSO - Qualquer líquido serve. Carboidrato ajuda, mas não é obrigatório"],
+          ["Creatina engorda", "⚠️ MEIA VERDADE - Ganho de 1-2kg de água muscular (não gordura). É temporário se parar"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais Reais"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Retenção de água muscular**: +1-2kg (POSITIVO - músculos maiores)",
+          "**Desconforto gástrico**: Se tomar 20g de uma vez. Solução: dividir dose ou pular saturação",
+          "**Cãibras**: Muito raro. Beba 3-4L água/dia e problema resolvido"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**É isso.** Não causa câncer, não destrói rins, não faz cair cabelo. É um dos suplementos mais seguros que existem."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Tempo Para Ver Resultado?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Com saturação (20g/dia)**: 5-7 dias para saturar músculos",
+          "**Sem saturação (3-5g/dia)**: 3-4 semanas para saturar",
+          "**Resultado no treino**: +1-2 repetições extras já na 2ª semana",
+          "**Ganho de massa**: Visível em 4-8 semanas (se treino e dieta corretos)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina Sozinha Basta?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina é excelente, mas não faz milagre sozinha. Para resultado máximo você precisa:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína suficiente**: 1.6-2g/kg de peso (carne, ovos, whey)",
+          "**Calorias adequadas**: Superávit para ganhar massa",
+          "**Treino pesado**: 3-5x por semana com progressão",
+          "**Sono**: 7-8h por noite",
+          "**Outros suplementos?** Apenas se tiver deficiência específica"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "🎁 Descubra TODOS os Suplementos Que Você Precisa",
+        "descricao": "Creatina é essencial, mas será que você precisa de mais alguma coisa? Nossa avaliação personalizada analisa seu perfil completo e indica EXATAMENTE o que tomar (e o que NÃO gastar dinheiro). Grátis, 2 minutos.",
+        "textoBotao": "Fazer Avaliação Completa Agora",
+        "link": "/avaliacao"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão: Compre, Tome e Pare de Complicar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina é simples: compre monohidratada genérica, tome 3-5g/dia em qualquer hora, todos os dias. Não complique com timing, ciclos ou formas exóticas. Economize dinheiro e tenha os mesmos resultados."
+      }
+    ]
+  },
+  {
+    "slug": "whey-isolado-vs-concentrado",
+    "titulo": "Whey Isolado vs Concentrado: Qual Comprar? (Tabela Comparativa 2025)",
+    "descricao": "Análise técnica e prática das diferenças entre whey isolado e concentrado. Descubra qual vale mais a pena para SEU caso.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-09",
+    "categoria": "Proteína",
+    "tags": ["whey protein", "whey isolado", "whey concentrado", "proteína", "suplementação"],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/whey-comparacao.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "⚡ **DECISÃO RÁPIDA:**\n\n**COMPRE WHEY CONCENTRADO SE:**\n• Tolera lactose normalmente\n• Quer economizar R$ 80-150/kg\n• Foca em hipertrofia (não cutting extremo)\n• É iniciante/intermediário\n\n**COMPRE WHEY ISOLADO SE:**\n• Intolerante/sensível à lactose\n• Cutting rigoroso (cada caloria conta)\n• Quer absorção rápida pós-treino\n• Orçamento não é problema\n\n**A VERDADE:** Para 80% das pessoas, concentrado entrega o mesmo resultado por metade do preço."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Tabela Comparativa Completa"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Característica", "Whey Concentrado", "Whey Isolado"],
+        "linhas": [
+          ["% Proteína", "70-80%", "90-95%"],
+          ["Proteína por dose (30g)", "21-24g", "27-28g"],
+          ["Carboidratos", "3-5g", "0-1g"],
+          ["Lactose", "4-5g", "<0.5g"],
+          ["Gordura", "1-3g", "0-0.5g"],
+          ["Calorias por dose", "110-130 kcal", "100-110 kcal"],
+          ["Digestão", "Rápida (60-90 min)", "Muito rápida (30-60 min)"],
+          ["Preço/kg", "R$ 60-100", "R$ 140-250"],
+          ["Custo por 25g proteína", "R$ 2.50-4.00", "R$ 5.00-8.00"],
+          ["Melhor para", "Hipertrofia geral, orçamento", "Intolerância lactose, cutting"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "As 5 Diferenças Que Realmente Importam"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "1. Teor de Proteína (Mas Isso Importa Menos Que Você Pensa)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Concentrado:** 70-80% proteína. Em 30g de pó = 21-24g proteína real.\n**Isolado:** 90-95% proteína. Em 30g de pó = 27-28g proteína real."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**NA PRÁTICA:** Diferença de 3-5g por dose. Se você precisa de 150g proteína/dia, essa diferença é irrelevante (você ajusta comendo mais 50g de frango)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "2. Lactose (Esta SIM Importa Se Você For Intolerante)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Concentrado:** 4-5g lactose por dose = pode causar gases, inchaço, diarreia se você for intolerante",
+          "**Isolado:** <0.5g lactose = tolerado por 95% dos intolerantes",
+          "**ATENÇÃO:** Se você toma leite normal sem problema, concentrado está OK"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "3. Carboidratos e Calorias (Relevante Só em Cutting Rigoroso)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Concentrado:** +3-5g carbs e +10-20 kcal por dose.\n**Isolado:** Praticamente zero carbs."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**QUANDO ISSO IMPORTA:** Se você está em cutting agressivo (1.500-1.800 kcal/dia) e cada grama de carb conta. Para bulking ou manutenção? Irrelevante."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "4. Velocidade de Absorção (Mito Superestimado)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Isolado:** Absorve 20-30% mais rápido (chega aos músculos em 30-45 min vs 60-90 min)."
+      },
+      {
+        "tipo":="alerta",
+        "variante": "info",
+        "texto": "💡 **REALIDADE:** A 'janela anabólica' de 30 minutos pós-treino é um mito. Você tem 3-5 horas para consumir proteína. Absorção rápida não gera mais hipertrofia (revisão JISSN 2017)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "5. Preço (A Diferença Mais Importante)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Concentrado:** R$ 60-100/kg = R$ 2.50-4.00 por dose de 25g proteína\n**Isolado:** R$ 140-250/kg = R$ 5.00-8.00 por dose de 25g proteína"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Se você toma 1 dose/dia:** Concentrado = R$ 90/mês | Isolado = R$ 180/mês\n**Se você toma 2 doses/dia:** Concentrado = R$ 180/mês | Isolado = R$ 360/mês"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**PERGUNTA:** Pagar o dobro para ter 3g a mais de proteína por dose compensa? Para a maioria: não."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "E o Whey Hidrolisado? (Spoiler: Não Compre)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Whey hidrolisado é proteína 'pré-digerida' (enzimas quebraram moléculas antes). Promessa: absorção ainda mais rápida."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Preço:** R$ 200-350/kg (3-5x mais caro que concentrado)",
+          "**Vantagem real:** Zero. Estudos não mostram diferença em hipertrofia vs isolado/concentrado",
+          "**Desvantagem:** Gosto amargo (processo de hidrólise estraga sabor)",
+          "**Veredicto:** Marketing puro. Economize seu dinheiro."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Situações Específicas: Qual Escolher?"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Seu Caso", "Recomendação", "Por Quê?"],
+        "linhas": [
+          ["Iniciante (6-12 meses treino)", "Concentrado", "Economize R$ 1.000+/ano. Diferença de resultado = zero"],
+          ["Intolerante lactose", "Isolado", "Concentrado vai causar desconforto gástrico"],
+          ["Cutting (-500 kcal/dia)", "Concentrado", "10-20 kcal a mais não atrapalha. Ajuste na dieta"],
+          ["Cutting extremo (-800+ kcal/dia)", "Isolado", "Cada caloria conta. Vale o custo extra"],
+          ["Bulking", "Concentrado", "Você QUER calorias extras. Concentrado é perfeito"],
+          ["Vegano", "Proteína vegetal (ervilha/arroz)", "Whey é derivado de leite"],
+          ["Diabético", "Isolado", "Menos carbs = menor impacto glicêmico"],
+          ["Orçamento apertado", "Concentrado (ou comida real)", "R$ 60/kg vs R$ 180/kg = R$ 120/mês economizado"],
+          ["Atleta competitivo", "Isolado", "Otimização marginal (1-2%) pode valer em alto nível"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Importa Mais Que o Tipo de Whey"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A verdade inconveniente: a diferença entre isolado e concentrado é **irrelevante** se você não tiver estes 3 fatores no lugar:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína total diária**: 1.6-2.2g/kg de peso (whey é só 25-50g disso)",
+          "**Calorias adequadas**: Superávit para ganhar massa, déficit para perder gordura",
+          "**Treino consistente**: 3-5x/semana com progressão de carga"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Pessoa com 130g proteína/dia usando concentrado > Pessoa com 100g proteína/dia usando isolado."
+      },
+      {
+        "tipo": "cta",
+        "texto": "🎯 Descubra EXATAMENTE Quanta Proteína Você Precisa",
+        "descricao": "Whey é importante, mas é só uma peça do quebra-cabeça. Nossa avaliação personalizada calcula sua necessidade EXATA de proteína, carboidratos e gorduras - e indica se você realmente precisa de whey (ou se comida resolve). Grátis, 2 minutos.",
+        "textoBotao": "Fazer Minha Avaliação Nutricional",
+        "link": "/avaliacao"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Marcas: Concentrado Bom vs Isolado Ruim"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Tipo de whey importa menos que QUALIDADE da marca. Um concentrado de marca séria > isolado de marca genérica duvidosa."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Verifique:** Tabela nutricional clara, selo de qualidade (NSF, Informed-Choice)",
+          "**Desconfie:** Preço muito baixo (R$ 40/kg = provável adulteração), marca desconhecida sem transparência",
+          "**Teste:** Misture em água fria. Se formar grumos difíceis de dissolver = qualidade duvidosa"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão: A Recomendação Honesta"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Para 80% das pessoas:** Compre whey concentrado de marca confiável. Economize R$ 80-150/kg e use esse dinheiro para comprar mais comida de verdade (carne, ovos, frango)."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Compre isolado apenas se:** (1) Você for intolerante à lactose, OU (2) Estiver em cutting extremo (<1.600 kcal/dia), OU (3) Dinheiro não for problema."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Hipertrofia não vem do tipo de whey. Vem de proteína total + treino + calorias + sono. Concentre seu esforço (e dinheiro) nisso."
+      }
+    ]
+  },
+  {
+    "slug": "5-suplementos-mais-vendidos",
+    "titulo": "Os 5 Suplementos Mais Vendidos (e Os 3 Que Você NÃO Precisa)",
+    "descricao": "Análise sem rodeios dos suplementos campeões de venda no Brasil. Descubra quais valem seu dinheiro e quais são marketing puro.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-09",
+    "categoria": "Análise",
+    "tags": ["suplementos", "top 5", "whey", "creatina", "bcaa", "termogênico", "glutamina"],
+    "tempo_leitura": "10 min",
+    "imagem": "/images/blog/top-5-suplementos.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📊 **OS 5 MAIS VENDIDOS NO BRASIL:**\n\n1️⃣ **Whey Protein** - ✅ VALE (com ressalvas)\n2️⃣ **BCAA** - ❌ NÃO VALE (desperdício comprovado)\n3️⃣ **Creatina** - ✅ VALE (melhor custo-benefício)\n4️⃣ **Termogênico** - ⚠️ VALE POUCO (efeito marginal)\n5️⃣ **Glutamina** - ❌ NÃO VALE (produzida pelo corpo)\n\n**OS 3 QUE VOCÊ NÃO PRECISA:** BCAA, Glutamina, Termogênico caro (>R$ 100)\n**ECONOMIA MENSAL:** R$ 180-250 cortando os inúteis"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "#1 - Whey Protein: O Mais Vendido (E Com Razão)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "✅ VALE A PENA - MAS com 3 condições"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Função real:** Forma prática de bater meta de proteína diária (1.6-2.2g/kg peso)",
+          "**Vendas:** R$ 800 milhões/ano no Brasil",
+          "**Preço:** R$ 60-250/kg (concentrado R$ 60-100, isolado R$ 140-250)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Quando NÃO Vale Comprar Whey:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Você já atinge proteína suficiente com comida (carne, frango, ovos, peixe)",
+          "Orçamento apertado: priorize comida de verdade (whey é luxo, não necessidade)",
+          "Você acha que whey sozinho faz hipertrofia (sem treino pesado + calorias = zero resultado)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Como Economizar em Whey:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Estratégia", "Economia", "Trade-off"],
+        "linhas": [
+          ["Comprar concentrado (não isolado)", "R$ 80-150/kg", "3g carbs a mais (irrelevante)"],
+          ["Marca genérica com selo NSF", "R$ 40-70/kg", "Sabor pode ser inferior"],
+          ["Comprar em promoção (Black Friday)", "30-50% desconto", "Comprar pote grande (2-5kg)"],
+          ["Substituir 1 dose por comida real", "R$ 40-60/mês", "Precisa cozinhar mais"]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**VEREDICTO WHEY:** Vale comprar SE você não consegue bater meta de proteína com comida. Priorize concentrado genérico (metade do preço, mesmo resultado)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "#2 - BCAA: O Campeão de Vendas Mais Inútil"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ NÃO VALE A PENA - Desperdício comprovado"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Previne catabolismo', 'Aumenta recuperação', 'Energia no treino'",
+          "**Realidade:** Se você come proteína suficiente, BCAA é 100% redundante",
+          "**Vendas:** R$ 300 milhões/ano (puro marketing)",
+          "**Preço:** R$ 80-180 por 200-300g"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Por Que BCAA É Inútil (Ciência):"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**BCAA = Leucina + Isoleucina + Valina** (3 aminoácidos)",
+          "**Whey protein tem 25% BCAA** (25g whey = 6g BCAA grátis)",
+          "**Carne/frango/ovos têm BCAA** (100g peito frango = 5g BCAA)",
+          "**Estudos:** BCAA isolado NÃO melhora hipertrofia vs proteína completa (metanálise 2017 JISSN)",
+          "**Pior:** BCAA sozinho pode REDUZIR síntese proteica (faltam outros 17 aminoácidos)"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **MARKETING REVELADO:** Empresas vendem BCAA porque é barato produzir (aminoácidos sintéticos da China) e caro vender (R$ 120 por 300g = R$ 400/kg). Margem de lucro: 400-600%. Você está pagando por água com sabor e 3 aminoácidos que já tem no whey."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Única Situação Que BCAA Pode Valer:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Treino em jejum (>12h sem comer) + não quer quebrar jejum com proteína completa",
+          "Mesmo assim: 10g whey (50 kcal) funciona melhor e custa 1/4 do preço"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**VEREDICTO BCAA:** Economize R$ 80-180/mês. Use esse dinheiro para comprar mais frango/ovos (10x mais eficaz)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "#3 - Creatina: O Melhor Custo-Benefício (Compre JÁ)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "✅ VALE MUITO A PENA - Melhor investimento"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Benefícios reais:** +5-15% força, +1-2kg massa magra, melhor recuperação",
+          "**Evidência:** +1.000 estudos científicos (suplemento mais pesquisado do mundo)",
+          "**Preço:** R$ 30-40/mês (300g dura 2-3 meses)",
+          "**Custo por dia:** R$ 1.00-1.30"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Como Não Desperdiçar Dinheiro em Creatina:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Tipo", "Preço", "Vale?"],
+        "linhas": [
+          ["Creatina Monohidratada genérica", "R$ 30-40/300g", "✅ SIM - Padrão-ouro"],
+          ["Creatina Creapure (alemã premium)", "R$ 60-80/300g", "🤔 SE quiser a mais pura"],
+          ["Creatina Alcalina (Kre-Alkalyn)", "R$ 120-180/300g", "❌ NÃO - 3x mais cara, zero benefício"],
+          ["Creatina HCl (Cloridrato)", "R$ 80-120/300g", "❌ NÃO - Marketing puro"],
+          ["Creatina Ethyl Ester", "R$ 100-150/300g", "❌ NÃO - Pior que monohidratada"]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**VEREDICTO CREATINA:** Compre monohidratada genérica. Ignore formas 'exóticas' 3x mais caras com zero benefício extra. Economize R$ 90/mês."
+      },
+      {
+        "tipo": "cta",
+        "texto": "🎯 Quais Suplementos VOCÊ Realmente Precisa?",
+        "descricao": "Cada pessoa é única. Nossa avaliação personalizada analisa seu treino, dieta, objetivo e orçamento - e indica EXATAMENTE o que comprar (e o que cortar). Pare de gastar R$ 300/mês à toa. Grátis, 2 minutos.",
+        "textoBotao": "Descobrir Meus Suplementos Essenciais",
+        "link": "/avaliacao"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "#4 - Termogênico: Efeito Real, Mas Preço Não Compensa"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "⚠️ VALE POUCO - Efeito marginal vs preço alto"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Acelera metabolismo', 'Queima 300 kcal/dia', 'Derrete gordura'",
+          "**Realidade:** +50-100 kcal/dia queimadas (= 1 colher sopa azeite a menos)",
+          "**Preço:** R$ 80-200 por pote (30 doses)",
+          "**Custo/benefício:** Péssimo (R$ 120/mês para queimar 3.000 kcal = 400g gordura)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Ingredientes Que Funcionam (Um Pouco):"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Ingrediente", "Efeito Real", "Custo Alternativa"],
+        "linhas": [
+          ["Cafeína (200-400mg)", "+3-5% gasto calórico, foco", "R$ 10/mês (café preto)"],
+          ["Chá verde (EGCG)", "+2-3% gasto calórico", "R$ 15/mês (chá verde)"],
+          ["Capsaicina (pimenta)", "+1-2% gasto calórico", "R$ 5/mês (molho pimenta)"],
+          ["Sinefrina", "+2-4% gasto calórico", "Precisa comprar isolado (raro)"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "A Matemática Cruel:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Termogênico caro:** R$ 150/mês → queima +3.000 kcal/mês (400g gordura)",
+          "**Café preto + déficit 100 kcal/dia:** R$ 10/mês → queima 3.000 kcal/mês (mesma coisa)",
+          "**Diferença:** Você desperdiça R$ 140/mês para mesmo resultado"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**VEREDICTO TERMOGÊNICO:** Se quiser usar, compre cafeína pura (R$ 20/100 cápsulas 200mg) ou tome café preto. Termogênico caro (>R$ 80) é desperdício."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "#5 - Glutamina: O Corpo Produz, Você Não Precisa Comprar"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ NÃO VALE A PENA - Redundante"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Recuperação muscular', 'Reforça imunidade', 'Previne overtraining'",
+          "**Realidade:** Seu corpo produz 40-80g glutamina/dia (você consome 5-10g suplemento)",
+          "**Estudos:** Zero benefício em hipertrofia/recuperação para quem come proteína suficiente",
+          "**Preço:** R$ 60-120 por 300g"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Quando Glutamina PODE Valer (Raro):"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Atleta de endurance (maratona, triathlon) com volume >15h/semana treino",
+          "Pessoa com doença intestinal (Crohn, colite) - mas com prescrição médica",
+          "Queimado grave / pós-cirurgia (contexto hospitalar)"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Se você treina musculação 1h/dia:** Glutamina é 100% inútil. Seu corpo já produz suficiente."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**VEREDICTO GLUTAMINA:** Economize R$ 60-120/mês. Invista em comida de verdade (frango, ovos, arroz)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resumo: O Que Comprar e O Que Cortar"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Suplemento", "Prioridade", "Custo Mensal", "Ação"],
+        "linhas": [
+          ["Creatina monohidratada", "🔥 ESSENCIAL", "R$ 15-20", "✅ Comprar genérica"],
+          ["Whey concentrado", "🟡 SE NECESSÁRIO", "R$ 80-120", "✅ Só se falta proteína"],
+          ["Multivitamínico básico", "🟡 OPCIONAL", "R$ 25-40", "🤔 Se dieta pobre em vegetais"],
+          ["Ômega-3 (peixe/alga)", "🟡 OPCIONAL", "R$ 40-60", "🤔 Se come <2x peixe/semana"],
+          ["BCAA", "❌ INÚTIL", "R$ 80-180", "❌ CORTAR - redundante"],
+          ["Glutamina", "❌ INÚTIL", "R$ 60-120", "❌ CORTAR - corpo produz"],
+          ["Termogênico caro (>R$ 100)", "❌ DESPERDÍCIO", "R$ 100-200", "❌ CORTAR - substituir café"],
+          ["ZMA (Zinco+Magnésio)", "❌ DESNECESSÁRIO", "R$ 40-80", "❌ CORTAR - multivitamínico tem"],
+          ["Tribulus / Testo Booster", "❌ FRAUDE", "R$ 80-150", "❌ CORTAR - zero evidência"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Plano Econômico vs Plano Desperdiçado"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Item", "Plano Desperdiçado", "Plano Inteligente"],
+        "linhas": [
+          ["Whey", "Isolado R$ 180", "Concentrado R$ 80"],
+          ["Creatina", "Alcalina R$ 60", "Monohidratada R$ 15"],
+          ["BCAA", "R$ 120", "R$ 0 (cortado)"],
+          ["Glutamina", "R$ 90", "R$ 0 (cortado)"],
+          ["Termogênico", "R$ 150", "Café R$ 10"],
+          ["Pré-treino", "R$ 120", "Café + Beta-Alanina R$ 30"],
+          ["**TOTAL**", "**R$ 720/mês**", "**R$ 135/mês**"],
+          ["**ECONOMIA**", "—", "**R$ 585/mês (R$ 7.020/ano)**"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão: Pare de Enriquecer a Indústria"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Dos 5 suplementos mais vendidos, apenas 2 valem a pena (creatina sempre, whey se necessário). Os outros 3 (BCAA, glutamina, termogênico caro) são desperdício de R$ 3.000-5.000/ano."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use o dinheiro economizado para: (1) Comprar comida de qualidade, (2) Pagar personal trainer, (3) Investir em equipamento home gym, (4) Viajar/aproveitar vida."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Hipertrofia vem de treino pesado + proteína adequada + calorias + sono. Suplemento é 5% da equação. Pare de gastar 60% do orçamento nos 5%."
+      }
+    ]
+  },
+  {
+    "slug": "suplementos-para-iniciantes",
+    "titulo": "Suplementos para Iniciantes: O Que Comprar Primeiro? (Guia Prático 2025)",
+    "descricao": "Acabou de começar na academia? Descubra os únicos 2 suplementos que você realmente precisa (e os 8 que deve ignorar).",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-09",
+    "categoria": "Iniciantes",
+    "tags": ["iniciantes", "primeiros suplementos", "academia", "musculação", "guia"],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/iniciantes-suplementos.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "🎯 **GUIA RÁPIDO PARA INICIANTES:**\n\n**PRIORIDADE 1 (Essencial):**\n• ✅ Creatina Monohidratada (R$ 15-20/mês)\n\n**PRIORIDADE 2 (Se necessário):**\n• 🟡 Whey Protein - SÓ se você não consegue comer proteína suficiente (R$ 80/mês)\n\n**PRIORIDADE 3 (Opcional):**\n• 🟡 Multivitamínico básico - Se dieta pobre (R$ 25/mês)\n\n**IGNORE COMPLETAMENTE:**\n❌ BCAA, Glutamina, Termogênico, Pré-treino caro, Testo booster, ZMA, HMB, Óxido Nítrico\n\n**ORÇAMENTO TOTAL:** R$ 15-120/mês (não os R$ 400+ que lojas tentam vender)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A Verdade Que Ninguém Conta Para Iniciantes"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você entra na loja de suplementos. O vendedor empurra um 'kit iniciante': whey, BCAA, glutamina, termogênico, pré-treino. Total: R$ 600-800."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**A realidade:** Você precisa de R$ 15-40/mês. O resto é desperdício."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Nos primeiros 6-12 meses treinando, seu corpo responde a QUALQUER estímulo. Você vai ganhar 3-6kg de massa magra independente de suplementos. O que importa:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Treino consistente:** 3-4x/semana, progressão de carga",
+          "**Proteína suficiente:** 1.6-2g/kg de peso (comida resolve 90% disso)",
+          "**Calorias adequadas:** Leve superávit (+200-300 kcal/dia)",
+          "**Sono:** 7-8h/noite",
+          "**Paciência:** Hipertrofia leva meses, não semanas"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Suplementos aceleram? Sim, mas 5-10%. Treino ruim com suplemento caro = zero resultado. Treino bom sem suplemento = 90% do resultado."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Prioridade 1: Creatina (O Único Essencial)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Por Que Creatina É o #1 Para Iniciantes?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Eficácia comprovada:** +5-15% força, +1-2kg massa magra (meta-análise com +1.000 estudos)",
+          "**Preço ridículo:** R$ 15-20/mês (300g dura 2-3 meses)",
+          "**Simplicidade:** 3-5g/dia, qualquer hora, todo dia. Só isso.",
+          "**Segurança:** Um dos suplementos mais estudados do mundo. Zero efeito colateral sério.",
+          "**Benefício imediato:** +1-2 repetições extras já na 2ª semana"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Qual Creatina Comprar?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Resposta simples:** Creatina Monohidratada genérica. Ignore formas 'premium' 3x mais caras."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Tipo", "Preço", "Iniciante Deve Comprar?"],
+        "linhas": [
+          ["Creatina Monohidratada", "R$ 30-40/300g", "✅ SIM - Padrão-ouro"],
+          ["Creatina Creapure", "R$ 60-80/300g", "🤔 Opcional (mais pura)"],
+          ["Creatina Alcalina", "R$ 120-180/300g", "❌ NÃO - Marketing"],
+          ["Creatina HCl", "R$ 80-120/300g", "❌ NÃO - Desperdício"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Como Tomar:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Dose:** 3-5g/dia (1 colher medidor rasa)",
+          "**Quando:** Tanto faz. Sério. Tome junto com refeição qualquer.",
+          "**Saturação rápida:** 20g/dia por 5 dias (opcional - acelera resultado para 1 semana)",
+          "**Pausa:** Não precisa. Tome todo dia continuamente."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Prioridade 2: Whey Protein (SE Você Não Come Proteína Suficiente)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Quando Você PRECISA de Whey:"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Whey não é obrigatório. É uma FERRAMENTA para bater meta de proteína. Use este checklist:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Calcule sua necessidade:** Seu peso x 1.8 = gramas proteína/dia",
+          "**Exemplo:** 70kg x 1.8 = 126g proteína/dia",
+          "**Conte o que você come:**",
+          "  - 100g peito frango = 30g proteína",
+          "  - 2 ovos = 14g proteína",
+          "  - 200g arroz + 100g feijão = 18g proteína",
+          "  - 1 pote iogurte grego = 15g proteína",
+          "  - **Total exemplo:** 77g proteína",
+          "**Falta:** 126g - 77g = 49g (precisa de 2 doses whey OU mais comida)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Whey vs Comida: O Que Escolher?"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Opção", "Proteína", "Custo", "Quando Escolher"],
+        "linhas": [
+          ["1 dose whey (30g)", "25g", "R$ 3-4", "Praticidade (pós-treino, trabalho)"],
+          ["100g peito frango", "30g", "R$ 2-3", "Saciedade, refeição completa"],
+          ["3 ovos", "21g", "R$ 1.50-2", "Café manhã, low carb"],
+          ["200g iogurte grego", "20g", "R$ 4-5", "Lanche, sobremesa"],
+          ["100g atum lata", "25g", "R$ 4-6", "Praticidade, ômega-3"]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**REGRA DE OURO:** Se você consegue bater meta com comida, não precisa de whey. Whey é conveniência, não mágica."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Qual Whey Comprar (Se Decidir Comprar)?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Whey Concentrado:** 70-80% proteína, R$ 60-100/kg. **Escolha do iniciante.**",
+          "**Whey Isolado:** 90-95% proteína, R$ 140-250/kg. Só vale se você for intolerante à lactose.",
+          "**Whey Hidrolisado:** R$ 200-350/kg. Não compre. Zero vantagem real."
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **ARMADILHA COMUM:** Vendedor empurra isolado/hidrolisado dizendo que 'absorve mais rápido'. MENTIRA. Diferença de absorção: 30 minutos. Diferença de resultado: ZERO. Economize R$ 80-150/kg comprando concentrado."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Prioridade 3: Multivitamínico (Só Se Dieta For Ruim)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Multivitamínico é 'seguro' contra deficiências nutricionais. Útil se:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Você come <3 porções vegetais/dia",
+          "Dieta muito restritiva (corte agressivo, vegetariano malfeito)",
+          "Orçamento permite (R$ 25-40/mês)"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**NÃO espere:** Mais energia, ganho muscular, queima gordura. Multivitamínico corrige deficiência, não cria superpoderes."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que NÃO Comprar (Economize R$ 300/mês)"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ BCAA (Desperdício #1)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Previne catabolismo', 'Recuperação muscular'",
+          "**Realidade:** Se você come proteína suficiente, BCAA é redundante 100%",
+          "**Preço:** R$ 80-180/mês",
+          "**Veredicto:** NÃO COMPRE. Use dinheiro para comprar frango."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ Glutamina (Desperdício #2)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Recuperação', 'Imunidade'",
+          "**Realidade:** Seu corpo produz 40-80g/dia (você suplementaria 5-10g = gota no oceano)",
+          "**Preço:** R$ 60-120/mês",
+          "**Veredicto:** NÃO COMPRE. Zero benefício para iniciante."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ Termogênico Caro (>R$ 80)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Queima 300 kcal/dia', 'Acelera metabolismo'",
+          "**Realidade:** Queima +50-100 kcal/dia (= 1 colher sopa azeite a menos)",
+          "**Preço:** R$ 100-200/mês",
+          "**Veredicto:** Compre café preto (R$ 10/mês, mesmo efeito)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ Pré-Treino Caro (>R$ 100)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Marketing:** 'Explosão de energia', 'Pump incrível', 'Foco laser'",
+          "**Realidade:** 90% do efeito vem de cafeína (R$ 10/mês em café)",
+          "**Preço:** R$ 120-180/mês",
+          "**Veredicto:** Café 1h antes do treino = 90% do resultado por 1/12 do preço"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "❌ Outros Que Iniciante Deve Ignorar:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**ZMA (Zinco+Magnésio):** Multivitamínico já tem. R$ 40-80 desperdiçados.",
+          "**HMB:** Só funciona para idosos/destreinados. R$ 100-150 desperdiçados.",
+          "**Tribulus / Testo Booster:** Fraude comprovada. Zero efeito. R$ 80-150 desperdiçados.",
+          "**Óxido Nítrico (Arginina):** Não aumenta pump real. R$ 60-100 desperdiçados."
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "🎁 Planejamento Completo Personalizado (Grátis)",
+        "descricao": "Cada pessoa é única. Nossa avaliação personalizada analisa SEU corpo, SEU treino, SEU orçamento - e monta um plano de suplementação sob medida. Sem vendas, sem empurrar produto. Só recomendações honestas. Grátis, 2 minutos.",
+        "textoBotao": "Fazer Minha Avaliação Personalizada",
+        "link": "/avaliacao"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Progressão de Compra: Do Básico ao Avançado"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Mês 1-3 (Orçamento: R$ 15-40/mês)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "✅ Creatina monohidratada (R$ 15/mês)",
+          "🟡 Whey concentrado (R$ 80/mês) - SÓ se não consegue bater proteína com comida",
+          "**Total:** R$ 15-95/mês"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Mês 4-12 (Se Treino Está Consistente)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "✅ Continuar creatina + whey (se necessário)",
+          "🟡 Adicionar multivitamínico básico (R$ 25/mês) - se dieta pobre",
+          "🟡 Considerar cafeína pura pré-treino (R$ 20/100 cápsulas) - se sentir necessidade",
+          "**Total:** R$ 60-140/mês"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 3,
+        "texto": "Ano 2+ (Intermediário/Avançado)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "✅ Base: creatina + proteína suficiente (comida ou whey)",
+          "🟡 Considerar: Ômega-3 (se come <2x peixe/semana), Vitamina D (se baixa exposição sol)",
+          "🟡 Experimentar: Beta-alanina (se treino alta intensidade), Citrulina malato (pump)",
+          "**Total:** R$ 100-180/mês"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros Fatais de Iniciantes"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": ["Erro", "Por Que É Ruim", "Solução"],
+        "linhas": [
+          ["Comprar 'kit iniciante' da loja", "R$ 600-800 em produtos inúteis", "Comprar só creatina. Economizar R$ 500+"],
+          ["Achar que suplemento é obrigatório", "Gasta dinheiro antes de treino/dieta corretos", "Focar 90% em treino/dieta, 10% suplemento"],
+          ["Comprar whey caro (isolado/hidrolisado)", "Paga 2-3x mais por zero benefício extra", "Concentrado genérico = mesmo resultado"],
+          ["Tomar BCAA 'para não perder músculo'", "R$ 100/mês desperdiçados", "Proteína total diária resolve. BCAA é inútil"],
+          ["Mudar de suplemento todo mês", "Nunca avalia resultado real", "Manter 3-6 meses antes de mudar"],
+          ["Esperar resultado em 1 semana", "Frustra e desiste", "Hipertrofia leva 8-12 semanas (com ou sem suplemento)"]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Checklist Final: O Que Comprar na Primeira Ida à Loja"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "✅ **Creatina Monohidratada 300g** (marca genérica OK) = R$ 30-40",
+          "🟡 **Whey Concentrado 900g-1kg** (SÓ se proteína insuficiente) = R$ 80-120",
+          "❌ **NÃO COMPRE:** BCAA, Glutamina, Termogênico, Pré-treino, ZMA, HMB, Tribulus",
+          "**TOTAL:** R$ 30-160 (não os R$ 600+ que tentam empurrar)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão: Simplicidade Vence"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Iniciantes não precisam de 10 potes de suplemento. Precisam de:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Creatina** (R$ 15/mês) - O único essencial",
+          "**Proteína suficiente** (comida ou whey se necessário)",
+          "**Treino consistente** (3-4x/semana)",
+          "**Paciência** (12 semanas para ver resultado real)"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Economize R$ 300-500/mês cortando produtos inúteis. Use esse dinheiro para: (1) Comida de qualidade, (2) Personal trainer, (3) Melhor academia."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Suplementos ajudam, mas são 5% do resultado. Não inverta a pirâmide gastando 60% do orçamento nos 5%."
+      }
+    ]
   }
 ]
