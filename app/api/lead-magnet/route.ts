@@ -1,61 +1,81 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 /**
- * API Route para capturar leads do Exit Intent Popup
+ * API Route para capturar leads do Popup
+ * 
+ * Aceita EMAIL ou TELEFONE para facilitar conversão
  * 
  * Integração futura:
  * - Mailchimp (https://mailchimp.com/developer/)
  * - ConvertKit (https://developers.convertkit.com/)
- * - ActiveCampaign (https://developers.activecampaign.com/)
+ * - WhatsApp Business API (para telefones)
  * - Google Sheets (simples, mas funcional)
  */
 
 export async function POST(request: NextRequest) {
   try {
-    const { email, leadMagnet } = await request.json();
+    const { contact, contactType, leadMagnet } = await request.json();
 
     // Validação básica
-    if (!email || !email.includes('@')) {
+    if (!contact || !contactType) {
       return NextResponse.json(
-        { error: 'Email inválido' },
+        { error: 'Contato e tipo são obrigatórios' },
         { status: 400 }
       );
     }
 
-    // TODO: Integrar com serviço de email marketing
-    // Exemplo Mailchimp:
-    // const MAILCHIMP_API_KEY = process.env.MAILCHIMP_API_KEY;
-    // const MAILCHIMP_LIST_ID = process.env.MAILCHIMP_LIST_ID;
-    // 
-    // await fetch(`https://${datacenter}.api.mailchimp.com/3.0/lists/${MAILCHIMP_LIST_ID}/members`, {
-    //   method: 'POST',
-    //   headers: {
-    //     'Authorization': `Bearer ${MAILCHIMP_API_KEY}`,
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     email_address: email,
-    //     status: 'subscribed',
-    //     tags: [leadMagnet],
-    //     merge_fields: {
-    //       LEAD_SOURCE: 'exit_intent',
-    //       LEAD_MAGNET: leadMagnet,
-    //     }
-    //   }),
-    // });
+    // Validar formato baseado no tipo
+    if (contactType === 'email') {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(contact)) {
+        return NextResponse.json(
+          { error: 'Email inválido' },
+          { status: 400 }
+        );
+      }
+    } else if (contactType === 'phone') {
+      const cleanPhone = contact.replace(/\D/g, '');
+      if (cleanPhone.length < 10 || cleanPhone.length > 11) {
+        return NextResponse.json(
+          { error: 'Telefone inválido (use formato: (11) 99999-9999)' },
+          { status: 400 }
+        );
+      }
+    }
 
-    // Por enquanto: salvar em arquivo/database (implementação simples)
-    console.log(`[LEAD CAPTURADO] Email: ${email} | Lead Magnet: ${leadMagnet}`);
+    // Log do lead capturado (para análise)
+    console.log(`[LEAD CAPTURADO]`, {
+      contactType,
+      contact,
+      leadMagnet,
+      timestamp: new Date().toISOString(),
+      userAgent: request.headers.get('user-agent'),
+    });
 
-    // Salvar em banco de dados local (opcional - adicionar Prisma/MongoDB depois)
+    // TODO: Salvar em banco de dados (Prisma/Supabase)
     // await db.leads.create({
     //   data: {
-    //     email,
+    //     contact,
+    //     contactType,
     //     leadMagnet,
-    //     source: 'exit_intent',
+    //     source: 'popup',
     //     createdAt: new Date(),
     //   }
     // });
+
+    // TODO: Se for email, adicionar à lista de email marketing
+    // if (contactType === 'email') {
+    //   await mailchimp.lists.addListMember(MAILCHIMP_LIST_ID, {
+    //     email_address: contact,
+    //     status: 'subscribed',
+    //     tags: [leadMagnet],
+    //   });
+    // }
+
+    // TODO: Se for telefone, adicionar à lista do WhatsApp Business
+    // if (contactType === 'phone') {
+    //   await whatsapp.sendWelcomeMessage(contact);
+    // }
 
     return NextResponse.json({
       success: true,

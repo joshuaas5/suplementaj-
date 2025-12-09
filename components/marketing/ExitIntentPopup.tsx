@@ -6,48 +6,79 @@ import { trackExitIntentShow, trackExitIntentConversion, trackLeadMagnetDownload
 
 export function ExitIntentPopup() {
   const [isVisible, setIsVisible] = useState(false);
-  const [email, setEmail] = useState('');
+  const [contact, setContact] = useState('');
+  const [contactType, setContactType] = useState<'email' | 'phone' | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState('');
 
   useEffect(() => {
-    // Verificar se usuário já viu o popup (localStorage)
-    const hasSeenPopup = localStorage.getItem('exitIntentShown');
+    // Verificar se usuário já viu o popup
+    const hasSeenPopup = localStorage.getItem('leadMagnetShown');
     if (hasSeenPopup) return;
 
-    let exitIntentTriggered = false;
-
-    const handleMouseLeave = (e: MouseEvent) => {
-      // Detectar quando mouse sai pela parte superior da tela (tentativa de fechar aba)
-      if (e.clientY <= 0 && !exitIntentTriggered) {
-        exitIntentTriggered = true;
-        setIsVisible(true);
-        trackExitIntentShow();
-        localStorage.setItem('exitIntentShown', 'true');
-      }
-    };
-
-    // Adicionar listener após 5 segundos (evitar trigger imediato)
+    // Mostrar popup após 8 segundos na página
     const timer = setTimeout(() => {
-      document.addEventListener('mouseout', handleMouseLeave);
-    }, 5000);
+      setIsVisible(true);
+      trackExitIntentShow();
+      localStorage.setItem('leadMagnetShown', 'true');
+    }, 8000);
 
-    return () => {
-      clearTimeout(timer);
-      document.removeEventListener('mouseout', handleMouseLeave);
-    };
+    return () => clearTimeout(timer);
   }, []);
+
+  // Detectar tipo de contato (email ou telefone)
+  useEffect(() => {
+    if (!contact) {
+      setContactType(null);
+      setError('');
+      return;
+    }
+
+    // Validar email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (emailRegex.test(contact)) {
+      setContactType('email');
+      setError('');
+      return;
+    }
+
+    // Validar telefone brasileiro (11 dígitos com DDD)
+    const phoneRegex = /^(\d{2})?\s?9?\d{4}[-\s]?\d{4}$/;
+    const cleanPhone = contact.replace(/\D/g, '');
+    if (cleanPhone.length >= 10 && phoneRegex.test(contact)) {
+      setContactType('phone');
+      setError('');
+      return;
+    }
+
+    // Se não é nenhum dos dois
+    if (contact.length > 5) {
+      setContactType(null);
+      setError('Digite um email válido OU celular (11) 99999-9999');
+    }
+  }, [contact]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!contactType) {
+      setError('Digite um email válido OU celular com DDD');
+      return;
+    }
+
     setIsSubmitting(true);
+    setError('');
 
     try {
-      // Enviar email para API/backend (você pode integrar com Mailchimp, ConvertKit, etc)
       const response = await fetch('/api/lead-magnet', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, leadMagnet: 'top-10-suplementos-2025' }),
+        body: JSON.stringify({ 
+          contact, 
+          contactType,
+          leadMagnet: 'top-10-suplementos-2025' 
+        }),
       });
 
       if (response.ok) {
@@ -55,15 +86,19 @@ export function ExitIntentPopup() {
         trackLeadMagnetDownload('Top 10 Suplementos 2025');
         setIsSubmitted(true);
         
-        // Redirecionar para download após 2 segundos
+        // Download imediato
+        window.open('/downloads/top-10-suplementos-2025.pdf', '_blank');
+        
+        // Fechar popup após 3 segundos
         setTimeout(() => {
-          window.open('/downloads/top-10-suplementos-2025.pdf', '_blank');
           setIsVisible(false);
-        }, 2000);
+        }, 3000);
+      } else {
+        setError('Erro ao processar. Tente novamente.');
       }
     } catch (error) {
       console.error('Erro ao capturar lead:', error);
-      alert('Erro ao processar. Tente novamente.');
+      setError('Erro ao processar. Tente novamente.');
     } finally {
       setIsSubmitting(false);
     }
@@ -76,93 +111,115 @@ export function ExitIntentPopup() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm animate-in fade-in duration-300">
-      <div className="relative w-full max-w-lg mx-4 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-2xl p-8 animate-in slide-in-from-bottom-4 duration-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300">
+      <div className="relative w-full max-w-lg bg-yellow-400 border-4 border-black shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
         {/* Botão Fechar */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
+          className="absolute -top-3 -right-3 w-10 h-10 bg-red-500 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center"
           aria-label="Fechar"
         >
-          <X className="w-6 h-6" />
+          <X className="w-6 h-6 text-white" strokeWidth={3} />
         </button>
 
-        {!isSubmitted ? (
-          <>
-            {/* Ícone de Presente */}
-            <div className="flex justify-center mb-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center">
-                <Gift className="w-8 h-8 text-white" />
+        <div className="bg-white border-4 border-black p-8">
+          {!isSubmitted ? (
+            <>
+              {/* Ícone + Título */}
+              <div className="text-center mb-6">
+                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-500 border-4 border-black shadow-[6px_6px_0_0_#000] mb-4">
+                  <Gift className="w-10 h-10 text-white" strokeWidth={3} />
+                </div>
+                <h2 className="text-3xl md:text-4xl font-black text-black uppercase mb-2 leading-tight">
+                  🎁 Presente Grátis!
+                </h2>
+                <p className="text-lg font-bold text-black">
+                  Pegue nosso <span className="bg-yellow-400 px-2 py-1 border-2 border-black">PDF EXCLUSIVO</span>
+                </p>
               </div>
-            </div>
 
-            {/* Título */}
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-3">
-              🎁 Espere! Presente Grátis Para Você
-            </h2>
+              {/* Oferta */}
+              <div className="bg-cyan-400 border-4 border-black p-6 mb-6 shadow-[6px_6px_0_0_#000]">
+                <h3 className="text-xl font-black text-black mb-3 flex items-center gap-2 uppercase">
+                  <Download className="w-5 h-5" strokeWidth={3} />
+                  Top 10 Suplementos 2025
+                </h3>
+                <ul className="space-y-2 text-black font-bold">
+                  <li className="flex items-start gap-2">
+                    <span className="text-black font-black">✅</span>
+                    <span>Análise completa de custo-benefício</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black font-black">✅</span>
+                    <span>Doses recomendadas com tabelas</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black font-black">✅</span>
+                    <span>Economize até R$ 300/mês</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-black font-black">✅</span>
+                    <span>Links diretos para comprar com desconto</span>
+                  </li>
+                </ul>
+              </div>
 
-            {/* Descrição */}
-            <p className="text-center text-gray-600 mb-6">
-              Antes de sair, pegue nosso <strong className="text-emerald-600">PDF exclusivo:</strong>
-            </p>
+              {/* Formulário */}
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div>
+                  <label className="block text-sm font-black text-black uppercase mb-2">
+                    📧 Email OU 📱 Celular:
+                  </label>
+                  <input
+                    type="text"
+                    value={contact}
+                    onChange={(e) => setContact(e.target.value)}
+                    placeholder="seu@email.com OU (11) 99999-9999"
+                    required
+                    className="w-full px-4 py-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-400 font-bold"
+                  />
+                  {contactType && (
+                    <p className="mt-2 text-sm font-bold text-green-600">
+                      {contactType === 'email' ? '✅ Email válido' : '✅ Telefone válido'}
+                    </p>
+                  )}
+                  {error && (
+                    <p className="mt-2 text-sm font-bold text-red-600">
+                      {error}
+                    </p>
+                  )}
+                </div>
 
-            {/* Oferta Destacada */}
-            <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl p-6 mb-6 text-white shadow-lg">
-              <h3 className="text-xl font-bold mb-2 flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                Os 10 Melhores Suplementos de 2025
+                <button
+                  type="submit"
+                  disabled={isSubmitting || !contactType}
+                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-black py-4 px-6 border-4 border-black shadow-[6px_6px_0_0_#000] hover:shadow-[3px_3px_0_0_#000] hover:translate-x-[3px] hover:translate-y-[3px] transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase text-lg"
+                >
+                  {isSubmitting ? 'Enviando...' : '📥 Baixar PDF Grátis Agora'}
+                </button>
+              </form>
+
+              {/* Garantia */}
+              <p className="text-xs text-center text-gray-700 mt-4 font-bold">
+                🔒 Seguro. Sem spam. Seus dados protegidos.
+              </p>
+            </>
+          ) : (
+            /* Sucesso */
+            <div className="text-center py-8">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-green-500 border-4 border-black shadow-[6px_6px_0_0_#000] mb-4">
+                <Download className="w-10 h-10 text-white" strokeWidth={3} />
+              </div>
+              <h3 className="text-3xl font-black text-black mb-3 uppercase">
+                🎉 Sucesso!
               </h3>
-              <ul className="space-y-2 text-sm text-emerald-50">
-                <li>✅ Análise completa de custo-benefício</li>
-                <li>✅ Doses recomendadas (com tabelas)</li>
-                <li>✅ Marcas confiáveis vs falsificações</li>
-                <li>✅ Economize R$ 300/mês cortando desperdícios</li>
-                <li>✅ Estudos científicos que comprovam eficácia</li>
-              </ul>
+              <p className="text-lg font-bold text-black">
+                Seu PDF está sendo baixado...<br />
+                Verifique a pasta de Downloads!
+              </p>
             </div>
-
-            {/* Formulário */}
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Seu melhor email"
-                  required
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-emerald-500 focus:ring focus:ring-emerald-200 transition-all"
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-bold py-4 rounded-lg hover:from-emerald-700 hover:to-teal-700 transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {isSubmitting ? 'Enviando...' : '📥 Baixar PDF Grátis Agora'}
-              </button>
-            </form>
-
-            {/* Garantias */}
-            <p className="text-xs text-center text-gray-500 mt-4">
-              🔒 100% seguro. Sem spam. Cancele quando quiser.
-            </p>
-          </>
-        ) : (
-          /* Sucesso */
-          <div className="text-center py-8">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Download className="w-8 h-8 text-green-600" />
-            </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              🎉 Sucesso!
-            </h3>
-            <p className="text-gray-600">
-              Seu PDF está sendo baixado...<br />
-              Verifique também sua caixa de entrada!
-            </p>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

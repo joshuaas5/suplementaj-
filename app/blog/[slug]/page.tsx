@@ -8,6 +8,7 @@ import { Alert } from '@/components/ui/Alert'
 import artigosData from '@/data/artigos.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
 import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
+import { formatMarkdown } from '@/lib/markdown'
 
 const artigos = artigosData as Artigo[]
 
@@ -275,9 +276,10 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
   switch (bloco.tipo) {
     case 'paragrafo':
       return (
-        <p className="text-black font-medium leading-relaxed mb-6">
-          {bloco.texto}
-        </p>
+        <p 
+          className="text-black font-medium leading-relaxed mb-6"
+          dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+        />
       )
 
     case 'heading':
@@ -285,17 +287,19 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
         return (
           <div className="mt-12 mb-6">
             <div className="bg-black px-6 py-3 inline-block border-2 border-black sm:-rotate-1">
-              <h2 className="text-2xl sm:text-3xl font-black text-yellow-400 uppercase">
-                {bloco.texto}
-              </h2>
+              <h2 
+                className="text-2xl sm:text-3xl font-black text-yellow-400 uppercase"
+                dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+              />
             </div>
           </div>
         )
       }
       return (
-        <h3 className="text-xl sm:text-2xl font-black text-black uppercase mt-8 mb-4 border-l-4 border-black pl-4">
-          {bloco.texto}
-        </h3>
+        <h3 
+          className="text-xl sm:text-2xl font-black text-black uppercase mt-8 mb-4 border-l-4 border-black pl-4"
+          dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+        />
       )
 
     case 'lista':
@@ -306,7 +310,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
               <span className="text-black font-black mt-1">•</span>
               <span
                 className="text-black font-bold flex-1"
-                dangerouslySetInnerHTML={{ __html: item.replace(/\*\*(.*?)\*\*/g, '<strong class="bg-yellow-400 px-1">$1</strong>') }}
+                dangerouslySetInnerHTML={{ __html: formatMarkdown(item) }}
               />
             </li>
           ))}
@@ -323,9 +327,8 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
                   <th
                     key={i}
                     className="border-2 border-black px-4 py-3 text-left font-black text-black uppercase"
-                  >
-                    {col}
-                  </th>
+                    dangerouslySetInnerHTML={{ __html: formatMarkdown(col) }}
+                  />
                 ))}
               </tr>
             </thead>
@@ -336,9 +339,8 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
                     <td
                       key={j}
                       className="border-2 border-black px-4 py-3 text-black font-bold"
-                    >
-                      {celula}
-                    </td>
+                      dangerouslySetInnerHTML={{ __html: formatMarkdown(celula) }}
+                    />
                   ))}
                 </tr>
               ))}
@@ -355,11 +357,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
 
       return (
         <Alert variant={bloco.variante} className="mb-6">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: bloco.texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'),
-            }}
-          />
+          <div dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }} />
         </Alert>
       )
 
@@ -367,7 +365,10 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       return (
         <Card className="bg-yellow-400 my-8">
           <CardContent className="p-8 text-center">
-            <p className="text-black font-bold text-lg mb-6">{bloco.texto}</p>
+            <p 
+              className="text-black font-bold text-lg mb-6"
+              dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+            />
             <Link href={bloco.link}>
               <Button variant="primary" size="lg">
                 {bloco.botao}
