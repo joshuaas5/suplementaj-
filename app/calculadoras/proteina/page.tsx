@@ -40,11 +40,11 @@ export default function CalculadoraProteinaPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🥩 Calculadora de Proteína
+            🥩 Quanta Proteína Devo Tomar?
           </h1>
           <p className="text-black font-bold mb-4">
-            Descubra <strong>quantos gramas de proteína</strong> você precisa consumir por dia 
-            baseado no seu objetivo, nível de atividade e idade.
+            Descubra <strong>quantos gramas de proteína</strong> você precisa consumir por dia{' '}
+            baseado no seu objetivo: ganhar massa, emagrecer ou manter peso.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">🔬 ISSN Guidelines</span>

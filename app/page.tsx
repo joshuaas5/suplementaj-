@@ -75,9 +75,9 @@ export default function Home() {
 
             <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 max-w-3xl mx-auto mb-10">
               <p className="text-xl sm:text-2xl text-black font-bold leading-relaxed">
-                Recomendações personalizadas de vitaminas e minerais baseadas em{' '}
-                <span className="bg-cyan-400 px-2 py-1">evidências científicas</span>.
-                <br />Responda algumas perguntas e receba seu plano personalizado!
+                Receba uma lista personalizada de suplementos em{' '}
+                <span className="bg-cyan-400 px-2 py-1">menos de 2 minutos</span>.
+                <br />Grátis, sem cadastro, sem enrolação.
               </p>
             </div>
 
@@ -104,7 +104,7 @@ export default function Home() {
                   variant="primary"
                   className="text-base sm:text-xl px-6 sm:px-10 py-4 sm:py-7 w-full sm:w-auto"
                 >
-                  Fazer Avaliação Gratuita
+                  Descobrir Meus Suplementos Ideais (Grátis)
                   <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
                 </Button>
               </Link>
@@ -146,29 +146,29 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
-            <Link href="/calculadoras" className="bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/imc" className="bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">⚖️</div>
-              <h3 className="font-black text-black uppercase text-sm">IMC</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Estou no Peso Ideal?</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/calorias" className="bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">🔥</div>
-              <h3 className="font-black text-black uppercase text-sm">Calorias</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Quantas Calorias Comer?</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/macros" className="bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">🍽️</div>
-              <h3 className="font-black text-black uppercase text-sm">Macros</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Quais Meus Macros?</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/creatina" className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">💪</div>
-              <h3 className="font-black text-black uppercase text-sm">Creatina</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Minha Dose de Creatina?</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/proteina" className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">🥩</div>
-              <h3 className="font-black text-black uppercase text-sm">Proteína</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Quanta Proteína Tomar?</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
+            <Link href="/calculadoras/agua" className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
               <div className="text-3xl mb-2">💧</div>
-              <h3 className="font-black text-black uppercase text-sm">Água</h3>
+              <h3 className="font-black text-black uppercase text-xs leading-tight">Quanta Água Beber?</h3>
             </Link>
           </div>
 

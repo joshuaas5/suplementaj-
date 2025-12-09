@@ -40,11 +40,11 @@ export default function CalculadoraCaloriasPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🔥 Calculadora de Calorias
+            🔥 Quantas Calorias Devo Comer?
           </h1>
           <p className="text-black font-bold mb-4">
-            Calcule sua <strong>Taxa Metabólica Basal (TMB)</strong> e seu <strong>Gasto Energético Total (TDEE)</strong> 
-            para saber quantas calorias você precisa por dia.
+            Descubra quantas calorias seu corpo gasta por dia e quantas você precisa para{' '}
+            <strong>emagrecer, ganhar massa muscular ou manter o peso</strong>. Cálculo científico em segundos!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">✅ Grátis</span>

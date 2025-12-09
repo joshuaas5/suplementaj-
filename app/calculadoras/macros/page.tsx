@@ -40,11 +40,11 @@ export default function CalculadoraMacrosPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🍽️ Calculadora de Macros
+            🍽️ Quais São Meus Macros Ideais?
           </h1>
           <p className="text-black font-bold mb-4">
-            Calcule a <strong>divisão ideal de macronutrientes</strong> para seu objetivo: 
-            emagrecer, ganhar massa ou manter peso.
+            Descubra a <strong>divisão ideal de proteína, carboidrato e gordura</strong> para seu objetivo:{' '}
+            emagrecer, ganhar massa ou manter peso. Em gramas por dia!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-pink-400 px-3 py-1 border-2 border-black font-bold text-sm">🥩 Proteína</span>

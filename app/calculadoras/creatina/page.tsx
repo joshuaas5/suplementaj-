@@ -40,11 +40,11 @@ export default function CalculadoraCreatinaPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            💪 Calculadora de Creatina
+            💪 Qual Minha Dose de Creatina?
           </h1>
           <p className="text-black font-bold mb-4">
-            Calcule a <strong>dose ideal de creatina</strong> baseada no seu peso corporal. 
-            Manutenção ou fase de saturação - qual usar?
+            Descubra a <strong>dose exata de creatina</strong> que você deve tomar baseado no seu peso.{' '}
+            Manutenção ou fase de saturação? Calcule agora!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-yellow-400 px-3 py-1 border-2 border-black font-bold text-sm">🔬 ISSN Guidelines</span>
