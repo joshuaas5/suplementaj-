@@ -21,14 +21,38 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Suplementa Já - Recomendações Personalizadas de Suplementação",
+  metadataBase: new URL('https://suplementaja.com'),
+  title: {
+    default: "Suplementa Já - Recomendações Personalizadas de Suplementação",
+    template: "%s | Suplementa Já"
+  },
   description: "Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas. Gratuito e sem cadastro.",
-  keywords: ["suplementação", "vitaminas", "minerais", "saúde", "nutrição", "vitamina d", "b12", "cálcio", "magnésio"],
+  keywords: ["suplementação", "vitaminas", "minerais", "saúde", "nutrição", "vitamina d", "b12", "cálcio", "magnésio", "creatina", "whey protein", "omega 3"],
   authors: [{ name: "Suplementa Já" }],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Suplementa Já - Recomendações Personalizadas de Suplementação",
-    description: "Descubra quais vitaminas e minerais você realmente precisa",
+    description: "Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas",
+    url: 'https://suplementaja.com',
+    siteName: 'Suplementa Já',
+    locale: 'pt_BR',
     type: "website",
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Suplementa Já - Recomendações Personalizadas de Suplementação',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Suplementa Já - Recomendações Personalizadas',
+    description: 'Descubra quais vitaminas e minerais você realmente precisa',
+    images: ['/og-image.jpg'],
   },
   verification: {
     google: "4DA9xw0IDScqFxPZ0yI6TYuuXBes9ekaeu1ENTtS6Sg",
