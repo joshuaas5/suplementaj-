@@ -5,7 +5,9 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics'
 import { GoogleAdSense } from '@/components/analytics/GoogleAdSense'
+import { FacebookPixel } from '@/components/analytics/FacebookPixel'
 import { EmailCapturePopup } from '@/components/marketing/EmailCapturePopup'
+import { ExitIntentPopup } from '@/components/marketing/ExitIntentPopup'
 import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = localFont({
@@ -48,7 +50,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <GoogleAdSense />
+        <FacebookPixel />
         <EmailCapturePopup />
+        <ExitIntentPopup />
         <Header />
         <main className="min-h-screen">
           {children}

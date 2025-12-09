@@ -662,7 +662,7 @@
         "texto": "**Isolado:** Absorve 20-30% mais rápido (chega aos músculos em 30-45 min vs 60-90 min)."
       },
       {
-        "tipo":="alerta",
+        "tipo": "alerta",
         "variante": "info",
         "texto": "💡 **REALIDADE:** A 'janela anabólica' de 30 minutos pós-treino é um mito. Você tem 3-5 horas para consumir proteína. Absorção rápida não gera mais hipertrofia (revisão JISSN 2017)."
       },
