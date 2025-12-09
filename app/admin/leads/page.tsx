@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Download, Mail, Phone, Calendar, ExternalLink } from 'lucide-react';
+import { Download, Mail, Phone, Calendar, ExternalLink, Lock } from 'lucide-react';
 
 interface Lead {
   id: string;
@@ -28,10 +28,52 @@ export default function AdminLeadsPage() {
   const [data, setData] = useState<LeadsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [password, setPassword] = useState('');
+  const [authError, setAuthError] = useState('');
 
   useEffect(() => {
-    fetchLeads();
+    const authenticated = sessionStorage.getItem('admin_authenticated');
+    if (authenticated === 'true') {
+      setIsAuthenticated(true);
+      fetchLeads();
+    } else {
+      setLoading(false);
+    }
   }, []);
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setAuthError('');
+    setLoading(true);
+
+    try {
+      const response = await fetch('/api/admin/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+
+      if (response.ok) {
+        sessionStorage.setItem('admin_authenticated', 'true');
+        setIsAuthenticated(true);
+        fetchLeads();
+      } else {
+        setAuthError('❌ Senha incorreta');
+        setLoading(false);
+      }
+    } catch (err) {
+      setAuthError('Erro ao autenticar');
+      setLoading(false);
+      console.error(err);
+    }
+  };
+
+  const handleLogout = () => {
+    sessionStorage.removeItem('admin_authenticated');
+    setIsAuthenticated(false);
+    setPassword('');
+  };
 
   const fetchLeads = async () => {
     try {
@@ -72,6 +114,67 @@ export default function AdminLeadsPage() {
     link.click();
   };
 
+  // Tela de Login
+  if (!isAuthenticated) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black flex items-center justify-center p-4">
+        <div className="w-full max-w-md">
+          <div className="bg-yellow-400 border-4 border-black shadow-[12px_12px_0_0_#000] p-8">
+            <div className="text-center mb-6">
+              <div className="w-20 h-20 bg-black border-4 border-black mx-auto mb-4 flex items-center justify-center">
+                <Lock className="w-10 h-10 text-yellow-400" strokeWidth={3} />
+              </div>
+              <h1 className="text-3xl font-black text-black uppercase mb-2">
+                🔒 Área Restrita
+              </h1>
+              <p className="text-black font-bold">
+                Painel Administrativo de Leads
+              </p>
+            </div>
+
+            <form onSubmit={handleLogin} className="space-y-4">
+              <div>
+                <label className="block text-sm font-black text-black uppercase mb-2">
+                  Senha de Acesso:
+                </label>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Digite sua senha"
+                  required
+                  className="w-full px-4 py-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-cyan-400 font-bold"
+                  autoFocus
+                />
+              </div>
+
+              {authError && (
+                <div className="bg-red-500 border-4 border-black p-3">
+                  <p className="text-white font-black text-center">{authError}</p>
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-black text-yellow-400 font-black py-4 px-6 border-4 border-black shadow-[6px_6px_0_0_#000] hover:shadow-[3px_3px_0_0_#000] hover:translate-x-[3px] hover:translate-y-[3px] transition-all disabled:opacity-50 uppercase text-lg"
+              >
+                {loading ? 'Verificando...' : '🔓 Entrar'}
+              </button>
+            </form>
+
+            <div className="mt-6 bg-cyan-400 border-4 border-black p-4">
+              <p className="text-xs text-black font-bold text-center">
+                🔒 Acesso restrito ao administrador.<br />
+                Senha configurada em .env.local
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -107,13 +210,21 @@ export default function AdminLeadsPage() {
                 Todos os contatos capturados para remarketing
               </p>
             </div>
-            <button
-              onClick={exportToCSV}
-              className="bg-black text-yellow-400 font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center gap-2"
-            >
-              <Download className="w-5 h-5" />
-              Exportar CSV
-            </button>
+            <div className="flex gap-3">
+              <button
+                onClick={exportToCSV}
+                className="bg-black text-yellow-400 font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center gap-2"
+              >
+                <Download className="w-5 h-5" />
+                Exportar CSV
+              </button>
+              <button
+                onClick={handleLogout}
+                className="bg-red-500 text-white font-black px-6 py-3 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center gap-2"
+              >
+                🔒 Sair
+              </button>
+            </div>
           </div>
         </div>
 

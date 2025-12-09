@@ -111,80 +111,80 @@ export function ExitIntentPopup() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300">
-      <div className="relative w-full max-w-lg bg-yellow-400 border-4 border-black shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300 overflow-y-auto">
+      <div className="relative w-full max-w-md my-8 bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
         {/* Botão Fechar */}
         <button
           onClick={handleClose}
-          className="absolute -top-3 -right-3 w-10 h-10 bg-red-500 border-4 border-black shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center"
+          className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 w-8 h-8 sm:w-10 sm:h-10 bg-red-500 border-2 sm:border-4 border-black shadow-[3px_3px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all flex items-center justify-center"
           aria-label="Fechar"
         >
-          <X className="w-6 h-6 text-white" strokeWidth={3} />
+          <X className="w-4 h-4 sm:w-6 sm:h-6 text-white" strokeWidth={3} />
         </button>
 
-        <div className="bg-white border-4 border-black p-8">
+        <div className="bg-white border-4 border-black p-4 sm:p-6">
           {!isSubmitted ? (
             <>
               {/* Ícone + Título */}
-              <div className="text-center mb-6">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-500 border-4 border-black shadow-[6px_6px_0_0_#000] mb-4">
-                  <Gift className="w-10 h-10 text-white" strokeWidth={3} />
+              <div className="text-center mb-4 sm:mb-6">
+                <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-400 to-blue-500 border-3 sm:border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] mb-3">
+                  <Gift className="w-7 h-7 sm:w-9 sm:h-9 text-white" strokeWidth={3} />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-black text-black uppercase mb-2 leading-tight">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-black uppercase mb-1 sm:mb-2 leading-tight">
                   🎁 Presente Grátis!
                 </h2>
-                <p className="text-lg font-bold text-black">
-                  Pegue nosso <span className="bg-yellow-400 px-2 py-1 border-2 border-black">PDF EXCLUSIVO</span>
+                <p className="text-sm sm:text-base font-bold text-black">
+                  Pegue nosso <span className="bg-yellow-400 px-1 sm:px-2 py-0.5 sm:py-1 border-2 border-black text-xs sm:text-base">PDF EXCLUSIVO</span>
                 </p>
               </div>
 
               {/* Oferta */}
-              <div className="bg-cyan-400 border-4 border-black p-6 mb-6 shadow-[6px_6px_0_0_#000]">
-                <h3 className="text-xl font-black text-black mb-3 flex items-center gap-2 uppercase">
-                  <Download className="w-5 h-5" strokeWidth={3} />
+              <div className="bg-cyan-400 border-3 sm:border-4 border-black p-3 sm:p-4 mb-4 sm:mb-6 shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000]">
+                <h3 className="text-base sm:text-lg font-black text-black mb-2 sm:mb-3 flex items-center gap-2 uppercase">
+                  <Download className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={3} />
                   Top 10 Suplementos 2025
                 </h3>
-                <ul className="space-y-2 text-black font-bold">
+                <ul className="space-y-1.5 sm:space-y-2 text-black font-bold text-xs sm:text-sm">
                   <li className="flex items-start gap-2">
-                    <span className="text-black font-black">✅</span>
+                    <span className="text-black font-black text-sm sm:text-base">✅</span>
                     <span>Análise completa de custo-benefício</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-black font-black">✅</span>
+                    <span className="text-black font-black text-sm sm:text-base">✅</span>
                     <span>Doses recomendadas com tabelas</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-black font-black">✅</span>
+                    <span className="text-black font-black text-sm sm:text-base">✅</span>
                     <span>Economize até R$ 300/mês</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-black font-black">✅</span>
-                    <span>Links diretos para comprar com desconto</span>
+                    <span className="text-black font-black text-sm sm:text-base">✅</span>
+                    <span>Links diretos para comprar</span>
                   </li>
                 </ul>
               </div>
 
               {/* Formulário */}
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-3 sm:space-y-4">
                 <div>
-                  <label className="block text-sm font-black text-black uppercase mb-2">
+                  <label className="block text-xs sm:text-sm font-black text-black uppercase mb-1.5 sm:mb-2">
                     📧 Email OU 📱 Celular:
                   </label>
                   <input
                     type="text"
                     value={contact}
                     onChange={(e) => setContact(e.target.value)}
-                    placeholder="seu@email.com OU (11) 99999-9999"
+                    placeholder="email OU (11) 99999-9999"
                     required
-                    className="w-full px-4 py-3 border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-400 font-bold"
+                    className="w-full px-3 py-2 sm:px-4 sm:py-3 border-3 sm:border-4 border-black focus:outline-none focus:ring-4 focus:ring-yellow-400 font-bold text-sm sm:text-base"
                   />
                   {contactType && (
-                    <p className="mt-2 text-sm font-bold text-green-600">
+                    <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm font-bold text-green-600">
                       {contactType === 'email' ? '✅ Email válido' : '✅ Telefone válido'}
                     </p>
                   )}
                   {error && (
-                    <p className="mt-2 text-sm font-bold text-red-600">
+                    <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm font-bold text-red-600">
                       {error}
                     </p>
                   )}
@@ -193,27 +193,27 @@ export function ExitIntentPopup() {
                 <button
                   type="submit"
                   disabled={isSubmitting || !contactType}
-                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-black py-4 px-6 border-4 border-black shadow-[6px_6px_0_0_#000] hover:shadow-[3px_3px_0_0_#000] hover:translate-x-[3px] hover:translate-y-[3px] transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase text-lg"
+                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-black py-3 sm:py-4 px-4 sm:px-6 border-3 sm:border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] hover:shadow-[2px_2px_0_0_#000] sm:hover:shadow-[3px_3px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] sm:hover:translate-x-[3px] sm:hover:translate-y-[3px] transition-all disabled:opacity-50 disabled:cursor-not-allowed uppercase text-sm sm:text-base"
                 >
-                  {isSubmitting ? 'Enviando...' : '📥 Baixar PDF Grátis Agora'}
+                  {isSubmitting ? 'Enviando...' : '📥 Baixar PDF Grátis'}
                 </button>
               </form>
 
               {/* Garantia */}
-              <p className="text-xs text-center text-gray-700 mt-4 font-bold">
+              <p className="text-[10px] sm:text-xs text-center text-gray-700 mt-3 sm:mt-4 font-bold">
                 🔒 Seguro. Sem spam. Seus dados protegidos.
               </p>
             </>
           ) : (
             /* Sucesso */
-            <div className="text-center py-8">
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-green-500 border-4 border-black shadow-[6px_6px_0_0_#000] mb-4">
-                <Download className="w-10 h-10 text-white" strokeWidth={3} />
+            <div className="text-center py-6 sm:py-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-green-500 border-3 sm:border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] mb-3 sm:mb-4">
+                <Download className="w-8 h-8 sm:w-10 sm:h-10 text-white" strokeWidth={3} />
               </div>
-              <h3 className="text-3xl font-black text-black mb-3 uppercase">
+              <h3 className="text-2xl sm:text-3xl font-black text-black mb-2 sm:mb-3 uppercase">
                 🎉 Sucesso!
               </h3>
-              <p className="text-lg font-bold text-black">
+              <p className="text-sm sm:text-base font-bold text-black px-4">
                 Seu PDF está sendo baixado...<br />
                 Verifique a pasta de Downloads!
               </p>
