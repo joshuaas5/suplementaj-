@@ -86,8 +86,8 @@ export function ExitIntentPopup() {
         trackLeadMagnetDownload('Top 10 Suplementos 2025');
         setIsSubmitted(true);
         
-        // Download imediato - HTML com design profissional
-        window.open('/downloads/top-10-suplementos-2025.html', '_blank');
+        // Download imediato - PDF profissional
+        window.open('/downloads/top-10-suplementos-2025.pdf', '_blank');
         
         // Fechar popup após 3 segundos
         setTimeout(() => {
@@ -112,7 +112,7 @@ export function ExitIntentPopup() {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 animate-in fade-in duration-300 overflow-y-auto">
-      <div className="relative w-full max-w-md my-8 bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
+      <div className="relative w-full max-w-md max-h-[90vh] overflow-y-auto my-8 bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] sm:shadow-[12px_12px_0_0_#000] animate-in slide-in-from-bottom-8 duration-500">
         {/* Botão Fechar */}
         <button
           onClick={handleClose}
