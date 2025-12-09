@@ -5,8 +5,8 @@
 
 declare global {
   interface Window {
-    fbq: any;
-    _fbq: any;
+    fbq: ((action: string, eventName: string, data?: Record<string, unknown>) => void) | undefined;
+    _fbq: ((action: string, eventName: string, data?: Record<string, unknown>) => void) | undefined;
   }
 }
 
@@ -46,7 +46,7 @@ export const initFacebookPixel = () => {
 };
 
 // Eventos personalizados
-export const trackEvent = (eventName: string, data?: Record<string, any>) => {
+export const trackEvent = (eventName: string, data?: Record<string, unknown>) => {
   if (typeof window !== 'undefined' && window.fbq) {
     window.fbq('track', eventName, data);
   }
@@ -62,7 +62,7 @@ export const trackCalculatorView = (calculatorType: string) => {
 };
 
 // Event: Completou cálculo
-export const trackCalculatorComplete = (calculatorType: string, result?: any) => {
+export const trackCalculatorComplete = (calculatorType: string, result?: string | number) => {
   trackEvent('CompleteRegistration', {
     content_name: `Cálculo ${calculatorType} Completado`,
     status: 'completed',
@@ -96,7 +96,7 @@ export const trackEvaluationStart = () => {
 };
 
 // Event: Completou avaliação
-export const trackEvaluationComplete = (results?: any) => {
+export const trackEvaluationComplete = () => {
   trackEvent('Purchase', {
     content_name: 'Avaliação Completada',
     value: 0, // Valor zero pois é grátis, mas conta como conversão
@@ -106,7 +106,7 @@ export const trackEvaluationComplete = (results?: any) => {
 };
 
 // Event: Download de lead magnet (PDF)
-export const trackLeadMagnetDownload = (leadMagnetName: string, email?: string) => {
+export const trackLeadMagnetDownload = (leadMagnetName: string) => {
   trackEvent('Lead', {
     content_name: leadMagnetName,
     content_category: 'Lead Magnet',
@@ -123,7 +123,7 @@ export const trackExitIntentShow = () => {
 };
 
 // Event: Conversão de exit intent
-export const trackExitIntentConversion = (email: string) => {
+export const trackExitIntentConversion = () => {
   trackEvent('Lead', {
     content_name: 'Exit Intent Conversion',
     content_category: 'Lead Capture',

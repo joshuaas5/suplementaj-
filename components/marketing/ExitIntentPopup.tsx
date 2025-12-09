@@ -51,8 +51,8 @@ export function ExitIntentPopup() {
       });
 
       if (response.ok) {
-        trackExitIntentConversion(email);
-        trackLeadMagnetDownload('Top 10 Suplementos 2025', email);
+        trackExitIntentConversion();
+        trackLeadMagnetDownload('Top 10 Suplementos 2025');
         setIsSubmitted(true);
         
         // Redirecionar para download após 2 segundos
