@@ -10,6 +10,7 @@ import nutrientesData from '@/data/nutrientes.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
 import type { Nutriente } from '@/types/nutriente'
 import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { formatMarkdown } from '@/lib/markdown'
 import { RelatedContent } from '@/components/content/RelatedContent'
 import { getNutrientesRelacionados } from '@/lib/related-content'
@@ -244,6 +245,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
 
         {/* Anúncio no topo (antes do artigo) */}
         <HorizontalAd className="mb-8" />
+        <ManualDisplayAd className="mb-8" />
 
         {/* Conteúdo do Artigo */}
         <article className="prose prose-lg max-w-none">

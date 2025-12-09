@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { HorizontalAd } from '@/components/ads/DisplayAd'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 
 export default function Home() {
   // Schema markup para rich snippets do Google
@@ -191,6 +192,7 @@ export default function Home() {
       {/* Anúncio após o Hero */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <HorizontalAd />
+        <ManualDisplayAd className="mt-4" />
       </div>
 
       {/* Features Section - NEOBRUTALISM */}

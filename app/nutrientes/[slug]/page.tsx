@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
@@ -135,6 +136,9 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           variant="warning"
           message="As informações nesta página são educacionais. O ideal é consultar um profissional de saúde para orientação personalizada."
         />
+
+        {/* Anúncio Display */}
+        <ManualDisplayAd className="my-8" />
 
         {/* Funções Corporais */}
         {nutriente.funcoes_corporais && nutriente.funcoes_corporais.length > 0 && (
