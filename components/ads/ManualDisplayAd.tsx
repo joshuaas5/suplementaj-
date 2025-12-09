@@ -21,12 +21,15 @@ export function ManualDisplayAd({ className = '' }: ManualDisplayAdProps) {
   const isLoaded = useRef(false)
 
   useEffect(() => {
+    console.log('🎯 ManualDisplayAd mounted:', { adRef: !!adRef.current, isLoaded: isLoaded.current })
     if (adRef.current && !isLoaded.current) {
       try {
         isLoaded.current = true
+        console.log('✅ Pushing ad to adsbygoogle:', { slot: '3400740255', element: adRef.current })
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        console.log('✅ Ad pushed successfully')
       } catch (err) {
-        console.error('AdSense error:', err)
+        console.error('❌ AdSense error:', err)
       }
     }
   }, [])
