@@ -2,5 +2,21 @@
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
-  "alias": ["www.suplementaja.com", "suplementaja.com"]
+  "alias": [
+    "www.suplementaja.com",
+    "suplementaja.com"
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "suplementaja.vercel.app"
+        }
+      ],
+      "destination": "https://suplementaja.com/:path*",
+      "permanent": true
+    }
+  ]
 }
