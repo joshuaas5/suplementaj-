@@ -17,6 +17,17 @@
       ],
       "destination": "https://suplementaja.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "suplementaj.vercel.app"
+        }
+      ],
+      "destination": "https://suplementaja.com/:path*",
+      "permanent": true
     }
   ]
 }
