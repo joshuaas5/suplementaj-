@@ -6,8 +6,8 @@ import { CalculadoraIMC } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de IMC Online Grátis - Índice de Massa Corporal | Suplementa Já',
-  description: 'Calcule seu IMC (Índice de Massa Corporal) online e grátis. Descubra se você está no peso ideal, abaixo do peso, sobrepeso ou obesidade. Resultado instantâneo!',
+  title: 'Calculadora de IMC Grátis 2026 - Descubra Seu Peso Ideal | Suplementa Já',
+  description: 'CALCULE GRÁTIS seu IMC em 10 segundos! Descubra se você está no peso ideal, sobrepeso ou obesidade. Sem cadastro, resultado instantâneo.',
   keywords: ['calculadora imc', 'imc online', 'calcular imc', 'índice massa corporal', 'peso ideal', 'imc grátis', 'obesidade', 'sobrepeso'],
   openGraph: {
     title: 'Calculadora de IMC Online Grátis',
@@ -69,10 +69,10 @@ export default function CalculadoraIMCPage() {
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 O que é IMC?</h2>
           <p className="text-black mb-4">
-            O <strong>IMC (Índice de Massa Corporal)</strong> é calculado dividindo o peso (kg) pela 
+            O <strong>IMC (Índice de Massa Corporal)</strong> é calculado dividindo o peso (kg) pela
             altura ao quadrado (m²). É uma forma rápida de avaliar se o peso está adequado para a altura.
           </p>
-          
+
           <h3 className="text-xl font-black text-black uppercase mb-3">Fórmula do IMC</h3>
           <div className="bg-yellow-400 border-2 border-black p-4 mb-4 text-center">
             <p className="font-black text-xl">IMC = Peso (kg) ÷ Altura² (m)</p>
@@ -98,13 +98,13 @@ export default function CalculadoraIMCPage() {
 
           <div className="bg-gray-100 border-2 border-black p-4">
             <p className="text-sm text-gray-700">
-              <strong>⚠️ Importante:</strong> O IMC é apenas um indicador. Não considera massa muscular, 
+              <strong>⚠️ Importante:</strong> O IMC é apenas um indicador. Não considera massa muscular,
               idade, sexo ou distribuição de gordura. Para uma avaliação completa, consulte um profissional de saúde.
             </p>
           </div>
 
           <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes sobre IMC</h3>
-          
+
           <div className="space-y-4">
             <div className="bg-cyan-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Qual é o peso ideal para minha altura?</h4>
@@ -142,7 +142,7 @@ export default function CalculadoraIMCPage() {
               <h4 className="font-black text-black mb-2">Qual IMC para começar a se preocupar?</h4>
               <p className="text-black text-sm">
                 <strong>IMC acima de 30</strong> (obesidade) é quando os riscos de saúde aumentam significativamente:
-                diabetes tipo 2, pressão alta, problemas cardíacos e apneia do sono. Se você está nessa faixa, 
+                diabetes tipo 2, pressão alta, problemas cardíacos e apneia do sono. Se você está nessa faixa,
                 procure orientação médica para um plano de emagrecimento seguro.
               </p>
             </div>

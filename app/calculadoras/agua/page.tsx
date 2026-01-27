@@ -6,8 +6,8 @@ import { CalculadoraAgua } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Água - Quantos Litros Beber Por Dia? | Suplementa Já',
-  description: 'Calcule quantos litros de água você deve beber por dia. Baseado nas recomendações do IOM. Considera sexo, peso, atividade física e clima.',
+  title: 'Calculadora de Água Grátis 2026 - Quantos Litros Por Dia? | Suplementa Já',
+  description: 'CALCULE GRÁTIS quantos litros de água você deve beber por dia! Baseado no seu peso e atividade física. Resultado instantâneo.',
   keywords: ['calculadora agua', 'quantos litros agua', 'hidratação', 'agua por dia', 'beber agua', 'IOM agua', 'hidratação diária'],
   openGraph: {
     title: 'Calculadora de Água - Quantos Litros Por Dia?',
@@ -68,9 +68,9 @@ export default function CalculadoraAguaPage() {
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Água Beber Por Dia?</h2>
-          
+
           <p className="text-black mb-4">
-            A necessidade de água varia entre <strong>homens e mulheres</strong> devido a diferenças 
+            A necessidade de água varia entre <strong>homens e mulheres</strong> devido a diferenças
             em composição corporal e metabolismo. Veja as recomendações oficiais:
           </p>
 
@@ -137,13 +137,13 @@ export default function CalculadoraAguaPage() {
 
           <div className="bg-gray-100 border-2 border-black p-4">
             <p className="text-sm text-gray-700">
-              <strong>📚 Fonte:</strong> Institute of Medicine. Dietary Reference Intakes for Water, 
+              <strong>📚 Fonte:</strong> Institute of Medicine. Dietary Reference Intakes for Water,
               Potassium, Sodium, Chloride, and Sulfate. National Academies Press, 2005.
             </p>
           </div>
 
           <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
-          
+
           <div className="space-y-4">
             <div className="bg-blue-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Beber muita água faz mal?</h4>

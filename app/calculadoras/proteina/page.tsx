@@ -6,8 +6,8 @@ import { CalculadoraProteina } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Proteína - Quantos Gramas Por Dia? | Suplementa Já',
-  description: 'Calcule quantos gramas de proteína você precisa por dia para ganhar massa, emagrecer ou manter peso. Baseado em estudos do ISSN. Resultado personalizado!',
+  title: 'Calculadora de Proteína Grátis 2026 - Quantas Gramas Por Dia? | Suplementa Já',
+  description: 'CALCULE GRÁTIS quanta proteína você precisa! Descubra os gramas ideais para seu peso e objetivo (emagrecer/ganhar massa). Baseado no ISSN.',
   keywords: ['calculadora proteina', 'quantos gramas proteina', 'proteina por kg', 'proteina hipertrofia', 'proteina para emagrecer', 'whey protein', 'necessidade proteica'],
   openGraph: {
     title: 'Calculadora de Proteína - Quantos Gramas Você Precisa?',
@@ -68,9 +68,9 @@ export default function CalculadoraProteinaPage() {
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Proteína Por Dia?</h2>
-          
+
           <p className="text-black mb-4">
-            A quantidade de proteína ideal varia conforme seu <strong>objetivo</strong>, <strong>idade</strong> e 
+            A quantidade de proteína ideal varia conforme seu <strong>objetivo</strong>, <strong>idade</strong> e
             <strong> nível de atividade física</strong>. Veja as recomendações baseadas em ciência:
           </p>
 
@@ -109,11 +109,11 @@ export default function CalculadoraProteinaPage() {
 
           <h3 className="text-xl font-black text-black uppercase mb-3">Distribuição nas Refeições</h3>
           <div className="bg-yellow-100 border-2 border-black p-4 mb-4">
-            <p className="font-bold text-black mb-2">📊 Para melhor síntese proteica:</p>
+            <p className="font-bold text-black mb-2">📊 Para a maioria das pessoas:</p>
             <ul className="text-black text-sm space-y-1">
               <li>• <strong>20-40g por refeição</strong> (Schoenfeld 2018)</li>
-              <li>• <strong>4-5 refeições</strong> espaçadas ao longo do dia</li>
-              <li>• <strong>Proteína pós-treino</strong> dentro de 2 horas (não precisa ser imediato)</li>
+              <li>• <strong>2-3 refeições com proteína</strong> (café, almoço, jantar)</li>
+              <li>• <strong>1 shake de whey</strong> se não atingir a meta só com comida</li>
             </ul>
           </div>
 
@@ -147,7 +147,7 @@ export default function CalculadoraProteinaPage() {
           </div>
 
           <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
-          
+
           <div className="space-y-4">
             <div className="bg-lime-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Preciso de whey protein?</h4>

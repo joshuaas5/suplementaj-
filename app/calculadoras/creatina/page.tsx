@@ -6,8 +6,8 @@ import { CalculadoraCreatina } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Creatina - Quantos Gramas Tomar? | Suplementa Já',
-  description: 'Calcule a dose ideal de creatina para seu peso. Fase de saturação vs manutenção. Baseado em estudos do ISSN. 3-5g por dia é realmente suficiente?',
+  title: 'Calculadora de Creatina Grátis 2026 - Dose Por Peso | Suplementa Já',
+  description: 'CALCULE GRÁTIS sua dose ideal de creatina! Quanto tomar por kg de peso? Precisa de fase de carga? Descubra em segundos.',
   keywords: ['calculadora creatina', 'dose creatina', 'quantos gramas creatina', 'creatina por kg', 'saturação creatina', 'creatina monohidratada'],
   openGraph: {
     title: 'Calculadora de Creatina - Dose Ideal Por Peso',
@@ -68,9 +68,9 @@ export default function CalculadoraCreatinaPage() {
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Creatina Tomar?</h2>
-          
+
           <p className="text-black mb-4">
-            A creatina monohidratada é o suplemento mais estudado do mundo. A dose ideal 
+            A creatina monohidratada é o suplemento mais estudado do mundo. A dose ideal
             depende do seu <strong>peso corporal</strong> e se você está em <strong>fase de saturação</strong> ou <strong>manutenção</strong>.
           </p>
 
@@ -120,7 +120,7 @@ export default function CalculadoraCreatinaPage() {
           <div className="bg-yellow-100 border-2 border-black p-4 mb-4">
             <p className="font-bold text-black">🏆 Creatina Monohidratada</p>
             <p className="text-black text-sm mt-1">
-              A mais estudada, mais barata e mais eficaz. Não precisa de versões &quot;fancy&quot; 
+              A mais estudada, mais barata e mais eficaz. Não precisa de versões &quot;fancy&quot;
               (HCL, Kre-Alkalyn, etc) - são marketing.
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function CalculadoraCreatinaPage() {
           </div>
 
           <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
-          
+
           <div className="space-y-4">
             <div className="bg-yellow-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Creatina antes ou depois do treino?</h4>

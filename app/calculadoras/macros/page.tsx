@@ -6,8 +6,8 @@ import { CalculadoraMacros } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Macros - Proteína, Carboidrato e Gordura | Suplementa Já',
-  description: 'Calcule seus macronutrientes ideais para ganhar massa, emagrecer ou manter peso. Gramas de proteína, carboidrato e gordura por dia.',
+  title: 'Calculadora de Macros Grátis 2026 - Proteína, Carbo e Gordura | Suplementa Já',
+  description: 'CALCULE GRÁTIS seus macros ideais! Descubra quantos gramas de proteína, carboidrato e gordura comer por dia para emagrecer ou ganhar massa.',
   keywords: ['calculadora macros', 'macronutrientes', 'proteina carboidrato gordura', 'dieta macros', 'divisão macros', 'calcular macros'],
   openGraph: {
     title: 'Calculadora de Macros - Proteína, Carbo e Gordura',
@@ -68,10 +68,10 @@ export default function CalculadoraMacrosPage() {
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 O Que São Macronutrientes?</h2>
-          
+
           <p className="text-black mb-4">
-            Os <strong>macronutrientes</strong> são os 3 nutrientes que fornecem energia (calorias): 
-            <strong>Proteína, Carboidrato e Gordura</strong>. A proporção entre eles afeta diretamente 
+            Os <strong>macronutrientes</strong> são os 3 nutrientes que fornecem energia (calorias):
+            <strong>Proteína, Carboidrato e Gordura</strong>. A proporção entre eles afeta diretamente
             sua composição corporal e desempenho.
           </p>
 
@@ -79,7 +79,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-pink-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🥩 PROTEÍNA (4 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Constrói e repara músculos. Essencial para quem treina. 
+                Constrói e repara músculos. Essencial para quem treina.
                 Mantém a saciedade. <strong>1.6-2.2g/kg</strong> para hipertrofia.
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: frango, carne, peixe, ovos, whey, leguminosas</p>
@@ -87,7 +87,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-orange-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🍚 CARBOIDRATO (4 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Principal fonte de energia para treinos intensos. 
+                Principal fonte de energia para treinos intensos.
                 Recuperação muscular pós-treino. <strong>3-7g/kg</strong> dependendo da atividade.
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: arroz, batata, aveia, frutas, pão integral</p>
@@ -95,7 +95,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-yellow-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🧈 GORDURA (9 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Produção hormonal (testosterona!). Absorção de vitaminas. 
+                Produção hormonal (testosterona!). Absorção de vitaminas.
                 <strong>Mínimo 0.5g/kg</strong> - nunca zerar a gordura!
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: azeite, castanhas, abacate, ovos, peixes gordos</p>
@@ -171,7 +171,7 @@ export default function CalculadoraMacrosPage() {
           </div>
 
           <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
-          
+
           <div className="space-y-4">
             <div className="bg-purple-100 border-2 border-black p-4">
               <h4 className="font-black text-black mb-2">Macros são mais importantes que calorias?</h4>
