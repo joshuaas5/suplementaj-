@@ -459,12 +459,15 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
         <Card className="bg-yellow-400 my-8">
           <CardContent className="p-8 text-center">
             <p
-              className="text-black font-bold text-lg mb-6"
+              className="text-black font-bold text-lg mb-2"
               dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
             />
+            {bloco.descricao && (
+              <p className="text-black text-sm mb-6">{bloco.descricao}</p>
+            )}
             <Link href={bloco.link}>
               <Button variant="primary" size="lg">
-                {bloco.botao}
+                {bloco.botao || bloco.textoBotao || 'Saiba Mais →'}
               </Button>
             </Link>
           </CardContent>

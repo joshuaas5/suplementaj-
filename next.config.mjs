@@ -60,6 +60,16 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      // Correção de canibalização: artigos duplicados
+      {
+        source: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true, // 301
+      },
+    ];
+  },
 };
 
 export default nextConfig;

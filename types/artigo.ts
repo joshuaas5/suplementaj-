@@ -17,4 +17,4 @@ export type BlocoConteudo =
   | { tipo: 'lista'; itens: string[] }
   | { tipo: 'tabela'; colunas: string[]; linhas: string[][] }
   | { tipo: 'alerta'; variante: 'info' | 'warning' | 'danger'; texto: string }
-  | { tipo: 'cta'; texto: string; botao: string; link: string }
+  | { tipo: 'cta'; texto: string; botao?: string; textoBotao?: string; descricao?: string; link: string }
