@@ -10,7 +10,7 @@ import artigosData from '@/data/artigos.json'
 import { notFound } from 'next/navigation'
 
 // Mapeamento de emojis para componentes Lucide
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ElementType> = {
     '😴': Moon,
     '🛡️': Shield,
     '⚡': Zap,
@@ -54,12 +54,12 @@ export default function ObjetivoPage({ params }: Props) {
 
     // 1. Filtrar Nutrientes
     const nutrientesRecomendados = Object.values(nutrientesData).filter(
-        (n: any) => n.objetivos && n.objetivos.includes(objetivo.slug)
+        (n) => n.objetivos && n.objetivos.includes(objetivo.slug)
     )
 
     // 2. Filtrar Artigos
     // Prioridade: Artigos com tag explícita > Artigos com keywords no título
-    let artigosRelacionados = artigosData.filter((artigo: any) =>
+    let artigosRelacionados = artigosData.filter((artigo) =>
         artigo.objetivos && artigo.objetivos.includes(objetivo.slug)
     )
 
@@ -69,7 +69,7 @@ export default function ObjetivoPage({ params }: Props) {
                 objetivo.slug === 'imunidade' ? ['imunidade', 'gripe', 'vitamina c'] :
                     objetivo.slug === 'performance' ? ['energia', 'treino', 'foco'] : []
 
-    const artigosPorKeyword = artigosData.filter((artigo: any) => {
+    const artigosPorKeyword = artigosData.filter((artigo) => {
         const texto = (artigo.titulo + ' ' + artigo.tags?.join(' ')).toLowerCase()
         return keywords.some(k => texto.includes(k))
     })
@@ -121,7 +121,7 @@ export default function ObjetivoPage({ params }: Props) {
 
                         {nutrientesRecomendados.length > 0 ? (
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {nutrientesRecomendados.map((nutriente: any) => (
+                                {nutrientesRecomendados.map((nutriente) => (
                                     <Link key={nutriente.slug} href={`/nutrientes/${nutriente.slug}`} className="group">
                                         <Card className="h-full hover:shadow-lg transition-all border-l-4 border-l-transparent hover:border-l-green-500">
                                             <CardContent className="p-5 flex items-start gap-4">
@@ -209,7 +209,7 @@ export default function ObjetivoPage({ params }: Props) {
     )
 }
 
-function LeafIcon(props: any) {
+function LeafIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
             {...props}
