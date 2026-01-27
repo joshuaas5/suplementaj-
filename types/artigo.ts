@@ -8,6 +8,7 @@ export interface Artigo {
   tags: string[]
   tempo_leitura: string
   imagem: string
+  objetivos?: string[]
   conteudo: BlocoConteudo[]
 }
 

@@ -1,6 +1,10 @@
 {
   "vitamina-b12": {
     "slug": "vitamina-b12",
+    "objetivos": [
+      "imunidade",
+      "performance"
+    ],
     "nome": "Vitamina B12",
     "nome_cientifico": "Cobalamina",
     "categoria": "vitamina",
@@ -282,6 +286,10 @@
   },
   "vitamina-d": {
     "slug": "vitamina-d",
+    "objetivos": [
+      "imunidade",
+      "sono"
+    ],
     "nome": "Vitamina D",
     "nome_cientifico": "Colecalciferol (D3) / Ergocalciferol (D2)",
     "categoria": "vitamina",
@@ -750,6 +758,10 @@
   },
   "magnesio": {
     "slug": "magnesio",
+    "objetivos": [
+      "sono",
+      "performance"
+    ],
     "nome": "Magnésio",
     "nome_cientifico": "Mg",
     "categoria": "mineral",
@@ -1067,6 +1079,10 @@
   },
   "omega-3": {
     "slug": "omega-3",
+    "objetivos": [
+      "performance",
+      "imunidade"
+    ],
     "nome": "Ômega-3",
     "nome_cientifico": "EPA e DHA",
     "categoria": "vitamina",
@@ -1225,6 +1241,9 @@
   },
   "vitamina-c": {
     "slug": "vitamina-c",
+    "objetivos": [
+      "imunidade"
+    ],
     "nome": "Vitamina C",
     "nome_cientifico": "Ácido Ascórbico",
     "categoria": "vitamina",
@@ -1564,6 +1583,10 @@
   },
   "zinco": {
     "slug": "zinco",
+    "objetivos": [
+      "imunidade",
+      "performance"
+    ],
     "nome": "Zinco",
     "nome_cientifico": "Zn",
     "categoria": "mineral",
@@ -3432,6 +3455,10 @@
   },
   "coenzima-q10": {
     "slug": "coenzima-q10",
+    "objetivos": [
+      "performance",
+      "imunidade"
+    ],
     "nome": "Coenzima Q10",
     "nome_cientifico": "Ubiquinona",
     "categoria": "outro",
@@ -4242,7 +4269,12 @@
     "slug": "colageno",
     "nome": "Colágeno",
     "nome_cientifico": "Collagen peptides",
-    "categoria": "outro",
+    "categoria": "suplemento",
+    "objetivos": [
+      "ganho-de-massa",
+      "emagrecimento",
+      "imunidade"
+    ],
     "subcategoria": "proteína",
     "emoji": "✨",
     "descricao_curta": "Proteína estrutural para pele, articulações e tecidos",
@@ -4471,6 +4503,10 @@
   },
   "l-carnitina": {
     "slug": "l-carnitina",
+    "objetivos": [
+      "emagrecimento",
+      "performance"
+    ],
     "nome": "L-Carnitina",
     "nome_cientifico": "L-Carnitine",
     "categoria": "outro",
@@ -4812,6 +4848,10 @@
   },
   "glutamina": {
     "slug": "glutamina",
+    "objetivos": [
+      "imunidade",
+      "ganho-de-massa"
+    ],
     "nome": "Glutamina",
     "nome_cientifico": "L-Glutamine",
     "categoria": "outro",
@@ -6677,6 +6717,10 @@
     "nome": "Fósforo",
     "nome_cientifico": "Phosphorus",
     "categoria": "mineral",
+    "objetivos": [
+      "sono",
+      "performance"
+    ],
     "subcategoria": "macromineral",
     "emoji": "💪",
     "descricao_curta": "Mineral essencial para ossos, energia (ATP) e membranas celulares",
@@ -7013,6 +7057,10 @@
   },
   "creatina": {
     "slug": "creatina",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
     "nome": "Creatina",
     "nome_cientifico": "Ácido α-metil guanidino acético",
     "categoria": "outro",

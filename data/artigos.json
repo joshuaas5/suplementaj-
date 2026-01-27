@@ -1,6 +1,9 @@
 ﻿[
   {
     "slug": "vitamina-d-deficiencia-brasileiros",
+    "objetivos": [
+      "imunidade"
+    ],
     "titulo": "Vitamina D: Por Que 90% dos Brasileiros Estão em Deficiência",
     "descricao": "Descubra por que mesmo em um país tropical como o Brasil, a deficiência de vitamina D é epidêmica e como corrigir isso.",
     "autor": "Equipe Suplementa Já",
@@ -499,6 +502,10 @@
   },
   {
     "slug": "omega-3-beneficios-comprovados",
+    "objetivos": [
+      "imunidade",
+      "performance"
+    ],
     "titulo": "Ômega-3: Os Benefícios Comprovados pela Ciência em 2024",
     "descricao": "Uma análise atualizada sobre os benefícios do ômega-3 para coração, cérebro, inflamação e muito mais, baseada em evidências científicas.",
     "autor": "Equipe Suplementa Já",
@@ -1211,6 +1218,10 @@
   },
   {
     "slug": "zinco-imunidade-testosterona-pele",
+    "objetivos": [
+      "imunidade",
+      "performance"
+    ],
     "titulo": "Zinco: O Mineral da Imunidade, Testosterona e Pele Saudável",
     "descricao": "Tudo sobre zinco: benefícios para imunidade, testosterona, acne, queda de cabelo, doses ideais e como evitar deficiência.",
     "autor": "Equipe Suplementa Já",
@@ -1585,6 +1596,10 @@
   },
   {
     "slug": "magnesio-ansiedade-sono-tipos",
+    "objetivos": [
+      "sono",
+      "performance"
+    ],
     "titulo": "Magnésio: Guia Completo para Ansiedade, Sono e Relaxamento Muscular",
     "descricao": "Descubra qual tipo de magnésio é melhor para ansiedade, insônia, cãibras e enxaqueca. Glicinato, treonato, citrato ou óxido?",
     "autor": "Equipe Suplementa Já",
@@ -7400,6 +7415,10 @@
   },
   {
     "slug": "guia-completo-creatina-2026",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
     "titulo": "Guia Completo de Creatina 2026: O Que Tomar, Quando e Por Quê",
     "descricao": "Tudo o que você precisa saber sobre creatina: dose, timing, tipos, mitos e verdades comprovadas pela ciência.",
     "autor": "Equipe Suplementa Já",
@@ -7734,6 +7753,10 @@
   },
   {
     "slug": "whey-isolado-vs-concentrado",
+    "objetivos": [
+      "ganho-de-massa",
+      "performance"
+    ],
     "titulo": "Whey Isolado vs Concentrado: Qual Comprar? (Tabela Comparativa 2026)",
     "descricao": "Análise técnica e prática das diferenças entre whey isolado e concentrado. Descubra qual vale mais a pena para SEU caso.",
     "autor": "Equipe Suplementa Já",
@@ -11190,6 +11213,10 @@
   },
   {
     "slug": "quantas-calorias-comer-por-dia",
+    "objetivos": [
+      "emagrecimento",
+      "ganho-de-massa"
+    ],
     "titulo": "Quantas Calorias Devo Comer Por Dia? (Guia Definitivo 2026)",
     "descricao": "A resposta não é 2000. Descubra o número exato de calorias que seu corpo precisa para emagrecer ou ganhar massa.",
     "autor": "Equipe Suplementa Já",

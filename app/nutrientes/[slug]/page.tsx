@@ -9,6 +9,7 @@ import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
 import { addAmazonAffiliateTag } from '@/lib/affiliate'
 import nutrientesData from '@/data/nutrientes.json'
+import objetivosData from '@/data/objetivos.json'
 import artigosData from '@/data/artigos.json'
 import type { Nutriente } from '@/types/nutriente'
 import type { Artigo } from '@/types/artigo'
@@ -130,6 +131,27 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+
+
+        {/* Objetivos Relacionados - HUB INTERLINKING */}
+        {nutriente.objetivos && nutriente.objetivos.length > 0 && (
+          <div className="mb-8 flex flex-wrap gap-2 items-center bg-gray-50 border-2 border-gray-200 p-4 rounded-lg">
+            <span className="font-black text-xs uppercase tracking-wider text-gray-500 mr-2">
+              Principalmente indicado para:
+            </span>
+            {nutriente.objetivos.map((objSlug) => {
+              const objInfo = (objetivosData as any[]).find(o => o.slug === objSlug)
+              if (!objInfo) return null
+              return (
+                <Link key={objSlug} href={`/objetivos/${objSlug}`}>
+                  <Badge variant="neutral" className="hover:bg-black hover:text-white transition-colors cursor-pointer text-sm py-1 px-3">
+                    {objInfo.emoji} {objInfo.titulo}
+                  </Badge>
+                </Link>
+              )
+            })}
+          </div>
+        )}
 
         {/* Disclaimer */}
         <DisclaimerBanner
