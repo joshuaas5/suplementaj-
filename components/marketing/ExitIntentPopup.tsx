@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import { X, Download, Gift } from 'lucide-react';
@@ -97,17 +97,17 @@ export function ExitIntentPopup() {
         body: JSON.stringify({ 
           contact, 
           contactType,
-          leadMagnet: 'top-10-suplementos-2025' 
+          leadMagnet: 'top-10-suplementos-2026' 
         }),
       });
 
       if (response.ok) {
         trackExitIntentConversion();
-        trackLeadMagnetDownload('Top 10 Suplementos 2025');
+        trackLeadMagnetDownload('Top 10 Suplementos 2026');
         setIsSubmitted(true);
         
         // Download imediato - PDF profissional
-        window.open('/downloads/top-10-suplementos-2025.pdf', '_blank');
+        window.open('/downloads/top-10-suplementos-2026.pdf', '_blank');
         
         // Fechar popup após 3 segundos
         setTimeout(() => {
@@ -162,7 +162,7 @@ export function ExitIntentPopup() {
               <div className="bg-cyan-400 border-3 sm:border-4 border-black p-2 sm:p-3 mb-3 sm:mb-4 shadow-[4px_4px_0_0_#000]">
                 <h3 className="text-sm sm:text-base font-black text-black mb-2 flex items-center gap-2 uppercase">
                   <Download className="w-4 h-4" strokeWidth={3} />
-                  Top 10 Suplementos 2025
+                  Top 10 Suplementos 2026
                 </h3>
                 <ul className="space-y-1 text-black font-bold text-xs">
                   <li className="flex items-start gap-1.5">

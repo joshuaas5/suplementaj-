@@ -1,4 +1,4 @@
-// Mapeamento de relacionamentos entre artigos e nutrientes
+﻿// Mapeamento de relacionamentos entre artigos e nutrientes
 // Usado para exibir conteúdo relacionado automaticamente
 
 export const artigoToNutrientes: Record<string, string[]> = {
@@ -32,7 +32,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'vitamina-a-retinol-visao-pele-imunidade': ['vitamina-a', 'vitamina-d', 'zinco'],
   'l-carnitina-queima-gordura-performance': ['l-carnitina', 'creatina', 'cafeina'],
   'cafeina-performance-dose-pre-treino': ['cafeina', 'creatina', 'beta-alanina'],
-  'guia-completo-creatina-2025': ['creatina', 'proteina', 'vitamina-d'],
+  'guia-completo-creatina-2026': ['creatina', 'proteina', 'vitamina-d'],
   'whey-isolado-vs-concentrado': ['proteina', 'creatina', 'bcaa'],
 }
 
@@ -43,7 +43,7 @@ export const nutrienteToArtigos: Record<string, string[]> = {
   'ferro': ['ferro-anemia-deficiencia-tratamento', 'vitamina-b12-vegetarianos-veganos', 'spirulina-superalimento-proteina-vegana'],
   'zinco': ['zinco-imunidade-testosterona-pele', 'vitamina-c-imunidade-gripes-resfriados', 'zma-zinco-magnesio-b6-sono-testosterona'],
   'magnesio': ['magnesio-ansiedade-sono-tipos', 'zma-zinco-magnesio-b6-sono-testosterona', 'melatonina-sono-insonia-dose-ideal'],
-  'creatina': ['creatina-guia-completo-ganho-muscular', 'guia-completo-creatina-2025', 'l-carnitina-queima-gordura-performance'],
+  'creatina': ['creatina-guia-completo-ganho-muscular', 'guia-completo-creatina-2026', 'l-carnitina-queima-gordura-performance'],
   'colageno': ['colageno-hidrolisado-funciona-pele-articulacoes', 'glucosamina-condroitina-articulacoes-artrite', 'biotina-cabelo-unhas-dose-funciona'],
   'vitamina-c': ['vitamina-c-imunidade-gripes-resfriados', 'colageno-hidrolisado-funciona-pele-articulacoes', 'ferro-anemia-deficiencia-tratamento'],
   'calcio': ['calcio-ossos-osteoporose-qual-tomar', 'vitamina-d-deficiencia-brasileiros', 'vitamina-k2-d3-calcio-ossos-coracao'],

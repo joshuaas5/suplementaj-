@@ -6,11 +6,11 @@ import { CalculadoraCalorias } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Calorias Online Grátis - TMB e TDEE 2025 | Suplementa Já',
-  description: 'Calcule quantas calorias você gasta por dia (TMB e TDEE). Descubra suas calorias para emagrecer ou ganhar massa muscular. Fórmula Mifflin-St Jeor atualizada 2025.',
+  title: 'Calculadora de Calorias Online Grátis - TMB e TDEE 2026 | Suplementa Já',
+  description: 'Calcule quantas calorias você gasta por dia (TMB e TDEE). Descubra suas calorias para emagrecer ou ganhar massa muscular. Fórmula Mifflin-St Jeor atualizada 2026.',
   keywords: ['calculadora calorias', 'tmb', 'tdee', 'gasto calorico', 'quantas calorias', 'metabolismo basal', 'calorias para emagrecer', 'calorias para ganhar massa', 'deficit calorico', 'calcular tdee'],
   openGraph: {
-    title: 'Calculadora de Calorias - TMB e Gasto Diário 2025',
+    title: 'Calculadora de Calorias - TMB e Gasto Diário 2026',
     description: 'Descubra quantas calorias você gasta por dia usando a fórmula científica Mifflin-St Jeor. Grátis e instantâneo.',
     type: 'website',
   }
@@ -262,7 +262,7 @@ export default function CalculadoraCaloriasPage() {
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h3 className="text-xl font-black text-black uppercase mb-4">📖 Aprenda Mais Sobre Calorias</h3>
           <div className="grid gap-3">
-            <Link href="/blog/guia-completo-creatina-2025" className="flex items-center gap-3 bg-cyan-100 border-2 border-black p-3 hover:bg-cyan-200 transition-colors">
+            <Link href="/blog/guia-completo-creatina-2026" className="flex items-center gap-3 bg-cyan-100 border-2 border-black p-3 hover:bg-cyan-200 transition-colors">
               <span className="text-2xl">💪</span>
               <div>
                 <p className="font-black text-black">Creatina: O Suplemento Mais Estudado</p>
