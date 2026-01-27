@@ -8937,5 +8937,767 @@
         "texto": "Suplementos ajudam, mas são 5% do resultado. Não inverta a pirâmide gastando 60% do orçamento nos 5%."
       }
     ]
+  },
+  {
+    "slug": "o-que-e-tdee-como-calcular",
+    "titulo": "TDEE: O Que É e Como Calcular Seu Gasto Calórico Diário",
+    "descricao": "Aprenda o que é TDEE (Gasto Energético Total Diário), por que sua estimativa pode estar errada e como calcular corretamente para emagrecer ou ganhar massa.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "tdee",
+      "calorias",
+      "gasto calórico",
+      "metabolismo",
+      "emagrecer"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/tdee.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **TDEE** = Total Daily Energy Expenditure (Gasto Energético Total Diário)\n• **Fórmula**: TMB × Fator de Atividade = TDEE\n• **TMB**: Calorias em repouso absoluto\n• **Para emagrecer**: Coma 300-500 kcal abaixo do TDEE\n• **Para ganhar massa**: Coma 300-500 kcal acima do TDEE\n• **Erro comum**: Superestimar nível de atividade\n• **Ajuste**: Recalcule a cada 3-5kg de mudança no peso"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Se você já tentou emagrecer seguindo uma dieta da internet e não funcionou, provavelmente o problema está no cálculo do seu TDEE. Este número é a base de TUDO quando se trata de controle de peso."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é TDEE?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "TDEE significa **Total Daily Energy Expenditure** (Gasto Energético Total Diário). É a quantidade total de calorias que seu corpo gasta em 24 horas, incluindo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**TMB (Taxa Metabólica Basal)**: 60-75% do gasto total - respirar, digerir, manter temperatura corporal",
+          "**Efeito térmico dos alimentos**: 10% - energia para digerir o que você come",
+          "**Atividade física planejada**: 15-30% - treinos, academia, esportes",
+          "**NEAT (Non-Exercise Activity Thermogenesis)**: Variável - andar, subir escadas, ficar em pé"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Sua Estimativa de TDEE Pode Estar Errada"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Os 4 erros mais comuns que sabotam seu cálculo:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Superestimar atividade**: Você treina 1h, mas as outras 23h é sedentário. Isso não é 'moderadamente ativo'",
+          "**Ignorar NEAT**: Uma pessoa que anda 10.000 passos/dia gasta 300-500 kcal a mais que quem anda 3.000",
+          "**Não recalcular**: Perdeu 10kg? Seu TDEE caiu. Continuar com as mesmas calorias = plateau",
+          "**Usar fórmulas antigas**: Harris-Benedict (1919) superestima em 5-15%. Use Mifflin-St Jeor"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Calcular Corretamente"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use a fórmula Mifflin-St Jeor (mais precisa para pessoas modernas):"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Passo",
+          "Ação"
+        ],
+        "linhas": [
+          [
+            "1",
+            "Calcule sua TMB com a fórmula Mifflin-St Jeor"
+          ],
+          [
+            "2",
+            "Seja HONESTO sobre seu nível de atividade"
+          ],
+          [
+            "3",
+            "Multiplique TMB × Fator de Atividade = TDEE"
+          ],
+          [
+            "4",
+            "Teste por 2 semanas e ajuste se necessário"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Dica crucial**: Na dúvida, escolha o nível de atividade MENOR. É mais fácil adicionar calorias depois do que remover."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu TDEE exato agora mesmo com nossa calculadora gratuita!",
+        "botao": "Usar Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "TDEE Para Emagrecer vs Ganhar Massa"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Objetivo",
+          "Calorias",
+          "Resultado Esperado"
+        ],
+        "linhas": [
+          [
+            "Emagrecer moderado",
+            "TDEE - 300 kcal",
+            "~0,3kg/semana de perda"
+          ],
+          [
+            "Emagrecer agressivo",
+            "TDEE - 500 kcal",
+            "~0,5kg/semana de perda"
+          ],
+          [
+            "Manutenção",
+            "= TDEE",
+            "Peso estável"
+          ],
+          [
+            "Ganhar massa (lean bulk)",
+            "TDEE + 300 kcal",
+            "~0,5kg/mês de ganho"
+          ],
+          [
+            "Ganhar massa (bulk)",
+            "TDEE + 500 kcal",
+            "~1kg/mês de ganho"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Recalcular Seu TDEE"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "A cada 3-5kg de mudança no peso corporal",
+          "Quando mudar significativamente seu nível de atividade",
+          "Se ficar em plateau por mais de 2-3 semanas",
+          "Após grandes mudanças de rotina (novo emprego, mudança de cidade)"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Lembre-se: TDEE é uma ESTIMATIVA. Seu corpo não é uma máquina perfeita. Use como ponto de partida e ajuste baseado nos resultados reais."
+      }
+    ]
+  },
+  {
+    "slug": "deficit-calorico-quanto-cortar",
+    "titulo": "Déficit Calórico: Quanto Cortar Sem Perder Massa Muscular",
+    "descricao": "Aprenda qual o déficit calórico ideal para emagrecer preservando músculos, evitando efeito sanfona e sem passar fome.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "déficit calórico",
+      "emagrecer",
+      "cutting",
+      "perda de gordura",
+      "dieta"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/deficit-calorico.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Déficit ideal**: 300-500 kcal abaixo do TDEE\n• **Perda saudável**: 0,5-1% do peso corporal por semana\n• **Proteína alta**: 1,6-2,2g por kg para preservar músculos\n• **Treino de força**: Essencial mesmo no déficit\n• **Déficit extremo**: >1000 kcal = perda muscular + rebote\n• **Duração**: Máximo 12-16 semanas, depois dieta reversa"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você quer emagrecer, mas não quer virar um 'falso magro' - aquela pessoa que perdeu peso mas parece mole e flácida. A diferença está em COMO você cria o déficit calórico."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é Déficit Calórico?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Déficit calórico é quando você consome menos calorias do que gasta. É a ÚNICA forma comprovada de perder gordura. Não existe mágica: seu corpo precisa buscar energia de algum lugar, e esse lugar é o tecido adiposo (gordura)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Qual o Déficit Ideal?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Déficit leve (200-300 kcal)**: Perda lenta, preserva 100% da massa muscular, sustentável. Ideal para atletas ou quem está perto do peso ideal",
+          "**Déficit moderado (300-500 kcal)**: O sweet spot. Perda consistente, preserva a maior parte da massa muscular. Ideal para a maioria das pessoas",
+          "**Déficit agressivo (500-750 kcal)**: Perda mais rápida, risco moderado de perda muscular. Usar por no máximo 4-8 semanas",
+          "**Déficit extremo (>1000 kcal)**: EVITAR. Perda muscular significativa, metabolismo desacelera, efeito sanfona quase garantido"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "danger",
+        "texto": "🚨 **ALERTA**: Dietas de 1000-1200 kcal para adultos ativos causam perda muscular, queda de metabolismo, compulsão alimentar e efeito rebote. O corpo interpreta como fome e entra em modo de sobrevivência."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Preservar Músculo no Déficit"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "5 estratégias comprovadas pela ciência:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína alta**: 1,6-2,2g por kg de peso corporal. Quanto maior o déficit, mais proteína você precisa",
+          "**Treino de força**: Continue treinando pesado. O estímulo muscular é o que 'convence' seu corpo a manter o músculo",
+          "**Déficit moderado**: Não ultrapasse 500 kcal de déficit se quiser preservar massa",
+          "**Sono adequado**: 7-9 horas. Sono ruim = cortisol alto = catabolismo muscular",
+          "**Creatina**: Ajuda a manter força e volume muscular mesmo em restrição calórica"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo Prático"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Perfil",
+          "TDEE",
+          "Déficit",
+          "Calorias/dia",
+          "Perda estimada"
+        ],
+        "linhas": [
+          [
+            "Mulher 65kg",
+            "1.900 kcal",
+            "-400 kcal",
+            "1.500 kcal",
+            "0,4kg/semana"
+          ],
+          [
+            "Homem 80kg",
+            "2.500 kcal",
+            "-500 kcal",
+            "2.000 kcal",
+            "0,5kg/semana"
+          ],
+          [
+            "Homem 100kg",
+            "3.000 kcal",
+            "-500 kcal",
+            "2.500 kcal",
+            "0,5kg/semana"
+          ]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu déficit ideal agora!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Sinais de Que Seu Déficit Está Grande Demais"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Perda de força significativa na academia",
+          "Fome constante e pensamentos obsessivos sobre comida",
+          "Irritabilidade, cansaço extremo, dificuldade de concentração",
+          "Perda de mais de 1% do peso corporal por semana",
+          "Queda de cabelo, unhas fracas, pele seca",
+          "Libido despencou"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Se você está experienciando esses sintomas, AUMENTE suas calorias em 200-300 por dia. Emagrecer mais devagar é infinitamente melhor do que destruir seu metabolismo."
+      }
+    ]
+  },
+  {
+    "slug": "neat-fator-oculto-dieta",
+    "titulo": "NEAT: O Fator Oculto Que Mais Sabota Sua Dieta",
+    "descricao": "Descubra por que você não emagrece mesmo fazendo dieta: o NEAT pode ser o culpado. Aprenda o que é e como aumentar seu gasto calórico sem academia.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "neat",
+      "gasto calórico",
+      "metabolismo",
+      "emagrecer",
+      "atividade física"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/neat.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **NEAT** = Non-Exercise Activity Thermogenesis (gastos fora do treino)\n• **Representa**: 15-50% do seu gasto calórico diário\n• **Inclui**: Andar, ficar em pé, gesticular, subir escadas, limpar casa\n• **Problema**: NEAT cai automaticamente quando você faz dieta\n• **Solução**: Manter 8.000-10.000 passos/dia conscientemente\n• **Diferença**: Pode significar 300-700 kcal/dia a mais ou a menos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você faz dieta certinha, treina 5x por semana, mas o peso não sai? O problema pode não ser sua dieta nem seu treino. O problema pode ser o que você faz nas outras 23 horas do dia."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é NEAT?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "NEAT significa **Non-Exercise Activity Thermogenesis** - são todas as calorias que você gasta em atividades que NÃO são exercício planejado. Isso inclui:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Caminhar durante o dia (trabalho, compras, passeios)",
+          "Ficar em pé vs sentado",
+          "Subir escadas",
+          "Gesticular enquanto fala",
+          "Limpar a casa, cozinhar",
+          "Se mexer na cadeira (inquietação)",
+          "Brincar com filhos ou pets"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que o NEAT é Tão Importante?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Veja a matemática assustadora:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Atividade",
+          "Calorias/hora"
+        ],
+        "linhas": [
+          [
+            "Sentado trabalhando",
+            "~80 kcal"
+          ],
+          [
+            "Em pé trabalhando",
+            "~120 kcal (+50%)"
+          ],
+          [
+            "Caminhando devagar",
+            "~200 kcal (+150%)"
+          ],
+          [
+            "Treino na academia (1h)",
+            "~300-400 kcal"
+          ]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Percebe? Se você fica em pé em vez de sentado por 4 horas, gasta 160 kcal a mais. Isso é METADE de uma sessão de academia, sem esforço consciente."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **O problema da dieta**: Quando você entra em déficit calórico, seu corpo AUTOMATICAMENTE reduz o NEAT. Você se mexe menos, fica mais parado, caminha mais devagar. Isso pode anular até 30% do seu déficit!"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Aumentar Seu NEAT"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Meta de passos**: Defina 8.000-10.000 passos/dia e monitore com celular ou smartwatch",
+          "**Reuniões em pé ou caminhando**: Especialmente ligações de celular",
+          "**Escadas sempre**: Ignore elevadores até o 5º andar",
+          "**Estacione longe**: De propósito. São 500-1000 passos extras",
+          "**Alarme para levantar**: A cada 1 hora sentado, levante e ande 5 min",
+          "**Mesa em pé (standing desk)**: Se possível, alterne sentado/em pé"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "NEAT vs Treino: O Que Importa Mais?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Para PERDA DE PESO, o NEAT geralmente tem mais impacto que o treino. Por quê? Porque você treina 1 hora, mas o NEAT acontece por 15-16 horas acordado. A diferença entre pessoa sedentária e ativa pode ser 500-700 kcal/dia - o equivalente a 1-2 treinos de academia."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule quantas calorias você gasta por dia considerando seu nível de atividade!",
+        "botao": "Calculadora de TDEE",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "plateau-dieta-como-sair",
+    "titulo": "Plateau na Dieta: Por Que Você Parou de Emagrecer e Como Resolver",
+    "descricao": "Travou na dieta? Descubra por que o plateau acontece e as estratégias comprovadas para voltar a perder peso sem cortar mais calorias.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "plateau",
+      "dieta",
+      "emagrecer",
+      "metabolismo",
+      "estagnação"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/plateau.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Plateau** = Peso estagnado por 2-3+ semanas apesar de seguir a dieta\n• **Causa principal**: Seu TDEE caiu (você está mais leve = gasta menos)\n• **NÃO faça**: Cortar mais calorias desesperadamente\n• **Soluções**: Recalcular TDEE, aumentar NEAT, fazer diet break\n• **Diet break**: 1-2 semanas comendo na manutenção (reset hormonal)\n• **Paciência**: Às vezes é retenção de líquido, não gordura"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você segue a dieta religiosamente, treina 5x por semana, mas a balança não se mexe há 3 semanas. Antes de entrar em pânico e cortar mais 500 calorias, leia isso."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que o Plateau Acontece?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Existem razões fisiológicas reais para o plateau. Não é 'falta de esforço':"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Seu TDEE caiu**: Você pesa menos = gasta menos calorias. O déficit que funcionava antes, agora é manutenção",
+          "**Adaptação metabólica**: Seu corpo fica mais 'eficiente' em dietas longas, gastando menos energia para as mesmas atividades",
+          "**NEAT reduziu**: Inconscientemente, você está se movendo menos (seu corpo economiza energia)",
+          "**Retenção de água**: Estresse, sono ruim, treino intenso ou sal causam retenção que mascara perda de gordura",
+          "**Você está comendo mais do que pensa**: Porções foram aumentando aos poucos, snacks não contabilizados"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando é Plateau Real vs Falso Alarme?"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Situação",
+          "É Plateau?",
+          "O que fazer"
+        ],
+        "linhas": [
+          [
+            "Peso estável por 1 semana",
+            "NÃO",
+            "Relaxa, variação normal"
+          ],
+          [
+            "Peso estável por 2 semanas",
+            "TALVEZ",
+            "Monitore mais 1 semana"
+          ],
+          [
+            "Peso estável por 3+ semanas",
+            "PROVAVELMENTE SIM",
+            "Hora de ajustar"
+          ],
+          [
+            "Peso subiu mas medidas diminuíram",
+            "NÃO",
+            "Ganhou músculo/água, continue"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "6 Estratégias Para Quebrar o Plateau"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**1. Recalcule seu TDEE**: Perdeu 5-10kg? Seu gasto diário caiu 200-400 kcal. Refaça as contas",
+          "**2. Aumente o NEAT**: Adicione 2.000-3.000 passos ao dia. Isso pode 'criar' 100-200 kcal de déficit sem cortar comida",
+          "**3. Diet break (refeed)**: 1-2 semanas comendo na manutenção. Reseta hormônios (leptina, grelina) e dá um 'susto' no metabolismo",
+          "**4. Mude o tipo de treino**: Corpo adaptado? Mude estímulos. Troque exercícios, aumente intensidade, experimente HIIT",
+          "**5. Revise a dieta honestamente**: Pese os alimentos por 1 semana. Você pode estar comendo 200-300 kcal a mais sem perceber",
+          "**6. Durma mais**: Sono ruim = cortisol alto = retenção + dificuldade de perda de gordura. Priorize 7-9h"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "danger",
+        "texto": "🚨 **O que NÃO fazer**: Cortar calorias drasticamente. Isso só vai piorar a adaptação metabólica e te preparar para um rebote violento. Déficit máximo: 500 kcal abaixo do NOVO TDEE."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é Diet Break e Como Fazer"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Diet break é um período planejado de 1-2 semanas onde você come na manutenção (TDEE). Não é 'desistir da dieta'. É uma estratégia científica para:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Normalizar hormônios da fome (leptina sobe, grelina desce)",
+          "Dar uma folga psicológica (sustentabilidade)",
+          "Reverter parte da adaptação metabólica",
+          "Recuperar performance nos treinos"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Recalcule seu TDEE atual para descobrir suas novas calorias de manutenção!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "cutting-modelo-calorias-macros",
+    "titulo": "Cutting: Modelo Completo de Calorias e Macros Para Secar",
+    "descricao": "Guia completo de cutting com exemplo real de distribuição de calorias e macros. Aprenda a secar preservando massa muscular.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2025-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "cutting",
+      "secar",
+      "macros",
+      "calorias",
+      "dieta",
+      "definição"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/cutting.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Cutting** = Fase de déficit calórico para perder gordura\n• **Déficit**: 300-500 kcal abaixo do TDEE\n• **Proteína**: 2,0-2,4g por kg (alta para preservar músculo)\n• **Gordura**: 0,8-1,0g por kg (mínimo para hormônios)\n• **Carboidrato**: Restante das calorias\n• **Duração**: 8-16 semanas no máximo\n• **Perda ideal**: 0,5-1% do peso corporal por semana"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Cutting é a fase onde você quer 'aparecer' o músculo que construiu. O objetivo é perder gordura MANTENDO a maior quantidade possível de massa muscular. Isso requer estratégia, não só 'comer menos'."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Passo 1: Calcular Calorias de Cutting"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Calcule seu TDEE (use nossa calculadora)",
+          "Subtraia 300-500 kcal = Calorias de Cutting",
+          "Nunca vá abaixo de: 10 × peso corporal em kg (ex: 80kg = mínimo 800 kcal)",
+          "Na prática, homens raramente abaixo de 1.800 kcal, mulheres 1.400 kcal"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Passo 2: Distribuir os Macros"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A ordem de prioridade é: Proteína > Gordura > Carboidrato"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Macro",
+          "Quantidade",
+          "Por quê"
+        ],
+        "linhas": [
+          [
+            "Proteína",
+            "2,0-2,4g por kg",
+            "Preserva músculo, aumenta saciedade"
+          ],
+          [
+            "Gordura",
+            "0,8-1,0g por kg",
+            "Mínimo para hormônios funcionarem"
+          ],
+          [
+            "Carboidrato",
+            "Restante",
+            "Energia para treino, mas é o macro 'flexível'"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo Real: Homem 80kg"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Vamos a um exemplo prático completo:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Parâmetro",
+          "Cálculo",
+          "Valor"
+        ],
+        "linhas": [
+          [
+            "TDEE",
+            "Calculadora",
+            "2.500 kcal"
+          ],
+          [
+            "Déficit",
+            "-500 kcal",
+            "2.000 kcal/dia"
+          ],
+          [
+            "Proteína",
+            "80kg × 2,2g = 176g",
+            "704 kcal"
+          ],
+          [
+            "Gordura",
+            "80kg × 0,9g = 72g",
+            "648 kcal"
+          ],
+          [
+            "Carboidrato",
+            "2000 - 704 - 648",
+            "648 kcal = 162g"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📊 **Resumo dos macros**: 176g proteína | 72g gordura | 162g carboidrato = 2.000 kcal"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo Real: Mulher 60kg"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Parâmetro",
+          "Cálculo",
+          "Valor"
+        ],
+        "linhas": [
+          [
+            "TDEE",
+            "Calculadora",
+            "1.800 kcal"
+          ],
+          [
+            "Déficit",
+            "-400 kcal",
+            "1.400 kcal/dia"
+          ],
+          [
+            "Proteína",
+            "60kg × 2,2g = 132g",
+            "528 kcal"
+          ],
+          [
+            "Gordura",
+            "60kg × 0,9g = 54g",
+            "486 kcal"
+          ],
+          [
+            "Carboidrato",
+            "1400 - 528 - 486",
+            "386 kcal = 96g"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📊 **Resumo dos macros**: 132g proteína | 54g gordura | 96g carboidrato = 1.400 kcal"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dicas Para Sobreviver ao Cutting"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Volume de comida**: Priorize vegetais, proteínas magras e alimentos de baixa densidade calórica",
+          "**Não corte gordura demais**: Abaixo de 0,5g/kg = hormônios desregulados, libido zero",
+          "**Carboidrato estratégico**: Concentre ao redor do treino para performance",
+          "**Refeeds semanais**: 1 dia por semana com carbo mais alto ajuda na aderência e leptina",
+          "**Suplementos úteis**: Creatina (mantém força), cafeína (energia e termogênico leve), whey (praticidade para bater proteína)"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu TDEE e comece seu cutting com os números certos!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Parar o Cutting"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Chegou no percentual de gordura desejado",
+          "Perdeu mais de 1% do peso por semana consistentemente (está perdendo músculo)",
+          "Performance no treino despencou",
+          "Está há mais de 16 semanas em déficit (hora de dieta reversa)"
+        ]
+      }
+    ]
   }
 ]

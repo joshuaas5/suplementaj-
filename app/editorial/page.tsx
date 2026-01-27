@@ -178,7 +178,7 @@ export default function EditorialPage() {
                     <CardContent>
                         <p className="text-white font-bold text-base sm:text-lg leading-relaxed mb-4">
                             Nossa equipe é composta por profissionais com formação em áreas relacionadas à saúde,
-                            nutrição e ciências biomédicas, comprometidos com a <strong>educação em saúde baseada em evidências</strong>.
+                            comprometidos com a <strong>educação em saúde baseada em evidências</strong>.
                         </p>
                         <div className="bg-white border-4 border-black p-4">
                             <h4 className="font-black text-black uppercase mb-3">📋 Processo de Revisão</h4>
