@@ -9005,7 +9005,7 @@
   },
   {
     "slug": "o-que-e-tdee-como-calcular",
-    "titulo": "TDEE: O Que É e Como Calcular Seu Gasto Calórico Diário",
+    "titulo": "Como Calcular Gasto Calórico Diário (TDEE): Guia Completo",
     "descricao": "Aprenda o que é TDEE (Gasto Energético Total Diário), por que sua estimativa pode estar errada e como calcular corretamente para emagrecer ou ganhar massa.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
@@ -9172,7 +9172,7 @@
   },
   {
     "slug": "deficit-calorico-quanto-cortar",
-    "titulo": "Déficit Calórico: Quanto Cortar Sem Perder Massa Muscular",
+    "titulo": "Déficit Calórico: Como Calcular Calorias Para Emagrecer",
     "descricao": "Aprenda qual o déficit calórico ideal para emagrecer preservando músculos, evitando efeito sanfona e sem passar fome.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
@@ -11185,6 +11185,202 @@
         "texto": "Calcule seus macros para ganho de massa!",
         "botao": "Calculadora de Macros",
         "link": "/calculadoras/macros"
+      }
+    ]
+  },
+  {
+    "slug": "quantas-calorias-comer-por-dia",
+    "titulo": "Quantas Calorias Devo Comer Por Dia? (Guia Definitivo 2026)",
+    "descricao": "A resposta não é 2000. Descubra o número exato de calorias que seu corpo precisa para emagrecer ou ganhar massa.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-10",
+    "categoria": "Calorias",
+    "tags": [
+      "calorias",
+      "dieta",
+      "emagrecimento",
+      "gasto calórico"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/quantas-calorias.jpg",
+    "conteudo": [
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A Resposta Curta (Para Quem Tem Pressa)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não existe um número mágico. '2000 calorias' é uma média ultrapassada. Se você comer 2000 calorias sendo uma mulher de 1,55m sedentária, vai engordar. Se for um homem de 1,85m ativo, vai sumir."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "success",
+        "texto": "📱 **SOLUÇÃO RÁPIDA:** Pare de chutar. Use nossa **[Calculadora de Calorias Grátis](/calculadoras/calorias)** para descobrir seu número exato agora."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Os 4 Fatores Que Definem Sua Necessidade"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Idade**: Metabolismo desacelera ~2% por década.",
+          "**Peso e Altura**: Corpos maiores gastam mais energia para existirem.",
+          "**Sexo**: Homens geralmente têm mais massa muscular e gastam mais.",
+          "**Atividade Física**: O fator multiplicador (sedentário gasta 1.2x, atleta 1.9x)."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Sobreviver vs Viver: TMB e TDEE"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Muita gente confunde. **TMB (Taxa Metabólica Basal)** é o quanto você gasta em coma (só respirando). **TDEE (Gasto Energético Total)** é o quanto você gasta na vida real (andando, trabalhando, treinando)."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **ERRO COMUM:** Calcular a dieta baseada na TMB. Se você fizer isso, vai comer muito pouco e estagnar seu metabolismo. Sua dieta deve ser baseada no TDEE."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu TDEE em 5 segundos",
+        "botao": "Calcular Agora",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "mifflin-st-jeor-formula",
+    "titulo": "Fórmula Mifflin-St Jeor: O Padrão Ouro Para Calcular Calorias",
+    "descricao": "Entenda a matemática por trás da calculadora de calorias mais precisa do mundo, recomendada pela Associação Americana de Dietética.",
+    "autor": "Nutrição Baseada em Evidência",
+    "data": "2024-12-11",
+    "categoria": "Ciência",
+    "tags": [
+      "metabolismo",
+      "calculo",
+      "formula",
+      "ciência"
+    ],
+    "tempo_leitura": "4 min",
+    "imagem": "/images/blog/mifflin.jpg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Durante décadas, a fórmula de **Harris-Benedict** (1919) foi a lei. Mas o mundo mudou, ficamos mais sedentários e a fórmula antiga começou a superestimar calorias."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em 1990, cientistas criaram a equação de **Mifflin-St Jeor**, que hoje é considerada o 'padrão ouro' pela Academia de Nutrição e Dietética para estimar a Taxa Metabólica Basal (TMB)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A Fórmula (Faça Você Mesmo)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Quer calcular na mão? Aqui está a matemática:"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**HOMENS:** (10 × peso em kg) + (6.25 × altura em cm) - (5 × idade em anos) + 5\n\n**MULHERES:** (10 × peso em kg) + (6.25 × altura em cm) - (5 × idade em anos) - 161"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Usar Uma Calculadora é Melhor?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Zero Erro Matemático**: É fácil errar uma multiplicação e estragar a dieta.",
+          "**Fator de Atividade**: A fórmula só dá a basal. Você ainda precisa multiplicar pelo fator de atividade correto.",
+          "**Rapidez**: Calculadoras automatizam tudo em segundos."
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Use a Fórmula Mifflin-St Jeor Automaticamente",
+        "botao": "Ir para Calculadora",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "calculadora-nutricional-calorias-macros",
+    "titulo": "Calculadora Nutricional vs Calculadora de Calorias: Qual Você Precisa?",
+    "descricao": "Entenda a diferença entre análise nutricional (saúde) e cálculo de macros (corpo). Saiba qual ferramenta usar para seus objetivos.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2024-12-12",
+    "categoria": "Iniciantes",
+    "tags": [
+      "nutrição",
+      "tabela nutricional",
+      "macros",
+      "ferramentas"
+    ],
+    "tempo_leitura": "5 min",
+    "imagem": "/images/blog/nutricional-vs-calorias.jpg",
+    "conteudo": [
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A Grande Confusão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Muitas pessoas buscam 'calculadora nutricional' querendo saber quanto comer para emagrecer. Mas na nutrição, são coisas diferentes:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Ferramenta",
+          "O Que Faz",
+          "Para Quem É"
+        ],
+        "linhas": [
+          [
+            "Tabela Nutricional",
+            "Mostra o que tem EM UM ALIMENTO (rótulo)",
+            "Quem quer saber o que está comendo"
+          ],
+          [
+            "Calculadora de Calorias",
+            "Mostra o que VOCÊ PRECISA (meta diária)",
+            "Quem quer mudar o peso (perder/ganhar)"
+          ],
+          [
+            "Calculadora de Macros",
+            "Refina as calorias em Proteína/Carb/Gord",
+            "Quem quer otimizar composição corporal"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Qual Eu Devo Usar?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Quer saber se o iogurte é saudável?** Olhe a Tabela Nutricional no rótulo.",
+          "**Quer emagrecer 5kg?** Use a Calculadora de Calorias.",
+          "**Quer definir o abdômen?** Use a Calculadora de Macros."
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Comece pelo básico: Quanto você precisa comer?",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
       }
     ]
   }
