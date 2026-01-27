@@ -94,11 +94,11 @@ export default function CalculadoraCaloriasPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🔥 Quantas Calorias Devo Comer?
+            🔥 Gasto Calórico Diário (TDEE) e Manutenção
           </h1>
           <p className="text-black font-bold mb-4">
-            Descubra quantas calorias seu corpo gasta por dia e quantas você precisa para{' '}
-            <strong>emagrecer, ganhar massa muscular ou manter o peso</strong>. Cálculo científico em segundos!
+            Use nossa <strong>calculadora de calorias online grátis</strong> para descobrir seu <strong>gasto calórico diário</strong> exato.
+            Saiba <strong>quantas calorias devo comer por dia</strong> para emagrecer, suas <strong>calorias de manutenção</strong> ou para ganhar massa muscular.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">✅ Grátis</span>

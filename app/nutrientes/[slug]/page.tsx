@@ -54,7 +54,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
   }
 
   const categoryColor = nutriente.categoria === 'vitamina' ? 'cyan-400' :
-                        nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
+    nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
   const categoryTextColor = nutriente.categoria === 'outro' ? 'text-white' : 'text-black'
 
   // BreadcrumbList schema
@@ -597,6 +597,38 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           </Card>
         )}
 
+        {/* Calculadoras Relacionadas */}
+        <div className="mb-8">
+          <div className="bg-black px-6 py-3 mb-6 inline-block sm:-rotate-1 border-4 border-black">
+            <h3 className="text-xl sm:text-2xl font-black text-white uppercase">
+              🧮 Calculadoras Úteis
+            </h3>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <Link href="/calculadoras/calorias" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">🔥</span>
+                <p className="font-black text-black uppercase">Gasto Calórico Diário</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Descubra quanto você gasta</p>
+              </div>
+            </Link>
+            <Link href="/calculadoras/proteina" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">🥩</span>
+                <p className="font-black text-black uppercase">Proteína Diária</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Quanto comer por dia</p>
+              </div>
+            </Link>
+            <Link href="/calculadoras/creatina" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">💪</span>
+                <p className="font-black text-black uppercase">Dose de Creatina</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Calcule sua carga e manutenção</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+
         {/* CTA Final - NEOBRUTALISM */}
         <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-6 sm:p-8 md:p-12 text-center mb-8">
           <div className="bg-black px-6 py-3 mb-6 inline-block sm:-rotate-1 border-4 border-black">
@@ -632,7 +664,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             })
             .filter((item) => item !== null)
             .slice(0, 3) as Array<{ type: 'artigo'; slug: string; titulo: string; descricao: string; categoria: string }>
-          
+
           return artigosRelacionados.length > 0 ? (
             <RelatedContent
               items={artigosRelacionados}

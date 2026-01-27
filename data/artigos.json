@@ -7556,6 +7556,36 @@
       {
         "tipo": "heading",
         "nivel": 2,
+        "texto": "🏆 Onde Comprar: Top 3 Marcas Recomendadas (2026)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Selecionamos as melhores opções com base em laudos de pureza, avaliação dos consumidores e preço. Comprando pelos links abaixo você garante produto **original** (evite marketplaces duvidosos) e entrega rápida pela Amazon."
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥇 MELHOR GERAL: Creatina Monohidratada Dux Nutrition (300g)",
+        "descricao": "100% pura, dissolve bem e tem o melhor custo-benefício atual. A escolha segura para 90% das pessoas.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B07Q2HYMZD?tag=105c91-20"
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥈 CUSTO-BENEFÍCIO: Creatina Max Titanium (300g)",
+        "descricao": "Ótima qualidade por um preço acessível. Uma das mais vendidas e confiáveis do Brasil.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B07L5P4B8Q?tag=105c91-20"
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥉 PREMIUM: Creatina Creapure Integralmédica",
+        "descricao": "Para quem faz questão do selo Creapure® (matéria-prima alemã). Mais cara, mas com garantia extra de pureza.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B004FCR9LE?tag=105c91-20"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
         "texto": "Como Tomar: Dose e Timing"
       },
       {
@@ -7941,6 +7971,41 @@
             "Otimização marginal (1-2%) pode valer em alto nível"
           ]
         ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "🏆 Onde Comprar: Melhores Opções 2026"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Comprando na loja oficial via Amazon você garante entrega rápida, frete grátis (Prime) e produto original. Cuidado com falsificações em sites desconhecidos."
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥇 MELHOR GERAL (Concentrado): Whey 100% Growth / Max Titanium",
+        "descricao": "Melhor custo-benefício. A escolha inteligente para 80% das pessoas.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B07L5P4B8Q?tag=105c91-20"
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥈 MELHOR ISOLADO: Dux Nutrition Whey Isolado",
+        "descricao": "Para intolerantes à lactose. Qualidade altíssima, sabor superior e pureza garantida.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B07Q2HYMZD?tag=105c91-20"
+      },
+      {
+        "tipo": "cta",
+        "texto": "🥉 OPÇÃO VEGANA: Essential Nutrition Cacao",
+        "descricao": "A melhor proteína vegetal do mercado. Sem textura de areia, sabor incrível.",
+        "textoBotao": "Ver Preço na Amazon 🛒",
+        "link": "https://www.amazon.com.br/dp/B08XJSMJZL?tag=105c91-20"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **DICA PRO:** O Whey Concentrado da Max Titanium ou Growth tem 21g de proteína por dose e custa ~R$ 100/kg. O Isolado da Dux tem 24g e custa ~R$ 200/kg. Se você não é intolerante, compre DOIS potes do concentrado pelo preço de um isolado."
       },
       {
         "tipo": "heading",
