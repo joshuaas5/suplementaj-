@@ -140,7 +140,7 @@ export default function NutrienteDetailPage({ params }: PageProps) {
               Principalmente indicado para:
             </span>
             {nutriente.objetivos.map((objSlug) => {
-              const objInfo = (objetivosData as any[]).find(o => o.slug === objSlug)
+              const objInfo = (objetivosData as Array<{ slug: string; titulo: string; emoji: string }>).find(o => o.slug === objSlug)
               if (!objInfo) return null
               return (
                 <Link key={objSlug} href={`/objetivos/${objSlug}`}>

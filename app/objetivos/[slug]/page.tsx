@@ -155,7 +155,7 @@ export default function ObjetivoPage({ params }: Props) {
 
                         {artigosRelacionados.length > 0 ? (
                             <div className="space-y-4">
-                                {artigosRelacionados.map((artigo: any) => (
+                                {artigosRelacionados.map((artigo) => (
                                     <Link key={artigo.slug} href={`/blog/${artigo.slug}`} className="block group">
                                         <Card className="hover:shadow-md transition-all">
                                             <CardContent className="p-5 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
