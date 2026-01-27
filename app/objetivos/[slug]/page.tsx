@@ -54,7 +54,7 @@ export default function ObjetivoPage({ params }: Props) {
 
     // 1. Filtrar Nutrientes
     const nutrientesRecomendados = Object.values(nutrientesData).filter(
-        (n) => n.objetivos && n.objetivos.includes(objetivo.slug)
+        (n) => 'objetivos' in n && n.objetivos.includes(objetivo.slug)
     )
 
     // 2. Filtrar Artigos
