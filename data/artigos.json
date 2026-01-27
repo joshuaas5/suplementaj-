@@ -10301,5 +10301,826 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "creatina-fase-carga-necessaria",
+    "titulo": "Fase de Carga de Creatina: Necessária ou Perda de Tempo?",
+    "descricao": "Descubra se a fase de carga de creatina realmente acelera resultados ou se é só desperdício de dinheiro e desconforto gastrointestinal.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "fase de carga",
+      "suplementação",
+      "hipertrofia",
+      "dosagem"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/creatina-carga.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Fase de carga**: 20g/dia por 5-7 dias, depois 3-5g/dia\n• **Sem carga**: 3-5g/dia direto, satura em 3-4 semanas\n• **Resultado final**: O MESMO após 4 semanas\n• **Vantagem da carga**: Resultados 2-3 semanas antes\n• **Desvantagem**: Desconforto gástrico, custo maior\n• **Recomendação**: Pule a carga, não vale a pena para 99% das pessoas"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você comprou creatina e agora está na dúvida: fazer os 20g por dia na primeira semana ou ir direto nos 5g? Vamos resolver isso de uma vez."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é a Fase de Carga?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A fase de carga é um protocolo antigo onde você toma 20g de creatina por dia (dividido em 4 doses de 5g) durante 5-7 dias. O objetivo é saturar os músculos mais rápido."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Carga vs Sem Carga: A Ciência"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Aspecto",
+          "Com Carga",
+          "Sem Carga"
+        ],
+        "linhas": [
+          [
+            "Dose",
+            "20g/dia por 7 dias, depois 5g",
+            "5g/dia direto"
+          ],
+          [
+            "Tempo para saturar",
+            "1 semana",
+            "3-4 semanas"
+          ],
+          [
+            "Nível final de saturação",
+            "100%",
+            "100%"
+          ],
+          [
+            "Desconforto gástrico",
+            "Comum",
+            "Raro"
+          ],
+          [
+            "Custo no primeiro mês",
+            "~R$ 45",
+            "~R$ 15"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Ponto-chave**: Após 4 semanas, AMBOS os grupos têm a mesma saturação muscular. A carga só adianta o resultado em 2-3 semanas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando a Carga PODE Fazer Sentido"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Você tem uma competição em 2-3 semanas",
+          "Está testando se creatina funciona para você (resultado mais rápido)",
+          "Seu estômago não é sensível"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Pular a Carga"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Mesmo resultado final**: Apenas 2-3 semanas de diferença",
+          "**Economia**: Gasta 3x menos creatina no primeiro mês",
+          "**Conforto**: Sem inchaço, gases ou diarreia",
+          "**Praticidade**: 1 dose por dia vs 4 doses espalhadas"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule a dose ideal de creatina para seu peso!",
+        "botao": "Calculadora de Creatina",
+        "link": "/calculadoras/creatina"
+      }
+    ]
+  },
+  {
+    "slug": "creatina-retencao-liquido",
+    "titulo": "Creatina Causa Retenção de Líquido? Entenda a Verdade",
+    "descricao": "A creatina incha ou causa retenção? Descubra a diferença entre retenção intramuscular (boa) e subcutânea (ruim), e por que você não deveria se preocupar.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "retenção de líquido",
+      "inchaço",
+      "água",
+      "hipertrofia"
+    ],
+    "tempo_leitura": "5 min",
+    "imagem": "/images/blog/creatina-retencao.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Sim, creatina aumenta água corporal** - mas DENTRO do músculo\n• **Retenção intramuscular** (boa): Deixa músculo maior e mais volumoso\n• **Retenção subcutânea** (ruim): NÃO é causada pela creatina\n• **Ganho de peso**: 1-3kg nas primeiras semanas é normal (água + glicogênio)\n• **Aparência**: Músculos MAIS definidos, não menos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Uma das maiores preocupações de quem começa a tomar creatina: 'Vou ficar inchado?' Vamos entender a diferença entre dois tipos de retenção completamente diferentes."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dois Tipos de Retenção de Líquido"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Tipo",
+          "Onde fica",
+          "Aparência",
+          "Creatina causa?"
+        ],
+        "linhas": [
+          [
+            "Intramuscular",
+            "Dentro do músculo",
+            "Músculos cheios e definidos",
+            "SIM ✓"
+          ],
+          [
+            "Subcutânea",
+            "Debaixo da pele",
+            "Inchado, borrado, 'molhado'",
+            "NÃO ✗"
+          ]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A creatina puxa água para DENTRO das células musculares. Isso faz o músculo parecer maior e mais cheio - o oposto de 'inchado'. É um efeito DESEJÁVEL."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Realmente Causa Inchaço Ruim"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Excesso de sódio**: Salgadinhos, fast food, temperos industrializados",
+          "**Pouca água**: Paradoxalmente, desidratação causa retenção",
+          "**Carboidratos em excesso**: Especialmente após restrição",
+          "**Hormônios**: Ciclo menstrual, estresse, sono ruim",
+          "**Álcool**: Causa desidratação e retenção"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "💡 **Dica**: Se você está 'inchado' usando creatina, o problema provavelmente é sua dieta (muito sódio, pouca água), não a creatina."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quanto Peso Você Vai Ganhar?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Nas primeiras 2-4 semanas, é normal ganhar 1-3kg. Isso é água + glicogênio dentro do músculo. NÃO é gordura. Esse peso extra melhora sua aparência, não piora."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Veja nosso guia completo de creatina!",
+        "botao": "Guia de Creatina 2026",
+        "link": "/blog/guia-completo-creatina-2026"
+      }
+    ]
+  },
+  {
+    "slug": "creatina-quem-nao-deve-tomar",
+    "titulo": "Quem NÃO Deve Tomar Creatina? Contraindicações Reais",
+    "descricao": "Creatina é segura para todos? Descubra as poucas contraindicações reais e os mitos sobre rins, fígado e pressão alta.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "contraindicações",
+      "segurança",
+      "rins",
+      "efeitos colaterais"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/creatina-contraindicacoes.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Contraindicações REAIS**: Doença renal pré-existente, uso de medicamentos nefrotóxicos\n• **NÃO são contraindicações**: Rins saudáveis, fígado, pressão alta, idade\n• **Segurança**: Mais de 1.000 estudos, usado há 30+ anos\n• **Recomendação**: Se tem doença renal, consulte nefrologista antes"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina é o suplemento mais estudado da história. Ainda assim, muita gente tem medo de tomar por causa de mitos que já foram desmentidos há décadas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Contraindicações REAIS (Poucas)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Doença renal crônica diagnosticada**: Se você JÁ tem problema nos rins, converse com seu nefrologista",
+          "**Uso de medicamentos nefrotóxicos**: Alguns antibióticos, anti-inflamatórios em excesso",
+          "**Transplante renal**: Precisa acompanhamento médico"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mitos Desmentidos Pela Ciência"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Mito",
+          "Realidade"
+        ],
+        "linhas": [
+          [
+            "Creatina prejudica rins saudáveis",
+            "FALSO - Nenhum estudo comprovou em pessoas saudáveis"
+          ],
+          [
+            "Creatina sobrecarrega o fígado",
+            "FALSO - Fígado não processa creatina significativamente"
+          ],
+          [
+            "Creatina aumenta pressão arterial",
+            "FALSO - Sem evidência de aumento clinicamente relevante"
+          ],
+          [
+            "Creatina causa queda de cabelo",
+            "INCONCLUSIVO - Um único estudo fraco, não replicado"
+          ],
+          [
+            "Creatina é proibida na ANVISA",
+            "FALSO - Totalmente liberada e regulamentada"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "E o Exame de Creatinina?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creatina pode aumentar a creatinina sérica (marcador de função renal) sem que isso signifique problema renal. Avise seu médico que usa creatina antes de fazer exames. Existem outros marcadores (cistatina C) que não são afetados."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **Quem PODE tomar**: Adolescentes, idosos, mulheres, diabéticos (com acompanhamento), vegetarianos (se beneficiam ainda mais), pessoas com pressão controlada."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Veja o guia completo com todas as evidências científicas!",
+        "botao": "Guia de Creatina 2026",
+        "link": "/blog/guia-completo-creatina-2026"
+      }
+    ]
+  },
+  {
+    "slug": "whey-antes-ou-depois-treino",
+    "titulo": "Whey Antes ou Depois do Treino? A Resposta Definitiva",
+    "descricao": "Descubra o melhor horário para tomar whey protein: antes, depois, ou qualquer hora? Veja o que a ciência diz sobre a janela anabólica.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "whey",
+      "pós-treino",
+      "pré-treino",
+      "proteína",
+      "hipertrofia"
+    ],
+    "tempo_leitura": "5 min",
+    "imagem": "/images/blog/whey-horario.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Melhor horário**: Quando você conseguir bater sua meta de proteína diária\n• **Janela anabólica de 30min**: MITO - Janela real é de 4-6 horas\n• **Pós-treino**: Conveniente, mas não mágico\n• **Pré-treino**: Igualmente eficaz se treinar em jejum\n• **O que importa**: Proteína TOTAL do dia (1,6-2,2g/kg)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A indústria de suplementos vendeu a ideia de que você precisa tomar whey nos 30 minutos após o treino ou perde todos os ganhos. Isso é marketing, não ciência."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Mito da Janela Anabólica"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Estudos antigos sugeriam uma 'janela' de 30-60 minutos pós-treino. Meta-análises recentes mostram que a janela real é muito maior: 4-6 horas ao redor do treino. Se você comeu proteína 2-3 horas antes de treinar, não precisa correr para o shake."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Cada Horário Faz Sentido"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Horário",
+          "Quando usar",
+          "Por quê"
+        ],
+        "linhas": [
+          [
+            "Pré-treino (1-2h antes)",
+            "Treina em jejum ou longe das refeições",
+            "Garante aminoácidos disponíveis"
+          ],
+          [
+            "Pós-treino (até 2h depois)",
+            "Não vai comer refeição sólida logo",
+            "Praticidade e recuperação"
+          ],
+          [
+            "Qualquer hora",
+            "Já comeu proteína antes do treino",
+            "Bater meta diária"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Realmente Importa"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína total diária**: 1,6-2,2g por kg de peso corporal",
+          "**Distribuição**: 3-5 doses de 25-40g ao longo do dia",
+          "**Consistência**: Todos os dias, não só dia de treino",
+          "**Qualidade**: Fonte completa (whey, carne, ovos, peixe)"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Prioridades**: Proteína total > Distribuição > Timing peri-treino. Não foque no timing se não está batendo a meta diária."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule quanta proteína você precisa por dia!",
+        "botao": "Calculadora de Proteína",
+        "link": "/calculadoras/proteina"
+      }
+    ]
+  },
+  {
+    "slug": "whey-com-leite-ou-agua",
+    "titulo": "Whey Com Leite ou Água? Qual a Melhor Opção?",
+    "descricao": "Misturar whey com leite ou água? Descubra as diferenças em absorção, calorias, sabor e quando usar cada um para seus objetivos.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "whey",
+      "leite",
+      "água",
+      "proteína",
+      "absorção"
+    ],
+    "tempo_leitura": "4 min",
+    "imagem": "/images/blog/whey-leite-agua.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Com água**: Menos calorias, absorção mais rápida, ideal em cutting\n• **Com leite**: Mais proteína, mais calorias, sabor melhor, ideal em bulking\n• **Diferença na prática**: Mínima para resultados a longo prazo\n• **O que importa**: Bater a meta de proteína, não o líquido"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Comparação Direta"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Aspecto",
+          "Com Água",
+          "Com Leite (200ml)"
+        ],
+        "linhas": [
+          [
+            "Calorias adicionadas",
+            "0 kcal",
+            "+100-130 kcal"
+          ],
+          [
+            "Proteína adicional",
+            "0g",
+            "+6-8g"
+          ],
+          [
+            "Velocidade de absorção",
+            "Rápida",
+            "Moderada"
+          ],
+          [
+            "Sabor e textura",
+            "Mais aguado",
+            "Cremoso, mais gostoso"
+          ],
+          [
+            "Ideal para",
+            "Cutting, pós-treino",
+            "Bulking, entre refeições"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Usar Cada Um"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Água - Cutting**: Cada caloria conta, não quer as extras do leite",
+          "**Água - Pós-treino imediato**: Se quer absorção mais rápida (diferença pequena)",
+          "**Leite - Bulking**: Precisa das calorias e proteína extra",
+          "**Leite - Como lanche**: Mais saciante, dura mais tempo",
+          "**Leite - Sabor ruim**: Melhora wheys de sabor fraco"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "E a Absorção?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Sim, o leite desacelera um pouco a absorção por causa da caseína e gordura. Na prática? Irrelevante. A diferença é de minutos, não horas. A 'janela anabólica' é um mito de qualquer forma."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "💡 **Intolerância à lactose?** Use leite sem lactose, leite vegetal (amêndoas, aveia), ou simplesmente água. Whey isolado já tem pouca lactose."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Veja comparação completa entre whey isolado e concentrado!",
+        "botao": "Whey Isolado vs Concentrado",
+        "link": "/blog/whey-isolado-vs-concentrado"
+      }
+    ]
+  },
+  {
+    "slug": "whey-engorda-ou-emagrece",
+    "titulo": "Whey Engorda ou Emagrece? Entenda de Uma Vez",
+    "descricao": "Whey faz engordar ou ajuda a emagrecer? Descubra como a proteína afeta seu peso e quando usar whey na dieta de emagrecimento.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Suplementos",
+    "tags": [
+      "whey",
+      "emagrecimento",
+      "calorias",
+      "proteína",
+      "dieta"
+    ],
+    "tempo_leitura": "5 min",
+    "imagem": "/images/blog/whey-engorda.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Whey não engorda nem emagrece diretamente** - Calorias totais determinam isso\n• **1 scoop** = ~120 kcal (menos que uma banana + iogurte)\n• **Proteína AJUDA emagrecer**: Aumenta saciedade, preserva músculo, termogênese\n• **Whey engorda se**: Você adiciona SEM tirar calorias de outro lugar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A pergunta está errada. Nenhum alimento 'engorda' ou 'emagrece' sozinho. O que determina seu peso é o balanço calórico total. Dito isso, proteína é o macronutriente mais aliado do emagrecimento."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Proteína Ajuda a Emagrecer"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Saciedade**: Proteína é o macro que mais sacia. Você come menos depois",
+          "**Preserva músculo**: Em déficit calórico, proteína alta evita perder massa magra",
+          "**Termogênese**: Corpo gasta 20-30% das calorias da proteína para digeri-la (vs 5-10% de carbo)",
+          "**Menos fome**: Estabiliza açúcar no sangue, menos picos de fome"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Whey 'Engorda'"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Whey só vai te fazer ganhar peso se você ADICIONAR calorias sem REMOVER de outro lugar. Exemplo:"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Cenário",
+          "Resultado"
+        ],
+        "linhas": [
+          [
+            "Come normal + adiciona 2 scoops/dia (+250kcal)",
+            "Engorda (~1kg/mês)"
+          ],
+          [
+            "Troca lanche de 300kcal por shake de 150kcal",
+            "Emagrece (déficit)"
+          ],
+          [
+            "Come menos no jantar pra 'caber' o shake",
+            "Mantém peso (neutro)"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Usar Whey Para Emagrecer"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Substitua lanches calóricos**: Troque bolo/biscoito por shake",
+          "**Aumente proteína total**: Meta de 1,6-2,2g/kg preserva músculo",
+          "**Use como café da manhã**: Shake + fruta = ~250 kcal, muito saciante",
+          "**Conte as calorias**: 1 scoop = ~120 kcal, inclua na sua conta diária"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule suas calorias para emagrecer corretamente!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "macros-para-definicao-muscular",
+    "titulo": "Macros Para Definição Muscular: A Distribuição Ideal",
+    "descricao": "Guia completo de macronutrientes para definição: quanto de proteína, carboidrato e gordura comer para secar sem perder músculo.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "macros",
+      "definição",
+      "cutting",
+      "proteína",
+      "carboidrato"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/macros-definicao.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Proteína**: 2,0-2,4g/kg (prioridade #1 para manter músculo)\n• **Gordura**: 0,8-1,0g/kg (mínimo para hormônios)\n• **Carboidrato**: Restante das calorias (flexível)\n• **Déficit**: 300-500 kcal abaixo do TDEE\n• **Ordem de prioridade**: Calorias > Proteína > Distribuição"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Definição muscular acontece quando você perde gordura mantendo (ou perdendo o mínimo de) massa muscular. A distribuição de macros é crucial para isso."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Proteína: O Macro Mais Importante"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em déficit calórico, seu corpo quer usar músculo como energia. Proteína alta (2,0-2,4g/kg) envia o sinal para PRESERVAR o músculo. Quanto maior o déficit, mais proteína você precisa."
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Déficit",
+          "Proteína recomendada"
+        ],
+        "linhas": [
+          [
+            "Leve (200-300 kcal)",
+            "1,8-2,0g/kg"
+          ],
+          [
+            "Moderado (300-500 kcal)",
+            "2,0-2,2g/kg"
+          ],
+          [
+            "Agressivo (500+ kcal)",
+            "2,2-2,4g/kg"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Gordura: O Mínimo Necessário"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Gordura é essencial para hormônios (testosterona, estrogênio). Abaixo de 0,5g/kg, você arrisca disfunção hormonal, queda de libido, e pior recuperação. Mantenha 0,8-1,0g/kg como mínimo seguro."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Carboidrato: O Macro Flexível"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Depois de definir proteína e gordura, o restante das calorias vem de carboidrato. Carbo não é 'inimigo' - é combustível para treino. Cortar demais prejudica performance e recuperação."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo: Homem 80kg Secando"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Parâmetro",
+          "Cálculo",
+          "Valor"
+        ],
+        "linhas": [
+          [
+            "TDEE",
+            "Calculadora",
+            "2.500 kcal"
+          ],
+          [
+            "Calorias de cutting",
+            "-500 kcal",
+            "2.000 kcal"
+          ],
+          [
+            "Proteína",
+            "80kg × 2,2g = 176g",
+            "704 kcal"
+          ],
+          [
+            "Gordura",
+            "80kg × 0,9g = 72g",
+            "648 kcal"
+          ],
+          [
+            "Carboidrato",
+            "2000-704-648 = 648 kcal",
+            "162g"
+          ]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seus macros automaticamente!",
+        "botao": "Calculadora de Macros",
+        "link": "/calculadoras/macros"
+      }
+    ]
+  },
+  {
+    "slug": "macros-para-ganho-massa",
+    "titulo": "Macros Para Ganho de Massa: O Guia do Bulking Inteligente",
+    "descricao": "Distribuição ideal de macronutrientes para ganhar massa muscular com o mínimo de gordura. Proteína, carbo e gordura para hipertrofia.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "macros",
+      "bulking",
+      "massa muscular",
+      "hipertrofia",
+      "carboidrato"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/macros-massa.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Proteína**: 1,6-2,2g/kg (não precisa tanto quanto cutting)\n• **Gordura**: 0,8-1,2g/kg (hormônios + calorias)\n• **Carboidrato**: Principal combustível, coma MAIS\n• **Superávit**: 200-400 kcal acima do TDEE\n• **Foco**: Carboidrato alto para performance e recuperação"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Uma diferença crucial: em bulking, proteína continua importante, mas carboidrato se torna protagonista. Carbo é o que vai dar energia para treinar pesado e se recuperar."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Proteína: Importante, Mas Não Exagerada"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em superávit calórico, você não precisa de tanta proteína quanto em déficit. 1,6-2,0g/kg é suficiente para maximizar síntese proteica. Mais que isso não dá benefício extra."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Carboidrato: Seu Melhor Amigo"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Combustível para treino**: Glicogênio muscular = força e volume",
+          "**Recuperação**: Repõe glicogênio após treino",
+          "**Anabolismo**: Carboidrato poupa proteína para construir músculo",
+          "**Insulina**: Hormônio anabólico (no contexto certo)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Gordura: Moderada"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Gordura é caloria densa (9 kcal/g vs 4 kcal/g de carbo). Mantenha em 0,8-1,2g/kg - suficiente para hormônios sem ocupar tanto 'espaço calórico'."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo: Homem 75kg em Bulking"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Parâmetro",
+          "Cálculo",
+          "Valor"
+        ],
+        "linhas": [
+          [
+            "TDEE",
+            "Calculadora",
+            "2.400 kcal"
+          ],
+          [
+            "Calorias de bulk",
+            "+300 kcal",
+            "2.700 kcal"
+          ],
+          [
+            "Proteína",
+            "75kg × 1,8g = 135g",
+            "540 kcal"
+          ],
+          [
+            "Gordura",
+            "75kg × 1,0g = 75g",
+            "675 kcal"
+          ],
+          [
+            "Carboidrato",
+            "2700-540-675 = 1485 kcal",
+            "371g"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "💡 **Perceba**: O carbo é MUITO mais alto que no cutting. 371g de carbo = arroz, batata, macarrão, frutas, aveia. Isso é necessário para treinar e crescer."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seus macros para ganho de massa!",
+        "botao": "Calculadora de Macros",
+        "link": "/calculadoras/macros"
+      }
+    ]
   }
 ]
