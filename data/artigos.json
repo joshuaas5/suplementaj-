@@ -9699,5 +9699,607 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "bulking-calorias-superavit",
+    "titulo": "Bulking: Como Calcular Superávit Calórico Sem Engordar",
+    "descricao": "Guia completo de bulking limpo: aprenda a calcular o superávit ideal para ganhar massa muscular com o mínimo de gordura possível.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "bulking",
+      "superávit calórico",
+      "ganhar massa",
+      "hipertrofia",
+      "calorias"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/bulking.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Bulking** = Fase de superávit calórico para ganhar massa\n• **Superávit ideal**: 200-400 kcal acima do TDEE (lean bulk)\n• **Ganho esperado**: 0,5-1kg por mês (mais que isso é gordura)\n• **Proteína**: 1,6-2,2g por kg de peso\n• **Erro comum**: Comer 1000+ kcal a mais pensando que vai virar músculo\n• **Duração**: 4-6 meses, depois mini-cut de 4-8 semanas"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Bulking não é licença para comer pizza todo dia. Se você está ganhando mais de 1kg por mês, prepare-se para um cutting doloroso depois. Vamos aprender a fazer isso direito."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Lean Bulk vs Dirty Bulk"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Tipo",
+          "Superávit",
+          "Ganho/mês",
+          "Prós",
+          "Contras"
+        ],
+        "linhas": [
+          [
+            "Lean Bulk",
+            "200-400 kcal",
+            "0,5-1kg",
+            "Menos gordura, cutting fácil",
+            "Mais lento, requer paciência"
+          ],
+          [
+            "Dirty Bulk",
+            "800-1500+ kcal",
+            "2-4kg",
+            "Rápido, fácil",
+            "Muita gordura, cutting eterno"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Realidade**: Iniciantes ganham no MÁXIMO 8-12kg de músculo no primeiro ano com treino perfeito. Qualquer coisa além disso é gordura ou água."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Calcular Seu Superávit"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**1. Calcule seu TDEE** usando nossa calculadora",
+          "**2. Adicione 200-300 kcal** (iniciantes) ou 300-400 kcal (intermediários)",
+          "**3. Monitore semanalmente**: Se ganhar mais de 0,5% do peso por semana, reduza calorias",
+          "**4. Ajuste a cada 2-3kg ganhos**: Seu TDEE aumentou, recalcule"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo Prático: Homem 70kg"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Parâmetro",
+          "Valor"
+        ],
+        "linhas": [
+          [
+            "TDEE",
+            "2.400 kcal"
+          ],
+          [
+            "Superávit",
+            "+300 kcal"
+          ],
+          [
+            "Calorias de Bulk",
+            "2.700 kcal/dia"
+          ],
+          [
+            "Proteína",
+            "140g (2g/kg)"
+          ],
+          [
+            "Meta de ganho",
+            "0,5-0,7kg/mês"
+          ]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule seu TDEE e defina suas calorias de bulking!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Sinais de Que Você Está Ganhando Gordura Demais"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Ganho de mais de 1kg por mês consistentemente",
+          "Barriga crescendo mais rápido que músculos",
+          "Força no treino não está aumentando proporcionalmente",
+          "Roupas ficando apertadas na cintura (não nos ombros/peito)",
+          "Definição muscular desaparecendo rapidamente"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dieta-reversa-como-fazer",
+    "titulo": "Dieta Reversa: Como Voltar a Comer Normal Sem Engordar",
+    "descricao": "Terminou a dieta e tem medo do rebote? Aprenda a fazer dieta reversa corretamente e aumentar suas calorias sem acumular gordura.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "dieta reversa",
+      "pós-dieta",
+      "metabolismo",
+      "calorias",
+      "rebote"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/dieta-reversa.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Dieta Reversa** = Aumentar calorias gradualmente após um período de déficit\n• **Por quê**: Evita rebote e restaura metabolismo adaptado\n• **Como**: Adicione 50-100 kcal por semana até chegar no TDEE\n• **Duração**: 4-12 semanas dependendo do déficit anterior\n• **Resultado**: Manutenção do peso sem pular para 'dieta de emergência'"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você fez dieta por meses, perdeu peso, e agora morre de medo de voltar a comer normal e recuperar tudo. Esse medo é válido - mas a solução não é fazer dieta para sempre. A solução é a dieta reversa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Não Voltar a Comer Normal de Uma Vez?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Metabolismo adaptado**: Após semanas em déficit, seu corpo gasta menos calorias para as mesmas atividades",
+          "**Hormônios desregulados**: Leptina baixa (hormônio da saciedade) e grelina alta (fome)",
+          "**NEAT reduzido**: Você está inconscientemente se mexendo menos",
+          "**Resultado**: As calorias que eram 'manutenção' antes agora são superávit"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Fazer Dieta Reversa"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Semana",
+          "Ação",
+          "Exemplo (começando de 1500 kcal)"
+        ],
+        "linhas": [
+          [
+            "1",
+            "+50-100 kcal",
+            "1.550-1.600 kcal"
+          ],
+          [
+            "2",
+            "+50-100 kcal",
+            "1.600-1.700 kcal"
+          ],
+          [
+            "3",
+            "+50-100 kcal",
+            "1.700-1.800 kcal"
+          ],
+          [
+            "4",
+            "+50-100 kcal",
+            "1.800-1.900 kcal"
+          ],
+          [
+            "...",
+            "Continuar até TDEE",
+            "Meta: 1.900-2.100 kcal"
+          ]
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Adicione calorias preferencialmente em carboidratos (mais impacto na leptina) ou proteína. Mantenha gordura relativamente estável."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **Bônus**: Muitas pessoas descobrem que podem comer MAIS que antes da dieta e manter o peso, porque aumentaram massa muscular durante o processo."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Recalcule seu TDEE atual para saber sua meta de calorias de manutenção!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Sinais de Que a Dieta Reversa Está Funcionando"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Peso estável ou subindo muito lentamente (0,5kg por semana no máximo)",
+          "Energia e disposição aumentando",
+          "Performance no treino melhorando",
+          "Fome se normalizando (sem fome extrema)",
+          "Sono melhorando"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "refeed-day-como-fazer",
+    "titulo": "Refeed Day: O Que É e Como Fazer Sem Estragar a Dieta",
+    "descricao": "Aprenda o que é refeed day, quando usar, quanto comer e a diferença entre refeed e cheat day. Estratégia científica para não sabotar sua dieta.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "refeed",
+      "carboidrato",
+      "dieta",
+      "leptina",
+      "calorias"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/refeed.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Refeed Day** = Dia com calorias na manutenção ou acima, focado em CARBOIDRATOS\n• **Objetivo**: Aumentar leptina, reabastecer glicogênio, melhorar aderência\n• **Quando**: 1x por semana em déficit moderado, 2x se déficit agressivo\n• **Quanto**: Calorias na manutenção, carbo alto, gordura baixa\n• **Diferença de Cheat Day**: Refeed é PLANEJADO e CONTROLADO"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Cheat day é comer pizza, hambúrguer, sorvete e tudo mais até passar mal. Refeed day é estratégia científica. Não confunda os dois."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Refeed vs Cheat Day"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Aspecto",
+          "Refeed Day",
+          "Cheat Day"
+        ],
+        "linhas": [
+          [
+            "Planejado?",
+            "Sim, calculado",
+            "Não, impulsivo"
+          ],
+          [
+            "Calorias",
+            "Manutenção (+300-500 kcal)",
+            "Ilimitadas (2000+ extra)"
+          ],
+          [
+            "Foco",
+            "Carboidratos limpos",
+            "Qualquer coisa"
+          ],
+          [
+            "Gordura",
+            "Mantém baixa",
+            "Alta (fritura, fast food)"
+          ],
+          [
+            "Resultado",
+            "Benefício metabólico",
+            "Apenas psicológico (e culpa)"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como Montar Seu Refeed"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Calorias**: TDEE ou TDEE + 200-300 (nada de déficit)",
+          "**Carboidrato**: 4-6g por kg de peso (o dobro do normal)",
+          "**Proteína**: Mantém normal (1,6-2g por kg)",
+          "**Gordura**: Reduz para 0,3-0,5g por kg",
+          "**Escolhas**: Arroz, batata, macarrão, frutas, aveia (não pizza e sorvete)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Exemplo: Mulher 60kg em Refeed"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Macro",
+          "Dia Normal (Déficit)",
+          "Refeed Day"
+        ],
+        "linhas": [
+          [
+            "Calorias",
+            "1.400 kcal",
+            "1.800 kcal"
+          ],
+          [
+            "Carboidrato",
+            "120g",
+            "280g"
+          ],
+          [
+            "Proteína",
+            "130g",
+            "130g"
+          ],
+          [
+            "Gordura",
+            "50g",
+            "25g"
+          ]
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule suas calorias de manutenção para saber quanto comer no refeed!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quando Fazer Refeed"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Déficit moderado (300-500 kcal)**: 1x por semana",
+          "**Déficit agressivo (500+ kcal)**: 2x por semana",
+          "**Melhor dia**: Dia de treino intenso (usar os carbos)",
+          "**Sinais de que você precisa**: Fome extrema, irritabilidade, força despencando"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "erros-contagem-calorias",
+    "titulo": "7 Erros Que Você Comete ao Contar Calorias (E Não Sabe)",
+    "descricao": "Por que sua contagem de calorias está errada: os 7 erros mais comuns que sabotam sua dieta mesmo quando você acha que está fazendo tudo certo.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "calorias",
+      "contagem",
+      "erros",
+      "dieta",
+      "emagrecimento"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/erros-calorias.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Erro médio**: Pessoas subestimam 20-40% das calorias que comem\n• **Causas**: Não pesar comida, ignorar óleos, confiar em restaurantes\n• **Impacto**: 300-500 kcal/dia 'escondidas' = zero progresso\n• **Solução**: Pesar tudo por 1-2 semanas, aprender porções, ajustar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Você jura que está comendo 1.500 calorias por dia, mas não emagrece. Antes de culpar o metabolismo, veja se você está cometendo algum desses erros."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #1: Não Pesar a Comida"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "'Uma colher de pasta de amendoim' pode variar de 15g (90 kcal) a 40g (240 kcal) dependendo de como você enche a colher. Uma diferença de 150 kcal numa única colherada. Multiplique isso por várias refeições e você tem centenas de calorias não contabilizadas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #2: Ignorar Óleos e Temperos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "1 colher de sopa de azeite = 120 kcal. Aquele 'fio de azeite' na salada pode facilmente ser 2-3 colheres = 240-360 kcal que você não conta. Molhos de salada, manteiga para cozinhar, e aquele 'pouquinho' de óleo somam rápido."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #3: Comer 'Pouquinho' do Prato dos Outros"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Aquela 'provadinha' do prato do parceiro, uma batata frita do filho, um pedaço de bolo na festa... Cada uma pode ter 50-200 kcal. 3-4 provadas por dia = 150-800 kcal extras não contabilizadas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #4: Confiar em Informações de Restaurantes"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Estudos mostram que restaurantes subestimam calorias em 20-30% em média. Alguns pratos têm o DOBRO das calorias declaradas. Se come fora frequentemente, assuma que está comendo 20% a mais do que pensa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #5: Não Contar Bebidas"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Café com açúcar e leite: 50-100 kcal (3x ao dia = 150-300 kcal)",
+          "Suco de laranja natural: 110 kcal por copo",
+          "Cerveja: 150-200 kcal por lata",
+          "Refrigerante: 140 kcal por lata"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #6: Usar Peso Cozido vs Cru"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "100g de arroz CRU = 360 kcal. 100g de arroz COZIDO = 130 kcal. Se você pesa cozido mas coloca 'arroz' no app (que mostra cru), está contando 2-3x mais calorias. O mesmo vale para carnes (perdem água ao cozinhar)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erro #7: Fins de Semana 'Livres'"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "5 dias comendo 1.500 kcal + 2 dias comendo 3.000 kcal = média de 1.930 kcal/dia. Se seu TDEE é 1.800, você está em SUPERÁVIT, não déficit. Os fins de semana podem destruir toda a semana de esforço."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Recalcule suas calorias e comece do zero com os números corretos!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      }
+    ]
+  },
+  {
+    "slug": "calorias-manutencao-encontrar",
+    "titulo": "Como Encontrar Suas Calorias de Manutenção (Método Prático)",
+    "descricao": "Aprenda a descobrir quantas calorias você realmente gasta por dia usando um método prático de 2 semanas, sem depender só de calculadoras.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-01-27",
+    "categoria": "Nutrição",
+    "tags": [
+      "manutenção",
+      "calorias",
+      "tdee",
+      "peso",
+      "metabolismo"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/manutencao.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Calorias de manutenção** = Onde seu peso fica estável\n• **Método**: Comer consistente por 2 semanas + pesar diariamente\n• **Se peso estável**: Você encontrou a manutenção\n• **Se peso subindo**: Reduza 100-200 kcal e repita\n• **Se peso caindo**: Aumente 100-200 kcal e repita"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Calculadoras são ESTIMATIVAS. Seu metabolismo individual pode variar 10-15% para cima ou para baixo. A única forma de saber suas calorias reais é testando."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Método de 2 Semanas"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Semana 0**: Calcule seu TDEE estimado usando nossa calculadora",
+          "**Semanas 1-2**: Coma exatamente nesse valor, todos os dias, sem exceção",
+          "**Diariamente**: Pese-se de manhã, em jejum, após ir ao banheiro",
+          "**Fim da semana 2**: Compare a média dos últimos 7 dias com a média dos primeiros 7 dias"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Interpretando os Resultados"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Variação de peso",
+          "Significado",
+          "Ação"
+        ],
+        "linhas": [
+          [
+            "± 0,5kg",
+            "Você está na manutenção",
+            "Sucesso! Este é seu TDEE real"
+          ],
+          [
+            "+0,5 a 1kg",
+            "Leve superávit",
+            "Reduza 100-150 kcal e repita"
+          ],
+          [
+            "-0,5 a 1kg",
+            "Leve déficit",
+            "Aumente 100-150 kcal e repita"
+          ],
+          [
+            "+1kg ou mais",
+            "Superávit significativo",
+            "Reduza 250-300 kcal e repita"
+          ]
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Importante**: Variações de água podem mascarar resultados. Por isso precisa de 2 SEMANAS, não 2-3 dias. Mulheres devem considerar o ciclo menstrual (pesar na mesma fase do ciclo)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Isso é Melhor Que Só Calculadora?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Calculadoras usam médias populacionais, você é um indivíduo",
+          "Seu NEAT (atividade espontânea) é impossível de estimar com precisão",
+          "Histórico de dietas pode ter afetado seu metabolismo",
+          "Composição corporal (músculo vs gordura) afeta o gasto",
+          "Fatores como sono, estresse, e medicamentos não são considerados"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Comece o processo: calcule seu TDEE estimado como ponto de partida!",
+        "botao": "Calculadora de Calorias",
+        "link": "/calculadoras/calorias"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Fazer Depois de Encontrar Sua Manutenção"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Para emagrecer**: Subtraia 300-500 kcal deste número REAL",
+          "**Para ganhar massa**: Adicione 200-400 kcal",
+          "**Para manter**: Você já sabe exatamente quanto comer",
+          "**Recalcular**: A cada 3-5kg de mudança de peso, refaça o teste"
+        ]
+      }
+    ]
   }
 ]
