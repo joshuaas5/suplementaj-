@@ -11,7 +11,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <MultiplexAd />
       </div>
-      
+
       {/* Disclaimer Banner */}
       <div className="bg-pink-500 border-b-4 border-black py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,6 +84,16 @@ export function Footer() {
               <li>
                 <Link href="/privacidade" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
                   → Privacidade
+                </Link>
+              </li>
+              <li>
+                <Link href="/editorial" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → Política Editorial
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="text-gray-300 hover:text-yellow-400 text-sm font-bold uppercase transition-colors">
+                  → FAQ
                 </Link>
               </li>
             </ul>

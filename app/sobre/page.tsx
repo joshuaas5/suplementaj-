@@ -189,15 +189,41 @@ export default function SobrePage() {
               <CardTitle className="text-2xl sm:text-3xl">Transparência Total</CardTitle>
             </div>
           </CardHeader>
-          <CardContent>
-            <p className="text-black font-bold text-base sm:text-lg leading-relaxed mb-4">
+          <CardContent className="space-y-4">
+            <p className="text-black font-bold text-base sm:text-lg leading-relaxed">
               O Suplementa Já é desenvolvido por profissionais apaixonados por saúde e tecnologia. Nossa base de dados é
               constantemente atualizada com as últimas pesquisas científicas.
             </p>
+
+            <div className="bg-white border-4 border-black p-4">
+              <h4 className="font-black text-black uppercase mb-3">📋 Nossa Equipe Editorial</h4>
+              <ul className="text-black font-bold space-y-2 text-sm">
+                <li className="flex items-start gap-2">
+                  <span className="text-lime-600">✓</span>
+                  <span>Profissionais com formação em áreas da saúde</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-lime-600">✓</span>
+                  <span>Pesquisadores com experiência em revisão de literatura científica</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-lime-600">✓</span>
+                  <span>Compromisso com educação baseada em evidências</span>
+                </li>
+              </ul>
+            </div>
+
             <p className="text-black font-bold text-base sm:text-lg leading-relaxed">
               <strong>Fontes de Informação:</strong> Meta-análises, revisões sistemáticas, guidelines de organizações médicas
               (WHO, FDA, ANVISA), estudos randomizados controlados e consensos científicos internacionais.
             </p>
+
+            <Link
+              href="/editorial"
+              className="inline-flex items-center gap-2 bg-black text-cyan-400 px-4 py-2 font-black uppercase hover:bg-gray-900 transition-colors"
+            >
+              📋 Ver Nossa Política Editorial Completa →
+            </Link>
           </CardContent>
         </Card>
 

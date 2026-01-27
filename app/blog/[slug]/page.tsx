@@ -242,6 +242,26 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               {artigo.tempo_leitura} de leitura
             </div>
           </div>
+
+          {/* Trust Box - E-E-A-T Signals */}
+          <div className="mt-6 bg-lime-100 border-2 border-lime-500 p-4 rounded-none">
+            <div className="flex flex-wrap items-center gap-4 text-sm">
+              <div className="flex items-center gap-2 text-black font-bold">
+                <span className="text-lime-600">✓</span>
+                <span>Atualizado em {new Date(artigo.data).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</span>
+              </div>
+              <div className="flex items-center gap-2 text-black font-bold">
+                <span className="text-lime-600">✓</span>
+                <span>Revisado por {artigo.autor}</span>
+              </div>
+              <Link
+                href="/editorial"
+                className="flex items-center gap-1 text-lime-700 font-bold hover:underline ml-auto"
+              >
+                📋 Ver nossa política editorial
+              </Link>
+            </div>
+          </div>
         </div>
 
         {/* Anúncio no topo (antes do artigo) */}
@@ -281,7 +301,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             })
             .filter((item) => item !== null)
             .slice(0, 3) as Array<{ type: 'nutriente'; slug: string; titulo: string; descricao: string; categoria: string }>
-          
+
           return nutrientesRelacionados.length > 0 ? (
             <RelatedContent
               items={nutrientesRelacionados}
@@ -349,7 +369,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
   switch (bloco.tipo) {
     case 'paragrafo':
       return (
-        <p 
+        <p
           className="text-black font-medium leading-relaxed mb-6"
           dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
         />
@@ -360,7 +380,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
         return (
           <div className="mt-12 mb-6">
             <div className="bg-black px-6 py-3 inline-block border-2 border-black sm:-rotate-1">
-              <h2 
+              <h2
                 className="text-2xl sm:text-3xl font-black text-yellow-400 uppercase"
                 dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
               />
@@ -369,7 +389,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
         )
       }
       return (
-        <h3 
+        <h3
           className="text-xl sm:text-2xl font-black text-black uppercase mt-8 mb-4 border-l-4 border-black pl-4"
           dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
         />
@@ -438,7 +458,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       return (
         <Card className="bg-yellow-400 my-8">
           <CardContent className="p-8 text-center">
-            <p 
+            <p
               className="text-black font-bold text-lg mb-6"
               dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
             />
