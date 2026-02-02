@@ -12021,5 +12021,956 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "creatina-faz-mal",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
+    "titulo": "Creatina Faz Mal? Os 7 Mitos Desmentidos pela Ciência",
+    "descricao": "Creatina faz mal para os rins? Causa queda de cabelo? Sobrecarrega o fígado? Veja o que mais de 500 estudos científicos dizem sobre a segurança da creatina.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "creatina faz mal",
+      "segurança creatina",
+      "efeitos colaterais creatina",
+      "mitos creatina"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/creatina-seguranca.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESPOSTA RÁPIDA:**\n\n• **Creatina faz mal para rins saudáveis?** NÃO ❌\n• **Causa queda de cabelo?** Evidência fraca, improvável ❌\n• **Sobrecarrega o fígado?** NÃO ❌\n• **É segura a longo prazo?** SIM, estudos de até 5 anos confirmam ✅\n• **Quem deve evitar**: Apenas pessoas com doença renal pré-existente"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A creatina é o suplemento mais estudado da história, com mais de 500 estudos científicos publicados. Mesmo assim, mitos sobre sua segurança persistem. Vamos analisar cada um deles com base em evidências."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 1: Creatina Faz Mal Para os Rins"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é o mito mais popular e também o mais infundado. Veja o que a ciência diz:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Estudos de até 5 anos** não encontraram danos renais em pessoas saudáveis",
+          "A creatina aumenta a **creatinina sérica** (um marcador), mas isso NÃO indica dano renal",
+          "A ISSN (International Society of Sports Nutrition) considera a creatina **segura** para rins saudáveis",
+          "Atletas de elite usam creatina há décadas sem problemas renais"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Exceção importante**: Pessoas com doença renal crônica ou insuficiência renal devem consultar um nefrologista antes de usar creatina."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 2: Creatina Causa Queda de Cabelo"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este mito surgiu de UM único estudo de 2009 com jogadores de rugby. O estudo mostrou aumento de DHT (hormônio ligado à calvície), mas:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "O estudo tinha apenas 20 participantes",
+          "Nenhum participante relatou queda de cabelo real",
+          "Nenhum estudo posterior conseguiu replicar os resultados",
+          "Milhões de pessoas usam creatina sem relatos de calvície acelerada"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "**Veredicto**: A evidência é muito fraca. Se você já tem predisposição genética à calvície, a creatina provavelmente não vai fazer diferença significativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 3: Creatina Sobrecarrega o Fígado"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Falso. A creatina é metabolizada principalmente nos músculos e rins, não no fígado. Estudos de longo prazo não encontraram alterações em marcadores hepáticos (TGO, TGP, GGT) com uso de creatina."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 4: Creatina Causa Câimbras e Desidratação"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Pelo contrário! Estudos mostram que a creatina pode:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Reduzir** a incidência de câimbras em atletas",
+          "**Melhorar** a termorregulação durante exercício",
+          "**Não aumentar** o risco de lesões musculares"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A recomendação de beber mais água com creatina é sensata, mas não porque ela desidrata - é porque músculos mais hidratados funcionam melhor."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 5: Creatina é um Esteroide"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Completamente falso. A creatina:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "É um composto natural produzido pelo corpo humano",
+          "Está presente em carnes e peixes",
+          "NÃO é hormônio nem anabolizante",
+          "NÃO é proibida por nenhuma agência antidoping (WADA, COI, etc.)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 6: Só Funciona Para Homens Jovens"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Falso. Estudos mostram benefícios da creatina para:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Mulheres**: Mesmos benefícios de força e massa muscular",
+          "**Idosos**: Ajuda a combater sarcopenia (perda muscular com idade)",
+          "**Vegetarianos**: Benefícios ainda maiores (têm menos creatina naturalmente)",
+          "**Crianças com condições neuromusculares**: Uso terapêutico estudado"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Mito 7: Precisa Ciclar Para Evitar Problemas"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não há evidência científica que justifique ciclar creatina. O uso contínuo é seguro e mais eficaz. Seu corpo não desenvolve 'tolerância' e a produção natural não é afetada permanentemente."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Efeitos Colaterais Reais (Leves)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em doses normais (3-5g/dia), efeitos colaterais são raros. Os mais reportados:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Desconforto gastrointestinal**: Geralmente quando tomada em dose única alta ou sem comida",
+          "**Ganho de peso**: 1-2kg de água intramuscular (não é gordura)",
+          "**Inchaço inicial**: Temporário, nas primeiras semanas"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **Dica**: Para minimizar desconforto estomacal, divida a dose ao longo do dia ou tome com refeições."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Quem Realmente Deve Evitar Creatina"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Pessoas com doença renal crônica (consultar médico)",
+          "Pessoas com insuficiência renal",
+          "Quem toma medicamentos que afetam os rins (consultar médico)"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber a dose ideal para você?",
+        "botao": "Calculadora de Creatina",
+        "link": "/calculadoras/creatina"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Leitura Recomendada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar)",
+          "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026)"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "creatina-para-mulheres",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa",
+      "emagrecimento"
+    ],
+    "titulo": "Creatina Para Mulheres: Tudo Que Você Precisa Saber",
+    "descricao": "Creatina para mulheres: funciona igual? Causa inchaço? Engorda? Veja os benefícios específicos e como usar corretamente.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "creatina para mulheres",
+      "suplementos femininos",
+      "treino feminino"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/creatina-mulheres.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESPOSTA RÁPIDA:**\n\n• **Creatina funciona para mulheres?** SIM, igualmente ✅\n• **Causa masculinização?** NÃO ❌\n• **Dose recomendada**: 3-5g/dia (igual aos homens)\n• **Causa inchaço?** Não, músculos mais definidos\n• **Benefícios extras**: Pode ajudar no ciclo menstrual e menopausa"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Muitas mulheres evitam creatina por medo de 'ficar grande' ou 'masculina'. A verdade é que esse suplemento pode ser uma das melhores escolhas para mulheres que treinam. Veja por quê."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que Creatina é Excelente Para Mulheres"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Mulheres têm 70-80% menos creatina muscular** que homens naturalmente",
+          "Isso significa que os benefícios relativos podem ser MAIORES",
+          "A creatina NÃO é hormônio e NÃO causa efeitos masculinizantes",
+          "Não interfere com anticoncepcionais ou hormônios femininos"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefícios Específicos Para Mulheres"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Força e tonificação**: Músculos mais definidos, não 'grandes'",
+          "**Metabolismo**: Mais músculo = mais calorias queimadas em repouso",
+          "**Humor e cognição**: Estudos mostram melhora em mulheres na pós-menopausa",
+          "**Densidade óssea**: Importante para prevenção de osteoporose",
+          "**TPM e ciclo menstrual**: Alguns estudos sugerem benefícios"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina Vai Me Deixar Inchada?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não! A retenção de água da creatina é INTRAMUSCULAR (dentro do músculo), não subcutânea. O resultado visual é:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Músculos mais cheios e tonificados",
+          "Aparência mais atlética",
+          "Definição muscular MELHORADA, não piorada"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dosagem Para Mulheres"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A dose é a mesma dos homens: **3-5g por dia**. Mulheres menores podem usar 3g, mulheres maiores ou mais ativas podem usar 5g."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule sua dose ideal",
+        "botao": "Calculadora de Creatina",
+        "link": "/calculadoras/creatina"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Leitura Recomendada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar)",
+          "[Creatina Engorda? Mito Desmentido](/blog/creatina-engorda)"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "creatina-para-idosos",
+    "objetivos": [
+      "performance",
+      "imunidade"
+    ],
+    "titulo": "Creatina Para Idosos: Benefícios Surpreendentes Além da Academia",
+    "descricao": "Creatina para pessoas acima de 50, 60, 70 anos: combate sarcopenia, melhora cognição e qualidade de vida. Veja as evidências científicas.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "creatina para idosos",
+      "sarcopenia",
+      "saúde do idoso",
+      "suplementos terceira idade"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/creatina-idosos.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO:**\n\n• **Creatina é segura para idosos?** SIM ✅\n• **Benefício principal**: Combate sarcopenia (perda muscular)\n• **Dose**: 3-5g/dia (igual adultos jovens)\n• **Bônus**: Pode melhorar memória e função cognitiva\n• **Consultar médico**: Se tiver doença renal"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A creatina não é só para jovens na academia. Pesquisas mostram benefícios surpreendentes para pessoas acima de 50, 60 e até 70+ anos."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Problema: Sarcopenia"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A partir dos 30 anos, perdemos cerca de 3-8% de massa muscular por década. Após os 60, essa perda acelera. Isso se chama sarcopenia e está ligada a:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Quedas e fraturas",
+          "Perda de independência",
+          "Menor qualidade de vida",
+          "Maior risco de hospitalizações"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como a Creatina Ajuda"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Aumenta força muscular** em idosos que fazem exercício resistido",
+          "**Melhora capacidade funcional**: Levantar, subir escadas, carregar objetos",
+          "**Protege massa muscular** durante períodos de imobilização",
+          "**Pode melhorar memória e cognição** em idosos"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina e Cérebro"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O cérebro também usa creatina para energia. Estudos em idosos mostram:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Melhora em testes de memória de curto prazo",
+          "Melhor desempenho em tarefas cognitivas",
+          "Possível efeito neuroprotetor"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "💡 **Importante**: A creatina NÃO substitui exercício físico. Os maiores benefícios vêm da combinação creatina + treino resistido."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dosagem e Segurança"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Dose: 3-5g/dia (igual adultos jovens)",
+          "Segura para rins saudáveis",
+          "Consultar médico se tiver doença renal ou cardíaca",
+          "Não interfere com medicamentos comuns"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Calcule sua dose ideal",
+        "botao": "Calculadora de Creatina",
+        "link": "/calculadoras/creatina"
+      }
+    ]
+  },
+  {
+    "slug": "creatina-para-que-serve",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
+    "titulo": "Creatina: Para Que Serve? Guia Completo de Benefícios",
+    "descricao": "Para que serve a creatina? Entenda todos os benefícios comprovados: força, massa muscular, recuperação, cognição e mais.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "para que serve creatina",
+      "benefícios creatina",
+      "creatina funciona"
+    ],
+    "tempo_leitura": "9 min",
+    "imagem": "/images/blog/creatina-beneficios.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Força**: +5-15% em exercícios de alta intensidade\n• **Massa muscular**: +1-2kg nas primeiras semanas (água) + ganhos reais\n• **Recuperação**: Reduz dano muscular pós-treino\n• **Cognição**: Pode melhorar memória e foco\n• **Quem se beneficia**: Praticantes de musculação, crossfit, esportes explosivos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A creatina é o suplemento esportivo mais estudado e eficaz do mundo. Mas afinal, para que ela realmente serve? Vamos explorar todos os benefícios comprovados pela ciência."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que é Creatina?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A creatina é um composto natural formado por 3 aminoácidos (arginina, glicina e metionina). Seu corpo produz cerca de 1g por dia, e você obtém mais 1-2g pela alimentação (carnes e peixes)."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefício 1: Mais Força e Potência"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Este é o benefício principal e mais comprovado:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Aumento de 5-15%** em exercícios de alta intensidade",
+          "Mais repetições com o mesmo peso",
+          "Maior carga máxima (1RM)",
+          "Melhor desempenho em sprints e movimentos explosivos"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefício 2: Ganho de Massa Muscular"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Efeito imediato**: +1-2kg de água intramuscular (músculos mais cheios)",
+          "**Efeito a longo prazo**: Permite treinar mais intenso = mais hipertrofia",
+          "Estudos mostram ganhos superiores vs placebo ao longo de meses"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefício 3: Recuperação Melhorada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Reduz marcadores de dano muscular pós-treino",
+          "Menor dor muscular tardia (DOMS)",
+          "Recuperação mais rápida entre sessões"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Benefício 4: Função Cognitiva"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O cérebro também usa ATP (energia de fosfocreatina). Estudos mostram:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Melhora em tarefas de memória de curto prazo",
+          "Maior foco em condições de estresse ou privação de sono",
+          "Possíveis benefícios para vegetarianos (que têm menos creatina naturalmente)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Para Quem a Creatina Funciona Melhor?"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Musculação e hipertrofia**: EXCELENTE",
+          "**CrossFit e HIIT**: EXCELENTE",
+          "**Esportes explosivos (futebol, basquete)**: EXCELENTE",
+          "**Corrida de longa distância**: Benefício menor",
+          "**Sedentários**: Funciona, mas benefícios são maiores com exercício"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Pronto para começar? Veja como tomar corretamente:",
+        "botao": "Guia: Como Tomar Creatina",
+        "link": "/blog/creatina-como-tomar"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Leitura Recomendada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026)",
+          "[Calculadora de Creatina](/calculadoras/creatina)"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "melhor-marca-creatina-brasil",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
+    "titulo": "Melhor Marca de Creatina no Brasil 2026: Ranking Atualizado",
+    "descricao": "Qual a melhor creatina do Brasil? Comparativo das principais marcas: Creapure, Growth, Integral Médica, Max Titanium e mais.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "melhor creatina",
+      "creatina brasil",
+      "creapure",
+      "ranking creatina"
+    ],
+    "tempo_leitura": "8 min",
+    "imagem": "/images/blog/melhor-creatina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **TOP 3 RÁPIDO:**\n\n1. 🥇 **Creapure (qualquer marca)**: Padrão ouro, pureza garantida\n2. 🥈 **Growth Creatina**: Excelente custo-benefício nacional\n3. 🥉 **Integral Médica**: Tradição e confiança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com tantas marcas de creatina no mercado brasileiro, qual escolher? Este ranking considera: pureza, certificações, custo-benefício e reputação."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Procurar em Uma Creatina"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Tipo**: Creatina Monohidratada (única com centenas de estudos)",
+          "**Pureza**: Quanto mais pura, melhor (idealmente 99.9%+)",
+          "**Selo Creapure**: Garante produção na Alemanha com rigoroso controle",
+          "**Sem aditivos**: Creatina pura não precisa de saborizantes ou açúcar"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Ranking: Melhores Creatinas do Brasil 2026"
+      },
+      {
+        "tipo": "tabela",
+        "cabecalho": [
+          "Posição",
+          "Marca",
+          "Tipo",
+          "Preço Médio/kg",
+          "Avaliação"
+        ],
+        "linhas": [
+          [
+            "🥇 1º",
+            "Creapure (várias marcas)",
+            "Monohidratada Alemã",
+            "R$150-200",
+            "⭐⭐⭐⭐⭐"
+          ],
+          [
+            "🥈 2º",
+            "Growth Creatina",
+            "Monohidratada",
+            "R$80-100",
+            "⭐⭐⭐⭐⭐"
+          ],
+          [
+            "🥉 3º",
+            "Integral Médica",
+            "Monohidratada",
+            "R$90-120",
+            "⭐⭐⭐⭐"
+          ],
+          [
+            "4º",
+            "Max Titanium",
+            "Monohidratada",
+            "R$100-130",
+            "⭐⭐⭐⭐"
+          ],
+          [
+            "5º",
+            "Probiótica",
+            "Monohidratada",
+            "R$80-100",
+            "⭐⭐⭐⭐"
+          ],
+          [
+            "6º",
+            "Atlhetica Nutrition",
+            "Monohidratada",
+            "R$100-120",
+            "⭐⭐⭐⭐"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "1º Lugar: Creapure"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Creapure não é uma marca, mas uma **matéria-prima** alemã com 99.99% de pureza. Várias marcas brasileiras e internacionais usam Creapure. Se o rótulo diz 'Creapure', você tem garantia de qualidade máxima."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "2º Lugar: Growth Creatina"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Marca brasileira com excelente reputação e preço competitivo. Não usa Creapure, mas tem boas análises de qualidade. Melhor custo-benefício para quem quer economizar."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Dica: Onde Comprar"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Sites oficiais das marcas (evitar falsificações)",
+          "Amazon Brasil (vendedor oficial)",
+          "Netshoes",
+          "Lojas de suplementos com boa reputação"
+        ]
+      },
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "⚠️ **Cuidado com preços muito baixos**: Creatina adulterada ou vencida é problema real no Brasil. Compre de fontes confiáveis."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Já escolheu sua creatina? Veja como tomar:",
+        "botao": "Guia: Como Tomar Creatina",
+        "link": "/blog/creatina-como-tomar"
+      }
+    ]
+  },
+  {
+    "slug": "creatina-monohidratada-vs-outras",
+    "objetivos": [
+      "performance",
+      "ganho-de-massa"
+    ],
+    "titulo": "Creatina Monohidratada vs HCL vs Alcalina: Qual a Melhor?",
+    "descricao": "Creatina monohidratada, HCL, éster etílico ou alcalina? Comparativo científico de todas as formas de creatina disponíveis.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "creatina monohidratada",
+      "creatina hcl",
+      "kre-alkalyn",
+      "tipos de creatina"
+    ],
+    "tempo_leitura": "7 min",
+    "imagem": "/images/blog/tipos-creatina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESPOSTA RÁPIDA:**\n\n• **Melhor forma**: Creatina Monohidratada ✅\n• **Outras formas funcionam?**: Sim, mas sem vantagens comprovadas\n• **Por que monohidratada?**: 500+ estudos, mais barata, mais eficaz\n• **Evitar**: Formas 'revolucionárias' sem estudos"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O mercado está cheio de 'novas formas' de creatina prometendo absorção superior. Mas será que valem o preço extra? Vamos analisar com base em ciência."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Comparativo: Todas as Formas de Creatina"
+      },
+      {
+        "tipo": "tabela",
+        "cabecalho": [
+          "Forma",
+          "Estudos",
+          "Eficácia vs Mono",
+          "Preço",
+          "Veredicto"
+        ],
+        "linhas": [
+          [
+            "Monohidratada",
+            "500+",
+            "Padrão ouro",
+            "$$",
+            "✅ MELHOR ESCOLHA"
+          ],
+          [
+            "HCL (Hidrocloreto)",
+            "Poucos",
+            "Igual ou inferior",
+            "$$$",
+            "⚠️ Sem vantagem"
+          ],
+          [
+            "Kre-Alkalyn",
+            "Poucos",
+            "Igual ou inferior",
+            "$$$",
+            "⚠️ Marketing"
+          ],
+          [
+            "Éster Etílico",
+            "Alguns",
+            "INFERIOR",
+            "$$$",
+            "❌ Evitar"
+          ],
+          [
+            "Líquida",
+            "Poucos",
+            "INFERIOR (degrada)",
+            "$$$$",
+            "❌ Evitar"
+          ],
+          [
+            "Micronizada",
+            "Muitos",
+            "IGUAL (é mono)",
+            "$$",
+            "✅ Boa opção"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina Monohidratada"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Forma mais estudada (500+ estudos)",
+          "Eficácia comprovada repetidamente",
+          "Segurança bem estabelecida",
+          "Mais barata que alternativas",
+          "Única desvantagem: solubilidade menor (resolve com micronizada)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina HCL"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Marketing diz: 'melhor absorção, menor dose necessária'. Realidade: Estudos não confirmam vantagem sobre monohidratada. Você paga mais pelo mesmo resultado."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Kre-Alkalyn (Creatina Alcalina)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Marketing diz: 'não se degrada no estômago'. Realidade: A monohidratada também não se degrada significativamente. Estudos comparativos não mostram vantagem."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Creatina Éster Etílico"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Esta é a pior opção. Estudos mostram que se converte em creatinina (inútil) mais rápido que monohidratada. Eficácia comprovadamente INFERIOR."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Compre creatina monohidratada** - é a melhor e mais barata",
+          "**Micronizada** é só mono com partículas menores - boa opção",
+          "**Creapure** é mono alemã premium - vale se quiser garantia extra",
+          "**Outras formas** são marketing - não desperdice dinheiro"
+        ]
+      },
+      {
+        "tipo": "cta",
+        "texto": "Escolheu monohidratada? Veja como usar:",
+        "botao": "Guia: Como Tomar Creatina",
+        "link": "/blog/creatina-como-tomar"
+      }
+    ]
+  },
+  {
+    "slug": "creatina-e-cafe",
+    "objetivos": [
+      "performance"
+    ],
+    "titulo": "Creatina e Café: Pode Tomar Junto? A Ciência Responde",
+    "descricao": "Creatina e cafeína juntos: um anula o outro? Descubra o que os estudos dizem sobre combinar creatina com café ou pré-treino.",
+    "autor": "Equipe Suplementa Já",
+    "data": "2026-02-02",
+    "categoria": "Suplementos",
+    "tags": [
+      "creatina",
+      "cafeína",
+      "creatina e café",
+      "pré-treino",
+      "creatina cafeína"
+    ],
+    "tempo_leitura": "6 min",
+    "imagem": "/images/blog/creatina-cafeina.jpg",
+    "conteudo": [
+      {
+        "tipo": "alerta",
+        "variante": "warning",
+        "texto": "📋 **RESPOSTA RÁPIDA:**\n\n• **Pode tomar junto?** SIM ✅\n• **Um anula o outro?** Provavelmente NÃO (evidência fraca contra)\n• **Precaução**: Mantenha-se bem hidratado\n• **Recomendação**: Pode combinar sem preocupação"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Essa é uma dúvida clássica: 'Posso tomar meu café de manhã e creatina depois?' ou 'Meu pré-treino tem cafeína, vai atrapalhar a creatina?'. Vamos analisar as evidências."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "De Onde Veio Esse Mito?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em 1996, um estudo belga sugeriu que a cafeína poderia bloquear os efeitos ergogênicos da creatina. Esse estudo gerou o mito que persiste até hoje."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O Que Estudos Mais Recentes Dizem"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Estudos posteriores **não confirmaram** o efeito negativo",
+          "A combinação creatina + cafeína **não prejudica** os ganhos de força",
+          "Alguns estudos mostram **benefícios aditivos** (cada um funciona independente)",
+          "A maioria dos pré-treinos combina os dois sem problemas"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Por Que a Preocupação Não Faz Sentido"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "A creatina funciona por **saturação muscular** (dias/semanas)",
+          "A cafeína funciona por **efeito agudo** (minutos/horas)",
+          "São mecanismos completamente diferentes",
+          "Milhões de atletas usam os dois juntos há décadas"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Única Precaução Real"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Tanto creatina quanto cafeína podem aumentar a necessidade de hidratação. Se você consome os dois:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Beba bastante água (2-3L por dia mínimo)",
+          "Monitore cor da urina (deve ser clara)",
+          "Não exagere na cafeína (400mg/dia máximo)"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Conclusão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Pode tomar seu café de manhã tanquilamente. Pode usar pré-treino com cafeína. A creatina vai continuar funcionando normalmente. Mantenha-se hidratado e aproveite os benefícios dos dois."
+      },
+      {
+        "tipo": "cta",
+        "texto": "Quer saber mais sobre creatina?",
+        "botao": "Guia Completo de Creatina",
+        "link": "/blog/guia-completo-creatina-2026"
+      }
+    ]
   }
 ]
