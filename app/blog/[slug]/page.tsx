@@ -396,27 +396,29 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       )
 
     case 'lista':
+      const ListTag = bloco.ordenada ? 'ol' : 'ul'
       return (
-        <ul className="space-y-3 mb-6">
+        <ListTag className="space-y-3 mb-6">
           {bloco.itens.map((item, i) => (
             <li key={i} className="flex items-start gap-3 bg-white border-2 border-black p-4">
-              <span className="text-black font-black mt-1">•</span>
+              <span className="text-black font-black mt-1">{bloco.ordenada ? `${i + 1}.` : '•'}</span>
               <span
                 className="text-black font-bold flex-1"
                 dangerouslySetInnerHTML={{ __html: formatMarkdown(item) }}
               />
             </li>
           ))}
-        </ul>
+        </ListTag>
       )
 
     case 'tabela':
+      const cabecalho = bloco.cabecalho || bloco.colunas || []
       return (
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-4 border-black">
             <thead>
               <tr className="bg-lime-400">
-                {bloco.colunas.map((col, i) => (
+                {cabecalho.map((col, i) => (
                   <th
                     key={i}
                     className="border-2 border-black px-4 py-3 text-left font-black text-black uppercase"
@@ -472,6 +474,22 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
             </Link>
           </CardContent>
         </Card>
+      )
+
+    case 'faq':
+      return (
+        <div className="space-y-4 mb-8">
+          {bloco.perguntas?.map((faq, i) => (
+            <details key={i} className="bg-white border-4 border-black group">
+              <summary className="bg-cyan-400 p-4 font-black text-black cursor-pointer hover:bg-cyan-300 transition-colors">
+                {faq.pergunta}
+              </summary>
+              <div className="p-4 border-t-2 border-black">
+                <p className="text-black font-bold" dangerouslySetInnerHTML={{ __html: formatMarkdown(faq.resposta) }} />
+              </div>
+            </details>
+          ))}
+        </div>
       )
 
     default:

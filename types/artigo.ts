@@ -15,7 +15,9 @@ export interface Artigo {
 export type BlocoConteudo =
   | { tipo: 'paragrafo'; texto: string }
   | { tipo: 'heading'; nivel: 2 | 3; texto: string }
-  | { tipo: 'lista'; itens: string[] }
-  | { tipo: 'tabela'; colunas: string[]; linhas: string[][] }
+  | { tipo: 'lista'; itens: string[]; ordenada?: boolean }
+  | { tipo: 'tabela'; colunas?: string[]; cabecalho?: string[]; linhas: string[][] }
   | { tipo: 'alerta'; variante: 'info' | 'warning' | 'danger'; texto: string }
   | { tipo: 'cta'; texto: string; botao?: string; textoBotao?: string; descricao?: string; link: string }
+  | { tipo: 'faq'; perguntas: Array<{ pergunta: string; resposta: string }> }
+
