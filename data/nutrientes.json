@@ -4846,173 +4846,6 @@
       "amazon": []
     }
   },
-  "glutamina": {
-    "slug": "glutamina",
-    "objetivos": [
-      "imunidade",
-      "ganho-de-massa"
-    ],
-    "nome": "Glutamina",
-    "nome_cientifico": "L-Glutamine",
-    "categoria": "outro",
-    "subcategoria": "aminoácido",
-    "emoji": "🏋️",
-    "descricao_curta": "Aminoácido crucial para intestino, imunidade e recuperação muscular",
-    "descricao_longa": "A glutamina é o aminoácido mais abundante no corpo. É combustível primário para células intestinais e imunológicas, essencial para integridade intestinal, função imune e recuperação muscular pós-treino.",
-    "funcoes_corporais": [
-      "Combustível para enterócitos (células intestinais)",
-      "Integridade da barreira intestinal",
-      "Função imunológica",
-      "Síntese proteica e recuperação muscular",
-      "Balanço ácido-base",
-      "Precursor de glutationa (antioxidante)"
-    ],
-    "fontes_alimentares": [
-      {
-        "alimento": "Carne bovina (100g)",
-        "quantidade": 1200,
-        "unidade": "mg",
-        "percentual_vd": 0
-      },
-      {
-        "alimento": "Frango (100g)",
-        "quantidade": 1100,
-        "unidade": "mg",
-        "percentual_vd": 0
-      },
-      {
-        "alimento": "Peixe (100g)",
-        "quantidade": 1000,
-        "unidade": "mg",
-        "percentual_vd": 0
-      },
-      {
-        "alimento": "Ovos (1 unidade)",
-        "quantidade": 650,
-        "unidade": "mg",
-        "percentual_vd": 0
-      },
-      {
-        "alimento": "Tofu (100g)",
-        "quantidade": 600,
-        "unidade": "mg",
-        "percentual_vd": 0
-      }
-    ],
-    "dosagem": {
-      "rda": {
-        "adultos": {
-          "valor": 0,
-          "unidade": "g",
-          "nota": "Não essencial - o corpo produz"
-        }
-      },
-      "suplementacao_preventiva": {
-        "min": 5,
-        "max": 10,
-        "unidade": "g",
-        "nota": "Para saúde intestinal e imunidade"
-      },
-      "suplementacao_terapeutica": {
-        "min": 10,
-        "max": 30,
-        "unidade": "g",
-        "nota": "Para síndrome do intestino permeável, pós-cirurgia"
-      },
-      "limite_superior": null,
-      "nota_limite": "Doses até 40g/dia são seguras"
-    },
-    "deficiencia": {
-      "prevalencia": "Comum em estresse metabólico severo",
-      "sintomas": [
-        "Intestino permeável (leaky gut)",
-        "Imunidade comprometida",
-        "Recuperação lenta",
-        "Perda muscular"
-      ],
-      "causas": [
-        "Exercício intenso prolongado",
-        "Cirurgia/trauma",
-        "Infecção",
-        "Doença inflamatória intestinal"
-      ]
-    },
-    "excesso": {
-      "toxicidade": "Muito baixa",
-      "sintomas": [],
-      "nota": "Muito segura mesmo em doses altas"
-    },
-    "interacoes": {
-      "medicamentos": [],
-      "nutrientes_sinergicos": [
-        "Probióticos",
-        "Zinco"
-      ],
-      "nutrientes_antagonistas": []
-    },
-    "formas_suplemento": [
-      {
-        "forma": "L-Glutamina",
-        "descricao": "Forma livre padrão",
-        "vantagens": [
-          "Bem absorvida",
-          "Eficaz"
-        ],
-        "desvantagens": []
-      }
-    ],
-    "evidencias": [
-      {
-        "id": "ref-glutamina-001",
-        "titulo": "Glutamine and the regulation of intestinal permeability: from bench to bedside",
-        "autores": "Zuhl M, Schneider S, Lanphere K, Conn C, Dokladny K, Moseley P",
-        "ano": 2014,
-        "tipo": "Estudo clínico randomizado",
-        "revista": "Current Opinion in Clinical Nutrition & Metabolic Care",
-        "conclusao": "A glutamina é crítica para manutenção da integridade da barreira intestinal, reduzindo a permeabilidade intestinal e prevenindo translocação bacteriana",
-        "citacao_chave": "Suplementação de glutamina (10-15g/dia) reduziu a permeabilidade intestinal (leaky gut) em 50% em atletas submetidos a exercício intenso prolongado, medido por teste de lactulose/manitol",
-        "doi": "10.1097/MCO.0000000000000087",
-        "pmid": "25105995"
-      },
-      {
-        "id": "ref-glutamina-002",
-        "titulo": "Glutamine supplementation in serious illness: a systematic review of the evidence",
-        "autores": "Novak F, Heyland DK, Avenell A, Drover JW, Su X",
-        "ano": 2002,
-        "tipo": "Meta-análise",
-        "revista": "Critical Care Medicine",
-        "conclusao": "A glutamina é essencial para função imunológica, especialmente para proliferação de linfócitos e produção de citocinas, com benefícios significativos em pacientes críticos",
-        "citacao_chave": "Pacientes críticos suplementados com glutamina (0.3-0.5g/kg/dia) apresentaram 34% de redução em infecções hospitalares e 10% de redução na mortalidade",
-        "doi": "10.1097/00003246-200203000-00011",
-        "pmid": "11890808"
-      },
-      {
-        "id": "ref-glutamina-003",
-        "titulo": "Effects of oral glutamine supplementation on exercise-induced gastrointestinal permeability and tight junction protein expression",
-        "autores": "Pugh JN, Impey SG, Doran DA, Fleming SC, Morton JP, Close GL",
-        "ano": 2017,
-        "tipo": "Estudo clínico randomizado duplo-cego",
-        "revista": "Journal of Applied Physiology",
-        "conclusao": "A glutamina previne o aumento da permeabilidade intestinal induzida por exercício e preserva a expressão de proteínas de junção celular tight junction, cruciais para integridade intestinal",
-        "citacao_chave": "Suplementação de 0.25g/kg de glutamina (aproximadamente 20g para um adulto de 80kg) antes do exercício preveniu completamente o aumento de zonulina e LPS circulantes, marcadores de permeabilidade intestinal",
-        "doi": "10.1152/japplphysiol.00474.2016",
-        "pmid": "27660297"
-      }
-    ],
-    "seo": {
-      "meta_title": "Glutamina: Benefícios para Intestino e Imunidade",
-      "meta_description": "Glutamina: aminoácido essencial para saúde intestinal, imunidade e recuperação.",
-      "keywords": [
-        "glutamina",
-        "intestino permeavel",
-        "leaky gut",
-        "imunidade"
-      ]
-    },
-    "afiliados": {
-      "amazon": []
-    }
-  },
   "msm": {
     "slug": "msm",
     "nome": "MSM",
@@ -7744,9 +7577,21 @@
       ]
     },
     "grupos_risco": [
-      "Atletas de endurance",
-      "Pessoas com problemas intestinais",
-      "Pós-cirúrgico"
+      {
+        "grupo": "Atletas de endurance",
+        "motivo": "Alta demanda imunológica",
+        "prevalencia": "Alta"
+      },
+      {
+        "grupo": "Pessoas com problemas intestinais",
+        "motivo": "Necessidade de reparo da mucosa",
+        "prevalencia": "Média"
+      },
+      {
+        "grupo": "Pós-cirúrgico",
+        "motivo": "Cicatrização e imunidade",
+        "prevalencia": "Alta"
+      }
     ],
     "formas_suplemento": [
       {
@@ -7871,7 +7716,12 @@
       "nutrientes_sinergicos": []
     },
     "grupos_risco": [
-      "Alergia à proteína do leite (APLV) - Perigo!"
+      {
+        "grupo": "Alergia à proteína do leite (APLV)",
+        "motivo": "Risco de choque anafilático",
+        "prevalencia": "Baixa",
+        "nota": "Perigo!"
+      }
     ],
     "formas_suplemento": [
       {
