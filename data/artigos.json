@@ -12987,81 +12987,91 @@
       "emagrecimento",
       "performance"
     ],
-    "titulo": "Whey Protein: O Guia Definitivo Para Iniciantes (2026)",
-    "descricao": "Descubra tudo sobre o suplemento mais famoso do mundo: para que serve, como tomar, qual tipo escolher (Concentrado, Isolado ou Hidrolisado) e a dose ideal para você.",
+    "titulo": "Whey Protein: O Guia Definitivo (Ciência, Mitos e Como Escolher)",
+    "descricao": "Não gaste dinheiro errado. Entenda a diferença de WPC/WPI/WPH, aprenda a ler rótulos para evitar fraudes (Amino Spiking) e descubra a dose exata para hipertrofia.",
     "autor": "Nutricionista Esportivo Suplementa Já",
     "data": "2026-03-01",
     "categoria": "Proteínas",
     "tags": [
       "whey protein",
       "suplementação",
-      "iniciantes",
-      "hipertrofia"
+      "amino spiking",
+      "hipertrofia",
+      "ciência"
     ],
-    "tempo_leitura": "12 min",
+    "tempo_leitura": "18 min",
     "imagem": "/images/blog/whey-protein-guia.jpg",
     "conteudo": [
       {
         "tipo": "alerta",
         "variante": "info",
-        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **O que é**: Proteína extraída do soro do leite, de altíssima absorção.\n• **Para que serve**: Aumentar massa muscular, acelerar a recuperação e ajudar no emagrecimento (saciedade).\n• **Qual escolher**: Concentrado (custo-benefício) | Isolado (intolerantes à lactose) | Hidrolisado (atletas de elite).\n• **Como tomar**: 1 scoop (20-30g) pós-treino ou no café da manhã.\n• **Engorda?**: Não, se estiver dentro das suas calorias diárias. É puro nutriente.\n• **Preço médio**: R$ 90 - R$ 180 (pote de 900g)."
+        "texto": "🔬 **O QUE VOCÊ VAI APRENDER:**\n\n• **A Ciência**: Por que o Whey é superior à carne no pós-treino (Leucina e Valor Biológico).\n• **Fraudes**: Como identificar 'Amino Spiking' e não comprar farinha por preço de ouro.\n• **Tipos**: A verdade sobre Hidrolisado ser dinheiro jogado fora para 99% das pessoas.\n• **Mitos**: Whey causa espinhas? Pedra nos rins? Engorda?"
       },
       {
         "tipo": "paragrafo",
-        "texto": "Se você entrou em uma academia nos últimos 30 anos, você ouviu falar de Whey Protein. Mas com tantas opções coloridas nas prateleiras e promessas milagrosas, é fácil ficar confuso. Preciso mesmo tomar? Qual a diferença do pote de R$ 80 para o de R$ 300? Vamos descomplicar tudo agora."
+        "texto": "O Whey Protein não é 'bomba', não é mágico e não é obrigatório. Ele é, simplesmente, a fonte de proteína de maior disponibilidade biológica conhecida pelo homem. Enquanto um ovo tem Valor Biológico (VB) de 100, o Whey isolado pode chegar a 140. Mas o mercado está cheio de armadilhas. Este guia vai te blindar contra o marketing enganoso."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "O Que É Whey Protein?"
+        "texto": "1. Os 3 Tipos: O Que a Ciência Diz"
       },
       {
         "tipo": "paragrafo",
-        "texto": "O Whey Protein é a proteína do soro do leite. Antigamente, esse líquido era jogado fora na fabricação de queijos. Hoje, descobrimos que ele é a fonte de proteína de maior **Valor Biológico** que existe na natureza. Isso significa que nosso corpo aproveita quase 100% do que ingere para construir músculos."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Os 3 Tipos de Whey (E Qual É Para Você)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "A maior dúvida de quem começa é: Concentrado, Isolado ou Hidrolisado?"
+        "texto": "Muitos vendedores empurram o Hidrolisado como 'melhor', mas os estudos mostram que a diferença prática de resultados para amadores é irrelevante."
       },
       {
         "tipo": "lista",
         "itens": [
-          "**1. Whey Concentrado (WPC)**: O campeão do custo-benefício. Tem 80% de proteína e um pouquinho de carboidrato e gordura. **Ideal para:** 90% das pessoas, iniciantes e quem quer ganhar massa sem gastar muito.",
-          "**2. Whey Isolado (WPI)**: Passa por uma filtragem extra para remover quase toda lactose e gordura. Tem 90%+ de proteína. **Ideal para:** Intolerantes à lactose ou quem está em dieta restritiva de calorias (cutting).",
-          "**3. Whey Hidrolisado (WPH)**: A proteína já vem 'quebrada' (pré-digerida) para absorção ultra-rápida. **Ideal para:** Atletas de alta performance ou quem tem problemas graves de digestão. É o mais caro."
+          "**Concentrado (WPC)**: 30-80% proteína. Mantém frações benéficas como lactoferrina e imunoglobulinas. **Veredito:** O melhor custo-benefício para 95% da população.",
+          "**Isolado (WPI)**: >90% proteína. Filtração remove lactose e gordura. **Veredito:** Obrigatório apenas para intolerantes severos à lactose ou atletas em corte de peso extremo.",
+          "**Hidrolisado (WPH)**: Pré-digerido enzimaticamente. Absorção em <15min. **Veredito:** O pico de insulina é maior, mas o custo (dobro do preço) raramente justifica o benefício marginal, exceto para atletas de elite com treinos bi-diários."
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Como e Quando Tomar?"
+        "texto": "2. Aprenda a Ler Rótulos: Fuja do Amino Spiking"
       },
       {
         "tipo": "paragrafo",
-        "texto": "O horário importa menos do que você pensa, mas a consistência é chave."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Pós-Treino**: O momento clássico. Ajuda a parar o catabolismo (quebra muscular) e iniciar a recuperação.",
-          "**Café da Manhã**: Ótimo para quebrar o jejum e garantir saciedade pelo resto do dia.",
-          "**Lanches Intermediários**: Substitui snacks calóricos e mantém a síntese proteica alta."
-        ]
+        "texto": "Isso é CRÍTICO. Algumas marcas baratas fraudam o teste de proteína. Elas adicionam aminoácidos baratos (Glicina, Taurina, Creatina) na fórmula. O teste laboratorial lê 'nitrogênio' e acha que é proteína, mas não é proteína que constrói músculo."
       },
       {
         "tipo": "alerta",
-        "variante": "warning",
-        "texto": "⚠️ **Dica de Ouro**: Não misture com leite se for intolerante à lactose ou quiser absorção rápida. Com água, o Whey entra no sangue em 30-40 minutos. Com leite, pode levar 2 horas."
+        "variante": "danger",
+        "texto": "🕵️ **O TESTE DE OURO**: Olhe a lista de ingredientes. Se o primeiro ingrediente for 'Whey Protein', mas logo em seguida tiver 'Glicina', 'Glutamina' ou 'Proteína Isolada de Soja' (em um whey que diz ser 100% leite), **FOGE**. Um bom Whey tem poucos ingredientes: Proteína, Aroma, Edulcorante."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "3. Mitos Comuns: Rins, Acne e Engordar"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Whey dá pedra nos rins?** NÃO em pessoas saudáveis. Estudos com até 2.8g/kg de proteína não mostraram dano renal. Porém, quem JÁ tem doença renal deve consultar médico.",
+          "**Whey dá espinhas?** TALVEZ. O Whey aumenta o IGF-1, que pode piorar a acne em quem já tem predisposição. Se for seu caso, teste proteínas vegetais ou Carnivor (carne).",
+          "**Whey engorda?** Mitos. Proteína tem alto efeito térmico (gasta energia para digerir). O que engorda é superávit calórico. Whey ajuda a emagrecer pois dá saciedade."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "4. Como Calcular Sua Dose Individual"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Pare de seguir 'receita de bolo'. A ciência recomenda **1.6g a 2.2g de proteína por kg de peso** corporal total por dia. Se você pesa 70kg, precisa de ~140g de proteína."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O Whey entra apenas para bater essa meta. Se você come muito frango/ovo, precisa de menos Whey. Se come pouco, precisa de mais (talvez 2 scoops). O corpo humano consegue absorver cerca de 20-40g de proteína por refeição para síntese muscular máxima. Tomar 60g de uma vez é desperdício (vira xixi)."
       },
       {
         "tipo": "cta",
-        "texto": "Quer saber qual a melhor marca para você?",
-        "botao": "Ver Ranking Melhores Wheys",
+        "texto": "Já sabe ler o rótulo? Veja as marcas aprovadas:",
+        "botao": "Ver Ranking 2026 (Sem Amino Spiking)",
         "link": "/blog/melhores-marcas-whey-protein-2026"
       }
     ]
@@ -13072,8 +13082,8 @@
       "ganho-de-massa",
       "custo-beneficio"
     ],
-    "titulo": "Os 10 Melhores Whey Proteins do Brasil em 2026 (Ranking Atualizado)",
-    "descricao": "Analisamos sabor, tabela nutricional e preço para eleger os melhores Wheys do ano. Growth, Dux, Max Titanium ou Integralmedica? Veja o ranking.",
+    "titulo": "Os 10 Melhores Whey Proteins do Brasil em 2026 (Análise Técnica)",
+    "descricao": "Ranking baseado em laudos laboratoriais, tabela nutricional e custo por grama de proteína. Saiba qual marca entrega o que promete.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-03-02",
     "categoria": "Review",
@@ -13084,34 +13094,34 @@
       "dux",
       "max titanium"
     ],
-    "tempo_leitura": "8 min",
+    "tempo_leitura": "15 min",
     "imagem": "/images/blog/ranking-whey.jpg",
     "conteudo": [
       {
         "tipo": "paragrafo",
-        "texto": "Escolher um Whey Protein em 2026 não é fácil. São centenas de marcas, sabores gourmets e preços que variam de R$ 80 a R$ 400. Para te ajudar, nossa equipe avaliou os principais produtos do mercado com base em 3 critérios: **Pureza (Laudos)**, **Sabor** e **Custo-Benefício**."
+        "texto": "Com o aumento do preço do leite, muitas marcas reduziram a qualidade para manter o lucro. Por isso, **não provamos os produtos**, mas fizemos algo melhor: uma auditoria técnica. Nossa equipe analisou laudos de aprovação (como o projeto Felix), concentração proteica real declarada e o custo-benefício por dose."
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "📊 **Critérios da Análise:**\n1. **Concentração**: Quanto do pó é realmente proteína (mínimo aceitável: 70%).\n2. **Matéria-Prima**: Origem do soro (marcas que usam Glanbia/Arla têm pureza maior).\n3. **Custo por Grama**: O preço real da proteína limpa."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "O Pódio (Top 3)"
+        "texto": "1. Dux Nutrition Whey Concentrado (O Melhor Geral)"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A Dux se consolidou como a marca premium do Brasil. A grande diferença não é apenas o marketing: eles utilizam matéria-prima importada de alta solubilidade. É o whey que as pessoas compram 'pelo gosto' (inspirado em sorvetes famosos), mas ficam pela qualidade."
       },
       {
         "tipo": "lista",
         "itens": [
-          "🏆 **1º Lugar: Dux Nutrition Whey Concentrado** - O rei do sabor e da cremosidade. Matéria-prima importada.",
-          "🥈 **2º Lugar: Max Titanium Top Whey 3W** - O clássico que nunca falha. Bom preço e blend de proteínas.",
-          "🥉 **3º Lugar: Probiótica 100% Pure Whey** - O melhor custo-benefício para quem quer resultado sem gastar muito."
+          "**Proteína por dose**: 20g (em dose de 28g) = ~71% concentração.",
+          "**Pontos Fortes**: Sabores excepcionais (Cookies e Coco), baixíssimo sódio, corantes naturais.",
+          "**Pontos Fracos**: Preço elevado (R$ 140-160)."
         ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "1. Dux Nutrition Whey Protein Concentrado"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "A Dux dominou o mercado premium. Se você tem medo de Whey com gosto de remédio, vá de Dux. O sabor de 'Coco' e 'Cookies' é imbatível. Tabela nutricional limpíssima."
       },
       {
         "tipo": "cta",
@@ -13122,11 +13132,19 @@
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "2. Max Titanium Top Whey 3W"
+        "texto": "2. Max Titanium Top Whey 3W (Performance)"
       },
       {
         "tipo": "paragrafo",
-        "texto": "O Whey mais premiado do Brasil. É '3W' porque mistura Concentrado, Isolado e Hidrolisado. Isso garante absorção em várias etapas. O sabor 'Morango' é o favorito dos atletas."
+        "texto": "O '3W' significa que combina Whey Concentrado (absorção média), Isolado (rápida) e Hidrolisado (imediata). Isso teórica e fisiologicamente oferece um aporte de aminoácidos mais sustentado no sangue."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína por dose**: 32g (em dose de 40g) = 80% concentração.",
+          "**Pontos Fortes**: Alta concentração proteica, muito premiado nacionalmente.",
+          "**Pontos Fracos**: A dose sugerida é maior (40g), o que faz o pote acabar mais rápido."
+        ]
       },
       {
         "tipo": "cta",
@@ -13137,17 +13155,34 @@
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "3. Integralmedica Whey 100% Pure"
+        "texto": "3. Integralmedica Whey 100% Pure (Custo-Benefício)"
       },
       {
         "tipo": "paragrafo",
-        "texto": "A Integralmedica é uma gigante. Esse whey entrega exatamente o que promete: 21g de proteína por dose, baixo carbo e um preço que cabe no bolso de estudante. É o 'pau pra toda obra'."
+        "texto": "Se o orçamento está apertado, este é o rei. A Integralmedica é pioneira no Brasil e consegue escala para manter preços baixos. Não tem o sabor 'gourmet' da Dux, mas entrega a proteína necessária para hipertrofia."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**Proteína por dose**: 21g (em dose de 30g) = 70% concentração.",
+          "**Pontos Fortes**: Preço imbatível, fácil de encontrar.",
+          "**Pontos Fracos**: Contém um pouco mais de carboidratos (quase 5g por dose) que os rivais."
+        ]
       },
       {
         "tipo": "cta",
         "texto": "Ver Preço na Amazon",
         "botao": "Comprar Integralmedica",
         "link": "https://www.amazon.com.br/s?k=whey+100+pure+integralmedica&tag=105c91-20"
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Veredito: Qual Comprar?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Se você prioriza **paladar** e não se importa em pagar R$ 30 a mais: **Dux**.\nSe você quer **só o resultado** e economizar: **Integralmedica**.\nSe busca um meio termo técnico: **Max Titanium**."
       }
     ]
   },
@@ -13155,10 +13190,11 @@
     "slug": "whey-protein-intolerantes-lactose",
     "objetivos": [
       "ganho-de-massa",
-      "emagrecimento"
+      "emagrecimento",
+      "saude"
     ],
-    "titulo": "Whey Protein para Intolerantes a Lactose: Guia Completo e Melhores Opções",
-    "descricao": "Inchaço, gases e desconforto? Você não precisa desistir do Whey. Descubra as melhores opções Isoladas e Hidrolisadas zero lactose.",
+    "titulo": "Whey Protein para Intolerantes a Lactose: O Guia de Sobrevivência",
+    "descricao": "Inchaço, gases e desconforto? Entenda a tecnologia CFM que remove a lactose, a diferença para APLV e quando vale a pena usar Beef Protein.",
     "autor": "Nutricionista Esportivo Suplementa Já",
     "data": "2026-03-03",
     "categoria": "Saúde",
@@ -13166,41 +13202,59 @@
       "whey isolado",
       "intolerancia lactose",
       "zero lactose",
-      "carnebol"
+      "carnebol",
+      "saude intestinal"
     ],
-    "tempo_leitura": "6 min",
+    "tempo_leitura": "8 min",
     "imagem": "/images/blog/whey-zero-lactose.jpg",
     "conteudo": [
       {
         "tipo": "alerta",
         "variante": "danger",
-        "texto": "🚨 **ALERTA**: Se você tem ALERGIA à proteína do leite (APLV), Whey Isolado NÃO serve (ainda tem a proteína). Você precisa de proteínas vegetais (arroz, ervilha) ou da carne (Beef Protein)."
+        "texto": "🚨 **DISTINÇÃO CRUCIAL**: Intolerância à Lactose é incapacidade de digerir o AÇÚCAR do leite. Alergia (APLV) é reação imune à PROTEÍNA do leite. Se você tem APLV, **nenhum whey serve**. Vá direto para Beef Protein ou Vegetal."
       },
       {
         "tipo": "paragrafo",
-        "texto": "Para quem tem apenas INTOLERÂNCIA À LACTOSE (não consegue digerir o açúcar do leite), o Whey Protein Isolado é a salvação. Ele passa por uma filtragem que remove 99% da lactose."
+        "texto": "Para quem sofre apenas com a lactose, a tecnologia salvou seus ganhos. Antigamente, whey era sinônimo de passar mal. Hoje, processos como o **Cross-Flow Microfiltration (CFM)** conseguem isolar a proteína mantendo a lactose abaixo de 0,5g por dose (uma quantidade que 99% dos intolerantes suportam sem sintomas)."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Top 3 Wheys Zero Lactose"
+        "texto": "Whey Isolado vs Hidrolisado: Qual Comprar?"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Ambos tendem a ser 'zero lactose' ou 'baixíssima lactose'. A diferença é o preço e a digestão."
       },
       {
         "tipo": "lista",
         "itens": [
-          "**1. Dux Whey Isolado**: O mais puro do mercado nacional. Zero desconforto.",
-          "**2. Isofort (Vitafor)**: Muito receitado por nutricionistas clínicos. Sabor leve.",
-          "**3. Best Whey Isolado (Atlhetica)**: Sabor incrível, parece milkshake."
+          "**Whey Isolado (WPI)**: O padrão ouro. Passa por microfiltração. Custa ~R$ 160. Resolve 95% dos casos.",
+          "**Whey Hidrolisado (WPH)**: Além de filtrado, é quebrado. A digestão é instantânea, mas custa ~R$ 250+.",
+          "**Veredito**: Comece pelo Isolado. Se ainda sentir desconforto, o problema pode não ser a lactose, mas sim sensibilidade à proteína do soro em si."
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Opção Bônus: Proteína da Carne (Beef Protein)"
+        "texto": "Top 3 Opções Seguras (Testadas pelo Mercado)"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "**1. Dux Whey Isolado**: O mais elogiado por quem tem sensibilidade alta. A tabela nutricional confirma: 0g de carboidratos (sinal de que não sobrou lactose).",
+          "**2. Isofort (Vitafor)**: Marca clínica, muito limpa. Sabor neutro excelente para misturar com frutas.",
+          "**3. Best Whey Isolado (Atlhetica)**: O sabor é incrível, mas olhe o rótulo: alguns sabores têm traços de lactose. Escolha os rotulados como 'Zero'."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Plano B: Beef Protein (Proteína da Carne)"
       },
       {
         "tipo": "paragrafo",
-        "texto": "Se você quer garantir 0% risco de leite, vá de Carnivor ou Beef Protein. É proteína isolada da carne vermelha. Tem creatina natural e zero lactose/leite."
+        "texto": "Se mesmo com Isolado você estufa, a solução é mudar a fonte. O Beef Protein (ex: Carnivor) é proteína isolada da carne vermelha. Tem o bônus de conter Creatina natural da carne. O gosto antigamente era ruim, mas hoje as versões de 'Chocolate' ou 'Iogurte' são muito boas."
       },
       {
         "tipo": "cta",
