@@ -7360,19 +7360,20 @@
     "slug": "bcaa",
     "objetivos": [
       "performance",
-      "ganho-de-massa"
+      "ganho-de-massa",
+      "recuperacao"
     ],
     "nome": "BCAA",
-    "nome_cientifico": "Aminoácidos de Cadeia Ramificada (Leucina, Isoleucina, Valina)",
+    "nome_cientifico": "Aminoácidos de Cadeia Ramificada (L-Leucina, L-Isoleucina, L-Valina)",
     "categoria": "aminoacido",
     "emoji": "💊",
-    "descricao_curta": "Aminoácidos essenciais para energia muscular e redução da fadiga.",
-    "descricao_longa": "BCAA (Branched-Chain Amino Acids) são três aminoácidos essenciais: Leucina, Isoleucina e Valina. Diferente de outros aminoácidos, eles são metabolizados diretamente no músculo, não no fígado, servindo como fonte rápida de energia e sinalizadores de síntese proteica.",
+    "descricao_curta": "O trio essencial para ativar a síntese proteica e reduzir a fadiga central.",
+    "descricao_longa": "Os BCAAs (Leucina, Isoleucina e Valina) representam cerca de 35% dos aminoácidos essenciais nas proteínas musculares. Sua grande vantagem bioquímica é que eles **não são degradados no fígado**, indo direto para a corrente sanguínea e tecido muscular. A **Leucina**, especificamente, é o principal sinalizador da via mTOR (o 'interruptor' do crescimento muscular).",
     "funcoes_corporais": [
-      "Estímulo da síntese proteica (via mTOR)",
-      "Redução da fadiga central durante o exercício",
-      "Preservação de massa muscular (anticatabólico)",
-      "Fonte de energia durante exercícios longos"
+      "Ativação da via mTOR (Sinalização para Hipertrofia)",
+      "Redução da Fadiga Central (compete com Triptofano no cérebro)",
+      "Proteção contra catabolismo em treinos de jejum",
+      "Fonte de energia auxiliar (oxidação muscular) em endurance"
     ],
     "fontes_alimentares": [
       {
@@ -7412,13 +7413,13 @@
         "min": 5,
         "max": 10,
         "unidade": "g",
-        "nota": "Dose comum intra-treino"
+        "nota": "Intra-treino para reduzir fadiga"
       },
       "suplementacao_terapeutica": {
         "min": 10,
         "max": 20,
         "unidade": "g",
-        "nota": "Para atletas de endurance"
+        "nota": "Atletas de endurance (maratonistas)"
       },
       "limite_superior": null,
       "nota_limite": "Seguro"
@@ -7426,33 +7427,36 @@
     "deficiencia": {
       "prevalencia": "Rara se consome proteína suficiente",
       "sintomas": [
-        "Perda muscular",
-        "Fadiga precoce"
+        "Perda muscular acelerada",
+        "Fadiga precoce no treino",
+        "Recuperação lenta"
       ]
     },
     "excesso": {
       "toxicidade": "Baixa",
       "sintomas": [
-        "Desconforto gástrico"
+        "Desconforto gástrico",
+        "Competição na absorção de outros aminoácidos"
       ]
     },
     "interacoes": {
       "medicamentos_reduzem_absorcao": [],
       "nutrientes_sinergicos": [
-        "Vitamina B6"
+        "Vitamina B6 (Piridoxina)",
+        "Carboidratos (insulina ajuda na captação)"
       ]
     },
     "grupos_risco": [],
     "formas_suplemento": [
       {
-        "forma": "BCAA em Pó",
-        "descricao": "Melhor custo-benefício e absorção.",
-        "nota": "Ideal para beber durante o treino"
+        "forma": "BCAA em Pó (Recomendado)",
+        "descricao": "Melhor custo-benefício e absorção imediata.",
+        "nota": "Ideal para beber gole a gole no treino"
       },
       {
         "forma": "BCAA em Cápsulas",
-        "descricao": "Prático, mas dose baixa.",
-        "nota": "Requer muitas cápsulas"
+        "descricao": "Prático, mas exige muitas pílulas para dose efetiva.",
+        "nota": "Custo por dose geralmente maior"
       }
     ],
     "evidencias": [
@@ -7461,8 +7465,8 @@
         "titulo": "Consensus opinion on BCAA supplementation",
         "revista": "JISSN",
         "ano": 2017,
-        "tipo": "Revisão",
-        "citacao_chave": "Se você já bate a meta de proteína com Whey/Comida, BCAA extra traz pouco benefício adicional para hipertrofia.",
+        "tipo": "Revisão Crítica",
+        "citacao_chave": "Embora estimulem a síntese, BCAAs isolados não são superiores ao Whey Protein completo.",
         "relevancia": [
           "hipertrofia",
           "custo-beneficio"
@@ -7470,13 +7474,12 @@
       }
     ],
     "seo": {
-      "meta_title": "BCAA: Para Que Serve, Benefícios e Como Tomar",
-      "meta_description": "Tudo sobre BCAA: entenda se vale a pena tomar, para que serve (fadiga, massa muscular) e a verdade sobre BCAA vs Whey Protein.",
+      "meta_title": "BCAA: O Que É, Para Que Serve e Como Tomar (Guia Científico)",
+      "meta_description": "Não jogue dinheiro fora. Entenda quando o BCAA funciona (fadiga, jejum) e quando ele é dispensável. Guia completo sobre Leucina, Isoleucina e Valina.",
       "keywords": [
         "bcaa",
-        "aminoacidos",
-        "suplemento bcaa",
-        "leucina",
+        "aminoacidos essenciais",
+        "leucina mtor",
         "bcaa ou whey"
       ]
     },
@@ -7501,23 +7504,25 @@
     "slug": "glutamina",
     "objetivos": [
       "imunidade",
-      "saude-intestinal"
+      "saude-intestinal",
+      "recuperacao"
     ],
     "nome": "Glutamina",
-    "nome_cientifico": "L-Glutamina",
+    "nome_cientifico": "L-Glutamina (Aminoácido Livre)",
     "categoria": "aminoacido",
     "emoji": "🛡️",
-    "descricao_curta": "Aminoácido crucial para o intestino e sistema imunológico.",
-    "descricao_longa": "A glutamina é o aminoácido livre mais abundante no corpo. Embora não essencial (o corpo produz), torna-se 'condicionalmente essencial' em situações de estresse físico, doença ou treino intenso, quando a demanda supera a produção.",
+    "descricao_curta": "A guardiã da barreira intestinal e combustível vital para a imunidade.",
+    "descricao_longa": "A glutamina é o aminoácido livre mais abundante no plasma humano. Sua função primária não é construir músculo, mas sim servir de **combustível preferencial** para células de divisão rápida: enterócitos (intestino) e leucócitos (imunidade). Em situações de trauma, cirurgia ou treino intenso (overtraining), os níveis plasmáticos caem drasticamente, abrindo janela para infecções e perda de massa.",
     "funcoes_corporais": [
-      "Combustível principal para enterócitos (células do intestino)",
-      "Combustível para células imunes (linfócitos)",
-      "Manutenção da barreira intestinal (previne Leaky Gut)",
-      "Equilíbrio ácido-base nos rins"
+      "Nutrição dos Enterócitos (reparo da mucosa intestinal)",
+      "Prevenção da Permeabilidade Intestinal ('Leaky Gut')",
+      "Combustível para Linfócitos e Macrófagos (Sistema Imune)",
+      "Precursor de Glutationa (Antioxidante Mestre do corpo)",
+      "Regulação do equilíbrio ácido-base nos rins"
     ],
     "fontes_alimentares": [
       {
-        "alimento": "Carne (100g)",
+        "alimento": "Carne Vermelha (100g)",
         "quantidade": 1.2,
         "unidade": "g",
         "percentual_vd": 0
@@ -7529,7 +7534,7 @@
         "percentual_vd": 0
       },
       {
-        "alimento": "Whey Protein",
+        "alimento": "Whey Protein (dose)",
         "quantidade": 4,
         "unidade": "g",
         "percentual_vd": 0
@@ -7540,64 +7545,62 @@
         "adultos": {
           "valor": 0,
           "unidade": "g",
-          "nota": "Sem RDA oficial"
+          "nota": "Considerado não-essencial em repouso"
         }
       },
       "suplementacao_preventiva": {
         "min": 5,
         "max": 10,
         "unidade": "g",
-        "nota": "Dose padrão para imunidade/intestino"
+        "nota": "Dose padrão (5g ao acordar ou pós-treino)"
       },
       "suplementacao_terapeutica": {
-        "min": 20,
-        "max": 40,
+        "min": 15,
+        "max": 30,
         "unidade": "g",
-        "nota": "Em ambiente hospitalar ou protocolo específico"
+        "nota": "Protocolos hospitalares para grandes queimados/trauma"
       },
       "limite_superior": null,
-      "nota_limite": "Seguro até 40g/dia"
+      "nota_limite": "Seguro até 40g/dia (doses fracionadas)"
     },
     "deficiencia": {
-      "prevalencia": "Comum em atletas overtrained ou doentes",
+      "prevalencia": "Comum pós-maratona, cirurgias ou dietas restritivas",
       "sintomas": [
-        "Imunidade baixa",
-        "Problemas intestinais",
-        "Perda muscular"
+        "Infecções recorrentes (gripes frequentes)",
+        "Má absorção de nutrientes (diarreia)",
+        "Catabolismo muscular acentuado"
       ]
     },
     "excesso": {
       "toxicidade": "Nenhuma conhecida",
-      "sintomas": []
+      "sintomas": [
+        "Sede excessiva (raro)"
+      ]
     },
     "interacoes": {
       "medicamentos_reduzem_absorcao": [],
       "nutrientes_sinergicos": [
-        "Probióticos"
+        "Probióticos (efeito simbiótico no intestino)",
+        "Zinco (imunidade)"
       ]
     },
     "grupos_risco": [
       {
-        "grupo": "Atletas de endurance",
-        "motivo": "Alta demanda imunológica",
-        "prevalencia": "Alta"
+        "grupo": "Atletas de Endurance",
+        "motivo": "Supressão imune pós-prova (corrida/triathlon)",
+        "prevalencia": "Muito Alta"
       },
       {
-        "grupo": "Pessoas com problemas intestinais",
-        "motivo": "Necessidade de reparo da mucosa",
-        "prevalencia": "Média"
-      },
-      {
-        "grupo": "Pós-cirúrgico",
-        "motivo": "Cicatrização e imunidade",
+        "grupo": "Portadores de Disbiose/SII",
+        "motivo": "Necessidade de reparo da mucosa intestinal",
         "prevalencia": "Alta"
       }
     ],
     "formas_suplemento": [
       {
-        "forma": "L-Glutamina em pó",
-        "descricao": "Pó branco sem sabor.",
-        "nota": "Fácil de misturar com água ou suco"
+        "forma": "L-Glutamina em Pó (100% Pura)",
+        "descricao": "A única forma que vale a pena. Sem sabor.",
+        "nota": "Misture com limão e própolis para 'shot de imunidade'"
       }
     ],
     "evidencias": [
@@ -7606,21 +7609,23 @@
         "titulo": "Glutamine and the immune system",
         "revista": "Amino Acids",
         "ano": 1999,
-        "tipo": "Revisão",
-        "citacao_chave": "A glutamina é essencial para a proliferação de linfócitos.",
+        "tipo": "Clássico",
+        "citacao_chave": "A glutamina é a taxa limitante para a proliferação de células de defesa em situações de stress.",
         "relevancia": [
-          "imunidade"
+          "imunidade",
+          "saude"
         ]
       }
     ],
     "seo": {
-      "meta_title": "Glutamina: Para Que Serve, Imunidade e Intestino",
-      "meta_description": "Descubra os reais benefícios da Glutamina: melhora da imunidade, saúde intestinal (leaky gut) e recuperação. Saiba como e quando tomar.",
+      "meta_title": "Glutamina: Serve Para Que? Imunidade, Intestino e Mitos",
+      "meta_description": "Glutamina funciona? Guia definitivo sobre benefícios para 'Leaky Gut' (intestino permeável), imunidade e quando ela é dinheiro jogado fora.",
       "keywords": [
         "glutamina",
         "l-glutamina",
-        "suplemento imunidade",
-        "saude intestinal"
+        "intestino permeavel",
+        "imunidade baixa",
+        "whey ou glutamina"
       ]
     },
     "afiliados": {
