@@ -1,36 +1,24 @@
-import Link from 'next/link'
+﻿codigo = r'''import Link from 'next/link'
 import { Metadata } from 'next'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Star, ExternalLink, Award, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Top 8 Melhores Suplementos 2025 | Suplementa Ja',
-  description: 'Ranking dos 8 melhores suplementos de 2025 baseado em ciencia.',
+  title: 'Top 8 Melhores Suplementos 2025 - Ranking Atualizado',
+  description: 'Ranking dos 8 melhores suplementos de 2025.',
 }
 
 const SUPLEMENTOS = [
   { posicao: 1, nome: 'Creatina Monohidratada', categoria: 'Performance', nota: 9.8, descricao: 'O suplemento mais estudado.', beneficios: ['Forca', 'Musculos'], paraQuem: 'Atletas', linkArtigo: '/blog/guia-completo-creatina-2026', linkAfiliado: 'https://www.amazon.com.br/s?k=creatina&tag=105c91-20', destaque: true },
   { posicao: 2, nome: 'Vitamina D3', categoria: 'Saude', nota: 9.6, descricao: 'Essencial para imunidade.', beneficios: ['Imunidade', 'Ossos'], paraQuem: 'Todos', linkArtigo: '/blog/vitamina-d-deficiencia-brasileiros', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+d3&tag=105c91-20', destaque: true },
-  { posicao: 3, nome: 'Omega-3', categoria: 'Saude', nota: 9.4, descricao: 'Protege coracao e cerebro.', beneficios: ['Coracao', 'Cerebro'], paraQuem: 'Todos', linkArtigo: '/blog/omega-3-beneficios-comprovados', linkAfiliado: 'https://www.amazon.com.br/s?k=omega+3&tag=105c91-20', destaque: false },
-  { posicao: 4, nome: 'Whey Protein', categoria: 'Performance', nota: 9.2, descricao: 'Proteina para recuperacao.', beneficios: ['Musculos', 'Recuperacao'], paraQuem: 'Atletas', linkArtigo: '/blog/whey-isolado-vs-concentrado', linkAfiliado: 'https://www.amazon.com.br/s?k=whey+protein&tag=105c91-20', destaque: false },
-  { posicao: 5, nome: 'Magnesio', categoria: 'Minerais', nota: 9.0, descricao: 'Melhora sono e ansiedade.', beneficios: ['Sono', 'Calma'], paraQuem: 'Ansiosos', linkArtigo: '/blog/magnesio-ansiedade-sono-tipos', linkAfiliado: 'https://www.amazon.com.br/s?k=magnesio&tag=105c91-20', destaque: false },
-  { posicao: 6, nome: 'Vitamina B12', categoria: 'Vitaminas', nota: 8.8, descricao: 'Energia e sistema nervoso.', beneficios: ['Energia', 'Nervos'], paraQuem: 'Veganos', linkArtigo: '/blog/vitamina-b12-vegetarianos-veganos', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+b12&tag=105c91-20', destaque: false },
-  { posicao: 7, nome: 'Zinco', categoria: 'Minerais', nota: 8.6, descricao: 'Imunidade e testosterona.', beneficios: ['Imunidade', 'Hormonio'], paraQuem: 'Homens', linkArtigo: '/blog/zinco-imunidade-testosterona-pele', linkAfiliado: 'https://www.amazon.com.br/s?k=zinco&tag=105c91-20', destaque: false },
-  { posicao: 8, nome: 'Melatonina', categoria: 'Sono', nota: 8.4, descricao: 'Hormonio do sono.', beneficios: ['Dormir', 'Sono'], paraQuem: 'Insones', linkArtigo: '/blog/melatonina-sono-insonia-dose-ideal', linkAfiliado: 'https://www.amazon.com.br/s?k=melatonina&tag=105c91-20', destaque: false },
+  { posicao: 3, nome: 'Omega-3', categoria: 'Saude', nota: 9.4, descricao: 'Protege coracao e cerebro.', beneficios: ['Coracao', 'Cerebro'], paraQuem: 'Todos', linkArtigo: '/blog/omega-3-beneficios-comprovados', linkAfiliado: 'https://www.amazon.com.br/s?k=omega+3&tag=105c91-20' },
+  { posicao: 4, nome: 'Whey Protein', categoria: 'Performance', nota: 9.2, descricao: 'Proteina para musculos.', beneficios: ['Recuperacao', 'Musculos'], paraQuem: 'Atletas', linkArtigo: '/blog/whey-isolado-vs-concentrado', linkAfiliado: 'https://www.amazon.com.br/s?k=whey+protein&tag=105c91-20' },
+  { posicao: 5, nome: 'Magnesio', categoria: 'Minerais', nota: 9.0, descricao: 'Melhora sono e ansiedade.', beneficios: ['Sono', 'Calma'], paraQuem: 'Ansiosos', linkArtigo: '/blog/magnesio-ansiedade-sono-tipos', linkAfiliado: 'https://www.amazon.com.br/s?k=magnesio&tag=105c91-20' },
+  { posicao: 6, nome: 'Vitamina B12', categoria: 'Vitaminas', nota: 8.8, descricao: 'Energia e nervos.', beneficios: ['Energia', 'Nervos'], paraQuem: 'Veganos', linkArtigo: '/blog/vitamina-b12-vegetarianos-veganos', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+b12&tag=105c91-20' },
+  { posicao: 7, nome: 'Zinco', categoria: 'Minerais', nota: 8.6, descricao: 'Imunidade e testosterona.', beneficios: ['Imunidade', 'Hormonio'], paraQuem: 'Homens', linkArtigo: '/blog/zinco-imunidade-testosterona-pele', linkAfiliado: 'https://www.amazon.com.br/s?k=zinco&tag=105c91-20' },
+  { posicao: 8, nome: 'Melatonina', categoria: 'Sono', nota: 8.4, descricao: 'Hormonio do sono.', beneficios: ['Dormir', 'Qualidade'], paraQuem: 'Insones', linkArtigo: '/blog/melatonina-sono-insonia-dose-ideal', linkAfiliado: 'https://www.amazon.com.br/s?k=melatonina&tag=105c91-20' },
 ]
-
-function getBoxClasses(isDestaque: boolean): string {
-  return isDestaque 
-    ? 'border-4 border-black shadow-[6px_6px_0_0_#000] p-6 bg-gradient-to-r from-yellow-400 to-orange-400'
-    : 'border-4 border-black shadow-[6px_6px_0_0_#000] p-6 bg-white'
-}
-
-function getPosClasses(pos: number): string {
-  return pos <= 3
-    ? 'w-20 h-20 border-4 border-black flex items-center justify-center font-black text-4xl bg-yellow-400 text-black'
-    : 'w-20 h-20 border-4 border-black flex items-center justify-center font-black text-4xl bg-gray-100 text-gray-700'
-}
 
 export default function MelhoresSuplementosPage() {
   return (
@@ -44,10 +32,10 @@ export default function MelhoresSuplementosPage() {
         </div>
         <div className="space-y-6">
           {SUPLEMENTOS.map((sup) => (
-            <div key={sup.posicao} className={getBoxClasses(sup.destaque ?? false)}>
+            <div key={sup.posicao} className={order-4 border-black shadow-[6px_6px_0_0_#000] p-6 }>
               <div className="flex flex-col lg:flex-row gap-6">
                 <div className="flex-shrink-0 flex items-center justify-center">
-                  <div className={getPosClasses(sup.posicao)}>#{sup.posicao}</div>
+                  <div className={w-20 h-20 border-4 border-black flex items-center justify-center font-black text-4xl }>#{sup.posicao}</div>
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-2">
@@ -84,3 +72,8 @@ export default function MelhoresSuplementosPage() {
     </div>
   )
 }
+'''
+
+with open('app/melhores-suplementos/page.tsx', 'w', encoding='utf-8') as f:
+    f.write(codigo)
+print('OK!')

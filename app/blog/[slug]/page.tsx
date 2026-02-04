@@ -346,7 +346,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <p className="text-black font-bold mb-6 text-lg">
               Descubra quais nutrientes você realmente precisa com nossa avaliação personalizada gratuita!
             </p>
-            <Link href="/avaliacao">
+            <Link href="/avaliação">
               <Button variant="primary" size="lg" className="text-xl px-10 py-6">
                 Fazer Avaliação Gratuita →
               </Button>
@@ -354,10 +354,10 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
 
-        {/* Artigos Relacionados - baseado em categoria e relacionados */}
+        {/* Artigos Relacionados - baseado em categoria é relacionados */}
         <div className="mt-12">
           <h3 className="text-2xl font-black text-black uppercase mb-6 border-b-4 border-black pb-3">
-            🔗 Leia Tambem
+            🔗 Leia Também
           </h3>
           <div className="grid gap-6 sm:grid-cols-2">
             {(() => {
@@ -474,7 +474,7 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       )
 
     case 'alerta':
-      // Detectar se é um RESUMO RÁPIDO e renderizar de forma especial
+      // Detectar se é um RESUMO RÁPIDO é renderizar de forma especial
       if (bloco.texto.includes('RESUMO RÁPIDO')) {
         return <ResumoRapido texto={bloco.texto} />
       }
