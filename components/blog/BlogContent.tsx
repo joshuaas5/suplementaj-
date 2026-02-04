@@ -30,11 +30,30 @@ export function BlogContent({ artigos }: BlogContentProps) {
     const [activeTopic, setActiveTopic] = useState('todos')
     const [searchQuery, setSearchQuery] = useState('')
 
-    // Artigos em destaque - 3 mais recentes
+    // Artigos mais acessados (baseado em dados do Google Search Console)
+    // slugsMaisAcessados definido como constante global no topo do arquivo
+    const slugsMaisAcessados = [
+        'guia-completo-creatina-2026',
+        'whey-isolado-vs-concentrado',
+        'deficit-calorico-quanto-cortar',
+        'calculadora-nutricional-calorias-macros',
+        'melatonina-sono-insonia-dose-ideal',
+        'vitamina-c-imunidade-gripes-resfriados',
+    ]
+    
     const artigosDestaque = useMemo(() => {
-        return [...artigos]
-            .sort((a, b) => new Date(b.data).getTime() - new Date(a.data).getTime())
+        const destaques = slugsMaisAcessados
+            .map(slug => artigos.find(a => a.slug === slug))
+            .filter((a): a is Artigo => a !== undefined)
             .slice(0, 3)
+        
+        // Fallback para mais recentes se nao encontrar
+        if (destaques.length < 3) {
+            return [...artigos]
+                .sort((a, b) => new Date(b.data).getTime() - new Date(a.data).getTime())
+                .slice(0, 3)
+        }
+        return destaques
     }, [artigos])
 
     // Filter articles based on topic and search
@@ -67,11 +86,11 @@ export function BlogContent({ artigos }: BlogContentProps) {
 
     return (
         <>
-            {/* Seção de Artigos em Destaque */}
+            {/* Seção de Mais Acessados */}
             <div className="mb-16">
                 <div className="flex items-center justify-center gap-3 mb-8">
                     <Star className="w-8 h-8 text-yellow-600 fill-yellow-400" />
-                    <h2 className="text-3xl font-black text-black uppercase">Artigos em Destaque</h2>
+                    <h2 className="text-3xl font-black text-black uppercase">Mais Acessados</h2>
                     <Star className="w-8 h-8 text-yellow-600 fill-yellow-400" />
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 mb-8">
