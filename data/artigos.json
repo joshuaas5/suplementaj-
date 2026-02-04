@@ -4,7 +4,7 @@
     "objetivos": [
       "imunidade"
     ],
-    "titulo": "Vitamina D: Por Que 90% dos Brasileiros Estão em Deficiência",
+    "titulo": "Vitamina D: 90% dos Brasileiros Têm DEFICIÊNCIA (Como Corrigir em 2025)",
     "descricao": "Descubra por que mesmo em um país tropical como o Brasil, a deficiência de vitamina D é epidêmica e como corrigir isso.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-01-15",
@@ -13,7 +13,8 @@
       "vitamina d",
       "deficiência",
       "saúde óssea",
-      "imunidade"
+      "imunidade",
+      "saude"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/vitamina-d.jpg",
@@ -200,7 +201,8 @@
         "tipo": "cta",
         "texto": "Quer saber se você precisa suplementar vitamina D? Faça nossa avaliação personalizada gratuita!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=vitamina+d3&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -214,13 +216,31 @@
       {
         "tipo": "paragrafo",
         "texto": "Lembre-se: faça exames periódicos, ajuste a dose conforme necessário e sempre consulte um profissional de saúde para orientação individualizada."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-c-imunidade-gripes-resfriados",
+      "vitamina-k2-d3-calcio-ossos-coracao"
     ]
   },
   {
     "slug": "vitamina-b12-vegetarianos-veganos",
-    "titulo": "Vitamina B12 para Vegetarianos e Veganos: O Guia Completo",
-    "descricao": "Por que a suplementação de B12 é obrigatória para quem não consome produtos animais e como fazer da forma correta.",
+    "titulo": "Vitamina B12 para Vegetarianos e Veganos: O Guia DEFINITIVO 2025",
+    "descricao": "Por que a suplementação de B12 é obrigatória para quem não consome produtos animais e como fazer da forma correta. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-01-10",
     "categoria": "Vitaminas",
@@ -228,7 +248,8 @@
       "vitamina b12",
       "vegetarianismo",
       "veganismo",
-      "saúde"
+      "saúde",
+      "saude"
     ],
     "tempo_leitura": "10 min",
     "imagem": "/images/blog/vitamina-b12.jpg",
@@ -446,7 +467,8 @@
         "tipo": "cta",
         "texto": "Descubra se você precisa ajustar sua suplementação de B12 com base no seu perfil completo!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=vitamina+b12&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -497,7 +519,25 @@
       {
         "tipo": "paragrafo",
         "texto": "Dose mínima recomendada para veganos: **50 mcg/dia** ou **1.000 mcg duas vezes por semana**. Faça exames regularmente. Proteja seu cérebro."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-c-imunidade-gripes-resfriados",
+      "vitamina-k2-d3-calcio-ossos-coracao"
     ]
   },
   {
@@ -507,7 +547,7 @@
       "performance"
     ],
     "titulo": "Ômega-3: Os Benefícios Comprovados pela Ciência em 2024",
-    "descricao": "Uma análise atualizada sobre os benefícios do ômega-3 para coração, cérebro, inflamação e muito mais, baseada em evidências científicas.",
+    "descricao": "Uma análise atualizada sobre os benefícios do ômega-3 para coração, cérebro, inflamação e muito mais, baseada em evidências científicas. Guia completo com dosag",
     "autor": "Equipe Suplementa Já",
     "data": "2024-01-05",
     "categoria": "Suplementos",
@@ -806,7 +846,8 @@
         "tipo": "cta",
         "texto": "Quer saber a dose ideal de ômega-3 para o seu perfil? Faça nossa avaliação!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=omega+3+capsulas&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -832,13 +873,35 @@
       {
         "tipo": "paragrafo",
         "texto": "**Dose recomendada geral**: 1.000-2.000 mg de EPA+DHA combinados, de preferência de óleo de peixe purificado ou algas. Priorize alimentos quando possível, suplemente quando necessário."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria",
+      "creatina-retencao-liquido"
     ]
   },
   {
     "slug": "ferro-anemia-deficiencia-tratamento",
-    "titulo": "Ferro para Anemia: Guia Completo de Suplementação e Tratamento",
-    "descricao": "Tudo sobre deficiência de ferro: sintomas de anemia, quanto suplementar, sulfato vs bisglicinato, quando tomar e como aumentar absorção.",
+    "titulo": "Ferro para Anemia: Guia DEFINITIVO 2025 de Suplementação e Tratamento",
+    "descricao": "Tudo sobre deficiência de ferro: sintomas de anemia, quanto suplementar, sulfato vs bisglicinato, quando tomar e como aumentar absorção. Guia completo com dosag",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-21",
     "categoria": "Minerais",
@@ -1195,7 +1258,8 @@
         "tipo": "cta",
         "texto": "Quer saber se você precisa suplementar ferro? Descubra com nossa avaliação personalizada!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=ferro+quelato&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -1213,7 +1277,25 @@
       {
         "tipo": "paragrafo",
         "texto": "Bisglicinato ferroso é a melhor escolha para uso prolongado. Seu corpo (e seu intestino) agradecem."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "zinco-imunidade-testosterona-pele",
+      "magnesio-ansiedade-sono-tipos",
+      "calcio-ossos-osteoporose-qual-tomar"
     ]
   },
   {
@@ -1223,7 +1305,7 @@
       "performance"
     ],
     "titulo": "Zinco: O Mineral da Imunidade, Testosterona e Pele Saudável",
-    "descricao": "Tudo sobre zinco: benefícios para imunidade, testosterona, acne, queda de cabelo, doses ideais e como evitar deficiência.",
+    "descricao": "Tudo sobre zinco: benefícios para imunidade, testosterona, acne, queda de cabelo, doses ideais e como evitar deficiência. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-22",
     "categoria": "Minerais",
@@ -1233,7 +1315,8 @@
       "testosterona",
       "acne",
       "gripes",
-      "queda de cabelo"
+      "queda de cabelo",
+      "defesa"
     ],
     "tempo_leitura": "10 min",
     "imagem": "/images/blog/zinco.jpg",
@@ -1573,7 +1656,8 @@
         "tipo": "cta",
         "texto": "Descubra se você precisa suplementar zinco com nossa avaliação personalizada!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=zinco+quelato&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -1591,7 +1675,25 @@
       {
         "tipo": "paragrafo",
         "texto": "Dose correta + forma certa + timing adequado = imunidade forte, pele saudável e hormônios equilibrados."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ferro-anemia-deficiencia-tratamento",
+      "magnesio-ansiedade-sono-tipos",
+      "calcio-ossos-osteoporose-qual-tomar"
     ]
   },
   {
@@ -1600,7 +1702,7 @@
       "sono",
       "performance"
     ],
-    "titulo": "Magnésio: Guia Completo para Ansiedade, Sono e Relaxamento Muscular",
+    "titulo": "Magnésio: Guia DEFINITIVO 2025 para Ansiedade, Sono e Relaxamento Muscular",
     "descricao": "Descubra qual tipo de magnésio é melhor para ansiedade, insônia, cãibras e enxaqueca. Glicinato, treonato, citrato ou óxido?",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-23",
@@ -1612,7 +1714,8 @@
       "insônia",
       "cãibras",
       "glicinato",
-      "treonato"
+      "treonato",
+      "qualidade de vida"
     ],
     "tempo_leitura": "11 min",
     "imagem": "/images/blog/magnésio.jpg",
@@ -1945,7 +2048,8 @@
         "tipo": "cta",
         "texto": "Descubra se você precisa suplementar magnésio com nossa avaliação personalizada!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=magnesio+quelato&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -1963,13 +2067,31 @@
       {
         "tipo": "paragrafo",
         "texto": "Glicinato é rei para maioria. Treonato é rei para cérebro (se puder pagar). Citrato é rei para intestino preso."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ferro-anemia-deficiencia-tratamento",
+      "zinco-imunidade-testosterona-pele",
+      "calcio-ossos-osteoporose-qual-tomar"
     ]
   },
   {
     "slug": "creatina-guia-completo-ganho-muscular",
-    "titulo": "Creatina: O Guia Definitivo - Ganho Muscular, Cérebro e Performance",
-    "descricao": "Tudo sobre creatina: como tomar, dose de saturação, melhores formas, benefícios para músculos e cérebro, mitos sobre rins e calvície.",
+    "titulo": "Creatina: O Guia DEFINITIVO 2025 - Ganho Muscular, Cérebro e Performance",
+    "descricao": "Tudo sobre creatina: como tomar, dose de saturação, melhores formas, benefícios para músculos e cérebro, mitos sobre rins e calvície. Guia completo com dosagem ",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-24",
     "categoria": "Suplementos Esportivos",
@@ -1979,7 +2101,8 @@
       "hipertrofia",
       "força",
       "monohidratada",
-      "performance"
+      "performance",
+      "suplemento"
     ],
     "tempo_leitura": "12 min",
     "imagem": "/images/blog/creatina.jpg",
@@ -2322,7 +2445,8 @@
         "tipo": "cta",
         "texto": "Calcule sua dose ideal de creatina com base no seu peso corporal!",
         "botao": "Usar Calculadora de Creatina →",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -2340,16 +2464,38 @@
       {
         "tipo": "paragrafo",
         "texto": "Para de gastar dinheiro com pré-workouts caros e pós com 15 ingredientes. Creatina monohidratada + proteína adequada + treino consistente = 95% dos resultados."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "zma-zinco-magnesio-b6-sono-testosterona",
+      "bcaa-aminoacidos-massa-muscular-funciona",
+      "cafeina-performance-dose-pre-treino"
     ]
   },
   {
     "slug": "colageno-hidrolisado-funciona-pele-articulacoes",
-    "titulo": "Colágeno Hidrolisado: Funciona Mesmo? Pele, Articulações e Cabelo",
+    "titulo": "Colágeno Hidrolisado: FUNCIONA MESMO? Mesmo? Pele, Articulações e Cabelo",
     "descricao": "Descubra se colágeno hidrolisado realmente funciona para pele, rugas, articulações e cabelo. Tipos I, II e III, dosagem ideal e quando tomar.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-25",
-    "categoria": "Beleza e Articulações",
+    "categoria": "Beleza",
     "tags": [
       "colágeno",
       "pele",
@@ -2720,7 +2866,8 @@
         "tipo": "cta",
         "texto": "Descubra se colágeno é ideal para suas necessidades específicas!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=colageno+hidrolisado&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -2750,8 +2897,26 @@
       {
         "tipo": "paragrafo",
         "texto": "Colágeno funciona, mas não é mágica. Combine com protetor solar, dieta rica em antioxidantes, hidratação e sono adequado para resultados ótimos."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "vitamina-c-imunidade-gripes-resfriados",
@@ -2765,7 +2930,9 @@
       "imunidade",
       "gripes",
       "resfriados",
-      "ácido ascórbico"
+      "ácido ascórbico",
+      "saude",
+      "defesa"
     ],
     "tempo_leitura": "9 min",
     "imagem": "/images/blog/vitamina-c.jpg",
@@ -2910,14 +3077,33 @@
         "tipo": "cta",
         "texto": "Quer descobrir quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=vitamina+c+1000mg&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-k2-d3-calcio-ossos-coracao"
     ]
   },
   {
     "slug": "calcio-ossos-osteoporose-qual-tomar",
     "titulo": "Cálcio: Como Prevenir Osteoporose e Qual Suplemento Tomar",
-    "descricao": "Guia completo sobre suplementação de cálcio: citrato vs carbonato, dose ideal, quando tomar com vitamina D e K2.",
+    "descricao": "Guia completo sobre suplementação de cálcio: citrato vs carbonato, dose ideal, quando tomar com vitamina D e K2. Leia agora e transforme sua saúde!",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
     "categoria": "Minerais",
@@ -3060,14 +3246,33 @@
         "tipo": "cta",
         "texto": "Descubra se você precisa suplementar cálcio!",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=calcio+vitamina+d&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ferro-anemia-deficiencia-tratamento",
+      "zinco-imunidade-testosterona-pele",
+      "magnesio-ansiedade-sono-tipos"
     ]
   },
   {
     "slug": "biotina-cabelo-unhas-dose-funciona",
-    "titulo": "Biotina para Cabelo e Unhas: Funciona? Dose de 5mg ou 10mg?",
-    "descricao": "Verdade sobre biotina: realmente faz cabelo crescer? Dose ideal, quanto tempo para ver resultado, mitos e evidências.",
+    "titulo": "Biotina para Cabelo e Unhas: FUNCIONA MESMO?? Dose de 5mg ou 10mg?",
+    "descricao": "Verdade sobre biotina: realmente faz cabelo crescer? Dose ideal, quanto tempo para ver resultado, mitos e evidências. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-28",
     "categoria": "Beleza",
@@ -3212,17 +3417,36 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "ashwagandha-estresse-ansiedade-cortisol",
     "titulo": "Ashwagandha: Reduz Estresse e Cortisol? Dose e Efeitos Colaterais",
-    "descricao": "Guia completo sobre ashwagandha: benefícios para estresse, ansiedade, testosterona, dose ideal e quando NÃO tomar.",
+    "descricao": "Guia completo sobre ashwagandha: benefícios para estresse, ansiedade, testosterona, dose ideal e quando NÃO tomar. Leia agora e transforme sua saúde!",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-29",
-    "categoria": "Adaptógenos",
+    "categoria": "Suplementos",
     "tags": [
       "ashwagandha",
       "estresse",
@@ -3365,8 +3589,29 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=ashwagandha&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "maca-peruana-libido-energia-hormonios"
     ]
   },
   {
@@ -3517,23 +3762,43 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=melatonina&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "probioticos-intestino-flora-intestinal",
-    "titulo": "Probióticos: Guia Completo para Saúde Intestinal e Imunidade",
-    "descricao": "Tudo sobre probióticos: bilhões de UFC, cepas certas, quando tomar, benefícios e como escolher o melhor.",
+    "titulo": "Probióticos: Guia DEFINITIVO 2025 para Saúde Intestinal e Imunidade",
+    "descricao": "Tudo sobre probióticos: bilhões de UFC, cepas certas, quando tomar, benefícios e como escolher o melhor. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-31",
-    "categoria": "Saúde Intestinal",
+    "categoria": "Saude",
     "tags": [
       "probióticos",
       "intestino",
       "flora intestinal",
       "imunidade",
-      "digestão"
+      "digestão",
+      "defesa"
     ],
     "tempo_leitura": "11 min",
     "imagem": "/images/blog/probióticos.jpg",
@@ -3669,14 +3934,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=probioticos+capsulas&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "vitamina-k2-d3-calcio-ossos-coracao",
     "titulo": "Vitamina K2 + D3: A Dupla Essencial para Ossos e Coração",
-    "descricao": "Por que vitamina K2 é crítica com D3, como prevenir calcificação arterial e dose ideal de K2 MK-7.",
+    "descricao": "Por que vitamina K2 é crítica com D3, como prevenir calcificação arterial e dose ideal de K2 MK-7. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
     "categoria": "Vitaminas",
@@ -3686,7 +3970,8 @@
       "cálcio",
       "ossos",
       "coração",
-      "mk-7"
+      "mk-7",
+      "saude"
     ],
     "tempo_leitura": "10 min",
     "imagem": "/images/blog/vitamina-k2.jpg",
@@ -3822,8 +4107,27 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=calcio+vitamina+d&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-c-imunidade-gripes-resfriados"
     ]
   },
   {
@@ -3974,14 +4278,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ferro-anemia-deficiencia-tratamento",
+      "zinco-imunidade-testosterona-pele",
+      "magnesio-ansiedade-sono-tipos"
     ]
   },
   {
     "slug": "selenio-tireoide-imunidade-antioxidante",
     "titulo": "Selênio: Tireoide, Imunidade e Poder Antioxidante",
-    "descricao": "Benefícios do selênio para tireoide, imunidade e fertilidade. Dose de 200 mcg, castanha do pará e suplementação.",
+    "descricao": "Benefícios do selênio para tireoide, imunidade e fertilidade. Dose de 200 mcg, castanha do pará e suplementação. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-03",
     "categoria": "Minerais",
@@ -3990,7 +4313,8 @@
       "tireoide",
       "imunidade",
       "antioxidante",
-      "castanha do pará"
+      "castanha do pará",
+      "defesa"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/selênio.jpg",
@@ -4126,14 +4450,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual a forma mais biodisponivel desse mineral?",
+            "resposta": "Formas queladas (glicinato, bisglicinato) geralmente tem melhor absorcao que formas inorganicas (oxido, carbonato)."
+          },
+          {
+            "pergunta": "Posso obter apenas pela alimentacao?",
+            "resposta": "Depende do mineral e da sua dieta. Alguns minerais como magnesio sao dificeis de obter em quantidades adequadas apenas pela alimentacao moderna."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ferro-anemia-deficiencia-tratamento",
+      "zinco-imunidade-testosterona-pele",
+      "magnesio-ansiedade-sono-tipos"
     ]
   },
   {
     "slug": "vitamina-e-antioxidante-pele-fertilidade",
     "titulo": "Vitamina E: Antioxidante para Pele, Fertilidade e Coração",
-    "descricao": "Benefícios da vitamina E, dose ideal, tocoferóis vs tocotrienóis, e quando suplementar.",
+    "descricao": "Benefícios da vitamina E, dose ideal, tocoferóis vs tocotrienóis, e quando suplementar. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-04",
     "categoria": "Vitaminas",
@@ -4142,7 +4485,8 @@
       "antioxidante",
       "pele",
       "fertilidade",
-      "tocoferol"
+      "tocoferol",
+      "saude"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/vitamina-e.jpg",
@@ -4278,17 +4622,36 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-c-imunidade-gripes-resfriados"
     ]
   },
   {
     "slug": "curcuma-curcumina-inflamacao-articulacoes",
     "titulo": "Cúrcuma/Curcumina: Anti-inflamatório Natural para Articulações",
-    "descricao": "Benefícios da curcumina, dose com piperina, efeitos anti-inflamatórios e quando realmente funciona.",
+    "descricao": "Benefícios da curcumina, dose com piperina, efeitos anti-inflamatórios e quando realmente funciona. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-05",
-    "categoria": "Anti-inflamatórios",
+    "categoria": "Suplementos",
     "tags": [
       "cúrcuma",
       "curcumina",
@@ -4430,17 +4793,36 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=curcuma+capsulas&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "spirulina-superalimento-proteina-vegana",
     "titulo": "Spirulina: Superalimento ou Hype? Proteína, B12 e Detox",
-    "descricao": "Verdade sobre spirulina: benefícios reais, mitos (B12 não funciona!), dose ideal e quando vale a pena.",
+    "descricao": "Verdade sobre spirulina: benefícios reais, mitos (B12 não funciona!), dose ideal e quando vale a pena. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-06",
-    "categoria": "Superalimentos",
+    "categoria": "Nutricao",
     "tags": [
       "spirulina",
       "proteína vegana",
@@ -4582,23 +4964,43 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "maca-peruana-libido-energia-hormonios",
     "titulo": "Maca Peruana: Libido, Energia e Equilíbrio Hormonal",
-    "descricao": "Benefícios da maca peruana para libido, energia, fertilidade e hormônios. Dose ideal e cores (amarela, vermelha, preta).",
+    "descricao": "Benefícios da maca peruana para libido, energia, fertilidade e hormônios. Dose ideal e cores (amarela, vermelha, preta). Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-07",
-    "categoria": "Adaptógenos",
+    "categoria": "Suplementos",
     "tags": [
       "maca peruana",
       "libido",
       "energia",
       "fertilidade",
-      "adaptógeno"
+      "adaptógeno",
+      "disposicao"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/maca-peruana.jpg",
@@ -4734,17 +5136,38 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "ashwagandha-estresse-ansiedade-cortisol"
     ]
   },
   {
     "slug": "tribulus-terrestris-testosterona-libido",
     "titulo": "Tribulus Terrestris: Aumenta Testosterona? Libido e Performance",
-    "descricao": "Verdade sobre tribulus: realmente aumenta testosterona? Dose, saponinas, benefícios e limitações.",
+    "descricao": "Verdade sobre tribulus: realmente aumenta testosterona? Dose, saponinas, benefícios e limitações. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-08",
-    "categoria": "Testosterona",
+    "categoria": "Suplementos",
     "tags": [
       "tribulus terrestris",
       "testosterona",
@@ -4886,14 +5309,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "zma-zinco-magnesio-b6-sono-testosterona",
     "titulo": "ZMA (Zinco + Magnésio + B6): Sono, Testosterona e Recuperação",
-    "descricao": "Benefícios do ZMA para atletas: melhora sono, testosterona e recuperação muscular. Dose ideal e quando tomar.",
+    "descricao": "Benefícios do ZMA para atletas: melhora sono, testosterona e recuperação muscular. Dose ideal e quando tomar. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-09",
     "categoria": "Suplementos Esportivos",
@@ -4903,7 +5345,8 @@
       "magnésio",
       "vitamina b6",
       "sono",
-      "testosterona"
+      "testosterona",
+      "qualidade de vida"
     ],
     "tempo_leitura": "7 min",
     "imagem": "/images/blog/zma.jpg",
@@ -5039,14 +5482,37 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=magnesio+quelato&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "creatina-guia-completo-ganho-muscular",
+      "bcaa-aminoacidos-massa-muscular-funciona",
+      "cafeina-performance-dose-pre-treino"
     ]
   },
   {
     "slug": "bcaa-aminoacidos-massa-muscular-funciona",
-    "titulo": "BCAA: Vale a Pena ou é Desperdício de Dinheiro?",
-    "descricao": "Verdade sobre BCAA: benefícios reais, quando vale a pena vs quando whey protein é melhor e mais barato.",
+    "titulo": "BCAA: VALE A PENA? ou é Desperdício de Dinheiro?",
+    "descricao": "Verdade sobre BCAA: benefícios reais, quando vale a pena vs quando whey protein é melhor e mais barato. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-10",
     "categoria": "Suplementos Esportivos",
@@ -5191,17 +5657,40 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "creatina-guia-completo-ganho-muscular",
+      "zma-zinco-magnesio-b6-sono-testosterona",
+      "cafeina-performance-dose-pre-treino"
     ]
   },
   {
     "slug": "glucosamina-condroitina-articulacoes-artrite",
-    "titulo": "Glucosamina e Condroitina: Funciona para Articulações?",
-    "descricao": "Evidências sobre glucosamina/condroitina para osteoartrite, dose ideal, quanto tempo tomar e limitações.",
+    "titulo": "Glucosamina e Condroitina: FUNCIONA MESMO? para Articulações?",
+    "descricao": "Evidências sobre glucosamina/condroitina para osteoartrite, dose ideal, quanto tempo tomar e limitações. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-11",
-    "categoria": "Articulações",
+    "categoria": "Articulacoes",
     "tags": [
       "glucosamina",
       "condroitina",
@@ -5343,24 +5832,44 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "coenzima-q10-coq10-energia-coracao",
     "titulo": "Coenzima Q10 (CoQ10): Energia, Coração e Anti-Envelhecimento",
-    "descricao": "Benefícios da CoQ10 para energia mitocondrial, coração, estatinas e dose ideal de ubiquinol vs ubiquinona.",
+    "descricao": "Benefícios da CoQ10 para energia mitocondrial, coração, estatinas e dose ideal de ubiquinol vs ubiquinona. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-12",
-    "categoria": "Energia",
+    "categoria": "Suplementos",
     "tags": [
       "coenzima q10",
       "coq10",
       "energia",
       "coração",
       "mitocôndrias",
-      "ubiquinol"
+      "ubiquinol",
+      "disposicao"
     ],
     "tempo_leitura": "9 min",
     "imagem": "/images/blog/coq10.jpg",
@@ -5496,14 +6005,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "acido-folico-b9-gestantes-gravidez",
     "titulo": "Ácido Fólico (B9): Essencial para Gestantes e Prevenção de Defeitos",
-    "descricao": "Por que gestantes DEVEM tomar ácido fólico, dose ideal, metilfolato vs ácido fólico, e mutação MTHFR.",
+    "descricao": "Por que gestantes DEVEM tomar ácido fólico, dose ideal, metilfolato vs ácido fólico, e mutação MTHFR. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-13",
     "categoria": "Vitaminas",
@@ -5649,14 +6177,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-c-imunidade-gripes-resfriados"
     ]
   },
   {
     "slug": "vitamina-a-retinol-visao-pele-imunidade",
     "titulo": "Vitamina A (Retinol): Visão, Pele, Imunidade e Quando Evitar",
-    "descricao": "Benefícios da vitamina A, diferença entre retinol e beta-caroteno, dose ideal e toxicidade em gestantes.",
+    "descricao": "Benefícios da vitamina A, diferença entre retinol e beta-caroteno, dose ideal e toxicidade em gestantes. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-14",
     "categoria": "Vitaminas",
@@ -5666,7 +6213,9 @@
       "beta-caroteno",
       "visão",
       "pele",
-      "imunidade"
+      "imunidade",
+      "saude",
+      "defesa"
     ],
     "tempo_leitura": "9 min",
     "imagem": "/images/blog/vitamina-a.jpg",
@@ -5802,14 +6351,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual o melhor horario para tomar essa vitamina?",
+            "resposta": "Vitaminas lipossoluveis (A, D, E, K) devem ser tomadas com refeicoes gordurosas. Vitaminas hidrossoluveis (complexo B, C) podem ser tomadas em jejum."
+          },
+          {
+            "pergunta": "Como saber se tenho deficiencia?",
+            "resposta": "A melhor forma e fazer exames de sangue. Alguns sintomas comuns incluem fadiga, queda de cabelo, e baixa imunidade."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "vitamina-d-deficiencia-brasileiros",
+      "vitamina-b12-vegetarianos-veganos",
+      "vitamina-c-imunidade-gripes-resfriados"
     ]
   },
   {
     "slug": "l-carnitina-queima-gordura-performance",
     "titulo": "L-Carnitina: Queima Gordura? Performance e Dose Ideal",
-    "descricao": "Verdade sobre L-carnitina para emagrecimento, performance atlética, dose, quando tomar e evidências científicas.",
+    "descricao": "Verdade sobre L-carnitina para emagrecimento, performance atlética, dose, quando tomar e evidências científicas. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-15",
     "categoria": "Emagrecimento",
@@ -5954,14 +6522,33 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "cafeina-performance-dose-pre-treino",
     "titulo": "Cafeína: Performance, Dose Ideal e Timing para Treino",
-    "descricao": "Benefícios da cafeína para performance, dose ergogênica, quando tomar, tolerância e efeitos colaterais.",
+    "descricao": "Benefícios da cafeína para performance, dose ergogênica, quando tomar, tolerância e efeitos colaterais. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-16",
     "categoria": "Suplementos Esportivos",
@@ -6106,17 +6693,40 @@
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=cafeina+200mg&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "creatina-guia-completo-ganho-muscular",
+      "zma-zinco-magnesio-b6-sono-testosterona",
+      "bcaa-aminoacidos-massa-muscular-funciona"
     ]
   },
   {
     "slug": "proteina-por-dia-quanto-consumir-guia-completo",
-    "titulo": "Quanto de Proteína Por Dia: Guia Completo Por Peso e Objetivo",
+    "titulo": "Quanto de Proteína Por Dia: Guia DEFINITIVO 2025 Por Peso e Objetivo",
     "descricao": "Descubra exatamente quantos gramas de proteína você precisa por dia com base no seu peso, sexo e objetivo. Cálculos científicos baseados em recomendações do ISSN.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "proteína",
       "ganho muscular",
@@ -6207,7 +6817,8 @@
         "tipo": "cta",
         "texto": "Descubra quantos gramas de proteína você precisa por dia!",
         "botao": "Usar Calculadora de Proteína →",
-        "link": "/calculadoras/proteína"
+        "link": "/calculadoras/proteína",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -6262,17 +6873,40 @@
         "tipo": "cta",
         "texto": "Calcule agora sua necessidade diária de proteína!",
         "botao": "Acessar Calculadora →",
-        "link": "/calculadoras/proteína"
+        "link": "/calculadoras/proteína",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao",
+      "o-que-e-tdee-como-calcular"
     ]
   },
   {
     "slug": "imc-o-que-significa-como-calcular",
     "titulo": "IMC: O Que Significa, Como Calcular e O Que Fazer Com o Resultado",
-    "descricao": "Entenda o Índice de Massa Corporal (IMC), suas limitações, como interpretar seu resultado e quais ações tomar para melhorar sua saúde.",
+    "descricao": "Entenda o Índice de Massa Corporal (IMC), suas limitações, como interpretar seu resultado e quais ações tomar para melhorar sua saúde. Guia completo com dosagem",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
-    "categoria": "Saúde",
+    "categoria": "Saude",
     "tags": [
       "IMC",
       "peso",
@@ -6300,7 +6934,8 @@
         "tipo": "cta",
         "texto": "Calcule seu IMC agora mesmo de forma rápida e precisa!",
         "botao": "Usar Calculadora de IMC →",
-        "link": "/calculadoras/imc"
+        "link": "/calculadoras/imc",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -6401,17 +7036,39 @@
         "tipo": "cta",
         "texto": "Descubra também quantas calorias você precisa por dia!",
         "botao": "Calculadora de Calorias →",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "quanta-agua-beber-por-dia-calculo-por-peso",
+      "whey-protein-intolerantes-lactose"
     ]
   },
   {
     "slug": "como-calcular-gasto-calorico-tmb-tdee",
-    "titulo": "Como Calcular Seu Gasto Calórico: Guia Completo de TMB e TDEE",
+    "titulo": "Como Calcular Seu Gasto Calórico: Guia DEFINITIVO 2025 de TMB e TDEE",
     "descricao": "Aprenda a calcular sua Taxa Metabólica Basal (TMB) e Gasto Energético Total (TDEE) para emagrecer, manter ou ganhar peso de forma científica.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "calorias",
       "TMB",
@@ -6504,7 +7161,8 @@
         "tipo": "cta",
         "texto": "Não precisa fazer contas! Calcule automaticamente sua TMB e TDEE:",
         "botao": "Usar Calculadora de Calorias →",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -6564,8 +7222,31 @@
         "tipo": "cta",
         "texto": "Calcule também a divisão ideal de macronutrientes:",
         "botao": "Calculadora de Macros →",
-        "link": "/calculadoras/macros"
+        "link": "/calculadoras/macros",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-dividir-macros-cutting-bulking-manutencao",
+      "o-que-e-tdee-como-calcular"
     ]
   },
   {
@@ -6574,7 +7255,7 @@
     "descricao": "Aprenda a calcular e dividir seus macronutrientes (proteína, carboidratos e gorduras) de acordo com seu objetivo: emagrecer, ganhar massa ou manter peso.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "macros",
       "dieta",
@@ -6709,7 +7390,8 @@
         "tipo": "cta",
         "texto": "Calcule seus macros ideais automaticamente:",
         "botao": "Usar Calculadora de Macros →",
-        "link": "/calculadoras/macros"
+        "link": "/calculadoras/macros",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -6747,8 +7429,31 @@
         "tipo": "cta",
         "texto": "Monte sua dieta com macros personalizados agora:",
         "botao": "Acessar Calculadora de Macros →",
-        "link": "/calculadoras/macros"
+        "link": "/calculadoras/macros",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "o-que-e-tdee-como-calcular"
     ]
   },
   {
@@ -6757,7 +7462,7 @@
     "descricao": "Descubra a quantidade ideal de água diária com base no seu peso, nível de atividade física e clima. Fórmulas científicas baseadas em recomendações do IOM.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
-    "categoria": "Saúde",
+    "categoria": "Saude",
     "tags": [
       "água",
       "hidratação",
@@ -6837,7 +7542,8 @@
         "tipo": "cta",
         "texto": "Calcule sua necessidade exata de água com base no seu perfil:",
         "botao": "Usar Calculadora de Água →",
-        "link": "/calculadoras/agua"
+        "link": "/calculadoras/agua",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -6918,8 +7624,30 @@
         "tipo": "cta",
         "texto": "Descubra sua quantidade ideal de água diária:",
         "botao": "Acessar Calculadora de Água →",
-        "link": "/calculadoras/agua"
+        "link": "/calculadoras/agua",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "imc-o-que-significa-como-calcular",
+      "whey-protein-intolerantes-lactose"
     ]
   },
   {
@@ -6928,7 +7656,7 @@
     "descricao": "Descubra onde você está desperdiçando dinheiro e como cortar 60% dos gastos mantendo (ou melhorando) seus resultados na academia.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-09",
-    "categoria": "Economia",
+    "categoria": "Suplementos",
     "tags": [
       "economia",
       "suplementos",
@@ -7352,7 +8080,8 @@
         "texto": "🎁 Quer Saber Exatamente O Que SEU CORPO Precisa?",
         "descricao": "Nossa avaliação personalizada analisa seu perfil (idade, treino, dieta, objetivos) e indica EXATAMENTE quais suplementos você precisa (e quais está desperdiçando dinheiro). Grátis, 2 minutos, sem cadastro.",
         "textoBotao": "Fazer Avaliação Gratuita Agora",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -7410,8 +8139,26 @@
       {
         "tipo": "paragrafo",
         "texto": "**A escolha é sua. Mas agora você sabe a verdade.**"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "guia-completo-creatina-2026",
@@ -7420,7 +8167,7 @@
       "ganho-de-massa"
     ],
     "titulo": "Guia Completo de Creatina 2026: O Que Tomar, Quando e Por Quê",
-    "descricao": "Tudo o que você precisa saber sobre creatina: dose, timing, tipos, mitos e verdades comprovadas pela ciência.",
+    "descricao": "Tudo o que você precisa saber sobre creatina: dose, timing, tipos, mitos e verdades comprovadas pela ciência. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-09",
     "categoria": "Suplementos",
@@ -7429,7 +8176,8 @@
       "creatina monohidratada",
       "hipertrofia",
       "performance",
-      "suplementação"
+      "suplementação",
+      "suplemento"
     ],
     "tempo_leitura": "10 min",
     "imagem": "/images/blog/creatina-guia.jpg",
@@ -7738,7 +8486,8 @@
         "texto": "🎁 Descubra TODOS os Suplementos Que Você Precisa",
         "descricao": "Creatina é essencial, mas será que você precisa de mais alguma coisa? Nossa avaliação personalizada analisa seu perfil completo e indica EXATAMENTE o que tomar (e o que NÃO gastar dinheiro). Grátis, 2 minutos.",
         "textoBotao": "Fazer Avaliação Completa Agora",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -7748,7 +8497,29 @@
       {
         "tipo": "paragrafo",
         "texto": "Creatina é simples: compre monohidratada genérica, tome 3-5g/dia em qualquer hora, todos os dias. Não complique com timing, ciclos ou formas exóticas. Economize dinheiro e tenha os mesmos resultados."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "creatina-fase-carga-necessaria",
+      "creatina-retencao-liquido"
     ]
   },
   {
@@ -7767,7 +8538,8 @@
       "whey isolado",
       "whey concentrado",
       "proteína",
-      "suplementação"
+      "suplementação",
+      "proteina"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/whey-comparacao.jpg",
@@ -8056,7 +8828,8 @@
         "texto": "🎯 Descubra EXATAMENTE Quanta Proteína Você Precisa",
         "descricao": "Whey é importante, mas é só uma peça do quebra-cabeça. Nossa avaliação personalizada calcula sua necessidade EXATA de proteína, carboidratos e gorduras - e indica se você realmente precisa de whey (ou se comida resolve). Grátis, 2 minutos.",
         "textoBotao": "Fazer Minha Avaliação Nutricional",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -8091,8 +8864,26 @@
       {
         "tipo": "paragrafo",
         "texto": "Hipertrofia não vem do tipo de whey. Vem de proteína total + treino + calorias + sono. Concentre seu esforço (e dinheiro) nisso."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "5-suplementos-mais-vendidos",
@@ -8100,7 +8891,7 @@
     "descricao": "Análise sem rodeios dos suplementos campeões de venda no Brasil. Descubra quais valem seu dinheiro e quais são marketing puro.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-09",
-    "categoria": "Análise",
+    "categoria": "Suplementos",
     "tags": [
       "suplementos",
       "top 5",
@@ -8311,7 +9102,8 @@
         "texto": "🎯 Quais Suplementos VOCÊ Realmente Precisa?",
         "descricao": "Cada pessoa é única. Nossa avaliação personalizada analisa seu treino, dieta, objetivo e orçamento - e indica EXATAMENTE o que comprar (e o que cortar). Pare de gastar R$ 300/mês à toa. Grátis, 2 minutos.",
         "textoBotao": "Descobrir Meus Suplementos Essenciais",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -8565,8 +9357,26 @@
       {
         "tipo": "paragrafo",
         "texto": "Hipertrofia vem de treino pesado + proteína adequada + calorias + sono. Suplemento é 5% da equação. Pare de gastar 60% do orçamento nos 5%."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "suplementos-para-iniciantes",
@@ -8574,7 +9384,7 @@
     "descricao": "Acabou de começar na academia? Descubra os únicos 2 suplementos que você realmente precisa (e os 8 que deve ignorar).",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-09",
-    "categoria": "Iniciantes",
+    "categoria": "Suplementos",
     "tags": [
       "iniciantes",
       "primeiros suplementos",
@@ -8891,7 +9701,8 @@
         "texto": "🎁 Planejamento Completo Personalizado (Grátis)",
         "descricao": "Cada pessoa é única. Nossa avaliação personalizada analisa SEU corpo, SEU treino, SEU orçamento - e monta um plano de suplementação sob medida. Sem vendas, sem empurrar produto. Só recomendações honestas. Grátis, 2 minutos.",
         "textoBotao": "Fazer Minha Avaliação Personalizada",
-        "link": "/avaliacao"
+        "link": "/avaliacao",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -9023,16 +9834,36 @@
       {
         "tipo": "paragrafo",
         "texto": "Suplementos ajudam, mas são 5% do resultado. Não inverta a pirâmide gastando 60% do orçamento nos 5%."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "calculadora-nutricional-calorias-macros"
     ]
   },
   {
     "slug": "o-que-e-tdee-como-calcular",
-    "titulo": "Como Calcular Gasto Calórico Diário (TDEE): Guia Completo",
+    "titulo": "Como Calcular Gasto Calórico Diário (TDEE): Guia DEFINITIVO 2025",
     "descricao": "Aprenda o que é TDEE (Gasto Energético Total Diário), por que sua estimativa pode estar errada e como calcular corretamente para emagrecer ou ganhar massa.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "tdee",
       "calorias",
@@ -9131,7 +9962,8 @@
         "tipo": "cta",
         "texto": "Calcule seu TDEE exato agora mesmo com nossa calculadora gratuita!",
         "botao": "Usar Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -9190,7 +10022,29 @@
       {
         "tipo": "paragrafo",
         "texto": "Lembre-se: TDEE é uma ESTIMATIVA. Seu corpo não é uma máquina perfeita. Use como ponto de partida e ajuste baseado nos resultados reais."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9199,13 +10053,14 @@
     "descricao": "Aprenda qual o déficit calórico ideal para emagrecer preservando músculos, evitando efeito sanfona e sem passar fome.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "déficit calórico",
       "emagrecer",
       "cutting",
       "perda de gordura",
-      "dieta"
+      "dieta",
+      "perda de peso"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/deficit-calórico.jpg",
@@ -9308,7 +10163,8 @@
         "tipo": "cta",
         "texto": "Calcule seu déficit ideal agora!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -9329,7 +10185,29 @@
       {
         "tipo": "paragrafo",
         "texto": "Se você está experienciando esses sintomas, AUMENTE suas calorias em 200-300 por dia. Emagrecer mais devagar é infinitamente melhor do que destruir seu metabolismo."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9338,7 +10216,7 @@
     "descricao": "Descubra por que você não emagrece mesmo fazendo dieta: o NEAT pode ser o culpado. Aprenda o que é e como aumentar seu gasto calórico sem academia.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "neat",
       "gasto calórico",
@@ -9451,8 +10329,31 @@
         "tipo": "cta",
         "texto": "Calcule quantas calorias você gasta por dia considerando seu nível de atividade!",
         "botao": "Calculadora de TDEE",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9461,13 +10362,14 @@
     "descricao": "Travou na dieta? Descubra por que o plateau acontece e as estratégias comprovadas para voltar a perder peso sem cortar mais calorias.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "plateau",
       "dieta",
       "emagrecer",
       "metabolismo",
-      "estagnação"
+      "estagnação",
+      "perda de peso"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/plateau.jpg",
@@ -9578,8 +10480,31 @@
         "tipo": "cta",
         "texto": "Recalcule seu TDEE atual para descobrir suas novas calorias de manutenção!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9588,7 +10513,7 @@
     "descricao": "Guia completo de cutting com exemplo real de distribuição de calorias e macros. Aprenda a secar preservando massa muscular.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "cutting",
       "secar",
@@ -9770,7 +10695,8 @@
         "tipo": "cta",
         "texto": "Calcule seu TDEE e comece seu cutting com os números certos!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -9785,7 +10711,29 @@
           "Performance no treino despencou",
           "Está há mais de 16 semanas em déficit (hora de dieta reversa)"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9794,7 +10742,7 @@
     "descricao": "Guia completo de bulking limpo: aprenda a calcular o superávit ideal para ganhar massa muscular com o mínimo de gordura possível.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "bulking",
       "superávit calórico",
@@ -9902,7 +10850,8 @@
         "tipo": "cta",
         "texto": "Calcule seu TDEE e defina suas calorias de bulking!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -9918,7 +10867,29 @@
           "Roupas ficando apertadas na cintura (não nos ombros/peito)",
           "Definição muscular desaparecendo rapidamente"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -9927,7 +10898,7 @@
     "descricao": "Terminou a dieta e tem medo do rebote? Aprenda a fazer dieta reversa corretamente e aumentar suas calorias sem acumular gordura.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "dieta reversa",
       "pós-dieta",
@@ -10014,7 +10985,8 @@
         "tipo": "cta",
         "texto": "Recalcule seu TDEE atual para saber sua meta de calorias de manutenção!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -10030,7 +11002,29 @@
           "Fome se normalizando (sem fome extrema)",
           "Sono melhorando"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -10039,7 +11033,7 @@
     "descricao": "Aprenda o que é refeed day, quando usar, quanto comer e a diferença entre refeed e cheat day. Estratégia científica para não sabotar sua dieta.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "refeed",
       "carboidrato",
@@ -10153,7 +11147,8 @@
         "tipo": "cta",
         "texto": "Calcule suas calorias de manutenção para saber quanto comer no refeed!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -10168,16 +11163,38 @@
           "**Melhor dia**: Dia de treino intenso (usar os carbos)",
           "**Sinais de que você precisa**: Fome extrema, irritabilidade, força despencando"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
     "slug": "erros-contagem-calorias",
     "titulo": "7 Erros Que Você Comete ao Contar Calorias (E Não Sabe)",
-    "descricao": "Por que sua contagem de calorias está errada: os 7 erros mais comuns que sabotam sua dieta mesmo quando você acha que está fazendo tudo certo.",
+    "descricao": "Por que sua contagem de calorias está errada: os 7 erros mais comuns que sabotam sua dieta mesmo quando você acha que está fazendo tudo certo. Guia completo com",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "calorias",
       "contagem",
@@ -10269,8 +11286,31 @@
         "tipo": "cta",
         "texto": "Recalcule suas calorias e comece do zero com os números corretos!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -10279,7 +11319,7 @@
     "descricao": "Aprenda a descobrir quantas calorias você realmente gasta por dia usando um método prático de 2 semanas, sem depender só de calculadoras.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "manutenção",
       "calorias",
@@ -10372,7 +11412,8 @@
         "tipo": "cta",
         "texto": "Comece o processo: calcule seu TDEE estimado como ponto de partida!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -10387,7 +11428,29 @@
           "**Para manter**: Você já sabe exatamente quanto comer",
           "**Recalcular**: A cada 3-5kg de mudança de peso, refaça o teste"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -10402,7 +11465,8 @@
       "fase de carga",
       "suplementação",
       "hipertrofia",
-      "dosagem"
+      "dosagem",
+      "suplemento"
     ],
     "tempo_leitura": "6 min",
     "imagem": "/images/blog/creatina-carga.jpg",
@@ -10501,8 +11565,31 @@
         "tipo": "cta",
         "texto": "Calcule a dose ideal de creatina para seu peso!",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-retencao-liquido"
     ]
   },
   {
@@ -10517,7 +11604,8 @@
       "retenção de líquido",
       "inchaço",
       "água",
-      "hipertrofia"
+      "hipertrofia",
+      "suplemento"
     ],
     "tempo_leitura": "5 min",
     "imagem": "/images/blog/creatina-retencao.jpg",
@@ -10596,8 +11684,31 @@
         "tipo": "cta",
         "texto": "Veja nosso guia completo de creatina!",
         "botao": "Guia de Creatina 2026",
-        "link": "/blog/guia-completo-creatina-2026"
+        "link": "/blog/guia-completo-creatina-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -10612,7 +11723,8 @@
       "contraindicações",
       "segurança",
       "rins",
-      "efeitos colaterais"
+      "efeitos colaterais",
+      "suplemento"
     ],
     "tempo_leitura": "6 min",
     "imagem": "/images/blog/creatina-contraindicacoes.jpg",
@@ -10691,8 +11803,31 @@
         "tipo": "cta",
         "texto": "Veja o guia completo com todas as evidências científicas!",
         "botao": "Guia de Creatina 2026",
-        "link": "/blog/guia-completo-creatina-2026"
+        "link": "/blog/guia-completo-creatina-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -10707,7 +11842,8 @@
       "pós-treino",
       "pré-treino",
       "proteína",
-      "hipertrofia"
+      "hipertrofia",
+      "proteina"
     ],
     "tempo_leitura": "5 min",
     "imagem": "/images/blog/whey-horario.jpg",
@@ -10783,8 +11919,31 @@
         "tipo": "cta",
         "texto": "Calcule quanta proteína você precisa por dia!",
         "botao": "Calculadora de Proteína",
-        "link": "/calculadoras/proteína"
+        "link": "/calculadoras/proteína",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -10799,7 +11958,8 @@
       "leite",
       "água",
       "proteína",
-      "absorção"
+      "absorção",
+      "proteina"
     ],
     "tempo_leitura": "4 min",
     "imagem": "/images/blog/whey-leite-agua.jpg",
@@ -10882,8 +12042,31 @@
         "tipo": "cta",
         "texto": "Veja comparação completa entre whey isolado e concentrado!",
         "botao": "Whey Isolado vs Concentrado",
-        "link": "/blog/whey-isolado-vs-concentrado"
+        "link": "/blog/whey-isolado-vs-concentrado",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -10898,7 +12081,8 @@
       "emagrecimento",
       "calorias",
       "proteína",
-      "dieta"
+      "dieta",
+      "proteina"
     ],
     "tempo_leitura": "5 min",
     "imagem": "/images/blog/whey-engorda.jpg",
@@ -10974,17 +12158,40 @@
         "tipo": "cta",
         "texto": "Calcule suas calorias para emagrecer corretamente!",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
     "slug": "macros-para-definicao-muscular",
     "titulo": "Macros Para Definição Muscular: A Distribuição Ideal",
-    "descricao": "Guia completo de macronutrientes para definição: quanto de proteína, carboidrato e gordura comer para secar sem perder músculo.",
+    "descricao": "Guia completo de macronutrientes para definição: quanto de proteína, carboidrato e gordura comer para secar sem perder músculo. Leia agora e transforme sua saúd",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "macros",
       "definição",
@@ -11096,17 +12303,40 @@
         "tipo": "cta",
         "texto": "Calcule seus macros automaticamente!",
         "botao": "Calculadora de Macros",
-        "link": "/calculadoras/macros"
+        "link": "/calculadoras/macros",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
     "slug": "macros-para-ganho-massa",
     "titulo": "Macros Para Ganho de Massa: O Guia do Bulking Inteligente",
-    "descricao": "Distribuição ideal de macronutrientes para ganhar massa muscular com o mínimo de gordura. Proteína, carbo e gordura para hipertrofia.",
+    "descricao": "Distribuição ideal de macronutrientes para ganhar massa muscular com o mínimo de gordura. Proteína, carbo e gordura para hipertrofia. Guia completo com dosagem ",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
-    "categoria": "Nutrição",
+    "categoria": "Nutricao",
     "tags": [
       "macros",
       "bulking",
@@ -11207,8 +12437,31 @@
         "tipo": "cta",
         "texto": "Calcule seus macros para ganho de massa!",
         "botao": "Calculadora de Macros",
-        "link": "/calculadoras/macros"
+        "link": "/calculadoras/macros",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "proteina-por-dia-quanto-consumir-guia-completo",
+      "como-calcular-gasto-calorico-tmb-tdee",
+      "como-dividir-macros-cutting-bulking-manutencao"
     ]
   },
   {
@@ -11221,7 +12474,7 @@
     "descricao": "A resposta não é 2000. Descubra o número exato de calorias que seu corpo precisa para emagrecer ou ganhar massa.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-10",
-    "categoria": "Calorias",
+    "categoria": "Nutricao",
     "tags": [
       "calorias",
       "dieta",
@@ -11277,17 +12530,36 @@
         "tipo": "cta",
         "texto": "Calcule seu TDEE em 5 segundos",
         "botao": "Calcular Agora",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "mifflin-st-jeor-formula",
     "titulo": "Fórmula Mifflin-St Jeor: O Padrão Ouro Para Calcular Calorias",
-    "descricao": "Entenda a matemática por trás da calculadora de calorias mais precisa do mundo, recomendada pela Associação Americana de Dietética.",
+    "descricao": "Entenda a matemática por trás da calculadora de calorias mais precisa do mundo, recomendada pela Associação Americana de Dietética. Guia completo com dosagem e ",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-11",
-    "categoria": "Ciência",
+    "categoria": "Nutricao",
     "tags": [
       "metabolismo",
       "calculo",
@@ -11336,17 +12608,36 @@
         "tipo": "cta",
         "texto": "Use a Fórmula Mifflin-St Jeor Automaticamente",
         "botao": "Ir para Calculadora",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "calculadora-nutricional-calorias-macros",
     "titulo": "Calculadora Nutricional vs Calculadora de Calorias: Qual Você Precisa?",
-    "descricao": "Entenda a diferença entre análise nutricional (saúde) e cálculo de macros (corpo). Saiba qual ferramenta usar para seus objetivos.",
+    "descricao": "Entenda a diferença entre análise nutricional (saúde) e cálculo de macros (corpo). Saiba qual ferramenta usar para seus objetivos. Guia completo com dosagem e d",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-12",
-    "categoria": "Iniciantes",
+    "categoria": "Suplementos",
     "tags": [
       "nutrição",
       "tabela nutricional",
@@ -11407,8 +12698,29 @@
         "tipo": "cta",
         "texto": "Comece pelo básico: Quanto você precisa comer?",
         "botao": "Calculadora de Calorias",
-        "link": "/calculadoras/calorias"
+        "link": "/calculadoras/calorias",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "suplementos-para-iniciantes"
     ]
   },
   {
@@ -11427,7 +12739,8 @@
       "como tomar creatina",
       "dosagem creatina",
       "creatina monohidratada",
-      "suplementação"
+      "suplementação",
+      "suplemento"
     ],
     "tempo_leitura": "10 min",
     "imagem": "/images/blog/creatina-como-tomar.jpg",
@@ -11466,7 +12779,8 @@
         "tipo": "cta",
         "texto": "Quer saber a dose exata para seu peso?",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -11662,8 +12976,14 @@
         "tipo": "cta",
         "texto": "Quer dominar tudo sobre creatina?",
         "botao": "Guia Completo de Creatina 2026",
-        "link": "/blog/guia-completo-creatina-2026"
+        "link": "/blog/guia-completo-creatina-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -11682,7 +13002,8 @@
       "horário creatina",
       "pré-treino",
       "pós-treino",
-      "quando tomar creatina"
+      "quando tomar creatina",
+      "suplemento"
     ],
     "tempo_leitura": "7 min",
     "imagem": "/images/blog/creatina-timing.jpg",
@@ -11815,7 +13136,8 @@
         "tipo": "cta",
         "texto": "Quer saber a dose ideal para você?",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -11828,7 +13150,29 @@
           "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar) - Guia completo de dosagem e uso",
           "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026) - Tudo sobre creatina"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -11839,7 +13183,7 @@
       "emagrecimento"
     ],
     "titulo": "Creatina Engorda? Mito ou Verdade (Explicação Científica)",
-    "descricao": "Creatina faz engordar de verdade? Entenda a diferença entre retenção de água intramuscular e ganho de gordura. A ciência explica.",
+    "descricao": "Creatina faz engordar de verdade? Entenda a diferença entre retenção de água intramuscular e ganho de gordura. A ciência explica. Guia completo com dosagem e di",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -11848,7 +13192,8 @@
       "creatina engorda",
       "retenção de água",
       "ganho de peso",
-      "mitos creatina"
+      "mitos creatina",
+      "suplemento"
     ],
     "tempo_leitura": "6 min",
     "imagem": "/images/blog/creatina-engorda.jpg",
@@ -12006,7 +13351,8 @@
         "tipo": "cta",
         "texto": "Quer saber a dose ideal para você?",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -12019,7 +13365,29 @@
           "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar)",
           "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026)"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12038,7 +13406,8 @@
       "creatina faz mal",
       "segurança creatina",
       "efeitos colaterais creatina",
-      "mitos creatina"
+      "mitos creatina",
+      "suplemento"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/creatina-seguranca.jpg",
@@ -12211,7 +13580,8 @@
         "tipo": "cta",
         "texto": "Quer saber a dose ideal para você?",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -12224,7 +13594,29 @@
           "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar)",
           "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026)"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12235,7 +13627,7 @@
       "emagrecimento"
     ],
     "titulo": "Creatina Para Mulheres: Tudo Que Você Precisa Saber",
-    "descricao": "Creatina para mulheres: funciona igual? Causa inchaço? Engorda? Veja os benefícios específicos e como usar corretamente.",
+    "descricao": "Creatina para mulheres: funciona igual? Causa inchaço? Engorda? Veja os benefícios específicos e como usar corretamente. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -12243,7 +13635,8 @@
       "creatina",
       "creatina para mulheres",
       "suplementos femininos",
-      "treino feminino"
+      "treino feminino",
+      "suplemento"
     ],
     "tempo_leitura": "7 min",
     "imagem": "/images/blog/creatina-mulheres.jpg",
@@ -12316,7 +13709,8 @@
         "tipo": "cta",
         "texto": "Calcule sua dose ideal",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -12329,7 +13723,29 @@
           "[Creatina: Como Tomar Corretamente](/blog/creatina-como-tomar)",
           "[Creatina Engorda? Mito Desmentido](/blog/creatina-engorda)"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12339,7 +13755,7 @@
       "imunidade"
     ],
     "titulo": "Creatina Para Idosos: Benefícios Surpreendentes Além da Academia",
-    "descricao": "Creatina para pessoas acima de 50, 60, 70 anos: combate sarcopenia, melhora cognição e qualidade de vida. Veja as evidências científicas.",
+    "descricao": "Creatina para pessoas acima de 50, 60, 70 anos: combate sarcopenia, melhora cognição e qualidade de vida. Veja as evidências científicas. Guia completo com dosa",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -12348,7 +13764,8 @@
       "creatina para idosos",
       "sarcopenia",
       "saúde do idoso",
-      "suplementos terceira idade"
+      "suplementos terceira idade",
+      "suplemento"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/creatina-idosos.jpg",
@@ -12434,8 +13851,31 @@
         "tipo": "cta",
         "texto": "Calcule sua dose ideal",
         "botao": "Calculadora de Creatina",
-        "link": "/calculadoras/creatina"
+        "link": "/calculadoras/creatina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12444,8 +13884,8 @@
       "performance",
       "ganho-de-massa"
     ],
-    "titulo": "Creatina: Para Que Serve? Guia Completo de Benefícios",
-    "descricao": "Para que serve a creatina? Entenda todos os benefícios comprovados: força, massa muscular, recuperação, cognição e mais.",
+    "titulo": "Creatina: Para Que Serve? Guia DEFINITIVO 2025 de Benefícios",
+    "descricao": "Para que serve a creatina? Entenda todos os benefícios comprovados: força, massa muscular, recuperação, cognição e mais. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -12453,7 +13893,8 @@
       "creatina",
       "para que serve creatina",
       "benefícios creatina",
-      "creatina funciona"
+      "creatina funciona",
+      "suplemento"
     ],
     "tempo_leitura": "9 min",
     "imagem": "/images/blog/creatina-benefícios.jpg",
@@ -12556,7 +13997,8 @@
         "tipo": "cta",
         "texto": "Pronto para começar? Veja como tomar corretamente:",
         "botao": "Guia: Como Tomar Creatina",
-        "link": "/blog/creatina-como-tomar"
+        "link": "/blog/creatina-como-tomar",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -12569,7 +14011,29 @@
           "[Guia Completo de Creatina 2026](/blog/guia-completo-creatina-2026)",
           "[Calculadora de Creatina](/calculadoras/creatina)"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12579,7 +14043,7 @@
       "ganho-de-massa"
     ],
     "titulo": "Melhor Marca de Creatina no Brasil 2026: Ranking Atualizado",
-    "descricao": "Qual a melhor creatina do Brasil? Comparativo das principais marcas: Creapure, Growth, Integral Médica, Max Titanium e mais.",
+    "descricao": "Qual a melhor creatina do Brasil? Comparativo das principais marcas: Creapure, Growth, Integral Médica, Max Titanium e mais. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -12588,7 +14052,8 @@
       "melhor creatina",
       "creatina brasil",
       "creapure",
-      "ranking creatina"
+      "ranking creatina",
+      "suplemento"
     ],
     "tempo_leitura": "8 min",
     "imagem": "/images/blog/melhor-creatina.jpg",
@@ -12723,8 +14188,31 @@
         "tipo": "cta",
         "texto": "Já escolheu sua creatina? Veja como tomar:",
         "botao": "Guia: Como Tomar Creatina",
-        "link": "/blog/creatina-como-tomar"
+        "link": "/blog/creatina-como-tomar",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12734,7 +14222,7 @@
       "ganho-de-massa"
     ],
     "titulo": "Creatina Monohidratada vs HCL vs Alcalina: Qual a Melhor?",
-    "descricao": "Creatina monohidratada, HCL, éster etílico ou alcalina? Comparativo científico de todas as formas de creatina disponíveis.",
+    "descricao": "Creatina monohidratada, HCL, éster etílico ou alcalina? Comparativo científico de todas as formas de creatina disponíveis. Guia completo com dosagem e dicas.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -12743,7 +14231,8 @@
       "creatina monohidratada",
       "creatina hcl",
       "kre-alkalyn",
-      "tipos de creatina"
+      "tipos de creatina",
+      "suplemento"
     ],
     "tempo_leitura": "7 min",
     "imagem": "/images/blog/tipos-creatina.jpg",
@@ -12876,8 +14365,31 @@
         "tipo": "cta",
         "texto": "Escolheu monohidratada? Veja como usar:",
         "botao": "Guia: Como Tomar Creatina",
-        "link": "/blog/creatina-como-tomar"
+        "link": "/blog/creatina-como-tomar",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12895,7 +14407,8 @@
       "cafeína",
       "creatina e café",
       "pré-treino",
-      "creatina cafeína"
+      "creatina cafeína",
+      "suplemento"
     ],
     "tempo_leitura": "6 min",
     "imagem": "/images/blog/creatina-cafeina.jpg",
@@ -12976,8 +14489,31 @@
         "tipo": "cta",
         "texto": "Quer saber mais sobre creatina?",
         "botao": "Guia Completo de Creatina",
-        "link": "/blog/guia-completo-creatina-2026"
+        "link": "/blog/guia-completo-creatina-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=creatina+monohidratada&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "omega-3-beneficios-comprovados",
+      "guia-completo-creatina-2026",
+      "creatina-fase-carga-necessaria"
     ]
   },
   {
@@ -12991,7 +14527,7 @@
     "descricao": "Tudo sobre Whey Protein em um só lugar: diferenças entre Concentrado, Isolado e Hidrolisado, como calcular sua dose ideal, mitos desmentidos pela ciência, e como fugir de fraudes como Amino Spiking.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Proteínas",
+    "categoria": "Proteinas",
     "tags": [
       "whey protein",
       "guia completo",
@@ -13002,7 +14538,8 @@
       "whey isolado",
       "whey hidrolisado",
       "amino spiking",
-      "proteína"
+      "proteína",
+      "proteina"
     ],
     "tempo_leitura": "35 min",
     "imagem": "/images/blog/whey-protein-guia.jpg",
@@ -13476,7 +15013,8 @@
         "tipo": "cta",
         "texto": "Pronto para escolher sua marca? Veja nosso ranking das melhores opções do Brasil:",
         "botao": "Ver Ranking de Melhores Wheys 2026",
-        "link": "/blog/melhores-marcas-whey-protein-2026"
+        "link": "/blog/melhores-marcas-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -13542,8 +15080,29 @@
         "tipo": "cta",
         "texto": "Calcule exatamente quanto de proteína você precisa por dia:",
         "botao": "Calculadora de Proteína",
-        "link": "/calculadoras/proteína"
+        "link": "/calculadoras/proteína",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "diferenca-proteinas-whey-caseina-albumina"
     ]
   },
   {
@@ -13556,7 +15115,7 @@
     "descricao": "Ranking definitivo e imparcial dos melhores Whey Proteins vendidos no Brasil. Análise de concentração proteica real, origem da matéria-prima, presença de Amino Spiking, sabor e custo por grama de proteína.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Review",
+    "categoria": "Suplementos",
     "tags": [
       "melhores wheys",
       "ranking whey protein",
@@ -13567,7 +15126,8 @@
       "max titanium",
       "integralmedica",
       "probiotica",
-      "whey custo benefício"
+      "whey custo benefício",
+      "proteina"
     ],
     "tempo_leitura": "25 min",
     "imagem": "/images/blog/ranking-whey.jpg",
@@ -13931,9 +15491,28 @@
         "tipo": "cta",
         "texto": "Ainda tem dúvidas sobre Whey? Leia nosso Guia Definitivo:",
         "botao": "Guia Completo de Whey Protein",
-        "link": "/blog/guia-whey-protein-2026"
+        "link": "/blog/guia-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "whey-protein-intolerantes-lactose",
@@ -13942,11 +15521,11 @@
       "emagrecimento",
       "saúde"
     ],
-    "titulo": "Whey Protein para Intolerantes à Lactose: O Guia Completo de Sobrevivência",
+    "titulo": "Whey Protein para Intolerantes à Lactose: O Guia DEFINITIVO 2025 de Sobrevivência",
     "descricao": "Sofre com inchaço, gases e desconforto ao tomar Whey? Entenda a diferença entre intolerância à lactose e alergia (APLV), descubra quais Wheys são seguros, e conheça alternativas como Beef Protein e proteínas vegetais.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Saúde",
+    "categoria": "Saude",
     "tags": [
       "whey isolado",
       "intolerância lactose",
@@ -13954,7 +15533,8 @@
       "APLV",
       "beef protein",
       "proteína sem lactose",
-      "whey para quem tem intolerância"
+      "whey para quem tem intolerância",
+      "proteina"
     ],
     "tempo_leitura": "18 min",
     "imagem": "/images/blog/whey-zero-lactose.jpg",
@@ -14249,8 +15829,30 @@
         "tipo": "cta",
         "texto": "Quer conhecer outras marcas de Whey Isolado?",
         "botao": "Ver Ranking Completo de Wheys",
-        "link": "/blog/melhores-marcas-whey-protein-2026"
+        "link": "/blog/melhores-marcas-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "imc-o-que-significa-como-calcular",
+      "quanta-agua-beber-por-dia-calculo-por-peso"
     ]
   },
   {
@@ -14263,7 +15865,7 @@
     "descricao": "Guia definitivo comparando as 4 principais fontes de proteína para suplementação. Entenda a velocidade de absorção, o momento ideal de cada uma, e qual oferece o melhor custo-benefício para seus objetivos.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Proteínas",
+    "categoria": "Proteinas",
     "tags": [
       "whey vs caseína",
       "albumina",
@@ -14271,7 +15873,8 @@
       "tipos de proteína",
       "absorção proteica",
       "proteína pós treino",
-      "proteína antes de dormir"
+      "proteína antes de dormir",
+      "proteina"
     ],
     "tempo_leitura": "20 min",
     "imagem": "/images/blog/proteínas-comparativo.jpg",
@@ -14649,8 +16252,29 @@
         "tipo": "cta",
         "texto": "Quer saber quais são os melhores Wheys do mercado?",
         "botao": "Ver Ranking de Whey Proteins 2026",
-        "link": "/blog/melhores-marcas-whey-protein-2026"
+        "link": "/blog/melhores-marcas-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
+    ],
+    "relacionados": [
+      "guia-whey-protein-2026"
     ]
   },
   {
@@ -14663,7 +16287,7 @@
     "descricao": "Soja diminui testosterona e causa ginecomastia? Esqueça os mitos. Veja o que a ciência realmente diz sobre proteína de soja para hipertrofia, e por que ela pode ser uma excelente opção para veganos e intolerantes.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Vegano",
+    "categoria": "Nutricao",
     "tags": [
       "proteína de soja",
       "vegano",
@@ -14888,9 +16512,28 @@
         "tipo": "cta",
         "texto": "Prefere proteína do leite? Veja nosso guia completo:",
         "botao": "Guia Definitivo de Whey Protein",
-        "link": "/blog/guia-whey-protein-2026"
+        "link": "/blog/guia-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "receitas-whey-protein-faceis",
@@ -14902,7 +16545,7 @@
     "descricao": "Cansado de tomar shake com água? Descubra 15 receitas fit deliciosas usando Whey Protein: panquecas, mousse, bolo de caneca, overnight oats, e muito mais. Todas testadas e aprovadas!",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-01",
-    "categoria": "Receitas",
+    "categoria": "Nutricao",
     "tags": [
       "receitas fit",
       "receitas com whey",
@@ -14910,7 +16553,8 @@
       "mousse proteico",
       "bolo de whey",
       "receitas proteicas",
-      "café da manhã fit"
+      "café da manhã fit",
+      "proteina"
     ],
     "tempo_leitura": "15 min",
     "imagem": "/images/blog/receitas-whey.jpg",
@@ -15160,15 +16804,34 @@
         "tipo": "cta",
         "texto": "Precisa de um Whey bom e saboroso para receitas?",
         "botao": "Ver Melhores Wheys 2026",
-        "link": "/blog/melhores-marcas-whey-protein-2026"
+        "link": "/blog/melhores-marcas-whey-protein-2026",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=whey+protein+isolado&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
-    ]
+    ],
+    "relacionados": []
   },
   {
     "slug": "como-dormir-melhor-suplementos",
     "titulo": "Como Dormir Melhor: 7 Suplementos Que Realmente Funcionam (2026)",
     "descricao": "Guia completo dos suplementos para sono baseados em ciencia: melatonina, magnésio, glicina, L-teanina, valeriana e mais. Dosagens corretas e o que evitar.",
-    "categoria": "sono",
+    "categoria": "Sono",
     "tags": [
       "sono",
       "melatonina",
@@ -15427,7 +17090,8 @@
         "tipo": "cta",
         "texto": "Quer saber mais sobre magnésio? Leia nosso guia completo",
         "link": "/blog/magnésio-ansiedade-sono-tipos",
-        "botao": "Ver Guia de Magnésio"
+        "botao": "Ver Guia de Magnésio",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -15437,15 +17101,33 @@
       {
         "tipo": "paragrafo",
         "texto": "Suplementos para sono funcionam, mas não são magica. Comece com magnésio glicinato (o mais seguro é eficaz), adicione L-teanina se necessário, e use melatonina apenas em doses baixas. Combine com boa higiene do sono e voce vai notar a diferença em poucos dias."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
     ],
-    "data": "2026-02-04"
+    "data": "2026-02-04",
+    "relacionados": []
   },
   {
     "slug": "suplementos-para-emagrecer-funcionam",
-    "titulo": "Suplementos Para Emagrecer: O Que Funciona (e O Que e Golpe)",
+    "titulo": "Suplementos Para Emagrecer: O Que FUNCIONA MESMO? (e O Que e Golpe)",
     "descricao": "Análise científica dos suplementos para emagrecimento: termogenicos, L-carnitina, cafeina, CLA e mais. O que realmente funciona e o que é puro marketing.",
-    "categoria": "emagrecimento",
+    "categoria": "Emagrecimento",
     "tags": [
       "emagrecimento",
       "termogenico",
@@ -15670,7 +17352,8 @@
         "tipo": "cta",
         "texto": "Calcule quantas calorias voce precisa para emagrecer",
         "link": "/blog/deficit-calórico-quanto-cortar",
-        "botao": "Calcular Deficit"
+        "botao": "Calcular Deficit",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
       },
       {
         "tipo": "heading",
@@ -15680,15 +17363,33 @@
       {
         "tipo": "paragrafo",
         "texto": "Suplementos para emagrecer funcionam - alguns deles, pelo menos. Cafeina, proteína e fibras são os mais eficazes. O resto? Economize seu dinheiro e invista em comida de qualidade. Lembre-se: nenhuma pilula substitui o básico bem feito."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
     ],
-    "data": "2026-02-04"
+    "data": "2026-02-04",
+    "relacionados": []
   },
   {
     "slug": "pre-treino-vale-a-pena",
     "titulo": "Pré-Treino Vale a Pena? Análise Completa de Ingredientes (2026)",
-    "descricao": "Análise científica dos pré-treinos: quais ingredientes funcionam, dosagens eficazes, e como fazer seu proprio pré-treino por metade do preco.",
-    "categoria": "suplementos",
+    "descricao": "Análise científica dos pré-treinos: quais ingredientes funcionam, dosagens eficazes, e como fazer seu proprio pré-treino por metade do preco. Guia completo com ",
+    "categoria": "Suplementos",
     "tags": [
       "pré-treino",
       "cafeina",
@@ -15981,22 +17682,42 @@
         "tipo": "cta",
         "texto": "Saiba mais sobre cafeina e performance",
         "link": "/blog/cafeina-performance-dose-pré-treino",
-        "botao": "Ver Guia de Cafeina"
+        "botao": "Ver Guia de Cafeina",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
     ],
-    "data": "2026-02-04"
+    "data": "2026-02-04",
+    "relacionados": []
   },
   {
     "slug": "como-fortalecer-imunidade-suplementos",
     "titulo": "Como Fortalecer a Imunidade: Suplementos Que a Ciencia Aprova",
-    "descricao": "Guia baseado em evidências sobre suplementos para imunidade: Vitamina D, Zinco, Vitamina C, Probióticos e mais. O que funciona e o que é hype.",
-    "categoria": "imunidade",
+    "descricao": "Guia baseado em evidências sobre suplementos para imunidade: Vitamina D, Zinco, Vitamina C, Probióticos e mais. O que funciona e o que é hype. Leia agora e tran",
+    "categoria": "Saude",
     "tags": [
       "imunidade",
       "vitamina d",
       "zinco",
       "vitamina c",
-      "probióticos"
+      "probióticos",
+      "defesa"
     ],
     "autor": "Equipe Suplementa Já",
     "data_publicacao": "2026-02-04",
@@ -16252,16 +17973,35 @@
         "tipo": "cta",
         "texto": "Saiba mais sobre Vitamina D",
         "link": "/blog/vitamina-d-deficiência-brasileiros",
-        "botao": "Ver Guia de Vitamina D"
+        "botao": "Ver Guia de Vitamina D",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
     ],
-    "data": "2026-02-04"
+    "data": "2026-02-04",
+    "relacionados": []
   },
   {
     "slug": "suplementos-para-dor-articulacao-joelho",
-    "titulo": "Suplementos Para Dor nas Articulacoes: O Que Funciona Para Joelho, Ombro e Quadril",
+    "titulo": "Suplementos Para Dor nas Articulacoes: O Que FUNCIONA MESMO? Para Joelho, Ombro e Quadril",
     "descricao": "Análise científica dos suplementos para articulacoes: colageno tipo 2, glucosamina, condroitina, MSM, curcumina. O que realmente alivia dor e o que é placebo.",
-    "categoria": "articulacoes",
+    "categoria": "Articulacoes",
     "tags": [
       "articulacoes",
       "joelho",
@@ -16487,9 +18227,28 @@
         "tipo": "cta",
         "texto": "Saiba mais sobre Colageno",
         "link": "/blog/colageno-hidrolisado-funciona-pele-articulacoes",
-        "botao": "Ver Guia de Colageno"
+        "botao": "Ver Guia de Colageno",
+        "linkAfiliado": "https://www.amazon.com.br/s?k=suplementos&tag=105c91-20"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "E seguro tomar esse suplemento todos os dias?",
+            "resposta": "Sim, quando tomado nas doses recomendadas, a maioria dos suplementos e segura para uso diario. Consulte sempre um profissional de saude antes de iniciar qualquer suplementacao."
+          },
+          {
+            "pergunta": "Quanto tempo leva para ver resultados?",
+            "resposta": "Os resultados variam de pessoa para pessoa, mas geralmente entre 4-12 semanas de uso consistente voce comeca a notar os beneficios."
+          },
+          {
+            "pergunta": "Posso tomar junto com outros suplementos?",
+            "resposta": "Na maioria dos casos sim, mas algumas combinacoes devem ser evitadas. Recomendamos consultar um nutricionista para um protocolo personalizado."
+          }
+        ]
       }
     ],
-    "data": "2026-02-04"
+    "data": "2026-02-04",
+    "relacionados": []
   }
 ]

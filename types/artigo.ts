@@ -1,4 +1,4 @@
-export interface Artigo {
+﻿export interface Artigo {
   slug: string
   titulo: string
   descricao: string
@@ -10,6 +10,7 @@ export interface Artigo {
   imagem: string
   objetivos?: string[]
   conteudo: BlocoConteudo[]
+  relacionados?: string[]  // Slugs de artigos relacionados
 }
 
 export type BlocoConteudo =
@@ -18,6 +19,5 @@ export type BlocoConteudo =
   | { tipo: 'lista'; itens: string[]; ordenada?: boolean }
   | { tipo: 'tabela'; colunas?: string[]; cabecalho?: string[]; linhas: string[][] }
   | { tipo: 'alerta'; variante: 'info' | 'warning' | 'danger'; texto: string }
-  | { tipo: 'cta'; texto: string; botao?: string; textoBotao?: string; descricao?: string; link: string }
+  | { tipo: 'cta'; texto: string; botao?: string; textoBotao?: string; descricao?: string; link: string; linkAfiliado?: string }
   | { tipo: 'faq'; perguntas: Array<{ pergunta: string; resposta: string }> }
-

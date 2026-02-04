@@ -29,6 +29,9 @@ export function Header() {
             <Link href="/calculadoras" className="px-4 py-2 bg-cyan-400 text-black font-bold uppercase text-sm border-2 border-black hover:bg-cyan-500 transition-all hover:scale-105 flex items-center gap-1">
               <Calculator className="w-4 h-4" /> Calculadoras
             </Link>
+            <Link href="/melhores-suplementos" className="px-4 py-2 bg-orange-400 text-black font-bold uppercase text-sm border-2 border-black hover:bg-orange-500 transition-all hover:scale-105">
+              TOP 8
+            </Link>
             <Link href="/nutrientes" className="px-4 py-2 bg-purple-400 text-black font-bold uppercase text-sm border-2 border-black hover:bg-purple-500 transition-all hover:scale-105">
               Nutrientes
             </Link>
@@ -67,6 +70,13 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <Calculator className="w-5 h-5" /> Calculadoras
+              </Link>
+              <Link
+                href="/melhores-suplementos"
+                className="px-4 py-3 bg-orange-400 text-black font-bold uppercase text-center border-2 border-black hover:bg-orange-500 transition-all"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                TOP 8 Suplementos
               </Link>
               <Link
                 href="/nutrientes"

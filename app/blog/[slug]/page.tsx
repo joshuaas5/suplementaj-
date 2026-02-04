@@ -184,6 +184,25 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     ],
   }
 
+  // FAQ Schema (se o artigo tiver FAQs)
+  const faqSchema = (() => {
+    const faqBloco = artigo.conteudo.find(b => b.tipo === 'faq')
+    if (!faqBloco || faqBloco.tipo !== 'faq') return null
+    
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqBloco.perguntas?.map(faq => ({
+        '@type': 'Question',
+        name: faq.pergunta,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.resposta
+        }
+      }))
+    }
+  })()
+
   return (
     <div className="min-h-screen bg-white py-12">
       {/* JSON-LD Schema Markup */}
@@ -195,6 +214,12 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb / Voltar */}
         <Link
@@ -329,16 +354,19 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
 
-        {/* Mais artigos */}
+        {/* Artigos Relacionados - baseado em categoria e relacionados */}
         <div className="mt-12">
           <h3 className="text-2xl font-black text-black uppercase mb-6 border-b-4 border-black pb-3">
-            📖 Outros Artigos
+            🔗 Leia Tambem
           </h3>
           <div className="grid gap-6 sm:grid-cols-2">
-            {artigos
-              .filter((a) => a.slug !== artigo.slug)
-              .slice(0, 2)
-              .map((artigoRelacionado) => (
+            {(() => {
+              const relacionados = artigo.relacionados && artigo.relacionados.length > 0
+                ? artigo.relacionados
+                    .map((slug: string) => artigos.find((a) => a.slug === slug))
+                    .filter((a): a is Artigo => a !== undefined)
+                : artigos.filter((a) => a.slug !== artigo.slug && a.categoria === artigo.categoria);
+              return relacionados.slice(0, 2).map((artigoRelacionado) => (
                 <Link
                   key={artigoRelacionado.slug}
                   href={`/blog/${artigoRelacionado.slug}`}
@@ -354,7 +382,8 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
                     {artigoRelacionado.descricao}
                   </p>
                 </Link>
-              ))}
+              ));
+            })()}
           </div>
         </div>
 
