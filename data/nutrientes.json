@@ -525,8 +525,8 @@
       ]
     }
   },
-  "calcio": {
-    "slug": "calcio",
+  "cálcio": {
+    "slug": "cálcio",
     "nome": "Cálcio",
     "nome_cientifico": "Ca",
     "categoria": "mineral",
@@ -680,7 +680,7 @@
     "formas_suplemento": [
       {
         "forma": "Citrato de cálcio",
-        "absorcao": "~30%",
+        "absorção": "~30%",
         "vantagens": [
           "Pode ser tomado com ou sem alimentos",
           "Melhor para quem tem baixa acidez gástrica",
@@ -694,7 +694,7 @@
       },
       {
         "forma": "Carbonato de cálcio",
-        "absorcao": "~40% com alimentos",
+        "absorção": "~40% com alimentos",
         "vantagens": [
           "Mais barato",
           "Mais concentrado (mais cálcio por comprimido)"
@@ -756,8 +756,8 @@
       ]
     }
   },
-  "magnesio": {
-    "slug": "magnesio",
+  "magnésio": {
+    "slug": "magnésio",
     "objetivos": [
       "sono",
       "performance"
@@ -888,7 +888,7 @@
         "citacao_chave": "Magnésio (400-500mg/dia) melhora performance muscular em 12%, reduz cãibras em 70% e acelera recuperação muscular pós-exercício em 25% em atletas",
         "conclusao": "Magnésio é essencial para função muscular e prevenção de cãibras",
         "relevancia": [
-          "musculo",
+          "músculo",
           "caibras",
           "exercicio",
           "performance"
@@ -1028,7 +1028,7 @@
         "citacao_chave": "Bisglicinato ferroso apresenta absorção 3,5x superior ao sulfato ferroso (25% vs 7%) e reduz efeitos gastrointestinais em 80%",
         "conclusao": "Ferro quelado (bisglicinato) é superior em absorção e tolerabilidade",
         "relevancia": [
-          "absorcao",
+          "absorção",
           "tolerabilidade",
           "suplementacao"
         ]
@@ -1173,7 +1173,7 @@
         "conclusao": "Omega-3 reduz significativamente risco cardiovascular, especialmente em doses ≥1g/dia",
         "relevancia": [
           "cardiovascular",
-          "coracao",
+          "coração",
           "prevencao"
         ]
       },
@@ -1189,7 +1189,7 @@
         "citacao_chave": "Suplementação com 1-2g/dia de DHA melhora memória episódica em 18%, velocidade de processamento em 12% e reduz sintomas depressivos em 30% após 12 semanas",
         "conclusao": "Omega-3 melhora significativamente cognição e humor, especialmente DHA",
         "relevancia": [
-          "cerebro",
+          "cérebro",
           "memoria",
           "depressao",
           "humor"
@@ -1207,7 +1207,7 @@
         "citacao_chave": "EPA e DHA reduzem marcadores inflamatórios (PCR, IL-6, TNF-α) em 20-40% após 8-12 semanas em doses de 2-3g/dia, com benefícios para artrite, asma e doenças autoimunes",
         "conclusao": "Omega-3 tem potente efeito anti-inflamatório em múltiplas condições",
         "relevancia": [
-          "inflamacao",
+          "inflamação",
           "artrite",
           "autoimune"
         ]
@@ -1393,7 +1393,7 @@
         "conclusao": "Vitamina C triplica absorção de ferro quando tomados juntos",
         "relevancia": [
           "ferro",
-          "absorcao",
+          "absorção",
           "anemia",
           "vegetarianos"
         ]
@@ -1751,8 +1751,8 @@
       ]
     }
   },
-  "acido-folico": {
-    "slug": "acido-folico",
+  "ácido-folico": {
+    "slug": "ácido-folico",
     "nome": "Ácido Fólico",
     "nome_cientifico": "Vitamina B9 / Folato",
     "categoria": "vitamina",
@@ -1877,7 +1877,7 @@
         "citacao_chave": "Suplementação com ácido fólico (800-1000 mcg/dia) melhora função cognitiva em 18%, reduz declínio de memória em 25% e diminui risco de demência em 30% em idosos com deficiência",
         "conclusao": "Ácido fólico protege função cerebral e memória, especialmente em idosos",
         "relevancia": [
-          "cerebro",
+          "cérebro",
           "memoria",
           "idosos",
           "cognicao"
@@ -1896,7 +1896,7 @@
         "conclusao": "Ácido fólico reduz significativamente risco cardiovascular via homocisteína",
         "relevancia": [
           "cardiovascular",
-          "coracao",
+          "coração",
           "avc",
           "homocisteina"
         ]
@@ -2325,7 +2325,7 @@
         "mk4",
         "natto",
         "osteoporose",
-        "calcio"
+        "cálcio"
       ]
     },
     "afiliados": {
@@ -4058,7 +4058,7 @@
       "meta_description": "Vitamina B5: papel no metabolismo, produção de hormônios e saúde da pele.",
       "keywords": [
         "vitamina b5",
-        "acido pantotenico",
+        "ácido pantotenico",
         "coenzima a",
         "hormônios"
       ]
@@ -4466,7 +4466,7 @@
         "citacao_chave": "Suplementação com peptídeos de colágeno combinada com treinamento de resistência resultou em maior aumento de massa livre de gordura, massa muscular e força muscular em comparação com placebo. Também houve maior redução de massa gorda no grupo colágeno.",
         "conclusao": "Colágeno potencializa ganho de massa muscular e força em idosos sarcopênicos quando combinado com exercício resistido",
         "relevancia": [
-          "musculo",
+          "músculo",
           "sarcopenia",
           "idosos",
           "forca_muscular"
@@ -6353,7 +6353,7 @@
         "tipo": "revisao",
         "revista": "International Journal of Molecular Sciences",
         "conclusao": "A MnSOD mitocondrial é fundamental para a proteção contra estresse oxidativo e manutenção da homeostase redox celular. Alterações na atividade da MnSOD estão associadas a múltiplas condições patológicas, incluindo doenças cardiovasculares, neurodegenerativas e câncer.",
-        "citacao_chave": "A manganês-superóxido dismutase (MnSOD/SOD2) catalisa a dismutação de radicais superóxido em peróxido de hidrogênio e oxigênio molecular, representando a primeira linha de defesa antioxidante mitocondrial. O manganês no sítio ativo é absolutamente essencial para esta atividade catalítica.",
+        "citacao_chave": "A manganês-superóxido dismutase (MnSOD/SOD2) catalisa a dismutação de radicais superóxido em peróxido de hidrogênio e oxigênio molecular, representando a primeira linha de defesa antioxidante mitocondrial. O manganês no sítio ativo é absolutamente essencial para está atividade catalítica.",
         "doi": "10.3390/ijms15010610",
         "pmid": "24398984"
       }
@@ -6500,7 +6500,7 @@
         "ano": 2010,
         "tipo": "revisao",
         "revista": "Annual Review of Nutrition",
-        "conclusao": "O cobre é essencial para o metabolismo do ferro através da ceruloplasmina, uma ferroxidase dependente de cobre. A deficiência de cobre resulta em acúmulo de ferro nos tecidos e anemia por deficiência funcional de ferro, mesmo com estoques adequados de ferro. Esta interação é crítica para a mobilização de ferro e formação de hemoglobina.",
+        "conclusao": "O cobre é essencial para o metabolismo do ferro através da ceruloplasmina, uma ferroxidase dependente de cobre. A deficiência de cobre resulta em acúmulo de ferro nos tecidos e anemia por deficiência funcional de ferro, mesmo com estoques adequados de ferro. Está interação é crítica para a mobilização de ferro e formação de hemoglobina.",
         "citacao_chave": "A ceruloplasmina, principal proteína transportadora de cobre no plasma (contém 95% do cobre sérico), atua como ferroxidase essencial oxidando Fe²⁺ a Fe³⁺, permitindo a ligação do ferro à transferrina. Sem cobre adequado, o ferro não pode ser mobilizado dos tecidos, resultando em anemia microcítica resistente à suplementação de ferro.",
         "doi": "10.1146/annurev.nutr.012809.104742",
         "pmid": "20415584"
@@ -6524,7 +6524,7 @@
         "ano": 2007,
         "tipo": "revisao",
         "revista": "Journal of Cerebral Blood Flow & Metabolism",
-        "conclusao": "O cobre é componente essencial da citocromo c oxidase (complexo IV), enzima terminal da cadeia transportadora de elétrons mitocondrial. Esta cuproenzima é responsável pela etapa final da fosforilação oxidativa, gerando aproximadamente 95% do ATP celular. Deficiência de cobre compromete severamente a produção energética mitocondrial.",
+        "conclusao": "O cobre é componente essencial da citocromo c oxidase (complexo IV), enzima terminal da cadeia transportadora de elétrons mitocondrial. Está cuproenzima é responsável pela etapa final da fosforilação oxidativa, gerando aproximadamente 95% do ATP celular. Deficiência de cobre compromete severamente a produção energética mitocondrial.",
         "citacao_chave": "A citocromo c oxidase contém centros redox de cobre (CuA e CuB) que são absolutamente essenciais para o transporte de elétrons e redução de oxigênio molecular a água. Cada molécula da enzima requer 2 átomos de cobre para funcionalidade completa. Deficiência de cobre reduz drasticamente a atividade desta enzima, comprometendo a respiração celular aeróbica.",
         "doi": "10.1038/sj.jcbfm.9600484",
         "pmid": "17667909"
@@ -6702,8 +6702,8 @@
       "amazon": []
     }
   },
-  "potassio": {
-    "slug": "potassio",
+  "potássio": {
+    "slug": "potássio",
     "nome": "Potássio",
     "nome_cientifico": "Potassium",
     "categoria": "mineral",
@@ -6837,7 +6837,7 @@
     ],
     "evidencias": [
       {
-        "id": "ref-potassio-001",
+        "id": "ref-potássio-001",
         "titulo": "Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses",
         "autores": "Aburto NJ, Hanson S, Gutierrez H, et al.",
         "revista": "BMJ",
@@ -6849,7 +6849,7 @@
         "conclusao": "A suplementação de potássio é eficaz na redução da pressão arterial, especialmente em indivíduos hipertensos e naqueles com alta ingestão de sódio, sem efeitos adversos significativos"
       },
       {
-        "id": "ref-potassio-002",
+        "id": "ref-potássio-002",
         "titulo": "Potassium intake, stroke, and cardiovascular disease: a meta-analysis of prospective studies",
         "autores": "D'Elia L, Barba G, Cappuccio FP, Strazzullo P",
         "revista": "Journal of the American College of Cardiology",
@@ -6861,7 +6861,7 @@
         "conclusao": "A ingestão adequada de potássio (3500-4700 mg/dia) reduz significativamente o risco de AVC e eventos cardiovasculares, sendo especialmente protetor para a saúde do coração"
       },
       {
-        "id": "ref-potassio-003",
+        "id": "ref-potássio-003",
         "titulo": "Potassium and muscle function: from cellular energetics to athletic performance",
         "autores": "Nielsen FH, Lukaski HC",
         "revista": "Sports Medicine",
@@ -6877,7 +6877,7 @@
       "meta_title": "Potássio: Mineral para Pressão e Coração",
       "meta_description": "Potássio: eletrólito essencial para pressão arterial, músculos e função cardíaca.",
       "keywords": [
-        "potassio",
+        "potássio",
         "pressao arterial",
         "hipertensao",
         "caibras",
@@ -7076,7 +7076,7 @@
         "doi": "10.1186/s12970-017-0173-z",
         "pmid": "28615996",
         "relevancia": [
-          "musculo",
+          "músculo",
           "forca",
           "performance",
           "hipertrofia"
@@ -7094,7 +7094,7 @@
         "doi": "10.1016/j.exger.2018.06.013",
         "pmid": "29704637",
         "relevancia": [
-          "cerebro",
+          "cérebro",
           "memoria",
           "cognicao",
           "vegetarianos"
@@ -7151,13 +7151,13 @@
       ]
     }
   },
-  "proteina": {
-    "slug": "proteina",
+  "proteína": {
+    "slug": "proteína",
     "objetivos": [
       "ganho-de-massa",
       "emagrecimento",
       "performance",
-      "saude"
+      "saúde"
     ],
     "nome": "Proteína",
     "nome_cientifico": "Polipeptídeos (Cadeias de Aminoácidos)",
@@ -7543,7 +7543,7 @@
         "min": 5,
         "max": 10,
         "unidade": "g",
-        "nota": "Se for suplementar, esta é a dose padrão"
+        "nota": "Se for suplementar, está é a dose padrão"
       },
       "suplementacao_terapeutica": {
         "min": 10,
@@ -7661,7 +7661,7 @@
     "slug": "glutamina",
     "objetivos": [
       "imunidade",
-      "saude-intestinal",
+      "saúde-intestinal",
       "recuperacao"
     ],
     "nome": "Glutamina",
@@ -7881,7 +7881,7 @@
     ],
     "nome": "Caseína",
     "nome_cientifico": "Fosfoproteína Micelar do Leite",
-    "categoria": "proteina",
+    "categoria": "proteína",
     "emoji": "🥛",
     "descricao_curta": "A proteína do sono: absorção lenta de 6-7 horas, ideal para alimentar seus músculos enquanto você dorme.",
     "descricao_longa": "A caseína representa 80% da proteína do leite (o Whey são os outros 20%). Sua característica única é a formação de um ''gel'' no estômago ao entrar em contato com o ácido gástrico. Isso faz a digestão ser extremamente lenta - os aminoácidos são liberados gradualmente por 5-7 horas. Por isso, a caseína é conhecida como proteína ''time-release'' ou ''anti-catabólica'', sendo a escolha ideal para antes de dormir, quando você passará 6-8 horas sem comer.",
@@ -8011,7 +8011,7 @@
         "relevancia": [
           "hipertrofia",
           "forca",
-          "estudo clinico"
+          "estudo clínico"
         ]
       }
     ],
@@ -8042,7 +8042,7 @@
       "keywords": [
         "caseína",
         "caseina micelar",
-        "proteina antes de dormir",
+        "proteína antes de dormir",
         "caseina ou whey",
         "caseina para que serve",
         "suplemento caseina"
@@ -8070,11 +8070,11 @@
     "slug": "albumina",
     "objetivos": [
       "ganho-de-massa",
-      "custo-beneficio"
+      "custo-benefício"
     ],
     "nome": "Albumina",
     "nome_cientifico": "Ovoalbumina (Proteína da Clara do Ovo)",
-    "categoria": "proteina",
+    "categoria": "proteína",
     "emoji": "🥚",
     "descricao_curta": "A proteína original dos fisiculturistas: barata, eficaz, mas com um preço - o gosto e os gases.",
     "descricao_longa": "A Albumina é a proteína extraída e desidratada da clara do ovo. Antes do Whey dominar o mercado (anos 90), era O suplemento proteico por excelência dos fisiculturistas. Seu Valor Biológico (100) é a referência padrão contra a qual outras proteínas são medidas. Ela tem absorção intermediária (2-3 horas) - mais lenta que Whey, mais rápida que Caseína. Principal vantagem: PREÇO. Principal desvantagem: SABOR (ruim) e GASES (o famoso colateral).",
@@ -8207,7 +8207,7 @@
         "albumina suplemento",
         "albumina gases",
         "albumina ou whey",
-        "proteina barata",
+        "proteína barata",
         "albumina para que serve"
       ]
     },
