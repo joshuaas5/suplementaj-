@@ -7162,7 +7162,7 @@
     "nome": "Proteína",
     "nome_cientifico": "Polipeptídeos (Cadeias de Aminoácidos)",
     "categoria": "macronutriente",
-    "emoji": "",
+    "emoji": "🥩",
     "descricao_curta": "O macronutriente construtor: essencial para músculos, imunidade, hormônios e praticamente toda função corporal.",
     "descricao_longa": "A proteína é um dos três macronutrientes essenciais e provavelmente o mais importante para quem busca transformação corporal. Ela é formada por cadeias de aminoácidos - os ''tijolos'' que constroem músculos, anticorpos, hormônios, enzimas, pele, cabelo e unhas. Diferente de gorduras e carboidratos, o corpo não consegue armazenar proteína em excesso, por isso a ingestão diária consistente é crucial. Para hipertrofia, a ciência recomenda 1,6g a 2,2g por kg de peso corporal por dia.",
     "funcoes_corporais": [
@@ -7483,7 +7483,7 @@
     "nome": "BCAA",
     "nome_cientifico": "Aminoácidos de Cadeia Ramificada (L-Leucina, L-Isoleucina, L-Valina)",
     "categoria": "aminoacido",
-    "emoji": "",
+    "emoji": "⚗️",
     "descricao_curta": "O trio de aminoácidos essenciais mais importantes para síntese muscular - mas você realmente precisa?",
     "descricao_longa": "Os BCAAs (Branched-Chain Amino Acids) são três aminoácidos essenciais: Leucina, Isoleucina e Valina. Eles representam ~35% dos aminoácidos essenciais no músculo e têm uma característica única: são metabolizados diretamente no músculo, não no fígado. A Leucina é especialmente importante por ser o principal ativador da via mTOR (síntese proteica). MAS - e esse é um grande MAS - se você já consome proteína suficiente (especialmente Whey), suplementar BCAA isolado é redundante e provavelmente dinheiro jogado fora.",
     "funcoes_corporais": [
@@ -7667,7 +7667,7 @@
     "nome": "Glutamina",
     "nome_cientifico": "L-Glutamina",
     "categoria": "aminoacido",
-    "emoji": "",
+    "emoji": "🧬",
     "descricao_curta": "O aminoácido mais abundante do corpo - combustível para intestino e sistema imune, mas talvez não para músculos.",
     "descricao_longa": "A Glutamina é o aminoácido livre mais abundante no plasma humano (~60% do pool de aminoácidos). Ela é considerada ''condicionalmente essencial'' - em situações de estresse extremo (trauma, queimaduras, cirurgias, overtraining), a demanda supera a produção e a suplementação faz sentido. Sua função principal NÃO é construir músculo, mas sim alimentar células de divisão rápida: enterócitos (células intestinais) e leucócitos (células de defesa). Por isso é usada em protocolos de saúde intestinal e imunidade, não hipertrofia.",
     "funcoes_corporais": [
@@ -7882,7 +7882,7 @@
     "nome": "Caseína",
     "nome_cientifico": "Fosfoproteína Micelar do Leite",
     "categoria": "proteina",
-    "emoji": "",
+    "emoji": "🥛",
     "descricao_curta": "A proteína do sono: absorção lenta de 6-7 horas, ideal para alimentar seus músculos enquanto você dorme.",
     "descricao_longa": "A caseína representa 80% da proteína do leite (o Whey são os outros 20%). Sua característica única é a formação de um ''gel'' no estômago ao entrar em contato com o ácido gástrico. Isso faz a digestão ser extremamente lenta - os aminoácidos são liberados gradualmente por 5-7 horas. Por isso, a caseína é conhecida como proteína ''time-release'' ou ''anti-catabólica'', sendo a escolha ideal para antes de dormir, quando você passará 6-8 horas sem comer.",
     "funcoes_corporais": [
@@ -8075,7 +8075,7 @@
     "nome": "Albumina",
     "nome_cientifico": "Ovoalbumina (Proteína da Clara do Ovo)",
     "categoria": "proteina",
-    "emoji": "",
+    "emoji": "🥚",
     "descricao_curta": "A proteína original dos fisiculturistas: barata, eficaz, mas com um preço - o gosto e os gases.",
     "descricao_longa": "A Albumina é a proteína extraída e desidratada da clara do ovo. Antes do Whey dominar o mercado (anos 90), era O suplemento proteico por excelência dos fisiculturistas. Seu Valor Biológico (100) é a referência padrão contra a qual outras proteínas são medidas. Ela tem absorção intermediária (2-3 horas) - mais lenta que Whey, mais rápida que Caseína. Principal vantagem: PREÇO. Principal desvantagem: SABOR (ruim) e GASES (o famoso colateral).",
     "funcoes_corporais": [
