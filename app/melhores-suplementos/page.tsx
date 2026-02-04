@@ -5,16 +5,16 @@ import { Badge } from '@/components/ui/Badge'
 import { Star, ExternalLink, Award, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Top 8 Melhores Suplementos 2025 | Suplementa Ja',
-  description: 'Ranking dos 8 melhores suplementos de 2025 baseado em ciencia.',
+  title: 'Top 8 Melhores Suplementos 2025 | Suplementa Já',
+  description: 'Ranking dos 8 melhores suplementos de 2025 baseado em ciência.',
 }
 
 const SUPLEMENTOS = [
-  { posicao: 1, nome: 'Creatina Monohidratada', categoria: 'Performance', nota: 9.8, descricao: 'O suplemento mais estudado.', beneficios: ['Forca', 'Musculos'], paraQuem: 'Atletas', linkArtigo: '/blog/guia-completo-creatina-2026', linkAfiliado: 'https://www.amazon.com.br/s?k=creatina&tag=105c91-20', destaque: true },
-  { posicao: 2, nome: 'Vitamina D3', categoria: 'Saude', nota: 9.6, descricao: 'Essencial para imunidade.', beneficios: ['Imunidade', 'Ossos'], paraQuem: 'Todos', linkArtigo: '/blog/vitamina-d-deficiencia-brasileiros', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+d3&tag=105c91-20', destaque: true },
-  { posicao: 3, nome: 'Omega-3', categoria: 'Saude', nota: 9.4, descricao: 'Protege coracao e cerebro.', beneficios: ['Coracao', 'Cerebro'], paraQuem: 'Todos', linkArtigo: '/blog/omega-3-beneficios-comprovados', linkAfiliado: 'https://www.amazon.com.br/s?k=omega+3&tag=105c91-20', destaque: false },
-  { posicao: 4, nome: 'Whey Protein', categoria: 'Performance', nota: 9.2, descricao: 'Proteina para recuperacao.', beneficios: ['Musculos', 'Recuperacao'], paraQuem: 'Atletas', linkArtigo: '/blog/whey-isolado-vs-concentrado', linkAfiliado: 'https://www.amazon.com.br/s?k=whey+protein&tag=105c91-20', destaque: false },
-  { posicao: 5, nome: 'Magnesio', categoria: 'Minerais', nota: 9.0, descricao: 'Melhora sono e ansiedade.', beneficios: ['Sono', 'Calma'], paraQuem: 'Ansiosos', linkArtigo: '/blog/magnesio-ansiedade-sono-tipos', linkAfiliado: 'https://www.amazon.com.br/s?k=magnesio&tag=105c91-20', destaque: false },
+  { posicao: 1, nome: 'Creatina Monohidratada', categoria: 'Performance', nota: 9.8, descricao: 'O suplemento mais estudado.', beneficios: ['Força', 'Músculos'], paraQuem: 'Atletas', linkArtigo: '/blog/guia-completo-creatina-2026', linkAfiliado: 'https://www.amazon.com.br/s?k=creatina&tag=105c91-20', destaque: true },
+  { posicao: 2, nome: 'Vitamina D3', categoria: 'Saúde', nota: 9.6, descricao: 'Essencial para imunidade.', beneficios: ['Imunidade', 'Ossos'], paraQuem: 'Todos', linkArtigo: '/blog/vitamina-d-deficiência-brasileiros', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+d3&tag=105c91-20', destaque: true },
+  { posicao: 3, nome: 'Omega-3', categoria: 'Saúde', nota: 9.4, descricao: 'Protege coração e cérebro.', beneficios: ['Coração', 'Cérebro'], paraQuem: 'Todos', linkArtigo: '/blog/omega-3-benefícios-comprovados', linkAfiliado: 'https://www.amazon.com.br/s?k=omega+3&tag=105c91-20', destaque: false },
+  { posicao: 4, nome: 'Whey Protein', categoria: 'Performance', nota: 9.2, descricao: 'Proteína para recuperação.', beneficios: ['Músculos', 'Recuperação'], paraQuem: 'Atletas', linkArtigo: '/blog/whey-isolado-vs-concentrado', linkAfiliado: 'https://www.amazon.com.br/s?k=whey+protein&tag=105c91-20', destaque: false },
+  { posicao: 5, nome: 'Magnésio', categoria: 'Minerais', nota: 9.0, descricao: 'Melhora sono e ansiedade.', beneficios: ['Sono', 'Calma'], paraQuem: 'Ansiosos', linkArtigo: '/blog/magnesio-ansiedade-sono-tipos', linkAfiliado: 'https://www.amazon.com.br/s?k=magnesio&tag=105c91-20', destaque: false },
   { posicao: 6, nome: 'Vitamina B12', categoria: 'Vitaminas', nota: 8.8, descricao: 'Energia e sistema nervoso.', beneficios: ['Energia', 'Nervos'], paraQuem: 'Veganos', linkArtigo: '/blog/vitamina-b12-vegetarianos-veganos', linkAfiliado: 'https://www.amazon.com.br/s?k=vitamina+b12&tag=105c91-20', destaque: false },
   { posicao: 7, nome: 'Zinco', categoria: 'Minerais', nota: 8.6, descricao: 'Imunidade e testosterona.', beneficios: ['Imunidade', 'Hormonio'], paraQuem: 'Homens', linkArtigo: '/blog/zinco-imunidade-testosterona-pele', linkAfiliado: 'https://www.amazon.com.br/s?k=zinco&tag=105c91-20', destaque: false },
   { posicao: 8, nome: 'Melatonina', categoria: 'Sono', nota: 8.4, descricao: 'Hormonio do sono.', beneficios: ['Dormir', 'Sono'], paraQuem: 'Insones', linkArtigo: '/blog/melatonina-sono-insonia-dose-ideal', linkAfiliado: 'https://www.amazon.com.br/s?k=melatonina&tag=105c91-20', destaque: false },
@@ -40,7 +40,7 @@ export default function MelhoresSuplementosPage() {
           <div className="inline-block bg-yellow-400 border-4 border-black shadow-[8px_8px_0_0_#000] px-8 py-4 mb-6 -rotate-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-black uppercase">Top 8 Suplementos 2025</h1>
           </div>
-          <p className="text-xl text-black font-bold max-w-3xl mx-auto">Ranking baseado em ciencia e custo-beneficio.</p>
+          <p className="text-xl text-black font-bold max-w-3xl mx-auto">Ranking baseado em ciência e custo-benefício.</p>
         </div>
         <div className="space-y-6">
           {SUPLEMENTOS.map((sup) => (
@@ -62,7 +62,7 @@ export default function MelhoresSuplementosPage() {
                   <p className="text-sm text-gray-600 mb-4"><strong>Para quem:</strong> {sup.paraQuem}</p>
                   <div className="flex flex-wrap gap-3">
                     <Link href={sup.linkArtigo}><Button variant="primary" size="sm">Ler Guia</Button></Link>
-                    <a href={sup.linkAfiliado} target="_blank" rel="noopener noreferrer sponsored" className="bg-lime-400 border-2 border-black shadow-[3px_3px_0_0_#000] hover:shadow-[1px_1px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all px-4 py-2 font-bold text-black flex items-center gap-2">Ver Preco <ExternalLink className="w-4 h-4" /></a>
+                    <a href={sup.linkAfiliado} target="_blank" rel="noopener noreferrer sponsored" className="bg-lime-400 border-2 border-black shadow-[3px_3px_0_0_#000] hover:shadow-[1px_1px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all px-4 py-2 font-bold text-black flex items-center gap-2">Ver Preço <ExternalLink className="w-4 h-4" /></a>
                   </div>
                 </div>
                 <div className="flex-shrink-0 flex flex-col items-center justify-center bg-black p-4">
@@ -75,11 +75,11 @@ export default function MelhoresSuplementosPage() {
           ))}
         </div>
         <div className="mt-16 bg-gradient-to-br from-cyan-400 to-blue-500 border-4 border-black shadow-[8px_8px_0_0_#000] p-8 text-center">
-          <h3 className="text-2xl font-black text-black uppercase mb-4">Nao sabe por onde comecar?</h3>
-          <p className="text-black font-bold mb-6">Faca nossa avaliacao gratuita!</p>
-          <Link href="/avaliacao"><Button variant="primary" size="lg" className="text-xl">Fazer Avaliacao</Button></Link>
+          <h3 className="text-2xl font-black text-black uppercase mb-4">Não sabe por onde começar?</h3>
+          <p className="text-black font-bold mb-6">Faça nossa avaliação gratuita!</p>
+          <Link href="/avaliação"><Button variant="primary" size="lg" className="text-xl">Fazer Avaliação</Button></Link>
         </div>
-        <p className="text-xs text-gray-500 mt-8 text-center">Links de afiliado: voce nao paga nada a mais.</p>
+        <p className="text-xs text-gray-500 mt-8 text-center">Links de afiliado: você não paga nada a mais.</p>
       </div>
     </div>
   )
