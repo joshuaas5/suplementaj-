@@ -526,7 +526,7 @@
     }
   },
   "calcio": {
-    "slug": "cálcio",
+    "slug": "calcio",
     "nome": "Cálcio",
     "nome_cientifico": "Ca",
     "categoria": "mineral",
@@ -757,7 +757,7 @@
     }
   },
   "magnesio": {
-    "slug": "magnésio",
+    "slug": "magnesio",
     "objetivos": [
       "sono",
       "performance"
@@ -1752,7 +1752,7 @@
     }
   },
   "acido-folico": {
-    "slug": "ácido-folico",
+    "slug": "acido-folico",
     "nome": "Ácido Fólico",
     "nome_cientifico": "Vitamina B9 / Folato",
     "categoria": "vitamina",
@@ -6703,7 +6703,7 @@
     }
   },
   "potassio": {
-    "slug": "potássio",
+    "slug": "potassio",
     "nome": "Potássio",
     "nome_cientifico": "Potassium",
     "categoria": "mineral",
@@ -7152,7 +7152,7 @@
     }
   },
   "proteina": {
-    "slug": "proteína",
+    "slug": "proteina",
     "objetivos": [
       "ganho-de-massa",
       "emagrecimento",
