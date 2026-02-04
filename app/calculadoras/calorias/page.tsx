@@ -6,12 +6,12 @@ import { CalculadoraCalorias } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Calorias Online Grátis - TMB e TDEE 2026 | Suplementa Já',
-  description: 'Calcule quantas calorias você gasta por dia (TMB e TDEE). Descubra suas calorias para emagrecer ou ganhar massa muscular. Fórmula Mifflin-St Jeor atualizada 2026.',
-  keywords: ['calculadora calorias', 'tmb', 'tdee', 'gasto calorico', 'quantas calorias', 'metabolismo basal', 'calorias para emagrecer', 'calorias para ganhar massa', 'deficit calorico', 'calcular tdee'],
+  title: 'Calculadora de Calorias Diárias (Precisa): Para Perder Peso ou Ganhar Massa',
+  description: 'Descubra EXATAMENTE quantas calorias comer por dia. Calculadora científica (Mifflin-St Jeor) para quem quer secar (cutting) ou ganhar músculos (bulking). Grátis e sem cadastro.',
+  keywords: ['calculadora calorias', 'tmb', 'tdee', 'gasto calorico', 'quantas calorias', 'metabolismo basal', 'calorias para emagrecer', 'calorias para ganhar massa', 'deficit calorico', 'calcular tdee', 'cutting', 'bulking', 'dieta'],
   openGraph: {
-    title: 'Calculadora de Calorias - TMB e Gasto Diário 2026',
-    description: 'Descubra quantas calorias você gasta por dia usando a fórmula científica Mifflin-St Jeor. Grátis e instantâneo.',
+    title: 'Calculadora de Calorias (Cutting e Bulking) - Resultado Exato',
+    description: 'Descubra quantas calorias comer para secar ou ganhar massa. Fórmula científica gratuita.',
     type: 'website',
   }
 }
@@ -94,11 +94,11 @@ export default function CalculadoraCaloriasPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🔥 Gasto Calórico Diário (TDEE) e Manutenção
+            🔥 Calculadora de Calorias para Secar ou Ganhar Massa
           </h1>
           <p className="text-black font-bold mb-4">
-            Use nossa <strong>calculadora de calorias online grátis</strong> para descobrir seu <strong>gasto calórico diário</strong> exato.
-            Saiba <strong>quantas calorias devo comer por dia</strong> para emagrecer, suas <strong>calorias de manutenção</strong> ou para ganhar massa muscular.
+            Use nossa <strong>calculadora de calorias (Mifflin-St Jeor)</strong> para descobrir seu <strong>gasto calórico exato</strong>.
+            Saiba <strong>quantas calorias comer</strong> para emagrecer (cutting) ou ganhar músculos (bulking).
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">✅ Grátis</span>

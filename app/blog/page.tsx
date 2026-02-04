@@ -22,7 +22,7 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <div className="inline-block bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] px-6 py-3 sm:px-8 sm:py-4 mb-6 sm:rotate-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-black uppercase">
-              📚 Blog
+               Central de Suplementos
             </h1>
           </div>
           <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] px-6 py-6 max-w-3xl mx-auto">

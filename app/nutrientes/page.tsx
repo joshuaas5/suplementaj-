@@ -34,12 +34,34 @@ export default function NutrientesPage() {
           </div>
         </div>
 
+        {/* Navegação Rápida */}
+        <div className="flex flex-wrap justify-center gap-4 mb-16">
+          <a 
+            href="#vitaminas"
+            className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-4 font-black text-black uppercase hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
+          >
+             Vitaminas ({vitaminas.length})
+          </a>
+          <a 
+            href="#minerais"
+            className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-4 font-black text-black uppercase hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
+          >
+             Minerais ({minerais.length})
+          </a>
+          <a 
+            href="#outros"
+            className="bg-pink-500 border-4 border-black shadow-[4px_4px_0_0_#000] px-6 py-4 font-black text-white uppercase hover:shadow-[2px_2px_0_0_#000] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
+          >
+             Outros ({outros.length})
+          </a>
+        </div>
+
         {/* Vitaminas - NEOBRUTALISM */}
         {vitaminas.length > 0 && (
-          <section className="mb-20">
+          <section id="vitaminas" className="mb-20 scroll-mt-24">
             <div className="flex items-center gap-4 mb-8">
               <div className="bg-cyan-400 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:-rotate-1">
-                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">Vitaminas</h2>
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase"> Vitaminas</h2>
               </div>
               <Badge variant="info" size="lg">{vitaminas.length}</Badge>
             </div>
@@ -53,10 +75,10 @@ export default function NutrientesPage() {
 
         {/* Minerais - NEOBRUTALISM */}
         {minerais.length > 0 && (
-          <section className="mb-20">
+          <section id="minerais" className="mb-20 scroll-mt-24">
             <div className="flex items-center gap-4 mb-8">
               <div className="bg-lime-400 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:rotate-1">
-                <h2 className="text-xl sm:text-3xl font-black text-black uppercase">Minerais</h2>
+                <h2 className="text-xl sm:text-3xl font-black text-black uppercase"> Minerais</h2>
               </div>
               <Badge variant="success" size="lg">{minerais.length}</Badge>
             </div>
@@ -70,10 +92,10 @@ export default function NutrientesPage() {
 
         {/* Outros Nutrientes - NEOBRUTALISM */}
         {outros.length > 0 && (
-          <section className="mb-20">
+          <section id="outros" className="mb-20 scroll-mt-24">
             <div className="flex items-center gap-4 mb-8">
               <div className="bg-pink-500 border-4 border-black shadow-[2px_2px_0_0_#000] sm:shadow-[4px_4px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 sm:-rotate-1">
-                <h2 className="text-xl sm:text-3xl font-black text-white uppercase">Outros Nutrientes</h2>
+                <h2 className="text-xl sm:text-3xl font-black text-white uppercase"> Outros Nutrientes</h2>
               </div>
               <Badge variant="danger" size="lg">{outros.length}</Badge>
             </div>
@@ -164,7 +186,7 @@ function NutrienteCard({ nutriente, color }: NutrienteCardProps) {
                 <ul className="text-xs text-black space-y-1">
                   {nutriente.funcoes_corporais.slice(0, 3).map((funcao, idx) => (
                     <li key={idx} className="flex items-start gap-2">
-                      <span className="text-black font-bold">✓</span>
+                      <span className="text-black font-bold"></span>
                       <span className="line-clamp-1 font-bold">{funcao}</span>
                     </li>
                   ))}

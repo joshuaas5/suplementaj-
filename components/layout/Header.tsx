@@ -32,8 +32,8 @@ export function Header() {
             <Link href="/nutrientes" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-cyan-400 transition-all hover:scale-105">
               Nutrientes
             </Link>
-            <Link href="/blog" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-lime-400 transition-all hover:scale-105">
-              Blog
+            <Link href="/blog" className="px-4 py-2 bg-lime-400 text-black font-bold uppercase text-sm border-2 border-black hover:bg-lime-500 transition-all hover:scale-105">
+               Central
             </Link>
             <Link href="/sobre" className="px-4 py-2 bg-white text-black font-bold uppercase text-sm border-2 border-black hover:bg-pink-500 hover:text-white transition-all hover:scale-105">
               Sobre
@@ -77,10 +77,10 @@ export function Header() {
               </Link>
               <Link
                 href="/blog"
-                className="px-4 py-3 bg-white text-black font-bold uppercase text-center border-2 border-black hover:bg-lime-400 transition-all"
+                className="px-4 py-3 bg-lime-400 text-black font-bold uppercase text-center border-2 border-black hover:bg-lime-500 transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Blog
+                 Central de Suplementos
               </Link>
               <Link
                 href="/sobre"
