@@ -85,7 +85,7 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mb-12">
               <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:-rotate-1">
-                <div className="text-4xl sm:text-5xl font-black text-black mb-1">39</div>
+                <div className="text-4xl sm:text-5xl font-black text-black mb-1">44</div>
                 <div className="text-sm font-bold uppercase text-black">Nutrientes</div>
               </div>
               <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:rotate-1">
@@ -390,7 +390,7 @@ export default function Home() {
         <div className="text-center mb-12">
           <div className="inline-block bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:rotate-1">
             <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
-              40 Nutrientes Essenciais
+              44 Nutrientes Essenciais
             </h2>
           </div>
           <p className="text-xl text-gray-800 font-bold">
@@ -507,7 +507,7 @@ export default function Home() {
               <div className="text-center">
                 <Link href="/nutrientes">
                   <Button variant="primary" size="lg" className="w-full">
-                    Ver Todos os 40 Nutrientes →
+                    Ver Todos os 44 Nutrientes →
                   </Button>
                 </Link>
               </div>
