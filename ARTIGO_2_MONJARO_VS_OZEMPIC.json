@@ -18,11 +18,11 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Eficácia**: Monjaro emagrece 47% MAIS que Ozempic (20,2% vs 13,7% de perda de peso)\n• **Preço**: Ozempic R$ 900-1.200/mês | Monjaro R$ 1.406-2.400/mês\n• **Náusea**: Monjaro causa MENOS (mecanismo GIP reduz náusea)\n• **Disponibilidade**: Ozempic mais fácil de achar | Monjaro em falta frequente\n• **Para Diabetes**: Ambos excelentes, Monjaro reduz HbA1c um pouco mais\n• **Para Emagrecimento**: Monjaro superior (Wegovy é versão do Ozempic pra obesidade)\n• **Veredito**: Monjaro = mais caro mas MUITO mais eficaz | Ozempic = bom custo-benefício"
+      "texto": "📋 ***RESUMO RÁPIDO:**\n\n• ***Eficácia**: Monjaro emagrece 47% MAIS que Ozempic (20,2% vs 13,7% de perda de peso)\n• ***Preço**: Ozempic R$ 900-1.200/mês | Monjaro R$ 1.406-2.400/mês\n• ***Náusea**: Monjaro causa MENOS (mecanismo GIP reduz náusea)\n• ***Disponibilidade**: Ozempic mais fácil de achar | Monjaro em falta frequente\n• ***Para Diabetes**: Ambos excelentes, Monjaro reduz HbA1c um pouco mais\n• ***Para Emagrecimento**: Monjaro superior (Wegovy é versão do Ozempic pra obesidade)\n• ***Veredito**: Monjaro = mais caro mas MUITO mais eficaz | Ozempic = bom custo-benefício"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Se você está pesquisando canetas emagrecedoras, provavelmente já se deparou com a dúvida: **Monjaro ou Ozempic?** Ambos viraram febre no Brasil, mas qual funciona melhor? E o mais importante: a diferença de eficácia justifica o preço mais alto do Monjaro?"
+      "texto": "Se você está pesquisando canetas emagrecedoras, provavelmente já se deparou com a dúvida: ***Monjaro ou Ozempic?** Ambos viraram febre no Brasil, mas qual funciona melhor? E o mais importante: a diferença de eficácia justifica o preço mais alto do Monjaro?"
     },
     {
       "tipo": "paragrafo",
@@ -45,16 +45,36 @@
         "Ozempic/Wegovy"
       ],
       "linhas": [
-        ["Princípio Ativo", "Tirzepatida", "Semaglutida"],
-        ["Mecanismo", "Dual (GLP-1 + GIP)", "Único (GLP-1)"],
-        ["Fabricante", "Eli Lilly", "Novo Nordisk"],
-        ["Aprovação ANVISA", "Set/2023 (diabetes + obesidade)", "2020 (Ozempic diabetes) | 2024 (Wegovy obesidade)"],
-        ["Aplicação", "1x/semana", "1x/semana"]
+        [
+          "Princípio Ativo",
+          "Tirzepatida",
+          "Semaglutida"
+        ],
+        [
+          "Mecanismo",
+          "Dual (GLP-1 + GIP)",
+          "Único (GLP-1)"
+        ],
+        [
+          "Fabricante",
+          "Eli Lilly",
+          "Novo Nordisk"
+        ],
+        [
+          "Aprovação ANVISA",
+          "Set/2023 (diabetes + obesidade)",
+          "2020 (Ozempic diabetes) | 2024 (Wegovy obesidade)"
+        ],
+        [
+          "Aplicação",
+          "1x/semana",
+          "1x/semana"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Em termos simples:** Ambos imitam hormônios que aumentam saciedade e melhoram metabolismo da glicose. Mas o Monjaro age em DOIS receptores (GLP-1 + GIP), enquanto Ozempic age em apenas um (GLP-1). Essa dupla ação é o segredo da maior eficácia."
+      "texto": "***Em termos simples:** Ambos imitam hormônios que aumentam saciedade e melhoram metabolismo da glicose. Mas o Monjaro age em DOIS receptores (GLP-1 + GIP), enquanto Ozempic age em apenas um (GLP-1). Essa dupla ação é o segredo da maior eficácia."
     },
     {
       "tipo": "heading",
@@ -74,29 +94,54 @@
         "Diferença"
       ],
       "linhas": [
-        ["Perda de Peso Média", "20,2%", "13,7%", "+6,5% (47% mais eficaz)"],
-        ["Perda ≥15% do Peso", "64,6% dos pacientes", "42% dos pacientes", "+22,6 pontos"],
-        ["Perda ≥20% do Peso", "40,8%", "18,1%", "+22,7 pontos"],
-        ["Perda ≥25% do Peso", "21,2%", "7,2%", "+14 pontos"],
-        ["Redução HbA1c (diabéticos)", "-2,1%", "-1,8%", "Monjaro ligeiramente superior"]
+        [
+          "Perda de Peso Média",
+          "20,2%",
+          "13,7%",
+          "+6,5% (47% mais eficaz)"
+        ],
+        [
+          "Perda ≥15% do Peso",
+          "64,6% dos pacientes",
+          "42% dos pacientes",
+          "+22,6 pontos"
+        ],
+        [
+          "Perda ≥20% do Peso",
+          "40,8%",
+          "18,1%",
+          "+22,7 pontos"
+        ],
+        [
+          "Perda ≥25% do Peso",
+          "21,2%",
+          "7,2%",
+          "+14 pontos"
+        ],
+        [
+          "Redução HbA1c (diabéticos)",
+          "-2,1%",
+          "-1,8%",
+          "Monjaro ligeiramente superior"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Traduzindo para a prática:**"
+      "texto": "***Traduzindo para a prática:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "Pessoa de **100 kg** com Monjaro: Perda média de 20,2 kg | Com Ozempic: 13,7 kg → Diferença de **6,5 kg!**",
-        "Pessoa de **80 kg** com Monjaro: Perda de 16,2 kg | Com Ozempic: 11 kg → Diferença de **5,2 kg**",
-        "**Chance de perder >20% do peso**: 40,8% (Monjaro) vs 18,1% (Ozempic) → Mais que o DOBRO!"
+        "Pessoa de *100 kg com Monjaro: Perda média de 20,2 kg | Com Ozempic: 13,7 kg → Diferença de **6,5 kg!**",
+        "Pessoa de *80 kg com Monjaro: Perda de 16,2 kg | Com Ozempic: 11 kg → Diferença de **5,2 kg**",
+        "Chance de perder >20% do peso**: 40,8% (Monjaro) vs 18,1% (Ozempic) → Mais que o DOBRO!"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Importante**: Ozempic é aprovado para diabetes, Wegovy para obesidade. Ambos têm o mesmo princípio ativo (semaglutida), só mudam doses máximas (Ozempic 2mg vs Wegovy 2,4mg). Nos comparamos com Wegovy pois é a versão 'emagrecimento'."
+      "texto": "💡 ***Importante**: Ozempic é aprovado para diabetes, Wegovy para obesidade. Ambos têm o mesmo princípio ativo (semaglutida), só mudam doses máximas (Ozempic 2mg vs Wegovy 2,4mg). Nos comparamos com Wegovy pois é a versão 'emagrecimento'."
     },
     {
       "tipo": "heading",
@@ -105,7 +150,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Surpresa: **Monjaro causa MENOS náusea** que Ozempic/Wegovy!"
+      "texto": "Surpresa: ***Monjaro causa MENOS náusea** que Ozempic/Wegovy!"
     },
     {
       "tipo": "tabela",
@@ -115,17 +160,41 @@
         "Ozempic/Wegovy (%)"
       ],
       "linhas": [
-        ["Náusea", "25-30%", "40-50%"],
-        ["Vômito", "8-10%", "15-24%"],
-        ["Diarreia", "18-20%", "20-25%"],
-        ["Constipação", "12-15%", "18-22%"],
-        ["Fadiga", "10%", "15-18%"],
-        ["Pancreatite (grave)", "0,2%", "0,3%"]
+        [
+          "Náusea",
+          "25-30%",
+          "40-50%"
+        ],
+        [
+          "Vômito",
+          "8-10%",
+          "15-24%"
+        ],
+        [
+          "Diarreia",
+          "18-20%",
+          "20-25%"
+        ],
+        [
+          "Constipação",
+          "12-15%",
+          "18-22%"
+        ],
+        [
+          "Fadiga",
+          "10%",
+          "15-18%"
+        ],
+        [
+          "Pancreatite (grave)",
+          "0,2%",
+          "0,3%"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Por que Monjaro dá menos náusea?** O segundo receptor (GIP) tem efeito anti-náusea, compensando parcialmente o efeito do GLP-1. Resultado: mais eficaz E mais tolerável!"
+      "texto": "***Por que Monjaro dá menos náusea?** O segundo receptor (GIP) tem efeito anti-náusea, compensando parcialmente o efeito do GLP-1. Resultado: mais eficaz E mais tolerável!"
     },
     {
       "tipo": "heading",
@@ -145,14 +214,29 @@
         "Custo Mensal Médio"
       ],
       "linhas": [
-        ["Ozempic", "R$ 900-1.000 (0,5mg)", "R$ 1.100-1.300 (1mg)", "R$ 1.000-1.200"],
-        ["Wegovy", "R$ 1.200-1.400", "R$ 1.500-1.700 (2,4mg)", "R$ 1.400-1.600"],
-        ["Monjaro", "R$ 1.406 (2,5mg)", "R$ 2.200-2.400 (10-15mg)", "R$ 1.800-2.400"]
+        [
+          "Ozempic",
+          "R$ 900-1.000 (0,5mg)",
+          "R$ 1.100-1.300 (1mg)",
+          "R$ 1.000-1.200"
+        ],
+        [
+          "Wegovy",
+          "R$ 1.200-1.400",
+          "R$ 1.500-1.700 (2,4mg)",
+          "R$ 1.400-1.600"
+        ],
+        [
+          "Monjaro",
+          "R$ 1.406 (2,5mg)",
+          "R$ 2.200-2.400 (10-15mg)",
+          "R$ 1.800-2.400"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Custo anual:**"
+      "texto": "***Custo anual:**"
     },
     {
       "tipo": "lista",
@@ -164,7 +248,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Análise de custo-benefício:** Monjaro custa 40-80% A MAIS, mas emagrece 47% a mais. Se seu objetivo é perder máximo peso possível e você tem condição financeira, Monjaro vale. Se orçamento é apertado, Ozempic/Wegovy entregam bons resultados por menos."
+      "texto": "***Análise de custo-benefício:** Monjaro custa 40-80% A MAIS, mas emagrece 47% a mais. Se seu objetivo é perder máximo peso possível e você tem condição financeira, Monjaro vale. Se orçamento é apertado, Ozempic/Wegovy entregam bons resultados por menos."
     },
     {
       "tipo": "heading",
@@ -179,15 +263,27 @@
         "Observação"
       ],
       "linhas": [
-        ["Ozempic", "★★★★☆ (4/5)", "Disponível na maioria das farmácias, pode ter falta em picos de demanda"],
-        ["Wegovy", "★★★☆☆ (3/5)", "Menos disponível que Ozempic, lista de espera em algumas redes"],
-        ["Monjaro", "★★☆☆☆ (2/5)", "Difícil de encontrar, filas longas, estoque limitado (alta demanda)"]
+        [
+          "Ozempic",
+          "★★★★☆ (4/5)",
+          "Disponível na maioria das farmácias, pode ter falta em picos de demanda"
+        ],
+        [
+          "Wegovy",
+          "★★★☆☆ (3/5)",
+          "Menos disponível que Ozempic, lista de espera em algumas redes"
+        ],
+        [
+          "Monjaro",
+          "★★☆☆☆ (2/5)",
+          "Difícil de encontrar, filas longas, estoque limitado (alta demanda)"
+        ]
       ]
     },
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **Dica**: Se optar por Monjaro, cadastre-se em lista de espera de VÁRIAS farmácias (Drogasil, Pague Menos, Araujo) para garantir fornecimento contínuo."
+      "texto": "⚠️ ***Dica**: Se optar por Monjaro, cadastre-se em lista de espera de VÁRIAS farmácias (Drogasil, Pague Menos, Araujo) para garantir fornecimento contínuo."
     },
     {
       "tipo": "heading",
@@ -201,15 +297,15 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Redução HbA1c**: Monjaro -2,1% vs Ozempic -1,8% (diferença pequena, ambos ótimos)",
-        "**Risco de Hipoglicemia**: Baixo em ambos (só se usar insulina junto)",
-        "**Proteção Cardiovascular**: Ozempic tem mais estudos comprovando redução de infarto/AVC (SUSTAIN-6). Monjaro tem estudos em andamento.",
-        "**Função Renal**: Ozempic mostrou proteção renal em diabéticos (FLOW trial, 2024)"
+        "***Redução HbA1c**: Monjaro -2,1% vs Ozempic -1,8% (diferença pequena, ambos ótimos)",
+        "***Risco de Hipoglicemia**: Baixo em ambos (só se usar insulina junto)",
+        "***Proteção Cardiovascular**: Ozempic tem mais estudos comprovando redução de infarto/AVC (SUSTAIN-6). Monjaro tem estudos em andamento.",
+        "***Função Renal**: Ozempic mostrou proteção renal em diabéticos (FLOW trial, 2024)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Veredito para diabéticos:** Se você tem doença cardiovascular prévia, Ozempic é preferível (mais evidência de proteção cardíaca). Se objetivo principal é perder MUITO peso + controlar glicemia, Monjaro."
+      "texto": "***Veredito para diabéticos:** Se você tem doença cardiovascular prévia, Ozempic é preferível (mais evidência de proteção cardíaca). Se objetivo principal é perder MUITO peso + controlar glicemia, Monjaro."
     },
     {
       "tipo": "heading",
@@ -227,12 +323,30 @@
         "Recomendação"
       ],
       "linhas": [
-        ["Obesidade Grau III (IMC >40)", "Monjaro (resultados próximos à bariátrica)"],
-        ["Obesidade Grau II (IMC 35-40)", "Monjaro ou Wegovy (depende do orçamento)"],
-        ["Obesidade Grau I (IMC 30-35)", "Wegovy ou Ozempic off-label (melhor custo-benefício)"],
-        ["Sobrepeso (IMC 27-30) + comorbidades", "Wegovy (Monjaro pode ser 'overkill')"],
-        ["Orçamento limitado", "Ozempic (menor custo, resultados bons)"],
-        ["Quer resultado MÁXIMO possível", "Monjaro (sem dúvida)"]
+        [
+          "Obesidade Grau III (IMC >40)",
+          "Monjaro (resultados próximos à bariátrica)"
+        ],
+        [
+          "Obesidade Grau II (IMC 35-40)",
+          "Monjaro ou Wegovy (depende do orçamento)"
+        ],
+        [
+          "Obesidade Grau I (IMC 30-35)",
+          "Wegovy ou Ozempic off-label (melhor custo-benefício)"
+        ],
+        [
+          "Sobrepeso (IMC 27-30) + comorbidades",
+          "Wegovy (Monjaro pode ser 'overkill')"
+        ],
+        [
+          "Orçamento limitado",
+          "Ozempic (menor custo, resultados bons)"
+        ],
+        [
+          "Quer resultado MÁXIMO possível",
+          "Monjaro (sem dúvida)"
+        ]
       ]
     },
     {
@@ -248,10 +362,26 @@
         "Ozempic/Wegovy"
       ],
       "linhas": [
-        ["Primeira perda visível", "4-6 semanas", "6-8 semanas"],
-        ["Perda de 10% do peso", "12-16 semanas", "16-24 semanas"],
-        ["Perda máxima", "72-88 semanas (~20%)", "68-72 semanas (~13%)"],
-        ["Platô de perda", "Após 72 semanas", "Após 60-68 semanas"]
+        [
+          "Primeira perda visível",
+          "4-6 semanas",
+          "6-8 semanas"
+        ],
+        [
+          "Perda de 10% do peso",
+          "12-16 semanas",
+          "16-24 semanas"
+        ],
+        [
+          "Perda máxima",
+          "72-88 semanas (~20%)",
+          "68-72 semanas (~13%)"
+        ],
+        [
+          "Platô de perda",
+          "Após 72 semanas",
+          "Após 60-68 semanas"
+        ]
       ]
     },
     {
@@ -266,9 +396,9 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Monjaro**: 82% reganham peso após parar (média: +14% do peso perdido em 1 ano)",
-        "**Wegovy**: ~75% reganham peso após parar (média: +11% em 1 ano)",
-        "**Conclusão**: Ambos exigem uso contínuo ou mudança radical de estilo de vida. Não há 'cura rápida'."
+        "***Monjaro**: 82% reganham peso após parar (média: +14% do peso perdido em 1 ano)",
+        "***Wegovy**: ~75% reganham peso após parar (média: +11% em 1 ano)",
+        "***Conclusão**: Ambos exigem uso contínuo ou mudança radical de estilo de vida. Não há 'cura rápida'."
       ]
     },
     {
@@ -286,13 +416,55 @@
         "Vencedor"
       ],
       "linhas": [
-        ["Perda de Peso", "20,2%", "10-12% (off-label)", "13,7%", "🏆 Monjaro"],
-        ["Preço", "R$ 1.800-2.400/mês", "R$ 1.000-1.200/mês", "R$ 1.400-1.600/mês", "🏆 Ozempic"],
-        ["Náusea", "Moderada (25%)", "Alta (40-50%)", "Alta (40-50%)", "🏆 Monjaro"],
-        ["Disponibilidade", "★★☆☆☆", "★★★★☆", "★★★☆☆", "🏆 Ozempic"],
-        ["Evidência Cardiovascular", "Em estudo", "Forte (SUSTAIN-6)", "Forte (SELECT)", "🏆 Ozempic/Wegovy"],
-        ["Controle Glicêmico", "Excelente (-2,1%)", "Excelente (-1,8%)", "Excelente (-1,8%)", "🏆 Empate"],
-        ["Facilidade de Uso", "1x/semana", "1x/semana", "1x/semana", "🏆 Empate"]
+        [
+          "Perda de Peso",
+          "20,2%",
+          "10-12% (off-label)",
+          "13,7%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Preço",
+          "R$ 1.800-2.400/mês",
+          "R$ 1.000-1.200/mês",
+          "R$ 1.400-1.600/mês",
+          "🏆 Ozempic"
+        ],
+        [
+          "Náusea",
+          "Moderada (25%)",
+          "Alta (40-50%)",
+          "Alta (40-50%)",
+          "🏆 Monjaro"
+        ],
+        [
+          "Disponibilidade",
+          "★★☆☆☆",
+          "★★★★☆",
+          "★★★☆☆",
+          "🏆 Ozempic"
+        ],
+        [
+          "Evidência Cardiovascular",
+          "Em estudo",
+          "Forte (SUSTAIN-6)",
+          "Forte (SELECT)",
+          "🏆 Ozempic/Wegovy"
+        ],
+        [
+          "Controle Glicêmico",
+          "Excelente (-2,1%)",
+          "Excelente (-1,8%)",
+          "Excelente (-1,8%)",
+          "🏆 Empate"
+        ],
+        [
+          "Facilidade de Uso",
+          "1x/semana",
+          "1x/semana",
+          "1x/semana",
+          "🏆 Empate"
+        ]
       ]
     },
     {
@@ -303,10 +475,10 @@
     {
       "tipo": "lista",
       "itens": [
-        "✅ **Escolha Monjaro se:** Obesidade severa (IMC >35), quer resultado máximo, pode pagar R$ 2k+/mês, não acha em estoque",
-        "✅ **Escolha Wegovy se:** Obesidade (IMC >30), quer eficácia boa com custo intermediário, prefere medicamento aprovado pra obesidade",
-        "✅ **Escolha Ozempic se:** Diabetes tipo 2 + sobrepeso/obesidade, orçamento limitado, quer medicamento fácil de achar, histórico cardiovascular",
-        "❌ **Não escolha nenhum se:** IMC <27 sem comorbidades, não tem acompanhamento médico, gestante/planejando engravidar, histórico pancreatite"
+        "✅ ***Escolha Monjaro se:** Obesidade severa (IMC >35), quer resultado máximo, pode pagar R$ 2k+/mês, não acha em estoque",
+        "✅ ***Escolha Wegovy se:** Obesidade (IMC >30), quer eficácia boa com custo intermediário, prefere medicamento aprovado pra obesidade",
+        "✅ ***Escolha Ozempic se:** Diabetes tipo 2 + sobrepeso/obesidade, orçamento limitado, quer medicamento fácil de achar, histórico cardiovascular",
+        "❌ ***Não escolha nenhum se:** IMC <27 sem comorbidades, não tem acompanhamento médico, gestante/planejando engravidar, histórico pancreatite"
       ]
     },
     {
@@ -348,20 +520,20 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Se você tem obesidade severa** (IMC >35) e condição financeira permite, Monjaro é o medicamento anti-obesidade mais eficaz disponível hoje. A diferença de 6-7% a mais de perda de peso é SIGNIFICATIVA (pode ser 8-10 kg extras para muitas pessoas)."
+      "texto": "***Se você tem obesidade severa** (IMC >35) e condição financeira permite, Monjaro é o medicamento anti-obesidade mais eficaz disponível hoje. A diferença de 6-7% a mais de perda de peso é SIGNIFICATIVA (pode ser 8-10 kg extras para muitas pessoas)."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Se seu orçamento é limitado** ou você tem obesidade grau I-II (IMC 30-35), Ozempic/Wegovy entregam excelentes resultados por custo menor. 13-15% de perda de peso é transformador para a maioria das pessoas."
+      "texto": "***Se seu orçamento é limitado** ou você tem obesidade grau I-II (IMC 30-35), Ozempic/Wegovy entregam excelentes resultados por custo menor. 13-15% de perda de peso é transformador para a maioria das pessoas."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Para diabéticos com doença cardiovascular**, Ozempic ainda é preferível pela robustez de evidências de proteção cardíaca."
+      "texto": "***Para diabéticos com doença cardiovascular**, Ozempic ainda é preferível pela robustez de evidências de proteção cardíaca."
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Lembre-se**: Qualquer que seja sua escolha, esses medicamentos funcionam MELHOR quando combinados com mudanças de estilo de vida. Sem isso, o efeito rebote após parar é praticamente garantido."
+      "texto": "💡 ***Lembre-se**: Qualquer que seja sua escolha, esses medicamentos funcionam MELHOR quando combinados com mudanças de estilo de vida. Sem isso, o efeito rebote após parar é praticamente garantido."
     },
     {
       "tipo": "cta",
