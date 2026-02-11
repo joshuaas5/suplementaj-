@@ -60,7 +60,7 @@ export default function ObjetivoPage({ params }: Props) {
     // 2. Filtrar Artigos
     // Prioridade: Artigos com tag explícita > Artigos com keywords no título
     let artigosRelacionados = artigosData.filter((artigo) =>
-        artigo.objetivos && artigo.objetivos.includes(objetivo.slug)
+        'objetivos' in artigo && artigo.objetivos && artigo.objetivos.includes(objetivo.slug)
     )
 
     const keywords = objetivo.slug === 'ganho-de-massa' ? ['hipertrofia', 'massa', 'creatina', 'whey', 'bulking'] :

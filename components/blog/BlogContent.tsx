@@ -54,7 +54,7 @@ export function BlogContent({ artigos }: BlogContentProps) {
                 .slice(0, 3)
         }
         return destaques
-    }, [artigos])
+    }, [artigos, slugsMaisAcessados])
 
     // Filter articles based on topic and search
     const filteredArtigos = useMemo(() => {
