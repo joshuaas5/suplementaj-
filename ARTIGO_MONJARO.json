@@ -1,0 +1,602 @@
+{
+  "slug": "monjaro-tirzepatida-guia-completo-emagrecimento",
+  "titulo": "Monjaro (Tirzepatida): O Guia Completo - Emagrecimento, Dose e Efeitos",
+  "descricao": "Descubra tudo sobre o Monjaro: como funciona, resultados de perda de peso (até 20%), dose ideal, efeitos colaterais e se vale a pena o investimento.",
+  "autor": "Equipe Suplementa Já",
+  "data": "2026-02-11",
+  "categoria": "Medicamentos",
+  "tags": [
+    "monjaro",
+    "tirzepatida",
+    "emagrecimento",
+    "perda de peso",
+    "diabetes tipo 2",
+    "ozempic",
+    "caneta emagrecedora"
+  ],
+  "tempo_leitura": "12 min",
+  "imagem": "/images/blog/monjaro-tirzepatida.jpg",
+  "conteudo": [
+    {
+      "tipo": "alerta",
+      "variante": "warning",
+      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **O Que É**: Medicamento injetável (tirzepatida) aprovado pela ANVISA para diabetes tipo 2 e obesidade\n• **Resultados**: Perda média de 15-20% do peso corporal (superior ao Ozempic/Wegovy)\n• **Dose Inicial**: 2,5 mg/semana (aumento gradual até 5-15 mg)\n• **Efeitos Colaterais Comuns**: Náusea (leve), diarreia, constipação, fadiga (melhoram após 2-4 semanas)\n• **Efeitos Graves Raros**: Pancreatite (0,2%), hipoglicemia em não-diabéticos\n• **Tempo para Efeito**: Perda visível em 4-8 semanas | Resultados máximos em 72 semanas\n• **Preço**: R$ 1.406-2.400/mês (4 canetas)\n• **⚠️ IMPORTANTE**: Uso EXCLUSIVO com prescrição médica | 82% reganham peso após parar\n• **Proibido**: Gestantes, histórico de câncer medular de tireoide, pancreatite prévia"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Mounjaro virou febre no Brasil em 2025-2026, sendo considerado a 'nova geração' dos medicamentos emagrecedores. Com resultados clínicos superiores ao Ozempic e Wegovy, a tirzepatida (princípio ativo do Mounjaro) promete perda de peso de até 20-25% - próxima aos resultados de uma cirurgia bariátrica, mas sem bisturi."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Mas será que o hype é justificado? Vale o investimento de R$ 1.400-2.400/mês? E quais os riscos reais que a ANVISA alertou recentemente sobre pancreatite e uso indevido?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Neste guia completo baseado em estudos científicos e dados da ANVISA, você vai descobrir TUDO sobre o Monjaro: como funciona, resultados REAIS, dose ideal, efeitos colaterais, preço, e se realmente vale a pena para você."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "O Que É o Monjaro (Tirzepatida)?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Mounjaro é um medicamento injetável (caneta aplicadora subcutânea) desenvolvido pela farmacêutica Eli Lilly. Seu princípio ativo é a **tirzepatida**, uma molécula inovadora que atua simultaneamente em dois receptores hormonais:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**GLP-1 (Glucagon-Like Peptide-1)**: Aumenta saciedade, reduz apetite, melhora sensibilidade à insulina",
+        "**GIP (Glucose-Dependent Insulinotropic Polypeptide)**: Potencializa ação do GLP-1, reduz náusea (efeito colateral comum em análogos de GLP-1 puros como Ozempic)"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Essa dupla ação (GLP-1 + GIP) é o diferencial do Mounjaro. Enquanto o Ozempic/Wegovy (semaglutida) age apenas no GLP-1, a tirzepatida combina os dois mecanismos, resultando em:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Maior perda de peso** (20% vs 13-15% do Ozempic)",
+        "**Menos náusea** (o GIP neutraliza parcialmente esse efeito colateral)",
+        "**Melhor controle glicêmico** em diabéticos tipo 2"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Aprovação no Brasil: Para Que Serve o Mounjaro?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A ANVISA aprovou o Mounjaro em **setembro de 2023** para duas indicações oficiais:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Diabetes Tipo 2**: Controle glicêmico em adultos (associado a dieta e exercício)",
+        "**Obesidade**: Tratamento de adultos com IMC ≥ 30 kg/m² (ou ≥ 27 kg/m² com comorbidades como hipertensão, dislipidemia)"
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "variante": "danger",
+      "texto": "⚠️ **ALERTA ANVISA (Fevereiro 2026)**: O uso de Mounjaro EXCLUSIVAMENTE para emagrecimento em pessoas SEM obesidade ou diabetes é considerado uso indevido e pode causar efeitos graves como pancreatite, hipoglicemia severa e até coma. A ANVISA reforçou que a prescrição deve ser criteriosa e acompanhada por endocrinologista."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Resultados Comprovados: Quanto Peso Você Perde com Monjaro?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os estudos clínicos SURMOUNT (fase 3, com milhares de participantes) trouxeram dados robustos:"
+    },
+    {
+      "tipo": "tabela",
+      "colunas": [
+        "Estudo",
+        "Duração",
+        "Perda de Peso Média",
+        "% Pacientes com ≥15% Perda"
+      ],
+      "linhas": [
+        [
+          "SURMOUNT-1",
+          "72 semanas",
+          "20,9% do peso inicial",
+          "64,6%"
+        ],
+        [
+          "SURMOUNT-4",
+          "88 semanas",
+          "25,3% do peso inicial",
+          "Não divulgado"
+        ],
+        [
+          "SURMOUNT-5 (vs Wegovy)",
+          "72 semanas",
+          "20,2% (Mounjaro) vs 13,7% (Wegovy)",
+          "64,6% (Mounjaro) vs 42% (Wegovy)"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Traduzindo para a prática:**"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Pessoa de **100 kg**: Perda esperada de 15-20 kg em 72 semanas (~17 meses)",
+        "Pessoa de **80 kg**: Perda esperada de 12-16 kg no mesmo período",
+        "**Ritmo de perda**: 0,5-1 kg/semana nas primeiras 20 semanas | 0,1-0,3 kg/semana depois (total: ~0,29 kg/semana em média)"
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "variante": "info",
+      "texto": "💡 **Comparação com Ozempic/Wegovy**: Estudo direto (SURMOUNT-5) mostrou que o Mounjaro é **47% mais eficaz** que o Wegovy para perda de peso (20,2% vs 13,7%). É considerado o medicamento anti-obesidade mais potente disponível atualmente."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Como Funciona o Mounjaro no Organismo?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A tirzepatida mimetiza (imita) a ação de dois hormônios naturais que seu corpo produz após as refeições:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Reduz Apetite**: Age no cérebro (hipotálamo) aumentando sensação de saciedade",
+        "**Retarda Esvaziamento Gástrico**: Comida fica mais tempo no estômago = você fica satisfeito por mais tempo",
+        "**Aumenta Insulina (quando necessário)**: Melhora controle da glicose em diabéticos, SEM causar hipoglicemia em não-diabéticos (ação dependente de glicose)",
+        "**Reduz Produção de Glicose**: Fígado para de liberar glicose em excesso",
+        "**Melhora Metabolismo**: Aumenta queima de gordura, preserva massa muscular (mais que dietas restritivas)"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Doses e Como Tomar Corretamente"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Mounjaro vem em canetas pré-preenchidas para injeção subcutânea (aplicação semanal, mesmo dia da semana). A titulação (aumento gradual) é essencial para minimizar efeitos colaterais:"
+    },
+    {
+      "tipo": "tabela",
+      "colunas": [
+        "Semana",
+        "Dose",
+        "Objetivo"
+      ],
+      "linhas": [
+        [
+          "1-4",
+          "2,5 mg/semana",
+          "Adaptação inicial (minimiza náusea)"
+        ],
+        [
+          "5-8",
+          "5 mg/semana",
+          "Dose terapêutica mínima"
+        ],
+        [
+          "9-12",
+          "7,5 mg/semana",
+          "Aumento conforme tolerância"
+        ],
+        [
+          "13-16",
+          "10 mg/semana",
+          "Dose de manutenção comum"
+        ],
+        [
+          "17+",
+          "12,5-15 mg/semana",
+          "Dose máxima (casos específicos)"
+        ]
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "variante": "info",
+      "texto": "💡 **Importante**: A maioria dos pacientes obtém resultados satisfatórios com 10 mg/semana. Doses de 12,5-15 mg são reservadas para casos de obesidade severa ou resposta insuficiente."
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Onde Aplicar**: Abdômen, coxa ou braço (subcutâneo) - rodar local a cada aplicação",
+        "**Melhor Horário**: Qualquer (manhã ou noite), mas manter consistência",
+        "**Com ou Sem Alimento**: Indiferente (não interfere na absorção)",
+        "**Esqueceu a Dose**: Se lembrar em até 4 dias, aplique imediatamente. Se > 4 dias, pule e aguarde próxima semana"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Efeitos Colaterais: O Que Esperar (E Quando Se Preocupar)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como todo medicamento, o Mounjaro tem efeitos adversos. A boa notícia: a maioria é leve e melhora após 2-4 semanas."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "Efeitos Comuns (>10% dos usuários)"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Náusea** (20-30%): Mais intensa nas primeiras semanas, especialmente se você comer demais ou alimentos gordurosos",
+        "**Diarreia** (15-20%): Geralmente transitória",
+        "**Constipação** (10-15%): Paradoxalmente, alguns têm prisão de ventre (devem beber mais água)",
+        "**Fadiga** (10%): Cansaço leve nas primeiras semanas",
+        "**Diminuição do apetite** (esperado - é o mecanismo de ação!)"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "Efeitos Graves (Raros, mas DEVEM ser reportados ao médico)"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Pancreatite Aguda** (0,2%): Dor abdominal intensa e persistente (superior do abdômen, irradia para costas) + náusea/vômito - PARE o medicamento e procure emergência",
+        "**Hipoglicemia Severa**: Mais comum se usar insulina concomitante (tontura, confusão, suor frio, desmaio)",
+        "**Problemas na Vesícula Biliar**: Pedras ou inflamação (dor no quadrante superior direito)",
+        "**Reações Alérgicas Graves**: Inchaço de rosto/garganta, dificuldade respiratória (raríssimo)",
+        "**Problemas Renais**: Em casos de desidratação severa por diarreia/vômito"
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "variante": "danger",
+      "texto": "🚨 **ALERTA ANVISA**: Em fevereiro de 2026, a ANVISA emitiu farmacovigilância sobre risco aumentado de pancreatite com uso indevido (pessoas sem indicação clínica). Se você tem histórico de pancreatite, pedra na vesícula ou problemas hepáticos, converse com gastroenterologista ANTES de iniciar."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Como Minimizar Efeitos Colaterais"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Comece Devagar**: Respeite a titulação (2,5 mg por 4 semanas) - pular doses iniciais AUMENTA náusea",
+        "**Refeições Menores**: 5-6 refeições pequenas > 3 grandes (estômago esvazia mais lento)",
+        "**Evite Gordura em Excesso**: Pizza, frituras, creme de leite intensificam náusea",
+        "**Hidratação**: 2-3L água/dia (previne constipação e problemas renais)",
+        "**Gengibre**: Chá ou cápsula ajuda contra náusea",
+        "**Probióticos**: Podem reduzir diarreia (evidência anedótica)"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Contraindicações: Quem NÃO Pode Usar Monjaro"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Gestantes e lactantes**: Pode causar má-formação fetal (suspender 2 meses antes de engravidar)",
+        "**Histórico pessoal ou familiar de câncer medular de tireoide**",
+        "**Neoplasia endócrina múltipla tipo 2 (MEN 2)**",
+        "**Pancreatite prévia**: Risco aumentado de recorrência",
+        "**Alergia à tirzepatida ou componentes**",
+        "**Diabetes tipo 1**: Não substitui insulina",
+        "**Menores de 18 anos**: Sem estudos de segurança"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "O Problema que NINGUÉM Fala: Efeito Rebote"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Aqui está a verdade inconveniente: **82% das pessoas reganham peso após parar o Mounjaro**, segundo estudo SURMOUNT-4 (novembro 2025)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os dados são duros:"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Apenas 4%** mantêm perda de peso apenas com dieta e exercício após suspender",
+        "**Reganho médio**: 14% do peso perdido em 52 semanas pós-tratamento",
+        "**Por que acontece**: O corpo interpreta a perda rápida como 'fome' e aumenta hormônios que estimulam apetite (leptina, grelina) + reduz metabolismo basal"
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "variante": "warning",
+      "texto": "⚠️ **Implicação Prática**: O Mounjaro funciona melhor como **tratamento de longo prazo** (1-2 anos ou mais), não 'cura rápida'. Você precisará manter dose de manutenção ou ter disciplina EXTREMA com dieta/exercício após parar - algo que 96% não conseguem."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Mounjaro vs Ozempic/Wegovy: Qual Escolher?"
+    },
+    {
+      "tipo": "tabela",
+      "colunas": [
+        "Característica",
+        "Mounjaro (Tirzepatida)",
+        "Ozempic/Wegovy (Semaglutida)"
+      ],
+      "linhas": [
+        [
+          "Perda de Peso Média",
+          "15-20% (72 semanas)",
+          "10-15% (68 semanas)"
+        ],
+        [
+          "Mecanismo",
+          "Dual (GLP-1 + GIP)",
+          "Único (GLP-1)"
+        ],
+        [
+          "Náusea",
+          "Moderada (GIP reduz)",
+          "Mais intensa"
+        ],
+        [
+          "Dose Semanal",
+          "2,5-15 mg",
+          "0,25-2,4 mg"
+        ],
+        [
+          "Preço Mensal",
+          "R$ 1.406-2.400",
+          "R$ 900-1.500"
+        ],
+        [
+          "Aprovação ANVISA",
+          "Diabetes + Obesidade",
+          "Diabetes (Ozempic) | Obesidade (Wegovy)"
+        ],
+        [
+          "Disponibilidade BR",
+          "Limitada (alta demanda)",
+          "Mais disponível"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Veredito**: Mounjaro é superior em resultados, mas mais caro e com disponibilidade limitada. Para muitos, Ozempic/Wegovy são opções eficazes e mais acessíveis."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Preço no Brasil (2026): Quanto Custa o Mounjaro?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O custo mensal varia conforme a dose:"
+    },
+    {
+      "tipo": "tabela",
+      "colunas": [
+        "Dose",
+        "Preço/Caixa (4 canetas)",
+        "Custo Mensal"
+      ],
+      "linhas": [
+        [
+          "2,5 mg",
+          "R$ 1.406-1.500",
+          "R$ 1.406-1.500 (mês 1)"
+        ],
+        [
+          "5 mg",
+          "R$ 1.700-1.900",
+          "R$ 1.700-1.900 (mês 2+)"
+        ],
+        [
+          "10 mg",
+          "R$ 2.200-2.400",
+          "R$ 2.200-2.400 (manutenção)"
+        ],
+        [
+          "15 mg",
+          "R$ 2.600-2.800",
+          "R$ 2.600-2.800 (dose máxima)"
+        ]
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Custo anual estimado**: R$ 20.000-28.000 (dose 10-15 mg/semana por 12 meses)."
+    },
+    {
+      "tipo": "alerta",
+      "variante": "info",
+      "texto": "💡 **Programas de Desconto**: A Eli Lilly oferece programa 'Mounjaro Savings Card' (EUA) com desconto de até 50%, mas no Brasil não há programa oficial similar. Alguns planos de saúde cobrem parcialmente se houver indicação médica clara (diabetes + obesidade)."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Onde Comprar com Segurança (E Como Evitar Falsificações)"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**⚠️ ALERTA**: O mercado negro de Mounjaro explodiu no Brasil. Produtos falsificados, vencidos ou armazenados incorretamente podem causar desde ineficácia até efeitos graves."
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Farmácias Confiáveis**: Drogasil, Droga Raia, Pague Menos, Drogaria Araujo (estoque limitado, liste-se)",
+        "**Prescrição Obrigatória**: NUNCA compre sem receita médica (retenção obrigatória pela farmácia)",
+        "**Verificar Selo ANVISA**: Caixa deve ter registro MS e código de barras genuíno",
+        "**Armazenamento**: Refrigeração 2-8°C (caneta não usada) | Temperatura ambiente após iniciar uso (até 21 dias)",
+        "**Evite**: Sites obscuros, redes sociais, 'clínicas de aplicação' sem médico responsável"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Vale a Pena? Análise Custo-Benefício Honesta"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**QUANDO VALE A PENA:**"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Obesidade grau II-III** (IMC > 35): Risco de comorbidades justifica custo/riscos",
+        "**Diabetes tipo 2 + Obesidade**: Duplo benefício (controle glicêmico + peso)",
+        "**Tentativas prévias falharam**: Dieta, exercício, outros medicamentos não funcionaram",
+        "**Comorbidades**: Hipertensão, apneia do sono, esteatose hepática (perda de peso melhora MUITO)",
+        "**Condição financeira confortável**: R$ 2.000-2.500/mês sem apertar orçamento"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**QUANDO NÃO VALE:**"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**IMC < 27**: Risco > benefício (use para saúde, não estética)",
+        "**Orçamento apertado**: R$ 24k/ano pode ser melhor gasto em personal trainer + nutricionista + terapia (resultados duradouros)",
+        "**Espera 'mágica'**: Se você não mudar hábitos, vai reganhar tudo após parar",
+        "**Gestação planejada**: Deve suspender 2 meses antes de engravidar"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Alternativas Mais Baratas (E Igualmente Eficazes para Muitos)"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "**Semaglutida (Ozempic/Wegovy)**: R$ 900-1.500/mês (13-15% perda peso)",
+        "**Liraglutida (Saxenda)**: R$ 1.200-1.600/mês (diária, 8-10% perda)",
+        "**Orlistate**: R$ 100-200/mês (bloqueia gordura, 5-7% perda) - menos eficaz mas muito mais barato",
+        "**Combo Fentermina + Topiramato**: R$ 200-400/mês (supressor apetite, 8-10% perda) - off-label no Brasil",
+        "**Abordagem Comportamental**: Nutricionista + psicólogo + exercício supervisionado = R$ 800-1.500/mês, mas resultados sustentáveis"
+      ]
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Perguntas Frequentes (FAQ)"
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "1. Mounjaro emagrece a barriga especificamente?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Não. A perda de gordura é sistêmica (corpo todo), mas estudos mostram redução preferencial de gordura visceral (abdominal) - a mais perigosa para saúde cardiovascular."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "2. Posso tomar Mounjaro só para 'secar' antes do verão?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**NÃO.** Uso estético sem indicação médica é perigoso e irresponsável. Riscos incluem hipoglicemia severa, pancreatite e dependência psicológica. ANVISA e CFM alertam contra essa prática."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "3. Quanto tempo até ver resultados?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Perda visível em 4-8 semanas (2-4 kg). Resultados máximos em 72-88 semanas (~20% do peso inicial)."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "4. Mounjaro causa flacidez?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Perda rápida de gordura (>15-20%) pode causar flacidez, especialmente se você tem >40 anos ou perdeu >30 kg. Musculação + proteína adequada (1,6-2g/kg/dia) minimizam."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "5. Posso beber álcool usando Mounjaro?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com moderação. Álcool aumenta risco de hipoglicemia e pancreatite. Evite beber de estômago vazio ou em excesso."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 3,
+      "texto": "6. Mounjaro prejudica fertilidade?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Não diretamente, mas **DEVE ser suspenso 2 meses antes de tentar engravidar** (risco fetal). Em mulheres obesas, perda de peso MELHORA fertilidade."
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Conclusão: Mounjaro É a Solução Definitiva?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Mounjaro é, sem dúvida, o medicamento anti-obesidade mais potente disponível hoje. Os resultados de 15-20% de perda de peso são transformadores para quem luta contra obesidade severa e comorbidades."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**MAS** (e é um MAS importante):"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Não é cura mágica - 82% reganham peso após parar",
+        "Custo alto (R$ 20-28k/ano) pode inviabilizar tratamento longo",
+        "Efeitos colaterais (náusea, pancreatite rara) requerem acompanhamento médico rigoroso",
+        "Disponibilidade limitada no Brasil (alta demanda)",
+        "Uso DEVE ser criterioso - não é para quem quer 'secar para o verão'"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "**Nosso veredito**: Para obesidade grau II-III com comorbidades, o Mounjaro pode ser game-changer. Para sobrepeso leve ou objetivos estéticos, há alternativas mais seguras, baratas e sustentáveis (nutrição + exercício + terapia comportamental)."
+    },
+    {
+      "tipo": "alerta",
+      "variante": "danger",
+      "texto": "⚠️ **NUNCA FAÇA AUTOMEDICAÇÃO**: Este artigo é informativo, não substitui consulta médica. Mounjaro é medicamento de prescrição obrigatória. Procure endocrinologista para avaliação individualizada."
+    },
+    {
+      "tipo": "cta",
+      "texto": "Quer entender se suplementos podem ajudar na sua jornada de emagrecimento (de forma mais acessível e segura)?",
+      "botao": "Fazer Avaliação Personalizada Gratuita",
+      "link": "/avaliacao"
+    },
+    {
+      "tipo": "heading",
+      "nivel": 2,
+      "texto": "Referências Científicas"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. New England Journal of Medicine. 2022;387:205-216.",
+        "Garvey WT, et al. SURMOUNT-4: Tirzepatide Versus Placebo for Weight Maintenance. Nature Medicine. 2023.",
+        "Aronne LJ, et al. SURMOUNT-5: Tirzepatide Versus Semaglutide for Obesity Treatment. JAMA. 2025.",
+        "ANVISA. Alerta de Farmacovigilância nº 03/2026: Riscos do uso de Tirzepatida e Retatrutida.",
+        "Eli Lilly. Mounjaro (tirzepatide) - Bula do Paciente. 2023."
+      ]
+    }
+  ]
+}
