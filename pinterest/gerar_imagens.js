@@ -12,11 +12,11 @@ const path = require('path');
   
   const page = await browser.newPage();
   
-  // Configurar viewport 1000x1500
+  // Configurar viewport 1000x1500 (exato Pinterest)
   await page.setViewport({
     width: 1000,
     height: 1500,
-    deviceScaleFactor: 2 // Alta qualidade
+    deviceScaleFactor: 1 // Tamanho exato, sem escala
   });
   
   // Processar pins 01 a 15
