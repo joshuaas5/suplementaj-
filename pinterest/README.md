@@ -99,7 +99,8 @@ CIRURGIA: Considerar se >30kg perdidos
 • Abdominoplastia: R$ 15k-25k
 • Braquioplastia (braços)
 
-Guia completo pós-emagrecimento: suplementaja.com/blog/pos-monjaro-flacidez
+Leia o guia completo:
+https://suplementaja.com/blog/monjaro-tirzepatida-guia-completo-emagrecimento
 
 #monjaro #ozempic #emagrecimento #peleflacida #perdergordo #posbariatrica #abdominoplastia #colageno #musculacao #suplementos
 ```
@@ -123,7 +124,8 @@ DOSE IDEAL:
 Tipos: I (pele), II (articulações), III (elasticidade)
 Melhor: Colágeno hidrolisado (peptídeos)
 
-Guia completo: suplementaja.com/blog/colageno-funciona
+Leia o guia completo:
+https://suplementaja.com/blog/colageno-hidrolisado-funciona-pele-articulacoes
 
 #colageno #pele #cabelo #unhas #beleza #antiidade #colagenhidrolisado #suplementos #skincare #haircare
 ```
@@ -146,7 +148,8 @@ SOLUÇÃO:
 
 DOSAR ANTES! Exame ferritina (ideal >30 ng/mL)
 
-Guia completo: suplementaja.com/blog/ferro-anemia
+Leia o guia completo:
+https://suplementaja.com/blog/ferro-anemia-deficiencia-tratamento
 
 #ferro #anemia #cansaço #ferritina #menstruação #saudefeminina #suplementos #energia
 ```
@@ -171,7 +174,9 @@ Cortisol Alto? Estresse Crônico? Estudos comprovam:
 
 ✨ COMBO: 3 juntos = efeito 2x mais forte!
 
-Guia completo: suplementaja.com/blog/ansiedade-suplementos
+Leia os guias completos:
+https://suplementaja.com/blog/magnesio-ansiedade-sono-tipos
+https://suplementaja.com/blog/ashwagandha-estresse-ansiedade-cortisol
 
 #ansiedade #estresse #cortisol #magnésio #ashwagandha #saudemental #bemestar #suplementos
 ```
@@ -194,7 +199,9 @@ SOLUÇÕES NATURAIS:
 
 💡 DICA: Começar 10 dias ANTES da menstruação!
 
-Guia completo: suplementaja.com/blog/tpm-suplementos
+Leia os guias completos:
+https://suplementaja.com/blog/magnesio-ansiedade-sono-tipos
+https://suplementaja.com/blog/calcio-ossos-osteoporose-qual-tomar
 
 #tpm #colica #menstruacao #saudefeminina #magnesio #vitaminab6 #calcio #suplementos #bemestar
 ```
