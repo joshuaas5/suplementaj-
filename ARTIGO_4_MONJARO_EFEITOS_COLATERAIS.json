@@ -18,7 +18,7 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Efeitos Comuns (>20%)**: Náusea (25-30%), diminuição apetite (esperado), diarreia (18%), fadiga (10%)\n• **Efeitos Moderados (5-15%)**: Constipação (12%), vômito (8-10%), tontura (7%), refluxo (5%)\n• **Efeitos Raros Graves (<1%)**: Pancreatite aguda (0,2%), hipoglicemia severa (0,5%), problemas vesícula biliar (0,8%)\n• **Quando Melhoram**: Maioria dos sintomas GI reduz 50-70% após 2-4 semanas\n• **Como Minimizar**: Titulação lenta, refeições pequenas, evitar gordura, gengibre pra náusea\n• **PARE IMEDIATAMENTE**: Dor abdominal intensa/persistente, icterícia, confusão mental, dificuldade respirar\n• **Mito Derrubado**: Monjaro causa MENOS náusea que Ozempic (mecanismo GIP ajuda)"
+      "texto": "📋 ***RESUMO RÁPIDO:**\n\n• ***Efeitos Comuns (>20%)**: Náusea (25-30%), diminuição apetite (esperado), diarreia (18%), fadiga (10%)\n• ***Efeitos Moderados (5-15%)**: Constipação (12%), vômito (8-10%), tontura (7%), refluxo (5%)\n• ***Efeitos Raros Graves (<1%)**: Pancreatite aguda (0,2%), hipoglicemia severa (0,5%), problemas vesícula biliar (0,8%)\n• ***Quando Melhoram**: Maioria dos sintomas GI reduz 50-70% após 2-4 semanas\n• ***Como Minimizar**: Titulação lenta, refeições pequenas, evitar gordura, gengibre pra náusea\n• ***PARE IMEDIATAMENTE**: Dor abdominal intensa/persistente, icterícia, confusão mental, dificuldade respirar\n• ***Mito Derrubado**: Monjaro causa MENOS náusea que Ozempic (mecanismo GIP ajuda)"
     },
     {
       "tipo": "paragrafo",
@@ -26,7 +26,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "A verdade? **Efeitos colaterais são reais**, mas a experiência varia MUITO entre pessoas. Alguns passam sem nenhum sintoma, outros sofrem nas primeiras semanas. E o pior: a internet está cheia de relatos alarmistas que assustam desnecessariamente."
+      "texto": "A verdade? ***Efeitos colaterais são reais**, mas a experiência varia MUITO entre pessoas. Alguns passam sem nenhum sintoma, outros sofrem nas primeiras semanas. E o pior: a internet está cheia de relatos alarmistas que assustam desnecessariamente."
     },
     {
       "tipo": "paragrafo",
@@ -44,23 +44,23 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Por que acontece:** Monjaro retarda esvaziamento gástrico (comida fica mais tempo no estômago). Seu cérebro interpreta isso como 'estômago cheio demais' → náusea."
+      "texto": "***Por que acontece:** Monjaro retarda esvaziamento gástrico (comida fica mais tempo no estômago). Seu cérebro interpreta isso como 'estômago cheio demais' → náusea."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Como é na prática:**"
+      "texto": "***Como é na prática:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Leve (60% dos casos)**: Sensação de 'estômago embrulhado', principalmente 1-3 dias após aplicação",
-        "**Moderada (30%)**: Enjoo constante, precisa deitar, dificulta alimentação por 2-3 dias",
-        "**Severa (10%)**: Vômitos frequentes, incapacidade de comer/beber (RARO, geralmente melhora após reduzir dose)"
+        "***Leve (60% dos casos)**: Sensação de 'estômago embrulhado', principalmente 1-3 dias após aplicação",
+        "***Moderada (30%)**: Enjoo constante, precisa deitar, dificulta alimentação por 2-3 dias",
+        "***Severa (10%)**: Vômitos frequentes, incapacidade de comer/beber (RARO, geralmente melhora após reduzir dose)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Relatos reais (Reddit/Fóruns BR):**"
+      "texto": "***Relatos reais (Reddit/Fóruns BR):**"
     },
     {
       "tipo": "lista",
@@ -72,24 +72,24 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Como minimizar:**"
+      "texto": "***Como minimizar:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "✅ **Coma DEVAGAR**: Mastigar bem, fazer pausas entre garfadas",
-        "✅ **Refeições menores**: 5-6 refeições pequenas > 3 grandes",
-        "✅ **Evite gordura**: Pizza, frituras, creme de leite INTENSIFICAM náusea",
-        "✅ **Gengibre**: Chá, cápsula (1g), ou bala de gengibre ajudam MUITO",
-        "✅ **Hidratação**: Pequenos goles ao longo do dia (não encha estômago de líquido de uma vez)",
-        "✅ **Aplique à noite**: Náusea pega durante sono, acorda melhor",
-        "✅ **Antiemético**: Plasil/Vonau (com prescrição médica) para casos severos"
+        "✅ ***Coma DEVAGAR**: Mastigar bem, fazer pausas entre garfadas",
+        "✅ ***Refeições menores**: 5-6 refeições pequenas > 3 grandes",
+        "✅ ***Evite gordura**: Pizza, frituras, creme de leite INTENSIFICAM náusea",
+        "✅ ***Gengibre**: Chá, cápsula (1g), ou bala de gengibre ajudam MUITO",
+        "✅ ***Hidratação**: Pequenos goles ao longo do dia (não encha estômago de líquido de uma vez)",
+        "✅ ***Aplique à noite**: Náusea pega durante sono, acorda melhor",
+        "✅ ***Antiemético**: Plasil/Vonau (com prescrição médica) para casos severos"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **BOM SABER**: Náusea é mais intensa nas primeiras 4 semanas. Após esse período, 70% dos usuários relatam melhora significativa. Se persistir além de 6-8 semanas, considere reduzir dose."
+      "texto": "💡 ***BOM SABER**: Náusea é mais intensa nas primeiras 4 semanas. Após esse período, 70% dos usuários relatam melhora significativa. Se persistir além de 6-8 semanas, considere reduzir dose."
     },
     {
       "tipo": "heading",
@@ -98,7 +98,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Esse NÃO é efeito colateral ruim** - é exatamente como o Monjaro funciona!"
+      "texto": "***Esse NÃO é efeito colateral ruim** - é exatamente como o Monjaro funciona!"
     },
     {
       "tipo": "lista",
@@ -111,7 +111,7 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **CUIDADO**: Comer MUITO POUCO (<800-1000 cal/dia) por semanas causa perda de massa muscular, queda de cabelo, fadiga extrema. Você PRECISA de 1.200-1.500 cal/dia mínimo + proteína adequada (1,6-2g/kg)."
+      "texto": "⚠️ ***CUIDADO**: Comer MUITO POUCO (<800-1000 cal/dia) por semanas causa perda de massa muscular, queda de cabelo, fadiga extrema. Você PRECISA de 1.200-1.500 cal/dia mínimo + proteína adequada (1,6-2g/kg)."
     },
     {
       "tipo": "heading",
@@ -120,11 +120,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Por que acontece:** Monjaro altera motilidade intestinal. Algumas pessoas têm trânsito acelerado (diarreia), outras lento (constipação)."
+      "texto": "***Por que acontece:** Monjaro altera motilidade intestinal. Algumas pessoas têm trânsito acelerado (diarreia), outras lento (constipação)."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Como minimizar:**"
+      "texto": "***Como minimizar:**"
     },
     {
       "tipo": "lista",
@@ -166,20 +166,20 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Causas possíveis:**"
+      "texto": "***Causas possíveis:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Déficit calórico extremo**: Comendo <1.200 cal/dia sem perceber",
-        "**Desidratação**: Diarreia/náusea levam a perda de líquidos",
-        "**Hipoglicemia leve**: Glicose caindo demais (mais comum em diabéticos)",
-        "**Deficiência de vitaminas**: B12, ferro, vitamina D (check com exames)"
+        "***Déficit calórico extremo**: Comendo <1.200 cal/dia sem perceber",
+        "***Desidratação**: Diarreia/náusea levam a perda de líquidos",
+        "***Hipoglicemia leve**: Glicose caindo demais (mais comum em diabéticos)",
+        "***Deficiência de vitaminas**: B12, ferro, vitamina D (check com exames)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Soluções:**"
+      "texto": "***Soluções:**"
     },
     {
       "tipo": "lista",
@@ -202,11 +202,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**O que é:** Inflamação aguda do pâncreas. Pode ser fatal se não tratada."
+      "texto": "***O que é:** Inflamação aguda do pâncreas. Pode ser fatal se não tratada."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Sintomas de ALERTA (PARE MONJARO IMEDIATAMENTE):**"
+      "texto": "***Sintomas de ALERTA (PARE MONJARO IMEDIATAMENTE):**"
     },
     {
       "tipo": "lista",
@@ -221,11 +221,11 @@
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "⚠️ **SE TIVER ESSES SINTOMAS**: Vá ao pronto-socorro IMEDIATAMENTE. Informe que usa Monjaro. Exames: amilase, lipase (enzimas pancreáticas)."
+      "texto": "⚠️ ***SE TIVER ESSES SINTOMAS**: Vá ao pronto-socorro IMEDIATAMENTE. Informe que usa Monjaro. Exames: amilase, lipase (enzimas pancreáticas)."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Fatores de risco aumentado:**"
+      "texto": "***Fatores de risco aumentado:**"
     },
     {
       "tipo": "lista",
@@ -243,11 +243,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Quando acontece:** Principalmente se você usa insulina + Monjaro ou tem diabetes tipo 2 mal controlado."
+      "texto": "***Quando acontece:** Principalmente se você usa insulina + Monjaro ou tem diabetes tipo 2 mal controlado."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Sintomas:**"
+      "texto": "***Sintomas:**"
     },
     {
       "tipo": "lista",
@@ -261,7 +261,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Prevenção:**"
+      "texto": "***Prevenção:**"
     },
     {
       "tipo": "lista",
@@ -283,7 +283,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Sintomas:**"
+      "texto": "***Sintomas:**"
     },
     {
       "tipo": "lista",
@@ -295,7 +295,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Prevenção:** Perda gradual de peso (não acelerar com dietas muito restritivas), evitar jejuns prolongados."
+      "texto": "***Prevenção:** Perda gradual de peso (não acelerar com dietas muito restritivas), evitar jejuns prolongados."
     },
     {
       "tipo": "heading",
@@ -309,28 +309,28 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Relatos:** 15-20% dos usuários reportam queda de cabelo 3-6 meses após iniciar."
+      "texto": "***Relatos:** 15-20% dos usuários reportam queda de cabelo 3-6 meses após iniciar."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Ciência:** Estudos SURMOUNT NÃO listam alopecia como efeito comum."
+      "texto": "***Ciência:** Estudos SURMOUNT NÃO listam alopecia como efeito comum."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Explicação provável:** NÃO é o Monjaro diretamente, mas sim:"
+      "texto": "***Explicação provável:** NÃO é o Monjaro diretamente, mas sim:"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Déficit calórico extremo** (comendo muito pouco)",
-        "**Deficiência de proteína** (precisa 1,6-2g/kg/dia)",
-        "**Estresse do emagrecimento rápido** (eflúvio telógeno)",
-        "**Deficiência de ferro/zinco/biotina**"
+        "***Déficit calórico extremo** (comendo muito pouco)",
+        "***Deficiência de proteína** (precisa 1,6-2g/kg/dia)",
+        "***Estresse do emagrecimento rápido** (eflúvio telógeno)",
+        "***Deficiência de ferro/zinco/biotina**"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Solução:** Garantir calorias/proteína adequadas + suplementar biotina (5-10mg), zinco (15-30mg), ferro (se deficiente)."
+      "texto": "***Solução:** Garantir calorias/proteína adequadas + suplementar biotina (5-10mg), zinco (15-30mg), ferro (se deficiente)."
     },
     {
       "tipo": "heading",
@@ -339,15 +339,15 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Relatos:** \"Me sinto mais ansiosa/irritada desde que comecei.\""
+      "texto": "***Relatos:** \"Me sinto mais ansiosa/irritada desde que comecei.\""
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Explicação:** Hipoglicemia leve (oscilações glicêmicas causam irritabilidade) OU déficit calórico afetando neurotransmissores."
+      "texto": "***Explicação:** Hipoglicemia leve (oscilações glicêmicas causam irritabilidade) OU déficit calórico afetando neurotransmissores."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Ação:** Monitore glicemia, garanta carboidratos complexos nas refeições, considere suplementar ômega-3 (EPA 1-2g/dia)."
+      "texto": "***Ação:** Monitore glicemia, garanta carboidratos complexos nas refeições, considere suplementar ômega-3 (EPA 1-2g/dia)."
     },
     {
       "tipo": "heading",
@@ -356,7 +356,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Realidade:** Perda rápida de 15-20% do peso SEM exercício = perde gordura + músculo."
+      "texto": "***Realidade:** Perda rápida de 15-20% do peso SEM exercício = perde gordura + músculo."
     },
     {
       "tipo": "lista",
@@ -367,7 +367,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Prevenção OBRIGATÓRIA:**"
+      "texto": "***Prevenção OBRIGATÓRIA:**"
     },
     {
       "tipo": "lista",
@@ -399,7 +399,7 @@
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "⚠️ **IMPORTANTE**: Pare o medicamento e procure seu médico/emergência ANTES da próxima dose. NÃO 'aguente' sintomas graves achando que 'vai passar'."
+      "texto": "⚠️ ***IMPORTANTE**: Pare o medicamento e procure seu médico/emergência ANTES da próxima dose. NÃO 'aguente' sintomas graves achando que 'vai passar'."
     },
     {
       "tipo": "heading",
@@ -415,18 +415,53 @@
         "Vencedor"
       ],
       "linhas": [
-        ["Náusea", "25-30%", "40-50%", "🏆 Monjaro (menos)"],
-        ["Vômito", "8-10%", "15-24%", "🏆 Monjaro"],
-        ["Diarreia", "18-20%", "20-25%", "🏆 Empate"],
-        ["Constipação", "12-15%", "18-22%", "🏆 Monjaro"],
-        ["Fadiga", "10%", "15-18%", "🏆 Monjaro"],
-        ["Pancreatite", "0,2%", "0,3%", "🏆 Monjaro"],
-        ["Hipoglicemia (diabéticos)", "0,5%", "0,6%", "🏆 Empate"]
+        [
+          "Náusea",
+          "25-30%",
+          "40-50%",
+          "🏆 Monjaro (menos)"
+        ],
+        [
+          "Vômito",
+          "8-10%",
+          "15-24%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Diarreia",
+          "18-20%",
+          "20-25%",
+          "🏆 Empate"
+        ],
+        [
+          "Constipação",
+          "12-15%",
+          "18-22%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Fadiga",
+          "10%",
+          "15-18%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Pancreatite",
+          "0,2%",
+          "0,3%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Hipoglicemia (diabéticos)",
+          "0,5%",
+          "0,6%",
+          "🏆 Empate"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Surpreendente:** Monjaro causa MENOS efeitos GI que Ozempic, apesar de ser mais potente. Motivo: receptor GIP tem efeito anti-náusea."
+      "texto": "***Surpreendente:** Monjaro causa MENOS efeitos GI que Ozempic, apesar de ser mais potente. Motivo: receptor GIP tem efeito anti-náusea."
     },
     {
       "tipo": "heading",
@@ -440,11 +475,26 @@
         "O Que Esperar"
       ],
       "linhas": [
-        ["Semana 1-2", "Pico de náusea/enjoo (pior momento)"],
-        ["Semana 3-4", "Náusea reduz 40-50%, corpo adaptando"],
-        ["Semana 5-8", "Maioria dos sintomas GI 70-80% melhores"],
-        ["Semana 9-12", "Efeitos colaterais mínimos, apetite reduzido permanece"],
-        ["Mês 4+", "Tolerância excelente, foco em preservar massa muscular"]
+        [
+          "Semana 1-2",
+          "Pico de náusea/enjoo (pior momento)"
+        ],
+        [
+          "Semana 3-4",
+          "Náusea reduz 40-50%, corpo adaptando"
+        ],
+        [
+          "Semana 5-8",
+          "Maioria dos sintomas GI 70-80% melhores"
+        ],
+        [
+          "Semana 9-12",
+          "Efeitos colaterais mínimos, apetite reduzido permanece"
+        ],
+        [
+          "Mês 4+",
+          "Tolerância excelente, foco em preservar massa muscular"
+        ]
       ]
     },
     {
@@ -505,7 +555,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "A verdade: **Monjaro NÃO é livre de efeitos colaterais**. Mas para a maioria das pessoas, eles são:"
+      "texto": "A verdade: ***Monjaro NÃO é livre de efeitos colaterais**. Mas para a maioria das pessoas, eles são:"
     },
     {
       "tipo": "lista",
@@ -522,7 +572,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**A chave:** Titulação lenta, paciência nas primeiras semanas, e NUNCA negligenciar proteína/calorias adequadas."
+      "texto": "***A chave:** Titulação lenta, paciência nas primeiras semanas, e NUNCA negligenciar proteína/calorias adequadas."
     },
     {
       "tipo": "cta",

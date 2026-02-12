@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraAgua } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Água - Quantos Litros Beber Por Dia? | Suplementa Já',
-  description: 'Calcule quantos litros de água você deve beber por dia. Baseado nas recomendações do IOM. Considera sexo, peso, atividade física e clima.',
+  title: 'Calculadora de Água Grátis 2026 - Quantos Litros Por Dia? | Suplementa Já',
+  description: 'CALCULE GRÁTIS quantos litros de água você deve beber por dia! Baseado no seu peso e atividade física. Resultado instantâneo.',
   keywords: ['calculadora agua', 'quantos litros agua', 'hidratação', 'agua por dia', 'beber agua', 'IOM agua', 'hidratação diária'],
   openGraph: {
     title: 'Calculadora de Água - Quantos Litros Por Dia?',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraAguaPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_AGUA?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-blue-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -36,11 +40,11 @@ export default function CalculadoraAguaPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            💧 Calculadora de Água
+            💧 Quanta Água Devo Beber?
           </h1>
           <p className="text-black font-bold mb-4">
-            Descubra <strong>quantos litros de água</strong> você deve beber diariamente 
-            baseado no seu sexo, peso, atividade física e clima.
+            Descubra <strong>quantos litros de água</strong> você deve beber diariamente{' '}
+            baseado no seu peso, atividade física e clima. Hidrátese corretamente!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-blue-400 px-3 py-1 border-2 border-black font-bold text-sm">🔬 IOM Guidelines</span>
@@ -49,15 +53,24 @@ export default function CalculadoraAguaPage() {
           </div>
         </div>
 
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_AGUA para exibir o anúncio aqui.
+          </div>
+        ) : null}
+
         {/* Calculadora */}
         <CalculadoraAgua />
 
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Água Beber Por Dia?</h2>
-          
+
           <p className="text-black mb-4">
-            A necessidade de água varia entre <strong>homens e mulheres</strong> devido a diferenças 
+            A necessidade de água varia entre <strong>homens e mulheres</strong> devido a diferenças
             em composição corporal e metabolismo. Veja as recomendações oficiais:
           </p>
 
@@ -124,9 +137,40 @@ export default function CalculadoraAguaPage() {
 
           <div className="bg-gray-100 border-2 border-black p-4">
             <p className="text-sm text-gray-700">
-              <strong>📚 Fonte:</strong> Institute of Medicine. Dietary Reference Intakes for Water, 
+              <strong>📚 Fonte:</strong> Institute of Medicine. Dietary Reference Intakes for Water,
               Potassium, Sodium, Chloride, and Sulfate. National Academies Press, 2005.
             </p>
+          </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+
+          <div className="space-y-4">
+            <div className="bg-blue-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Beber muita água faz mal?</h4>
+              <p className="text-black text-sm">
+                <strong>Só em casos extremos</strong> (intoxicação por água/hiponatremia). Você precisaria beber 6-7 litros em poucas horas.
+                Para pessoas normais, o máximo seria uns 4-5 litros/dia (se você treina pesado em clima quente).
+                Sinal de alerta: urina completamente transparente o dia todo = pode estar exagerando.
+              </p>
+            </div>
+
+            <div className="bg-cyan-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Chá, café e refrigerante contam como água?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim, mas com ressalvas.</strong> Chá e café (sem açúcar) contam. Refrigerante tecnicamente hidrata, mas tem muito açúcar.
+                O ideal: 70-80% de água pura, 20-30% pode ser chás, café, água de coco.
+                Evite: refrigerantes, sucos industrializados (muito açúcar), bebidas alcoólicas (desidratam).
+              </p>
+            </div>
+
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Preciso beber 2 litros mesmo se não tiver sede?</h4>
+              <p className="text-black text-sm">
+                <strong>Não force.</strong> A sede é um mecanismo eficiente. O problema é que muita gente confunde sede com fome.
+                Dica prática: Olhe a cor da urina. Amarelo claro = hidratado. Amarelo escuro = beba mais.
+                Quem treina ou vive em clima quente precisa de mais (aí sim, programe-se para beber mesmo sem sede).
+              </p>
+            </div>
           </div>
         </div>
 

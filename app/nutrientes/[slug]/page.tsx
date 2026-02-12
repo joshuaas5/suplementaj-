@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
@@ -8,9 +9,15 @@ import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { ArrowLeft, ExternalLink, ShoppingCart } from 'lucide-react'
 import { addAmazonAffiliateTag } from '@/lib/affiliate'
 import nutrientesData from '@/data/nutrientes.json'
+import objetivosData from '@/data/objetivos.json'
+import artigosData from '@/data/artigos.json'
 import type { Nutriente } from '@/types/nutriente'
+import type { Artigo } from '@/types/artigo'
+import { RelatedContent } from '@/components/content/RelatedContent'
+import { getArtigosRelacionados } from '@/lib/related-content'
 
 const nutrientes = nutrientesData as Record<string, Nutriente>
+const artigos = artigosData as Artigo[]
 
 interface PageProps {
   params: {
@@ -48,11 +55,42 @@ export default function NutrienteDetailPage({ params }: PageProps) {
   }
 
   const categoryColor = nutriente.categoria === 'vitamina' ? 'cyan-400' :
-                        nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
+    nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
   const categoryTextColor = nutriente.categoria === 'outro' ? 'text-white' : 'text-black'
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.suplementaja.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Nutrientes',
+        item: 'https://www.suplementaja.com/nutrientes',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: nutriente.nome,
+        item: `https://www.suplementaja.com/nutrientes/${params.slug}`,
+      },
+    ],
+  }
 
   return (
     <div className="min-h-screen bg-white py-8">
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb - NEOBRUTALISM */}
         <div className="mb-8">
@@ -94,11 +132,35 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           </div>
         </div>
 
+
+        {/* Objetivos Relacionados - HUB INTERLINKING */}
+        {nutriente.objetivos && nutriente.objetivos.length > 0 && (
+          <div className="mb-8 flex flex-wrap gap-2 items-center bg-gray-50 border-2 border-gray-200 p-4 rounded-lg">
+            <span className="font-black text-xs uppercase tracking-wider text-gray-500 mr-2">
+              Principalmente indicado para:
+            </span>
+            {nutriente.objetivos.map((objSlug) => {
+              const objInfo = (objetivosData as Array<{ slug: string; titulo: string; emoji: string }>).find(o => o.slug === objSlug)
+              if (!objInfo) return null
+              return (
+                <Link key={objSlug} href={`/objetivos/${objSlug}`}>
+                  <Badge variant="neutral" className="hover:bg-black hover:text-white transition-colors cursor-pointer text-sm py-1 px-3">
+                    {objInfo.emoji} {objInfo.titulo}
+                  </Badge>
+                </Link>
+              )
+            })}
+          </div>
+        )}
+
         {/* Disclaimer */}
         <DisclaimerBanner
           variant="warning"
           message="As informações nesta página são educacionais. O ideal é consultar um profissional de saúde para orientação personalizada."
         />
+
+        {/* Anúncio Display */}
+        <ManualDisplayAd className="my-8" />
 
         {/* Funções Corporais */}
         {nutriente.funcoes_corporais && nutriente.funcoes_corporais.length > 0 && (
@@ -557,6 +619,38 @@ export default function NutrienteDetailPage({ params }: PageProps) {
           </Card>
         )}
 
+        {/* Calculadoras Relacionadas */}
+        <div className="mb-8">
+          <div className="bg-black px-6 py-3 mb-6 inline-block sm:-rotate-1 border-4 border-black">
+            <h3 className="text-xl sm:text-2xl font-black text-white uppercase">
+              🧮 Calculadoras Úteis
+            </h3>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <Link href="/calculadoras/calorias" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">🔥</span>
+                <p className="font-black text-black uppercase">Gasto Calórico Diário</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Descubra quanto você gasta</p>
+              </div>
+            </Link>
+            <Link href="/calculadoras/proteina" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">🥩</span>
+                <p className="font-black text-black uppercase">Proteína Diária</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Quanto comer por dia</p>
+              </div>
+            </Link>
+            <Link href="/calculadoras/creatina" className="block group">
+              <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 group-hover:translate-x-1 group-hover:translate-y-1 group-hover:shadow-[2px_2px_0_0_#000] transition-all">
+                <span className="text-2xl mb-2 block">💪</span>
+                <p className="font-black text-black uppercase">Dose de Creatina</p>
+                <p className="text-xs text-gray-700 font-bold mt-1">Calcule sua carga e manutenção</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+
         {/* CTA Final - NEOBRUTALISM */}
         <div className="bg-pink-500 border-8 border-black shadow-[12px_12px_0_0_#000] p-6 sm:p-8 md:p-12 text-center mb-8">
           <div className="bg-black px-6 py-3 mb-6 inline-block sm:-rotate-1 border-4 border-black">
@@ -575,6 +669,31 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </Button>
           </Link>
         </div>
+
+        {/* Conteúdo Relacionado */}
+        {(() => {
+          const artigosRelacionados = getArtigosRelacionados(params.slug)
+            .map((artigoSlug) => {
+              const artigo = artigos.find((a) => a.slug === artigoSlug)
+              if (!artigo) return null
+              return {
+                type: 'artigo' as const,
+                slug: artigo.slug,
+                titulo: artigo.titulo,
+                descricao: artigo.descricao,
+                categoria: artigo.categoria,
+              }
+            })
+            .filter((item) => item !== null)
+            .slice(0, 3) as Array<{ type: 'artigo'; slug: string; titulo: string; descricao: string; categoria: string }>
+
+          return artigosRelacionados.length > 0 ? (
+            <RelatedContent
+              items={artigosRelacionados}
+              title="📚 Artigos Relacionados Sobre Este Nutriente"
+            />
+          ) : null
+        })()}
 
         {/* Back to list */}
         <div className="text-center">

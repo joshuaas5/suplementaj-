@@ -18,11 +18,11 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Preço Médio 2026**: R$ 1.406 (dose inicial 2,5mg) até R$ 2.600 (dose máxima 15mg)\n• **Custo Mensal Real**: R$ 1.800-2.400 (dose de manutenção 10-15mg)\n• **Custo Anual**: R$ 21.000-28.000 (tratamento completo)\n• **Onde Comprar Mais Barato**: Pague Menos, Drogasil, programas de fidelidade\n• **Planos de Saúde**: Cobertura RARA, apenas se diabético + obesidade + laudo médico robusto\n• **Programas de Desconto**: Não há oficial no Brasil (diferente dos EUA)\n• **Alternativas Baratas**: Ozempic (R$ 1.000-1.200/mês), Saxenda (R$ 1.200-1.600/mês), Orlistate (R$ 100-200/mês)"
+      "texto": "📋 ***RESUMO RÁPIDO:**\n\n• ***Preço Médio 2026**: R$ 1.406 (dose inicial 2,5mg) até R$ 2.600 (dose máxima 15mg)\n• ***Custo Mensal Real**: R$ 1.800-2.400 (dose de manutenção 10-15mg)\n• ***Custo Anual**: R$ 21.000-28.000 (tratamento completo)\n• ***Onde Comprar Mais Barato**: Pague Menos, Drogasil, programas de fidelidade\n• ***Planos de Saúde**: Cobertura RARA, apenas se diabético + obesidade + laudo médico robusto\n• ***Programas de Desconto**: Não há oficial no Brasil (diferente dos EUA)\n• ***Alternativas Baratas**: Ozempic (R$ 1.000-1.200/mês), Saxenda (R$ 1.200-1.600/mês), Orlistate (R$ 100-200/mês)"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O Mounjaro é, sem dúvida, o medicamento emagrecedor mais eficaz disponível hoje - mas também o **mais caro**. Com preços chegando a R$ 2.600 por caixa (4 canetas para 1 mês), o tratamento pode custar até **R$ 28.000 por ano**."
+      "texto": "O Mounjaro é, sem dúvida, o medicamento emagrecedor mais eficaz disponível hoje - mas também o **mais caro**. Com preços chegando a R$ 2.600 por caixa (4 canetas para 1 mês), o tratamento pode custar até ***R$ 28.000 por ano**."
     },
     {
       "tipo": "paragrafo",
@@ -50,18 +50,48 @@
         "Farmácia Mais Barata"
       ],
       "linhas": [
-        ["2,5 mg (4 canetas)", "R$ 1.406-1.500", "Mês 1-2 (início)", "Pague Menos: R$ 1.406"],
-        ["5 mg (4 canetas)", "R$ 1.700-1.900", "Mês 3-4", "Drogasil: R$ 1.680"],
-        ["7,5 mg (4 canetas)", "R$ 1.950-2.150", "Mês 5-6", "Pague Menos: R$ 1.920"],
-        ["10 mg (4 canetas)", "R$ 2.200-2.400", "Manutenção", "Drogasil: R$ 2.180"],
-        ["12,5 mg (4 canetas)", "R$ 2.400-2.600", "Obesidade severa", "Pague Menos: R$ 2.350"],
-        ["15 mg (4 canetas)", "R$ 2.600-2.800", "Dose máxima", "Droga Raia: R$ 2.580"]
+        [
+          "2,5 mg (4 canetas)",
+          "R$ 1.406-1.500",
+          "Mês 1-2 (início)",
+          "Pague Menos: R$ 1.406"
+        ],
+        [
+          "5 mg (4 canetas)",
+          "R$ 1.700-1.900",
+          "Mês 3-4",
+          "Drogasil: R$ 1.680"
+        ],
+        [
+          "7,5 mg (4 canetas)",
+          "R$ 1.950-2.150",
+          "Mês 5-6",
+          "Pague Menos: R$ 1.920"
+        ],
+        [
+          "10 mg (4 canetas)",
+          "R$ 2.200-2.400",
+          "Manutenção",
+          "Drogasil: R$ 2.180"
+        ],
+        [
+          "12,5 mg (4 canetas)",
+          "R$ 2.400-2.600",
+          "Obesidade severa",
+          "Pague Menos: R$ 2.350"
+        ],
+        [
+          "15 mg (4 canetas)",
+          "R$ 2.600-2.800",
+          "Dose máxima",
+          "Droga Raia: R$ 2.580"
+        ]
       ]
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Observação**: Preços variam 5-15% entre farmácias e regiões. Sempre compare em 3-4 redes antes de comprar."
+      "texto": "💡 ***Observação**: Preços variam 5-15% entre farmácias e regiões. Sempre compare em 3-4 redes antes de comprar."
     },
     {
       "tipo": "heading",
@@ -81,23 +111,58 @@
         "Custo Acumulado"
       ],
       "linhas": [
-        ["Mês 1", "2,5 mg", "R$ 1.406", "R$ 1.406"],
-        ["Mês 2", "2,5 mg", "R$ 1.406", "R$ 2.812"],
-        ["Mês 3", "5 mg", "R$ 1.700", "R$ 4.512"],
-        ["Mês 4", "5 mg", "R$ 1.700", "R$ 6.212"],
-        ["Mês 5", "7,5 mg", "R$ 1.950", "R$ 8.162"],
-        ["Mês 6", "10 mg", "R$ 2.200", "R$ 10.362"],
-        ["Mês 7-12", "10-15 mg", "R$ 2.200-2.600/mês", "R$ 24.562-26.962"]
+        [
+          "Mês 1",
+          "2,5 mg",
+          "R$ 1.406",
+          "R$ 1.406"
+        ],
+        [
+          "Mês 2",
+          "2,5 mg",
+          "R$ 1.406",
+          "R$ 2.812"
+        ],
+        [
+          "Mês 3",
+          "5 mg",
+          "R$ 1.700",
+          "R$ 4.512"
+        ],
+        [
+          "Mês 4",
+          "5 mg",
+          "R$ 1.700",
+          "R$ 6.212"
+        ],
+        [
+          "Mês 5",
+          "7,5 mg",
+          "R$ 1.950",
+          "R$ 8.162"
+        ],
+        [
+          "Mês 6",
+          "10 mg",
+          "R$ 2.200",
+          "R$ 10.362"
+        ],
+        [
+          "Mês 7-12",
+          "10-15 mg",
+          "R$ 2.200-2.600/mês",
+          "R$ 24.562-26.962"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Total 12 meses**: R$ 24.500-27.000 (dose de manutenção 10-15mg)"
+      "texto": "***Total 12 meses**: R$ 24.500-27.000 (dose de manutenção 10-15mg)"
     },
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **ATENÇÃO**: 82% reganham peso após parar (estudo SURMOUNT-4). Ou seja, você pode precisar de tratamento CONTÍNUO (anos), não apenas 12 meses. Custo de longo prazo pode chegar a **R$ 50.000-80.000 em 3 anos**."
+      "texto": "⚠️ ***ATENÇÃO**: 82% reganham peso após parar (estudo SURMOUNT-4). Ou seja, você pode precisar de tratamento CONTÍNUO (anos), não apenas 12 meses. Custo de longo prazo pode chegar a ***R$ 50.000-80.000 em 3 anos**."
     },
     {
       "tipo": "heading",
@@ -117,20 +182,50 @@
         "Programa Fidelidade"
       ],
       "linhas": [
-        ["Pague Menos", "R$ 1.406 ★", "R$ 2.180", "Sim (-5% após 3 compras)"],
-        ["Drogasil", "R$ 1.450", "R$ 2.200", "Sim (-10% com Sempre Bem)"],
-        ["Droga Raia", "R$ 1.430", "R$ 2.150 ★", "Sim (-10% assinatura)"],
-        ["Drogaria Araujo", "R$ 1.480", "R$ 2.250", "Sim (-5%)"],
-        ["Ultrafarma", "R$ 1.500", "R$ 2.300", "Não"],
-        ["Drogaria São Paulo", "R$ 1.470", "R$ 2.280", "Sim (-8%)"]
+        [
+          "Pague Menos",
+          "R$ 1.406 ★",
+          "R$ 2.180",
+          "Sim (-5% após 3 compras)"
+        ],
+        [
+          "Drogasil",
+          "R$ 1.450",
+          "R$ 2.200",
+          "Sim (-10% com Sempre Bem)"
+        ],
+        [
+          "Droga Raia",
+          "R$ 1.430",
+          "R$ 2.150 ★",
+          "Sim (-10% assinatura)"
+        ],
+        [
+          "Drogaria Araujo",
+          "R$ 1.480",
+          "R$ 2.250",
+          "Sim (-5%)"
+        ],
+        [
+          "Ultrafarma",
+          "R$ 1.500",
+          "R$ 2.300",
+          "Não"
+        ],
+        [
+          "Drogaria São Paulo",
+          "R$ 1.470",
+          "R$ 2.280",
+          "Sim (-8%)"
+        ]
       ]
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Melhor custo inicial (2,5mg)**: Pague Menos (R$ 1.406)",
-        "**Melhor custo manutenção (10mg)**: Droga Raia (R$ 2.150)",
-        "**Melhor programa fidelidade**: Drogasil Sempre Bem Premium (-10% + cashback)"
+        "***Melhor custo inicial (2,5mg)**: Pague Menos (R$ 1.406)",
+        "***Melhor custo manutenção (10mg)**: Droga Raia (R$ 2.150)",
+        "***Melhor programa fidelidade**: Drogasil Sempre Bem Premium (-10% + cashback)"
       ]
     },
     {
@@ -146,14 +241,14 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Drogasil Sempre Bem Premium**: R$ 30/mês, desconto de 10% em medicamentos (economiza R$ 220-260/mês no Monjaro = R$ 2.640-3.120/ano)",
-        "**Droga Raia Clube**: R$ 25/mês, desconto de 10% (economia similar)",
-        "**Pague Menos Desconto Progressivo**: Após 3 compras, 5% de desconto (economiza R$ 110-130/mês)"
+        "***Drogasil Sempre Bem Premium**: R$ 30/mês, desconto de 10% em medicamentos (economiza R$ 220-260/mês no Monjaro = R$ 2.640-3.120/ano)",
+        "***Droga Raia Clube**: R$ 25/mês, desconto de 10% (economia similar)",
+        "***Pague Menos Desconto Progressivo**: Após 3 compras, 5% de desconto (economiza R$ 110-130/mês)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Economia anual**: R$ 1.300-3.100"
+      "texto": "***Economia anual**: R$ 1.300-3.100"
     },
     {
       "tipo": "heading",
@@ -163,14 +258,14 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Cartão Pague Menos Itaucard**: Cashback de 3-5% em compras na rede (R$ 66-120/mês de volta)",
-        "**Cartão Drogasil Credicard**: Até 5% de cashback",
-        "**Parcelamento sem juros**: Até 6x sem juros (alivia fluxo de caixa)"
+        "***Cartão Pague Menos Itaucard**: Cashback de 3-5% em compras na rede (R$ 66-120/mês de volta)",
+        "***Cartão Drogasil Credicard**: Até 5% de cashback",
+        "***Parcelamento sem juros**: Até 6x sem juros (alivia fluxo de caixa)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Economia anual**: R$ 800-1.400 (cashback)"
+      "texto": "***Economia anual**: R$ 800-1.400 (cashback)"
     },
     {
       "tipo": "heading",
@@ -196,20 +291,20 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Realidade dura**: A maioria dos planos de saúde NÃO cobre Monjaro para emagrecimento. Mas há brechas:"
+      "texto": "***Realidade dura**: A maioria dos planos de saúde NÃO cobre Monjaro para emagrecimento. Mas há brechas:"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Se você tem diabetes tipo 2 + obesidade**: Chance maior de cobertura (exige laudo médico detalhado)",
-        "**Estratégia**: Pedir autorização via endocrinologista, enfatizando comorbidades (hipertensão, apneia do sono, esteatose hepática)",
-        "**Sucesso**: ~15-20% dos pedidos bem fundamentados são aprovados (parcialmente - ex: cobrem 50-70% do valor)"
+        "***Se você tem diabetes tipo 2 + obesidade**: Chance maior de cobertura (exige laudo médico detalhado)",
+        "***Estratégia**: Pedir autorização via endocrinologista, enfatizando comorbidades (hipertensão, apneia do sono, esteatose hepática)",
+        "***Sucesso**: ~15-20% dos pedidos bem fundamentados são aprovados (parcialmente - ex: cobrem 50-70% do valor)"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Dica de Ouro**: Alguns planos cobrem se você FALHAR com metformina + sitagliptina (medicamentos orais mais baratos). Seu médico precisa documentar isso no laudo."
+      "texto": "💡 ***Dica de Ouro**: Alguns planos cobrem se você FALHAR com metformina + sitagliptina (medicamentos orais mais baratos). Seu médico precisa documentar isso no laudo."
     },
     {
       "tipo": "heading",
@@ -218,7 +313,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Alguns tentam importar do Paraguai/Uruguai onde é 20-30% mais barato. **NÃO RECOMENDAMOS:**"
+      "texto": "Alguns tentam importar do Paraguai/Uruguai onde é 20-30% mais barato. ***NÃO RECOMENDAMOS:**"
     },
     {
       "tipo": "lista",
@@ -237,11 +332,11 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Nos EUA**: Eli Lilly oferece 'Mounjaro Savings Card' com desconto de até 50% (preço cai de $1.000/mês pra $500/mês)."
+      "texto": "***Nos EUA**: Eli Lilly oferece 'Mounjaro Savings Card' com desconto de até 50% (preço cai de $1.000/mês pra $500/mês)."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**No Brasil**: **NÃO HÁ** programa oficial similar (2026). Eli Lilly Brasil informou que não planeja implementar no curto prazo."
+      "texto": "***No Brasil**: NÃO HÁ programa oficial similar (2026). Eli Lilly Brasil informou que não planeja implementar no curto prazo."
     },
     {
       "tipo": "heading",
@@ -261,24 +356,49 @@
         "Economia vs Monjaro"
       ],
       "linhas": [
-        ["Ozempic (semaglutida)", "R$ 1.000-1.200", "10-13%", "R$ 800-1.400/mês (-50%)"],
-        ["Wegovy (semaglutida)", "R$ 1.400-1.600", "13-15%", "R$ 400-1.000/mês (-30%)"],
-        ["Saxenda (liraglutida)", "R$ 1.200-1.600", "8-10%", "R$ 600-1.200/mês (-40%)"],
-        ["Orlistate (Xenical)", "R$ 100-200", "5-7%", "R$ 2.000-2.500/mês (-90%)"],
-        ["Fentermina + Topiramato", "R$ 200-400", "8-10%", "R$ 1.800-2.400/mês (-85%)"]
+        [
+          "Ozempic (semaglutida)",
+          "R$ 1.000-1.200",
+          "10-13%",
+          "R$ 800-1.400/mês (-50%)"
+        ],
+        [
+          "Wegovy (semaglutida)",
+          "R$ 1.400-1.600",
+          "13-15%",
+          "R$ 400-1.000/mês (-30%)"
+        ],
+        [
+          "Saxenda (liraglutida)",
+          "R$ 1.200-1.600",
+          "8-10%",
+          "R$ 600-1.200/mês (-40%)"
+        ],
+        [
+          "Orlistate (Xenical)",
+          "R$ 100-200",
+          "5-7%",
+          "R$ 2.000-2.500/mês (-90%)"
+        ],
+        [
+          "Fentermina + Topiramato",
+          "R$ 200-400",
+          "8-10%",
+          "R$ 1.800-2.400/mês (-85%)"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Análise honesta:**"
+      "texto": "***Análise honesta:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Ozempic/Wegovy**: 65-75% da eficácia do Monjaro por 50% do preço → **melhor custo-benefício**",
-        "**Saxenda**: Aplicação diária (vs semanal), menos conveniente, mas funciona",
-        "**Orlistate**: Bloqueador de gordura, efeitos colaterais GI desagradáveis, mas MUITO barato",
-        "**Fentermina+Topiramato**: Off-label no Brasil, requer prescrição especial, mas eficaz e barato"
+        "***Ozempic/Wegovy**: 65-75% da eficácia do Monjaro por 50% do preço → **melhor custo-benefício**",
+        "***Saxenda**: Aplicação diária (vs semanal), menos conveniente, mas funciona",
+        "***Orlistate**: Bloqueador de gordura, efeitos colaterais GI desagradáveis, mas MUITO barato",
+        "***Fentermina+Topiramato**: Off-label no Brasil, requer prescrição especial, mas eficaz e barato"
       ]
     },
     {
@@ -298,11 +418,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Obesidade grau III** (IMC >40): Risco cardiovascular justifica investimento",
-        "**Você tentou Ozempic/Wegovy** e não teve resultado satisfatório",
-        "**Comorbidades graves**: Apneia do sono, esteatose hepática, pré-diabetes",
-        "**Condição financeira confortável**: R$ 2.500/mês não aperta orçamento",
-        "**Planejamento de longo prazo**: Você sabe que precisa manter por 2-3 anos"
+        "***Obesidade grau III** (IMC >40): Risco cardiovascular justifica investimento",
+        "***Você tentou Ozempic/Wegovy** e não teve resultado satisfatório",
+        "***Comorbidades graves**: Apneia do sono, esteatose hepática, pré-diabetes",
+        "***Condição financeira confortável**: R$ 2.500/mês não aperta orçamento",
+        "***Planejamento de longo prazo**: Você sabe que precisa manter por 2-3 anos"
       ]
     },
     {
@@ -313,10 +433,10 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Sobrepeso/obesidade grau I** (IMC 27-32): Ozempic + dieta entregam resultados similares por metade do preço",
-        "**Orçamento apertado**: R$ 28k/ano pode ser melhor investido em personal trainer + nutricionista + terapia",
-        "**Expectativa de 'cura rápida'**: Sem mudança de hábitos, você vai reganhar tudo e perder R$ 28k",
-        "**Não tem planejamento de longo prazo**: Parar após 6-12 meses = alto risco de rebote"
+        "***Sobrepeso/obesidade grau I** (IMC 27-32): Ozempic + dieta entregam resultados similares por metade do preço",
+        "***Orçamento apertado**: R$ 28k/ano pode ser melhor investido em personal trainer + nutricionista + terapia",
+        "***Expectativa de 'cura rápida'**: Sem mudança de hábitos, você vai reganhar tudo e perder R$ 28k",
+        "***Não tem planejamento de longo prazo**: Parar após 6-12 meses = alto risco de rebote"
       ]
     },
     {
@@ -336,15 +456,31 @@
         "Resultado 12 Meses"
       ],
       "linhas": [
-        ["Monjaro", "R$ 2.500", "Perda de 15-20% peso | R$ 30.000 gastos"],
-        ["Ozempic + Personal + Nutricionista", "R$ 1.200 + R$ 800 + R$ 500 = R$ 2.500", "Perda de 12-15% peso + massa muscular + hábitos duradouros"],
-        ["Wegovy + Terapia Comportamental", "R$ 1.500 + R$ 600 = R$ 2.100", "Perda de 13-15% peso + saúde mental melhorada | R$ 400/mês sobrando"],
-        ["Investir R$ 2.500/mês (Tesouro IPCA+)", "R$ 2.500", "R$ 31.200 + juros (~R$ 33.000) em 12 meses"]
+        [
+          "Monjaro",
+          "R$ 2.500",
+          "Perda de 15-20% peso | R$ 30.000 gastos"
+        ],
+        [
+          "Ozempic + Personal + Nutricionista",
+          "R$ 1.200 + R$ 800 + R$ 500 = R$ 2.500",
+          "Perda de 12-15% peso + massa muscular + hábitos duradouros"
+        ],
+        [
+          "Wegovy + Terapia Comportamental",
+          "R$ 1.500 + R$ 600 = R$ 2.100",
+          "Perda de 13-15% peso + saúde mental melhorada | R$ 400/mês sobrando"
+        ],
+        [
+          "Investir R$ 2.500/mês (Tesouro IPCA+)",
+          "R$ 2.500",
+          "R$ 31.200 + juros (~R$ 33.000) em 12 meses"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Reflexão**: Se você combinar Ozempic (R$ 1.200/mês) + academia/nutricionista (R$ 800/mês), sobra R$ 500/mês que investidos rendem R$ 6.300/ano. Resultado de peso similar, mas com músculos + saúde mental + patrimônio."
+      "texto": "***Reflexão**: Se você combinar Ozempic (R$ 1.200/mês) + academia/nutricionista (R$ 800/mês), sobra R$ 500/mês que investidos rendem R$ 6.300/ano. Resultado de peso similar, mas com músculos + saúde mental + patrimônio."
     },
     {
       "tipo": "heading",
@@ -385,7 +521,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**NÃO.** Cada caneta é individual (dose única semanal). Dividir pode causar contaminação e subdosagem."
+      "texto": "***NÃO.** Cada caneta é individual (dose única semanal). Dividir pode causar contaminação e subdosagem."
     },
     {
       "tipo": "heading",
@@ -398,16 +534,16 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Se você pode pagar** R$ 2.000-2.600/mês SEM apertar orçamento, e tem obesidade severa, Monjaro entrega resultados superiores."
+      "texto": "***Se você pode pagar** R$ 2.000-2.600/mês SEM apertar orçamento, e tem obesidade severa, Monjaro entrega resultados superiores."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Se R$ 30.000/ano é um sacrifício**, Ozempic/Wegovy entregam 70-80% dos resultados por 50% do custo. Melhor ainda: combine Ozempic com acompanhamento nutricional/psicológico - resultados similares + hábitos duradouros."
+      "texto": "***Se R$ 30.000/ano é um sacrifício**, Ozempic/Wegovy entregam 70-80% dos resultados por 50% do custo. Melhor ainda: combine Ozempic com acompanhamento nutricional/psicológico - resultados similares + hábitos duradouros."
     },
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **Lembre-se**: Sem mudança de estilo de vida, QUALQUER medicamento (caro ou barato) vai ter efeito rebote. Invista em educação nutricional e exercício - isso sim tem ROI eterno."
+      "texto": "⚠️ ***Lembre-se**: Sem mudança de estilo de vida, QUALQUER medicamento (caro ou barato) vai ter efeito rebote. Invista em educação nutricional e exercício - isso sim tem ROI eterno."
     },
     {
       "tipo": "cta",

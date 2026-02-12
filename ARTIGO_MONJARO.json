@@ -20,7 +20,7 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **O Que É**: Medicamento injetável (tirzepatida) aprovado pela ANVISA para diabetes tipo 2 e obesidade\n• **Resultados**: Perda média de 15-20% do peso corporal (superior ao Ozempic/Wegovy)\n• **Dose Inicial**: 2,5 mg/semana (aumento gradual até 5-15 mg)\n• **Efeitos Colaterais Comuns**: Náusea (leve), diarreia, constipação, fadiga (melhoram após 2-4 semanas)\n• **Efeitos Graves Raros**: Pancreatite (0,2%), hipoglicemia em não-diabéticos\n• **Tempo para Efeito**: Perda visível em 4-8 semanas | Resultados máximos em 72 semanas\n• **Preço**: R$ 1.406-2.400/mês (4 canetas)\n• **⚠️ IMPORTANTE**: Uso EXCLUSIVO com prescrição médica | 82% reganham peso após parar\n• **Proibido**: Gestantes, histórico de câncer medular de tireoide, pancreatite prévia"
+      "texto": "📋 ***RESUMO RÁPIDO:**\n\n• ***O Que É**: Medicamento injetável (tirzepatida) aprovado pela ANVISA para diabetes tipo 2 e obesidade\n• ***Resultados**: Perda média de 15-20% do peso corporal (superior ao Ozempic/Wegovy)\n• ***Dose Inicial**: 2,5 mg/semana (aumento gradual até 5-15 mg)\n• ***Efeitos Colaterais Comuns**: Náusea (leve), diarreia, constipação, fadiga (melhoram após 2-4 semanas)\n• ***Efeitos Graves Raros**: Pancreatite (0,2%), hipoglicemia em não-diabéticos\n• ***Tempo para Efeito**: Perda visível em 4-8 semanas | Resultados máximos em 72 semanas\n• ***Preço**: R$ 1.406-2.400/mês (4 canetas)\n• **⚠️ IMPORTANTE**: Uso EXCLUSIVO com prescrição médica | 82% reganham peso após parar\n• ***Proibido**: Gestantes, histórico de câncer medular de tireoide, pancreatite prévia"
     },
     {
       "tipo": "paragrafo",
@@ -46,8 +46,8 @@
     {
       "tipo": "lista",
       "itens": [
-        "**GLP-1 (Glucagon-Like Peptide-1)**: Aumenta saciedade, reduz apetite, melhora sensibilidade à insulina",
-        "**GIP (Glucose-Dependent Insulinotropic Polypeptide)**: Potencializa ação do GLP-1, reduz náusea (efeito colateral comum em análogos de GLP-1 puros como Ozempic)"
+        "***GLP-1 (Glucagon-Like Peptide-1)**: Aumenta saciedade, reduz apetite, melhora sensibilidade à insulina",
+        "***GIP (Glucose-Dependent Insulinotropic Polypeptide)**: Potencializa ação do GLP-1, reduz náusea (efeito colateral comum em análogos de GLP-1 puros como Ozempic)"
       ]
     },
     {
@@ -57,9 +57,9 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Maior perda de peso** (20% vs 13-15% do Ozempic)",
-        "**Menos náusea** (o GIP neutraliza parcialmente esse efeito colateral)",
-        "**Melhor controle glicêmico** em diabéticos tipo 2"
+        "***Maior perda de peso** (20% vs 13-15% do Ozempic)",
+        "***Menos náusea** (o GIP neutraliza parcialmente esse efeito colateral)",
+        "***Melhor controle glicêmico** em diabéticos tipo 2"
       ]
     },
     {
@@ -74,14 +74,14 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Diabetes Tipo 2**: Controle glicêmico em adultos (associado a dieta e exercício)",
-        "**Obesidade**: Tratamento de adultos com IMC ≥ 30 kg/m² (ou ≥ 27 kg/m² com comorbidades como hipertensão, dislipidemia)"
+        "***Diabetes Tipo 2**: Controle glicêmico em adultos (associado a dieta e exercício)",
+        "***Obesidade**: Tratamento de adultos com IMC ≥ 30 kg/m² (ou ≥ 27 kg/m² com comorbidades como hipertensão, dislipidemia)"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "⚠️ **ALERTA ANVISA (Fevereiro 2026)**: O uso de Mounjaro EXCLUSIVAMENTE para emagrecimento em pessoas SEM obesidade ou diabetes é considerado uso indevido e pode causar efeitos graves como pancreatite, hipoglicemia severa e até coma. A ANVISA reforçou que a prescrição deve ser criteriosa e acompanhada por endocrinologista."
+      "texto": "⚠️ ***ALERTA ANVISA (Fevereiro 2026)**: O uso de Mounjaro EXCLUSIVAMENTE para emagrecimento em pessoas SEM obesidade ou diabetes é considerado uso indevido e pode causar efeitos graves como pancreatite, hipoglicemia severa e até coma. A ANVISA reforçou que a prescrição deve ser criteriosa e acompanhada por endocrinologista."
     },
     {
       "tipo": "heading",
@@ -123,20 +123,20 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Traduzindo para a prática:**"
+      "texto": "***Traduzindo para a prática:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "Pessoa de **100 kg**: Perda esperada de 15-20 kg em 72 semanas (~17 meses)",
-        "Pessoa de **80 kg**: Perda esperada de 12-16 kg no mesmo período",
-        "**Ritmo de perda**: 0,5-1 kg/semana nas primeiras 20 semanas | 0,1-0,3 kg/semana depois (total: ~0,29 kg/semana em média)"
+        "Pessoa de *100 kg: Perda esperada de 15-20 kg em 72 semanas (~17 meses)",
+        "Pessoa de *80 kg: Perda esperada de 12-16 kg no mesmo período",
+        "***Ritmo de perda**: 0,5-1 kg/semana nas primeiras 20 semanas | 0,1-0,3 kg/semana depois (total: ~0,29 kg/semana em média)"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Comparação com Ozempic/Wegovy**: Estudo direto (SURMOUNT-5) mostrou que o Mounjaro é **47% mais eficaz** que o Wegovy para perda de peso (20,2% vs 13,7%). É considerado o medicamento anti-obesidade mais potente disponível atualmente."
+      "texto": "💡 ***Comparação com Ozempic/Wegovy**: Estudo direto (SURMOUNT-5) mostrou que o Mounjaro é **47% mais eficaz** que o Wegovy para perda de peso (20,2% vs 13,7%). É considerado o medicamento anti-obesidade mais potente disponível atualmente."
     },
     {
       "tipo": "heading",
@@ -150,11 +150,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Reduz Apetite**: Age no cérebro (hipotálamo) aumentando sensação de saciedade",
-        "**Retarda Esvaziamento Gástrico**: Comida fica mais tempo no estômago = você fica satisfeito por mais tempo",
-        "**Aumenta Insulina (quando necessário)**: Melhora controle da glicose em diabéticos, SEM causar hipoglicemia em não-diabéticos (ação dependente de glicose)",
-        "**Reduz Produção de Glicose**: Fígado para de liberar glicose em excesso",
-        "**Melhora Metabolismo**: Aumenta queima de gordura, preserva massa muscular (mais que dietas restritivas)"
+        "***Reduz Apetite**: Age no cérebro (hipotálamo) aumentando sensação de saciedade",
+        "***Retarda Esvaziamento Gástrico**: Comida fica mais tempo no estômago = você fica satisfeito por mais tempo",
+        "***Aumenta Insulina (quando necessário)**: Melhora controle da glicose em diabéticos, SEM causar hipoglicemia em não-diabéticos (ação dependente de glicose)",
+        "***Reduz Produção de Glicose**: Fígado para de liberar glicose em excesso",
+        "***Melhora Metabolismo**: Aumenta queima de gordura, preserva massa muscular (mais que dietas restritivas)"
       ]
     },
     {
@@ -204,15 +204,15 @@
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Importante**: A maioria dos pacientes obtém resultados satisfatórios com 10 mg/semana. Doses de 12,5-15 mg são reservadas para casos de obesidade severa ou resposta insuficiente."
+      "texto": "💡 ***Importante**: A maioria dos pacientes obtém resultados satisfatórios com 10 mg/semana. Doses de 12,5-15 mg são reservadas para casos de obesidade severa ou resposta insuficiente."
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Onde Aplicar**: Abdômen, coxa ou braço (subcutâneo) - rodar local a cada aplicação",
-        "**Melhor Horário**: Qualquer (manhã ou noite), mas manter consistência",
-        "**Com ou Sem Alimento**: Indiferente (não interfere na absorção)",
-        "**Esqueceu a Dose**: Se lembrar em até 4 dias, aplique imediatamente. Se > 4 dias, pule e aguarde próxima semana"
+        "***Onde Aplicar**: Abdômen, coxa ou braço (subcutâneo) - rodar local a cada aplicação",
+        "***Melhor Horário**: Qualquer (manhã ou noite), mas manter consistência",
+        "***Com ou Sem Alimento**: Indiferente (não interfere na absorção)",
+        "***Esqueceu a Dose**: Se lembrar em até 4 dias, aplique imediatamente. Se > 4 dias, pule e aguarde próxima semana"
       ]
     },
     {
@@ -232,11 +232,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Náusea** (20-30%): Mais intensa nas primeiras semanas, especialmente se você comer demais ou alimentos gordurosos",
-        "**Diarreia** (15-20%): Geralmente transitória",
-        "**Constipação** (10-15%): Paradoxalmente, alguns têm prisão de ventre (devem beber mais água)",
-        "**Fadiga** (10%): Cansaço leve nas primeiras semanas",
-        "**Diminuição do apetite** (esperado - é o mecanismo de ação!)"
+        "***Náusea** (20-30%): Mais intensa nas primeiras semanas, especialmente se você comer demais ou alimentos gordurosos",
+        "***Diarreia** (15-20%): Geralmente transitória",
+        "***Constipação** (10-15%): Paradoxalmente, alguns têm prisão de ventre (devem beber mais água)",
+        "***Fadiga** (10%): Cansaço leve nas primeiras semanas",
+        "***Diminuição do apetite** (esperado - é o mecanismo de ação!)"
       ]
     },
     {
@@ -247,17 +247,17 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Pancreatite Aguda** (0,2%): Dor abdominal intensa e persistente (superior do abdômen, irradia para costas) + náusea/vômito - PARE o medicamento e procure emergência",
-        "**Hipoglicemia Severa**: Mais comum se usar insulina concomitante (tontura, confusão, suor frio, desmaio)",
-        "**Problemas na Vesícula Biliar**: Pedras ou inflamação (dor no quadrante superior direito)",
-        "**Reações Alérgicas Graves**: Inchaço de rosto/garganta, dificuldade respiratória (raríssimo)",
-        "**Problemas Renais**: Em casos de desidratação severa por diarreia/vômito"
+        "***Pancreatite Aguda** (0,2%): Dor abdominal intensa e persistente (superior do abdômen, irradia para costas) + náusea/vômito - PARE o medicamento e procure emergência",
+        "***Hipoglicemia Severa**: Mais comum se usar insulina concomitante (tontura, confusão, suor frio, desmaio)",
+        "***Problemas na Vesícula Biliar**: Pedras ou inflamação (dor no quadrante superior direito)",
+        "***Reações Alérgicas Graves**: Inchaço de rosto/garganta, dificuldade respiratória (raríssimo)",
+        "***Problemas Renais**: Em casos de desidratação severa por diarreia/vômito"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "🚨 **ALERTA ANVISA**: Em fevereiro de 2026, a ANVISA emitiu farmacovigilância sobre risco aumentado de pancreatite com uso indevido (pessoas sem indicação clínica). Se você tem histórico de pancreatite, pedra na vesícula ou problemas hepáticos, converse com gastroenterologista ANTES de iniciar."
+      "texto": "🚨 ***ALERTA ANVISA**: Em fevereiro de 2026, a ANVISA emitiu farmacovigilância sobre risco aumentado de pancreatite com uso indevido (pessoas sem indicação clínica). Se você tem histórico de pancreatite, pedra na vesícula ou problemas hepáticos, converse com gastroenterologista ANTES de iniciar."
     },
     {
       "tipo": "heading",
@@ -267,12 +267,12 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Comece Devagar**: Respeite a titulação (2,5 mg por 4 semanas) - pular doses iniciais AUMENTA náusea",
-        "**Refeições Menores**: 5-6 refeições pequenas > 3 grandes (estômago esvazia mais lento)",
-        "**Evite Gordura em Excesso**: Pizza, frituras, creme de leite intensificam náusea",
-        "**Hidratação**: 2-3L água/dia (previne constipação e problemas renais)",
-        "**Gengibre**: Chá ou cápsula ajuda contra náusea",
-        "**Probióticos**: Podem reduzir diarreia (evidência anedótica)"
+        "***Comece Devagar**: Respeite a titulação (2,5 mg por 4 semanas) - pular doses iniciais AUMENTA náusea",
+        "***Refeições Menores**: 5-6 refeições pequenas > 3 grandes (estômago esvazia mais lento)",
+        "***Evite Gordura em Excesso**: Pizza, frituras, creme de leite intensificam náusea",
+        "***Hidratação**: 2-3L água/dia (previne constipação e problemas renais)",
+        "***Gengibre**: Chá ou cápsula ajuda contra náusea",
+        "***Probióticos**: Podem reduzir diarreia (evidência anedótica)"
       ]
     },
     {
@@ -283,13 +283,13 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Gestantes e lactantes**: Pode causar má-formação fetal (suspender 2 meses antes de engravidar)",
-        "**Histórico pessoal ou familiar de câncer medular de tireoide**",
-        "**Neoplasia endócrina múltipla tipo 2 (MEN 2)**",
-        "**Pancreatite prévia**: Risco aumentado de recorrência",
-        "**Alergia à tirzepatida ou componentes**",
-        "**Diabetes tipo 1**: Não substitui insulina",
-        "**Menores de 18 anos**: Sem estudos de segurança"
+        "***Gestantes e lactantes**: Pode causar má-formação fetal (suspender 2 meses antes de engravidar)",
+        "***Histórico pessoal ou familiar de câncer medular de tireoide**",
+        "***Neoplasia endócrina múltipla tipo 2 (MEN 2)**",
+        "***Pancreatite prévia**: Risco aumentado de recorrência",
+        "***Alergia à tirzepatida ou componentes**",
+        "***Diabetes tipo 1**: Não substitui insulina",
+        "***Menores de 18 anos**: Sem estudos de segurança"
       ]
     },
     {
@@ -308,15 +308,15 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Apenas 4%** mantêm perda de peso apenas com dieta e exercício após suspender",
-        "**Reganho médio**: 14% do peso perdido em 52 semanas pós-tratamento",
-        "**Por que acontece**: O corpo interpreta a perda rápida como 'fome' e aumenta hormônios que estimulam apetite (leptina, grelina) + reduz metabolismo basal"
+        "***Apenas 4%** mantêm perda de peso apenas com dieta e exercício após suspender",
+        "***Reganho médio**: 14% do peso perdido em 52 semanas pós-tratamento",
+        "***Por que acontece**: O corpo interpreta a perda rápida como 'fome' e aumenta hormônios que estimulam apetite (leptina, grelina) + reduz metabolismo basal"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **Implicação Prática**: O Mounjaro funciona melhor como **tratamento de longo prazo** (1-2 anos ou mais), não 'cura rápida'. Você precisará manter dose de manutenção ou ter disciplina EXTREMA com dieta/exercício após parar - algo que 96% não conseguem."
+      "texto": "⚠️ ***Implicação Prática**: O Mounjaro funciona melhor como **tratamento de longo prazo** (1-2 anos ou mais), não 'cura rápida'. Você precisará manter dose de manutenção ou ter disciplina EXTREMA com dieta/exercício após parar - algo que 96% não conseguem."
     },
     {
       "tipo": "heading",
@@ -370,7 +370,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Veredito**: Mounjaro é superior em resultados, mas mais caro e com disponibilidade limitada. Para muitos, Ozempic/Wegovy são opções eficazes e mais acessíveis."
+      "texto": "***Veredito**: Mounjaro é superior em resultados, mas mais caro e com disponibilidade limitada. Para muitos, Ozempic/Wegovy são opções eficazes e mais acessíveis."
     },
     {
       "tipo": "heading",
@@ -413,12 +413,12 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Custo anual estimado**: R$ 20.000-28.000 (dose 10-15 mg/semana por 12 meses)."
+      "texto": "***Custo anual estimado**: R$ 20.000-28.000 (dose 10-15 mg/semana por 12 meses)."
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **Programas de Desconto**: A Eli Lilly oferece programa 'Mounjaro Savings Card' (EUA) com desconto de até 50%, mas no Brasil não há programa oficial similar. Alguns planos de saúde cobrem parcialmente se houver indicação médica clara (diabetes + obesidade)."
+      "texto": "💡 ***Programas de Desconto**: A Eli Lilly oferece programa 'Mounjaro Savings Card' (EUA) com desconto de até 50%, mas no Brasil não há programa oficial similar. Alguns planos de saúde cobrem parcialmente se houver indicação médica clara (diabetes + obesidade)."
     },
     {
       "tipo": "heading",
@@ -432,11 +432,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Farmácias Confiáveis**: Drogasil, Droga Raia, Pague Menos, Drogaria Araujo (estoque limitado, liste-se)",
-        "**Prescrição Obrigatória**: NUNCA compre sem receita médica (retenção obrigatória pela farmácia)",
-        "**Verificar Selo ANVISA**: Caixa deve ter registro MS e código de barras genuíno",
-        "**Armazenamento**: Refrigeração 2-8°C (caneta não usada) | Temperatura ambiente após iniciar uso (até 21 dias)",
-        "**Evite**: Sites obscuros, redes sociais, 'clínicas de aplicação' sem médico responsável"
+        "***Farmácias Confiáveis**: Drogasil, Droga Raia, Pague Menos, Drogaria Araujo (estoque limitado, liste-se)",
+        "***Prescrição Obrigatória**: NUNCA compre sem receita médica (retenção obrigatória pela farmácia)",
+        "***Verificar Selo ANVISA**: Caixa deve ter registro MS e código de barras genuíno",
+        "***Armazenamento**: Refrigeração 2-8°C (caneta não usada) | Temperatura ambiente após iniciar uso (até 21 dias)",
+        "***Evite**: Sites obscuros, redes sociais, 'clínicas de aplicação' sem médico responsável"
       ]
     },
     {
@@ -446,29 +446,29 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**QUANDO VALE A PENA:**"
+      "texto": "***QUANDO VALE A PENA:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Obesidade grau II-III** (IMC > 35): Risco de comorbidades justifica custo/riscos",
-        "**Diabetes tipo 2 + Obesidade**: Duplo benefício (controle glicêmico + peso)",
-        "**Tentativas prévias falharam**: Dieta, exercício, outros medicamentos não funcionaram",
-        "**Comorbidades**: Hipertensão, apneia do sono, esteatose hepática (perda de peso melhora MUITO)",
-        "**Condição financeira confortável**: R$ 2.000-2.500/mês sem apertar orçamento"
+        "***Obesidade grau II-III** (IMC > 35): Risco de comorbidades justifica custo/riscos",
+        "***Diabetes tipo 2 + Obesidade**: Duplo benefício (controle glicêmico + peso)",
+        "***Tentativas prévias falharam**: Dieta, exercício, outros medicamentos não funcionaram",
+        "***Comorbidades**: Hipertensão, apneia do sono, esteatose hepática (perda de peso melhora MUITO)",
+        "***Condição financeira confortável**: R$ 2.000-2.500/mês sem apertar orçamento"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**QUANDO NÃO VALE:**"
+      "texto": "***QUANDO NÃO VALE:**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**IMC < 27**: Risco > benefício (use para saúde, não estética)",
-        "**Orçamento apertado**: R$ 24k/ano pode ser melhor gasto em personal trainer + nutricionista + terapia (resultados duradouros)",
-        "**Espera 'mágica'**: Se você não mudar hábitos, vai reganhar tudo após parar",
-        "**Gestação planejada**: Deve suspender 2 meses antes de engravidar"
+        "***IMC < 27**: Risco > benefício (use para saúde, não estética)",
+        "***Orçamento apertado**: R$ 24k/ano pode ser melhor gasto em personal trainer + nutricionista + terapia (resultados duradouros)",
+        "***Espera 'mágica'**: Se você não mudar hábitos, vai reganhar tudo após parar",
+        "***Gestação planejada**: Deve suspender 2 meses antes de engravidar"
       ]
     },
     {
@@ -479,11 +479,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Semaglutida (Ozempic/Wegovy)**: R$ 900-1.500/mês (13-15% perda peso)",
-        "**Liraglutida (Saxenda)**: R$ 1.200-1.600/mês (diária, 8-10% perda)",
-        "**Orlistate**: R$ 100-200/mês (bloqueia gordura, 5-7% perda) - menos eficaz mas muito mais barato",
-        "**Combo Fentermina + Topiramato**: R$ 200-400/mês (supressor apetite, 8-10% perda) - off-label no Brasil",
-        "**Abordagem Comportamental**: Nutricionista + psicólogo + exercício supervisionado = R$ 800-1.500/mês, mas resultados sustentáveis"
+        "***Semaglutida (Ozempic/Wegovy)**: R$ 900-1.500/mês (13-15% perda peso)",
+        "***Liraglutida (Saxenda)**: R$ 1.200-1.600/mês (diária, 8-10% perda)",
+        "***Orlistate**: R$ 100-200/mês (bloqueia gordura, 5-7% perda) - menos eficaz mas muito mais barato",
+        "***Combo Fentermina + Topiramato**: R$ 200-400/mês (supressor apetite, 8-10% perda) - off-label no Brasil",
+        "***Abordagem Comportamental**: Nutricionista + psicólogo + exercício supervisionado = R$ 800-1.500/mês, mas resultados sustentáveis"
       ]
     },
     {
@@ -507,7 +507,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**NÃO.** Uso estético sem indicação médica é perigoso e irresponsável. Riscos incluem hipoglicemia severa, pancreatite e dependência psicológica. ANVISA e CFM alertam contra essa prática."
+      "texto": "***NÃO.** Uso estético sem indicação médica é perigoso e irresponsável. Riscos incluem hipoglicemia severa, pancreatite e dependência psicológica. ANVISA e CFM alertam contra essa prática."
     },
     {
       "tipo": "heading",
@@ -543,7 +543,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Não diretamente, mas **DEVE ser suspenso 2 meses antes de tentar engravidar** (risco fetal). Em mulheres obesas, perda de peso MELHORA fertilidade."
+      "texto": "Não diretamente, mas ***DEVE ser suspenso 2 meses antes de tentar engravidar** (risco fetal). Em mulheres obesas, perda de peso MELHORA fertilidade."
     },
     {
       "tipo": "heading",
@@ -556,7 +556,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**MAS** (e é um MAS importante):"
+      "texto": "***MAS** (e é um MAS importante):"
     },
     {
       "tipo": "lista",
@@ -570,12 +570,12 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Nosso veredito**: Para obesidade grau II-III com comorbidades, o Mounjaro pode ser game-changer. Para sobrepeso leve ou objetivos estéticos, há alternativas mais seguras, baratas e sustentáveis (nutrição + exercício + terapia comportamental)."
+      "texto": "***Nosso veredito**: Para obesidade grau II-III com comorbidades, o Mounjaro pode ser game-changer. Para sobrepeso leve ou objetivos estéticos, há alternativas mais seguras, baratas e sustentáveis (nutrição + exercício + terapia comportamental)."
     },
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "⚠️ **NUNCA FAÇA AUTOMEDICAÇÃO**: Este artigo é informativo, não substitui consulta médica. Mounjaro é medicamento de prescrição obrigatória. Procure endocrinologista para avaliação individualizada."
+      "texto": "⚠️ ***NUNCA FAÇA AUTOMEDICAÇÃO**: Este artigo é informativo, não substitui consulta médica. Mounjaro é medicamento de prescrição obrigatória. Procure endocrinologista para avaliação individualizada."
     },
     {
       "tipo": "cta",

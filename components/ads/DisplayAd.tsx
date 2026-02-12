@@ -72,33 +72,94 @@ export function DisplayAd({
 
 // Componente para anúncio horizontal (banner)
 export function HorizontalAd({ className = '' }: { className?: string }) {
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adRef = useRef<HTMLModElement>(null)
+  
+  useEffect(() => {
+    if (adsenseId && adRef.current) {
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [adsenseId])
+
+  if (!adsenseId) return null
+
   return (
-    <DisplayAd
-      slot="auto"
-      format="horizontal"
-      className={`my-8 ${className}`}
-    />
+    <div className={`my-8 ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client={adsenseId}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </div>
   )
 }
 
 // Componente para anúncio in-article (dentro do conteúdo)
 export function InArticleAd({ className = '' }: { className?: string }) {
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adRef = useRef<HTMLModElement>(null)
+  
+  useEffect(() => {
+    if (adsenseId && adRef.current) {
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [adsenseId])
+
+  if (!adsenseId) return null
+
   return (
-    <DisplayAd
-      slot="auto"
-      format="auto"
-      className={`my-6 ${className}`}
-    />
+    <div className={`my-6 ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block', textAlign: 'center' }}
+        data-ad-client={adsenseId}
+        data-ad-format="fluid"
+        data-ad-layout="in-article"
+        data-full-width-responsive="true"
+      />
+    </div>
   )
 }
 
 // Componente para anúncio retangular (sidebar ou meio)
 export function RectangleAd({ className = '' }: { className?: string }) {
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adRef = useRef<HTMLModElement>(null)
+  
+  useEffect(() => {
+    if (adsenseId && adRef.current) {
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (err) {
+        console.error('AdSense error:', err)
+      }
+    }
+  }, [adsenseId])
+
+  if (!adsenseId) return null
+
   return (
-    <DisplayAd
-      slot="auto"
-      format="rectangle"
-      className={`my-4 ${className}`}
-    />
+    <div className={`my-4 ${className}`}>
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client={adsenseId}
+        data-ad-format="rectangle"
+        data-full-width-responsive="true"
+      />
+    </div>
   )
 }

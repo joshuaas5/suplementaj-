@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraCreatina } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Creatina - Quantos Gramas Tomar? | Suplementa Já',
-  description: 'Calcule a dose ideal de creatina para seu peso. Fase de saturação vs manutenção. Baseado em estudos do ISSN. 3-5g por dia é realmente suficiente?',
+  title: 'Calculadora de Creatina Grátis 2026 - Dose Por Peso | Suplementa Já',
+  description: 'CALCULE GRÁTIS sua dose ideal de creatina! Quanto tomar por kg de peso? Precisa de fase de carga? Descubra em segundos.',
   keywords: ['calculadora creatina', 'dose creatina', 'quantos gramas creatina', 'creatina por kg', 'saturação creatina', 'creatina monohidratada'],
   openGraph: {
     title: 'Calculadora de Creatina - Dose Ideal Por Peso',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraCreatinaPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_CREATINA?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-yellow-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -36,11 +40,11 @@ export default function CalculadoraCreatinaPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            💪 Calculadora de Creatina
+            💪 Qual Minha Dose de Creatina?
           </h1>
           <p className="text-black font-bold mb-4">
-            Calcule a <strong>dose ideal de creatina</strong> baseada no seu peso corporal. 
-            Manutenção ou fase de saturação - qual usar?
+            Descubra a <strong>dose exata de creatina</strong> que você deve tomar baseado no seu peso.{' '}
+            Manutenção ou fase de saturação? Calcule agora!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-yellow-400 px-3 py-1 border-2 border-black font-bold text-sm">🔬 ISSN Guidelines</span>
@@ -49,15 +53,24 @@ export default function CalculadoraCreatinaPage() {
           </div>
         </div>
 
+        {/* AdSense display ad (guarded to avoid blank on missing env) */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_CREATINA para exibir o anúncio aqui.
+          </div>
+        ) : null}
+
         {/* Calculadora */}
         <CalculadoraCreatina />
 
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Creatina Tomar?</h2>
-          
+
           <p className="text-black mb-4">
-            A creatina monohidratada é o suplemento mais estudado do mundo. A dose ideal 
+            A creatina monohidratada é o suplemento mais estudado do mundo. A dose ideal
             depende do seu <strong>peso corporal</strong> e se você está em <strong>fase de saturação</strong> ou <strong>manutenção</strong>.
           </p>
 
@@ -107,7 +120,7 @@ export default function CalculadoraCreatinaPage() {
           <div className="bg-yellow-100 border-2 border-black p-4 mb-4">
             <p className="font-bold text-black">🏆 Creatina Monohidratada</p>
             <p className="text-black text-sm mt-1">
-              A mais estudada, mais barata e mais eficaz. Não precisa de versões &quot;fancy&quot; 
+              A mais estudada, mais barata e mais eficaz. Não precisa de versões &quot;fancy&quot;
               (HCL, Kre-Alkalyn, etc) - são marketing.
             </p>
           </div>
@@ -131,6 +144,37 @@ export default function CalculadoraCreatinaPage() {
               • Kreider RB, et al. ISSN Position Stand: Safety and Efficacy of Creatine. 2017<br />
               • Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine. 2013
             </p>
+          </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+
+          <div className="space-y-4">
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Creatina antes ou depois do treino?</h4>
+              <p className="text-black text-sm">
+                <strong>Tanto faz.</strong> Estudos mostram que o timing não importa - o que importa é tomar TODO DIA.
+                A creatina funciona por saturação muscular (acumula nos músculos ao longo dos dias).
+                Dica prática: Tome junto com a refeição pós-treino (a insulina ajuda na absorção).
+              </p>
+            </div>
+
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Creatina causa queda de cabelo?</h4>
+              <p className="text-black text-sm">
+                <strong>Não há evidências sólidas.</strong> Existe apenas 1 estudo de 2009 que mostrou aumento de DHT (hormônio ligado à calvície),
+                mas nenhum participante ficou calvo. Mais de 1.000 estudos posteriores não confirmaram isso.
+                Se você tem histórico familiar de calvície, fique atento, mas é muito provável que seja seguro.
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Posso tomar creatina todos os dias?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim e DEVE.</strong> Creatina precisa de uso contínuo para manter os músculos saturados.
+                Se você parar, os níveis voltam ao normal em 3-4 semanas (e você perde os benefícios).
+                É seguro tomar por anos - estudos de longo prazo (até 5 anos) não mostram efeitos colaterais.
+              </p>
+            </div>
           </div>
         </div>
 

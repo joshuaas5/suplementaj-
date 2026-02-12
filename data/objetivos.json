@@ -1,0 +1,37 @@
+[
+    {
+        "slug": "sono",
+        "titulo": "Sono e Relaxamento",
+        "descricao": "Melhore a qualidade do seu sono e reduza o estresse com estes nutrientes essenciais.",
+        "emoji": "😴",
+        "cor": "bg-indigo-600"
+    },
+    {
+        "slug": "imunidade",
+        "titulo": "Imunidade e Saúde",
+        "descricao": "Fortaleça seu sistema imunológico e previna doenças.",
+        "emoji": "🛡️",
+        "cor": "bg-green-600"
+    },
+    {
+        "slug": "performance",
+        "titulo": "Performance e Energia",
+        "descricao": "Aumente sua força, resistência e foco nos treinos.",
+        "emoji": "⚡",
+        "cor": "bg-yellow-500"
+    },
+    {
+        "slug": "emagrecimento",
+        "titulo": "Emagrecimento e Metabolismo",
+        "descricao": "Acelere a queima de gordura e controle o apetite.",
+        "emoji": "🔥",
+        "cor": "bg-red-500"
+    },
+    {
+        "slug": "ganho-de-massa",
+        "titulo": "Ganho de Massa Muscular",
+        "descricao": "Maximize a hipertrofia e a recuperação muscular.",
+        "emoji": "💪",
+        "cor": "bg-blue-600"
+    }
+]

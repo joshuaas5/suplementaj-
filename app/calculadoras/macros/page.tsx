@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraMacros } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Macros - Proteína, Carboidrato e Gordura | Suplementa Já',
-  description: 'Calcule seus macronutrientes ideais para ganhar massa, emagrecer ou manter peso. Gramas de proteína, carboidrato e gordura por dia.',
+  title: 'Calculadora de Macros Grátis 2026 - Proteína, Carbo e Gordura | Suplementa Já',
+  description: 'CALCULE GRÁTIS seus macros ideais! Descubra quantos gramas de proteína, carboidrato e gordura comer por dia para emagrecer ou ganhar massa.',
   keywords: ['calculadora macros', 'macronutrientes', 'proteina carboidrato gordura', 'dieta macros', 'divisão macros', 'calcular macros'],
   openGraph: {
     title: 'Calculadora de Macros - Proteína, Carbo e Gordura',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraMacrosPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_MACROS?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-yellow-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -36,11 +40,11 @@ export default function CalculadoraMacrosPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🍽️ Calculadora de Macros
+            🍽️ Quais São Meus Macros Ideais?
           </h1>
           <p className="text-black font-bold mb-4">
-            Calcule a <strong>divisão ideal de macronutrientes</strong> para seu objetivo: 
-            emagrecer, ganhar massa ou manter peso.
+            Descubra a <strong>divisão ideal de proteína, carboidrato e gordura</strong> para seu objetivo:{' '}
+            emagrecer, ganhar massa ou manter peso. Em gramas por dia!
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-pink-400 px-3 py-1 border-2 border-black font-bold text-sm">🥩 Proteína</span>
@@ -49,16 +53,25 @@ export default function CalculadoraMacrosPage() {
           </div>
         </div>
 
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_MACROS para exibir o anúncio aqui.
+          </div>
+        ) : null}
+
         {/* Calculadora */}
         <CalculadoraMacros />
 
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 O Que São Macronutrientes?</h2>
-          
+
           <p className="text-black mb-4">
-            Os <strong>macronutrientes</strong> são os 3 nutrientes que fornecem energia (calorias): 
-            <strong>Proteína, Carboidrato e Gordura</strong>. A proporção entre eles afeta diretamente 
+            Os <strong>macronutrientes</strong> são os 3 nutrientes que fornecem energia (calorias):
+            <strong>Proteína, Carboidrato e Gordura</strong>. A proporção entre eles afeta diretamente
             sua composição corporal e desempenho.
           </p>
 
@@ -66,7 +79,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-pink-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🥩 PROTEÍNA (4 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Constrói e repara músculos. Essencial para quem treina. 
+                Constrói e repara músculos. Essencial para quem treina.
                 Mantém a saciedade. <strong>1.6-2.2g/kg</strong> para hipertrofia.
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: frango, carne, peixe, ovos, whey, leguminosas</p>
@@ -74,7 +87,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-orange-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🍚 CARBOIDRATO (4 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Principal fonte de energia para treinos intensos. 
+                Principal fonte de energia para treinos intensos.
                 Recuperação muscular pós-treino. <strong>3-7g/kg</strong> dependendo da atividade.
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: arroz, batata, aveia, frutas, pão integral</p>
@@ -82,7 +95,7 @@ export default function CalculadoraMacrosPage() {
             <div className="bg-yellow-100 border-2 border-black p-4">
               <h3 className="font-black text-black">🧈 GORDURA (9 kcal/g)</h3>
               <p className="text-black text-sm mt-1">
-                Produção hormonal (testosterona!). Absorção de vitaminas. 
+                Produção hormonal (testosterona!). Absorção de vitaminas.
                 <strong>Mínimo 0.5g/kg</strong> - nunca zerar a gordura!
               </p>
               <p className="text-xs text-gray-600 mt-2">Fontes: azeite, castanhas, abacate, ovos, peixes gordos</p>
@@ -155,6 +168,37 @@ export default function CalculadoraMacrosPage() {
               • ISSN Position Stand: Diets and body composition. 2017<br />
               • Helms ER, et al. Evidence-based recommendations for contest preparation. 2014
             </p>
+          </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+
+          <div className="space-y-4">
+            <div className="bg-purple-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Macros são mais importantes que calorias?</h4>
+              <p className="text-black text-sm">
+                <strong>Não.</strong> Calorias determinam se você emagrece/ganha peso. Macros determinam COMO você perde (gordura ou músculo).
+                Ordem de importância: 1º Calorias, 2º Proteína, 3º Gordura, 4º Carboidrato.
+                Exemplo: 2.000 kcal com 40% proteína é melhor que 1.800 kcal com 15% proteína (você perde músculo).
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Low carb ou high carb para emagrecer?</h4>
+              <p className="text-black text-sm">
+                <strong>Tanto faz - o que importa é o déficit calórico.</strong> Low carb funciona porque tira comidas calóricas (pão, massa, doce).
+                Se você treina pesado, high carb é melhor (mais energia). Se é sedentário, low carb facilita.
+                O importante: manter a proteína alta (2g/kg) e o déficit calórico (300-500 kcal).
+              </p>
+            </div>
+
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Como contar macros na prática?</h4>
+              <p className="text-black text-sm">
+                Use apps: <strong>MyFitnessPal</strong> (grátis), FatSecret, Cronometer.
+                Passos: 1) Pese a comida crua, 2) Adicione no app, 3) Veja se bateu a meta.
+                Dica: Não precisa ser perfeito. ±10g de proteína ou carbo não faz diferença.
+              </p>
+            </div>
           </div>
         </div>
 

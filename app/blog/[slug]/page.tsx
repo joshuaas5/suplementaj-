@@ -6,8 +6,15 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
 import artigosData from '@/data/artigos.json'
+import nutrientesData from '@/data/nutrientes.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
-import { InArticleAd, HorizontalAd } from '@/components/ads/DisplayAd'
+import type { Nutriente } from '@/types/nutriente'
+import { HorizontalAd } from '@/components/ads/DisplayAd'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
+import { ArticleAd } from '@/components/ads/AdSenseUnits'
+import { formatMarkdown } from '@/lib/markdown'
+import { RelatedContent } from '@/components/content/RelatedContent'
+import { getNutrientesRelacionados } from '@/lib/related-content'
 
 const artigos = artigosData as Artigo[]
 
@@ -129,6 +136,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     '@type': 'Article',
     headline: artigo.titulo,
     description: artigo.descricao,
+    image: '/og-image.jpg',
     author: {
       '@type': 'Organization',
       name: artigo.autor,
@@ -140,15 +148,60 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
       name: 'Suplementa Já',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://suplementaja.vercel.app/logo.png',
+        url: 'https://suplementaja.com/og-image.jpg',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://suplementaja.vercel.app/blog/${artigo.slug}`,
+      '@id': `https://suplementaja.com/blog/${artigo.slug}`,
     },
     keywords: artigo.tags.join(', '),
   }
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.suplementaja.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Blog',
+        item: 'https://www.suplementaja.com/blog',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: artigo.titulo,
+        item: `https://www.suplementaja.com/blog/${artigo.slug}`,
+      },
+    ],
+  }
+
+  // FAQ Schema (se o artigo tiver FAQs)
+  const faqSchema = (() => {
+    const faqBloco = artigo.conteudo.find(b => b.tipo === 'faq')
+    if (!faqBloco || faqBloco.tipo !== 'faq') return null
+    
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqBloco.perguntas?.map(faq => ({
+        '@type': 'Question',
+        name: faq.pergunta,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.resposta
+        }
+      }))
+    }
+  })()
 
   return (
     <div className="min-h-screen bg-white py-12">
@@ -157,6 +210,16 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb / Voltar */}
         <Link
@@ -204,17 +267,73 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               {artigo.tempo_leitura} de leitura
             </div>
           </div>
+
+          {/* Trust Box - E-E-A-T Signals */}
+          <div className="mt-6 bg-lime-100 border-2 border-lime-500 p-4 rounded-none">
+            <div className="flex flex-wrap items-center gap-4 text-sm">
+              <div className="flex items-center gap-2 text-black font-bold">
+                <span className="text-lime-600">✓</span>
+                <span>Atualizado em {new Date(artigo.data).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</span>
+              </div>
+              <div className="flex items-center gap-2 text-black font-bold">
+                <span className="text-lime-600">✓</span>
+                <span>Revisado por {artigo.autor}</span>
+              </div>
+              <Link
+                href="/editorial"
+                className="flex items-center gap-1 text-lime-700 font-bold hover:underline ml-auto"
+              >
+                📋 Ver nossa política editorial
+              </Link>
+            </div>
+          </div>
         </div>
+
+        {/* Anúncio no topo (antes do artigo) */}
+        <HorizontalAd className="mb-8" />
+        <ManualDisplayAd className="mb-8" />
 
         {/* Conteúdo do Artigo */}
         <article className="prose prose-lg max-w-none">
           {artigo.conteudo.map((bloco, index) => (
-            <RenderBloco key={index} bloco={bloco} />
+            <div key={index}>
+              <RenderBloco bloco={bloco} />
+              {/* Anúncio no meio do artigo (após 3º bloco) */}
+              {index === 2 && <ArticleAd className="my-8" />}
+              {/* Anúncio no meio-fim (após 6º bloco) */}
+              {index === 5 && <ArticleAd className="my-8" />}
+            </div>
           ))}
         </article>
 
         {/* Anúncio após o conteúdo do artigo */}
-        <InArticleAd className="my-12" />
+        <ArticleAd className="my-12" />
+
+        {/* Conteúdo Relacionado */}
+        {(() => {
+          const nutrientesRelacionados = getNutrientesRelacionados(artigo.slug)
+            .map((nutrienteSlug) => {
+              const nutrientes = nutrientesData as Record<string, Nutriente>
+              const nutriente = nutrientes[nutrienteSlug]
+              if (!nutriente) return null
+              return {
+                type: 'nutriente' as const,
+                slug: nutrienteSlug,
+                titulo: nutriente.nome,
+                descricao: nutriente.descricao_curta,
+                categoria: nutriente.categoria,
+              }
+            })
+            .filter((item) => item !== null)
+            .slice(0, 3) as Array<{ type: 'nutriente'; slug: string; titulo: string; descricao: string; categoria: string }>
+
+          return nutrientesRelacionados.length > 0 ? (
+            <RelatedContent
+              items={nutrientesRelacionados}
+              title="🔬 Nutrientes Relacionados a Este Artigo"
+            />
+          ) : null
+        })()}
 
         {/* Footer - Links relacionados */}
         <div className="mt-16 pt-8 border-t-4 border-black">
@@ -227,7 +346,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <p className="text-black font-bold mb-6 text-lg">
               Descubra quais nutrientes você realmente precisa com nossa avaliação personalizada gratuita!
             </p>
-            <Link href="/avaliacao">
+            <Link href="/avaliação">
               <Button variant="primary" size="lg" className="text-xl px-10 py-6">
                 Fazer Avaliação Gratuita →
               </Button>
@@ -235,16 +354,19 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
 
-        {/* Mais artigos */}
+        {/* Artigos Relacionados - baseado em categoria é relacionados */}
         <div className="mt-12">
           <h3 className="text-2xl font-black text-black uppercase mb-6 border-b-4 border-black pb-3">
-            📖 Outros Artigos
+            🔗 Leia Também
           </h3>
           <div className="grid gap-6 sm:grid-cols-2">
-            {artigos
-              .filter((a) => a.slug !== artigo.slug)
-              .slice(0, 2)
-              .map((artigoRelacionado) => (
+            {(() => {
+              const relacionados = artigo.relacionados && artigo.relacionados.length > 0
+                ? artigo.relacionados
+                    .map((slug: string) => artigos.find((a) => a.slug === slug))
+                    .filter((a): a is Artigo => a !== undefined)
+                : artigos.filter((a) => a.slug !== artigo.slug && a.categoria === artigo.categoria);
+              return relacionados.slice(0, 2).map((artigoRelacionado) => (
                 <Link
                   key={artigoRelacionado.slug}
                   href={`/blog/${artigoRelacionado.slug}`}
@@ -260,7 +382,8 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
                     {artigoRelacionado.descricao}
                   </p>
                 </Link>
-              ))}
+              ));
+            })()}
           </div>
         </div>
 
@@ -275,9 +398,10 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
   switch (bloco.tipo) {
     case 'paragrafo':
       return (
-        <p className="text-black font-medium leading-relaxed mb-6">
-          {bloco.texto}
-        </p>
+        <p
+          className="text-black font-medium leading-relaxed mb-6"
+          dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+        />
       )
 
     case 'heading':
@@ -285,47 +409,50 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
         return (
           <div className="mt-12 mb-6">
             <div className="bg-black px-6 py-3 inline-block border-2 border-black sm:-rotate-1">
-              <h2 className="text-2xl sm:text-3xl font-black text-yellow-400 uppercase">
-                {bloco.texto}
-              </h2>
+              <h2
+                className="text-2xl sm:text-3xl font-black text-yellow-400 uppercase"
+                dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+              />
             </div>
           </div>
         )
       }
       return (
-        <h3 className="text-xl sm:text-2xl font-black text-black uppercase mt-8 mb-4 border-l-4 border-black pl-4">
-          {bloco.texto}
-        </h3>
+        <h3
+          className="text-xl sm:text-2xl font-black text-black uppercase mt-8 mb-4 border-l-4 border-black pl-4"
+          dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+        />
       )
 
     case 'lista':
+      const ListTag = bloco.ordenada ? 'ol' : 'ul'
       return (
-        <ul className="space-y-3 mb-6">
+        <ListTag className="space-y-3 mb-6">
           {bloco.itens.map((item, i) => (
             <li key={i} className="flex items-start gap-3 bg-white border-2 border-black p-4">
-              <span className="text-black font-black mt-1">•</span>
+              <span className="text-black font-black mt-1">{bloco.ordenada ? `${i + 1}.` : '•'}</span>
               <span
                 className="text-black font-bold flex-1"
-                dangerouslySetInnerHTML={{ __html: item.replace(/\*\*(.*?)\*\*/g, '<strong class="bg-yellow-400 px-1">$1</strong>') }}
+                dangerouslySetInnerHTML={{ __html: formatMarkdown(item) }}
               />
             </li>
           ))}
-        </ul>
+        </ListTag>
       )
 
     case 'tabela':
+      const cabecalho = bloco.cabecalho || bloco.colunas || []
       return (
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-4 border-black">
             <thead>
               <tr className="bg-lime-400">
-                {bloco.colunas.map((col, i) => (
+                {cabecalho.map((col, i) => (
                   <th
                     key={i}
                     className="border-2 border-black px-4 py-3 text-left font-black text-black uppercase"
-                  >
-                    {col}
-                  </th>
+                    dangerouslySetInnerHTML={{ __html: formatMarkdown(col) }}
+                  />
                 ))}
               </tr>
             </thead>
@@ -336,9 +463,8 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
                     <td
                       key={j}
                       className="border-2 border-black px-4 py-3 text-black font-bold"
-                    >
-                      {celula}
-                    </td>
+                      dangerouslySetInnerHTML={{ __html: formatMarkdown(celula) }}
+                    />
                   ))}
                 </tr>
               ))}
@@ -348,18 +474,14 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       )
 
     case 'alerta':
-      // Detectar se é um RESUMO RÁPIDO e renderizar de forma especial
+      // Detectar se é um RESUMO RÁPIDO é renderizar de forma especial
       if (bloco.texto.includes('RESUMO RÁPIDO')) {
         return <ResumoRapido texto={bloco.texto} />
       }
 
       return (
         <Alert variant={bloco.variante} className="mb-6">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: bloco.texto.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'),
-            }}
-          />
+          <div dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }} />
         </Alert>
       )
 
@@ -367,14 +489,36 @@ function RenderBloco({ bloco }: { bloco: BlocoConteudo }) {
       return (
         <Card className="bg-yellow-400 my-8">
           <CardContent className="p-8 text-center">
-            <p className="text-black font-bold text-lg mb-6">{bloco.texto}</p>
+            <p
+              className="text-black font-bold text-lg mb-2"
+              dangerouslySetInnerHTML={{ __html: formatMarkdown(bloco.texto) }}
+            />
+            {bloco.descricao && (
+              <p className="text-black text-sm mb-6">{bloco.descricao}</p>
+            )}
             <Link href={bloco.link}>
               <Button variant="primary" size="lg">
-                {bloco.botao}
+                {bloco.botao || bloco.textoBotao || 'Saiba Mais →'}
               </Button>
             </Link>
           </CardContent>
         </Card>
+      )
+
+    case 'faq':
+      return (
+        <div className="space-y-4 mb-8">
+          {bloco.perguntas?.map((faq, i) => (
+            <details key={i} className="bg-white border-4 border-black group">
+              <summary className="bg-cyan-400 p-4 font-black text-black cursor-pointer hover:bg-cyan-300 transition-colors">
+                {faq.pergunta}
+              </summary>
+              <div className="p-4 border-t-2 border-black">
+                <p className="text-black font-bold" dangerouslySetInnerHTML={{ __html: formatMarkdown(faq.resposta) }} />
+              </div>
+            </details>
+          ))}
+        </div>
       )
 
     default:

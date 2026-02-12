@@ -1,10 +1,11 @@
 import Link from 'next/link'
-import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award, Brain, Calculator } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Shield, Sparkles, Users, Star, TrendingUp, Clock, Award, Brain, Calculator, Scale, Flame, Utensils, Dumbbell, Drumstick, Droplets } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { DisclaimerBanner } from '@/components/layout/DisclaimerBanner'
 import { HorizontalAd } from '@/components/ads/DisplayAd'
+import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 
 export default function Home() {
   // Schema markup para rich snippets do Google
@@ -12,8 +13,8 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Suplementa Já',
-    url: 'https://suplementaja.vercel.app',
-    logo: 'https://suplementaja.vercel.app/logo.png',
+    url: 'https://www.suplementaja.com',
+    logo: 'https://www.suplementaja.com/logo.png',
     description:
       'Plataforma gratuita de recomendações personalizadas de suplementação baseadas em evidências científicas',
     contactPoint: {
@@ -27,12 +28,12 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Suplementa Já',
-    url: 'https://suplementaja.vercel.app',
+    url: 'https://www.suplementaja.com',
     description:
       'Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://suplementaja.vercel.app/nutrientes?q={search_term_string}',
+      target: 'https://www.suplementaja.com/nutrientes?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   }
@@ -75,16 +76,16 @@ export default function Home() {
 
             <div className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[8px_8px_0_0_#000] p-4 sm:p-6 max-w-3xl mx-auto mb-10">
               <p className="text-xl sm:text-2xl text-black font-bold leading-relaxed">
-                Recomendações personalizadas de vitaminas e minerais baseadas em{' '}
-                <span className="bg-cyan-400 px-2 py-1">evidências científicas</span>.
-                <br />Responda algumas perguntas e receba seu plano personalizado!
+                Receba uma lista personalizada de suplementos em{' '}
+                <span className="bg-cyan-400 px-2 py-1">menos de 2 minutos</span>.
+                <br />Grátis, sem cadastro, sem enrolação.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 max-w-2xl mx-auto mb-12">
               <div className="bg-cyan-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:-rotate-1">
-                <div className="text-4xl sm:text-5xl font-black text-black mb-1">39</div>
+                <div className="text-4xl sm:text-5xl font-black text-black mb-1">44</div>
                 <div className="text-sm font-bold uppercase text-black">Nutrientes</div>
               </div>
               <div className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] sm:shadow-[6px_6px_0_0_#000] p-4 transform sm:rotate-1">
@@ -104,7 +105,7 @@ export default function Home() {
                   variant="primary"
                   className="text-base sm:text-xl px-6 sm:px-10 py-4 sm:py-7 w-full sm:w-auto"
                 >
-                  Fazer Avaliação Gratuita
+                  Descobrir Meus Suplementos Ideais (Grátis)
                   <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
                 </Button>
               </Link>
@@ -131,52 +132,70 @@ export default function Home() {
       </section>
 
       {/* Seção Calculadoras Destaque */}
-      <section className="bg-cyan-400 border-y-8 border-black py-12">
+      <section className="bg-cyan-400 border-y-8 border-black py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <div className="inline-block bg-black px-6 py-3 mb-4 -rotate-1">
-              <h2 className="text-2xl sm:text-3xl font-black text-cyan-400 uppercase flex items-center gap-3">
-                <Calculator className="w-8 h-8" />
+          <div className="text-center mb-12">
+            <div className="inline-block bg-black px-8 py-4 mb-6 -rotate-1">
+              <h2 className="text-3xl sm:text-4xl font-black text-cyan-400 uppercase flex items-center gap-4">
+                <Calculator className="w-8 h-8 sm:w-10 sm:h-10" />
                 6 Calculadoras Gratuitas
               </h2>
             </div>
-            <p className="text-black font-bold text-lg">
-              Ferramentas práticas para saúde e suplementação
+            <p className="text-black font-bold text-xl max-w-2xl mx-auto leading-relaxed">
+              Ferramentas essenciais para otimizar sua dieta e treino.
+              <span className="bg-white px-2 py-1 ml-1 border-2 border-black">Sem cadastro.</span>
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
-            <Link href="/calculadoras" className="bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">⚖️</div>
-              <h3 className="font-black text-black uppercase text-sm">IMC</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 mb-12">
+            <Link href="/calculadoras/imc" className="group bg-pink-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Scale className="w-8 h-8 text-pink-400" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Peso Ideal (IMC)</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">🔥</div>
-              <h3 className="font-black text-black uppercase text-sm">Calorias</h3>
+
+            <Link href="/calculadoras/calorias" className="group bg-orange-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Flame className="w-8 h-8 text-orange-400" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Gasto Calórico</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">🍽️</div>
-              <h3 className="font-black text-black uppercase text-sm">Macros</h3>
+
+            <Link href="/calculadoras/macros" className="group bg-purple-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Utensils className="w-8 h-8 text-purple-400" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Calculadora Macros</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">💪</div>
-              <h3 className="font-black text-black uppercase text-sm">Creatina</h3>
+
+            <Link href="/calculadoras/creatina" className="group bg-lime-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Dumbbell className="w-8 h-8 text-lime-400" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Dose Creatina</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">🥩</div>
-              <h3 className="font-black text-black uppercase text-sm">Proteína</h3>
+
+            <Link href="/calculadoras/proteina" className="group bg-yellow-400 border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Drumstick className="w-8 h-8 text-yellow-400" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Dose Proteína</h3>
             </Link>
-            <Link href="/calculadoras" className="bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_#000] transition-all text-center">
-              <div className="text-3xl mb-2">💧</div>
-              <h3 className="font-black text-black uppercase text-sm">Água</h3>
+
+            <Link href="/calculadoras/agua" className="group bg-white border-4 border-black shadow-[4px_4px_0_0_#000] p-4 sm:p-6 hover:-translate-y-2 hover:shadow-[8px_8px_0_0_#000] transition-all text-center flex flex-col items-center h-full">
+              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <Droplets className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-black text-black uppercase text-sm sm:text-base leading-tight">Água Diária</h3>
             </Link>
           </div>
 
           <div className="text-center">
             <Link href="/calculadoras">
-              <Button variant="primary" size="lg" className="text-lg px-8 py-5">
-                Usar Calculadoras Agora
-                <ArrowRight className="ml-2 w-5 h-5" />
+              <Button variant="primary" size="lg" className="text-xl px-10 py-6 border-b-8 active:border-b-4 hover:-translate-y-1 transition-all">
+                Ver Todas as Ferramentas
+                <ArrowRight className="ml-2 w-6 h-6" />
               </Button>
             </Link>
           </div>
@@ -191,6 +210,7 @@ export default function Home() {
       {/* Anúncio após o Hero */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <HorizontalAd />
+        <ManualDisplayAd className="mt-4" />
       </div>
 
       {/* Features Section - NEOBRUTALISM */}
@@ -370,7 +390,7 @@ export default function Home() {
         <div className="text-center mb-12">
           <div className="inline-block bg-lime-400 border-4 border-black shadow-[6px_6px_0_0_#000] px-4 py-2 sm:px-6 sm:py-3 mb-6 sm:rotate-1">
             <h2 className="text-2xl sm:text-4xl font-black text-black uppercase">
-              40 Nutrientes Essenciais
+              44 Nutrientes Essenciais
             </h2>
           </div>
           <p className="text-xl text-gray-800 font-bold">
@@ -487,7 +507,7 @@ export default function Home() {
               <div className="text-center">
                 <Link href="/nutrientes">
                   <Button variant="primary" size="lg" className="w-full">
-                    Ver Todos os 40 Nutrientes →
+                    Ver Todos os 44 Nutrientes →
                   </Button>
                 </Link>
               </div>

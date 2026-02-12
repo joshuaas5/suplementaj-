@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraProteina } from '@/components/calculadoras'
+import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Proteína - Quantos Gramas Por Dia? | Suplementa Já',
-  description: 'Calcule quantos gramas de proteína você precisa por dia para ganhar massa, emagrecer ou manter peso. Baseado em estudos do ISSN. Resultado personalizado!',
+  title: 'Calculadora de Proteína Grátis 2026 - Quantas Gramas Por Dia? | Suplementa Já',
+  description: 'CALCULE GRÁTIS quanta proteína você precisa! Descubra os gramas ideais para seu peso e objetivo (emagrecer/ganhar massa). Baseado no ISSN.',
   keywords: ['calculadora proteina', 'quantos gramas proteina', 'proteina por kg', 'proteina hipertrofia', 'proteina para emagrecer', 'whey protein', 'necessidade proteica'],
   openGraph: {
     title: 'Calculadora de Proteína - Quantos Gramas Você Precisa?',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 }
 
 export default function CalculadoraProteinaPage() {
+  const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_PROTEINA?.trim()
+  const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
+
   return (
     <div className="min-h-screen bg-lime-100 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -36,11 +40,11 @@ export default function CalculadoraProteinaPage() {
         {/* Header SEO */}
         <div className="bg-white border-4 border-black shadow-[8px_8px_0_0_#000] p-6 mb-8">
           <h1 className="text-3xl sm:text-4xl font-black text-black uppercase mb-4">
-            🥩 Calculadora de Proteína
+            🥩 Quanta Proteína Devo Tomar?
           </h1>
           <p className="text-black font-bold mb-4">
-            Descubra <strong>quantos gramas de proteína</strong> você precisa consumir por dia 
-            baseado no seu objetivo, nível de atividade e idade.
+            Descubra <strong>quantos gramas de proteína</strong> você precisa consumir por dia{' '}
+            baseado no seu objetivo: ganhar massa, emagrecer ou manter peso.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">🔬 ISSN Guidelines</span>
@@ -49,15 +53,24 @@ export default function CalculadoraProteinaPage() {
           </div>
         </div>
 
+        {/* AdSense display ad */}
+        {canShowAds ? (
+          <AdUnit slot={adSlot!} className="my-6" />
+        ) : process.env.NODE_ENV === 'development' ? (
+          <div className="my-6 bg-gray-100 border-4 border-dashed border-gray-300 p-4 text-center text-sm font-bold text-gray-600">
+            Configure NEXT_PUBLIC_ADSENSE_ID e NEXT_PUBLIC_ADSENSE_SLOT_PROTEINA para exibir o anúncio aqui.
+          </div>
+        ) : null}
+
         {/* Calculadora */}
         <CalculadoraProteina />
 
         {/* Conteúdo SEO */}
         <div className="bg-white border-4 border-black shadow-[6px_6px_0_0_#000] p-6 mt-8">
           <h2 className="text-2xl font-black text-black uppercase mb-4">📚 Quanta Proteína Por Dia?</h2>
-          
+
           <p className="text-black mb-4">
-            A quantidade de proteína ideal varia conforme seu <strong>objetivo</strong>, <strong>idade</strong> e 
+            A quantidade de proteína ideal varia conforme seu <strong>objetivo</strong>, <strong>idade</strong> e
             <strong> nível de atividade física</strong>. Veja as recomendações baseadas em ciência:
           </p>
 
@@ -96,11 +109,11 @@ export default function CalculadoraProteinaPage() {
 
           <h3 className="text-xl font-black text-black uppercase mb-3">Distribuição nas Refeições</h3>
           <div className="bg-yellow-100 border-2 border-black p-4 mb-4">
-            <p className="font-bold text-black mb-2">📊 Para melhor síntese proteica:</p>
+            <p className="font-bold text-black mb-2">📊 Para a maioria das pessoas:</p>
             <ul className="text-black text-sm space-y-1">
               <li>• <strong>20-40g por refeição</strong> (Schoenfeld 2018)</li>
-              <li>• <strong>4-5 refeições</strong> espaçadas ao longo do dia</li>
-              <li>• <strong>Proteína pós-treino</strong> dentro de 2 horas (não precisa ser imediato)</li>
+              <li>• <strong>2-3 refeições com proteína</strong> (café, almoço, jantar)</li>
+              <li>• <strong>1 shake de whey</strong> se não atingir a meta só com comida</li>
             </ul>
           </div>
 
@@ -131,6 +144,37 @@ export default function CalculadoraProteinaPage() {
               • Helms ER, et al. A systematic review of dietary protein during caloric restriction. 2014<br />
               • Schoenfeld BJ. How much protein can the body use in a meal? 2018
             </p>
+          </div>
+
+          <h3 className="text-xl font-black text-black uppercase mt-6 mb-3">❓ Perguntas Frequentes</h3>
+
+          <div className="space-y-4">
+            <div className="bg-lime-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Preciso de whey protein?</h4>
+              <p className="text-black text-sm">
+                <strong>Só se não atingir sua meta com comida.</strong> Se você precisa de 150g/dia e só come 100g, sim.
+                Whey é conveniente (rápido, barato por grama de proteína), mas não é mágico.
+                Proteína de frango, ovo, carne = mesma eficácia para hipertrofia.
+              </p>
+            </div>
+
+            <div className="bg-yellow-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Whey isolado ou concentrado?</h4>
+              <p className="text-black text-sm">
+                <strong>Concentrado</strong> (70-80% proteína) é mais barato e funciona igual para 90% das pessoas.<br />
+                <strong>Isolado</strong> (90%+ proteína) só vale se: você é intolerante à lactose, está cortando peso (menos calorias), ou compete em esporte.
+                Diferença de resultado? Praticamente zero.
+              </p>
+            </div>
+
+            <div className="bg-orange-100 border-2 border-black p-4">
+              <h4 className="font-black text-black mb-2">Posso tomar 50g de proteína de uma vez?</h4>
+              <p className="text-black text-sm">
+                <strong>Sim, mas não é ideal.</strong> Seu corpo absorve tudo, mas usa ~30-40g para síntese proteica por refeição.
+                O resto vira energia (ou é oxidado). Melhor: dividir em 4-5 refeições com 30-40g cada.
+                Exceção: Atletas de endurance ou jejum intermitente podem precisar de doses maiores.
+              </p>
+            </div>
           </div>
         </div>
 

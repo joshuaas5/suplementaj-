@@ -18,7 +18,7 @@
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Redução HbA1c**: -2,1% (Monjaro) vs -1,5% (insulina basal) vs -1,8% (Ozempic)\n• **Glicemia em Jejum**: -60 mg/dL média (Monjaro) vs -45 mg/dL (insulina)\n• **Peso**: Monjaro EMAGRECE 15-20% | Insulina ENGORDA 2-4 kg\n• **Hipoglicemia**: Baixo risco (Monjaro) vs Alto risco (insulina)\n• **Quando Usar Monjaro**: Diabetes tipo 2 + obesidade/sobrepeso | HbA1c 7-11% | Falha com metformina\n• **Quando Usar Insulina**: Diabetes tipo 1 | HbA1c >12% | Insuficiência renal severa | Gravidez\n• **Veredito**: Monjaro é SUPERIOR pra maioria dos diabéticos tipo 2 (controle + emagrece), mas NÃO substitui insulina em todos os casos"
+      "texto": "📋 ***RESUMO RÁPIDO:**\n\n• ***Redução HbA1c**: -2,1% (Monjaro) vs -1,5% (insulina basal) vs -1,8% (Ozempic)\n• ***Glicemia em Jejum**: -60 mg/dL média (Monjaro) vs -45 mg/dL (insulina)\n• ***Peso**: Monjaro EMAGRECE 15-20% | Insulina ENGORDA 2-4 kg\n• ***Hipoglicemia**: Baixo risco (Monjaro) vs Alto risco (insulina)\n• ***Quando Usar Monjaro**: Diabetes tipo 2 + obesidade/sobrepeso | HbA1c 7-11% | Falha com metformina\n• ***Quando Usar Insulina**: Diabetes tipo 1 | HbA1c >12% | Insuficiência renal severa | Gravidez\n• ***Veredito**: Monjaro é SUPERIOR pra maioria dos diabéticos tipo 2 (controle + emagrece), mas NÃO substitui insulina em todos os casos"
     },
     {
       "tipo": "paragrafo",
@@ -26,7 +26,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Essa pergunta explodiu nos consultórios desde que o Monjaro chegou ao Brasil. A resposta? **Depende do seu caso**, mas para **a maioria dos diabéticos tipo 2**, Monjaro é, sim, superior à insulina basal (Lantus, Tresiba)."
+      "texto": "Essa pergunta explodiu nos consultórios desde que o Monjaro chegou ao Brasil. A resposta? ***Depende do seu caso**, mas para **a maioria dos diabéticos tipo 2**, Monjaro é, sim, superior à insulina basal (Lantus, Tresiba)."
     },
     {
       "tipo": "paragrafo",
@@ -46,15 +46,60 @@
         "Vencedor"
       ],
       "linhas": [
-        ["Redução HbA1c", "-2,1% (média)", "-1,5%", "🏆 Monjaro"],
-        ["Glicemia em Jejum", "-60 mg/dL", "-45 mg/dL", "🏆 Monjaro"],
-        ["Peso", "Perde 15-20%", "Ganha 2-4 kg", "🏆 Monjaro"],
-        ["Hipoglicemia", "Risco baixo (1-2%)", "Risco moderado-alto (10-20%)", "🏆 Monjaro"],
-        ["Aplicação", "1x/semana", "1x/dia", "🏆 Monjaro"],
-        ["Custo", "R$ 1.800-2.400/mês", "R$ 200-600/mês", "🏆 Insulina"],
-        ["Eficácia HbA1c >11%", "Boa (-2,1%)", "Excelente (-2,5%+)", "🏆 Insulina"],
-        ["Insuficiência Renal Severa", "Contraindicado", "Seguro", "🏆 Insulina"],
-        ["Gestação", "Contraindicado", "Seguro", "🏆 Insulina"]
+        [
+          "Redução HbA1c",
+          "-2,1% (média)",
+          "-1,5%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Glicemia em Jejum",
+          "-60 mg/dL",
+          "-45 mg/dL",
+          "🏆 Monjaro"
+        ],
+        [
+          "Peso",
+          "Perde 15-20%",
+          "Ganha 2-4 kg",
+          "🏆 Monjaro"
+        ],
+        [
+          "Hipoglicemia",
+          "Risco baixo (1-2%)",
+          "Risco moderado-alto (10-20%)",
+          "🏆 Monjaro"
+        ],
+        [
+          "Aplicação",
+          "1x/semana",
+          "1x/dia",
+          "🏆 Monjaro"
+        ],
+        [
+          "Custo",
+          "R$ 1.800-2.400/mês",
+          "R$ 200-600/mês",
+          "🏆 Insulina"
+        ],
+        [
+          "Eficácia HbA1c >11%",
+          "Boa (-2,1%)",
+          "Excelente (-2,5%+)",
+          "🏆 Insulina"
+        ],
+        [
+          "Insuficiência Renal Severa",
+          "Contraindicado",
+          "Seguro",
+          "🏆 Insulina"
+        ],
+        [
+          "Gestação",
+          "Contraindicado",
+          "Seguro",
+          "🏆 Insulina"
+        ]
       ]
     },
     {
@@ -75,17 +120,47 @@
         "Diferença"
       ],
       "linhas": [
-        ["HbA1c inicial", "8,2%", "8,2%", "-"],
-        ["HbA1c final (52 sem)", "6,1%", "6,7%", "-0,6% (Monjaro melhor)"],
-        ["% atingindo HbA1c <7%", "93%", "61%", "+32 pontos!"],
-        ["Peso", "-11,2 kg", "+2,3 kg", "-13,5 kg diferença!"],
-        ["Hipoglicemia (<70mg/dL)", "1,7%", "6,6%", "Monjaro 4x MENOS"],
-        ["Efeitos GI (náusea)", "21%", "3%", "Monjaro MAIS"]
+        [
+          "HbA1c inicial",
+          "8,2%",
+          "8,2%",
+          "-"
+        ],
+        [
+          "HbA1c final (52 sem)",
+          "6,1%",
+          "6,7%",
+          "-0,6% (Monjaro melhor)"
+        ],
+        [
+          "% atingindo HbA1c <7%",
+          "93%",
+          "61%",
+          "+32 pontos!"
+        ],
+        [
+          "Peso",
+          "-11,2 kg",
+          "+2,3 kg",
+          "-13,5 kg diferença!"
+        ],
+        [
+          "Hipoglicemia (<70mg/dL)",
+          "1,7%",
+          "6,6%",
+          "Monjaro 4x MENOS"
+        ],
+        [
+          "Efeitos GI (náusea)",
+          "21%",
+          "3%",
+          "Monjaro MAIS"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Conclusão do estudo:** Monjaro foi superior em TODOS os desfechos exceto efeitos GI (náusea)."
+      "texto": "***Conclusão do estudo:** Monjaro foi superior em TODOS os desfechos exceto efeitos GI (náusea)."
     },
     {
       "tipo": "heading",
@@ -99,11 +174,11 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Aumenta Insulina** (quando glicose está ALTA): Pâncreas libera mais insulina pós-refeição",
-        "**Reduz Glucagon** (quando glicose está baixa): Fígado para de jogar glicose no sangue",
-        "**Retarda Esvaziamento Gástrico**: Glicose entra no sangue DEVAGAR (pico pós-prandial menor)",
-        "**Melhora Sensibilidade à Insulina**: Células respondem melhor à insulina (efeito da perda de peso)",
-        "**Protege Células Beta**: Estudos em animais sugerem regeneração parcial do pâncreas"
+        "***Aumenta Insulina** (quando glicose está ALTA): Pâncreas libera mais insulina pós-refeição",
+        "***Reduz Glucagon** (quando glicose está baixa): Fígado para de jogar glicose no sangue",
+        "***Retarda Esvaziamento Gástrico**: Glicose entra no sangue DEVAGAR (pico pós-prandial menor)",
+        "***Melhora Sensibilidade à Insulina**: Células respondem melhor à insulina (efeito da perda de peso)",
+        "***Protege Células Beta**: Estudos em animais sugerem regeneração parcial do pâncreas"
       ]
     },
     {
@@ -113,19 +188,19 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**NÃO substitui - COMPLEMENTA!**"
+      "texto": "***NÃO substitui - COMPLEMENTA!**"
     },
     {
       "tipo": "lista",
       "itens": [
-        "**Metformina** é primeira linha (barata, segura, eficaz: -1,5% HbA1c)",
-        "**Monjaro** é adicionado quando metformina sozinha não basta (HbA1c >7%)",
-        "**Combinação Metformina + Monjaro**: Redução de -2,5 a -3% HbA1c (sinergia!)"
+        "***Metformina** é primeira linha (barata, segura, eficaz: -1,5% HbA1c)",
+        "***Monjaro** é adicionado quando metformina sozinha não basta (HbA1c >7%)",
+        "***Combinação Metformina + Monjaro**: Redução de -2,5 a -3% HbA1c (sinergia!)"
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Protocolo comum:**"
+      "texto": "***Protocolo comum:**"
     },
     {
       "tipo": "lista",
@@ -143,12 +218,12 @@
     {
       "tipo": "lista",
       "itens": [
-        "✅ **Diabetes tipo 2 + sobrepeso/obesidade** (IMC >27): Duplo benefício (glicemia + peso)",
-        "✅ **HbA1c entre 7-10%**: Faixa ideal de eficácia do Monjaro",
-        "✅ **Falha com metformina ± sulfonilureia**: Escalada de tratamento",
-        "✅ **Quer EVITAR insulina**: Monjaro adia/elimina necessidade em 60-70% dos casos",
-        "✅ **Risco cardiovascular alto**: Estudos em andamento sugerem proteção (resultados em 2026-2027)",
-        "✅ **Medo de hipoglicemia**: Risco 4-5x MENOR que insulina"
+        "✅ ***Diabetes tipo 2 + sobrepeso/obesidade** (IMC >27): Duplo benefício (glicemia + peso)",
+        "✅ ***HbA1c entre 7-10%**: Faixa ideal de eficácia do Monjaro",
+        "✅ ***Falha com metformina ± sulfonilureia**: Escalada de tratamento",
+        "✅ ***Quer EVITAR insulina**: Monjaro adia/elimina necessidade em 60-70% dos casos",
+        "✅ ***Risco cardiovascular alto**: Estudos em andamento sugerem proteção (resultados em 2026-2027)",
+        "✅ ***Medo de hipoglicemia**: Risco 4-5x MENOR que insulina"
       ]
     },
     {
@@ -159,19 +234,19 @@
     {
       "tipo": "lista",
       "itens": [
-        "❌ **Diabetes tipo 1**: Pâncreas não produz insulina (Monjaro apenas AUMENTA liberação, não substitui)",
-        "❌ **HbA1c >12% com sintomas severos**: Precisa de controle rápido (insulina age em horas, Monjaro em semanas)",
-        "❌ **Cetoacidose diabética**: Emergência metabólica (insulina EV imediato)",
-        "❌ **Insuficiência renal severa** (TFG <30): Monjaro não estudado nessa população",
-        "❌ **Gestação**: Insulina é único medicamento seguro (Monjaro contraindicado)",
-        "❌ **Pancreatite prévia**: Risco aumentado com Monjaro",
-        "❌ **Diabetes LADA** (autoimune de início tardio): Geralmente precisa insulina"
+        "❌ ***Diabetes tipo 1**: Pâncreas não produz insulina (Monjaro apenas AUMENTA liberação, não substitui)",
+        "❌ ***HbA1c >12% com sintomas severos**: Precisa de controle rápido (insulina age em horas, Monjaro em semanas)",
+        "❌ ***Cetoacidose diabética**: Emergência metabólica (insulina EV imediato)",
+        "❌ ***Insuficiência renal severa** (TFG <30): Monjaro não estudado nessa população",
+        "❌ ***Gestação**: Insulina é único medicamento seguro (Monjaro contraindicado)",
+        "❌ ***Pancreatite prévia**: Risco aumentado com Monjaro",
+        "❌ ***Diabetes LADA** (autoimune de início tardio): Geralmente precisa insulina"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "danger",
-      "texto": "⚠️ **NUNCA pare insulina por conta própria** para trocar por Monjaro! Isso pode causar hiperglicemia severa e cetoacidose (risco de morte). Transição DEVE ser feita com endocrinologista, gradualmente."
+      "texto": "⚠️ ***NUNCA pare insulina por conta própria** para trocar por Monjaro! Isso pode causar hiperglicemia severa e cetoacidose (risco de morte). Transição DEVE ser feita com endocrinologista, gradualmente."
     },
     {
       "tipo": "heading",
@@ -185,16 +260,16 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Cenário 1**: Diabético usando insulina basal (Lantus 30 UI/noite) + HbA1c ainda em 8,5%",
-        "**Solução**: Adiciona Monjaro 5-10mg/semana. Permite REDUZIR insulina (ex: 30→15 UI) + melhora controle + emagrece",
-        "**Cenário 2**: HbA1c >11% (muito descontrolado)",
-        "**Solução**: Insulina basal (controle rápido) + Monjaro (longo prazo). Após 3-6 meses, tenta retirar insulina gradualmente"
+        "***Cenário 1**: Diabético usando insulina basal (Lantus 30 UI/noite) + HbA1c ainda em 8,5%",
+        "***Solução**: Adiciona Monjaro 5-10mg/semana. Permite REDUZIR insulina (ex: 30→15 UI) + melhora controle + emagrece",
+        "***Cenário 2**: HbA1c >11% (muito descontrolado)",
+        "***Solução**: Insulina basal (controle rápido) + Monjaro (longo prazo). Após 3-6 meses, tenta retirar insulina gradualmente"
       ]
     },
     {
       "tipo": "alerta",
       "variante": "warning",
-      "texto": "⚠️ **CUIDADO**: Monjaro + insulina = risco MAIOR de hipoglicemia. Você PRECISA reduzir dose de insulina ao iniciar Monjaro (orientação médica obrigatória). Monitore glicemia 4-6x/dia nas primeiras semanas."
+      "texto": "⚠️ ***CUIDADO**: Monjaro + insulina = risco MAIOR de hipoglicemia. Você PRECISA reduzir dose de insulina ao iniciar Monjaro (orientação médica obrigatória). Monitore glicemia 4-6x/dia nas primeiras semanas."
     },
     {
       "tipo": "heading",
@@ -210,16 +285,41 @@
         "Peso"
       ],
       "linhas": [
-        ["Início", "8,5%", "180 mg/dL", "100 kg"],
-        ["4 semanas", "7,8%", "150 mg/dL", "96 kg (-4kg)"],
-        ["12 semanas", "7,1%", "130 mg/dL", "92 kg (-8kg)"],
-        ["24 semanas (6m)", "6,5%", "115 mg/dL", "85 kg (-15kg)"],
-        ["52 semanas (1 ano)", "6,1%", "105 mg/dL", "80 kg (-20kg)"]
+        [
+          "Início",
+          "8,5%",
+          "180 mg/dL",
+          "100 kg"
+        ],
+        [
+          "4 semanas",
+          "7,8%",
+          "150 mg/dL",
+          "96 kg (-4kg)"
+        ],
+        [
+          "12 semanas",
+          "7,1%",
+          "130 mg/dL",
+          "92 kg (-8kg)"
+        ],
+        [
+          "24 semanas (6m)",
+          "6,5%",
+          "115 mg/dL",
+          "85 kg (-15kg)"
+        ],
+        [
+          "52 semanas (1 ano)",
+          "6,1%",
+          "105 mg/dL",
+          "80 kg (-20kg)"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Observação:** Redução de HbA1c é mais rápida (12 semanas pra ver efeito máximo). Perda de peso é gradual (12-17 meses pra máximo)."
+      "texto": "***Observação:** Redução de HbA1c é mais rápida (12 semanas pra ver efeito máximo). Perda de peso é gradual (12-17 meses pra máximo)."
     },
     {
       "tipo": "heading",
@@ -235,18 +335,53 @@
         "Vencedor"
       ],
       "linhas": [
-        ["Redução HbA1c", "-2,1%", "-1,8%", "🏆 Monjaro (ligeira vantagem)"],
-        ["Perda de Peso", "15-20%", "10-13%", "🏆 Monjaro"],
-        ["Proteção Cardiovascular", "Em estudo (SURPASS-CVOT)", "Comprovada (SUSTAIN-6)", "🏆 Ozempic"],
-        ["Proteção Renal", "Sem dados", "Comprovada (FLOW)", "🏆 Ozempic"],
-        ["Náusea", "Menos (25%)", "Mais (40-50%)", "🏆 Monjaro"],
-        ["Custo", "R$ 1.800-2.400/mês", "R$ 1.000-1.200/mês", "🏆 Ozempic"],
-        ["Disponibilidade", "★★☆☆☆", "★★★★☆", "🏆 Ozempic"]
+        [
+          "Redução HbA1c",
+          "-2,1%",
+          "-1,8%",
+          "🏆 Monjaro (ligeira vantagem)"
+        ],
+        [
+          "Perda de Peso",
+          "15-20%",
+          "10-13%",
+          "🏆 Monjaro"
+        ],
+        [
+          "Proteção Cardiovascular",
+          "Em estudo (SURPASS-CVOT)",
+          "Comprovada (SUSTAIN-6)",
+          "🏆 Ozempic"
+        ],
+        [
+          "Proteção Renal",
+          "Sem dados",
+          "Comprovada (FLOW)",
+          "🏆 Ozempic"
+        ],
+        [
+          "Náusea",
+          "Menos (25%)",
+          "Mais (40-50%)",
+          "🏆 Monjaro"
+        ],
+        [
+          "Custo",
+          "R$ 1.800-2.400/mês",
+          "R$ 1.000-1.200/mês",
+          "🏆 Ozempic"
+        ],
+        [
+          "Disponibilidade",
+          "★★☆☆☆",
+          "★★★★☆",
+          "🏆 Ozempic"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Veredito:** Se você tem **doença cardiovascular prévia** (infarto, AVC), Ozempic é preferível (evidência robusta de proteção). Se objetivo é **máximo controle glicêmico + emagrecer**, Monjaro."
+      "texto": "***Veredito:** Se você tem **doença cardiovascular prévia** (infarto, AVC), Ozempic é preferível (evidência robusta de proteção). Se objetivo é **máximo controle glicêmico + emagrecer**, Monjaro."
     },
     {
       "tipo": "heading",
@@ -261,10 +396,10 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Antes:** HbA1c 9,2% | Peso 112 kg | Insulina Lantus 45 UI/noite + Metformina",
-        "**Intervenção:** Adicionou Monjaro 10mg/sem | Reduziu insulina pra 20 UI",
-        "**Após 6 meses:** HbA1c 6,8% | Peso 95 kg (-17kg) | Suspendeu insulina (mantém Metformina + Monjaro)",
-        "**Quote:** \"Pela primeira vez em 10 anos, HbA1c abaixo de 7%. E sem hipoglicemia!\""
+        "***Antes:** HbA1c 9,2% | Peso 112 kg | Insulina Lantus 45 UI/noite + Metformina",
+        "***Intervenção:** Adicionou Monjaro 10mg/sem | Reduziu insulina pra 20 UI",
+        "***Após 6 meses:** HbA1c 6,8% | Peso 95 kg (-17kg) | Suspendeu insulina (mantém Metformina + Monjaro)",
+        "***Quote:** \"Pela primeira vez em 10 anos, HbA1c abaixo de 7%. E sem hipoglicemia!\""
       ]
     },
     {
@@ -275,10 +410,10 @@
     {
       "tipo": "lista",
       "itens": [
-        "**Antes:** HbA1c 7,8% | Peso 88 kg | Metformina 2g/dia (controle insuficiente)",
-        "**Intervenção:** Adicionou Monjaro 5mg/sem",
-        "**Após 4 meses:** HbA1c 6,2% | Peso 78 kg (-10kg)",
-        "**Quote:** \"Glicemia em jejum caiu de 160 pra 100 mg/dL. Médico disse que evitei insulina.\""
+        "***Antes:** HbA1c 7,8% | Peso 88 kg | Metformina 2g/dia (controle insuficiente)",
+        "***Intervenção:** Adicionou Monjaro 5mg/sem",
+        "***Após 4 meses:** HbA1c 6,2% | Peso 78 kg (-10kg)",
+        "***Quote:** \"Glicemia em jejum caiu de 160 pra 100 mg/dL. Médico disse que evitei insulina.\""
       ]
     },
     {
@@ -289,10 +424,10 @@
     {
       "tipo": "lista",
       "itens": [
-        "⚠️ **Hipoglicemia** (se usar com insulina/sulfonilureia): Reduzir dose desses medicamentos ao iniciar Monjaro",
-        "⚠️ **Retinopatia diabética**: Melhora rápida de glicemia pode PIORAR retinopatia temporariamente (fazer fundo de olho antes)",
-        "⚠️ **Náusea**: Diabéticos com gastroparesia prévia podem ter náusea mais intensa",
-        "⚠️ **Desidratação**: Diarreia + glicemia alta = risco aumentado (beber 3L água/dia)"
+        "⚠️ ***Hipoglicemia** (se usar com insulina/sulfonilureia): Reduzir dose desses medicamentos ao iniciar Monjaro",
+        "⚠️ ***Retinopatia diabética**: Melhora rápida de glicemia pode PIORAR retinopatia temporariamente (fazer fundo de olho antes)",
+        "⚠️ ***Náusea**: Diabéticos com gastroparesia prévia podem ter náusea mais intensa",
+        "⚠️ ***Desidratação**: Diarreia + glicemia alta = risco aumentado (beber 3L água/dia)"
       ]
     },
     {
@@ -303,12 +438,12 @@
     {
       "tipo": "lista",
       "itens": [
-        "✅ **Glicemia capilar**: 4-6x/dia nas primeiras 4 semanas (ajustar doses)",
-        "✅ **HbA1c**: A cada 3 meses (avaliar eficácia)",
-        "✅ **Função renal**: Creatinina, TFG (a cada 6 meses)",
-        "✅ **Fundo de olho**: Anual (retinopatia)",
-        "✅ **Peso**: Semanal (garantir perda gradual, não extrema)",
-        "✅ **Pressão arterial**: Perda de peso melhora PA (pode precisar reduzir anti-hipertensivo)"
+        "✅ ***Glicemia capilar**: 4-6x/dia nas primeiras 4 semanas (ajustar doses)",
+        "✅ ***HbA1c**: A cada 3 meses (avaliar eficácia)",
+        "✅ ***Função renal**: Creatinina, TFG (a cada 6 meses)",
+        "✅ ***Fundo de olho**: Anual (retinopatia)",
+        "✅ ***Peso**: Semanal (garantir perda gradual, não extrema)",
+        "✅ ***Pressão arterial**: Perda de peso melhora PA (pode precisar reduzir anti-hipertensivo)"
       ]
     },
     {
@@ -318,7 +453,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Análise financeira (12 meses):**"
+      "texto": "***Análise financeira (12 meses):**"
     },
     {
       "tipo": "tabela",
@@ -329,15 +464,35 @@
         "Peso"
       ],
       "linhas": [
-        ["Monjaro 10mg", "R$ 26.000", "6,1%", "-20 kg"],
-        ["Insulina Lantus 30 UI/dia", "R$ 4.800", "6,7%", "+2 kg"],
-        ["Ozempic 1mg", "R$ 14.400", "6,4%", "-13 kg"],
-        ["Metformina + Glimepirida", "R$ 600", "7,5%", "0 kg"]
+        [
+          "Monjaro 10mg",
+          "R$ 26.000",
+          "6,1%",
+          "-20 kg"
+        ],
+        [
+          "Insulina Lantus 30 UI/dia",
+          "R$ 4.800",
+          "6,7%",
+          "+2 kg"
+        ],
+        [
+          "Ozempic 1mg",
+          "R$ 14.400",
+          "6,4%",
+          "-13 kg"
+        ],
+        [
+          "Metformina + Glimepirida",
+          "R$ 600",
+          "7,5%",
+          "0 kg"
+        ]
       ]
     },
     {
       "tipo": "paragrafo",
-      "texto": "**Vale a pena se:**"
+      "texto": "***Vale a pena se:**"
     },
     {
       "tipo": "lista",
@@ -350,7 +505,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**NÃO vale se:**"
+      "texto": "***NÃO vale se:**"
     },
     {
       "tipo": "lista",
@@ -380,16 +535,16 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "**MAS** insulina ainda é obrigatória em casos específicos (tipo 1, HbA1c >12%, gestação, insuficiência renal). E Ozempic pode ser melhor escolha se você tem doença cardiovascular prévia ou orçamento limitado."
+      "texto": "***MAS** insulina ainda é obrigatória em casos específicos (tipo 1, HbA1c >12%, gestação, insuficiência renal). E Ozempic pode ser melhor escolha se você tem doença cardiovascular prévia ou orçamento limitado."
     },
     {
       "tipo": "paragrafo",
-      "texto": "**A decisão** deve ser individualizada com seu endocrinologista, considerando HbA1c, peso, comorbidades, custo e preferências pessoais."
+      "texto": "***A decisão** deve ser individualizada com seu endocrinologista, considerando HbA1c, peso, comorbidades, custo e preferências pessoais."
     },
     {
       "tipo": "alerta",
       "variante": "info",
-      "texto": "💡 **LEMBRE-SE**: Nenhum medicamento substitui estilo de vida saudável. Monjaro POTENCIALIZA dieta + exercício, não substitui. Diabéticos que combinam Monjaro + baixo carboidrato + musculação têm resultados AINDA MELHORES (HbA1c <6%, remissão parcial em 30-40% dos casos)."
+      "texto": "💡 ***LEMBRE-SE**: Nenhum medicamento substitui estilo de vida saudável. Monjaro POTENCIALIZA dieta + exercício, não substitui. Diabéticos que combinam Monjaro + baixo carboidrato + musculação têm resultados AINDA MELHORES (HbA1c <6%, remissão parcial em 30-40% dos casos)."
     },
     {
       "tipo": "cta",

@@ -145,7 +145,7 @@ export interface Nutriente {
   evidencias: Evidencia[]
 
   seo: SEO
-
+  objetivos?: string[]
   afiliados: Afiliados
 
   nota_importante?: string

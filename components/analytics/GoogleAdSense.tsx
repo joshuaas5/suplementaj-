@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 declare global {
   interface Window {
@@ -9,37 +9,46 @@ declare global {
 }
 
 export function GoogleAdSense() {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = 'ca-pub-4642150915962893'
+  const [shouldLoad, setShouldLoad] = useState(false)
 
   useEffect(() => {
-    if (!adsenseId) return
+    // Lazy load: carregar AdSense após interação ou 2s
+    let loaded = false
+    
+    const loadAds = () => {
+      if (loaded) return
+      loaded = true
+      setShouldLoad(true)
+    }
 
-    // Verificar se o script já existe
-    const existingScript = document.querySelector(`script[src*="adsbygoogle"]`)
-    if (existingScript) return
+    // Carregar após 3s OU primeira interação (otimização LCP)
+    const timer = setTimeout(loadAds, 3000)
+    const events = ['scroll', 'mousemove', 'touchstart', 'click']
+    
+    events.forEach(event => {
+      window.addEventListener(event, loadAds, { once: true, passive: true })
+    })
 
-    // Criar e adicionar o script manualmente (sem data-nscript do Next.js)
+    return () => {
+      clearTimeout(timer)
+      events.forEach(event => {
+        window.removeEventListener(event, loadAds)
+      })
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!shouldLoad) return
+
     const script = document.createElement('script')
     script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`
     script.async = true
     script.crossOrigin = 'anonymous'
+    script.onload = () => console.log('✅ AdSense carregado')
+    script.onerror = () => console.error('❌ Erro ao carregar AdSense')
     document.head.appendChild(script)
-
-    // Ativar Auto Ads quando o script carregar
-    script.onload = () => {
-      try {
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: adsenseId,
-          enable_page_level_ads: true,
-        })
-      } catch (err) {
-        console.error('AdSense Auto Ads error:', err)
-      }
-    }
-  }, [adsenseId])
-
-  // Se não tiver ID configurado, não renderiza nada
-  if (!adsenseId) return null
+  }, [shouldLoad, adsenseId])
 
   return null
 }
