@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Logo Suplementajá</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        /* LOGO FUNDO PRETO (padrão dos pins) */
+        .logo-black {
+            background: #000;
+            padding: 40px 60px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .logo-text {
+            font-size: 80px;
+            font-weight: 900;
+            color: #FFF;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            letter-spacing: 2px;
+        }
+        .logo-text span {
+            background: #FACC15;
+            color: #000;
+            padding: 5px 20px;
+            margin-left: 8px;
+            border-radius: 6px;
+        }
+        
+        /* LOGO TRANSPARENTE (sem fundo) */
+        .logo-transparent {
+            margin-top: 50px;
+        }
+        .logo-transparent .logo-text {
+            color: #000;
+            background: transparent;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo com fundo preto (padrão dos pins) -->
+    <div>
+        <div class="logo-black">
+            <div class="logo-text">SUPLEMENTA<span>JÁ</span></div>
+        </div>
+        
+        <!-- Logo sem fundo (transparente) -->
+        <div class="logo-transparent" style="text-align: center;">
+            <div class="logo-text">SUPLEMENTA<span>JÁ</span></div>
+        </div>
+    </div>
+</body>
+</html>
