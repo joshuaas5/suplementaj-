@@ -2,153 +2,114 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Pin: Emagrecimento Pós-Parto - 5 Suplementos Seguros</title>
+    <meta name="viewport" content="width=1000, initial-scale=1.0">
+    <title>Pin 05</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 1600px;
-            padding: 20px;
-        }
-        .pin {
-            display: flex;
-            flex-direction: column;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #FFF;
             width: 1000px;
             height: 1500px;
-            background: white;
-            border: 6px solid #000;
-            box-shadow: 10px 10px 0 rgba(0,0,0,0.3);
+            overflow: hidden;
         }
-        .header {
-            background: linear-gradient(135deg, #F472B6 0%, #DB2777 100%);
-            height: 400px;
-            border-bottom: 6px solid #000;
+        .pin {
+            width: 1000px;
+            height: 1500px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 40px;
+            background: #FFF;
         }
-        .badge-safe {
-            background: #16A34A;
+        .header {
+            height: 250px;
+            background: linear-gradient(135deg, #F472B6 0%, #DB2777 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            flex-shrink: 0;
+        }
+        .header-badge {
+            background: #10B981;
             color: #FFF;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 900;
-            padding: 15px 45px;
-            border: 5px solid #000;
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.3);
+            padding: 10px 30px;
+            border-radius: 8px;
             margin-bottom: 15px;
         }
-        .title-main {
-            font-size: 70px;
+        .header-title {
+            font-size: 56px;
             font-weight: 900;
             color: #000;
             text-align: center;
-            line-height: 1;
-            margin-bottom: 18px;
-            text-transform: uppercase;
+            line-height: 1.1;
+            margin-bottom: 10px;
         }
-        .subtitle-header {
-            font-size: 40px;
+        .header-subtitle {
+            font-size: 28px;
             font-weight: 700;
             color: #000;
+            text-align: center;
         }
         .content {
             flex: 1;
+            padding: 25px 30px;
             overflow: hidden;
-            background: #FFF;
-            padding: 30px 35px 25px;
-        }
-        .section-title {
-            margin-top: 25px;
-            font-size: 36px;
-            font-weight: 900;
-            color: #DB2777;
-            margin-bottom: 18px;
-            border-bottom: 5px solid #FACC15;
-            padding-bottom: 10px;
-        }
-        .supp-card {
-            margin-bottom: 16px;
-            background: #D1FAE5;
-            border: 5px solid #000;
-            padding: 20px;
-            margin: 22px 0;
-            position: relative;
-            padding-left: 95px;
-            box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
-        }
-        .supp-number {
-            position: absolute;
-            left: 25px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: #DB2777;
-            color: #FFF;
-            width: 55px;
-            height: 55px;
-            border: 5px solid #000;
-            border-radius: 50%;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            font-weight: 900;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+            flex-direction: column;
+            gap: 18px;
         }
-        .supp-name {
-            font-size: 32px;
+        .content-section {
+            background: #F3F4F6;
+            border: 3px solid #000;
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .content-section.pink { background: #FEE2E2; }
+        .content-section.green { background: #D1FAE5; }
+        .content-section.blue { background: #DBEAFE; }
+        .content-section.yellow { background: #FEF3C7; }
+        .section-title {
+            font-size: 26px;
             font-weight: 900;
             color: #000;
             margin-bottom: 10px;
         }
-        .supp-why {
-            font-size: 36px;
-            color: #16A34A;
-            font-weight: 700;
+        .section-item {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1F2937;
+            margin: 6px 0;
+            line-height: 1.3;
         }
-        .warning-box {
-            background: #FEE2E2;
-            border: 5px solid #000;
-            padding: 20px;
-            text-align: center;
-            margin-top: 35px;
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.15);
-        }
-        .warning-text {
-            font-size: 40px;
-            font-weight: 900;
-            color: #DC2626;
-        }
+        .section-item strong { color: #000; font-weight: 900; }
         .footer {
+            height: 120px;
             background: #000;
-            height: 160px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-shrink: 0;
         }
-        .logo-footer {
-            font-size: 70px;
+        .footer-logo {
+            font-size: 48px;
             font-weight: 900;
-            color: #FACC15;
-            text-transform: uppercase;
-            margin-bottom: 15px;
+            color: #FFF;
             letter-spacing: 1px;
         }
-        .ja {
+        .footer-logo span {
             background: #FACC15;
             color: #000;
-            padding: 3px 18px;
-            margin-left: 10px;
+            padding: 2px 12px;
+            margin-left: 5px;
         }
-        .cta-footer {
-            font-size: 36px;
-            color: #FFF;
+        .footer-cta {
+            font-size: 24px;
+            color: #FACC15;
             font-weight: 700;
         }
     </style>
@@ -156,52 +117,33 @@
 <body>
     <div class="pin">
         <div class="header">
-            <div class="badge-safe">◆ SEGURO!</div>
-            <div class="title-main">PÓS-PARTO:<br>EMAGRECER</div>
-            <div class="subtitle-header">5 Suplementos Seguros</div>
+            <div class="header-badge">SEGURO!</div>
+            <div class="header-title">PÓS-PARTO:<br>EMAGR ECER</div>
+            <div class="header-subtitle">5 Suplementos Seguros</div>
         </div>
         
         <div class="content">
-            <div class="section-title">PODE AMAMENTANDO:</div>
             
-            <div class="supp-card">
-                <div class="supp-number">1</div>
-                <div class="supp-name">PROTEÍNA (WHEY)</div>
-                <div class="supp-why">Massa muscular + saciedade</div>
+            <div class="content-section green">
+                <div class="section-title">PODE AMAMENTANDO:</div>
+                <div class="section-item"><strong>PROTEÍNA (WHEY)</strong> - saciedade</div>
+                <div class="section-item"><strong>FERRO</strong> - cansaço comum</div>
+                <div class="section-item"><strong>ÔMEGA-3</strong> - bebê OK</div>
+                <div class="section-item"><strong>VITAMINA D</strong> - imunidade</div>
+                <div class="section-item"><strong>MAGNÉSIO</strong> - sono</div>
             </div>
             
-            <div class="supp-card">
-                <div class="supp-number">2</div>
-                <div class="supp-name">FERRO</div>
-                <div class="supp-why">Cansaço pós-parto comum!</div>
-            </div>
-            
-            <div class="supp-card">
-                <div class="supp-number">3</div>
-                <div class="supp-name">ÔMEGA-3</div>
-                <div class="supp-why">Reduz inflamação + bebê OK</div>
-            </div>
-            
-            <div class="supp-card">
-                <div class="supp-number">4</div>
-                <div class="supp-name">VITAMINA D</div>
-                <div class="supp-why">Imunidade mãe + bebê</div>
-            </div>
-            
-            <div class="supp-card">
-                <div class="supp-number">5</div>
-                <div class="supp-name">MAGNÉSIO</div>
-                <div class="supp-why">Sono + ansiedade pós-parto</div>
-            </div>
-            
-            <div class="warning-box">
-                <div class="warning-text">⚠️ EVITAR: Termogênicos, cafeína alta, diuréticos!</div>
+            <div class="content-section pink">
+                <div class="section-title">EVITAR:</div>
+                <div class="section-item">▸ Termogênicos</div>
+                <div class="section-item">▸ Cafeína >300mg/dia</div>
+                <div class="section-item">▸ Diuréticos</div>
             </div>
         </div>
         
         <div class="footer">
-            <div class="logo-footer">SUPLEMENTA<span class="ja">JÁ</span></div>
-            <div class="cta-footer">Artigo completo na descrição ↓</div>
+            <div class="footer-logo">SUPLEMENTA<span>JÁ</span></div>
+            <div class="footer-cta">Artigo completo na descrição ↓</div>
         </div>
     </div>
 </body>

@@ -2,217 +2,146 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Pin: Ômega-3 para Mulheres - 5 Benefícios</title>
+    <meta name="viewport" content="width=1000, initial-scale=1.0">
+    <title>Pin 09</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 1600px;
-            padding: 20px;
-        }
-        .pin {
-            display: flex;
-            flex-direction: column;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #FFF;
             width: 1000px;
             height: 1500px;
-            background: white;
-            border: 6px solid #000;
-            box-shadow: 10px 10px 0 rgba(0,0,0,0.3);
+            overflow: hidden;
         }
-        .header {
-            background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
-            height: 400px;
-            border-bottom: 6px solid #000;
+        .pin {
+            width: 1000px;
+            height: 1500px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            background: #FFF;
+        }
+        .header {
+            height: 250px;
+            background: linear-gradient(135deg, #0EA5E9 0%, #0284C7 100%);
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            padding: 40px;
+            justify-content: center;
+            padding: 30px;
+            flex-shrink: 0;
         }
-        .icon-huge {
-            font-size: 120px;
-            margin-bottom: 15px;
-            filter: drop-shadow(5px 5px 0 rgba(0,0,0,0.3));
-        }
-        .title-main {
-            font-size: 68px;
-            font-weight: 900;
+        .header-badge {
+            background: #10B981;
             color: #FFF;
-            text-align: center;
-            line-height: 1;
-            text-shadow: 4px 4px 0 rgba(0,0,0,0.3);
-            margin-bottom: 25px;
-            text-transform: uppercase;
+            font-size: 32px;
+            font-weight: 900;
+            padding: 10px 30px;
+            border-radius: 8px;
+            margin-bottom: 15px;
         }
-        .subtitle-header {
-            font-size: 36px;
+        .header-title {
+            font-size: 56px;
+            font-weight: 900;
+            color: #000;
+            text-align: center;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+        .header-subtitle {
+            font-size: 28px;
             font-weight: 700;
-            color: #FACC15;
+            color: #000;
+            text-align: center;
         }
         .content {
             flex: 1;
+            padding: 25px 30px;
             overflow: hidden;
-            background: #FFF;
-            padding: 30px 35px 25px;
-        }
-        .section-title {
-            margin-top: 25px;
-            font-size: 36px;
-            font-weight: 900;
-            color: #0284C7;
-            margin-bottom: 18px;
-            border-bottom: 5px solid #FACC15;
-            padding-bottom: 10px;
-        }
-        .benefit-card {
-            margin-bottom: 18px;
-            background: #F3F4F6;
-            border: 5px solid #000;
-            padding: 20px;
-            margin: 22px 0;
-            position: relative;
-            padding-left: 100px;
-            box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
-        }
-        .benefit-icon {
-            position: absolute;
-            left: 25px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 36px;
-        }
-        .benefit-title {
-            font-size: 36px;
-            font-weight: 900;
-            color: #000;
-            margin-bottom: 8px;
-        }
-        .benefit-desc {
-            font-size: 29px;
-            color: #1F2937;
-            font-weight: 600;
-        }
-        .dose-box {
-            background: #FACC15;
-            border: 5px solid #000;
-            padding: 30px 40px;
-            text-align: center;
-            margin-top: 35px;
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.2);
-        }
-        .dose-title {
-            font-size: 32px;
-            font-weight: 900;
-            color: #000;
-            margin-bottom: 15px;
-        }
-        .dose-text {
-            font-size: 32px;
-            font-weight: 700;
-            color: #000;
-        }
-        .footer {
-            background: #000;
-            height: 160px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            gap: 18px;
+        }
+        .content-section {
+            background: #F3F4F6;
+            border: 3px solid #000;
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .content-section.pink { background: #FEE2E2; }
+        .content-section.green { background: #D1FAE5; }
+        .content-section.blue { background: #DBEAFE; }
+        .content-section.yellow { background: #FEF3C7; }
+        .section-title {
+            font-size: 26px;
+            font-weight: 900;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .section-item {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1F2937;
+            margin: 6px 0;
+            line-height: 1.3;
+        }
+        .section-item strong { color: #000; font-weight: 900; }
+        .footer {
+            height: 120px;
+            background: #000;
+            display: flex;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-shrink: 0;
         }
-        .logo-footer {
-            font-size: 70px;
+        .footer-logo {
+            font-size: 48px;
             font-weight: 900;
-            color: #FACC15;
-            text-transform: uppercase;
-            margin-bottom: 15px;
+            color: #FFF;
             letter-spacing: 1px;
         }
-        .ja {
+        .footer-logo span {
             background: #FACC15;
             color: #000;
-            padding: 3px 18px;
-            margin-left: 10px;
+            padding: 2px 12px;
+            margin-left: 5px;
         }
-        .cta-footer {
-            font-size: 36px;
-            color: #FFF;
-            font-weight: 700;
-        }
-        .logo-footer {
-            font-size: 70px;
-            font-weight: 900;
+        .footer-cta {
+            font-size: 24px;
             color: #FACC15;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-            letter-spacing: 1px;
-        }
-        .ja {
-            background: #FACC15;
-            color: #000;
-            padding: 3px 18px;
-            margin-left: 10px;
-        }
-        .cta-footer {
-            font-size: 36px;
-            color: #FFF;
             font-weight: 700;
         }
-</style>
+    </style>
 </head>
 <body>
     <div class="pin">
         <div class="header">
-            <div class="icon-huge">◊</div>
-            <div class="title-main">ÔMEGA-3<br>MULHERES</div>
-            <div class="subtitle-header">5 Benefícios Comprovados</div>
+            <div class="header-badge">5 BENEFÍCIOS</div>
+            <div class="header-title">ÔMEGA-3:<br>MULHERES</div>
+            <div class="header-subtitle">Benefícios Comprovados</div>
         </div>
         
         <div class="content">
-            <div class="section-title">POR QUE TOMAR:</div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">♥</div>
-                <div class="benefit-title">CORAÇÃO</div>
-                <div class="benefit-desc">Reduz triglicerídeos em 30%</div>
+            <div class="content-section blue">
+                <div class="section-title">POR QUE TODA MULHER DEVERIA TOMAR:</div>
+                <div class="section-item"><strong>CORAÇÃO:</strong> -30% triglicerídeos</div>
+                <div class="section-item"><strong>CÉREBRO:</strong> memória + foco</div>
+                <div class="section-item"><strong>HUMOR:</strong> reduz ansiedade</div>
+                <div class="section-item"><strong>PELE:</strong> hidratação</div>
+                <div class="section-item"><strong>ARTICULAÇÕES:</strong> -40% dor</div>
             </div>
             
-            <div class="benefit-card">
-                <div class="benefit-icon">◈</div>
-                <div class="benefit-title">CÉREBRO</div>
-                <div class="benefit-desc">Melhora memória + foco</div>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">☺</div>
-                <div class="benefit-title">HUMOR</div>
-                <div class="benefit-desc">Reduz ansiedade/depressão</div>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">◆</div>
-                <div class="benefit-title">PELE</div>
-                <div class="benefit-desc">Anti-inflamatório + hidratação</div>
-            </div>
-            
-            <div class="benefit-card">
-                <div class="benefit-icon">⊕</div>
-                <div class="benefit-title">ARTICULAÇÕES</div>
-                <div class="benefit-desc">Reduz dor em 40%</div>
-            </div>
-            
-            <div class="dose-box">
-                <div class="dose-title">DOSE IDEAL:</div>
-                <div class="dose-text">1-2g/dia EPA+DHA combinados</div>
+            <div class="content-section yellow">
+                <div class="section-title">DOSE IDEAL:</div>
+                <div class="section-item"><strong>1-2g/dia</strong> EPA+DHA combinados</div>
             </div>
         </div>
         
         <div class="footer">
-            <div class="logo-footer">SUPLEMENTA<span class="ja">JÁ</span></div>
-            <div class="cta-footer">Artigo completo na descrição ↓</div>
+            <div class="footer-logo">SUPLEMENTA<span>JÁ</span></div>
+            <div class="footer-cta">Artigo completo na descrição ↓</div>
         </div>
     </div>
 </body>
