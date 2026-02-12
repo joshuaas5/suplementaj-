@@ -1,4 +1,4 @@
-# 💜 6 PINS PRONTOS - FOCO MULHERES!
+# 💜 11 PINS PRONTOS - FOCO MULHERES!
 
 ## 📂 **ARQUIVOS FINAIS:**
 
@@ -9,20 +9,32 @@
 4. ✅ `pin_08_ferro_mulheres_anemia.html` 🩺 **Saúde Feminina**
 5. ✅ `pin_09_ansiedade_suplementos.html` 🧠 **Mental**
 6. ✅ `pin_10_tpm_suplementos.html` 💜 **TPM**
+7. ✅ `pin_11_biotina_cabelo_timeline.html` 💇 **VIRAL - Timeline Realista!**
+8. ✅ `pin_12_insonia_feminina_melatonina.html` 😴 **Sono**
+9. ✅ `pin_13_omega3_mulheres.html` 🐟 **Coração + Cérebro**
+10. ✅ `pin_14_menopausa_vitaminas.html` 🌺 **Menopausa**
+11. ✅ `pin_15_pos_parto_emagrecimento.html` 🤱 **Pós-Parto SEGURO**
 
 ---
 
 ## 🎯 **ORDEM DE POSTAGEM:**
 
-### **HOJE (PRIORIDADE MÁXIMA):**
+### **SEMANA 1 (HOJE + 3 DIAS):**
 1. 🔥 **Pin #6 - Pós-Monjaro: Flacidez** (tema EXPLOSIVO!)
 2. 💅 **Pin #7 - Colágeno Funciona?** (beleza = viral)
-3. 🩺 **Pin #8 - Ferro Mulheres** (cansaço comum!)
+3. 💇 **Pin #11 - Biotina Cabelo Timeline** (viral - todo mundo pergunta!)
+4. 🩺 **Pin #8 - Ferro Mulheres** (cansaço comum!)
+5. 😴 **Pin #12 - Insônia Melatonina**
 
-### **AMANHÃ:**
-4. 🧠 **Pin #9 - Ansiedade Suplementos**
-5. 💜 **Pin #10 - TPM Suplementos**
-6. ⭐ **Pin #1 - Whey Isolado vs Concentrado**
+### **SEMANA 2:**
+6. 🧠 **Pin #9 - Ansiedade Suplementos**
+7. 💜 **Pin #10 - TPM Suplementos**
+8. 🤱 **Pin #15 - Pós-Parto Emagrecimento** (trending!)
+9. 🐟 **Pin #13 - Ômega-3 Mulheres**
+10. 🌺 **Pin #14 - Menopausa Vitaminas**
+
+### **SEMANA 3:**
+11. ⭐ **Pin #1 - Whey Isolado vs Concentrado**
 
 ---
 
@@ -204,6 +216,135 @@ https://suplementaja.com/blog/magnesio-ansiedade-sono-tipos
 https://suplementaja.com/blog/calcio-ossos-osteoporose-qual-tomar
 
 #tpm #colica #menstruacao #saudefeminina #magnesio #vitaminab6 #calcio #suplementos #bemestar
+```
+
+### **Pin #11 - Biotina:**
+```
+Biotina 10mg: Cabelo Cresce EM QUANTO TEMPO? 💇
+
+TIMELINE REALISTA (sem enganação!):
+
+⏰ 30 DIAS: Menos queda (fios param de cair no chuveiro)
+⏰ 60 DIAS: Unhas fortes (crescem 12% mais rápido)
+⏰ 90 DIAS: Cabelo cresce (visível na linha da raiz)
+⏰ 6 MESES: Resultado total (cabelo visivelmente mais denso)
+
+DOSE IDEAL: 10mg/dia
+(5mg NÃO funciona tão bem!)
+
+POR QUE FUNCIONA:
+• Fortalece fios + unhas
+• Estimula crescimento
+• Reduz quebra
+
+Leia o guia completo:
+https://suplementaja.com/blog/biotina-cabelo-unhas-dose-funciona
+
+#biotina #cabelo #unhas #quedadecabelo #crescimentocapilar #beleza #suplementos #haircare #hairgrowth
+```
+
+### **Pin #12 - Insônia:**
+```
+Insônia Feminina: Melatonina Dose Certa 🌙
+
+VOCÊ:
+😴 Demora 1h+ pra dormir?
+😴 Acorda 3h da manhã?
+😴 Sono fragmentado?
+
+DOSES CERTAS:
+
+0.5mg → Insônia LEVE (dose fisiológica - ideal começar)
+3mg → Insônia MODERADA (mais usada - eficaz 85%)
+10mg → Insônia SEVERA (só se 3mg não funcionar!)
+
+💡 TIMING: Tomar 30-60min ANTES de dormir!
+
+IMPORTANTE:
+• Não vicía
+• Não dá ressaca
+• Regula ciclo circadiano
+
+Leia o guia completo:
+https://suplementaja.com/blog/melatonina-sono-insonia-dose-ideal
+
+#insonia #sono #melatonina #dormirmal #saudemental #bemestar #suplementos #sleep
+```
+
+### **Pin #13 - Ômega-3:**
+```
+Ômega-3 para Mulheres: 5 Benefícios Comprovados 🐟
+
+POR QUE TODA MULHER DEVERIA TOMAR:
+
+❤️ CORAÇÃO: Reduz triglicerídeos em 30%
+🧠 CÉREBRO: Melhora memória + foco
+😌 HUMOR: Reduz ansiedade/depressão
+💅 PELE: Anti-inflamatório + hidratação
+🦴 ARTICULAÇÕES: Reduz dor em 40%
+
+DOSE IDEAL: 1-2g/dia EPA+DHA combinados
+
+MELHOR FORMA:
+• Óleo de peixe (alta concentração)
+• Tomar com refeição
+• Refrigerado (evita oxidação)
+
+Leia o guia completo:
+https://suplementaja.com/blog/omega-3-beneficios-comprovados
+
+#omega3 #saudefeminina #coração #cerebro #pele #bemestar #suplementos #antiinflamatorio
+```
+
+### **Pin #14 - Menopausa:**
+```
+Menopausa: 4 Vitaminas Essenciais 🌺
+
+Sofre com:
+🌡️ Ondas de calor intensas
+🌡️ Ganho de peso fácil
+🌡️ Ossos fracos (osteoporose)
+
+SOLUÇÃO:
+
+1️⃣ CÁLCIO + D3: Previne osteoporose (1000mg + 2000UI/dia)
+2️⃣ VITAMINA K2: Direciona cálcio pros ossos (100-200mcg/dia)
+3️⃣ MAGNÉSIO: Reduz ondas de calor + sono (300-400mg/dia)
+4️⃣ ÔMEGA-3: Reduz inflamação + peso (1-2g/dia)
+
+💡 COMBO: 4 juntos = proteção TOTAL!
+
+IMPORTANTE: Ossos perdem 20% densidade nos 5 anos pós-menopausa!
+
+Leia o guia completo:
+https://suplementaja.com/blog/vitamina-k2-d3-calcio-ossos-coracao
+
+#menopausa #ondadecalor #osteoporose #saudefeminina #calcio #vitaminad #suplementos #bemestar
+```
+
+### **Pin #15 - Pós-Parto:**
+```
+Emagrecimento Pós-Parto: 5 Suplementos SEGUROS 🤱
+
+PODE AMAMENTANDO! ✅
+
+1️⃣ PROTEÍNA (WHEY): Massa muscular + saciedade
+2️⃣ FERRO: Cansaço pós-parto comum!
+3️⃣ ÔMEGA-3: Reduz inflamação + bebê OK
+4️⃣ VITAMINA D: Imunidade mãe + bebê
+5️⃣ MAGNÉSIO: Sono + ansiedade pós-parto
+
+⚠️ EVITAR:
+• Termogênicos
+• Cafeína alta (>300mg/dia)
+• Diuréticos
+
+IMPORTANTE: Lactação queima 500cal/dia naturalmente!
+
+Leia o guia completo:
+https://suplementaja.com/blog/proteina-por-dia-quanto-consumir-guia-completo
+
+#posparto #amamentacao #emagrecimento #lactacao #saudefeminina #maternidade #suplementos #bemestar
 ```
 
 ---
