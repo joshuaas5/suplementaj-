@@ -6,6 +6,20 @@
 - **15 arquivos .md** com descrições prontas (copiar/colar)
 - **Todos 1000x1500px** (padrão Pinterest)
 - **Footer padronizado:** "Artigo completo na descrição ↓"
+- **🔥 NOVO: Gerador automático de imagens PNG!**
+
+---
+
+## 🖼️ **GERAR IMAGENS PNG (AUTOMÁTICO):**
+
+```bash
+cd pinterest/
+node gerar_imagens.js
+```
+
+**Output:** 15 arquivos `pin_01.png` até `pin_15.png` (1000x1500px, alta qualidade)
+
+**Pronto para upload direto no Pinterest!** Sem precisar tirar screenshot manual! 🚀
 
 ---
 
@@ -63,16 +77,31 @@ pin_02.md → Descrição Pin #02
 pin_15.md → Descrição Pin #15
 ```
 
+### **Imagens PNG (Geradas Automaticamente):**
+```
+pin_01.png → 1000x1500px @ 2x (alta qualidade)
+pin_02.png → 1000x1500px @ 2x
+...
+pin_15.png → 1000x1500px @ 2x
+```
+
 ---
 
-## 🎯 **COMO POSTAR:**
+## 🎯 **COMO POSTAR (MÉTODO FÁCIL):**
 
-1. **Abrir HTML** no navegador (Chrome/Edge)
-2. **Screenshot** 1000x1500px (F11 fullscreen + Win+Shift+S)
-3. **Pinterest Pin Builder** - upload imagem
-4. **Copiar descrição** do arquivo `.md` correspondente
-5. **Colar no Pinterest** (500-600 chars + hashtags + URL)
-6. **Publicar!**
+### **1. Gerar Imagens:**
+```bash
+node gerar_imagens.js
+```
+
+### **2. Upload Pinterest:**
+1. Abrir Pinterest Pin Builder
+2. Upload `pin_01.png`
+3. Abrir `pin_01.md` e copiar descrição
+4. Colar descrição
+5. Publicar!
+
+**Repetir para pins 2-15** 💜
 
 ---
 
@@ -109,4 +138,4 @@ Artigo completo na descrição ↓ (42px, branco)
 
 **GitHub:** https://github.com/joshuaas5/suplementaj-/tree/main/pinterest
 
-**TUDO PRONTO PARA POSTAR! 💜🔥**
+**TUDO PRONTO! SÓ RODAR `node gerar_imagens.js` E FAZER UPLOAD! 💜🔥**
