@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, initial-scale=1.0">
+    <title>Pin 01</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #FFF;
+            width: 1000px;
+            height: 1500px;
+            overflow: hidden;
+        }
+        .pin {
+            width: 1000px;
+            height: 1500px;
+            display: flex;
+            flex-direction: column;
+            background: #FFF;
+        }
+        
+        /* HEADER - 280px */
+        .header {
+            height: 280px;
+            background: linear-gradient(135deg, #F472B6 0%, #DB2777 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .header-icon {
+            font-size: 80px;
+            margin-bottom: 15px;
+            filter: drop-shadow(4px 4px 0 rgba(0,0,0,0.2));
+        }
+        .header-badge {
+            background: #EF4444;
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 900;
+            padding: 8px 25px;
+            border-radius: 30px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .header-title {
+            font-size: 58px;
+            font-weight: 900;
+            color: #000;
+            text-align: center;
+            line-height: 1;
+            margin-bottom: 12px;
+            text-shadow: 2px 2px 0 rgba(255,255,255,0.3);
+        }
+        .header-subtitle {
+            font-size: 30px;
+            font-weight: 700;
+            color: #000;
+            text-align: center;
+        }
+        
+        /* CONTENT */
+        .content {
+            flex: 1;
+            padding: 30px 35px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+        
+        /* SECTION TITLE */
+        .section-title {
+            font-size: 32px;
+            font-weight: 900;
+            color: #000;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 4px solid currentColor;
+        }
+        
+        /* CARDS 3 COLUNAS */
+        .cards-3col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+        .card-item {
+            background: #FFF;
+            border: 4px solid #000;
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+            box-shadow: 5px 5px 0 rgba(0,0,0,0.15);
+        }
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .card-text {
+            font-size: 19px;
+            font-weight: 700;
+            color: #1F2937;
+            line-height: 1.2;
+        }
+        
+        /* LIST COM ÍCONES */
+        .list-icons {
+            background: #D1FAE5;
+            border: 4px solid #000;
+            border-radius: 12px;
+            padding: 20px 25px;
+            box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+        }
+        .list-item {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1F2937;
+            margin: 10px 0;
+            padding-left: 40px;
+            position: relative;
+            line-height: 1.3;
+        }
+        .list-item::before {
+            content: attr(data-icon);
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 28px;
+            color: #10B981;
+            font-weight: 900;
+        }
+        .list-item strong {
+            color: #000;
+            font-weight: 900;
+        }
+        
+        /* HIGHLIGHT BOX */
+        .highlight {
+            background: #FACC15;
+            border: 4px solid #000;
+            border-radius: 12px;
+            padding: 20px 30px;
+            text-align: center;
+            box-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+            transform: rotate(-1deg);
+        }
+        .highlight-text {
+            font-size: 26px;
+            font-weight: 900;
+            color: #000;
+        }
+        .highlight-text strong {
+            font-size: 30px;
+        }
+        
+        /* FOOTER */
+        .footer {
+            height: 130px;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+        .footer-logo {
+            font-size: 52px;
+            font-weight: 900;
+            color: #FFF;
+            letter-spacing: 1px;
+        }
+        .footer-logo span {
+            background: #FACC15;
+            color: #000;
+            padding: 3px 14px;
+            margin-left: 6px;
+            border-radius: 4px;
+        }
+        .footer-cta {
+            font-size: 26px;
+            color: #FACC15;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="pin">
+        <div class="header">
+            <div class="header-icon">⚠</div>
+            <div class="header-badge">REALIDADE!</div>
+            <div class="header-title">PÓS-MONJARO:<br>FLACIDEZ</div>
+            <div class="header-subtitle">O Que Ninguém Te Conta</div>
+        </div>
+        
+        <div class="content">
+            
+            <div>
+                <div class="section-title" style="color: #DB2777">3 PROBLEMAS COMUNS:</div>
+                <div class="cards-3col">
+                    
+                    <div class="card-item" style="background: #FEE2E2">
+                        <span class="card-icon">●</span>
+                        <div class="card-text">Pele solta<br>abdômen</div>
+                    </div>
+                    <div class="card-item" style="background: #FEE2E2">
+                        <span class="card-icon">●</span>
+                        <div class="card-text">Flacidez<br>braços</div>
+                    </div>
+                    <div class="card-item" style="background: #FEE2E2">
+                        <span class="card-icon">●</span>
+                        <div class="card-text">Celulite<br>pós-perda</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="list-icons" style="background: #D1FAE5">
+                <div class="section-title" style="color: #10B981">SUPLEMENTOS:</div>
+                
+                <div class="list-item" data-icon="✓"><strong>Colágeno</strong> 10g/dia</div>
+                <div class="list-item" data-icon="✓"><strong>Proteína</strong> 1.6g/kg</div>
+                <div class="list-item" data-icon="✓"><strong>Vitamina C + Zinco</strong></div>
+            </div>
+            
+            <div class="highlight" style="background: #FACC15">
+                <div class="highlight-text"><strong>CIRURGIA:</strong> Considerar se >30kg perdidos</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-logo">SUPLEMENTA<span>JÁ</span></div>
+            <div class="footer-cta">Artigo completo na descrição ↓</div>
+        </div>
+    </div>
+</body>
+</html>
