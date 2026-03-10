@@ -34,9 +34,6 @@ export const metadata: Metadata = {
   description: "Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas. Gratuito e sem cadastro.",
   keywords: ["suplementação", "vitaminas", "minerais", "saúde", "nutrição", "vitamina d", "b12", "cálcio", "magnésio", "creatina", "whey protein", "omega 3"],
   authors: [{ name: "Suplementa Já" }],
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: "Suplementa Já - Recomendações Personalizadas de Suplementação",
     description: "Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas",

@@ -4,19 +4,17 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   // Pega o hostname atual (ex: suplementaja.vercel.app)
   const hostname = request.headers.get('host') || ''
-  
-  // Define os dominios oficiais
-  const officialDomains = ['suplementaja.com', 'www.suplementaja.com']
+
   const isLocalhost = hostname.includes('localhost') || hostname.includes('127.0.0.1')
 
-  // Se não for localhost e não estiver na lista de domínios oficiais, redireciona
-  // Isso pega qualquer variação .vercel.app
-  if (!isLocalhost && !officialDomains.includes(hostname)) {
+  // Se não for localhost e não for o domínio oficial (www), redireciona
+  // Isso pega qualquer variação .vercel.app ou suplementaja.com
+  if (!isLocalhost && hostname !== 'www.suplementaja.com') {
     const url = request.nextUrl.clone()
-    url.hostname = 'suplementaja.com'
+    url.hostname = 'www.suplementaja.com'
     url.protocol = 'https'
     url.port = ''
-    
+
     // Mantém o path e query params originais
     return NextResponse.redirect(url, 301)
   }
