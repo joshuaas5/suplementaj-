@@ -114,6 +114,68 @@ const nextConfig = {
         destination: '/blog/colageno-hidrolisado-funciona-pele-articulacoes',
         permanent: true,
       },
+      // Novos redirects de 404 mapeados pelo Search Console em 10 de Março
+      {
+        source: '/blog/erros-contagem-calorias',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/whey-protein-intolerantes-lactose',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/whey-isolado-vs-concentrado',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-como-tomar',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/melhor-marca-creatina-brasil',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      // O redirect '/blog/guia-completo-creatina-2026' dando 404 significa que em algum momento a URL /blog/creatina-guia-completo-ganho-muscular estava redirecionando para a errada, ou a nova parou de existir temporáriamente. O source e o dest do array antigo estavam invertidos com o slug atual.
+      {
+        source: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        permanent: true,
+      },
+      {
+        source: '/blog/guia-whey-protein-2026',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/macros-para-definicao-muscular',
+        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-retencao-liquido',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        permanent: true,
+      },
+      {
+        source: '/blog/bulking-calorias-superavit',
+        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
+        permanent: true,
+      },
+      {
+        source: '/blog/maca-peruana-libido-energia-horm\u00F4nios',
+        destination: '/blog/maca-peruana-libido-energia-hormônios',
+        permanent: true,
+      },
+      {
+        source: '/blog/maca-peruana-libido-energia-hormonios',
+        destination: '/blog/maca-peruana-libido-energia-hormônios',
+        permanent: true,
+      },
     ];
   },
 };
