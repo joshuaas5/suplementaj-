@@ -91,9 +91,9 @@ vercel --prod
 - Image optimization with Next.js Image component
 - Lazy loading for non-critical resources
 
-## License
+## Live Demo
 
-MIT
+[https://suplementaja.com](https://suplementaja.com)
 
 ---
 
