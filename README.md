@@ -28,7 +28,7 @@ Suplementa Já helps users discover the right supplements based on their health 
 
 ## Live Demo
 
-[https://suplementaja.com](https://suplementaja.com)
+[https://www.suplementaja.com](https://www.suplementaja.com)
 
 ---
 
