@@ -1,10 +1,10 @@
 # Suplementa Já
 
-A comprehensive nutritional supplement recommendation platform built with Next.js, featuring an intelligent assessment system, detailed nutrient database, and evidence-based health content.
+A nutritional supplement recommendation platform built with Next.js. Features a personalized health assessment, a detailed nutrient database, and evidence-based educational content on supplementation.
 
 ## Overview
 
-Suplementa Já helps users discover the right nutritional supplements based on their individual health goals, dietary habits, and lifestyle factors. The platform combines a personalized quiz system with scientifically-backed educational content.
+Suplementa Já helps users discover the right supplements based on their health goals, diet, and lifestyle. The platform combines a 6-step questionnaire with a knowledge base of 40+ nutrients and 30+ educational articles.
 
 ## Features
 
@@ -25,71 +25,6 @@ Suplementa Já helps users discover the right nutritional supplements based on t
 - **PDF Generation**: jsPDF
 - **Analytics**: Google Analytics 4
 - **Monetization**: Google AdSense ready
-
-## Architecture
-
-```
-app/
-├── page.tsx              # Homepage
-├── layout.tsx            # Root layout
-├── sitemap.ts            # Dynamic sitemap
-├── avaliacao/            # Assessment quiz (6 steps)
-├── resultados/           # Results page
-├── nutrientes/           # Nutrient database
-├── blog/                 # Educational articles
-├── sobre/                # About page
-├── termos/               # Terms of service
-├── privacidade/          # Privacy policy
-└── api/subscribe/        # Newsletter API
-
-components/               # Reusable UI components
-lib/                     # Utilities and helpers
-public/                  # Static assets
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm/yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/joshuaas5/suplementaj-.git
-
-# Navigate to the project
-cd suplementaj-
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-The application will be available at `http://localhost:3000`
-
-## Deployment
-
-```bash
-npm run build
-```
-
-Deploy on Vercel:
-
-```bash
-vercel --prod
-```
-
-## SEO & Performance
-
-- Dynamic sitemap generation
-- Open Graph meta tags for social sharing
-- Semantic HTML structure
-- Image optimization with Next.js Image component
-- Lazy loading for non-critical resources
 
 ## Live Demo
 
