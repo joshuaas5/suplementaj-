@@ -14,6 +14,7 @@
     "@vercel/analytics": "^1.6.1",
     "@vercel/kv": "^3.0.0",
     "clsx": "^2.1.1",
+    "iconv-lite": "^0.7.2",
     "jspdf": "^3.0.3",
     "jspdf-autotable": "^5.0.2",
     "lucide-react": "^0.554.0",
