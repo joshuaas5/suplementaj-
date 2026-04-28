@@ -27,13 +27,10 @@ export function ManualDisplayAd({ className = '' }: ManualDisplayAdProps) {
   useEffect(() => {
     if (!mounted || !adRef.current) return
 
-    console.log('🎯 ManualDisplayAd initializing ad:', { slot: '3400740255' })
-    
     try {
       ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      console.log('✅ Ad pushed to adsbygoogle')
-    } catch (err) {
-      console.error('❌ AdSense error:', err)
+    } catch {
+      // Silently fail - AdSense will retry
     }
   }, [mounted])
 

@@ -32,8 +32,8 @@ export function DisplayAd({
       try {
         isLoaded.current = true
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      } catch (err) {
-        console.error('AdSense error:', err)
+      } catch {
+        // Silently fail - AdSense will retry
       }
     }
   }, [adsenseId])
@@ -56,7 +56,7 @@ export function DisplayAd({
   }
 
   return (
-    <div className={className}>
+    <div className={className} style={{ minHeight: '280px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -88,7 +88,7 @@ export function HorizontalAd({ className = '' }: { className?: string }) {
   if (!adsenseId) return null
 
   return (
-    <div className={`my-8 ${className}`}>
+    <div className={`my-8 ${className}`} style={{ minHeight: '280px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -119,7 +119,7 @@ export function InArticleAd({ className = '' }: { className?: string }) {
   if (!adsenseId) return null
 
   return (
-    <div className={`my-6 ${className}`}>
+    <div className={`my-6 ${className}`} style={{ minHeight: '280px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -151,7 +151,7 @@ export function RectangleAd({ className = '' }: { className?: string }) {
   if (!adsenseId) return null
 
   return (
-    <div className={`my-4 ${className}`}>
+    <div className={`my-4 ${className}`} style={{ minHeight: '250px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
