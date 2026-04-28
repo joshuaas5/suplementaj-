@@ -44,6 +44,9 @@ export async function generateMetadata({ params }: PageProps) {
     title: `${nutriente.nome} (${nutriente.nome_cientifico}) - Suplementa Já`,
     description: nutriente.descricao_curta,
     keywords: nutriente.seo?.keywords?.join(', '),
+    alternates: {
+      canonical: `https://www.suplementaja.com/nutrientes/${params.slug}`,
+    },
   }
 }
 

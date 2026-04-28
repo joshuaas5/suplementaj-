@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://suplementaja.vercel.app/sitemap.xml
+Sitemap: https://www.suplementaja.com/sitemap.xml
 
 # Bloquear apenas admin/private se houver
 Disallow: /api/

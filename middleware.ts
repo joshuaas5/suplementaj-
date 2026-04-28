@@ -19,7 +19,26 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  return NextResponse.next()
+  const response = NextResponse.next()
+
+  // Adiciona noindex em páginas thin que não devem ser indexadas
+  // Isso economiza crawl budget e evita thin content penalties
+  const pathname = request.nextUrl.pathname
+  const noIndexPaths = [
+    '/avaliacao/passo-1',
+    '/avaliacao/passo-2',
+    '/avaliacao/passo-3',
+    '/avaliacao/passo-4',
+    '/avaliacao/passo-5',
+    '/avaliacao/passo-6',
+    '/resultados/local',
+  ]
+
+  if (noIndexPaths.some(path => pathname.startsWith(path))) {
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow')
+  }
+
+  return response
 }
 
 export const config = {

@@ -50,11 +50,29 @@ const nextConfig = {
         ],
       },
       {
-        source: '/(.*)',
+        source: '/blog/:path*',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=3600, stale-while-revalidate=86400',
+            value: 'public, max-age=60, stale-while-revalidate=300',
+          },
+        ],
+      },
+      {
+        source: '/nutrientes/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=60, stale-while-revalidate=300',
+          },
+        ],
+      },
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=0, must-revalidate',
           },
         ],
       },
@@ -67,6 +85,72 @@ const nextConfig = {
         source: '/blog/creatina-guia-completo-ganho-muscular',
         destination: '/blog/guia-completo-creatina-2026',
         permanent: true, // 301
+      },
+      // Todos os artigos de creatina consolidados para o guia principal
+      {
+        source: '/blog/creatina-como-tomar',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-antes-ou-depois-treino',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-e-cafe',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-engorda',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-fase-carga-necessaria',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-faz-mal',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-monohidratada-vs-outras',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-para-idosos',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-para-mulheres',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-para-que-serve',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-quem-nao-deve-tomar',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/creatina-retencao-liquido',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/melhor-marca-creatina-brasil',
+        destination: '/blog/guia-completo-creatina-2026',
+        permanent: true,
       },
       // Redirects: URLs antigas com acentos -> novas sem acentos
       {
@@ -140,12 +224,8 @@ const nextConfig = {
         destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
-      // O redirect '/blog/guia-completo-creatina-2026' dando 404 significa que em algum momento a URL /blog/creatina-guia-completo-ganho-muscular estava redirecionando para a errada, ou a nova parou de existir temporáriamente. O source e o dest do array antigo estavam invertidos com o slug atual.
-      {
-        source: '/blog/guia-completo-creatina-2026',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
-        permanent: true,
-      },
+      // REMOVIDO: Redirect que criava loop infinito
+      // /blog/guia-completo-creatina-2026 é a URL canônica principal
       {
         source: '/blog/guia-whey-protein-2026',
         destination: '/nutrientes/proteina',
@@ -158,7 +238,7 @@ const nextConfig = {
       },
       {
         source: '/blog/creatina-retencao-liquido',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
