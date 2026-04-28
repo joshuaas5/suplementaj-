@@ -229,12 +229,12 @@ const nextConfig = {
       },
       {
         source: '/blog/maca-peruana-libido-energia-horm\u00F4nios',
-        destination: '/blog/maca-peruana-libido-energia-hormônios',
+        destination: '/blog/maca-peruana-libido-energia-hormonios',
         permanent: true,
       },
       {
         source: '/blog/maca-peruana-libido-energia-hormonios',
-        destination: '/blog/maca-peruana-libido-energia-hormônios',
+        destination: '/blog/maca-peruana-libido-energia-hormonios',
         permanent: true,
       },
       // Redirects para URLs faltantes (evitar 404)
