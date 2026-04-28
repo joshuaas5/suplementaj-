@@ -237,6 +237,147 @@ const nextConfig = {
         destination: '/blog/maca-peruana-libido-energia-hormônios',
         permanent: true,
       },
+      // Redirects para URLs faltantes (evitar 404)
+      {
+        source: '/blog/cutting-modelo-calorias-macros',
+        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
+        permanent: true,
+      },
+      {
+        source: '/blog/deficit-calorico-quanto-cortar',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/dieta-reversa-como-fazer',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/diferenca-proteinas-whey-caseina-albumina',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/economizar-300-reais-suplementacao',
+        destination: '/nutrientes',
+        permanent: true,
+      },
+      {
+        source: '/blog/como-dormir-melhor-suplementos',
+        destination: '/blog/melatonina-sono-insonia-dose-ideal',
+        permanent: true,
+      },
+      {
+        source: '/blog/como-fortalecer-imunidade-suplementos',
+        destination: '/blog/vitamina-c-imunidade-gripes-resfriados',
+        permanent: true,
+      },
+      {
+        source: '/blog/macros-para-ganho-massa',
+        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
+        permanent: true,
+      },
+      {
+        source: '/blog/melhores-marcas-whey-protein-2026',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/mifflin-st-jeor-formula',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/neat-fator-oculto-dieta',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/o-que-e-tdee-como-calcular',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/plateau-dieta-como-sair',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/pre-treino-vale-a-pena',
+        destination: '/blog/cafeina-performance-dose-pre-treino',
+        permanent: true,
+      },
+      {
+        source: '/blog/proteina-isolada-soja-veganos',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/quantas-calorias-comer-por-dia',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/receitas-whey-protein-faceis',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/refeed-day-como-fazer',
+        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
+        permanent: true,
+      },
+      {
+        source: '/blog/suplementos-para-dor-articulacao-joelho',
+        destination: '/blog/glucosamina-condroitina-articulacoes-artrite',
+        permanent: true,
+      },
+      {
+        source: '/blog/suplementos-para-emagrecer-funcionam',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/suplementos-para-iniciantes',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/whey-antes-ou-depois-treino',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/whey-com-leite-ou-agua',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/whey-engorda-ou-emagrece',
+        destination: '/nutrientes/proteina',
+        permanent: true,
+      },
+      {
+        source: '/blog/5-suplementos-mais-vendidos',
+        destination: '/nutrientes',
+        permanent: true,
+      },
+      {
+        source: '/blog/calculadora-nutricional-calorias-macros',
+        destination: '/calculadoras',
+        permanent: true,
+      },
+      {
+        source: '/blog/calorias-manutencao-encontrar',
+        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
+        permanent: true,
+      },
+      {
+        source: '/blog/quanta-agua-beber-por-dia-calculo-por-peso',
+        destination: '/calculadoras/agua',
+        permanent: true,
+      },
     ];
   },
 };
