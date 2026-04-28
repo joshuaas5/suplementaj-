@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Logo Redonda - Suplementajá</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 50px;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        
+        .logo-circle {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .logo-text {
+            font-size: 64px;
+            font-weight: 900;
+            color: #FFF;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            letter-spacing: 1px;
+            text-align: center;
+            line-height: 1;
+        }
+        
+        .logo-ja {
+            background: #FACC15;
+            color: #000;
+            padding: 8px 25px;
+            margin-top: 10px;
+            border-radius: 6px;
+            font-size: 64px;
+            font-weight: 900;
+        }
+        
+        /* Versão gradiente (opcional) */
+        .logo-circle.gradient {
+            background: linear-gradient(135deg, #DB2777 0%, #F472B6 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo redonda fundo preto -->
+    <div class="logo-circle">
+        <div class="logo-text">SUPLEMENTA</div>
+        <div class="logo-ja">JÁ</div>
+    </div>
+    
+    <!-- Logo redonda fundo gradiente rosa (opcional) -->
+    <div class="logo-circle gradient">
+        <div class="logo-text">SUPLEMENTA</div>
+        <div class="logo-ja">JÁ</div>
+    </div>
+</body>
+</html>
