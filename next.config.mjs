@@ -80,71 +80,71 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // URL canônica de creatina: /blog/creatina-guia-completo-ganho-muscular
+      // URL canônica de creatina: /blog/guia-completo-creatina-2026
       // Todos os satélites redirecionam para o guia principal
       {
         source: '/blog/creatina-como-tomar',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-antes-ou-depois-treino',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-e-cafe',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-engorda',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-fase-carga-necessaria',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-faz-mal',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-monohidratada-vs-outras',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-idosos',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-mulheres',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-que-serve',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-quem-nao-deve-tomar',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/creatina-retencao-liquido',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       {
         source: '/blog/melhor-marca-creatina-brasil',
-        destination: '/blog/creatina-guia-completo-ganho-muscular',
+        destination: '/blog/guia-completo-creatina-2026',
         permanent: true,
       },
       // Redirects: URLs antigas com acentos -> novas sem acentos
@@ -210,7 +210,7 @@ const nextConfig = {
         permanent: true,
       },
       // Nota: /blog/creatina-como-tomar e /blog/melhor-marca-creatina-brasil já estão
-      // redirecionados acima para /blog/creatina-guia-completo-ganho-muscular
+      // redirecionados acima para /blog/guia-completo-creatina-2026
       {
         source: '/blog/guia-whey-protein-2026',
         destination: '/nutrientes/proteina',
