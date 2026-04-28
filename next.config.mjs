@@ -80,76 +80,71 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // Correção de canibalização: artigos duplicados
-      {
-        source: '/blog/creatina-guia-completo-ganho-muscular',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true, // 301
-      },
-      // Todos os artigos de creatina consolidados para o guia principal
+      // URL canônica de creatina: /blog/creatina-guia-completo-ganho-muscular
+      // Todos os satélites redirecionam para o guia principal
       {
         source: '/blog/creatina-como-tomar',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-antes-ou-depois-treino',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-e-cafe',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-engorda',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-fase-carga-necessaria',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-faz-mal',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-monohidratada-vs-outras',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-idosos',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-mulheres',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-para-que-serve',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-quem-nao-deve-tomar',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/creatina-retencao-liquido',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       {
         source: '/blog/melhor-marca-creatina-brasil',
-        destination: '/blog/guia-completo-creatina-2026',
+        destination: '/blog/creatina-guia-completo-ganho-muscular',
         permanent: true,
       },
       // Redirects: URLs antigas com acentos -> novas sem acentos
@@ -214,18 +209,8 @@ const nextConfig = {
         destination: '/nutrientes/proteina',
         permanent: true,
       },
-      {
-        source: '/blog/creatina-como-tomar',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      {
-        source: '/blog/melhor-marca-creatina-brasil',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      // REMOVIDO: Redirect que criava loop infinito
-      // /blog/guia-completo-creatina-2026 é a URL canônica principal
+      // Nota: /blog/creatina-como-tomar e /blog/melhor-marca-creatina-brasil já estão
+      // redirecionados acima para /blog/creatina-guia-completo-ganho-muscular
       {
         source: '/blog/guia-whey-protein-2026',
         destination: '/nutrientes/proteina',
@@ -236,11 +221,7 @@ const nextConfig = {
         destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
         permanent: true,
       },
-      {
-        source: '/blog/creatina-retencao-liquido',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
+      // Nota: /blog/creatina-retencao-liquido já está redirecionado acima
       {
         source: '/blog/bulking-calorias-superavit',
         destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
