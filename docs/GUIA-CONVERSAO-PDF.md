@@ -151,16 +151,16 @@ await transporter.sendMail({
 
 ---
 
-## 💡 ALTERNATIVA RÁPIDA: USAR IA
+## 💡 ALTERNATIVA RÁPIDA: FERRAMENTAS DE DESIGN
 
-### ChatGPT + DALL-E 3:
+### Canva/Figma:
 
-1. Pedir para ChatGPT gerar layout de cada página
-2. DALL-E 3 criar imagens customizadas
-3. Montar no Canva/Figma
+1. Criar layout de cada página com templates profissionais
+2. Usar bibliotecas de imagens stock (Unsplash, Pexels)
+3. Exportar em alta qualidade
 
 **Tempo:** 1-2 horas  
-**Custo:** R$ 20 (ChatGPT Plus por 1 mês)
+**Custo:** Gratuito (planos básicos)
 
 ---
 

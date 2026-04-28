@@ -27,14 +27,14 @@ export function AdSenseUnit({ slot, format = 'auto', className = '' }: AdSlotPro
       try {
         isLoaded.current = true
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      } catch (err) {
-        console.error('AdSense error:', err)
+      } catch {
+        // Silently fail - AdSense will retry
       }
     }
   }, [])
 
   return (
-    <div className={`my-8 ${className}`}>
+    <div className={`my-8 ${className}`} style={{ minHeight: '280px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -57,6 +57,18 @@ export function DisplayBanner({ className = '' }: { className?: string }) {
 }
 
 /**
+ * Wrapper com min-height fixo para evitar CLS (Cumulative Layout Shift)
+ * Use este wrapper ao redor de qualquer componente de anúncio
+ */
+export function AdContainer({ children, minHeight = 280, className = '' }: { children: React.ReactNode; minHeight?: number; className?: string }) {
+  return (
+    <div className={`my-8 ${className}`} style={{ minHeight: `${minHeight}px` }}>
+      {children}
+    </div>
+  )
+}
+
+/**
  * Anúncio In-Feed (No meio de listas)
  * Slot: 2615832690
  */
@@ -76,7 +88,7 @@ export function InFeedAd({ className = '' }: { className?: string }) {
   }, [])
 
   return (
-    <div className={`my-8 ${className}`}>
+    <div className={`my-8 ${className}`} style={{ minHeight: '320px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -110,7 +122,7 @@ export function ArticleAd({ className = '' }: { className?: string }) {
   }, [])
 
   return (
-    <div className={`my-8 text-center ${className}`}>
+    <div className={`my-8 text-center ${className}`} style={{ minHeight: '280px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
@@ -144,7 +156,7 @@ export function MultiplexAd({ className = '' }: { className?: string }) {
   }, [])
 
   return (
-    <div className={`my-8 ${className}`}>
+    <div className={`my-8 ${className}`} style={{ minHeight: '320px' }}>
       <ins
         ref={adRef}
         className="adsbygoogle"

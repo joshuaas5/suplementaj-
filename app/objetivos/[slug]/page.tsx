@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${objetivo.titulo}: Nutrientes e Dicas Essenciais | Suplementa Já`,
         description: objetivo.descricao,
+        alternates: {
+            canonical: `https://www.suplementaja.com/objetivos/${params.slug}`,
+        },
         openGraph: {
             title: `${objetivo.titulo} - Guia Completo`,
             description: objetivo.descricao,

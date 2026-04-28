@@ -923,6 +923,5 @@ Carregadas via `localFont` no layout.tsx ✅
 ---
 
 **Gerado automaticamente em:** $(date +"%d/%m/%Y às %H:%M:%S")
-**Analista:** Claude Code (Anthropic)
 **Metodologia:** Análise estática completa do código-fonte, estrutura de arquivos, configurações e build.
 

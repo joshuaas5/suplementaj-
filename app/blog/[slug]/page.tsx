@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: `${artigo.titulo} - Blog Suplementa Já`,
     description: artigo.descricao,
     keywords: artigo.tags.join(', '),
+    alternates: {
+      canonical: `https://www.suplementaja.com/blog/${params.slug}`,
+    },
     openGraph: {
       title: artigo.titulo,
       description: artigo.descricao,
@@ -143,18 +146,18 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     },
     datePublished: artigo.data,
     dateModified: artigo.data,
-    publisher: {
-      '@type': 'Organization',
-      name: 'Suplementa Já',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://suplementaja.com/og-image.jpg',
+      publisher: {
+        '@type': 'Organization',
+        name: 'Suplementa Já',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.suplementaja.com/og-image.jpg',
+        },
       },
-    },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': `https://suplementaja.com/blog/${artigo.slug}`,
-    },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `https://www.suplementaja.com/blog/${artigo.slug}`,
+      },
     keywords: artigo.tags.join(', '),
   }
 
@@ -346,7 +349,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <p className="text-black font-bold mb-6 text-lg">
               Descubra quais nutrientes você realmente precisa com nossa avaliação personalizada gratuita!
             </p>
-            <Link href="/avaliação">
+            <Link href="/avaliacao">
               <Button variant="primary" size="lg" className="text-xl px-10 py-6">
                 Fazer Avaliação Gratuita →
               </Button>
