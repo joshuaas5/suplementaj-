@@ -163,42 +163,10 @@ const nextConfig = {
         destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
         permanent: true,
       },
-      // Redirects para 404s mapeados pelo Search Console (maio 2026)
-      // Nutrientes com acentos que ainda geram 404
-      {
-        source: '/nutrientes/vitamina-d',
-        destination: '/nutrientes/vitamina-d',
-        permanent: false,
-      },
       // Paginas de blog que foram removidas ou renomeadas
       {
         source: '/blog/creatina-guia-completo-ganho-muscular',
         destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      {
-        source: '/blog/creatina-para-mulheres',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      {
-        source: '/blog/creatina-retencao-liquido',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      {
-        source: '/blog/creatina-quem-nao-deve-tomar',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
-      {
-        source: '/blog/macros-para-definicao-muscular',
-        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
-        permanent: true,
-      },
-      {
-        source: '/blog/bulking-calorias-superavit',
-        destination: '/blog/como-dividir-macros-cutting-bulking-manutencao',
         permanent: true,
       },
       // Calculadoras sem trailing slash ou com URLs antigas
@@ -230,12 +198,6 @@ const nextConfig = {
       {
         source: '/calculadora/proteina',
         destination: '/calculadoras/proteina',
-        permanent: true,
-      },
-      // Avaliacao URLs antigas
-      {
-        source: '/avaliacao',
-        destination: '/avaliacao/passo-1',
         permanent: true,
       },
       // Resultados sem /local

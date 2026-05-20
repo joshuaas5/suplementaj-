@@ -7,7 +7,7 @@ Gerado em 2026-05-20.
 - Artigos no JSON: 82
 - Slugs únicos: 82
 - URLs de artigo vistas no GSC mas ausentes no JSON: 8
-- URLs do GSC que ainda estão em redirect: 8
+- URLs do GSC que ainda estão em redirect: 7
 - Oportunidades fortes de CTR/posição: 20
 
 ## Tendência mensal
