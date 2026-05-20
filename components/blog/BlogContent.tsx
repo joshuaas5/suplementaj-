@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Clock, ArrowRight, Search, Star } from 'lucide-react'
 import type { Artigo } from '@/types/artigo'
 import { InFeedAd } from '@/components/ads/AdSenseUnits'
+import { TOPIC_HUBS } from '@/lib/topic-hubs'
 
 // Define topics based on common search patterns - EXPANDIDO PARA 11 CATEGORIAS
 const TOPICS = [
@@ -111,6 +112,20 @@ export function BlogContent({ artigos }: BlogContentProps) {
                                     <ArrowRight className="w-4 h-4" />
                                 </div>
                             </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+
+            <div className="mb-14">
+                <div className="flex items-center justify-center gap-3 mb-6">
+                    <h2 className="text-2xl sm:text-3xl font-black text-black uppercase">Trilhas por tema</h2>
+                </div>
+                <div className="grid gap-4 md:grid-cols-5">
+                    {TOPIC_HUBS.map((hub) => (
+                        <Link key={hub.slug} href={`/guias/${hub.slug}`} className="bg-white border-4 border-black p-4 hover:bg-yellow-400 transition-colors">
+                            <h3 className="text-base font-black text-black uppercase mb-2 line-clamp-2">{hub.titulo}</h3>
+                            <p className="text-xs text-black font-bold line-clamp-3">{hub.subtitulo}</p>
                         </Link>
                     ))}
                 </div>

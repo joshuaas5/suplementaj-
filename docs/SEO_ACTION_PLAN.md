@@ -6,6 +6,9 @@ Gerado em 2026-05-20.
 
 - Artigos no JSON: 127
 - Slugs únicos: 127
+- Artigos prioritários reforçados: 25
+- Artigos com fontes/editorial E-E-A-T: 25
+- Artigos ainda abaixo de 800 palavras: 79
 - URLs de artigo vistas no GSC mas ausentes no JSON: 1
 - URLs do GSC que ainda estão em redirect: 1
 - Oportunidades fortes de CTR/posição: 20
@@ -33,6 +36,41 @@ Gerado em 2026-05-20.
 | Detectada, mas não indexada no momento | Sistemas do Google | Não foi iniciado | 12 |
 | Cópia, o Google e o usuário selecionaram uma página canônica diferente | Sistemas do Google | Não foi iniciado | 1 |
 | Página alternativa com tag canônica adequada | Site | Iniciado | 10 |
+
+## Conteúdo fino restante
+
+| Slug | Palavras | Hub | Título |
+| --- | --- | --- | --- |
+| macros-para-ganho-massa | 223 | - | Macros Para Ganho de Massa: O Guia do Bulking Inteligente (2026) |
+| refeed-day-como-fazer | 224 | - | Refeed Day: Como Fazer Sem Estragar a Dieta (Guia Prático) |
+| creatina-retencao-liquido | 225 | - | Creatina Causa Retenção de Líquido? Entenda a Verdade (Ciência) |
+| creatina-quem-nao-deve-tomar | 231 | - | Quem NÃO Deve Tomar Creatina? Contraindicações Reais (Guia) |
+| whey-engorda-ou-emagrece | 233 | - | Whey Engorda ou Emagrece? A Verdade Sobre Calorias e Proteína |
+| creatina-e-cafe | 233 | - | Creatina e Café: Pode Tomar Junto? A Ciência Responde |
+| creatina-para-mulheres | 234 | - | Creatina Para Mulheres: Tudo Que Você Precisa Saber (Guia 2026) |
+| whey-antes-ou-depois-treino | 235 | - | Whey Antes ou Depois do Treino? A Resposta Definitiva (Com Ciência) |
+| melhor-marca-creatina-brasil | 245 | - | Melhor Creatina 2026: Ranking das 5 Marcas Testadas no Brasil |
+| creatina-monohidratada-vs-outras | 251 | - | Creatina Monohidratada vs HCL vs Alcalina: Qual Funciona Mesmo? |
+| creatina-fase-carga-necessaria | 259 | - | Fase de Carga de Creatina: Necessária ou Perda de Tempo? (A Verdade) |
+| bulking-calorias-superavit | 261 | - | Bulking: Como Calcular Superávit Calórico Sem Engordar (Guia 2026) |
+| dieta-reversa-como-fazer | 265 | - | Dieta Reversa: Como Voltar a Comer Normal Sem Engordar (Passo a Passo) |
+| whey-isolado-para-que-serve | 271 | - | Whey Isolado: Para Que Serve, Quando Tomar e Quem Precisa |
+| creatina-beneficios-efeitos-colaterais-dosagem-2026 | 284 | - | Creatina: Benefícios, Efeitos Colaterais e Dosagem em 2026 |
+| creatina-para-que-serve | 294 | - | Creatina Para Que Serve? 7 Benefícios Comprovados pela Ciência |
+| calorias-manutencao-encontrar | 303 | - | Calorias de Manutenção: Como Encontrar a Sua (Método Prático) |
+| imc-o-que-significa-como-calcular | 304 | - | IMC: O Que Significa, Como Calcular e O Que Fazer Com o Resultado |
+| creatina-guia-completo-ganho-muscular | 316 | - | Creatina Para Ganho Muscular: Como Usar, Dose e Resultados Reais |
+| suplementos-para-dor-articulacao-joelho | 320 | - | Suplementos Para Dor no Joelho e Articulação: O Que Pode Ajudar |
+| quanta-agua-beber-por-dia-calculo-por-peso | 324 | - | Quanta Água Beber Por Dia? Cálculo Científico Por Peso Corporal |
+| tribulus-terrestris-testosterona-libido | 334 | - | Tribulus Terrestris: Aumenta Testosterona? A Verdade Científica |
+| como-dormir-melhor-suplementos | 334 | - | Como Dormir Melhor: Suplementos, Hábitos e O Que Evitar |
+| vitamina-e-antioxidante-pele-fertilidade | 338 | - | Vitamina E: Antioxidante Para Pele, Fertilidade e Coração (Dose Segura) |
+| suplemento-ja-avaliacao-gratuita | 338 | - | Suplemento Já: Avaliação Gratuita Para Saber O Que Você Precisa |
+| probioticos-intestino-flora-intestinal | 339 | - | Probióticos: Guia Completo Para Intestino e Imunidade (2026) |
+| spirulina-superalimento-proteina-vegana | 339 | - | Spirulina: Superalimento ou Hype? Proteína, B12 e Detox (A Verdade) |
+| carboidrato-no-cutting-pode | 339 | - | Carboidrato no Cutting: Pode Comer ou Precisa Cortar? |
+| ferro-baixo-sintomas-e-suplementacao | 339 | - | Ferro Baixo: Sintomas, Exames e Quando Suplementar |
+| glucosamina-condroitina-articulacoes-artrite | 340 | - | Glucosamina e Condroitina: Funciona Para Articulações? A Verdade |
 
 ## Prioridade por página
 

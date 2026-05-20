@@ -195,6 +195,20 @@ function readRedirectSources() {
   return new Set(sources)
 }
 
+function articleWordCount(article) {
+  return (article.conteudo ?? [])
+    .map((block) => {
+      if (block.texto) return block.texto
+      if (block.itens) return block.itens.join(' ')
+      if (block.linhas) return block.linhas.flat().join(' ')
+      if (block.perguntas) return block.perguntas.map((faq) => `${faq.pergunta} ${faq.resposta}`).join(' ')
+      return ''
+    })
+    .join(' ')
+    .split(/\s+/)
+    .filter(Boolean).length
+}
+
 function markdownTable(rows, columns) {
   const header = `| ${columns.map((column) => column.label).join(' | ')} |`
   const sep = `| ${columns.map(() => '---').join(' | ')} |`
@@ -217,6 +231,12 @@ function main() {
   const articles = JSON.parse(readText(articlesPath))
   const slugs = new Set(articles.map((article) => article.slug))
   const redirects = readRedirectSources()
+  const thinArticles = articles
+    .map((article) => ({ slug: article.slug, title: article.titulo, words: articleWordCount(article), hub: article.hub_slug ?? '' }))
+    .filter((article) => article.words < 800)
+    .sort((a, b) => a.words - b.words)
+  const priorityArticles = articles.filter((article) => article.prioridade_seo)
+  const articlesWithSources = articles.filter((article) => Array.isArray(article.fontes) && article.fontes.length > 0)
 
   const pages = parseCsv(readText(pagesPath))
   const queries = parseCsv(readText(queriesPath))
@@ -263,6 +283,9 @@ function main() {
     '',
     `- Artigos no JSON: ${articles.length}`,
     `- Slugs únicos: ${slugs.size}`,
+    `- Artigos prioritários reforçados: ${priorityArticles.length}`,
+    `- Artigos com fontes/editorial E-E-A-T: ${articlesWithSources.length}`,
+    `- Artigos ainda abaixo de 800 palavras: ${thinArticles.length}`,
     `- URLs de artigo vistas no GSC mas ausentes no JSON: ${missingArticleUrls.length}`,
     `- URLs do GSC que ainda estão em redirect: ${redirectedArticleUrls.length}`,
     `- Oportunidades fortes de CTR/posição: ${ctrOpportunities.length}`,
@@ -284,6 +307,15 @@ function main() {
       { label: 'Validação', value: (row) => getValue(row, 'Validação') },
       { label: 'Páginas', value: (row) => getValue(row, 'Páginas') },
     ]) : 'Sem CSV de cobertura crítica encontrado.',
+    '',
+    '## Conteúdo fino restante',
+    '',
+    thinArticles.length ? markdownTable(thinArticles.slice(0, 30), [
+      { label: 'Slug', value: (row) => row.slug },
+      { label: 'Palavras', value: (row) => row.words },
+      { label: 'Hub', value: (row) => row.hub || '-' },
+      { label: 'Título', value: (row) => row.title },
+    ]) : 'Nenhum artigo abaixo de 800 palavras.',
     '',
     '## Prioridade por página',
     '',
@@ -319,7 +351,7 @@ function main() {
   const docsDir = path.join(rootDir, 'docs')
   fs.mkdirSync(docsDir, { recursive: true })
   fs.writeFileSync(path.join(docsDir, 'SEO_ACTION_PLAN.md'), report, 'utf8')
-  fs.writeFileSync(path.join(docsDir, 'seo-actions.json'), JSON.stringify({ pageActions, queryActions, critical }, null, 2), 'utf8')
+  fs.writeFileSync(path.join(docsDir, 'seo-actions.json'), JSON.stringify({ pageActions, queryActions, critical, thinArticles }, null, 2), 'utf8')
 
   console.log(`Relatório gerado: ${path.join(docsDir, 'SEO_ACTION_PLAN.md')}`)
   console.log(`Dados gerados: ${path.join(docsDir, 'seo-actions.json')}`)

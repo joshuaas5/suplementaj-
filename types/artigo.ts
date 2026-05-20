@@ -3,14 +3,26 @@
   titulo: string
   descricao: string
   autor: string
+  revisor?: string
   data: string
+  atualizado_em?: string
   categoria: string
   tags: string[]
   tempo_leitura: string
   imagem: string
   objetivos?: string[]
+  hub_slug?: string
+  prioridade_seo?: boolean
+  monetizavel?: boolean
+  fontes?: FonteConteudo[]
   conteudo: BlocoConteudo[]
   relacionados?: string[]  // Slugs de artigos relacionados
+}
+
+export interface FonteConteudo {
+  titulo: string
+  orgao: string
+  url: string
 }
 
 export type BlocoConteudo =

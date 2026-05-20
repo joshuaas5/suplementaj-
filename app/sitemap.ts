@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import nutrientesData from '@/data/nutrientes.json'
 import artigosData from '@/data/artigos.json'
 import objetivosData from '@/data/objetivos.json'
+import { TOPIC_HUBS } from '@/lib/topic-hubs'
 
 // Helper: Normaliza data para 00:00:00Z (consistência)
 function normalizeDate(dateInput: Date | string): Date {
@@ -41,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: mostRecentBlogDate }, // Home reflete última atualização geral
     { url: `${baseUrl}/blog`, lastModified: mostRecentBlogDate }, // Hub = post mais recente
+    { url: `${baseUrl}/guias`, lastModified: mostRecentBlogDate },
     { url: `${baseUrl}/nutrientes`, lastModified: nutrientesCreationDate },
     { url: `${baseUrl}/calculadoras`, lastModified: calculadorasCreationDate },
     { url: `${baseUrl}/avaliacao/passo-1`, lastModified: calculadorasCreationDate },
@@ -56,6 +58,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const calculadoraPages: MetadataRoute.Sitemap = calculadorasSlugs.map((slug) => ({
     url: `${baseUrl}/calculadoras/${slug}`,
     lastModified: calculadorasCreationDate,
+  }))
+
+  const topicHubPages: MetadataRoute.Sitemap = TOPIC_HUBS.map((hub) => ({
+    url: `${baseUrl}/guias/${hub.slug}`,
+    lastModified: mostRecentBlogDate,
   }))
 
   // 3. Hubs de Objetivos
@@ -87,6 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPages,
+    ...topicHubPages,
     ...calculadoraPages,
     ...objetivoPages,
     ...nutrientePages,

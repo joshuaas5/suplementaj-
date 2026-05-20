@@ -16,8 +16,25 @@ import { formatMarkdown } from '@/lib/markdown'
 import { RelatedContent } from '@/components/content/RelatedContent'
 import { CalculatorQuickLinks } from '@/components/content/CalculatorQuickLinks'
 import { getNutrientesRelacionados } from '@/lib/related-content'
+import { CommercialIntentBox } from '@/components/content/CommercialIntentBox'
+import { TopicHubLinks } from '@/components/content/TopicHubLinks'
+import { getHubForArticle } from '@/lib/topic-hubs'
 
 const artigos = artigosData as Artigo[]
+
+function formatDateBR(dateValue: string) {
+  const [year, month, day] = dateValue.split('-').map(Number)
+  const date = year && month && day
+    ? new Date(Date.UTC(year, month - 1, day))
+    : new Date(dateValue)
+
+  return date.toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  })
+}
 
 export async function generateStaticParams() {
   return artigos.map((artigo) => ({
@@ -134,6 +151,8 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     notFound()
   }
 
+  const topicHub = getHubForArticle(artigo)
+
   // Schema markup para Article
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -144,9 +163,15 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     author: {
       '@type': 'Organization',
       name: artigo.autor,
+      url: 'https://www.suplementaja.com/editorial',
     },
     datePublished: artigo.data,
-    dateModified: artigo.data,
+    dateModified: artigo.atualizado_em || artigo.data,
+    reviewedBy: {
+      '@type': 'Organization',
+      name: artigo.revisor || 'Equipe editorial Suplementa Já',
+      url: 'https://www.suplementaja.com/editorial',
+    },
       publisher: {
         '@type': 'Organization',
         name: 'Suplementa Já',
@@ -277,11 +302,11 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             <div className="flex flex-wrap items-center gap-4 text-sm">
               <div className="flex items-center gap-2 text-black font-bold">
                 <span className="text-lime-600">✓</span>
-                <span>Atualizado em {new Date(artigo.data).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</span>
+                <span>Atualizado em {formatDateBR(artigo.atualizado_em || artigo.data)}</span>
               </div>
               <div className="flex items-center gap-2 text-black font-bold">
                 <span className="text-lime-600">✓</span>
-                <span>Revisado por {artigo.autor}</span>
+                <span>Revisado por {artigo.revisor || artigo.autor}</span>
               </div>
               <Link
                 href="/editorial"
@@ -291,11 +316,17 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               </Link>
             </div>
           </div>
+          <div className="mt-4 bg-cyan-50 border-2 border-black p-4">
+            <p className="text-sm text-black font-bold leading-relaxed">
+              Conteúdo educativo. Não substitui consulta com médico, nutricionista ou outro profissional de saúde. Em temas de dose, sintomas, medicamentos, gestação, doenças ou exames alterados, use este guia como ponto de partida para conversar com um profissional.
+            </p>
+          </div>
         </div>
 
         {/* Anúncio no topo (antes do artigo) */}
         <HorizontalAd className="mb-8" />
         <ManualDisplayAd className="mb-8" />
+        {topicHub && <TopicHubLinks hub={topicHub} />}
 
         {/* Conteúdo do Artigo */}
         <article className="prose prose-lg max-w-none">
@@ -309,6 +340,29 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
             </div>
           ))}
         </article>
+
+        {artigo.fontes && artigo.fontes.length > 0 && (
+          <section className="mt-10 bg-white border-4 border-black p-6">
+            <h2 className="text-2xl font-black text-black uppercase mb-4">Fontes e critérios usados</h2>
+            <p className="text-black font-bold mb-4">
+              Este conteúdo foi estruturado com base em referências institucionais e critérios editoriais de segurança. Links externos abrem as fontes originais.
+            </p>
+            <ul className="space-y-3">
+              {artigo.fontes.map((fonte) => (
+                <li key={fonte.url} className="border-2 border-black p-3">
+                  <a href={fonte.url} target="_blank" rel="noopener noreferrer" className="font-black text-black underline decoration-yellow-400 decoration-4 underline-offset-4">
+                    {fonte.titulo}
+                  </a>
+                  <p className="text-sm text-black font-bold mt-1">{fonte.orgao}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {(artigo.monetizavel || topicHub?.commercialSlugs.includes(artigo.slug)) && (
+          <CommercialIntentBox hub={topicHub} />
+        )}
 
         {/* Anúncio após o conteúdo do artigo */}
         <ArticleAd className="my-12" />
