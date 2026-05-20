@@ -33,54 +33,6 @@
       "redirected": false
     },
     {
-      "url": "https://www.suplementaja.com/blog/pre-treino-vale-a-pena",
-      "pathname": "/blog/pre-treino-vale-a-pena",
-      "slug": "pre-treino-vale-a-pena",
-      "clicks": 0,
-      "impressions": 49,
-      "ctr": 0,
-      "position": 6.31,
-      "score": 90,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON",
-        "URL de artigo aparece no GSC e também está em redirect"
-      ],
-      "exists": false,
-      "redirected": true
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/como-fortalecer-imunidade-suplementos",
-      "pathname": "/blog/como-fortalecer-imunidade-suplementos",
-      "slug": "como-fortalecer-imunidade-suplementos",
-      "clicks": 0,
-      "impressions": 31,
-      "ctr": 0,
-      "position": 7.26,
-      "score": 90,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON",
-        "URL de artigo aparece no GSC e também está em redirect"
-      ],
-      "exists": false,
-      "redirected": true
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/suplementos-para-emagrecer-funcionam",
-      "pathname": "/blog/suplementos-para-emagrecer-funcionam",
-      "slug": "suplementos-para-emagrecer-funcionam",
-      "clicks": 0,
-      "impressions": 7,
-      "ctr": 0,
-      "position": 7.14,
-      "score": 90,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON",
-        "URL de artigo aparece no GSC e também está em redirect"
-      ],
-      "exists": false,
-      "redirected": true
-    },
-    {
       "url": "https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular",
       "pathname": "/blog/creatina-guia-completo-ganho-muscular",
       "slug": "creatina-guia-completo-ganho-muscular",
@@ -89,22 +41,6 @@
       "ctr": 0,
       "position": 2,
       "score": 90,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON",
-        "URL de artigo aparece no GSC e também está em redirect"
-      ],
-      "exists": false,
-      "redirected": true
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/como-dormir-melhor-suplementos",
-      "pathname": "/blog/como-dormir-melhor-suplementos",
-      "slug": "como-dormir-melhor-suplementos",
-      "clicks": 0,
-      "impressions": 77,
-      "ctr": 0,
-      "position": 11.39,
-      "score": 80,
       "reasons": [
         "URL de artigo aparece no GSC mas não existe no JSON",
         "URL de artigo aparece no GSC e também está em redirect"
@@ -260,37 +196,6 @@
         "CTR muito baixo para o volume de impressões"
       ],
       "exists": true,
-      "redirected": false
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/suplementos-para-dor-articulacao-joelho",
-      "pathname": "/blog/suplementos-para-dor-articulacao-joelho",
-      "slug": "suplementos-para-dor-articulacao-joelho",
-      "clicks": 0,
-      "impressions": 41,
-      "ctr": 0,
-      "position": 15.24,
-      "score": 70,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON",
-        "URL de artigo aparece no GSC e também está em redirect"
-      ],
-      "exists": false,
-      "redirected": true
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/vitamina-d3-k2-juntas-beneficios",
-      "pathname": "/blog/vitamina-d3-k2-juntas-beneficios",
-      "slug": "vitamina-d3-k2-juntas-beneficios",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 5.5,
-      "score": 70,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON"
-      ],
-      "exists": false,
       "redirected": false
     },
     {
@@ -654,6 +559,21 @@
       "redirected": false
     },
     {
+      "url": "https://www.suplementaja.com/blog/pre-treino-vale-a-pena",
+      "pathname": "/blog/pre-treino-vale-a-pena",
+      "slug": "pre-treino-vale-a-pena",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": 0,
+      "position": 6.31,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
       "url": "https://www.suplementaja.com/blog/como-calcular-gasto-calorico-tmb-tdee",
       "pathname": "/blog/como-calcular-gasto-calorico-tmb-tdee",
       "slug": "como-calcular-gasto-calorico-tmb-tdee",
@@ -721,6 +641,21 @@
       "impressions": 32,
       "ctr": 0.031200000000000002,
       "position": 5.41,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-fortalecer-imunidade-suplementos",
+      "pathname": "/blog/como-fortalecer-imunidade-suplementos",
+      "slug": "como-fortalecer-imunidade-suplementos",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 7.26,
       "score": 30,
       "reasons": [
         "Monitorar"
@@ -1014,6 +949,21 @@
       "redirected": false
     },
     {
+      "url": "https://www.suplementaja.com/blog/suplementos-para-emagrecer-funcionam",
+      "pathname": "/blog/suplementos-para-emagrecer-funcionam",
+      "slug": "suplementos-para-emagrecer-funcionam",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.14,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
       "url": "https://www.suplementaja.com/editorial",
       "pathname": "/editorial",
       "slug": "editorial",
@@ -1224,6 +1174,21 @@
       "redirected": false
     },
     {
+      "url": "https://www.suplementaja.com/blog/vitamina-d3-k2-juntas-beneficios",
+      "pathname": "/blog/vitamina-d3-k2-juntas-beneficios",
+      "slug": "vitamina-d3-k2-juntas-beneficios",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
       "url": "https://www.suplementaja.com/blog/coenzima-q10-coq10-energia-coracao",
       "pathname": "/blog/coenzima-q10-coq10-energia-coracao",
       "slug": "coenzima-q10-coq10-energia-coracao",
@@ -1367,6 +1332,21 @@
       "ctr": 0,
       "position": 8,
       "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-dormir-melhor-suplementos",
+      "pathname": "/blog/como-dormir-melhor-suplementos",
+      "slug": "como-dormir-melhor-suplementos",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": 0,
+      "position": 11.39,
+      "score": 20,
       "reasons": [
         "Monitorar"
       ],
@@ -1801,6 +1781,21 @@
       "impressions": 44,
       "ctr": 0,
       "position": 29.61,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/suplementos-para-dor-articulacao-joelho",
+      "pathname": "/blog/suplementos-para-dor-articulacao-joelho",
+      "slug": "suplementos-para-dor-articulacao-joelho",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0,
+      "position": 15.24,
       "score": 10,
       "reasons": [
         "Monitorar"

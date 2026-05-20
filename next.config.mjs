@@ -137,32 +137,6 @@ const nextConfig = {
         destination: '/blog/maca-peruana-libido-energia-hormonios',
         permanent: true,
       },
-      // Redirects para URLs faltantes (evitar 404)
-      {
-        source: '/blog/como-dormir-melhor-suplementos',
-        destination: '/blog/melatonina-sono-insonia-dose-ideal',
-        permanent: true,
-      },
-      {
-        source: '/blog/como-fortalecer-imunidade-suplementos',
-        destination: '/blog/vitamina-c-imunidade-gripes-resfriados',
-        permanent: true,
-      },
-      {
-        source: '/blog/pre-treino-vale-a-pena',
-        destination: '/blog/cafeina-performance-dose-pre-treino',
-        permanent: true,
-      },
-      {
-        source: '/blog/suplementos-para-dor-articulacao-joelho',
-        destination: '/blog/glucosamina-condroitina-articulacoes-artrite',
-        permanent: true,
-      },
-      {
-        source: '/blog/suplementos-para-emagrecer-funcionam',
-        destination: '/blog/como-calcular-gasto-calorico-tmb-tdee',
-        permanent: true,
-      },
       // Paginas de blog que foram removidas ou renomeadas
       {
         source: '/blog/creatina-guia-completo-ganho-muscular',

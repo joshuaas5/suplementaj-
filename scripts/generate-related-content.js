@@ -35,6 +35,7 @@ const artigoToNutrientes = {
   'vitamina-a-retinol-visao-pele-imunidade': ['vitamina-a', 'vitamina-d', 'zinco'],
   'l-carnitina-queima-gordura-performance': ['l-carnitina', 'creatina'],
   'cafeina-performance-dose-pre-treino': ['creatina'],
+  'pre-treino-vale-a-pena': ['creatina'],
   'whey-isolado-vs-concentrado': ['proteina', 'creatina', 'bcaa'],
   'proteina-por-dia-quanto-consumir-guia-completo': ['proteina', 'creatina', 'bcaa'],
   'como-dividir-macros-cutting-bulking-manutencao': ['proteina', 'creatina'],
@@ -73,6 +74,11 @@ const artigoToNutrientes = {
   'monjaro-efeitos-colaterais-o-que-esperar': [],
   'monjaro-emagrece-quantos-quilos-resultados-reais': [],
   'monjaro-diabetes-tipo-2-funciona-melhor-insulina': ['cromo'],
+  'suplementos-para-emagrecer-funcionam': ['proteina', 'creatina', 'l-carnitina', 'omega-3'],
+  'como-fortalecer-imunidade-suplementos': ['vitamina-c', 'vitamina-d', 'zinco', 'omega-3', 'proteina'],
+  'suplementos-para-dor-articulacao-joelho': ['glucosamina', 'colageno', 'omega-3', 'vitamina-d'],
+  'como-dormir-melhor-suplementos': ['magnesio', 'vitamina-d'],
+  'vitamina-d3-k2-juntas-beneficios': ['vitamina-d', 'vitamina-k2', 'calcio', 'magnesio'],
   'whey-antes-ou-depois-treino': ['proteina', 'creatina'],
   'whey-com-leite-ou-agua': ['proteina'],
   'whey-engorda-ou-emagrece': ['proteina'],
@@ -100,7 +106,7 @@ Object.entries(artigoToNutrientes).forEach(([artSlug, nutSlugs]) => {
 
 let lines = [];
 lines.push("// Mapeamento de relacionamentos entre artigos e nutrientes");
-lines.push("// Atualizado em 20/05/2026 - Cobertura completa de 82 artigos");
+lines.push("// Atualizado em 20/05/2026 - Cobertura completa de " + Object.keys(artigoToNutrientes).length + " artigos");
 lines.push("");
 lines.push("export const artigoToNutrientes: Record<string, string[]> = {");
 

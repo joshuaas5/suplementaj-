@@ -4,10 +4,10 @@ Gerado em 2026-05-20.
 
 ## Leitura executiva
 
-- Artigos no JSON: 82
-- Slugs únicos: 82
-- URLs de artigo vistas no GSC mas ausentes no JSON: 8
-- URLs do GSC que ainda estão em redirect: 7
+- Artigos no JSON: 88
+- Slugs únicos: 88
+- URLs de artigo vistas no GSC mas ausentes no JSON: 2
+- URLs do GSC que ainda estão em redirect: 2
 - Oportunidades fortes de CTR/posição: 20
 
 ## Tendência mensal
@@ -40,11 +40,7 @@ Gerado em 2026-05-20.
 | --- | --- | --- | --- | --- | --- | --- |
 | 140 | https://www.suplementaja.com/blog/guia-completo-creatina-2025 | 2 | 597 | 0.34% | 5.40 | CTR muito baixo para o volume de impressões; URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
 | 90 | https://www.suplementaja.com/blog/monjaro-preco-quanto-custa-como-economizar-2026 | 1 | 1236 | 0.08% | 6.46 | CTR muito baixo para o volume de impressões |
-| 90 | https://www.suplementaja.com/blog/pre-treino-vale-a-pena | 0 | 49 | 0.00% | 6.31 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
-| 90 | https://www.suplementaja.com/blog/como-fortalecer-imunidade-suplementos | 0 | 31 | 0.00% | 7.26 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
-| 90 | https://www.suplementaja.com/blog/suplementos-para-emagrecer-funcionam | 0 | 7 | 0.00% | 7.14 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
 | 90 | https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular | 0 | 1 | 0.00% | 2.00 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
-| 80 | https://www.suplementaja.com/blog/como-dormir-melhor-suplementos | 0 | 77 | 0.00% | 11.39 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
 | 70 | https://www.suplementaja.com/calculadoras/calorias | 2 | 1598 | 0.13% | 15.91 | CTR muito baixo para o volume de impressões |
 | 70 | https://suplementaja.com/blog/whey-isolado-vs-concentrado | 1 | 621 | 0.16% | 10.33 | CTR muito baixo para o volume de impressões |
 | 70 | https://www.suplementaja.com/blog/melhor-marca-creatina-brasil | 0 | 302 | 0.00% | 9.40 | CTR muito baixo para o volume de impressões |
@@ -55,14 +51,18 @@ Gerado em 2026-05-20.
 | 70 | https://suplementaja.com/blog/cafeina-performance-dose-pre-treino | 0 | 155 | 0.00% | 7.31 | CTR muito baixo para o volume de impressões |
 | 70 | https://www.suplementaja.com/blog/macros-para-ganho-massa | 0 | 139 | 0.00% | 5.90 | CTR muito baixo para o volume de impressões |
 | 70 | https://www.suplementaja.com/blog/diferenca-proteinas-whey-caseina-albumina | 0 | 113 | 0.00% | 7.66 | CTR muito baixo para o volume de impressões |
-| 70 | https://www.suplementaja.com/blog/suplementos-para-dor-articulacao-joelho | 0 | 41 | 0.00% | 15.24 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
-| 70 | https://www.suplementaja.com/blog/vitamina-d3-k2-juntas-beneficios | 0 | 2 | 0.00% | 5.50 | URL de artigo aparece no GSC mas não existe no JSON |
 | 65 | https://www.suplementaja.com/blog/como-dividir-macros-cutting-bulking-manutencao | 11 | 1230 | 0.89% | 7.25 | Otimizar título/meta e links internos |
 | 60 | https://www.suplementaja.com/blog/proteina-por-dia-quanto-consumir-guia-completo | 0 | 276 | 0.00% | 9.53 | CTR muito baixo para o volume de impressões |
 | 60 | https://suplementaja.com/blog/proteina-isolada-soja-veganos | 0 | 143 | 0.00% | 8.19 | CTR muito baixo para o volume de impressões |
 | 60 | https://www.suplementaja.com/ | 0 | 129 | 0.00% | 13.55 | CTR muito baixo para o volume de impressões |
 | 60 | https://www.suplementaja.com/blog/mifflin-st-jeor-formula | 0 | 112 | 0.00% | 14.58 | CTR muito baixo para o volume de impressões |
 | 60 | https://www.suplementaja.com/blog/refeed-day-como-fazer | 0 | 108 | 0.00% | 8.77 | CTR muito baixo para o volume de impressões |
+| 55 | https://suplementaja.com/blog/como-dividir-macros-cutting-bulking-manutencao | 14 | 620 | 2.26% | 6.37 | Otimizar título/meta e links internos |
+| 50 | https://www.suplementaja.com/calculadoras/imc | 0 | 580 | 0.00% | 36.07 | CTR muito baixo para o volume de impressões |
+| 50 | https://www.suplementaja.com/calculadoras/agua | 1 | 303 | 0.33% | 52.44 | CTR muito baixo para o volume de impressões |
+| 50 | https://www.suplementaja.com/blog/biotina-cabelo-unhas-dose-funciona | 1 | 264 | 0.38% | 27.33 | CTR muito baixo para o volume de impressões |
+| 50 | https://www.suplementaja.com/blog/creatina-como-tomar | 0 | 236 | 0.00% | 18.32 | CTR muito baixo para o volume de impressões |
+| 50 | https://www.suplementaja.com/blog/melatonina-sono-insonia-dose-ideal | 0 | 200 | 0.00% | 18.96 | CTR muito baixo para o volume de impressões |
 
 ## Consultas fáceis de atacar
 
