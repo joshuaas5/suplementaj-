@@ -14,6 +14,7 @@ import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { ArticleAd } from '@/components/ads/AdSenseUnits'
 import { formatMarkdown } from '@/lib/markdown'
 import { RelatedContent } from '@/components/content/RelatedContent'
+import { CalculatorQuickLinks } from '@/components/content/CalculatorQuickLinks'
 import { getNutrientesRelacionados } from '@/lib/related-content'
 
 const artigos = artigosData as Artigo[]
@@ -311,6 +312,8 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
 
         {/* Anúncio após o conteúdo do artigo */}
         <ArticleAd className="my-12" />
+
+        <CalculatorQuickLinks />
 
         {/* Conteúdo Relacionado */}
         {(() => {

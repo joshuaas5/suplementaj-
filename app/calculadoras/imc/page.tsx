@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraIMC } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de IMC Grátis 2026 - Descubra Seu Peso Ideal | Suplementa Já',
@@ -16,12 +17,63 @@ export const metadata: Metadata = {
   }
 }
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual é o peso ideal para minha altura?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O peso ideal varia conforme o IMC. Para estar no 'peso normal', seu IMC deve estar entre 18,5 e 24,9. Por exemplo, se você tem 1,70m, seu peso ideal está entre 53kg e 72kg."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "IMC funciona para quem treina musculação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não muito bem. Atletas e praticantes de musculação têm mais massa muscular, o que aumenta o peso. Um fisiculturista pode ter IMC 28 (sobrepeso) mas ter apenas 8% de gordura corporal. Nesses casos, o percentual de gordura é mais preciso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "IMC 25 é ruim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IMC 25 está no início do sobrepeso. Não é grave, mas indica que você pode estar um pouco acima do peso ideal. O ideal é tentar manter entre 18,5 e 24,9 para reduzir riscos de saúde como diabetes e hipertensão."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual IMC para começar a se preocupar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IMC acima de 30 (obesidade) é quando os riscos de saúde aumentam significativamente: diabetes tipo 2, pressão alta, problemas cardíacos e apneia do sono. Procure orientação médica."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "IMC baixo (abaixo de 18,5) é perigoso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. IMC muito baixo pode indicar desnutrição, perda de massa muscular e óssea, anemia e sistema imunológico fraco. Consulte um nutricionista se seu IMC está abaixo de 18,5."
+      }
+    }
+  ]
+}
+
 export default function CalculadoraIMCPage() {
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_IMC?.trim()
   const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
 
   return (
     <div className="min-h-screen bg-pink-100 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-2xl mx-auto px-4">
         {/* Navegação */}
         <div className="flex items-center justify-between mb-6">
@@ -213,6 +265,14 @@ export default function CalculadoraIMCPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'proteina', title: 'Proteina', description: 'Ajuda saciedade e preservacao de massa magra.' },
+            { slug: 'creatina', title: 'Creatina', description: 'Apoio para treino de forca e composicao corporal.' },
+            { slug: 'vitamina-d', title: 'Vitamina D', description: 'Saude geral, ossos e funcao imunologica.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

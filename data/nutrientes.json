@@ -896,8 +896,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Magnésio",
-      "meta_description": "Guia sobre magnésio",
+      "meta_title": "Magnésio: Guia Completo para Ansiedade, Sono e Cãibra | Qual Tipo Tomar",
+      "meta_description": "Magnésio: qual tipo tomar (glicinato, citrato, treonato)? Doses para ansiedade, sono e cãibra. Descubra o melhor para seu objetivo.",
       "keywords": [
         "magnésio"
       ]
@@ -1053,8 +1053,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Ferro",
-      "meta_description": "Guia sobre ferro",
+      "meta_title": "Ferro: Sintomas de Anemia, Dose Diária e Melhor Suplemento para Absorção",
+      "meta_description": "Guia completo sobre ferro: sintomas de anemia ferropênica, dose diária por idade, melhores fontes e como melhorar absorção. Baseado em evidências.",
       "keywords": [
         "ferro",
         "anemia"
@@ -1214,8 +1214,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Ômega-3",
-      "meta_description": "Guia sobre ômega-3",
+      "meta_title": "Ômega-3 (EPA/DHA): Benefícios Comprovados, Dose e Como Escolher o Melhor",
+      "meta_description": "Ômega-3: benefícios comprovados para coração, cérebro e inflamação. Dose ideal de EPA+DHA, como escolher suplemento e diferença entre óleo de peixe e krill.",
       "keywords": [
         "ômega-3",
         "EPA",
@@ -1400,8 +1400,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Vitamina C",
-      "meta_description": "Guia sobre vitamina C",
+      "meta_title": "Vitamina C: Imunidade, Dose Ideal (1g ou 2g?) e Quando Suplementar",
+      "meta_description": "Vitamina C: previne gripes? Dose ideal para imunidade, absorção de ferro e produção de colágeno. Descubra se 1g ou 2g é o certo para você.",
       "keywords": [
         "vitamina c",
         "imunidade"
@@ -1558,8 +1558,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Vitamina E",
-      "meta_description": "Guia sobre vitamina E",
+      "meta_title": "Vitamina E: Antioxidante para Pele, Fertilidade e Coração | Dose Segura",
+      "meta_description": "Vitamina E: poder antioxidante para pele, fertilidade e proteção cardiovascular. Dose segura, riscos em excesso e melhores fontes alimentares.",
       "keywords": [
         "vitamina e"
       ]
@@ -1727,8 +1727,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Zinco",
-      "meta_description": "Guia sobre zinco",
+      "meta_title": "Zinco: Imunidade, Testosterona e Pele | Dose, Deficiência e Melhor Tipo",
+      "meta_description": "Zinco: essencial para imunidade, testosterona e pele. Sintomas de deficiência, dose diária por idade e diferença entre picolinato, quelato e óxido.",
       "keywords": [
         "zinco",
         "imunidade"
@@ -1903,8 +1903,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Ácido Fólico",
-      "meta_description": "Guia sobre ácido fólico",
+      "meta_title": "Ácido Fólico (B9): Dose para Gestantes, Homens e Quem Deve Tomar",
+      "meta_description": "Ácido fólico (vitamina B9): essencial para gestantes, previne defeitos neurais. Dose por idade, diferença para metilfolato e quem precisa suplementar.",
       "keywords": [
         "ácido fólico",
         "gravidez",
@@ -1993,7 +1993,7 @@
           "unidade": "mg"
         },
         "lactantes": {
-          "valor": 2.0,
+          "valor": 2,
           "unidade": "mg"
         },
         "idosos_50plus": {
@@ -2329,7 +2329,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Vitamina K2 MK-7",
+          "link": "https://www.amazon.com.br/s?k=vitamina+k2+mk7+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Vitamina D3 + K2",
+          "link": "https://www.amazon.com.br/s?k=vitamina+d3+k2+suplemento&tag=105c91-20",
+          "badge": "Com D3"
+        }
+      ]
     }
   },
   "iodo": {
@@ -2423,8 +2434,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Iodo",
-      "meta_description": "Guia sobre iodo",
+      "meta_title": "Iodo: Tireoide, Hipotireoidismo e Dose Segura | Quem Precisa Suplementar",
+      "meta_description": "Iodo: essencial para tireoide e metabolismo. Sintomas de deficiência, dose segura, risco em excesso e quem precisa suplementar no Brasil.",
       "keywords": [
         "iodo",
         "tireoide"
@@ -2541,8 +2552,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Selênio",
-      "meta_description": "Guia sobre selênio",
+      "meta_title": "Selênio: Tireoide, Imunidade e Antioxidante | Dose e Melhor Suplemento",
+      "meta_description": "Selênio: mineral essencial para tireoide e sistema imunológico. Dose diária, sinais de deficiência e como escolher entre selenometionina e levedura.",
       "keywords": [
         "selênio",
         "castanha-do-pará"
@@ -2667,8 +2678,8 @@
       }
     ],
     "seo": {
-      "meta_title": "Vitamina A",
-      "meta_description": "Guia sobre vitamina A",
+      "meta_title": "Vitamina A (Retinol): Visão, Pele e Imunidade | Dose e Riscos do Excesso",
+      "meta_description": "Vitamina A: essencial para visão, pele e imunidade. Diferença retinol vs beta-caroteno, dose segura e por que o excesso é perigoso.",
       "keywords": [
         "vitamina a",
         "retinol",
@@ -3450,7 +3461,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Picolinato de Cromo",
+          "link": "https://www.amazon.com.br/s?k=picolinato+de+cromo+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Cromo Quelato",
+          "link": "https://www.amazon.com.br/s?k=cromo+quelato+suplemento&tag=105c91-20",
+          "badge": "Quelato"
+        }
+      ]
     }
   },
   "coenzima-q10": {
@@ -3658,7 +3680,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Coenzima Q10",
+          "link": "https://www.amazon.com.br/s?k=coenzima+q10+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Ubiquinol CoQ10",
+          "link": "https://www.amazon.com.br/s?k=ubiquinol+coenzima+q10&tag=105c91-20",
+          "badge": "Forma ativa"
+        }
+      ]
     }
   },
   "probioticos": {
@@ -4687,7 +4720,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "L-Carnitina",
+          "link": "https://www.amazon.com.br/s?k=l+carnitina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Acetil L-Carnitina",
+          "link": "https://www.amazon.com.br/s?k=acetil+l+carnitina+suplemento&tag=105c91-20",
+          "badge": "ALCAR"
+        }
+      ]
     }
   },
   "taurina": {
@@ -4843,7 +4887,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Taurina",
+          "link": "https://www.amazon.com.br/s?k=taurina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Taurina em Po",
+          "link": "https://www.amazon.com.br/s?k=taurina+em+po+suplemento&tag=105c91-20",
+          "badge": "Em po"
+        }
+      ]
     }
   },
   "msm": {
@@ -4992,7 +5047,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "MSM",
+          "link": "https://www.amazon.com.br/s?k=msm+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "MSM Articulacoes",
+          "link": "https://www.amazon.com.br/s?k=msm+articulacoes+suplemento&tag=105c91-20",
+          "badge": "Articulacoes"
+        }
+      ]
     }
   },
   "glucosamina": {
@@ -5174,7 +5240,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Glucosamina",
+          "link": "https://www.amazon.com.br/s?k=glucosamina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Glucosamina Condroitina",
+          "link": "https://www.amazon.com.br/s?k=glucosamina+condroitina+suplemento&tag=105c91-20",
+          "badge": "Com condroitina"
+        }
+      ]
     }
   },
   "resveratrol": {
@@ -5340,7 +5417,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Resveratrol",
+          "link": "https://www.amazon.com.br/s?k=resveratrol+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Trans-Resveratrol",
+          "link": "https://www.amazon.com.br/s?k=trans+resveratrol+suplemento&tag=105c91-20",
+          "badge": "Trans-resveratrol"
+        }
+      ]
     }
   },
   "quercetina": {
@@ -5520,7 +5608,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Quercetina",
+          "link": "https://www.amazon.com.br/s?k=quercetina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Quercetina com Vitamina C",
+          "link": "https://www.amazon.com.br/s?k=quercetina+vitamina+c+suplemento&tag=105c91-20",
+          "badge": "Com vitamina C"
+        }
+      ]
     }
   },
   "nac": {
@@ -5706,7 +5805,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "NAC N-Acetilcisteina",
+          "link": "https://www.amazon.com.br/s?k=nac+n+acetilcisteina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "N-Acetilcisteina",
+          "link": "https://www.amazon.com.br/s?k=n+acetilcisteina+suplemento&tag=105c91-20",
+          "badge": "NAC"
+        }
+      ]
     }
   },
   "astaxantina": {
@@ -5875,7 +5985,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Astaxantina",
+          "link": "https://www.amazon.com.br/s?k=astaxantina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Astaxantina Natural",
+          "link": "https://www.amazon.com.br/s?k=astaxantina+natural+suplemento&tag=105c91-20",
+          "badge": "Natural"
+        }
+      ]
     }
   },
   "luteina-zeaxantina": {
@@ -6053,7 +6174,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Luteina e Zeaxantina",
+          "link": "https://www.amazon.com.br/s?k=luteina+zeaxantina+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Formula para Visao",
+          "link": "https://www.amazon.com.br/s?k=luteina+zeaxantina+visao+suplemento&tag=105c91-20",
+          "badge": "Visao"
+        }
+      ]
     }
   },
   "molibdenio": {
@@ -6200,7 +6332,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Molibdenio",
+          "link": "https://www.amazon.com.br/s?k=molibdenio+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Molibdenio Quelato",
+          "link": "https://www.amazon.com.br/s?k=molibdenio+quelato+suplemento&tag=105c91-20",
+          "badge": "Quelato"
+        }
+      ]
     }
   },
   "manganes": {
@@ -6263,7 +6406,7 @@
           "unidade": "mg"
         },
         "gestantes": {
-          "valor": 2.0,
+          "valor": 2,
           "unidade": "mg"
         }
       },
@@ -6370,7 +6513,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Manganes",
+          "link": "https://www.amazon.com.br/s?k=manganes+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Manganes Quelato",
+          "link": "https://www.amazon.com.br/s?k=manganes+quelato+suplemento&tag=105c91-20",
+          "badge": "Quelato"
+        }
+      ]
     }
   },
   "cobre": {
@@ -6542,7 +6696,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Cobre",
+          "link": "https://www.amazon.com.br/s?k=cobre+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Cobre Quelato",
+          "link": "https://www.amazon.com.br/s?k=cobre+quelato+suplemento&tag=105c91-20",
+          "badge": "Quelato"
+        }
+      ]
     }
   },
   "fosforo": {
@@ -6699,7 +6864,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Fosforo",
+          "link": "https://www.amazon.com.br/s?k=fosforo+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Complexo Mineral com Fosforo",
+          "link": "https://www.amazon.com.br/s?k=fosforo+suplemento+mineral&tag=105c91-20",
+          "badge": "Mineral"
+        }
+      ]
     }
   },
   "potassio": {
@@ -6885,7 +7061,18 @@
       ]
     },
     "afiliados": {
-      "amazon": []
+      "amazon": [
+        {
+          "nome": "Potassio",
+          "link": "https://www.amazon.com.br/s?k=potassio+suplemento&tag=105c91-20",
+          "badge": "Busca Amazon"
+        },
+        {
+          "nome": "Citrato de Potassio",
+          "link": "https://www.amazon.com.br/s?k=citrato+de+potassio+suplemento&tag=105c91-20",
+          "badge": "Citrato"
+        }
+      ]
     }
   },
   "creatina": {
@@ -7249,7 +7436,7 @@
           "nota": "Faixa ideal para ganho de massa (1.6-2.2g/kg)"
         },
         "atletas_intensos": {
-          "valor": 2.0,
+          "valor": 2,
           "unidade": "g/kg",
           "nota": "Treino intenso, 2x/dia ou competição"
         },
@@ -7687,7 +7874,7 @@
       },
       {
         "alimento": "Frango (100g)",
-        "quantidade": 1.0,
+        "quantidade": 1,
         "unidade": "g",
         "percentual_vd": 0
       },
@@ -7711,7 +7898,7 @@
       },
       {
         "alimento": "Whey Protein (1 dose)",
-        "quantidade": 4.0,
+        "quantidade": 4,
         "unidade": "g",
         "percentual_vd": 0
       }

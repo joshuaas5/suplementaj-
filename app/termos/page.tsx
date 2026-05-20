@@ -5,6 +5,9 @@ import { AlertTriangle, FileText, Scale, Shield, XCircle } from 'lucide-react'
 export const metadata = {
   title: 'Termos de Uso | Suplementa Já',
   description: 'Termos de Uso e Condições de Serviço do Suplementa Já.',
+  alternates: {
+    canonical: '/termos',
+  },
 }
 
 export default function TermosPage() {

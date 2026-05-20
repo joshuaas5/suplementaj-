@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraMacros } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Macros Grátis 2026 - Proteína, Carbo e Gordura | Suplementa Já',
@@ -16,12 +17,63 @@ export const metadata: Metadata = {
   }
 }
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como dividir macros para cutting (secar)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para cutting: proteína 2-2.4g/kg, gordura 0.8-1g/kg, carboidrato o restante das calorias. Mantenha déficit de 300-500 kcal. A proteína alta preserva massa muscular enquanto perde gordura."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual a divisão ideal de macros para bulking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para bulking: proteína 1.6-2.2g/kg, gordura 0.8-1.2g/kg, carboidrato o restante (geralmente 4-6g/kg). Superávit de 300-500 kcal. Foque em aumentar carboidrato para treinar mais forte."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso contar macros ou só calorias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para a maioria das pessoas, contar apenas calorias + proteína já resolve. Contar macros é útil para atletas, quem quer ganhar massa magra sem gordura, ou quem tem dificuldade em perder os últimos quilos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que acontece se comer pouca gordura na dieta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gordura abaixo de 0.6g/kg pode prejudicar produção hormonal (testosterona cai), absorção de vitaminas lipossolúveis (A, D, E, K), saúde da pele e cabelo, e regulação da temperatura corporal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso trocar carboidrato por gordura ou vice-versa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Em parte, sim. Proteína e gordura são essenciais (não pode reduzir muito). Carboidrato é o macro flexível: se precisa de mais energia para treinar, aumente carbo; se prefere dieta low-carb, aumente gordura, mas mantenha pelo menos 0.8g/kg de gordura."
+      }
+    }
+  ]
+}
+
 export default function CalculadoraMacrosPage() {
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_MACROS?.trim()
   const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
 
   return (
     <div className="min-h-screen bg-yellow-100 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-2xl mx-auto px-4">
         {/* Navegação */}
         <div className="flex items-center justify-between mb-6">
@@ -216,6 +268,14 @@ export default function CalculadoraMacrosPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'proteina', title: 'Proteina', description: 'A base do calculo de macros para hipertrofia.' },
+            { slug: 'caseina', title: 'Caseina', description: 'Proteina de absorcao lenta para rotina alimentar.' },
+            { slug: 'creatina', title: 'Creatina', description: 'Complementa rotina de treino e ganho de forca.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

@@ -5,6 +5,9 @@ import { Shield, Lock, Eye, Trash2, FileText, Mail } from 'lucide-react'
 export const metadata = {
   title: 'Política de Privacidade | Suplementa Já',
   description: 'Política de Privacidade e proteção de dados pessoais do Suplementa Já em conformidade com a LGPD.',
+  alternates: {
+    canonical: '/privacidade',
+  },
 }
 
 export default function PrivacidadePage() {

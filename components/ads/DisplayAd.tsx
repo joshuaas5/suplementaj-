@@ -74,7 +74,7 @@ export function DisplayAd({
 export function HorizontalAd({ className = '' }: { className?: string }) {
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
   const adRef = useRef<HTMLModElement>(null)
-  
+
   useEffect(() => {
     if (adsenseId && adRef.current) {
       try {
@@ -94,6 +94,7 @@ export function HorizontalAd({ className = '' }: { className?: string }) {
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client={adsenseId}
+        data-ad-slot="3400740255"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
@@ -157,6 +158,7 @@ export function RectangleAd({ className = '' }: { className?: string }) {
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client={adsenseId}
+        data-ad-slot="3400740255"
         data-ad-format="rectangle"
         data-full-width-responsive="true"
       />

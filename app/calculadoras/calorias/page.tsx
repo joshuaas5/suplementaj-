@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraCalorias } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Calorias Diárias (Precisa): Para Perder Peso ou Ganhar Massa',
@@ -297,6 +298,14 @@ export default function CalculadoraCaloriasPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'proteina', title: 'Proteina', description: 'Preserva massa magra em deficit calorico.' },
+            { slug: 'creatina', title: 'Creatina', description: 'Apoia treino, forca e ganho de massa.' },
+            { slug: 'omega-3', title: 'Omega-3', description: 'Saude metabolica, inflamacao e bem-estar.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

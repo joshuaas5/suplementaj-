@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraCreatina } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Creatina Grátis 2026 - Dose Por Peso | Suplementa Já',
@@ -16,12 +17,63 @@ export const metadata: Metadata = {
   }
 }
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Precisa de fase de carga na creatina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não é obrigatório. Com 3-5g por dia, a saturação muscular acontece em 3-4 semanas. A fase de carga (20g/dia por 5-7 dias) satura mais rápido, mas causa mais retenção de líquido e desconforto gástrico. A manutenção diária é igualmente eficaz a longo prazo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Creatina engorda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creatina pode causar 0.5-1.5kg de retenção de água intramuscular (não é gordura). Isso é normal e benéfico: mais água no músculo = melhor performance. Não confunda retenção hídrica com ganho de gordura."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual o melhor horário para tomar creatina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O horário tem impacto mínimo. O mais importante é tomar todos os dias. Se quiser otimizar, tomar pós-treino com carboidrato e proteína pode melhorar a absorção em cerca de 5-10%. Mas a diferença prática é pequena."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Creatina faz mal para os rins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não, em pessoas saudáveis. Mais de 700 estudos e uma meta-análise de 2023 confirmam que creatina não prejudica a função renal. Pessoas com doença renal pré-existente devem consultar um médico antes de usar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso tomar creatina com café?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim! A combinação é segura e pode até ser benéfica. Estudos mostram que cafeína não anula os efeitos da creatina. Apenas evite doses muito altas de cafeína (500mg+) que podem causar desconforto gástrico quando combinadas."
+      }
+    }
+  ]
+}
+
 export default function CalculadoraCreatinaPage() {
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_CREATINA?.trim()
   const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
 
   return (
     <div className="min-h-screen bg-yellow-100 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-2xl mx-auto px-4">
         {/* Navegação */}
         <div className="flex items-center justify-between mb-6">
@@ -192,6 +244,14 @@ export default function CalculadoraCreatinaPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'creatina', title: 'Creatina', description: 'Guia completo de dose, beneficios e seguranca.' },
+            { slug: 'proteina', title: 'Proteina', description: 'Combina com treino para recuperacao muscular.' },
+            { slug: 'magnesio', title: 'Magnesio', description: 'Funcao muscular, sono e recuperacao.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

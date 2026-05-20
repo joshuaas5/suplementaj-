@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Clock, ArrowRight, Search, Star } from 'lucide-react'
 import type { Artigo } from '@/types/artigo'
+import { InFeedAd } from '@/components/ads/AdSenseUnits'
 
 // Define topics based on common search patterns - EXPANDIDO PARA 11 CATEGORIAS
 const TOPICS = [
@@ -184,8 +185,15 @@ export function BlogContent({ artigos }: BlogContentProps) {
 
             {/* Grid de Artigos */}
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {filteredArtigos.map((artigo) => (
-                    <ArtigoCard key={artigo.slug} artigo={artigo} />
+                {filteredArtigos.map((artigo, index) => (
+                    <div key={artigo.slug} className="contents">
+                        {index === 6 && (
+                            <div className="md:col-span-2 lg:col-span-3">
+                                <InFeedAd />
+                            </div>
+                        )}
+                        <ArtigoCard artigo={artigo} />
+                    </div>
                 ))}
             </div>
         </>

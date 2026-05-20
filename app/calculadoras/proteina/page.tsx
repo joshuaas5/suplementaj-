@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraProteina } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Proteína Grátis 2026 - Quantas Gramas Por Dia? | Suplementa Já',
@@ -16,12 +17,63 @@ export const metadata: Metadata = {
   }
 }
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quanto de proteína preciso por dia para ganhar massa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para hipertrofia: 1.6 a 2.2g de proteína por kg de peso corporal por dia. Exemplo: pessoa de 70kg precisa de 112 a 154g por dia. Acima de 2.2g/kg não há benefícios adicionais comprovados para ganho muscular."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Excesso de proteína faz mal aos rins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Em pessoas saudáveis, até 2.2g/kg por dia é seguro. Estudos com atletas consumindo 2.5-3g/kg por anos não mostraram danos renais. Pessoas com doença renal pré-existente devem consultar um médico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Whey protein ou comida para proteína?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Comida deve ser a base (80%+ da proteína). Whey protein é conveniente pós-treino e para completar a meta diária. Não substitua todas as refeições por suplemento. Frango, ovo, peixe e carne vermelha oferecem nutrientes extras."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de proteína em jejum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não é obrigatório, mas distribuir proteína ao longo do dia (30-40g por refeição, 3-4 refeições) é melhor para síntese muscular do que concentrar tudo em uma refeição. O corpo não armazena proteína como armazena gordura."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto de proteína para emagrecer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para emagrecer preservando massa: 1.8 a 2.5g/kg por dia. A proteína alta durante déficit calórico preserva músculo, aumenta saciedade e tem maior efeito térmico (queima mais calorias na digestão que carbo ou gordura)."
+      }
+    }
+  ]
+}
+
 export default function CalculadoraProteinaPage() {
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_PROTEINA?.trim()
   const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
 
   return (
     <div className="min-h-screen bg-lime-100 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-2xl mx-auto px-4">
         {/* Navegação */}
         <div className="flex items-center justify-between mb-6">
@@ -192,6 +244,14 @@ export default function CalculadoraProteinaPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'proteina', title: 'Proteina', description: 'Entenda necessidade diaria e fontes.' },
+            { slug: 'caseina', title: 'Caseina', description: 'Proteina de absorcao lenta para rotina alimentar.' },
+            { slug: 'creatina', title: 'Creatina', description: 'Suporte para forca, volume e desempenho.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

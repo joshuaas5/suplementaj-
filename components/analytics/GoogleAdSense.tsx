@@ -13,26 +13,24 @@ export function GoogleAdSense() {
   const [shouldLoad, setShouldLoad] = useState(false)
 
   useEffect(() => {
-    // Lazy load: carregar AdSense após interação ou 2s
     let loaded = false
-    
+
     const loadAds = () => {
       if (loaded) return
       loaded = true
       setShouldLoad(true)
     }
 
-    // Carregar após 3s OU primeira interação (otimização LCP)
     const timer = setTimeout(loadAds, 3000)
     const events = ['scroll', 'mousemove', 'touchstart', 'click']
-    
-    events.forEach(event => {
+
+    events.forEach((event) => {
       window.addEventListener(event, loadAds, { once: true, passive: true })
     })
 
     return () => {
       clearTimeout(timer)
-      events.forEach(event => {
+      events.forEach((event) => {
         window.removeEventListener(event, loadAds)
       })
     }
@@ -41,12 +39,27 @@ export function GoogleAdSense() {
   useEffect(() => {
     if (!shouldLoad) return
 
+    const enableMobileAnchorAd = () => {
+      const isMobile = window.matchMedia('(max-width: 768px)').matches
+      if (!isMobile) return
+
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: adsenseId,
+          enable_page_level_ads: true,
+          overlays: { bottom: true },
+        })
+      } catch {
+        // AdSense can reject duplicate page-level pushes on navigation.
+      }
+    }
+
     const script = document.createElement('script')
     script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`
     script.async = true
     script.crossOrigin = 'anonymous'
-    script.onload = () => console.log('✅ AdSense carregado')
-    script.onerror = () => console.error('❌ Erro ao carregar AdSense')
+    script.onload = enableMobileAnchorAd
+    script.onerror = () => console.error('Erro ao carregar AdSense')
     document.head.appendChild(script)
   }, [shouldLoad, adsenseId])
 

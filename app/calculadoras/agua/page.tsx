@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { CalculadoraAgua } from '@/components/calculadoras'
 import { AdUnit } from '@/components/layout/AdUnit'
+import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
   title: 'Calculadora de Água Grátis 2026 - Quantos Litros Por Dia? | Suplementa Já',
@@ -16,12 +17,63 @@ export const metadata: Metadata = {
   }
 }
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quantos litros de água devo beber por dia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A recomendação geral é de 30-35ml por kg de peso corporal. Por exemplo, uma pessoa de 70kg precisa de 2,1 a 2,45 litros por dia. Quem pratica exercício precisa de mais, cerca de 35-40ml por kg."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Beber muita água faz mal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, em excesso pode causar hiponatremia (sódio baixo no sangue), que é perigoso. Não beba mais de 1 litro por hora. Distribua ao longo do dia e respeite a sede."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Água com gás conta como hidratação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim! Água com gás hidrata tanto quanto a natural. Café e chás também contam, embora em menor proporção. A exceção é álcool, que desidrata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como saber se estou desidratado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sinais de desidratação: urina escura (deveria ser amarelo claro), sede intensa, boca seca, dor de cabeça, cansaço e pele seca. Se sua urina está clara ou amarelo bem claro, você está bem hidratado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso beber água durante o treino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Beba 200-300ml 30 minutos antes do treino, e 150-250ml a cada 15-20 minutos durante. Para treinos acima de 1 hora, considere uma bebida isotônica para repor eletrólitos."
+      }
+    }
+  ]
+}
+
 export default function CalculadoraAguaPage() {
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_AGUA?.trim()
   const canShowAds = Boolean(process.env.NEXT_PUBLIC_ADSENSE_ID && adSlot)
 
   return (
     <div className="min-h-screen bg-blue-100 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-2xl mx-auto px-4">
         {/* Navegação */}
         <div className="flex items-center justify-between mb-6">
@@ -188,6 +240,14 @@ export default function CalculadoraAguaPage() {
             </Button>
           </Link>
         </div>
+
+        <NutrientQuickLinks
+          items={[
+            { slug: 'potassio', title: 'Potassio', description: 'Equilibrio hidrico, pressao e funcao muscular.' },
+            { slug: 'magnesio', title: 'Magnesio', description: 'Contracao muscular, relaxamento e sono.' },
+            { slug: 'creatina', title: 'Creatina', description: 'Ajuda performance e depende de boa hidratacao.' },
+          ]}
+        />
 
         {/* Outras calculadoras */}
         <div className="mt-8">

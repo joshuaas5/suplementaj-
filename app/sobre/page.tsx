@@ -7,6 +7,9 @@ import { ArrowRight, Heart, Shield, Users, Sparkles, Target, BookOpen } from 'lu
 export const metadata = {
   title: 'Sobre | Suplementa Já',
   description: 'Conheça o Suplementa Já - plataforma gratuita de recomendações personalizadas de suplementação baseadas em evidências científicas.',
+  alternates: {
+    canonical: '/sobre',
+  },
 }
 
 export default function SobrePage() {

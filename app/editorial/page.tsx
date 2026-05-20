@@ -7,6 +7,9 @@ import { Button } from '@/components/ui/Button'
 export const metadata = {
     title: 'Política Editorial | Suplementa Já',
     description: 'Conheça nossa metodologia, fontes científicas e processo de revisão de conteúdo. Transparência e compromisso com evidências científicas.',
+    alternates: {
+        canonical: '/editorial',
+    },
 }
 
 export default function EditorialPage() {

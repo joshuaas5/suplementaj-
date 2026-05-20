@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
+import { DisplayAd } from '@/components/ads/DisplayAd'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { Alert } from '@/components/ui/Alert'
@@ -40,12 +41,24 @@ export async function generateMetadata({ params }: PageProps) {
     }
   }
 
+  const metaTitle = nutriente.seo?.meta_title
+    ? `${nutriente.seo.meta_title} | Suplementa Já`
+    : `${nutriente.nome} (${nutriente.nome_cientifico}) - Suplementa Já`
+
+  const metaDescription = nutriente.seo?.meta_description || nutriente.descricao_curta
+
   return {
-    title: `${nutriente.nome} (${nutriente.nome_cientifico}) - Suplementa Já`,
-    description: nutriente.descricao_curta,
+    title: metaTitle,
+    description: metaDescription,
     keywords: nutriente.seo?.keywords?.join(', '),
     alternates: {
       canonical: `https://www.suplementaja.com/nutrientes/${params.slug}`,
+    },
+    openGraph: {
+      title: metaTitle,
+      description: metaDescription,
+      type: 'article',
+      url: `https://www.suplementaja.com/nutrientes/${params.slug}`,
     },
   }
 }
@@ -60,6 +73,20 @@ export default function NutrienteDetailPage({ params }: PageProps) {
   const categoryColor = nutriente.categoria === 'vitamina' ? 'cyan-400' :
     nutriente.categoria === 'mineral' ? 'lime-400' : 'pink-500'
   const categoryTextColor = nutriente.categoria === 'outro' ? 'text-white' : 'text-black'
+  const artigosRelacionados = getArtigosRelacionados(params.slug)
+    .map((artigoSlug) => {
+      const artigo = artigos.find((a) => a.slug === artigoSlug)
+      if (!artigo) return null
+      return {
+        type: 'artigo' as const,
+        slug: artigo.slug,
+        titulo: artigo.titulo,
+        descricao: artigo.descricao,
+        categoria: artigo.categoria,
+      }
+    })
+    .filter((item) => item !== null)
+    .slice(0, 3) as Array<{ type: 'artigo'; slug: string; titulo: string; descricao: string; categoria: string }>
 
   // BreadcrumbList schema
   const breadcrumbSchema = {
@@ -164,6 +191,16 @@ export default function NutrienteDetailPage({ params }: PageProps) {
 
         {/* Anúncio Display */}
         <ManualDisplayAd className="my-8" />
+        <DisplayAd slot="3400740255" format="rectangle" className="my-8 hidden lg:block" />
+
+        {artigosRelacionados.length > 0 && (
+          <div className="mb-8">
+            <RelatedContent
+              items={artigosRelacionados}
+              title="Artigos Relacionados Sobre Este Nutriente"
+            />
+          </div>
+        )}
 
         {/* Funções Corporais */}
         {nutriente.funcoes_corporais && nutriente.funcoes_corporais.length > 0 && (
@@ -672,31 +709,6 @@ export default function NutrienteDetailPage({ params }: PageProps) {
             </Button>
           </Link>
         </div>
-
-        {/* Conteúdo Relacionado */}
-        {(() => {
-          const artigosRelacionados = getArtigosRelacionados(params.slug)
-            .map((artigoSlug) => {
-              const artigo = artigos.find((a) => a.slug === artigoSlug)
-              if (!artigo) return null
-              return {
-                type: 'artigo' as const,
-                slug: artigo.slug,
-                titulo: artigo.titulo,
-                descricao: artigo.descricao,
-                categoria: artigo.categoria,
-              }
-            })
-            .filter((item) => item !== null)
-            .slice(0, 3) as Array<{ type: 'artigo'; slug: string; titulo: string; descricao: string; categoria: string }>
-
-          return artigosRelacionados.length > 0 ? (
-            <RelatedContent
-              items={artigosRelacionados}
-              title="📚 Artigos Relacionados Sobre Este Nutriente"
-            />
-          ) : null
-        })()}
 
         {/* Back to list */}
         <div className="text-center">

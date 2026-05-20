@@ -6,6 +6,14 @@ import { ArrowRight } from 'lucide-react'
 import nutrientesData from '@/data/nutrientes.json'
 import type { Nutriente } from '@/types/nutriente'
 
+export const metadata = {
+  title: 'Biblioteca de Nutrientes - Vitaminas, Minerais e Suplementos | Suplementa Já',
+  description: 'Guia completo de 44 nutrientes essenciais: funções, fontes alimentares, dosagens recomendadas e evidências científicas. Descubra quais vitaminas e minerais você precisa.',
+  alternates: {
+    canonical: '/nutrientes',
+  },
+}
+
 const nutrientes = Object.values(nutrientesData) as Nutriente[]
 
 export default function NutrientesPage() {

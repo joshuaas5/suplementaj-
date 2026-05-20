@@ -10,6 +10,9 @@ import { BlogContent } from '@/components/blog/BlogContent'
 export const metadata = {
   title: 'Blog - Suplementa Já | Guias e Artigos Sobre Suplementação',
   description: 'Artigos completos e baseados em ciência sobre vitaminas, minerais e suplementos. Aprenda como melhorar sua saúde através da suplementação inteligente.',
+  alternates: {
+    canonical: '/blog',
+  },
 }
 
 const artigos = artigosData as Artigo[]

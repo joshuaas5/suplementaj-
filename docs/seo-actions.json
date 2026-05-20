@@ -81,6 +81,22 @@
       "redirected": true
     },
     {
+      "url": "https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular",
+      "pathname": "/blog/creatina-guia-completo-ganho-muscular",
+      "slug": "creatina-guia-completo-ganho-muscular",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "score": 90,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
       "url": "https://www.suplementaja.com/blog/como-dormir-melhor-suplementos",
       "pathname": "/blog/como-dormir-melhor-suplementos",
       "slug": "como-dormir-melhor-suplementos",
@@ -270,21 +286,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 5.5,
-      "score": 70,
-      "reasons": [
-        "URL de artigo aparece no GSC mas não existe no JSON"
-      ],
-      "exists": false,
-      "redirected": false
-    },
-    {
-      "url": "https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular",
-      "pathname": "/blog/creatina-guia-completo-ganho-muscular",
-      "slug": "creatina-guia-completo-ganho-muscular",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 2,
       "score": 70,
       "reasons": [
         "URL de artigo aparece no GSC mas não existe no JSON"
@@ -486,6 +487,21 @@
       ],
       "exists": true,
       "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-d",
+      "pathname": "/nutrientes/vitamina-d",
+      "slug": "vitamina-d",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "score": 50,
+      "reasons": [
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": true,
+      "redirected": true
     },
     {
       "url": "https://www.suplementaja.com/blog/cutting-modelo-calorias-macros",
@@ -1241,21 +1257,6 @@
       "url": "https://www.suplementaja.com/blog/probioticos-intestino-flora-intestinal",
       "pathname": "/blog/probioticos-intestino-flora-intestinal",
       "slug": "probioticos-intestino-flora-intestinal",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 1,
-      "score": 30,
-      "reasons": [
-        "Monitorar"
-      ],
-      "exists": true,
-      "redirected": false
-    },
-    {
-      "url": "https://www.suplementaja.com/nutrientes/vitamina-d",
-      "pathname": "/nutrientes/vitamina-d",
-      "slug": "vitamina-d",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
