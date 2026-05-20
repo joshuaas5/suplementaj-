@@ -1,0 +1,2360 @@
+{
+  "pageActions": [
+    {
+      "url": "https://www.suplementaja.com/blog/guia-completo-creatina-2025",
+      "pathname": "/blog/guia-completo-creatina-2025",
+      "slug": "guia-completo-creatina-2025",
+      "clicks": 2,
+      "impressions": 597,
+      "ctr": 0.0034000000000000002,
+      "position": 5.4,
+      "score": 140,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões",
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/monjaro-preco-quanto-custa-como-economizar-2026",
+      "pathname": "/blog/monjaro-preco-quanto-custa-como-economizar-2026",
+      "slug": "monjaro-preco-quanto-custa-como-economizar-2026",
+      "clicks": 1,
+      "impressions": 1236,
+      "ctr": 0.0008,
+      "position": 6.46,
+      "score": 90,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/pre-treino-vale-a-pena",
+      "pathname": "/blog/pre-treino-vale-a-pena",
+      "slug": "pre-treino-vale-a-pena",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": 0,
+      "position": 6.31,
+      "score": 90,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-fortalecer-imunidade-suplementos",
+      "pathname": "/blog/como-fortalecer-imunidade-suplementos",
+      "slug": "como-fortalecer-imunidade-suplementos",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 7.26,
+      "score": 90,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/suplementos-para-emagrecer-funcionam",
+      "pathname": "/blog/suplementos-para-emagrecer-funcionam",
+      "slug": "suplementos-para-emagrecer-funcionam",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.14,
+      "score": 90,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-dormir-melhor-suplementos",
+      "pathname": "/blog/como-dormir-melhor-suplementos",
+      "slug": "como-dormir-melhor-suplementos",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": 0,
+      "position": 11.39,
+      "score": 80,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/calculadoras/calorias",
+      "pathname": "/calculadoras/calorias",
+      "slug": "calorias",
+      "clicks": 2,
+      "impressions": 1598,
+      "ctr": 0.0013,
+      "position": 15.91,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/whey-isolado-vs-concentrado",
+      "pathname": "/blog/whey-isolado-vs-concentrado",
+      "slug": "whey-isolado-vs-concentrado",
+      "clicks": 1,
+      "impressions": 621,
+      "ctr": 0.0016,
+      "position": 10.33,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/melhor-marca-creatina-brasil",
+      "pathname": "/blog/melhor-marca-creatina-brasil",
+      "slug": "melhor-marca-creatina-brasil",
+      "clicks": 0,
+      "impressions": 302,
+      "ctr": 0,
+      "position": 9.4,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/guia-whey-protein-2026",
+      "pathname": "/blog/guia-whey-protein-2026",
+      "slug": "guia-whey-protein-2026",
+      "clicks": 1,
+      "impressions": 268,
+      "ctr": 0.0037,
+      "position": 7.02,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/melhores-marcas-whey-protein-2026",
+      "pathname": "/blog/melhores-marcas-whey-protein-2026",
+      "slug": "melhores-marcas-whey-protein-2026",
+      "clicks": 0,
+      "impressions": 258,
+      "ctr": 0,
+      "position": 7.78,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/como-calcular-gasto-calorico-tmb-tdee",
+      "pathname": "/blog/como-calcular-gasto-calorico-tmb-tdee",
+      "slug": "como-calcular-gasto-calorico-tmb-tdee",
+      "clicks": 0,
+      "impressions": 174,
+      "ctr": 0,
+      "position": 7.28,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/zma-zinco-magnesio-b6-sono-testosterona",
+      "pathname": "/blog/zma-zinco-magnesio-b6-sono-testosterona",
+      "slug": "zma-zinco-magnesio-b6-sono-testosterona",
+      "clicks": 0,
+      "impressions": 164,
+      "ctr": 0,
+      "position": 6.45,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/cafeina-performance-dose-pre-treino",
+      "pathname": "/blog/cafeina-performance-dose-pre-treino",
+      "slug": "cafeina-performance-dose-pre-treino",
+      "clicks": 0,
+      "impressions": 155,
+      "ctr": 0,
+      "position": 7.31,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/macros-para-ganho-massa",
+      "pathname": "/blog/macros-para-ganho-massa",
+      "slug": "macros-para-ganho-massa",
+      "clicks": 0,
+      "impressions": 139,
+      "ctr": 0,
+      "position": 5.9,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/diferenca-proteinas-whey-caseina-albumina",
+      "pathname": "/blog/diferenca-proteinas-whey-caseina-albumina",
+      "slug": "diferenca-proteinas-whey-caseina-albumina",
+      "clicks": 0,
+      "impressions": 113,
+      "ctr": 0,
+      "position": 7.66,
+      "score": 70,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/suplementos-para-dor-articulacao-joelho",
+      "pathname": "/blog/suplementos-para-dor-articulacao-joelho",
+      "slug": "suplementos-para-dor-articulacao-joelho",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0,
+      "position": 15.24,
+      "score": 70,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON",
+        "URL de artigo aparece no GSC e também está em redirect"
+      ],
+      "exists": false,
+      "redirected": true
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-d3-k2-juntas-beneficios",
+      "pathname": "/blog/vitamina-d3-k2-juntas-beneficios",
+      "slug": "vitamina-d3-k2-juntas-beneficios",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5,
+      "score": 70,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON"
+      ],
+      "exists": false,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular",
+      "pathname": "/blog/creatina-guia-completo-ganho-muscular",
+      "slug": "creatina-guia-completo-ganho-muscular",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "score": 70,
+      "reasons": [
+        "URL de artigo aparece no GSC mas não existe no JSON"
+      ],
+      "exists": false,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-dividir-macros-cutting-bulking-manutencao",
+      "pathname": "/blog/como-dividir-macros-cutting-bulking-manutencao",
+      "slug": "como-dividir-macros-cutting-bulking-manutencao",
+      "clicks": 11,
+      "impressions": 1230,
+      "ctr": 0.0089,
+      "position": 7.25,
+      "score": 65,
+      "reasons": [
+        "Otimizar título/meta e links internos"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/proteina-por-dia-quanto-consumir-guia-completo",
+      "pathname": "/blog/proteina-por-dia-quanto-consumir-guia-completo",
+      "slug": "proteina-por-dia-quanto-consumir-guia-completo",
+      "clicks": 0,
+      "impressions": 276,
+      "ctr": 0,
+      "position": 9.53,
+      "score": 60,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/proteina-isolada-soja-veganos",
+      "pathname": "/blog/proteina-isolada-soja-veganos",
+      "slug": "proteina-isolada-soja-veganos",
+      "clicks": 0,
+      "impressions": 143,
+      "ctr": 0,
+      "position": 8.19,
+      "score": 60,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/",
+      "pathname": "/",
+      "slug": "",
+      "clicks": 0,
+      "impressions": 129,
+      "ctr": 0,
+      "position": 13.55,
+      "score": 60,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/mifflin-st-jeor-formula",
+      "pathname": "/blog/mifflin-st-jeor-formula",
+      "slug": "mifflin-st-jeor-formula",
+      "clicks": 0,
+      "impressions": 112,
+      "ctr": 0,
+      "position": 14.58,
+      "score": 60,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/refeed-day-como-fazer",
+      "pathname": "/blog/refeed-day-como-fazer",
+      "slug": "refeed-day-como-fazer",
+      "clicks": 0,
+      "impressions": 108,
+      "ctr": 0,
+      "position": 8.77,
+      "score": 60,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/como-dividir-macros-cutting-bulking-manutencao",
+      "pathname": "/blog/como-dividir-macros-cutting-bulking-manutencao",
+      "slug": "como-dividir-macros-cutting-bulking-manutencao",
+      "clicks": 14,
+      "impressions": 620,
+      "ctr": 0.0226,
+      "position": 6.37,
+      "score": 55,
+      "reasons": [
+        "Otimizar título/meta e links internos"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/calculadoras/imc",
+      "pathname": "/calculadoras/imc",
+      "slug": "imc",
+      "clicks": 0,
+      "impressions": 580,
+      "ctr": 0,
+      "position": 36.07,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/calculadoras/agua",
+      "pathname": "/calculadoras/agua",
+      "slug": "agua",
+      "clicks": 1,
+      "impressions": 303,
+      "ctr": 0.0033,
+      "position": 52.44,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/biotina-cabelo-unhas-dose-funciona",
+      "pathname": "/blog/biotina-cabelo-unhas-dose-funciona",
+      "slug": "biotina-cabelo-unhas-dose-funciona",
+      "clicks": 1,
+      "impressions": 264,
+      "ctr": 0.0038,
+      "position": 27.33,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-como-tomar",
+      "pathname": "/blog/creatina-como-tomar",
+      "slug": "creatina-como-tomar",
+      "clicks": 0,
+      "impressions": 236,
+      "ctr": 0,
+      "position": 18.32,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/melatonina-sono-insonia-dose-ideal",
+      "pathname": "/blog/melatonina-sono-insonia-dose-ideal",
+      "slug": "melatonina-sono-insonia-dose-ideal",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": 0,
+      "position": 18.96,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-e-cafe",
+      "pathname": "/blog/creatina-e-cafe",
+      "slug": "creatina-e-cafe",
+      "clicks": 0,
+      "impressions": 120,
+      "ctr": 0,
+      "position": 29.92,
+      "score": 50,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/cutting-modelo-calorias-macros",
+      "pathname": "/blog/cutting-modelo-calorias-macros",
+      "slug": "cutting-modelo-calorias-macros",
+      "clicks": 1,
+      "impressions": 177,
+      "ctr": 0.005600000000000001,
+      "position": 4.95,
+      "score": 45,
+      "reasons": [
+        "Otimizar título/meta e links internos"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog",
+      "pathname": "/blog",
+      "slug": "blog",
+      "clicks": 0,
+      "impressions": 142,
+      "ctr": 0,
+      "position": 32.51,
+      "score": 40,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/caseina",
+      "pathname": "/nutrientes/caseina",
+      "slug": "caseina",
+      "clicks": 0,
+      "impressions": 124,
+      "ctr": 0,
+      "position": 69.7,
+      "score": 40,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/caseina",
+      "pathname": "/nutrientes/caseina",
+      "slug": "caseina",
+      "clicks": 0,
+      "impressions": 118,
+      "ctr": 0,
+      "position": 81.5,
+      "score": 40,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-antes-ou-depois-treino",
+      "pathname": "/blog/creatina-antes-ou-depois-treino",
+      "slug": "creatina-antes-ou-depois-treino",
+      "clicks": 0,
+      "impressions": 111,
+      "ctr": 0,
+      "position": 52.53,
+      "score": 40,
+      "reasons": [
+        "CTR muito baixo para o volume de impressões"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/deficit-calorico-quanto-cortar",
+      "pathname": "/blog/deficit-calorico-quanto-cortar",
+      "slug": "deficit-calorico-quanto-cortar",
+      "clicks": 1,
+      "impressions": 153,
+      "ctr": 0.006500000000000001,
+      "position": 13.56,
+      "score": 35,
+      "reasons": [
+        "Otimizar título/meta e links internos"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/o-que-e-tdee-como-calcular",
+      "pathname": "/blog/o-que-e-tdee-como-calcular",
+      "slug": "o-que-e-tdee-como-calcular",
+      "clicks": 1,
+      "impressions": 108,
+      "ctr": 0.009300000000000001,
+      "position": 14.08,
+      "score": 35,
+      "reasons": [
+        "Otimizar título/meta e links internos"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/whey-isolado-vs-concentrado",
+      "pathname": "/blog/whey-isolado-vs-concentrado",
+      "slug": "whey-isolado-vs-concentrado",
+      "clicks": 0,
+      "impressions": 87,
+      "ctr": 0,
+      "position": 5.07,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/monjaro-tirzepatida-guia-completo-emagrecimento",
+      "pathname": "/blog/monjaro-tirzepatida-guia-completo-emagrecimento",
+      "slug": "monjaro-tirzepatida-guia-completo-emagrecimento",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": 0,
+      "position": 6.82,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/receitas-whey-protein-faceis",
+      "pathname": "/blog/receitas-whey-protein-faceis",
+      "slug": "receitas-whey-protein-faceis",
+      "clicks": 2,
+      "impressions": 67,
+      "ctr": 0.029900000000000003,
+      "position": 4.81,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-fase-carga-necessaria",
+      "pathname": "/blog/creatina-fase-carga-necessaria",
+      "slug": "creatina-fase-carga-necessaria",
+      "clicks": 2,
+      "impressions": 58,
+      "ctr": 0.0345,
+      "position": 6.88,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/como-calcular-gasto-calorico-tmb-tdee",
+      "pathname": "/blog/como-calcular-gasto-calorico-tmb-tdee",
+      "slug": "como-calcular-gasto-calorico-tmb-tdee",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": 0,
+      "position": 5.76,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/monjaro-vs-ozempic-qual-emagrece-mais-comparacao",
+      "pathname": "/blog/monjaro-vs-ozempic-qual-emagrece-mais-comparacao",
+      "slug": "monjaro-vs-ozempic-qual-emagrece-mais-comparacao",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": 0,
+      "position": 5.67,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/cafeina-performance-dose-pre-treino",
+      "pathname": "/blog/cafeina-performance-dose-pre-treino",
+      "slug": "cafeina-performance-dose-pre-treino",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0,
+      "position": 7.24,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/erros-contagem-calorias",
+      "pathname": "/blog/erros-contagem-calorias",
+      "slug": "erros-contagem-calorias",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": 0,
+      "position": 5.03,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-c-imunidade-gripes-resfriados",
+      "pathname": "/blog/vitamina-c-imunidade-gripes-resfriados",
+      "slug": "vitamina-c-imunidade-gripes-resfriados",
+      "clicks": 1,
+      "impressions": 32,
+      "ctr": 0.031200000000000002,
+      "position": 5.41,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/zinco-imunidade-testosterona-pele",
+      "pathname": "/blog/zinco-imunidade-testosterona-pele",
+      "slug": "zinco-imunidade-testosterona-pele",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": 0,
+      "position": 6.46,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/quanta-agua-beber-por-dia-calculo-por-peso",
+      "pathname": "/blog/quanta-agua-beber-por-dia-calculo-por-peso",
+      "slug": "quanta-agua-beber-por-dia-calculo-por-peso",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": 0,
+      "position": 7.68,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/guia-completo-creatina-2026",
+      "pathname": "/blog/guia-completo-creatina-2026",
+      "slug": "guia-completo-creatina-2026",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0,
+      "position": 6.52,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/5-suplementos-mais-vendidos",
+      "pathname": "/blog/5-suplementos-mais-vendidos",
+      "slug": "5-suplementos-mais-vendidos",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 6.76,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/quantas-calorias-comer-por-dia",
+      "pathname": "/blog/quantas-calorias-comer-por-dia",
+      "slug": "quantas-calorias-comer-por-dia",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 6.86,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/economizar-300-reais-suplementacao",
+      "pathname": "/blog/economizar-300-reais-suplementacao",
+      "slug": "economizar-300-reais-suplementacao",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 5.6,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/magnesio-ansiedade-sono-tipos",
+      "pathname": "/blog/magnesio-ansiedade-sono-tipos",
+      "slug": "magnesio-ansiedade-sono-tipos",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 5.53,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/proteina",
+      "pathname": "/nutrientes/proteina",
+      "slug": "proteina",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 5.72,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/cromo",
+      "pathname": "/nutrientes/cromo",
+      "slug": "cromo",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 6.11,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-k2-d3-calcio-ossos-coracao",
+      "pathname": "/blog/vitamina-k2-d3-calcio-ossos-coracao",
+      "slug": "vitamina-k2-d3-calcio-ossos-coracao",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 7,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes",
+      "pathname": "/nutrientes",
+      "slug": "nutrientes",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 3.93,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/guia-completo-creatina-2026",
+      "pathname": "/blog/guia-completo-creatina-2026",
+      "slug": "guia-completo-creatina-2026",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 5.23,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/l-carnitina-queima-gordura-performance",
+      "pathname": "/blog/l-carnitina-queima-gordura-performance",
+      "slug": "l-carnitina-queima-gordura-performance",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 6.69,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/plateau-dieta-como-sair",
+      "pathname": "/blog/plateau-dieta-como-sair",
+      "slug": "plateau-dieta-como-sair",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 7.08,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/whey-com-leite-ou-agua",
+      "pathname": "/blog/whey-com-leite-ou-agua",
+      "slug": "whey-com-leite-ou-agua",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 2.75,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/selenio-tireoide-imunidade-antioxidante",
+      "pathname": "/blog/selenio-tireoide-imunidade-antioxidante",
+      "slug": "selenio-tireoide-imunidade-antioxidante",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 7.17,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b12",
+      "pathname": "/nutrientes/vitamina-b12",
+      "slug": "vitamina-b12",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 3.18,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/dieta-reversa-como-fazer",
+      "pathname": "/blog/dieta-reversa-como-fazer",
+      "slug": "dieta-reversa-como-fazer",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 7.09,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/erros-contagem-calorias",
+      "pathname": "/blog/erros-contagem-calorias",
+      "slug": "erros-contagem-calorias",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 2.78,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/editorial",
+      "pathname": "/editorial",
+      "slug": "editorial",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.14,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-a-retinol-visao-pele-imunidade",
+      "pathname": "/blog/vitamina-a-retinol-visao-pele-imunidade",
+      "slug": "vitamina-a-retinol-visao-pele-imunidade",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.57,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/calcio",
+      "pathname": "/nutrientes/calcio",
+      "slug": "calcio",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 1.17,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/faq",
+      "pathname": "/faq",
+      "slug": "faq",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 7.33,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/proteina",
+      "pathname": "/nutrientes/proteina",
+      "slug": "proteina",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.6,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/calcio",
+      "pathname": "/nutrientes/calcio",
+      "slug": "calcio",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.75,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/magnesio",
+      "pathname": "/nutrientes/magnesio",
+      "slug": "magnesio",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 5.75,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/glutamina",
+      "pathname": "/nutrientes/glutamina",
+      "slug": "glutamina",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.33,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b3",
+      "pathname": "/nutrientes/vitamina-b3",
+      "slug": "vitamina-b3",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.33,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-k2",
+      "pathname": "/nutrientes/vitamina-k2",
+      "slug": "vitamina-k2",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 1,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/objetivos/emagrecimento",
+      "pathname": "/objetivos/emagrecimento",
+      "slug": "emagrecimento",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/omega-3",
+      "pathname": "/nutrientes/omega-3",
+      "slug": "omega-3",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/quercetina",
+      "pathname": "/nutrientes/quercetina",
+      "slug": "quercetina",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/fosforo",
+      "pathname": "/nutrientes/fosforo",
+      "slug": "fosforo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/coenzima-q10-coq10-energia-coracao",
+      "pathname": "/blog/coenzima-q10-coq10-energia-coracao",
+      "slug": "coenzima-q10-coq10-energia-coracao",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/probioticos-intestino-flora-intestinal",
+      "pathname": "/blog/probioticos-intestino-flora-intestinal",
+      "slug": "probioticos-intestino-flora-intestinal",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-d",
+      "pathname": "/nutrientes/vitamina-d",
+      "slug": "vitamina-d",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/ferro",
+      "pathname": "/nutrientes/ferro",
+      "slug": "ferro",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/bcaa",
+      "pathname": "/nutrientes/bcaa",
+      "slug": "bcaa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/",
+      "pathname": "/",
+      "slug": "",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/cobre",
+      "pathname": "/nutrientes/cobre",
+      "slug": "cobre",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b1",
+      "pathname": "/nutrientes/vitamina-b1",
+      "slug": "vitamina-b1",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/magnesio",
+      "pathname": "/nutrientes/magnesio",
+      "slug": "magnesio",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/spirulina-superalimento-proteina-vegana",
+      "pathname": "/blog/spirulina-superalimento-proteina-vegana",
+      "slug": "spirulina-superalimento-proteina-vegana",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "score": 30,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/nutrientes/albumina",
+      "pathname": "/nutrientes/albumina",
+      "slug": "albumina",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": 0,
+      "position": 13.13,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/ashwagandha-estresse-ansiedade-cortisol",
+      "pathname": "/blog/ashwagandha-estresse-ansiedade-cortisol",
+      "slug": "ashwagandha-estresse-ansiedade-cortisol",
+      "clicks": 0,
+      "impressions": 72,
+      "ctr": 0,
+      "position": 9.61,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/ferro-anemia-deficiencia-tratamento",
+      "pathname": "/blog/ferro-anemia-deficiencia-tratamento",
+      "slug": "ferro-anemia-deficiencia-tratamento",
+      "clicks": 0,
+      "impressions": 63,
+      "ctr": 0,
+      "position": 8.13,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/neat-fator-oculto-dieta",
+      "pathname": "/blog/neat-fator-oculto-dieta",
+      "slug": "neat-fator-oculto-dieta",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": 0,
+      "position": 9.63,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/omega-3-beneficios-comprovados",
+      "pathname": "/blog/omega-3-beneficios-comprovados",
+      "slug": "omega-3-beneficios-comprovados",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": 0,
+      "position": 10.65,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-monohidratada-vs-outras",
+      "pathname": "/blog/creatina-monohidratada-vs-outras",
+      "slug": "creatina-monohidratada-vs-outras",
+      "clicks": 1,
+      "impressions": 38,
+      "ctr": 0.0263,
+      "position": 10.08,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-faz-mal",
+      "pathname": "/blog/creatina-faz-mal",
+      "slug": "creatina-faz-mal",
+      "clicks": 0,
+      "impressions": 35,
+      "ctr": 0,
+      "position": 9.49,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/curcuma-curcumina-inflamacao-articulacoes",
+      "pathname": "/blog/curcuma-curcumina-inflamacao-articulacoes",
+      "slug": "curcuma-curcumina-inflamacao-articulacoes",
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 8.09,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/calculadoras",
+      "pathname": "/calculadoras",
+      "slug": "calculadoras",
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": 0.0333,
+      "position": 8.33,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/monjaro-diabetes-tipo-2-funciona-melhor-insulina",
+      "pathname": "/blog/monjaro-diabetes-tipo-2-funciona-melhor-insulina",
+      "slug": "monjaro-diabetes-tipo-2-funciona-melhor-insulina",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 8.92,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/creatina",
+      "pathname": "/nutrientes/creatina",
+      "slug": "creatina",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 9.67,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/bcaa",
+      "pathname": "/nutrientes/bcaa",
+      "slug": "bcaa",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 11.43,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/manganes",
+      "pathname": "/nutrientes/manganes",
+      "slug": "manganes",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 12.78,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/calorias-manutencao-encontrar",
+      "pathname": "/blog/calorias-manutencao-encontrar",
+      "slug": "calorias-manutencao-encontrar",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 8.43,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/iodo-tireoide-hipotireoidismo-dose",
+      "pathname": "/blog/iodo-tireoide-hipotireoidismo-dose",
+      "slug": "iodo-tireoide-hipotireoidismo-dose",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 11.05,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/calculadoras/proteina",
+      "pathname": "/calculadoras/proteina",
+      "slug": "proteina",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 12.27,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-e-antioxidante-pele-fertilidade",
+      "pathname": "/blog/vitamina-e-antioxidante-pele-fertilidade",
+      "slug": "vitamina-e-antioxidante-pele-fertilidade",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 10.5,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/sobre",
+      "pathname": "/sobre",
+      "slug": "sobre",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 14.92,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b6",
+      "pathname": "/nutrientes/vitamina-b6",
+      "slug": "vitamina-b6",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 8.25,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/omega-3-beneficios-comprovados",
+      "pathname": "/blog/omega-3-beneficios-comprovados",
+      "slug": "omega-3-beneficios-comprovados",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 12.27,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/monjaro-emagrece-quantos-quilos-resultados-reais",
+      "pathname": "/blog/monjaro-emagrece-quantos-quilos-resultados-reais",
+      "slug": "monjaro-emagrece-quantos-quilos-resultados-reais",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 8.89,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/curcuma-curcumina-inflamacao-articulacoes",
+      "pathname": "/blog/curcuma-curcumina-inflamacao-articulacoes",
+      "slug": "curcuma-curcumina-inflamacao-articulacoes",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 11.14,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b5",
+      "pathname": "/nutrientes/vitamina-b5",
+      "slug": "vitamina-b5",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 13.14,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/imc-o-que-significa-como-calcular",
+      "pathname": "/blog/imc-o-que-significa-como-calcular",
+      "slug": "imc-o-que-significa-como-calcular",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/glutamina",
+      "pathname": "/nutrientes/glutamina",
+      "slug": "glutamina",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/l-carnitina",
+      "pathname": "/nutrientes/l-carnitina",
+      "slug": "l-carnitina",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "score": 20,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/zma-zinco-magnesio-b6-sono-testosterona",
+      "pathname": "/blog/zma-zinco-magnesio-b6-sono-testosterona",
+      "slug": "zma-zinco-magnesio-b6-sono-testosterona",
+      "clicks": 0,
+      "impressions": 73,
+      "ctr": 0,
+      "position": 20.52,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://suplementaja.com/blog/whey-protein-intolerantes-lactose",
+      "pathname": "/blog/whey-protein-intolerantes-lactose",
+      "slug": "whey-protein-intolerantes-lactose",
+      "clicks": 0,
+      "impressions": 67,
+      "ctr": 0,
+      "position": 28.51,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/molibdenio",
+      "pathname": "/nutrientes/molibdenio",
+      "slug": "molibdenio",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": 0,
+      "position": 29.61,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/luteina-zeaxantina",
+      "pathname": "/nutrientes/luteina-zeaxantina",
+      "slug": "luteina-zeaxantina",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0,
+      "position": 20.39,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/tribulus-terrestris-testosterona-libido",
+      "pathname": "/blog/tribulus-terrestris-testosterona-libido",
+      "slug": "tribulus-terrestris-testosterona-libido",
+      "clicks": 0,
+      "impressions": 35,
+      "ctr": 0,
+      "position": 15.14,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/suplementos-para-iniciantes",
+      "pathname": "/blog/suplementos-para-iniciantes",
+      "slug": "suplementos-para-iniciantes",
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": 0,
+      "position": 26.45,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/termos",
+      "pathname": "/termos",
+      "slug": "termos",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 22.36,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/iodo",
+      "pathname": "/nutrientes/iodo",
+      "slug": "iodo",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 22.7,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-a",
+      "pathname": "/nutrientes/vitamina-a",
+      "slug": "vitamina-a",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 18,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/msm",
+      "pathname": "/nutrientes/msm",
+      "slug": "msm",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 18.6,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/taurina",
+      "pathname": "/nutrientes/taurina",
+      "slug": "taurina",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 22,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/calcio-ossos-osteoporose-qual-tomar",
+      "pathname": "/blog/calcio-ossos-osteoporose-qual-tomar",
+      "slug": "calcio-ossos-osteoporose-qual-tomar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-d-deficiencia-brasileiros",
+      "pathname": "/blog/vitamina-d-deficiencia-brasileiros",
+      "slug": "vitamina-d-deficiencia-brasileiros",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16,
+      "score": 10,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-para-que-serve",
+      "pathname": "/blog/creatina-para-que-serve",
+      "slug": "creatina-para-que-serve",
+      "clicks": 0,
+      "impressions": 89,
+      "ctr": 0,
+      "position": 70,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/acido-folico",
+      "pathname": "/nutrientes/acido-folico",
+      "slug": "acido-folico",
+      "clicks": 0,
+      "impressions": 82,
+      "ctr": 0,
+      "position": 71.4,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/whey-antes-ou-depois-treino",
+      "pathname": "/blog/whey-antes-ou-depois-treino",
+      "slug": "whey-antes-ou-depois-treino",
+      "clicks": 0,
+      "impressions": 56,
+      "ctr": 0,
+      "position": 48,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/vitamina-b12-vegetarianos-veganos",
+      "pathname": "/blog/vitamina-b12-vegetarianos-veganos",
+      "slug": "vitamina-b12-vegetarianos-veganos",
+      "clicks": 0,
+      "impressions": 52,
+      "ctr": 0,
+      "position": 39.04,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/maca-peruana-libido-energia-hormonios",
+      "pathname": "/blog/maca-peruana-libido-energia-hormonios",
+      "slug": "maca-peruana-libido-energia-hormonios",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": 0,
+      "position": 31.47,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/calculadoras/proteina",
+      "pathname": "/calculadoras/proteina",
+      "slug": "proteina",
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 76.52,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-para-idosos",
+      "pathname": "/blog/creatina-para-idosos",
+      "slug": "creatina-para-idosos",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 68.36,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/whey-engorda-ou-emagrece",
+      "pathname": "/blog/whey-engorda-ou-emagrece",
+      "slug": "whey-engorda-ou-emagrece",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 67,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/glucosamina-condroitina-articulacoes-artrite",
+      "pathname": "/blog/glucosamina-condroitina-articulacoes-artrite",
+      "slug": "glucosamina-condroitina-articulacoes-artrite",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 84.11,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/privacidade",
+      "pathname": "/privacidade",
+      "slug": "privacidade",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 32.2,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/vitamina-b2",
+      "pathname": "/nutrientes/vitamina-b2",
+      "slug": "vitamina-b2",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 85.08,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/colageno-hidrolisado-funciona-pele-articulacoes",
+      "pathname": "/blog/colageno-hidrolisado-funciona-pele-articulacoes",
+      "slug": "colageno-hidrolisado-funciona-pele-articulacoes",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 60.3,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/creatina-engorda",
+      "pathname": "/blog/creatina-engorda",
+      "slug": "creatina-engorda",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 76.12,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/bcaa-aminoacidos-massa-muscular-funciona",
+      "pathname": "/blog/bcaa-aminoacidos-massa-muscular-funciona",
+      "slug": "bcaa-aminoacidos-massa-muscular-funciona",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 45.6,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/calculadora-nutricional-calorias-macros",
+      "pathname": "/blog/calculadora-nutricional-calorias-macros",
+      "slug": "calculadora-nutricional-calorias-macros",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 76,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/blog/acido-folico-b9-gestantes-gravidez",
+      "pathname": "/blog/acido-folico-b9-gestantes-gravidez",
+      "slug": "acido-folico-b9-gestantes-gravidez",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 50.5,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/resveratrol",
+      "pathname": "/nutrientes/resveratrol",
+      "slug": "resveratrol",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 75,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    },
+    {
+      "url": "https://www.suplementaja.com/nutrientes/glucosamina",
+      "pathname": "/nutrientes/glucosamina",
+      "slug": "glucosamina",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99,
+      "score": 0,
+      "reasons": [
+        "Monitorar"
+      ],
+      "exists": true,
+      "redirected": false
+    }
+  ],
+  "queryActions": [
+    {
+      "query": "whey isolado",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "query": "mounjaro price brazil 2026",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 5.7
+    },
+    {
+      "query": "creatina benefícios efeitos colaterais dosagem 2025 or 2026",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 7.32
+    },
+    {
+      "query": "suplementos já",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 8.86
+    },
+    {
+      "query": "fórmula mifflin-st jeor homem",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "suplementos ja",
+      "clicks": 0,
+      "impressions": 44,
+      "ctr": 0,
+      "position": 11.75
+    },
+    {
+      "query": "contador de calorias online grátis",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 12.54
+    },
+    {
+      "query": "tdee o que é",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 13.71
+    },
+    {
+      "query": "suplemento já",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 14.2
+    },
+    {
+      "query": "macros cutting",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 15.46
+    },
+    {
+      "query": "refeed",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 16.68
+    }
+  ],
+  "critical": [
+    {
+      "Motivo": "Não encontrado (404)",
+      "Fonte": "Site",
+      "Validação": "Falha",
+      "Páginas": "34"
+    },
+    {
+      "Motivo": "Rastreada, mas não indexada no momento",
+      "Fonte": "Sistemas do Google",
+      "Validação": "Falha",
+      "Páginas": "93"
+    },
+    {
+      "Motivo": "Página com redirecionamento",
+      "Fonte": "Site",
+      "Validação": "Não foi iniciado",
+      "Páginas": "12"
+    },
+    {
+      "Motivo": "Erro de redirecionamento",
+      "Fonte": "Site",
+      "Validação": "Não foi iniciado",
+      "Páginas": "4"
+    },
+    {
+      "Motivo": "Cópia sem página canônica selecionada pelo usuário",
+      "Fonte": "Site",
+      "Validação": "Não foi iniciado",
+      "Páginas": "1"
+    },
+    {
+      "Motivo": "Detectada, mas não indexada no momento",
+      "Fonte": "Sistemas do Google",
+      "Validação": "Não foi iniciado",
+      "Páginas": "12"
+    },
+    {
+      "Motivo": "Cópia, o Google e o usuário selecionaram uma página canônica diferente",
+      "Fonte": "Sistemas do Google",
+      "Validação": "Não foi iniciado",
+      "Páginas": "1"
+    },
+    {
+      "Motivo": "Página alternativa com tag canônica adequada",
+      "Fonte": "Site",
+      "Validação": "Iniciado",
+      "Páginas": "10"
+    }
+  ]
+}
