@@ -4,8 +4,8 @@ Gerado em 2026-05-20.
 
 ## Leitura executiva
 
-- Artigos no JSON: 95
-- Slugs únicos: 95
+- Artigos no JSON: 127
+- Slugs únicos: 127
 - URLs de artigo vistas no GSC mas ausentes no JSON: 1
 - URLs do GSC que ainda estão em redirect: 1
 - Oportunidades fortes de CTR/posição: 20
