@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Suplementa Já - Recomendações Personalizadas de Suplementação",
     description: "Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas",
-    url: 'https://suplementaja.com',
+    url: 'https://www.suplementaja.com',
     siteName: 'Suplementa Já',
     locale: 'pt_BR',
     type: "website",

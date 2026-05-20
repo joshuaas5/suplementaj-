@@ -22,6 +22,14 @@ const TOPICS = [
     { id: 'saude', label: ' Saúde Geral', keywords: ['saúde', 'saude', 'bem-estar', 'qualidade de vida'] },
 ]
 
+const SLUGS_MAIS_ACESSADOS = [
+    'guia-completo-creatina-2026',
+    'melatonina-sono-insonia-dose-ideal',
+    'vitamina-c-imunidade-gripes-resfriados',
+    'como-dividir-macros-cutting-bulking-manutencao',
+    'como-calcular-gasto-calorico-tmb-tdee',
+]
+
 interface BlogContentProps {
     artigos: Artigo[]
 }
@@ -31,18 +39,8 @@ export function BlogContent({ artigos }: BlogContentProps) {
     const [searchQuery, setSearchQuery] = useState('')
 
     // Artigos mais acessados (baseado em dados do Google Search Console)
-    // slugsMaisAcessados definido como constante global no topo do arquivo
-    const slugsMaisAcessados = [
-        'guia-completo-creatina-2026',
-        'whey-isolado-vs-concentrado',
-        'deficit-calorico-quanto-cortar',
-        'calculadora-nutricional-calorias-macros',
-        'melatonina-sono-insonia-dose-ideal',
-        'vitamina-c-imunidade-gripes-resfriados',
-    ]
-    
     const artigosDestaque = useMemo(() => {
-        const destaques = slugsMaisAcessados
+        const destaques = SLUGS_MAIS_ACESSADOS
             .map(slug => artigos.find(a => a.slug === slug))
             .filter((a): a is Artigo => a !== undefined)
             .slice(0, 3)
@@ -54,7 +52,7 @@ export function BlogContent({ artigos }: BlogContentProps) {
                 .slice(0, 3)
         }
         return destaques
-    }, [artigos, slugsMaisAcessados])
+    }, [artigos])
 
     // Filter articles based on topic and search
     const filteredArtigos = useMemo(() => {

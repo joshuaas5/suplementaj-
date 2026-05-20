@@ -22,7 +22,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'vitamina-e-antioxidante-pele-fertilidade': ['vitamina-e', 'vitamina-c', 'selenio'],
   'curcuma-curcumina-inflamacao-articulacoes': ['curcuma', 'omega-3', 'vitamina-d'],
   'spirulina-superalimento-proteina-vegana': ['spirulina', 'vitamina-b12', 'ferro'],
-  'maca-peruana-libido-energia-hormônios': ['maca-peruana', 'zinco', 'vitamina-d'],
+  'maca-peruana-libido-energia-hormonios': ['maca-peruana', 'zinco', 'vitamina-d'],
   'tribulus-terrestris-testosterona-libido': ['tribulus', 'zinco', 'maca-peruana'],
   'zma-zinco-magnesio-b6-sono-testosterona': ['zinco', 'magnesio', 'vitamina-b6'],
   'bcaa-aminoacidos-massa-muscular-funciona': ['bcaa', 'proteina', 'creatina'],
