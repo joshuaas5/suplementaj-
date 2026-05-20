@@ -137,12 +137,6 @@ const nextConfig = {
         destination: '/blog/maca-peruana-libido-energia-hormonios',
         permanent: true,
       },
-      // Paginas de blog que foram removidas ou renomeadas
-      {
-        source: '/blog/creatina-guia-completo-ganho-muscular',
-        destination: '/blog/guia-completo-creatina-2026',
-        permanent: true,
-      },
       // Calculadoras sem trailing slash ou com URLs antigas
       {
         source: '/calculadora/calorias',

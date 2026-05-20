@@ -1,5 +1,5 @@
 // Mapeamento de relacionamentos entre artigos e nutrientes
-// Atualizado em 20/05/2026 - Cobertura completa de 88 artigos
+// Atualizado em 20/05/2026 - Cobertura completa de 95 artigos
 
 export const artigoToNutrientes: Record<string, string[]> = {
   '5-suplementos-mais-vendidos': ['creatina', 'proteina', 'omega-3', 'vitamina-d'],
@@ -11,6 +11,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'cafeina-performance-dose-pre-treino': ['creatina'],
   'calcio-ossos-osteoporose-qual-tomar': ['calcio', 'vitamina-d', 'vitamina-k2', 'magnesio'],
   'calculadora-nutricional-calorias-macros': ['proteina'],
+  'calcular-proteina-por-peso': ['proteina'],
   'calorias-manutencao-encontrar': ['proteina'],
   'coenzima-q10-coq10-energia-coracao': ['coenzima-q10', 'magnesio', 'omega-3'],
   'colageno-hidrolisado-funciona-pele-articulacoes': ['colageno', 'vitamina-c', 'vitamina-b7'],
@@ -18,12 +19,15 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'como-dividir-macros-cutting-bulking-manutencao': ['proteina', 'creatina'],
   'como-dormir-melhor-suplementos': ['magnesio', 'vitamina-d'],
   'como-fortalecer-imunidade-suplementos': ['vitamina-c', 'vitamina-d', 'zinco', 'omega-3', 'proteina'],
+  'contador-de-calorias-online-gratis': ['proteina'],
   'creatina-antes-ou-depois-treino': ['creatina', 'proteina'],
+  'creatina-beneficios-efeitos-colaterais-dosagem-2026': ['creatina'],
   'creatina-como-tomar': ['creatina', 'proteina'],
   'creatina-e-cafe': ['creatina'],
   'creatina-engorda': ['creatina'],
   'creatina-fase-carga-necessaria': ['creatina'],
   'creatina-faz-mal': ['creatina'],
+  'creatina-guia-completo-ganho-muscular': ['creatina', 'proteina'],
   'creatina-monohidratada-vs-outras': ['creatina'],
   'creatina-para-idosos': ['creatina', 'vitamina-d', 'proteina'],
   'creatina-para-mulheres': ['creatina', 'proteina'],
@@ -38,6 +42,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'economizar-300-reais-suplementacao': ['creatina', 'proteina'],
   'erros-contagem-calorias': ['proteina'],
   'ferro-anemia-deficiencia-tratamento': ['ferro', 'vitamina-c', 'vitamina-b12'],
+  'formula-mifflin-st-jeor-homem': ['proteina'],
   'glucosamina-condroitina-articulacoes-artrite': ['glucosamina', 'colageno', 'vitamina-c'],
   'guia-completo-creatina-2026': ['creatina', 'proteina', 'vitamina-d'],
   'guia-whey-protein-2026': ['proteina', 'creatina', 'bcaa'],
@@ -45,6 +50,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'iodo-tireoide-hipotireoidismo-dose': ['iodo', 'selenio', 'zinco'],
   'l-carnitina-queima-gordura-performance': ['l-carnitina', 'creatina'],
   'maca-peruana-libido-energia-hormonios': ['zinco', 'vitamina-d'],
+  'macros-cutting-como-calcular': ['proteina', 'creatina'],
   'macros-para-definicao-muscular': ['proteina', 'creatina', 'l-carnitina'],
   'macros-para-ganho-massa': ['proteina', 'creatina', 'bcaa'],
   'magnesio-ansiedade-sono-tipos': ['magnesio', 'vitamina-b6', 'vitamina-d'],
@@ -86,6 +92,7 @@ export const artigoToNutrientes: Record<string, string[]> = {
   'whey-antes-ou-depois-treino': ['proteina', 'creatina'],
   'whey-com-leite-ou-agua': ['proteina'],
   'whey-engorda-ou-emagrece': ['proteina'],
+  'whey-isolado-para-que-serve': ['proteina', 'creatina'],
   'whey-isolado-vs-concentrado': ['proteina', 'creatina', 'bcaa'],
   'whey-protein-intolerantes-lactose': ['proteina'],
   'zinco-imunidade-testosterona-pele': ['zinco', 'selenio', 'vitamina-d'],
@@ -109,7 +116,7 @@ export const nutrienteToArtigos: Record<string, string[]> = {
   'magnesio': ['vitamina-d-deficiencia-brasileiros', 'magnesio-ansiedade-sono-tipos', 'calcio-ossos-osteoporose-qual-tomar', 'ashwagandha-estresse-ansiedade-cortisol', 'melatonina-sono-insonia-dose-ideal'],
   'omega-3': ['omega-3-beneficios-comprovados', 'curcuma-curcumina-inflamacao-articulacoes', 'coenzima-q10-coq10-energia-coracao', 'suplementos-para-emagrecer-funcionam', 'como-fortalecer-imunidade-suplementos'],
   'probioticos': ['probioticos-intestino-flora-intestinal'],
-  'proteina': ['guia-completo-creatina-2026', 'bcaa-aminoacidos-massa-muscular-funciona', 'whey-isolado-vs-concentrado', 'proteina-por-dia-quanto-consumir-guia-completo', 'como-dividir-macros-cutting-bulking-manutencao'],
+  'proteina': ['guia-completo-creatina-2026', 'bcaa-aminoacidos-massa-muscular-funciona', 'creatina-guia-completo-ganho-muscular', 'whey-isolado-vs-concentrado', 'whey-isolado-para-que-serve'],
   'selenio': ['zinco-imunidade-testosterona-pele', 'iodo-tireoide-hipotireoidismo-dose', 'selenio-tireoide-imunidade-antioxidante', 'vitamina-e-antioxidante-pele-fertilidade'],
   'vitamina-a': ['vitamina-a-retinol-visao-pele-imunidade'],
   'vitamina-b12': ['vitamina-b12-vegetarianos-veganos', 'ferro-anemia-deficiencia-tratamento', 'spirulina-superalimento-proteina-vegana', 'acido-folico-b9-gestantes-gravidez', 'proteina-isolada-soja-veganos'],

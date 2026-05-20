@@ -4,10 +4,10 @@ Gerado em 2026-05-20.
 
 ## Leitura executiva
 
-- Artigos no JSON: 88
-- Slugs únicos: 88
-- URLs de artigo vistas no GSC mas ausentes no JSON: 2
-- URLs do GSC que ainda estão em redirect: 2
+- Artigos no JSON: 95
+- Slugs únicos: 95
+- URLs de artigo vistas no GSC mas ausentes no JSON: 1
+- URLs do GSC que ainda estão em redirect: 1
 - Oportunidades fortes de CTR/posição: 20
 
 ## Tendência mensal
@@ -40,7 +40,6 @@ Gerado em 2026-05-20.
 | --- | --- | --- | --- | --- | --- | --- |
 | 140 | https://www.suplementaja.com/blog/guia-completo-creatina-2025 | 2 | 597 | 0.34% | 5.40 | CTR muito baixo para o volume de impressões; URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
 | 90 | https://www.suplementaja.com/blog/monjaro-preco-quanto-custa-como-economizar-2026 | 1 | 1236 | 0.08% | 6.46 | CTR muito baixo para o volume de impressões |
-| 90 | https://www.suplementaja.com/blog/creatina-guia-completo-ganho-muscular | 0 | 1 | 0.00% | 2.00 | URL de artigo aparece no GSC mas não existe no JSON; URL de artigo aparece no GSC e também está em redirect |
 | 70 | https://www.suplementaja.com/calculadoras/calorias | 2 | 1598 | 0.13% | 15.91 | CTR muito baixo para o volume de impressões |
 | 70 | https://suplementaja.com/blog/whey-isolado-vs-concentrado | 1 | 621 | 0.16% | 10.33 | CTR muito baixo para o volume de impressões |
 | 70 | https://www.suplementaja.com/blog/melhor-marca-creatina-brasil | 0 | 302 | 0.00% | 9.40 | CTR muito baixo para o volume de impressões |
@@ -63,6 +62,7 @@ Gerado em 2026-05-20.
 | 50 | https://www.suplementaja.com/blog/biotina-cabelo-unhas-dose-funciona | 1 | 264 | 0.38% | 27.33 | CTR muito baixo para o volume de impressões |
 | 50 | https://www.suplementaja.com/blog/creatina-como-tomar | 0 | 236 | 0.00% | 18.32 | CTR muito baixo para o volume de impressões |
 | 50 | https://www.suplementaja.com/blog/melatonina-sono-insonia-dose-ideal | 0 | 200 | 0.00% | 18.96 | CTR muito baixo para o volume de impressões |
+| 50 | https://www.suplementaja.com/blog/creatina-e-cafe | 0 | 120 | 0.00% | 29.92 | CTR muito baixo para o volume de impressões |
 
 ## Consultas fáceis de atacar
 
