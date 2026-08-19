@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Shield, Lock, Eye, Trash2, FileText, Mail } from 'lucide-react'
 
 export const metadata = {
-  title: 'Política de Privacidade | Suplementa Já',
+  title: 'Política de Privacidade',
   description: 'Política de Privacidade e proteção de dados pessoais do Suplementa Já em conformidade com a LGPD.',
   alternates: {
     canonical: '/privacidade',

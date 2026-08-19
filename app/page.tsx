@@ -14,14 +14,9 @@ export default function Home() {
     '@type': 'Organization',
     name: 'Suplementa Já',
     url: 'https://www.suplementaja.com',
-    logo: 'https://www.suplementaja.com/logo.png',
+    logo: 'https://www.suplementaja.com/icon.png',
     description:
       'Plataforma gratuita de recomendações personalizadas de suplementação baseadas em evidências científicas',
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'Customer Service',
-      availableLanguage: 'Portuguese',
-    },
   }
 
   const websiteSchema = {
@@ -31,11 +26,6 @@ export default function Home() {
     url: 'https://www.suplementaja.com',
     description:
       'Descubra quais vitaminas e minerais você realmente precisa através de recomendações personalizadas baseadas em evidências científicas',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: 'https://www.suplementaja.com/nutrientes?q={search_term_string}',
-      'query-input': 'required name=search_term_string',
-    },
   }
 
   return (

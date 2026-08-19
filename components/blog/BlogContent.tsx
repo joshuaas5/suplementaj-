@@ -8,6 +8,7 @@ import { Clock, ArrowRight, Search, Star } from 'lucide-react'
 import type { Artigo } from '@/types/artigo'
 import { InFeedAd } from '@/components/ads/AdSenseUnits'
 import { TOPIC_HUBS } from '@/lib/topic-hubs'
+import { TRAFFIC_SPRINT_SLUGS } from '@/lib/search-opportunities'
 
 // Define topics based on common search patterns - EXPANDIDO PARA 11 CATEGORIAS
 const TOPICS = [
@@ -24,14 +25,6 @@ const TOPICS = [
     { id: 'saude', label: ' Saúde Geral', keywords: ['saúde', 'saude', 'bem-estar', 'qualidade de vida'] },
 ]
 
-const SLUGS_MAIS_ACESSADOS = [
-    'guia-completo-creatina-2026',
-    'melatonina-sono-insonia-dose-ideal',
-    'vitamina-c-imunidade-gripes-resfriados',
-    'como-dividir-macros-cutting-bulking-manutencao',
-    'como-calcular-gasto-calorico-tmb-tdee',
-]
-
 interface BlogContentProps {
     artigos: Artigo[]
 }
@@ -40,9 +33,9 @@ export function BlogContent({ artigos }: BlogContentProps) {
     const [activeTopic, setActiveTopic] = useState('todos')
     const [searchQuery, setSearchQuery] = useState('')
 
-    // Artigos mais acessados (baseado em dados do Google Search Console)
+    // Oportunidades editoriais baseadas no último export do Search Console.
     const artigosDestaque = useMemo(() => {
-        const destaques = SLUGS_MAIS_ACESSADOS
+        const destaques = TRAFFIC_SPRINT_SLUGS
             .map(slug => artigos.find(a => a.slug === slug))
             .filter((a): a is Artigo => a !== undefined)
             .slice(0, 3)
@@ -90,7 +83,7 @@ export function BlogContent({ artigos }: BlogContentProps) {
             <div className="mb-16">
                 <div className="flex items-center justify-center gap-3 mb-8">
                     <Star className="w-8 h-8 text-yellow-600 fill-yellow-400" />
-                    <h2 className="text-3xl font-black text-black uppercase">Mais Acessados</h2>
+                    <h2 className="text-3xl font-black text-black uppercase">Guias em Destaque</h2>
                     <Star className="w-8 h-8 text-yellow-600 fill-yellow-400" />
                 </div>
                 <div className="grid gap-6 md:grid-cols-3 mb-8">

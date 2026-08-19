@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!hub) {
     return {
-      title: 'Guia não encontrado | Suplementa Já',
+      title: 'Guia não encontrado',
     }
   }
 
   return {
-    title: `${hub.titulo}: ${hub.subtitulo} | Suplementa Já`,
+    title: `${hub.titulo}: ${hub.subtitulo}`,
     description: hub.descricao,
     alternates: {
       canonical: `/guias/${hub.slug}`,

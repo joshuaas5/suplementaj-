@@ -7,15 +7,15 @@ import { AdUnit } from '@/components/layout/AdUnit'
 import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Calorias Diárias (Precisa): Para Perder Peso ou Ganhar Massa',
-  description: 'Descubra EXATAMENTE quantas calorias comer por dia. Calculadora científica (Mifflin-St Jeor) para quem quer secar (cutting) ou ganhar músculos (bulking). Grátis e sem cadastro.',
+  title: 'Calculadora de Calorias e TDEE: Quanto Comer por Dia',
+  description: 'Estime sua TMB e seu gasto calórico diário com a fórmula de Mifflin-St Jeor. Resultado grátis para definir um ponto de partida e ajustar pela evolução do peso.',
   keywords: ['calculadora calorias', 'tmb', 'tdee', 'gasto calorico', 'quantas calorias', 'metabolismo basal', 'calorias para emagrecer', 'calorias para ganhar massa', 'deficit calorico', 'calcular tdee', 'cutting', 'bulking', 'dieta'],
   alternates: {
     canonical: '/calculadoras/calorias',
   },
   openGraph: {
-    title: 'Calculadora de Calorias (Cutting e Bulking) - Resultado Exato',
-    description: 'Descubra quantas calorias comer para secar ou ganhar massa. Fórmula científica gratuita.',
+    title: 'Calculadora de Calorias e TDEE Online',
+    description: 'Estime quantas calorias você gasta por dia e use o resultado como ponto de partida para sua meta.',
     type: 'website',
   }
 }
@@ -101,8 +101,8 @@ export default function CalculadoraCaloriasPage() {
             🔥 Calculadora de Calorias para Secar ou Ganhar Massa
           </h1>
           <p className="text-black font-bold mb-4">
-            Use nossa <strong>calculadora de calorias (Mifflin-St Jeor)</strong> para descobrir seu <strong>gasto calórico exato</strong>.
-            Saiba <strong>quantas calorias comer</strong> para emagrecer (cutting) ou ganhar músculos (bulking).
+            Use nossa <strong>calculadora de calorias (Mifflin-St Jeor)</strong> para estimar seu <strong>gasto calórico diário</strong>.
+            O resultado é um ponto de partida para ajustar calorias conforme sua rotina e a evolução do peso.
           </p>
           <div className="flex flex-wrap gap-2">
             <span className="bg-lime-400 px-3 py-1 border-2 border-black font-bold text-sm">✅ Grátis</span>

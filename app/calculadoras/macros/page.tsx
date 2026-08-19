@@ -7,7 +7,7 @@ import { AdUnit } from '@/components/layout/AdUnit'
 import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Macros Grátis 2026 - Proteína, Carbo e Gordura | Suplementa Já',
+  title: 'Calculadora de Macros: Proteína, Carboidratos e Gorduras',
   description: 'CALCULE GRÁTIS seus macros ideais! Descubra quantos gramas de proteína, carboidrato e gordura comer por dia para emagrecer ou ganhar massa.',
   keywords: ['calculadora macros', 'macronutrientes', 'proteina carboidrato gordura', 'dieta macros', 'divisão macros', 'calcular macros'],
   alternates: {

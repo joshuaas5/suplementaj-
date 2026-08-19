@@ -8,7 +8,7 @@ import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { BlogContent } from '@/components/blog/BlogContent'
 
 export const metadata = {
-  title: 'Blog - Suplementa Já | Guias e Artigos Sobre Suplementação',
+  title: 'Blog de Suplementação: Guias Baseados em Evidências',
   description: 'Artigos completos e baseados em ciência sobre vitaminas, minerais e suplementos. Aprenda como melhorar sua saúde através da suplementação inteligente.',
   alternates: {
     canonical: '/blog',

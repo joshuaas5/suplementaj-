@@ -7,7 +7,7 @@ import { AdUnit } from '@/components/layout/AdUnit'
 import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Creatina Grátis 2026 - Dose Por Peso | Suplementa Já',
+  title: 'Calculadora de Creatina por Peso: Dose Diária',
   description: 'CALCULE GRÁTIS sua dose ideal de creatina! Quanto tomar por kg de peso? Precisa de fase de carga? Descubra em segundos.',
   keywords: ['calculadora creatina', 'dose creatina', 'quantos gramas creatina', 'creatina por kg', 'saturação creatina', 'creatina monohidratada'],
   alternates: {

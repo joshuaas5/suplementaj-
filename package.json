@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "seo:audit": "node scripts/seo-audit.mjs",
-    "content:check": "node scripts/content-quality.mjs"
+    "content:check": "node scripts/content-quality.mjs",
+    "traffic:sprint": "node scripts/traffic-sprint-2.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

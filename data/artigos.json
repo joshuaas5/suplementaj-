@@ -5070,8 +5070,8 @@
   },
   {
     "slug": "zma-zinco-magnesio-b6-sono-testosterona",
-    "titulo": "ZMA (Zinco + Magnésio + B6): Funciona Para Sono e Testosterona?",
-    "descricao": "Benefícios do ZMA para atletas: melhora sono, testosterona e recuperação muscular. Dose ideal e quando tomar.",
+    "titulo": "ZMA Funciona? O Que Estudos Dizem Sobre Sono e Testosterona",
+    "descricao": "Entenda o que é ZMA, se a combinação de zinco, magnésio e B6 melhora sono ou testosterona e quando corrigir uma deficiência pode fazer sentido.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-09",
     "categoria": "Suplementos Esportivos",
@@ -5083,7 +5083,7 @@
       "sono",
       "testosterona"
     ],
-    "tempo_leitura": "7 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/zma.jpg",
     "conteudo": [
       {
@@ -5214,16 +5214,138 @@
         ]
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** ZMA não demonstrou aumentar testosterona, força ou massa muscular de forma consistente em pessoas com ingestão adequada de zinco e magnésio. A combinação pode ser útil quando existe deficiência de algum nutriente, mas não substitui sono, alimentação nem investigação clínica."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Ensaios controlados em praticantes de musculação não encontraram melhora significativa nos marcadores hormonais ou nas adaptações ao treino. Estudos recentes sobre sono também não sustentam a promessa de que uma dose isolada de ZMA compense privação de sono. O benefício plausível está em corrigir baixa ingestão, especialmente de magnésio ou zinco, e não em criar um efeito anabólico acima do normal."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Antes de comprar",
+            "Revise dieta, sono e sinais de deficiência",
+            "Evita atribuir ao suplemento um problema que ele não resolve"
+          ],
+          [
+            "No rótulo",
+            "Some o zinco e o magnésio de todos os produtos",
+            "Reduz o risco de excesso acumulado"
+          ],
+          [
+            "Após o uso",
+            "Avalie sono e tolerância por algumas semanas",
+            "Sem melhora objetiva, não há motivo para aumentar a dose"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "esperar aumento de testosterona sem deficiência",
+          "combinar ZMA com outros multivitamínicos sem somar as doses",
+          "usar o produto para compensar noites curtas",
+          "tomar doses altas mesmo com desconforto intestinal"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Zinco e magnésio também vêm da alimentação. Doses elevadas de zinco por longos períodos podem prejudicar o equilíbrio de cobre, e algumas formas de magnésio causam diarreia. Pessoas com doença renal, uso contínuo de medicamentos ou sintomas persistentes devem conversar com um profissional antes de suplementar."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
         "link": "/avaliacao"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "ZMA aumenta testosterona?",
+            "resposta": "Não há evidência consistente de aumento em pessoas sem deficiência de zinco ou magnésio."
+          },
+          {
+            "pergunta": "ZMA melhora o sono?",
+            "resposta": "Pode ajudar indiretamente se houver deficiência, mas não substitui rotina e duração adequadas de sono."
+          },
+          {
+            "pergunta": "Qual é o melhor horário?",
+            "resposta": "O horário é menos importante que a dose total e a tolerância. Siga o rótulo e evite somar produtos semelhantes."
+          },
+          {
+            "pergunta": "Quem deve ter mais cuidado?",
+            "resposta": "Pessoas com doença renal, uso de medicamentos ou que já consomem altas doses de minerais."
+          }
+        ]
       }
     ],
     "relacionados": [
       "magnesio-ansiedade-sono-tipos",
       "melatonina-sono-insonia-dose-ideal",
       "tribulus-terrestris-testosterona-libido"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "sono-imunidade-performance",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "Effects of ZMA supplementation on training adaptations and markers of anabolism",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18500945/"
+      },
+      {
+        "titulo": "ZMA, sleep and cognitive performance after sleep restriction",
+        "orgao": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39062445/"
+      },
+      {
+        "titulo": "Magnesium fact sheet for health professionals",
+        "orgao": "National Institutes of Health - Office of Dietary Supplements",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      }
     ]
   },
   {
@@ -6173,8 +6295,8 @@
   },
   {
     "slug": "cafeina-performance-dose-pre-treino",
-    "titulo": "Cafeína Pré-Treino: Dose Ideal, Timing e 5 Erros Que Você Comete",
-    "descricao": "Benefícios da cafeína para performance, dose ergogênica, quando tomar, tolerância e efeitos colaterais.",
+    "titulo": "Cafeína Pré-Treino: Dose, Horário, Benefícios e Riscos",
+    "descricao": "Veja como a cafeína pode afetar a performance, quanto tempo antes do treino costuma ser usada e como reduzir insônia, ansiedade e tolerância.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-16",
     "categoria": "Suplementos Esportivos",
@@ -6185,7 +6307,7 @@
       "energia",
       "foco"
     ],
-    "tempo_leitura": "9 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/cafeina.jpg",
     "conteudo": [
       {
@@ -6316,22 +6438,139 @@
         ]
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** A cafeína pode melhorar atenção e alguns aspectos do desempenho esportivo, mas a resposta varia muito. Doses menores já podem funcionar; aumentar a quantidade eleva o risco de tremor, palpitação, ansiedade, desconforto gastrointestinal e piora do sono."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A posição da ISSN descreve benefício agudo em diferentes modalidades, com uso frequente cerca de 60 minutos antes do exercício. Isso não significa que todo praticante precise de uma dose alta. Sensibilidade individual, consumo habitual, horário do treino, massa corporal e qualidade do sono mudam a relação entre benefício e efeito colateral."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Primeiro teste",
+            "Comece com a menor dose do rótulo",
+            "Avalia tolerância sem transformar o treino em teste de limite"
+          ],
+          [
+            "Horário",
+            "Considere a hora de dormir, não apenas a hora do treino",
+            "A meia-vida pode manter efeito por várias horas"
+          ],
+          [
+            "Comparação",
+            "Registre desempenho e sono",
+            "Só vale manter se o ganho no treino superar o custo no descanso"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "somar café, energético e pré-treino sem contar a cafeína total",
+          "aumentar a dose quando a tolerância aparece",
+          "usar à noite e ignorar a piora do sono",
+          "confundir sensação de estímulo com melhora real de desempenho"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Gestantes, adolescentes, pessoas com ansiedade importante, arritmias, pressão descontrolada ou uso de determinados medicamentos precisam de orientação individual. Se houver dor no peito, desmaio ou palpitação intensa, interrompa o uso e procure atendimento."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Quer saber quais suplementos você realmente precisa?",
         "botao": "Fazer Avaliação Gratuita",
         "link": "/avaliacao"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Quanto tempo antes do treino?",
+            "resposta": "Muitos protocolos usam cerca de 60 minutos, mas o produto, a refeição e a resposta individual alteram o tempo."
+          },
+          {
+            "pergunta": "Mais cafeína dá mais resultado?",
+            "resposta": "Não necessariamente. Acima da dose útil, os efeitos adversos crescem sem ganho proporcional."
+          },
+          {
+            "pergunta": "Posso tomar todos os dias?",
+            "resposta": "O uso frequente pode aumentar tolerância e afetar o sono. Reavalie necessidade e dose."
+          },
+          {
+            "pergunta": "Café e pré-treino somam?",
+            "resposta": "Sim. Conte a cafeína de café, chá, energéticos, cápsulas e pré-treinos no total diário."
+          }
+        ]
       }
     ],
     "relacionados": [
       "creatina-e-cafe",
       "l-carnitina-queima-gordura-performance",
       "guia-completo-creatina-2026"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "sono-imunidade-performance",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition position stand: caffeine and exercise performance",
+        "orgao": "Journal of the International Society of Sports Nutrition",
+        "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-020-00383-4"
+      },
+      {
+        "titulo": "Caffeine fact sheet",
+        "orgao": "National Institutes of Health - Office of Dietary Supplements",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      }
     ]
   },
   {
     "slug": "proteina-por-dia-quanto-consumir-guia-completo",
-    "titulo": "Quanto de Proteína Por Dia: Guia Completo Por Peso e Objetivo (2026)",
-    "descricao": "Descubra exatamente quantos gramas de proteína você precisa por dia com base no seu peso, sexo e objetivo. Cálculos científicos baseados em recomendações do ISSN.",
+    "titulo": "Proteína por Dia: Quantos Gramas por Kg para Cada Objetivo",
+    "descricao": "Calcule uma faixa prática de proteína por peso para manutenção, treino, ganho de massa ou déficit calórico e aprenda a distribuir ao longo do dia.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
     "categoria": "Nutrição",
@@ -6342,7 +6581,7 @@
       "macros",
       "dieta"
     ],
-    "tempo_leitura": "8 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/proteina.jpg",
     "conteudo": [
       {
@@ -6422,6 +6661,86 @@
         "texto": "Não precisa fazer contas manualmente! Use nossa calculadora científica que considera seu peso, sexo e objetivo para determinar a quantidade ideal de proteína diária."
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Para adultos que treinam, a posição da ISSN cita uma faixa diária de 1,4 a 2,0 g de proteína por kg como suficiente para a maioria. A necessidade individual depende do objetivo, do total de calorias, do tipo de treino, da idade e do acompanhamento clínico."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Proteína e treino de força atuam juntos na síntese proteica muscular. O total do dia costuma ser mais importante que perseguir um horário perfeito. Em déficit calórico, alguns atletas podem precisar de uma faixa maior para preservar massa magra, mas isso não deve ser extrapolado automaticamente para toda pessoa."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Sem treino intenso",
+            "Comece pela alimentação e pela recomendação individual",
+            "Evita transformar uma faixa esportiva em regra universal"
+          ],
+          [
+            "Treino de força",
+            "Distribua fontes proteicas em refeições",
+            "Facilita bater a meta sem depender de uma dose enorme"
+          ],
+          [
+            "Whey",
+            "Use apenas para completar o que faltou",
+            "É alimento prático, não requisito para hipertrofia"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "calcular a meta e ignorar a proteína já presente nas refeições",
+          "concentrar quase tudo em um único shake",
+          "substituir frutas, legumes e refeições por suplemento",
+          "usar faixas de atleta sem considerar doença renal ou orientação clínica"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A faixa esportiva é referência para adultos saudáveis e ativos. Crianças, gestantes, idosos frágeis e pessoas com doença renal, hepática ou outras condições clínicas precisam de avaliação individual. O cálculo do site não diagnostica deficiência nem prescreve dieta."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Descubra quantos gramas de proteína você precisa por dia!",
         "botao": "Usar Calculadora de Proteína →",
@@ -6481,12 +6800,49 @@
         "texto": "Calcule agora sua necessidade diária de proteína!",
         "botao": "Acessar Calculadora ÔåÆ",
         "link": "/calculadoras/proteina"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Preciso de whey para bater proteína?",
+            "resposta": "Não. Whey é uma opção prática; carnes, ovos, laticínios, leguminosas e soja também contam."
+          },
+          {
+            "pergunta": "Devo usar o peso atual?",
+            "resposta": "Em muitos casos sim, mas obesidade importante e situações clínicas pedem cálculo individualizado."
+          },
+          {
+            "pergunta": "Proteína demais vira músculo?",
+            "resposta": "Não. Ganho muscular também depende de treino, energia, recuperação e consistência."
+          },
+          {
+            "pergunta": "Posso dividir a meta em refeições?",
+            "resposta": "Sim. Distribuir ao longo do dia costuma ser mais prático e confortável."
+          }
+        ]
       }
     ],
     "relacionados": [
       "guia-whey-protein-2026",
       "como-dividir-macros-cutting-bulking-manutencao",
       "diferenca-proteinas-whey-caseina-albumina"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "whey-proteina",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -6635,8 +6991,8 @@
   },
   {
     "slug": "como-calcular-gasto-calorico-tmb-tdee",
-    "titulo": "Como Calcular Gasto Calórico: Guia Completo de TMB e TDEE (Fórmulas)",
-    "descricao": "Aprenda a calcular sua Taxa Metabólica Basal (TMB) e Gasto Energético Total (TDEE) para emagrecer, manter ou ganhar peso de forma científica.",
+    "titulo": "Como Calcular Gasto Calórico: TMB, TDEE e Ajuste Prático",
+    "descricao": "Aprenda a estimar TMB e TDEE com a fórmula de Mifflin-St Jeor, escolher um fator de atividade e ajustar o resultado pela tendência do peso.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
     "categoria": "Nutrição",
@@ -6648,7 +7004,7 @@
       "calculadora",
       "dieta"
     ],
-    "tempo_leitura": "9 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/calorias.jpg",
     "conteudo": [
       {
@@ -6727,6 +7083,86 @@
           "Homens: TMB = (10 × peso kg) + (6,25 × altura cm) - (5 × idade) + 5",
           "Mulheres: TMB = (10 × peso kg) + (6,25 × altura cm) - (5 × idade) - 161"
         ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Calcule a TMB com uma equação validada, aplique um fator de atividade para estimar o TDEE e trate o resultado como ponto de partida. O gasto real deve ser conferido pela tendência de peso e pela ingestão registrada durante algumas semanas."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A equação de Mifflin-St Jeor foi desenvolvida para estimar gasto de repouso em adultos. O TDEE acrescenta atividade e, por isso, acumula mais incerteza. Relógios, aplicativos e calculadoras não medem perfeitamente o metabolismo individual; eles organizam uma hipótese inicial que precisa ser ajustada com dados reais."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "1. TMB",
+            "Use peso, altura, idade e sexo da equação",
+            "Estima apenas o repouso"
+          ],
+          [
+            "2. TDEE",
+            "Aplique um fator de atividade conservador",
+            "Evita superestimar treino e rotina"
+          ],
+          [
+            "3. Ajuste",
+            "Observe média de peso por 2 a 3 semanas",
+            "Transforma estimativa em plano pessoal"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "confundir TMB com a meta final de calorias",
+          "usar fator de atleta porque treina poucos dias",
+          "mudar calorias por causa de uma pesagem isolada",
+          "tratar o número da calculadora como resultado exato"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Mudanças bruscas de peso, histórico de transtorno alimentar, gestação, adolescência ou doença metabólica pedem acompanhamento. Para uso geral, ajustes pequenos e baseados em média semanal são mais informativos do que cortes agressivos."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
       },
       {
         "tipo": "cta",
@@ -6808,6 +7244,22 @@
           {
             "pergunta": "Quanto cortar para emagrecer?",
             "resposta": "Um déficit de 300 a 500 kcal por dia é um ponto de partida comum. Déficits agressivos podem piorar fome, treino e preservação de massa muscular."
+          },
+          {
+            "pergunta": "TMB e TDEE são a mesma coisa?",
+            "resposta": "Não. TMB estima o repouso; TDEE tenta incluir atividade e rotina."
+          },
+          {
+            "pergunta": "Qual fator de atividade usar?",
+            "resposta": "Escolha de forma conservadora e ajuste depois pela tendência do peso."
+          },
+          {
+            "pergunta": "A calculadora pode errar?",
+            "resposta": "Sim. Equações estimam médias populacionais e não medem seu metabolismo diretamente."
+          },
+          {
+            "pergunta": "Quando recalcular?",
+            "resposta": "Após mudança relevante de peso, rotina ou objetivo, não a cada oscilação diária."
           }
         ]
       }
@@ -6816,12 +7268,28 @@
       "o-que-e-tdee-como-calcular",
       "mifflin-st-jeor-formula",
       "deficit-calorico-quanto-cortar"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "calorias-macros",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "A new predictive equation for resting energy expenditure in healthy individuals",
+        "orgao": "American Journal of Clinical Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+      },
+      {
+        "titulo": "Dietary Guidelines for Americans",
+        "orgao": "U.S. Department of Health and Human Services",
+        "url": "https://www.dietaryguidelines.gov/"
+      }
     ]
   },
   {
     "slug": "como-dividir-macros-cutting-bulking-manutencao",
-    "titulo": "Como Dividir Macros: Guia Para Cutting, Bulking e Manutenção (Com Calculadora)",
-    "descricao": "Aprenda a calcular e dividir seus macronutrientes (proteína, carboidratos e gorduras) de acordo com seu objetivo: emagrecer, ganhar massa ou manter peso.",
+    "titulo": "Como Dividir Macros para Cutting, Bulking e Manutenção",
+    "descricao": "Defina calorias, proteína, gordura e carboidratos para cutting, bulking ou manutenção com uma ordem simples e ajustes baseados na evolução.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-15",
     "categoria": "Nutrição",
@@ -6833,7 +7301,7 @@
       "calculadora",
       "nutrição"
     ],
-    "tempo_leitura": "10 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/macros.jpg",
     "conteudo": [
       {
@@ -6956,6 +7424,86 @@
         ]
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Comece pelas calorias, defina uma faixa de proteína compatível com o objetivo, preserve uma quantidade adequada de gordura e use carboidratos para completar o total. A melhor divisão é a que sustenta treino, saciedade e adesão."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não existe uma porcentagem universal de macros. Pessoas com o mesmo objetivo podem responder bem a distribuições diferentes porque preferência alimentar, volume de treino, digestão e rotina mudam. A evidência apoia proteína suficiente e balanço energético coerente; o restante precisa ser testado com método."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Cutting",
+            "Déficit moderado e proteína suficiente",
+            "Prioriza perda de gordura com preservação de massa"
+          ],
+          [
+            "Bulking",
+            "Superávit pequeno e treino progressivo",
+            "Reduz ganho de gordura desnecessário"
+          ],
+          [
+            "Manutenção",
+            "Calorias próximas ao gasto e macros flexíveis",
+            "Facilita aderência de longo prazo"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "definir porcentagens antes das calorias",
+          "zerar gordura ou carboidrato",
+          "usar proteína excessiva e reduzir demais outros alimentos",
+          "ajustar tudo ao mesmo tempo sem saber o que funcionou"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Macros são uma ferramenta de planejamento, não um diagnóstico. Qualidade dos alimentos, fibras, micronutrientes, sono e treino continuam importantes. Pessoas com condições clínicas ou histórico de transtorno alimentar devem evitar controle rígido sem acompanhamento."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Calcule seus macros ideais automaticamente:",
         "botao": "Usar Calculadora de Macros ÔåÆ",
@@ -7013,6 +7561,22 @@
           {
             "pergunta": "Preciso mudar macros em bulking?",
             "resposta": "Sim. Em bulking normalmente há superávit calórico, carboidratos mais altos para treino e proteína suficiente, evitando exagerar no superávit para reduzir ganho de gordura."
+          },
+          {
+            "pergunta": "Qual macro devo calcular primeiro?",
+            "resposta": "Depois das calorias, normalmente a proteína é o primeiro macro a ser definido."
+          },
+          {
+            "pergunta": "Carboidrato atrapalha o cutting?",
+            "resposta": "Não por si só. O déficit calórico e a adesão ao plano têm papel central."
+          },
+          {
+            "pergunta": "Bulking exige comer muito?",
+            "resposta": "Não. Um superávit pequeno e ajustável costuma ser mais racional que excesso de calorias."
+          },
+          {
+            "pergunta": "Posso mudar os macros entre dias?",
+            "resposta": "Sim, desde que a média e a adesão continuem coerentes com o objetivo."
           }
         ]
       }
@@ -7021,6 +7585,22 @@
       "cutting-modelo-calorias-macros",
       "macros-para-ganho-massa",
       "deficit-calorico-quanto-cortar"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "calorias-macros",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -7701,8 +8281,8 @@
       "ganho-de-massa",
       "performance"
     ],
-    "titulo": "Whey Isolado vs Concentrado: Qual Comprar? (Tabela Comparativa)",
-    "descricao": "Análise técnica e prática das diferenças entre whey isolado e concentrado. Descubra qual vale mais a pena para SEU caso.",
+    "titulo": "Whey Isolado ou Concentrado: Diferenças, Lactose e Custo",
+    "descricao": "Compare whey isolado e concentrado por proteína, lactose, carboidratos, tolerância e custo por grama para decidir qual faz sentido.",
     "autor": "Equipe Suplementa Já",
     "data": "2024-12-09",
     "categoria": "Proteína",
@@ -7713,7 +8293,7 @@
       "proteína",
       "suplementação"
     ],
-    "tempo_leitura": "8 min",
+    "tempo_leitura": "9 min",
     "imagem": "/images/blog/whey-comparacao.jpg",
     "conteudo": [
       {
@@ -7949,6 +8529,86 @@
         "texto": "Comprando na loja oficial via Amazon você garante entrega rápida, frete grátis (Prime) e produto original. Cuidado com falsificações em sites desconhecidos."
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Whey concentrado costuma ter melhor custo-benefício para quem tolera lactose e só precisa de praticidade. O isolado pode ser útil quando a prioridade é reduzir lactose, carboidratos ou gordura, mas o rótulo e a tolerância individual importam mais que o nome da categoria."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Ambos fornecem proteína de alta qualidade. Para hipertrofia, o total diário de proteína e o treino têm mais peso que escolher isolado automaticamente. Produtos variam muito na concentração, porção, adoçantes e presença de outros ingredientes; compare números do rótulo, não apenas a frente da embalagem."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Tolerância",
+            "Observe lactose e sintomas digestivos",
+            "Ajuda a decidir se o isolado vale a diferença"
+          ],
+          [
+            "Concentração",
+            "Calcule proteína por 100 g e por dose",
+            "Evita comparar porções de tamanhos diferentes"
+          ],
+          [
+            "Custo",
+            "Divida o preço pelos gramas totais de proteína",
+            "Mostra o custo real do nutriente"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "achar que isolado sempre gera mais músculo",
+          "confundir sem lactose com sem proteína do leite",
+          "comparar scoop sem comparar gramas",
+          "ignorar adoçantes e tolerância individual"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Alergia à proteína do leite não é a mesma coisa que intolerância à lactose. Quem tem alergia deve evitar derivados do leite conforme orientação profissional; o whey isolado não é automaticamente seguro nesse caso."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "­ƒÑç MELHOR GERAL (Concentrado): Whey 100% Growth / Max Titanium",
         "descricao": "Melhor custo-benefício. A escolha inteligente para 80% das pessoas.",
@@ -8050,6 +8710,22 @@
           {
             "pergunta": "Whey concentrado engorda?",
             "resposta": "Whey não engorda sozinho. O ganho de gordura acontece quando o total de calorias do dia fica acima do gasto, independentemente de a proteína vir de whey, carnes, ovos ou outros alimentos."
+          },
+          {
+            "pergunta": "Whey isolado dá mais resultado?",
+            "resposta": "Não necessariamente. Total diário de proteína, treino e adesão são mais importantes."
+          },
+          {
+            "pergunta": "Concentrado tem lactose?",
+            "resposta": "Geralmente contém mais lactose que o isolado, mas a quantidade varia por produto."
+          },
+          {
+            "pergunta": "Como calcular custo por proteína?",
+            "resposta": "Divida o preço pelos gramas totais de proteína disponíveis no pacote."
+          },
+          {
+            "pergunta": "Alergia ao leite pode usar isolado?",
+            "resposta": "Não presuma que sim. Alergia envolve proteínas do leite e requer orientação."
           }
         ]
       }
@@ -8058,6 +8734,22 @@
       "guia-whey-protein-2026",
       "diferenca-proteinas-whey-caseina-albumina",
       "whey-protein-intolerantes-lactose"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "whey-proteina",
+    "monetizavel": true,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -10046,8 +10738,8 @@
   },
   {
     "slug": "refeed-day-como-fazer",
-    "titulo": "Refeed Day: Como Fazer Sem Estragar a Dieta (Guia Prático)",
-    "descricao": "Aprenda o que é refeed day, quando usar, quanto comer e a diferença entre refeed e cheat day. Estratégia científica para não sabotar sua dieta.",
+    "titulo": "Refeed Day Funciona? Como Fazer e Quando Faz Sentido",
+    "descricao": "Veja o que estudos sobre refeeds e diet breaks realmente mostram, como diferenciar refeed de dia livre e quando a estratégia pode ajudar na adesão.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
     "categoria": "Nutrição",
@@ -10161,6 +10853,126 @@
         ]
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Refeed é um período planejado de maior ingestão, geralmente próximo da manutenção e com aumento de carboidratos. Ele pode ajudar treino, fome ou adesão em algumas pessoas, mas não “reinicia” o metabolismo nem compensa uma semana inteira fora do plano."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Ensaios em pessoas treinadas produziram resultados mistos. Um estudo encontrou melhor preservação de massa livre de gordura com dois dias de refeed; outro não encontrou vantagem em composição corporal ou gasto de repouso com diet breaks. Isso indica que a estratégia pode ser útil, mas não é obrigatória nem superior em todos os contextos."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Planejamento",
+            "Aproxime calorias da manutenção",
+            "Evita transformar refeed em excesso sem limite"
+          ],
+          [
+            "Macros",
+            "Aumente principalmente carboidratos e mantenha proteína",
+            "Conecta a estratégia ao treino e à recuperação"
+          ],
+          [
+            "Avaliação",
+            "Compare fome, treino e média semanal",
+            "Mostra se houve benefício prático"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "tratar refeed como cheat day sem limite",
+          "usar a balança do dia seguinte como ganho de gordura",
+          "reduzir proteína para caber comida altamente palatável",
+          "fazer refeed sem estar em déficit ou sem dificuldade de adesão"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Um exemplo de planejamento sem transformar em dia livre"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Suponha que a pessoa esteja seguindo um déficit planejado e perceba queda de rendimento, fome elevada e dificuldade de adesão. Um refeed pode aproximar a ingestão da manutenção por um ou dois dias, mantendo proteína e concentrando o aumento em carboidratos de refeições comuns. A meta não é comer o máximo possível, mas reduzir temporariamente a restrição dentro de uma semana ainda coerente."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Depois, compare o que realmente mudou: qualidade do treino, fome, sono e facilidade de retornar ao plano. Se o refeed sempre termina em perda de controle ou culpa, ele não está cumprindo a função. Uma distribuição diária menos restritiva pode ser melhor que alternar rigidez e excesso."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A média semanal continua mandando no resultado. Um dia próximo da manutenção pode caber no plano, mas precisa ser considerado junto dos outros dias, sem punição ou corte extremo depois."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como registrar e revisar sua decisão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Anote a fonte consultada, a data, o rótulo ou apresentação, o preço final e o motivo da escolha. Guarde uma captura ou foto quando a comparação depender de informação que pode mudar. Depois de usar o produto ou a estratégia por um período adequado, registre tolerância, adesão, custo e qualquer resultado observável. Esse histórico permite revisar a decisão sem depender de memória ou de uma propaganda nova."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Reavalie quando houver mudança de fórmula, dose, preço, objetivo, condição de saúde ou orientação profissional. Se a conclusão não puder ser explicada com dados simples e fonte verificável, trate-a como hipótese. O melhor conteúdo de compra ou planejamento não encerra a decisão para sempre: ele deixa claro o que conferir novamente."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "fonte e data da consulta",
+          "produto, dose ou estratégia comparada",
+          "custo total e frequência de uso",
+          "resultado esperado e forma de acompanhar",
+          "data definida para reavaliação"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O peso pode subir temporariamente por glicogênio, água e conteúdo intestinal. Isso não comprova ganho imediato de gordura. Pessoas com compulsão alimentar ou relação difícil com dias livres devem preferir uma estratégia menos rígida e buscar acompanhamento."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Calcule suas calorias de manutenção para saber quanto comer no refeed!",
         "botao": "Calculadora de Calorias",
@@ -10179,12 +10991,49 @@
           "**Melhor dia**: Dia de treino intenso (usar os carbos)",
           "**Sinais de que você precisa**: Fome extrema, irritabilidade, força despencando"
         ]
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Refeed acelera o metabolismo?",
+            "resposta": "Não há garantia de aumento relevante ou duradouro. O principal benefício pode ser adesão e treino."
+          },
+          {
+            "pergunta": "Refeed é igual a cheat day?",
+            "resposta": "Não. Refeed é planejado; cheat day costuma ser um dia sem estrutura."
+          },
+          {
+            "pergunta": "Quantos dias fazer?",
+            "resposta": "Depende do contexto. Estudos testaram protocolos diferentes, e não existe frequência universal."
+          },
+          {
+            "pergunta": "O peso aumenta depois?",
+            "resposta": "Pode aumentar por água e glicogênio, sem representar a mesma quantidade de gordura."
+          }
+        ]
       }
     ],
     "relacionados": [
       "plateau-dieta-como-sair",
       "cutting-modelo-calorias-macros",
       "dieta-reversa-como-fazer"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "calorias-macros",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "Intermittent energy restriction in resistance-trained individuals: randomized trial",
+        "orgao": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33467235/"
+      },
+      {
+        "titulo": "Diet breaks during energy restriction in resistance-trained females: randomized trial",
+        "orgao": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37181269/"
+      }
     ]
   },
   {
@@ -11081,7 +11930,6 @@
       "receitas-whey-protein-faceis",
       "whey-isolado-vs-concentrado"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "whey-proteina",
     "prioridade_seo": true,
@@ -11467,7 +12315,6 @@
       "como-dividir-macros-cutting-bulking-manutencao",
       "deficit-calorico-quanto-cortar"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -11487,8 +12334,8 @@
   },
   {
     "slug": "macros-para-ganho-massa",
-    "titulo": "Macros Para Ganho de Massa: O Guia do Bulking Inteligente (2026)",
-    "descricao": "Distribuição ideal de macronutrientes para ganhar massa muscular com o mínimo de gordura. Proteína, carbo e gordura para hipertrofia.",
+    "titulo": "Macros para Ganhar Massa: Proteína, Carboidrato e Gordura",
+    "descricao": "Monte uma divisão de macros para hipertrofia com superávit ajustável, proteína suficiente e carboidratos para sustentar o treino.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-01-27",
     "categoria": "Nutrição",
@@ -11499,7 +12346,7 @@
       "hipertrofia",
       "carboidrato"
     ],
-    "tempo_leitura": "7 min",
+    "tempo_leitura": "6 min",
     "imagem": "/images/blog/macros-massa.jpg",
     "conteudo": [
       {
@@ -11589,16 +12436,173 @@
         "texto": "💡 **Perceba**: O carbo é MUITO mais alto que no cutting. 371g de carbo = arroz, batata, macarrão, frutas, aveia. Isso é necessário para treinar e crescer."
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Para ganhar massa, combine treino progressivo, proteína suficiente e energia adequada. Não existe divisão perfeita: um superávit pequeno, monitorado pela evolução do peso e da força, costuma ser mais útil do que elevar calorias sem controle."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A literatura sustenta o papel de proteína e treino de força, mas não define um “superávit ideal” universal. Pessoas iniciantes e avançadas ganham músculo em ritmos diferentes. Por isso, calorias e macros devem ser ajustados pela resposta ao longo de semanas, não por uma promessa fixa de ganho mensal."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Proteína",
+            "Defina uma faixa diária e distribua nas refeições",
+            "Dá suporte à síntese proteica"
+          ],
+          [
+            "Gordura",
+            "Mantenha quantidade compatível com saúde e preferência",
+            "Evita dietas desnecessariamente restritas"
+          ],
+          [
+            "Carboidrato",
+            "Complete calorias e sustente o treino",
+            "Ajuda volume e recuperação"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "confundir bulking com comer sem limite",
+          "usar shake hipercalórico antes de organizar refeições",
+          "aumentar calorias por uma semana sem ganho na balança",
+          "ignorar cintura, desempenho e digestão"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como ajustar sem refazer a dieta inteira"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Mantenha o plano por tempo suficiente para enxergar tendência. Se peso, medidas e desempenho não mudarem após algumas semanas de boa adesão, aumente uma pequena quantidade de calorias, de preferência em alimentos fáceis de repetir. Se o peso sobe rápido e a cintura acompanha sem melhora clara de força, reduza o excedente."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O objetivo é encontrar o menor ajuste que permita progresso. Trocar simultaneamente calorias, treino, suplementos e horários impede saber o que funcionou. Registre poucas métricas consistentes e faça uma mudança de cada vez."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use a calculadora como ponto inicial e transforme a dieta em refeições repetíveis. Uma boa divisão de macros precisa caber no apetite, no orçamento e nos horários. Se o plano só funciona em dias perfeitos, ele ainda não está pronto para sustentar meses de treino."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como registrar e revisar sua decisão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Anote a fonte consultada, a data, o rótulo ou apresentação, o preço final e o motivo da escolha. Guarde uma captura ou foto quando a comparação depender de informação que pode mudar. Depois de usar o produto ou a estratégia por um período adequado, registre tolerância, adesão, custo e qualquer resultado observável. Esse histórico permite revisar a decisão sem depender de memória ou de uma propaganda nova."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Reavalie quando houver mudança de fórmula, dose, preço, objetivo, condição de saúde ou orientação profissional. Se a conclusão não puder ser explicada com dados simples e fonte verificável, trate-a como hipótese. O melhor conteúdo de compra ou planejamento não encerra a decisão para sempre: ele deixa claro o que conferir novamente."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "fonte e data da consulta",
+          "produto, dose ou estratégia comparada",
+          "custo total e frequência de uso",
+          "resultado esperado e forma de acompanhar",
+          "data definida para reavaliação"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Acompanhe média de peso, medidas e força. Se a cintura sobe rápido e o desempenho não melhora, o superávit pode estar alto. Condições metabólicas, gastrointestinais ou histórico de transtorno alimentar pedem estratégia individual."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Calcule seus macros para ganho de massa!",
         "botao": "Calculadora de Macros",
         "link": "/calculadoras/macros"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Quanto de proteína usar?",
+            "resposta": "Para muitos adultos que treinam, referências esportivas citam 1,4 a 2,0 g/kg/dia."
+          },
+          {
+            "pergunta": "Preciso de hipercalórico?",
+            "resposta": "Não. Ele só é uma forma prática de calorias quando refeições não bastam."
+          },
+          {
+            "pergunta": "Carboidrato vira gordura?",
+            "resposta": "Excesso energético pode aumentar gordura, independentemente do macro isolado."
+          },
+          {
+            "pergunta": "Quando ajustar calorias?",
+            "resposta": "Depois de observar tendência de peso e treino por algumas semanas."
+          }
+        ]
       }
     ],
     "relacionados": [
       "como-dividir-macros-cutting-bulking-manutencao",
       "bulking-calorias-superavit",
       "proteina-por-dia-quanto-consumir-guia-completo"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "calorias-macros",
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -11820,7 +12824,6 @@
       "deficit-calorico-quanto-cortar",
       "como-dividir-macros-cutting-bulking-manutencao"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -12046,7 +13049,6 @@
       "como-calcular-gasto-calorico-tmb-tdee",
       "quantas-calorias-comer-por-dia"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -12284,7 +13286,6 @@
       "como-dividir-macros-cutting-bulking-manutencao",
       "o-que-e-tdee-como-calcular"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -13503,7 +14504,6 @@
       "creatina-para-que-serve",
       "vitamina-d-deficiencia-brasileiros"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "creatina",
     "prioridade_seo": true,
@@ -13666,8 +14666,8 @@
       "performance",
       "ganho-de-massa"
     ],
-    "titulo": "Melhor Creatina 2026: Ranking das 5 Marcas Testadas no Brasil",
-    "descricao": "Qual a melhor creatina do Brasil? Comparativo das principais marcas: Creapure, Growth, Integral Médica, Max Titanium e mais.",
+    "titulo": "Melhor Creatina em 2026: Como Escolher sem Ranking Falso",
+    "descricao": "Compare creatinas por ingrediente, regularização, laudo, dose e custo por porção. Entenda por que marca famosa não substitui verificação do produto.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-02",
     "categoria": "Suplementos",
@@ -13678,146 +14678,189 @@
       "creapure",
       "ranking creatina"
     ],
-    "tempo_leitura": "8 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/melhor-creatina.jpg",
     "conteudo": [
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
         "tipo": "alerta",
-        "variante": "warning",
-        "texto": "📋 **TOP 3 RÁPIDO:**\n\n1. 🥇 **Creapure (qualquer marca)**: Padrão ouro, pureza garantida\n2. 🥈 **Growth Creatina**: Excelente custo-benefício nacional\n3. 🥉 **Soldiers Nutrition**: Qualidade e preço competitivo"
+        "variante": "info",
+        "texto": "**Resposta curta:** A melhor creatina é um produto regularizado, com creatina monohidratada claramente declarada, dose transparente, lote e fabricante identificados e custo coerente por porção. Sem teste laboratorial independente do lote, não é honesto afirmar que uma marca foi “testada” pelo site."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
       },
       {
         "tipo": "paragrafo",
-        "texto": "Com tantas marcas de creatina no mercado brasileiro, qual escolher? Este ranking considera: pureza, certificações, custo-benefício e reputação."
+        "texto": "A creatina monohidratada é a forma com maior volume de evidência. Selos e matérias-primas conhecidas podem ajudar na rastreabilidade, mas não transformam automaticamente um produto em melhor para todos. O consumidor deve conferir a situação regulatória, o rótulo, a quantidade real de creatina e a reputação do canal de venda."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "O Que Procurar em Uma Creatina"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Tipo**: Creatina Monohidratada (única com centenas de estudos)",
-          "**Pureza**: Quanto mais pura, melhor (idealmente 99.9%+)",
-          "**Selo Creapure**: Garante produção na Alemanha com rigoroso controle",
-          "**Sem aditivos**: Creatina pura não precisa de saborizantes ou açúcar"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Ranking: Melhores Creatinas do Brasil 2026"
+        "texto": "Como decidir na prática"
       },
       {
         "tipo": "tabela",
-        "cabecalho": [
-          "Posição",
-          "Marca",
-          "Tipo",
-          "Preço Médio/kg",
-          "Avaliação"
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
         ],
         "linhas": [
           [
-            "🥇 1º",
-            "Creapure (várias marcas)",
-            "Monohidratada Alemã",
-            "R$150-200",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡ÉÔ¡É"
+            "Ingrediente",
+            "Procure creatina monohidratada sem mistura desnecessária",
+            "Facilita comparar dose e evidência"
           ],
           [
-            "🥈 2º",
-            "Growth Creatina",
-            "Monohidratada",
-            "R$80-100",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡ÉÔ¡É"
+            "Regularização",
+            "Confira número e situação na Anvisa quando aplicável",
+            "Reduz risco de produto irregular"
           ],
           [
-            "🥉 3º",
-            "Soldiers Nutrition",
-            "Monohidratada",
-            "R$85-110",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡ÉÔ¡É"
-          ],
-          [
-            "4º",
-            "Integral Médica",
-            "Monohidratada",
-            "R$90-120",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡É"
-          ],
-          [
-            "5º",
-            "Max Titanium",
-            "Monohidratada",
-            "R$100-130",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡É"
-          ],
-          [
-            "6º",
-            "Probiótica",
-            "Monohidratada",
-            "R$80-100",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡É"
-          ],
-          [
-            "7º",
-            "Atlhetica Nutrition",
-            "Monohidratada",
-            "R$100-120",
-            "Ô¡ÉÔ¡ÉÔ¡ÉÔ¡É"
+            "Preço",
+            "Divida o valor pelo número de porções úteis",
+            "Evita escolher apenas pelo tamanho do pote"
           ]
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "1º Lugar: Creapure"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Creapure não é uma marca, mas uma **matéria-prima** alemã com 99.99% de pureza. Várias marcas brasileiras e internacionais usam Creapure. Se o rótulo diz 'Creapure', você tem garantia de qualidade máxima."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "2º Lugar: Growth Creatina"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Marca brasileira com excelente reputação e preço competitivo. Não usa Creapure, mas tem boas análises de qualidade. Melhor custo-benefício para quem quer economizar."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Dica: Onde Comprar"
+        "texto": "Erros que distorcem a decisão"
       },
       {
         "tipo": "lista",
         "itens": [
-          "Sites oficiais das marcas (evitar falsificações)",
-          "Amazon Brasil (vendedor oficial)",
-          "Netshoes",
-          "Lojas de suplementos com boa reputação"
+          "comprar em marketplace sem verificar vendedor e nota fiscal",
+          "comparar preço do pote em vez de custo por dose",
+          "achar que sabor, cor ou marketing provam pureza",
+          "confiar em ranking sem metodologia e data"
         ]
       },
       {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": "⚠️ **Cuidado com preços muito baixos**: Creatina adulterada ou vencida é problema real no Brasil. Compre de fontes confiáveis."
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Método transparente para comparar opções"
       },
       {
-        "tipo": "cta",
-        "texto": "Já escolheu sua creatina? Veja como tomar:",
-        "botao": "Guia: Como Tomar Creatina",
-        "link": "/blog/creatina-como-tomar"
+        "tipo": "paragrafo",
+        "texto": "Primeiro, descarte produtos cuja composição não esteja clara. Depois, anote peso líquido, quantidade de creatina por porção, número de porções e preço final com frete. Divida o preço pela quantidade total de creatina, não pelo tamanho visual da embalagem. Esse cálculo simples evita que scoop menor ou pote grande distorça a comparação."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em seguida, confira fabricante, lote, validade, canal de atendimento e situação regulatória. Um laudo só é útil quando identifica produto, lote, laboratório, método e data; uma imagem solta nas redes sociais não oferece a mesma rastreabilidade. Se a marca mudou fórmula ou fornecedor, uma análise antiga pode não representar o pote atual."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Por fim, considere a experiência prática: dissolução, tolerância, facilidade de repetir a dose e confiança no vendedor. Nenhum desses itens prova pureza isoladamente, mas todos ajudam a reduzir risco de compra ruim quando combinados com rótulo e regularização."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Termos como “micronizada”, “premium” e “importada” descrevem posicionamento ou características do produto, mas não garantem benefício adicional. A pergunta central é se a porção entrega creatina monohidratada regular, em embalagem rastreável e por um custo que você consegue manter."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Não use gosto, textura ou quantidade de espuma como teste caseiro de pureza. Essas características mudam com granulometria, temperatura e mistura, e não substituem análise laboratorial. Quando houver dúvida sobre autenticidade, procure o fabricante com lote e nota fiscal antes de consumir."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Creatina monohidratada declarada como ingrediente principal.",
+          "Dose e porção legíveis, sem mistura proprietária.",
+          "Fabricante, lote, validade e atendimento identificados.",
+          "Situação regulatória conferida na fonte oficial quando aplicável.",
+          "Preço calculado por quantidade real de creatina."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como registrar e revisar sua decisão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Anote a fonte consultada, a data, o rótulo ou apresentação, o preço final e o motivo da escolha. Guarde uma captura ou foto quando a comparação depender de informação que pode mudar. Depois de usar o produto ou a estratégia por um período adequado, registre tolerância, adesão, custo e qualquer resultado observável. Esse histórico permite revisar a decisão sem depender de memória ou de uma propaganda nova."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Reavalie quando houver mudança de fórmula, dose, preço, objetivo, condição de saúde ou orientação profissional. Se a conclusão não puder ser explicada com dados simples e fonte verificável, trate-a como hipótese. O melhor conteúdo de compra ou planejamento não encerra a decisão para sempre: ele deixa claro o que conferir novamente."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "fonte e data da consulta",
+          "produto, dose ou estratégia comparada",
+          "custo total e frequência de uso",
+          "resultado esperado e forma de acompanhar",
+          "data definida para reavaliação"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Lotes, preços e disponibilidade mudam. Este guia não certifica marcas nem substitui laudo do lote. Desconfie de preço muito abaixo do mercado, lacre violado, rótulo incompleto ou promessa de efeito terapêutico."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Creapure é obrigatória?",
+            "resposta": "Não. É uma matéria-prima rastreável, mas outros produtos regulares de creatina monohidratada podem ser adequados."
+          },
+          {
+            "pergunta": "Como comparar o preço?",
+            "resposta": "Use custo por porção com a quantidade de creatina que você pretende consumir."
+          },
+          {
+            "pergunta": "O site testou essas marcas?",
+            "resposta": "Não. Sem análise laboratorial documentada, o site não apresenta marca como testada."
+          },
+          {
+            "pergunta": "Onde conferir regularização?",
+            "resposta": "Use a consulta oficial de alimentos e suplementos da Anvisa e os dados do rótulo."
+          }
+        ]
       }
     ],
     "relacionados": [
       "guia-completo-creatina-2026",
       "creatina-monohidratada-vs-outras",
       "creatina-como-tomar"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "creatina",
+    "monetizavel": true,
+    "fontes": [
+      {
+        "titulo": "ISSN position stand: safety and efficacy of creatine supplementation",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/"
+      },
+      {
+        "titulo": "Como saber se um suplemento alimentar é autorizado",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado/"
+      }
     ]
   },
   {
@@ -14090,8 +15133,8 @@
       "emagrecimento",
       "performance"
     ],
-    "titulo": "Whey Protein 2026: Guia Completo - Tipos, Doses e Como Escolher o Melhor",
-    "descricao": "Tudo sobre Whey Protein em um só lugar: diferenças entre Concentrado, Isolado e Hidrolisado, como calcular sua dose ideal, mitos desmentidos pela ciência, e como fugir de fraudes como Amino Spiking.",
+    "titulo": "Whey Protein: Tipos, Quantidade e Como Escolher",
+    "descricao": "Guia de whey concentrado, isolado e hidrolisado com critérios de rótulo, quantidade de proteína, lactose, custo e uso na rotina.",
     "autor": "Nutricionista Esportivo - Suplementa Já",
     "data": "2026-02-01",
     "categoria": "Proteínas",
@@ -14107,7 +15150,7 @@
       "amino spiking",
       "proteína"
     ],
-    "tempo_leitura": "35 min",
+    "tempo_leitura": "15 min",
     "imagem": "/images/blog/whey-protein-guia.jpg",
     "conteudo": [
       {
@@ -14576,6 +15619,86 @@
         ]
       },
       {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Resposta direta e critérios atualizados"
+      },
+      {
+        "tipo": "alerta",
+        "variante": "info",
+        "texto": "**Resposta curta:** Whey é uma fonte prática de proteína do leite. Escolha pelo que falta na dieta, tolerância, concentração proteica e custo por grama; ele não é obrigatório para ganhar massa e não compensa um treino ou alimentação inconsistentes."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "O que a evidência permite afirmar"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A evidência sobre proteína e exercício apoia uma ingestão diária adequada e bem distribuída. Concentrado, isolado e hidrolisado podem contribuir para essa meta, mas diferenças de marketing nem sempre representam benefício mensurável. Leia a lista de ingredientes e a tabela nutricional."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
+      },
+      {
+        "tipo": "tabela",
+        "colunas": [
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
+        ],
+        "linhas": [
+          [
+            "Objetivo",
+            "Defina quantos gramas faltam na alimentação",
+            "Evita comprar dose maior que a necessidade"
+          ],
+          [
+            "Rótulo",
+            "Compare proteína, ingredientes e alergênicos",
+            "Mostra o que realmente existe na porção"
+          ],
+          [
+            "Custo",
+            "Calcule preço por grama de proteína",
+            "Permite comparar embalagens e tipos"
+          ]
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Erros que distorcem a decisão"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "comprar pelo número de ingredientes",
+          "tratar hidrolisado como superior para qualquer pessoa",
+          "usar várias doses sem somar proteína do dia",
+          "ignorar procedência e regularização"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Whey contém proteínas do leite. Pessoas com alergia precisam de orientação e alternativa adequada. Intolerância à lactose varia em intensidade; teste tolerância e leia o rótulo específico."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
         "tipo": "cta",
         "texto": "Pronto para escolher sua marca? Veja nosso ranking das melhores opções do Brasil:",
         "botao": "Ver Ranking de Melhores Wheys 2026",
@@ -14646,12 +15769,49 @@
         "texto": "Calcule exatamente quanto de proteína você precisa por dia:",
         "botao": "Calculadora de Proteína",
         "link": "/calculadoras/proteina"
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Whey é obrigatório para hipertrofia?",
+            "resposta": "Não. Ele apenas facilita atingir a meta de proteína."
+          },
+          {
+            "pergunta": "Qual tipo tem menos lactose?",
+            "resposta": "Em geral o isolado, mas confira o rótulo porque produtos variam."
+          },
+          {
+            "pergunta": "Quando tomar?",
+            "resposta": "No horário que melhor ajuda a completar a proteína diária e manter consistência."
+          },
+          {
+            "pergunta": "Como fugir de produto ruim?",
+            "resposta": "Verifique regularização, vendedor, rótulo completo, concentração e custo por proteína."
+          }
+        ]
       }
     ],
     "relacionados": [
       "whey-isolado-vs-concentrado",
       "melhores-marcas-whey-protein-2026",
       "proteina-por-dia-quanto-consumir-guia-completo"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "whey-proteina",
+    "monetizavel": true,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -14660,8 +15820,8 @@
       "ganho-de-massa",
       "custo-beneficio"
     ],
-    "titulo": "Os 10 Melhores Whey Proteins do Brasil 2026: Ranking e Análise Técnica",
-    "descricao": "Ranking definitivo e imparcial dos melhores Whey Proteins vendidos no Brasil. Análise de concentração proteica real, origem da matéria-prima, presença de Amino Spiking, sabor e custo por grama de proteína.",
+    "titulo": "Melhores Whey Proteins de 2026: Como Comparar Rótulo e Custo",
+    "descricao": "Use critérios verificáveis para comparar whey: concentração proteica, ingredientes, lactose, regularização e custo por grama de proteína.",
     "autor": "Equipe de Análise Técnica - Suplementa Já",
     "data": "2026-02-01",
     "categoria": "Review",
@@ -14677,375 +15837,189 @@
       "probiotica",
       "whey custo beneficio"
     ],
-    "tempo_leitura": "25 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/ranking-whey.jpg",
     "conteudo": [
       {
-        "tipo": "alerta",
-        "variante": "info",
-        "texto": " **RESUMO RÁPIDO - PÓDIO 2026:**\n\n  **Melhor Geral**: Dux Nutrition Concentrado (matéria-prima premium, sabor excepcional)\n  **Melhor Custo-Benefício**: Growth Supplements / Integralmedica (preço honesto, qualidade comprovada)\n  **Melhor para Performance**: Max Titanium Top Whey 3W (blend de absorção escalonada)\n  **Melhor Isolado**: Dux Isolado ou Isofort Vitafor (zero lactose, máxima pureza)\n  **EVITAR**: Marcas sem laudo, preço muito abaixo do mercado, ou com Amino Spiking"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O mercado brasileiro de suplementos evoluiu muito nos últimos anos. Mas ainda existem armadilhas: marcas que praticam Amino Spiking, produtos com matéria-prima de baixa qualidade, e muito marketing vazio. Este ranking foi criado para separar o joio do trigo."
-      },
-      {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Metodologia: Como Avaliamos"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Cada produto foi analisado sob 5 critérios técnicos:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**1. Pureza Real (30%)**: Verificamos laudos, histórico em projetos de análise (ex: Projeto Felix), e presença de Amino Spiking nos ingredientes.",
-          "**2. Concentração Proteica (25%)**: Gramas de proteína real por porção dividido pelo peso da porção.",
-          "**3. Custo por Grama de Proteína (20%)**: O verdadeiro comparativo de economia. Preço total  gramas de proteína no pote.",
-          "**4. Sabor e Solubilidade (15%)**: Feedback agregado de milhares de avaliações verificadas na Amazon, Netshoes e redes sociais.",
-          "**5. Ingredientes e Aditivos (10%)**: Penalizamos corantes artificiais, excesso de espessantes, e ingredientes desnecessários."
-        ]
-      },
-      {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": " **TRANSPARÊNCIA**: Usamos links de afiliado Amazon. Isso não influencia nosso ranking - recomendamos produtos que usaríamos pessoalmente. Se um produto for ruim, não entra na lista, simples assim."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": " 1º Lugar: Dux Nutrition Whey Protein Concentrado"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "A Dux Nutrition elevou o padrão do mercado brasileiro. Enquanto a maioria das marcas usa matéria-prima genérica, a Dux importa proteínas de alto padrão da Europa (frequentemente Glanbia da Irlanda ou Arla da Dinamarca)."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 20g de proteína por dose de 30g (66%)",
-          "**Carboidratos**: 4,6g (lactose natural, sem maltodextrina adicionada)",
-          "**Gordura**: 2,7g",
-          "**Matéria-prima**: Importada, microfilterada (CFM)",
-          "**Sabores destaque**: Cookies & Cream, Coco, Chocolate Belga",
-          "**Corantes**: 100% naturais (urucum, curcuma) - raro na indústria",
-          "**Preço médio**: R$140-170/900g",
-          "**Custo por grama de proteína**: R$0,23-0,28"
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Por que é o melhor**: A Dux não economiza onde não deve. A textura é cremosa sem ser areosa, os sabores não têm aquele retrogosto químico de adoçante barato, e a marca tem histórico limpo em análises laboratoriais."
+        "texto": "Resposta direta e critérios atualizados"
       },
       {
         "tipo": "alerta",
         "variante": "info",
-        "texto": " **VALE O PREÇO?** Sim, se você pode pagar. A diferença de R$30-50 comparado a marcas medianas se justifica pela certeza de estar tomando proteína pura, sem risco de fraude."
-      },
-      {
-        "tipo": "cta",
-        "texto": "Ver Preço Atualizado na Amazon",
-        "botao": "Comprar Dux Concentrado",
-        "link": "https://www.amazon.com.br/s?k=whey+protein+dux+concentrado&tag=105c91-20"
+        "texto": "**Resposta curta:** Não existe uma única melhor marca para todos. A escolha muda conforme tolerância à lactose, orçamento, sabor, quantidade de proteína e confiança no fabricante. Este guia usa critérios de comparação e não afirma ter testado produtos em laboratório."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": " 2º Lugar: Growth Supplements Whey Protein"
+        "texto": "O que a evidência permite afirmar"
       },
       {
         "tipo": "paragrafo",
-        "texto": "A Growth é a queridinha de quem quer qualidade sem pagar premium. A marca nasceu no e-commerce e cortou intermediários, repassando a economia para o consumidor. O Whey deles é honesto: faz o trabalho sem frescura."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 24g de proteína por dose de 33g (72%)",
-          "**Carboidratos**: 4g",
-          "**Gordura**: 2g",
-          "**Sabores destaque**: Chocolate, Morango, Baunilha",
-          "**Preço médio**: R$100-130/1kg",
-          "**Custo por grama de proteína**: R$0,14-0,18 (IMBATÍVEL)"
-        ]
+        "texto": "O rótulo deve informar porção, quantidade de nutrientes, ingredientes, alergênicos e restrições. A concentração de proteína e o custo por grama são comparações mais úteis que tamanho do scoop ou frases da embalagem. A regularização e a procedência do vendedor também fazem parte da decisão."
       },
       {
         "tipo": "paragrafo",
-        "texto": "**Por que é o 2º lugar**: A Growth entrega o que promete. Não tem o 'glamour' da Dux, mas para quem quer RESULTADO sem gastar demais, é a escolha mais racional. Muitos atletas profissionais usam Growth justamente porque entendem que a diferença prática para marcas premium é mínima."
-      },
-      {
-        "tipo": "cta",
-        "texto": "Conferir Preço Growth na Amazon",
-        "botao": "Ver Growth Whey",
-        "link": "https://www.amazon.com.br/s?k=whey+protein+growth&tag=105c91-20"
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": " 3º Lugar: Max Titanium Top Whey 3W"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O Top Whey 3W é um clássico das academias brasileiras. O diferencial é ser um BLEND de 3 tipos de Whey: Concentrado + Isolado + Hidrolisado. Isso cria uma absorção escalonada - parte rápida, parte média, parte sustentada."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 32g de proteína por dose de 40g (80%)",
-          "**Blend**: WPC + WPI + WPH",
-          "**Sabores destaque**: Morango (lembra iogurte), Chocolate",
-          "**Preço médio**: R$150-180/900g",
-          "**Custo por grama de proteína**: R$0,21-0,25"
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Para quem é indicado**: Atletas que treinam pesado e querem maximizar a janela anabólica pós-treino. O blend oferece pico rápido (Hidrolisado) + sustentação (Concentrado). É mais caro, mas a engenharia do produto justifica para quem treina sério."
-      },
-      {
-        "tipo": "cta",
-        "texto": "Comprar Max Titanium Top Whey 3W",
-        "botao": "Ver Preço Max Titanium",
-        "link": "https://www.amazon.com.br/s?k=top+whey+3w+max+titanium&tag=105c91-20"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "4º Lugar: Integralmedica 100% Pure Whey"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "A Integralmedica é a maior fabricante de suplementos da América Latina. A escala de produção permite vender um produto honesto por um preço que marcas menores não conseguem acompanhar. É a 'carne com batata' da suplementação."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 23g de proteína por dose de 33g (69%)",
-          "**Sabores**: Chocolate, Morango, Baunilha, Cookies",
-          "**Preço médio**: R$90-120/900g",
-          "**Custo por grama de proteína**: R$0,13-0,17",
-          "**Ponto de atenção**: Contém aromatizantes artificiais"
-        ]
-      },
-      {
-        "tipo": "cta",
-        "texto": "Ver Ofertas Integralmedica",
-        "botao": "Comprar 100% Pure Whey",
-        "link": "https://www.amazon.com.br/s?k=whey+100+pure+integralmedica&tag=105c91-20"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "5º Lugar: Probiótica 100% Pure Whey"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "A Probiótica é marca histórica e hoje pertence ao mesmo grupo da Integralmedica (BRG). O produto é muito similar, com diferenças sutis de sabor. Muitos preferem o chocolate da Probiótica por ser menos doce."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 22g de proteína por dose de 30g (73%)",
-          "**Preço médio**: R$85-115/900g",
-          "**Custo por grama de proteína**: R$0,13-0,16"
-        ]
-      },
-      {
-        "tipo": "cta",
-        "texto": "Conferir Preço Probiótica",
-        "botao": "Ver Probiótica Whey",
-        "link": "https://www.amazon.com.br/s?k=whey+100+pure+probiotica&tag=105c91-20"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "6º Lugar: Atlhetica Nutrition Best Whey"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O Best Whey é famoso pelos sabores gourmet: Churros, Peanut Butter, Brigadeiro. A fórmula é boa, mas você paga um premium pelo marketing e sabores diferenciados."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 20g de proteína por dose de 30g (66%)",
-          "**Sabores exclusivos**: Churros, Peanut Butter, Brigadeiro",
-          "**Preço médio**: R$130-160/900g",
-          "**Ponto de atenção**: Alguns sabores têm mais carboidratos (açúcar nos pedacinhos)"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "7º Lugar: Optimum Nutrition Gold Standard (Importado)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O Gold Standard é referência mundial e o Whey mais vendido do planeta. É excelente, mas no Brasil o preço fica proibitivo por causa de importação e dólar. Só vale se você encontrar em promoção ou comprar no exterior."
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Concentração**: 24g de proteína por dose de 30g (80%)",
-          "**Blend**: WPI (predominante) + WPC + WPH",
-          "**Preço no Brasil**: R$250-350/900g (CARO)",
-          "**Custo por grama de proteína**: R$0,35-0,45"
-        ]
-      },
-      {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": " **DICA**: Se você pode gastar R$300+ em Whey, é melhor comprar 2kg de Dux/Growth do que 900g de ON. A diferença de qualidade não justifica o preço no Brasil."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Melhores Wheys ISOLADOS (Zero Lactose)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Se você tem intolerância à lactose, estes são os isolados mais seguros:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**1º Dux Whey Isolado**: O mais elogiado por quem tem sensibilidade. 0g de carboidratos no rótulo (sinal de pureza total). Preço: ~R$200/900g",
-          "**2º Isofort Vitafor**: Marca clínica, muito limpa. Sabor neutro excelente para misturar com frutas. Preço: ~R$180/900g",
-          "**3º ISO Triple Zero Black Skull**: Isolado + Hidrolisado. Absorção ultra-rápida. Preço: ~R$220/900g"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Marcas Para EVITAR (Histórico Negativo)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Sem citar nomes específicos (para evitar processos), fuja de:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          " Marcas que NUNCA publicaram laudos de terceiros",
-          " Preço muito abaixo do mercado (abaixo de R$80/kg de concentrado)",
-          " Ingredientes com Glicina, Taurina ou Creatina listados separadamente",
-          " Marcas que já foram reprovadas em análises públicas (pesquise 'nome da marca + laudo + reprovado')",
-          " Wheys vendidos em embalagens genéricas sem CNPJ visível"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Tabela Comparativa Completa"
+        "texto": "Como decidir na prática"
       },
       {
         "tipo": "tabela",
         "colunas": [
-          "Marca",
-          "Tipo",
-          "Proteína/dose",
-          "Preço/kg",
-          "Custo/g proteína",
-          "Nota Final"
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
         ],
         "linhas": [
           [
-            "Dux Concentrado",
-            "WPC",
-            "20g",
-            "R$155",
-            "R$0,25",
-            "9,5/10"
+            "Proteína real",
+            "Compare gramas de proteína por 100 g",
+            "Neutraliza diferenças no tamanho da porção"
           ],
           [
-            "Growth Whey",
-            "WPC",
-            "24g",
-            "R$115",
-            "R$0,15",
-            "9,0/10"
+            "Ingredientes",
+            "Veja a ordem e a presença de misturas",
+            "Ajuda a entender concentração e tolerância"
           ],
           [
-            "Max Top Whey 3W",
-            "Blend",
-            "32g",
-            "R$165",
-            "R$0,23",
-            "8,8/10"
-          ],
-          [
-            "Integralmedica",
-            "WPC",
-            "23g",
-            "R$105",
-            "R$0,15",
-            "8,5/10"
-          ],
-          [
-            "Probiótica",
-            "WPC",
-            "22g",
-            "R$100",
-            "R$0,14",
-            "8,4/10"
-          ],
-          [
-            "Atlhetica Best",
-            "WPC",
-            "20g",
-            "R$145",
-            "R$0,24",
-            "8,2/10"
-          ],
-          [
-            "Dux Isolado",
-            "WPI",
-            "27g",
-            "R$220",
-            "R$0,27",
-            "9,3/10"
-          ],
-          [
-            "ON Gold Standard",
-            "Blend",
-            "24g",
-            "R$330",
-            "R$0,40",
-            "8,0/10*"
+            "Compra",
+            "Confira vendedor, lote, nota fiscal e regularização",
+            "Reduz risco de falsificação ou produto irregular"
           ]
         ]
       },
       {
-        "tipo": "paragrafo",
-        "texto": "*ON Gold Standard tem nota reduzida pelo custo-benefício no Brasil, não pela qualidade do produto."
-      },
-      {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Conclusão: Qual Comprar?"
+        "texto": "Erros que distorcem a decisão"
       },
       {
         "tipo": "lista",
         "itens": [
-          "**Quer o MELHOR sem olhar preço?** Dux Concentrado ou Isolado",
-          "**Quer ECONOMIA máxima com qualidade?** Growth ou Integralmedica",
-          "**Quer blend para PERFORMANCE?** Max Titanium Top Whey 3W",
-          "**Tem INTOLERÂNCIA à lactose?** Dux Isolado ou Isofort",
-          "**Quer sabores GOURMET?** Atlhetica Best Whey"
+          "chamar produto de testado sem laudo publicado",
+          "usar sabor como prova de qualidade",
+          "ignorar frete no custo final",
+          "comprar embalagem suspeita por preço muito baixo"
         ]
       },
       {
-        "tipo": "cta",
-        "texto": "Ainda tem dúvidas sobre Whey? Leia nosso Guia Definitivo:",
-        "botao": "Guia Completo de Whey Protein",
-        "link": "/blog/guia-whey-protein-2026"
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "A conta que permite comparar qualquer whey"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Comece pela concentração: divida os gramas de proteína da porção pelo peso total da porção e multiplique por 100. Um produto com 24 g de proteína em 30 g de pó tem concentração diferente de outro com 24 g em 40 g. Depois, multiplique a proteína por porção pelo número de porções para estimar a proteína total da embalagem."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Para calcular custo por grama de proteína, divida o preço final pela proteína total do pacote. Inclua frete e desconto realmente disponível. Essa conta não decide sabor ou tolerância, mas separa valor nutricional de embalagem e publicidade."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Leia também a lista de ingredientes. Ela é apresentada em ordem decrescente de quantidade. Misturas com carboidratos, espessantes e outros componentes podem fazer sentido para sabor ou textura, mas precisam entrar na comparação. Alergênicos e presença de lactose merecem atenção específica."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A reputação da marca ajuda, mas não dispensa conferir o produto atual. Empresas mudam fornecedores, sabores e fórmulas; marketplaces misturam vendedores diferentes. Prefira loja identificada, nota fiscal, lacre íntegro e canal oficial para confirmar lote quando algo parecer fora do padrão."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Sabor e solubilidade influenciam adesão, porém não são sinônimos de concentração. Uma opção um pouco mais cara pode valer a pena se for melhor tolerada e evitar desperdício. Registre a conta e o rótulo usados na comparação para que o guia continue verificável quando os preços mudarem."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Compare concentração proteica usando a mesma base de 100 g.",
+          "Calcule proteína total no pacote e custo por grama.",
+          "Cheque ingredientes, alergênicos, lactose e adoçantes.",
+          "Confirme regularização, lote, validade e vendedor.",
+          "Reavalie o rótulo sempre que a fórmula ou embalagem mudar."
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como registrar e revisar sua decisão"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Anote a fonte consultada, a data, o rótulo ou apresentação, o preço final e o motivo da escolha. Guarde uma captura ou foto quando a comparação depender de informação que pode mudar. Depois de usar o produto ou a estratégia por um período adequado, registre tolerância, adesão, custo e qualquer resultado observável. Esse histórico permite revisar a decisão sem depender de memória ou de uma propaganda nova."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Reavalie quando houver mudança de fórmula, dose, preço, objetivo, condição de saúde ou orientação profissional. Se a conclusão não puder ser explicada com dados simples e fonte verificável, trate-a como hipótese. O melhor conteúdo de compra ou planejamento não encerra a decisão para sempre: ele deixa claro o que conferir novamente."
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "fonte e data da consulta",
+          "produto, dose ou estratégia comparada",
+          "custo total e frequência de uso",
+          "resultado esperado e forma de acompanhar",
+          "data definida para reavaliação"
+        ]
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Limites e segurança"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Fórmulas e preços mudam. Refaça a conta com o rótulo atual antes de comprar. Rankings sem data, metodologia, lote ou conflito de interesse declarado não devem ser tratados como teste independente."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
+      },
+      {
+        "tipo": "faq",
+        "perguntas": [
+          {
+            "pergunta": "Qual marca o site recomenda?",
+            "resposta": "O site apresenta critérios. A melhor escolha depende do rótulo atual, procedência, tolerância e preço."
+          },
+          {
+            "pergunta": "Como comparar porções diferentes?",
+            "resposta": "Converta para proteína por 100 g e custo por grama de proteína."
+          },
+          {
+            "pergunta": "Mais ingredientes significa melhor?",
+            "resposta": "Não. Uma fórmula simples pode ser mais fácil de comparar e tolerar."
+          },
+          {
+            "pergunta": "O ranking é teste laboratorial?",
+            "resposta": "Não. Sem laudo próprio publicado, este conteúdo não se apresenta como teste de laboratório."
+          }
+        ]
       }
     ],
     "relacionados": [
       "guia-whey-protein-2026",
       "whey-isolado-vs-concentrado",
       "economizar-300-reais-suplementacao"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "hub_slug": "whey-proteina",
+    "monetizavel": true,
+    "fontes": [
+      {
+        "titulo": "International Society of Sports Nutrition Position Stand: protein and exercise",
+        "orgao": "Journal of the International Society of Sports Nutrition / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "titulo": "Como ler as informações obrigatórias no rótulo de suplementos",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/perguntas-frequentes/7-quais-informacoes-precisam-estar"
+      }
     ]
   },
   {
@@ -17473,8 +18447,8 @@
   },
   {
     "slug": "monjaro-preco-quanto-custa-como-economizar-2026",
-    "titulo": "Monjaro Preço 2026: Quanto Custa e 5 Formas de Economizar",
-    "descricao": "Descubra o preço real do Monjaro no Brasil em 2026, programas de desconto, cobertura de planos de saúde e alternativas mais baratas igualmente eficazes.",
+    "titulo": "Mounjaro: Preço no Brasil, Doses e Como Consultar o Valor Máximo",
+    "descricao": "Saiba como consultar o preço máximo de Mounjaro na CMED, por que o valor varia por dose e estado e quais cuidados tomar com ofertas irregulares.",
     "autor": "Equipe Suplementa Já",
     "data": "2026-02-11",
     "categoria": "Medicamentos",
@@ -17485,559 +18459,170 @@
       "desconto monjaro",
       "monjaro plano de saúde"
     ],
-    "tempo_leitura": "9 min",
+    "tempo_leitura": "5 min",
     "imagem": "/images/blog/monjaro-preco.jpg",
     "conteudo": [
       {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": "📋 **RESUMO RÁPIDO:**\n\n• **Preço Médio 2026**: R$ 1.406 (dose inicial 2,5mg) até R$ 2.600 (dose máxima 15mg)\n• **Custo Mensal Real**: R$ 1.800-2.400 (dose de manutenção 10-15mg)\n• **Custo Anual**: R$ 21.000-28.000 (tratamento completo)\n• **Onde Comprar Mais Barato**: Pague Menos, Drogasil, programas de fidelidade\n• **Planos de Saúde**: Cobertura RARA, apenas se diabético + obesidade + laudo médico robusto\n• **Programas de Desconto**: Não há oficial no Brasil (diferente dos EUA)\n• **Alternativas Baratas**: Ozempic (R$ 1.000-1.200/mês), Saxenda (R$ 1.200-1.600/mês), Orlistate (R$ 100-200/mês)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O Mounjaro é, sem dúvida, o medicamento emagrecedor mais eficaz disponível hoje - mas também o **mais caro**. Com preços chegando a R$ 2.600 por caixa (4 canetas para 1 mês), o tratamento pode custar até **R$ 28.000 por ano**."
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Mas será que dá para economizar? Planos de saúde cobrem? Existem programas de desconto? E o mais importante: **vale a pena pagar esse preço** ou há alternativas mais acessíveis?"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Neste guia completo, vou te mostrar o preço REAL (não aquele de anúncio enganoso), onde comprar mais barato, se dá pra negociar com plano de saúde, e alternativas que podem economizar até 80% do custo."
-      },
-      {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Preço do Monjaro no Brasil (Fevereiro 2026)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "O Monjaro vem em **4 canetas por caixa** (uso de 1 mês, 1 caneta por semana). O preço varia conforme a dosagem:"
-      },
-      {
-        "tipo": "tabela",
-        "colunas": [
-          "Dosagem",
-          "Preço Médio/Caixa",
-          "Quando Usar",
-          "Farmácia Mais Barata"
-        ],
-        "linhas": [
-          [
-            "2,5 mg (4 canetas)",
-            "R$ 1.406-1.500",
-            "Mês 1-2 (início)",
-            "Pague Menos: R$ 1.406"
-          ],
-          [
-            "5 mg (4 canetas)",
-            "R$ 1.700-1.900",
-            "Mês 3-4",
-            "Drogasil: R$ 1.680"
-          ],
-          [
-            "7,5 mg (4 canetas)",
-            "R$ 1.950-2.150",
-            "Mês 5-6",
-            "Pague Menos: R$ 1.920"
-          ],
-          [
-            "10 mg (4 canetas)",
-            "R$ 2.200-2.400",
-            "Manutenção",
-            "Drogasil: R$ 2.180"
-          ],
-          [
-            "12,5 mg (4 canetas)",
-            "R$ 2.400-2.600",
-            "Obesidade severa",
-            "Pague Menos: R$ 2.350"
-          ],
-          [
-            "15 mg (4 canetas)",
-            "R$ 2.600-2.800",
-            "Dose máxima",
-            "Droga Raia: R$ 2.580"
-          ]
-        ]
+        "texto": "Resposta direta e critérios atualizados"
       },
       {
         "tipo": "alerta",
         "variante": "info",
-        "texto": "💡 **Observação**: Preços variam 5-15% entre farmácias e regiões. Sempre compare em 3-4 redes antes de comprar."
+        "texto": "**Resposta curta:** O preço de Mounjaro varia por apresentação, alíquota de ICMS, farmácia e descontos. Em vez de publicar um valor que envelhece rápido, consulte a lista mensal da CMED para ver o Preço Máximo ao Consumidor e compare o preço final em estabelecimentos autorizados."
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Custo REAL do Tratamento (12 Meses)"
+        "texto": "O que a evidência permite afirmar"
       },
       {
         "tipo": "paragrafo",
-        "texto": "Aqui está o que NINGUÉM conta: o preço de entrada (R$ 1.406) é enganoso. Você vai pagar MUITO mais ao longo do tratamento:"
+        "texto": "A Anvisa aprovou a tirzepatida para diabetes tipo 2 e, posteriormente, para controle crônico do peso em adultos que atendem aos critérios da bula. É medicamento sujeito a prescrição, não suplemento. A decisão de iniciar, ajustar ou interromper o tratamento deve ser feita com profissional habilitado."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A leitura correta é separar três coisas: o que foi observado em estudos, o que aparece no rótulo do produto e o que acontece com você na prática. Quando essas três camadas não apontam na mesma direção, vale ser conservador e evitar aumentar dose, custo ou expectativa."
+      },
+      {
+        "tipo": "heading",
+        "nivel": 2,
+        "texto": "Como decidir na prática"
       },
       {
         "tipo": "tabela",
         "colunas": [
-          "Período",
-          "Dose",
-          "Custo Mensal",
-          "Custo Acumulado"
+          "Etapa",
+          "O que fazer",
+          "Por que importa"
         ],
         "linhas": [
           [
-            "Mês 1",
-            "2,5 mg",
-            "R$ 1.406",
-            "R$ 1.406"
+            "Apresentação",
+            "Confirme dose e quantidade da embalagem",
+            "Preços de apresentações diferentes não são comparáveis"
           ],
           [
-            "Mês 2",
-            "2,5 mg",
-            "R$ 1.406",
-            "R$ 2.812"
+            "Teto oficial",
+            "Pesquise o PMC na lista atual da CMED",
+            "Evita usar tabela antiga ou preço promocional como referência"
           ],
           [
-            "Mês 3",
-            "5 mg",
-            "R$ 1.700",
-            "R$ 4.512"
-          ],
-          [
-            "Mês 4",
-            "5 mg",
-            "R$ 1.700",
-            "R$ 6.212"
-          ],
-          [
-            "Mês 5",
-            "7,5 mg",
-            "R$ 1.950",
-            "R$ 8.162"
-          ],
-          [
-            "Mês 6",
-            "10 mg",
-            "R$ 2.200",
-            "R$ 10.362"
-          ],
-          [
-            "Mês 7-12",
-            "10-15 mg",
-            "R$ 2.200-2.600/mês",
-            "R$ 24.562-26.962"
+            "Procedência",
+            "Compre em farmácia autorizada e guarde a nota",
+            "Reduz risco de falsificação e produto irregular"
           ]
         ]
       },
       {
-        "tipo": "paragrafo",
-        "texto": "**Total 12 meses**: R$ 24.500-27.000 (dose de manutenção 10-15mg)"
-      },
-      {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": "⚠️ **ATENÇÃO**: 82% reganham peso após parar (estudo SURMOUNT-4). Ou seja, você pode precisar de tratamento CONTÍNUO (anos), não apenas 12 meses. Custo de longo prazo pode chegar a **R$ 50.000-80.000 em 3 anos**."
-      },
-      {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Onde Comprar Monjaro MAIS BARATO (2026)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Comparamos preços em 10 farmácias nacionais (fevereiro de 2026):"
-      },
-      {
-        "tipo": "tabela",
-        "colunas": [
-          "Farmácia",
-          "Monjaro 2,5mg",
-          "Monjaro 10mg",
-          "Programa Fidelidade"
-        ],
-        "linhas": [
-          [
-            "Pague Menos",
-            "R$ 1.406 ★",
-            "R$ 2.180",
-            "Sim (-5% após 3 compras)"
-          ],
-          [
-            "Drogasil",
-            "R$ 1.450",
-            "R$ 2.200",
-            "Sim (-10% com Sempre Bem)"
-          ],
-          [
-            "Droga Raia",
-            "R$ 1.430",
-            "R$ 2.150 ★",
-            "Sim (-10% assinatura)"
-          ],
-          [
-            "Drogaria Araujo",
-            "R$ 1.480",
-            "R$ 2.250",
-            "Sim (-5%)"
-          ],
-          [
-            "Ultrafarma",
-            "R$ 1.500",
-            "R$ 2.300",
-            "Não"
-          ],
-          [
-            "Drogaria São Paulo",
-            "R$ 1.470",
-            "R$ 2.280",
-            "Sim (-8%)"
-          ]
-        ]
+        "texto": "Erros que distorcem a decisão"
       },
       {
         "tipo": "lista",
         "itens": [
-          "**Melhor custo inicial (2,5mg)**: Pague Menos (R$ 1.406)",
-          "**Melhor custo manutenção (10mg)**: Droga Raia (R$ 2.150)",
-          "**Melhor programa fidelidade**: Drogasil Sempre Bem Premium (-10% + cashback)"
+          "pesquisar pela grafia incorreta “Monjaro” e cair em oferta suspeita",
+          "comparar preços de doses diferentes",
+          "comprar produto importado ou manipulado sem verificar regularidade",
+          "ajustar dose para economizar sem orientação médica"
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "5 Formas de ECONOMIZAR no Monjaro"
+        "texto": "Como consultar a CMED sem comparar valores errados"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Abra a lista mais recente de preços de medicamentos publicada pela Anvisa e pesquise pelo nome Mounjaro ou pelo princípio ativo tirzepatida. Confira a apresentação completa, porque concentração, volume e quantidade de unidades precisam coincidir com a receita. O PMC é um teto, não uma promessa de preço praticado por toda farmácia."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Escolha a coluna de ICMS correspondente ao seu estado quando a planilha exigir essa distinção. Em seguida, compare o preço final em farmácias autorizadas, incluindo entrega e regras do desconto. Não compare uma caneta, frasco ou dose diferente apenas porque o nome comercial é igual."
       },
       {
         "tipo": "heading",
-        "nivel": 3,
-        "texto": "1. Programas de Fidelidade de Farmácia"
+        "nivel": 2,
+        "texto": "Economia segura não é reduzir ou fracionar dose por conta própria"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A titulação existe para equilibrar resposta e tolerância. Alterar intervalo, reutilizar dispositivo, transferir conteúdo ou comprar apresentação diferente sem orientação pode causar erro de dose e perda de segurança. Se o custo inviabiliza o tratamento, a conversa correta é com o prescritor sobre alternativas aprovadas e continuidade do cuidado."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Também vale confirmar se um programa de desconto é realmente operado pelo fabricante ou por rede autorizada. Nunca envie receita, documento ou pagamento por link recebido de perfil não verificado. Golpes exploram procura alta e falta temporária de estoque."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Antes de sair da farmácia, confira nome, concentração, quantidade, validade, lote e condições de conservação. O preço mais baixo perde qualquer vantagem se a apresentação não corresponde à receita ou se a procedência não pode ser demonstrada. Em caso de suspeita de falsificação, não utilize o produto e comunique a farmácia, o fabricante e a vigilância sanitária."
       },
       {
         "tipo": "lista",
         "itens": [
-          "**Drogasil Sempre Bem Premium**: R$ 30/mês, desconto de 10% em medicamentos (economiza R$ 220-260/mês no Monjaro = R$ 2.640-3.120/ano)",
-          "**Droga Raia Clube**: R$ 25/mês, desconto de 10% (economia similar)",
-          "**Pague Menos Desconto Progressivo**: Após 3 compras, 5% de desconto (economiza R$ 110-130/mês)"
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Economia anual**: R$ 1.300-3.100"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "2. Compre com Cartão da Farmácia"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Cartão Pague Menos Itaucard**: Cashback de 3-5% em compras na rede (R$ 66-120/mês de volta)",
-          "**Cartão Drogasil Credicard**: Até 5% de cashback",
-          "**Parcelamento sem juros**: Até 6x sem juros (alivia fluxo de caixa)"
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Economia anual**: R$ 800-1.400 (cashback)"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "3. Peça Lista de Espera em VÁRIAS Farmácias"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Monjaro vive em falta. Farmácias fazem promoções relâmpago quando estoque chega:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "Cadastre-se em lista de espera de 5-6 farmácias",
-          "Quando receber aviso, compare preços",
-          "Já vimos promoções de -15% em lançamentos de estoque"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "4. Negociação com Plano de Saúde"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Realidade dura**: A maioria dos planos de saúde NÃO cobre Monjaro para emagrecimento. Mas há brechas:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Se você tem diabetes tipo 2 + obesidade**: Chance maior de cobertura (exige laudo médico detalhado)",
-          "**Estratégia**: Pedir autorização via endocrinologista, enfatizando comorbidades (hipertensão, apneia do sono, esteatose hepática)",
-          "**Sucesso**: ~15-20% dos pedidos bem fundamentados são aprovados (parcialmente - ex: cobrem 50-70% do valor)"
-        ]
-      },
-      {
-        "tipo": "alerta",
-        "variante": "info",
-        "texto": "💡 **Dica de Ouro**: Alguns planos cobrem se você FALHAR com metformina + sitagliptina (medicamentos orais mais baratos). Seu médico precisa documentar isso no laudo."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "5. Importação (⚠️ ARRISCADO)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Alguns tentam importar do Paraguai/Uruguai onde é 20-30% mais barato. **NÃO RECOMENDAMOS:**"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "❌ Risco de falsificação (mercado paralelo explodiu)",
-          "❌ Armazenamento inadequado (precisa refrigeração 2-8°C)",
-          "❌ Ilegal trazer >1 caixa sem prescrição internacional",
-          "❌ Sem garantia de procedência",
-          "❌ Se tiver problema, não tem a quem recorrer"
+          "Receita e apresentação conferidas antes da compra.",
+          "Preço máximo consultado na lista mensal da CMED.",
+          "Farmácia autorizada, nota fiscal e embalagem íntegra.",
+          "Lote verificado contra alertas recentes da Anvisa.",
+          "Nenhuma alteração de dose motivada apenas por preço."
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Programas de Desconto Oficiais (EUA vs Brasil)"
+        "texto": "Como registrar e revisar sua decisão"
       },
       {
         "tipo": "paragrafo",
-        "texto": "**Nos EUA**: Eli Lilly oferece 'Mounjaro Savings Card' com desconto de até 50% (preço cai de $1.000/mês pra $500/mês)."
+        "texto": "Anote a fonte consultada, a data, o rótulo ou apresentação, o preço final e o motivo da escolha. Guarde uma captura ou foto quando a comparação depender de informação que pode mudar. Depois de usar o produto ou a estratégia por um período adequado, registre tolerância, adesão, custo e qualquer resultado observável. Esse histórico permite revisar a decisão sem depender de memória ou de uma propaganda nova."
       },
       {
         "tipo": "paragrafo",
-        "texto": "**No Brasil**: **NÃO HÁ** programa oficial similar (2026). Eli Lilly Brasil informou que não planeja implementar no curto prazo."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Alternativas MUITO Mais Baratas (E Eficazes)"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Se R$ 2.000-2.600/mês está fora do orçamento, há opções comprovadas:"
-      },
-      {
-        "tipo": "tabela",
-        "colunas": [
-          "Medicamento",
-          "Custo Mensal",
-          "Perda de Peso",
-          "Economia vs Monjaro"
-        ],
-        "linhas": [
-          [
-            "Ozempic (semaglutida)",
-            "R$ 1.000-1.200",
-            "10-13%",
-            "R$ 800-1.400/mês (-50%)"
-          ],
-          [
-            "Wegovy (semaglutida)",
-            "R$ 1.400-1.600",
-            "13-15%",
-            "R$ 400-1.000/mês (-30%)"
-          ],
-          [
-            "Saxenda (liraglutida)",
-            "R$ 1.200-1.600",
-            "8-10%",
-            "R$ 600-1.200/mês (-40%)"
-          ],
-          [
-            "Orlistate (Xenical)",
-            "R$ 100-200",
-            "5-7%",
-            "R$ 2.000-2.500/mês (-90%)"
-          ],
-          [
-            "Fentermina + Topiramato",
-            "R$ 200-400",
-            "8-10%",
-            "R$ 1.800-2.400/mês (-85%)"
-          ]
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Análise honesta:**"
+        "texto": "Reavalie quando houver mudança de fórmula, dose, preço, objetivo, condição de saúde ou orientação profissional. Se a conclusão não puder ser explicada com dados simples e fonte verificável, trate-a como hipótese. O melhor conteúdo de compra ou planejamento não encerra a decisão para sempre: ele deixa claro o que conferir novamente."
       },
       {
         "tipo": "lista",
         "itens": [
-          "**Ozempic/Wegovy**: 65-75% da eficácia do Monjaro por 50% do preço → **melhor custo-benefício**",
-          "**Saxenda**: Aplicação diária (vs semanal), menos conveniente, mas funciona",
-          "**Orlistate**: Bloqueador de gordura, efeitos colaterais GI desagradáveis, mas MUITO barato",
-          "**Fentermina+Topiramato**: Off-label no Brasil, requer prescrição especial, mas eficaz e barato"
+          "fonte e data da consulta",
+          "produto, dose ou estratégia comparada",
+          "custo total e frequência de uso",
+          "resultado esperado e forma de acompanhar",
+          "data definida para reavaliação"
         ]
       },
       {
         "tipo": "heading",
         "nivel": 2,
-        "texto": "Vale a Pena Pagar R$ 28.000/Ano?"
+        "texto": "Limites e segurança"
       },
       {
         "tipo": "paragrafo",
-        "texto": "Depende da sua situação:"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "✅ VALE A PENA SE:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Obesidade grau III** (IMC >40): Risco cardiovascular justifica investimento",
-          "**Você tentou Ozempic/Wegovy** e não teve resultado satisfatório",
-          "**Comorbidades graves**: Apneia do sono, esteatose hepática, pré-diabetes",
-          "**Condição financeira confortável**: R$ 2.500/mês não aperta orçamento",
-          "**Planejamento de longo prazo**: Você sabe que precisa manter por 2-3 anos"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "❌ NÃO VALE SE:"
-      },
-      {
-        "tipo": "lista",
-        "itens": [
-          "**Sobrepeso/obesidade grau I** (IMC 27-32): Ozempic + dieta entregam resultados similares por metade do preço",
-          "**Orçamento apertado**: R$ 28k/ano pode ser melhor investido em personal trainer + nutricionista + terapia",
-          "**Expectativa de 'cura rápida'**: Sem mudança de hábitos, você vai reganhar tudo e perder R$ 28k",
-          "**Não tem planejamento de longo prazo**: Parar após 6-12 meses = alto risco de rebote"
-        ]
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Simulação: Monjaro vs Investir o Dinheiro"
+        "texto": "Ofertas muito abaixo do mercado, venda sem receita, embalagem sem rastreabilidade e promessas de resultado garantido são sinais de risco. A Anvisa publicou apreensões de produtos irregulares e lotes falsificados. Nunca compartilhe caneta nem compre medicamento por canal informal."
       },
       {
         "tipo": "paragrafo",
-        "texto": "Pergunta provocativa: E se você investisse R$ 2.500/mês em vez de gastar no Monjaro?"
-      },
-      {
-        "tipo": "tabela",
-        "colunas": [
-          "Opção",
-          "Custo Mensal",
-          "Resultado 12 Meses"
-        ],
-        "linhas": [
-          [
-            "Monjaro",
-            "R$ 2.500",
-            "Perda de 15-20% peso | R$ 30.000 gastos"
-          ],
-          [
-            "Ozempic + Personal + Nutricionista",
-            "R$ 1.200 + R$ 800 + R$ 500 = R$ 2.500",
-            "Perda de 12-15% peso + massa muscular + hábitos duradouros"
-          ],
-          [
-            "Wegovy + Terapia Comportamental",
-            "R$ 1.500 + R$ 600 = R$ 2.100",
-            "Perda de 13-15% peso + saúde mental melhorada | R$ 400/mês sobrando"
-          ],
-          [
-            "Investir R$ 2.500/mês (Tesouro IPCA+)",
-            "R$ 2.500",
-            "R$ 31.200 + juros (~R$ 33.000) em 12 meses"
-          ]
-        ]
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Reflexão**: Se você combinar Ozempic (R$ 1.200/mês) + academia/nutricionista (R$ 800/mês), sobra R$ 500/mês que investidos rendem R$ 6.300/ano. Resultado de peso similar, mas com músculos + saúde mental + patrimônio."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Perguntas Frequentes (FAQ)"
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "1. Por que Monjaro é tão caro?"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Patente exclusiva da Eli Lilly (sem genérico), custo de P&D (bilhões investidos em estudos), alta demanda vs produção limitada, e margem de lucro farmacêutico."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "2. Quando terá genérico?"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Patente expira em ~2035-2038. Genéricos só após isso (ainda 10-12 anos). Preço pode cair 70-80% quando isso acontecer."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "3. Plano de saúde DEVE cobrir?"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Não. ANS não obriga cobertura de medicamentos para obesidade (só diabetes se houver indicação médica clara). É critério do plano."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 3,
-        "texto": "4. Posso dividir caneta entre 2 pessoas?"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**NÃO.** Cada caneta é individual (dose única semanal). Dividir pode causar contaminação e subdosagem."
-      },
-      {
-        "tipo": "heading",
-        "nivel": 2,
-        "texto": "Conclusão: O Monjaro É o 'iPhone dos Emagrecedores'"
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "Monjaro é, sem dúvida, o topo de linha. Mas assim como o iPhone, há Android excelentes por metade do preço."
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Se você pode pagar** R$ 2.000-2.600/mês SEM apertar orçamento, e tem obesidade severa, Monjaro entrega resultados superiores."
-      },
-      {
-        "tipo": "paragrafo",
-        "texto": "**Se R$ 30.000/ano é um sacrifício**, Ozempic/Wegovy entregam 70-80% dos resultados por 50% do custo. Melhor ainda: combine Ozempic com acompanhamento nutricional/psicológico - resultados similares + hábitos duradouros."
-      },
-      {
-        "tipo": "alerta",
-        "variante": "warning",
-        "texto": "⚠️ **Lembre-se**: Sem mudança de estilo de vida, QUALQUER medicamento (caro ou barato) vai ter efeito rebote. Invista em educação nutricional e exercício - isso sim tem ROI eterno."
-      },
-      {
-        "tipo": "cta",
-        "texto": "Quer descobrir suplementos que podem potencializar seus resultados de forma mais acessível?",
-        "botao": "Fazer Avaliação Personalizada Gratuita",
-        "link": "/avaliacao"
+        "texto": "Use as referências ao final para conferir a fonte original e a data. Conteúdo educativo não substitui diagnóstico, prescrição, leitura da bula nem avaliação individual. Se houver sintoma persistente, reação adversa, doença, gestação ou uso contínuo de medicamentos, procure orientação profissional."
       },
       {
         "tipo": "faq",
         "perguntas": [
           {
-            "pergunta": "Monjaro precisa de receita médica?",
-            "resposta": "Sim. Medicamentos como tirzepatida devem ser usados somente com prescrição e acompanhamento médico, especialmente por envolverem metabolismo, glicemia e possíveis efeitos adversos."
+            "pergunta": "Onde vejo o preço oficial?",
+            "resposta": "Na lista mensal da CMED/Anvisa, procurando a apresentação e o PMC aplicável ao seu estado."
           },
           {
-            "pergunta": "Por que o preço do Monjaro varia tanto?",
-            "resposta": "O preço pode variar por dose, disponibilidade, farmácia, região, descontos e programas comerciais. Sempre confirme em fontes oficiais e farmácias confiáveis."
+            "pergunta": "Por que o preço muda?",
+            "resposta": "Dose, apresentação, impostos estaduais, estoque e descontos da farmácia alteram o valor final."
           },
           {
-            "pergunta": "Dá para economizar com Monjaro com segurança?",
-            "resposta": "A forma segura é comparar farmácias confiáveis, verificar programas oficiais e evitar produtos sem procedência. Não compre medicamento de origem duvidosa."
+            "pergunta": "Mounjaro é suplemento?",
+            "resposta": "Não. É medicamento à base de tirzepatida e exige prescrição e acompanhamento."
+          },
+          {
+            "pergunta": "Como evitar falsificação?",
+            "resposta": "Compre em farmácia autorizada, confira embalagem e lote, guarde a nota e acompanhe alertas da Anvisa."
           }
         ]
       }
@@ -18046,6 +18631,26 @@
       "monjaro-tirzepatida-guia-completo-emagrecimento",
       "monjaro-vs-ozempic-qual-emagrece-mais-comparacao",
       "economizar-300-reais-suplementacao"
+    ],
+    "atualizado_em": "2026-08-19",
+    "prioridade_seo": true,
+    "monetizavel": false,
+    "fontes": [
+      {
+        "titulo": "Mounjaro (tirzepatida): indicação aprovada para controle crônico do peso",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/mounjaro-r-tirzepatida-nova-indicacao"
+      },
+      {
+        "titulo": "Listas oficiais de preços máximos de medicamentos",
+        "orgao": "Câmara de Regulação do Mercado de Medicamentos / Anvisa",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos"
+      },
+      {
+        "titulo": "Anvisa determina apreensão de lotes falsificados de Mounjaro",
+        "orgao": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-lotes-falsificados-de-mounjaro-1"
+      }
     ]
   },
   {
@@ -21301,7 +21906,6 @@
       "quantas-calorias-comer-por-dia",
       "deficit-calorico-quanto-cortar"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -21587,7 +22191,6 @@
       "como-calcular-gasto-calorico-tmb-tdee",
       "contador-de-calorias-online-gratis"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -21852,7 +22455,6 @@
       "cutting-modelo-calorias-macros",
       "deficit-calorico-quanto-cortar"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -22110,7 +22712,6 @@
       "whey-isolado-para-que-serve",
       "whey-isolado-vs-concentrado"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "whey-proteina",
     "prioridade_seo": true,
@@ -22384,7 +22985,6 @@
       "creatina-beneficios-efeitos-colaterais-dosagem-2026",
       "creatina-monohidratada-vs-outras"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "creatina",
     "prioridade_seo": true,
@@ -22658,7 +23258,6 @@
       "creatina-como-tomar",
       "guia-completo-creatina-2026"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "creatina",
     "prioridade_seo": true,
@@ -23065,7 +23664,6 @@
       "whey-isolado-vs-concentrado",
       "proteina-por-dia-quanto-consumir-guia-completo"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "creatina",
     "prioridade_seo": true,
@@ -23605,7 +24203,6 @@
       "guia-whey-protein-2026",
       "whey-isolado-para-que-serve"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "whey-proteina",
     "prioridade_seo": true,
@@ -24145,7 +24742,6 @@
       "suplementos-para-emagrecer-funcionam",
       "calcular-proteina-por-peso"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "whey-proteina",
     "prioridade_seo": true,
@@ -24685,7 +25281,6 @@
       "como-calcular-gasto-calorico-tmb-tdee",
       "contador-de-calorias-online-gratis"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -24959,7 +25554,6 @@
       "contador-de-calorias-online-gratis",
       "como-calcular-gasto-calorico-tmb-tdee"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "calorias-macros",
     "prioridade_seo": true,
@@ -25765,7 +26359,6 @@
       "vitamina-d3-k2-juntas-beneficios",
       "calcio-ossos-osteoporose-qual-tomar"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,
@@ -26039,7 +26632,6 @@
       "ferro-anemia-deficiencia-tratamento",
       "acido-folico-b9-gestantes-gravidez"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,
@@ -26313,7 +26905,6 @@
       "como-dormir-melhor-suplementos",
       "zma-zinco-magnesio-b6-sono-testosterona"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,
@@ -26720,7 +27311,6 @@
       "gordura-na-dieta-quanto-consumir",
       "como-fortalecer-imunidade-suplementos"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,
@@ -27127,7 +27717,6 @@
       "whey-concentrado-para-que-serve",
       "whey-isolado-vs-concentrado"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "whey-proteina",
     "prioridade_seo": true,
@@ -27401,7 +27990,6 @@
       "creatina-monohidratada-o-que-e",
       "guia-completo-creatina-2026"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "creatina",
     "prioridade_seo": true,
@@ -27675,7 +28263,6 @@
       "economizar-300-reais-suplementacao",
       "5-suplementos-mais-vendidos"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,
@@ -27949,7 +28536,6 @@
       "suplementos-baratos-que-funcionam",
       "creatina-e-whey-juntos"
     ],
-    "revisor": "Equipe editorial Suplementa Já",
     "atualizado_em": "2026-05-20",
     "hub_slug": "vitaminas-minerais",
     "prioridade_seo": true,

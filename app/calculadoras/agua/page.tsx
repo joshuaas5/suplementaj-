@@ -7,15 +7,15 @@ import { AdUnit } from '@/components/layout/AdUnit'
 import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Água Grátis 2026 - Quantos Litros Por Dia? | Suplementa Já',
-  description: 'CALCULE GRÁTIS quantos litros de água você deve beber por dia! Baseado no seu peso e atividade física. Resultado instantâneo.',
+  title: 'Calculadora de Água por Peso: Estimativa Diária',
+  description: 'Estime quantos litros de água beber por dia com base no peso e na atividade física. Resultado gratuito com orientações para ajustar à sua rotina.',
   keywords: ['calculadora agua', 'quantos litros agua', 'hidratação', 'agua por dia', 'beber agua', 'IOM agua', 'hidratação diária'],
   alternates: {
     canonical: '/calculadoras/agua',
   },
   openGraph: {
-    title: 'Calculadora de Água - Quantos Litros Por Dia?',
-    description: 'Descubra sua necessidade hídrica diária baseada em estudos do Institute of Medicine.',
+    title: 'Calculadora de Água por Peso',
+    description: 'Veja uma estimativa de hidratação diária e os fatores que podem aumentar ou reduzir sua necessidade.',
     type: 'website',
   }
 }

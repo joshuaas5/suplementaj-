@@ -26,7 +26,11 @@ function articleHasSources(artigo: Artigo) {
 }
 
 function articleHasReviewer(artigo: Artigo) {
-  return typeof artigo.revisor === 'string' && artigo.revisor.trim().length > 0
+  if (typeof artigo.revisor !== 'string' || artigo.revisor.trim().length === 0) return false
+
+  // Uma equipe genérica é responsável editorial, não uma revisão técnica
+  // identificável. Evita transformar o nome do próprio site em credencial.
+  return !/equipe editorial|suplementa j[áa]/i.test(artigo.revisor)
 }
 
 function formatDateBR(dateValue: string) {
@@ -59,7 +63,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${artigo.titulo} - Blog Suplementa Já`,
+    title: artigo.titulo,
     description: artigo.descricao,
     keywords: artigo.tags.join(', '),
     alternates: {
@@ -71,6 +75,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       description: artigo.descricao,
       type: 'article',
       publishedTime: artigo.data,
+      modifiedTime: artigo.atualizado_em || artigo.data,
       authors: [artigo.autor],
       tags: artigo.tags,
     },
@@ -167,7 +172,8 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     '@type': 'Article',
     headline: artigo.titulo,
     description: artigo.descricao,
-    image: '/og-image.jpg',
+    image: 'https://www.suplementaja.com/og-image.jpg',
+    isAccessibleForFree: true,
     author: {
       '@type': 'Organization',
       name: artigo.autor,
@@ -175,25 +181,23 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
     },
     datePublished: artigo.data,
     dateModified: artigo.atualizado_em || artigo.data,
-    reviewedBy: {
+    reviewedBy: articleHasReviewer(artigo)
+      ? { '@type': 'Person', name: artigo.revisor }
+      : undefined,
+    publisher: {
       '@type': 'Organization',
-      name: artigo.revisor || 'Equipe editorial Suplementa Já',
-      url: 'https://www.suplementaja.com/editorial',
+      name: 'Suplementa Já',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.suplementaja.com/icon.png',
+      },
     },
-      ...(articleHasReviewer(artigo) ? {} : { reviewedBy: undefined }),
-      publisher: {
-        '@type': 'Organization',
-        name: 'Suplementa Já',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://www.suplementaja.com/og-image.jpg',
-        },
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': `https://www.suplementaja.com/blog/${artigo.slug}`,
-      },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.suplementaja.com/blog/${artigo.slug}`,
+    },
     keywords: artigo.tags.join(', '),
+    citation: artigo.fontes?.map((fonte) => fonte.url),
   }
 
   // BreadcrumbList schema

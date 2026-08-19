@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: '/avaliacao',
   },
   openGraph: {
-    title: 'Avaliação Personalizada - Suplementa Já',
+    title: 'Avaliação Personalizada de Suplementos',
     description: 'Descubra quais vitaminas e minerais você realmente precisa em 3 minutos',
     url: 'https://www.suplementaja.com/avaliacao',
   },
