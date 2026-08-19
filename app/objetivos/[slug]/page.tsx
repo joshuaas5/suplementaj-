@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!objetivo) return { title: 'Objetivo não encontrado' }
 
     return {
-        title: `${objetivo.titulo}: Nutrientes e Dicas Essenciais | Suplementa Já`,
+        title: `${objetivo.titulo}: Nutrientes e Dicas Essenciais`,
         description: objetivo.descricao,
         alternates: {
             canonical: `https://www.suplementaja.com/objetivos/${params.slug}`,

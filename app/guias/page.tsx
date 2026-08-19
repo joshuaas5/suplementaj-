@@ -7,7 +7,7 @@ import type { Artigo } from '@/types/artigo'
 import { TOPIC_HUBS, getArticlesForHub } from '@/lib/topic-hubs'
 
 export const metadata = {
-  title: 'Guias de Suplementos | Suplementa Já',
+  title: 'Guias de Suplementos por Objetivo',
   description:
     'Trilhas organizadas por tema para estudar creatina, whey, calorias, vitaminas, minerais, sono, imunidade e performance sem se perder.',
   alternates: {

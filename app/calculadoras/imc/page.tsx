@@ -7,15 +7,15 @@ import { AdUnit } from '@/components/layout/AdUnit'
 import { NutrientQuickLinks } from '@/components/content/NutrientQuickLinks'
 
 export const metadata: Metadata = {
-  title: 'Calculadora de IMC Grátis 2026 - Descubra Seu Peso Ideal | Suplementa Já',
-  description: 'CALCULE GRÁTIS seu IMC em 10 segundos! Descubra se você está no peso ideal, sobrepeso ou obesidade. Sem cadastro, resultado instantâneo.',
+  title: 'Calculadora de IMC Online: Resultado e Faixas para Adultos',
+  description: 'Calcule seu IMC gratuitamente e entenda as faixas usadas para adultos. Veja também as limitações do índice e quando buscar avaliação profissional.',
   keywords: ['calculadora imc', 'imc online', 'calcular imc', 'índice massa corporal', 'peso ideal', 'imc grátis', 'obesidade', 'sobrepeso'],
   alternates: {
     canonical: '/calculadoras/imc',
   },
   openGraph: {
-    title: 'Calculadora de IMC Online Grátis',
-    description: 'Descubra seu Índice de Massa Corporal em segundos. Ferramenta gratuita e sem cadastro.',
+    title: 'Calculadora de IMC Online para Adultos',
+    description: 'Calcule o IMC e interprete o resultado considerando as limitações desse indicador.',
     type: 'website',
   }
 }

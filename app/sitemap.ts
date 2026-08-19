@@ -3,6 +3,9 @@ import nutrientesData from '@/data/nutrientes.json'
 import artigosData from '@/data/artigos.json'
 import objetivosData from '@/data/objetivos.json'
 import { TOPIC_HUBS } from '@/lib/topic-hubs'
+import type { Artigo } from '@/types/artigo'
+
+const artigos = artigosData as Artigo[]
 
 // Helper: Normaliza data para 00:00:00Z (consistência)
 function normalizeDate(dateInput: Date | string): Date {
@@ -15,8 +18,8 @@ function getMostRecentArticleDate(): Date {
   const today = normalizeDate(new Date())
   let mostRecent = new Date('2024-01-01')
 
-  for (const artigo of artigosData) {
-    const artigoDate = new Date(artigo.data)
+  for (const artigo of artigos) {
+    const artigoDate = new Date(artigo.atualizado_em || artigo.data)
     if (!isNaN(artigoDate.getTime()) && artigoDate <= today && artigoDate > mostRecent) {
       mostRecent = artigoDate
     }
@@ -77,19 +80,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // 5. Blog - DATA REAL do artigo (normalizada para 00:00:00Z)
-  const artigoPages: MetadataRoute.Sitemap = artigosData.map((artigo) => {
-    let date = new Date(artigo.data)
+  const artigoPages: MetadataRoute.Sitemap = artigos
+    .map((artigo) => {
+      let date = new Date(artigo.atualizado_em || artigo.data)
 
-    // Proteção: Se data inválida ou no futuro, usa hoje
-    if (isNaN(date.getTime()) || date > today) {
-      date = today
-    }
+      // Proteção: Se data inválida ou no futuro, usa hoje
+      if (isNaN(date.getTime()) || date > today) {
+        date = today
+      }
 
-    return {
-      url: `${baseUrl}/blog/${artigo.slug}`,
-      lastModified: normalizeDate(date),
-    }
-  })
+      return {
+        url: `${baseUrl}/blog/${artigo.slug}`,
+        lastModified: normalizeDate(date),
+      }
+    })
 
   return [
     ...staticPages,

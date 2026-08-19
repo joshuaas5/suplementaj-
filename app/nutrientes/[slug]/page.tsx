@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   const metaTitle = nutriente.seo?.meta_title
-    ? `${nutriente.seo.meta_title} | Suplementa Já`
-    : `${nutriente.nome} (${nutriente.nome_cientifico}) - Suplementa Já`
+    ? nutriente.seo.meta_title
+    : `${nutriente.nome} (${nutriente.nome_cientifico})`
 
   const metaDescription = nutriente.seo?.meta_description || nutriente.descricao_curta
 

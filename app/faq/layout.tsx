@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/faq',
   },
   openGraph: {
-    title: 'Perguntas Frequentes - Suplementa Já',
+    title: 'Perguntas Frequentes sobre Suplementação',
     description: 'Tire suas dúvidas sobre recomendações personalizadas de suplementação baseadas em ciência',
     url: 'https://www.suplementaja.com/faq',
   },

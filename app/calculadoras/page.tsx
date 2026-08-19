@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { AdUnit } from '@/components/layout/AdUnit'
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Saúde e Suplementação - Suplementa Já',
+  title: 'Calculadoras de Calorias, Macros, Proteína e Saúde',
   description: 'Calculadoras gratuitas: IMC, calorias (TMB), macros, creatina, proteína e hidratação. Ferramentas baseadas em ciência para otimizar sua saúde.',
   keywords: ['calculadora imc', 'calculadora calorias', 'calculadora macros', 'calculadora creatina', 'calculadora proteína', 'tmb', 'gasto calórico'],
 }

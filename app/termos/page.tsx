@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { AlertTriangle, FileText, Scale, Shield, XCircle } from 'lucide-react'
 
 export const metadata = {
-  title: 'Termos de Uso | Suplementa Já',
+  title: 'Termos de Uso',
   description: 'Termos de Uso e Condições de Serviço do Suplementa Já.',
   alternates: {
     canonical: '/termos',

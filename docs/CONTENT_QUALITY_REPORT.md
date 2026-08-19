@@ -5,7 +5,7 @@ Gerado em 2026-08-19.
 - Artigos avaliados: 127
 - Slugs únicos: 127
 - Erros bloqueantes: 0
-- Alertas para revisão: 283
+- Alertas para revisão: 288
 
 ## Como usar
 
@@ -76,8 +76,6 @@ Este relatório não inventa autores, revisores ou referências. Alertas devem s
 - tribulus-terrestris-testosterona-libido: 363 palavras (abaixo da meta editorial de 800)
 - tribulus-terrestris-testosterona-libido: sem fontes declaradas
 - tribulus-terrestris-testosterona-libido: sem revisor identificado
-- zma-zinco-magnesio-b6-sono-testosterona: 385 palavras (abaixo da meta editorial de 800)
-- zma-zinco-magnesio-b6-sono-testosterona: sem fontes declaradas
 - zma-zinco-magnesio-b6-sono-testosterona: sem revisor identificado
 - bcaa-aminoacidos-massa-muscular-funciona: 378 palavras (abaixo da meta editorial de 800)
 - bcaa-aminoacidos-massa-muscular-funciona: sem fontes declaradas
@@ -97,27 +95,18 @@ Este relatório não inventa autores, revisores ou referências. Alertas devem s
 - l-carnitina-queima-gordura-performance: 374 palavras (abaixo da meta editorial de 800)
 - l-carnitina-queima-gordura-performance: sem fontes declaradas
 - l-carnitina-queima-gordura-performance: sem revisor identificado
-- cafeina-performance-dose-pre-treino: 374 palavras (abaixo da meta editorial de 800)
-- cafeina-performance-dose-pre-treino: sem fontes declaradas
 - cafeina-performance-dose-pre-treino: sem revisor identificado
-- proteina-por-dia-quanto-consumir-guia-completo: 406 palavras (abaixo da meta editorial de 800)
-- proteina-por-dia-quanto-consumir-guia-completo: sem fontes declaradas
 - proteina-por-dia-quanto-consumir-guia-completo: sem revisor identificado
 - imc-o-que-significa-como-calcular: 336 palavras (abaixo da meta editorial de 800)
 - imc-o-que-significa-como-calcular: sem fontes declaradas
 - imc-o-que-significa-como-calcular: sem revisor identificado
-- como-calcular-gasto-calorico-tmb-tdee: 476 palavras (abaixo da meta editorial de 800)
-- como-calcular-gasto-calorico-tmb-tdee: sem fontes declaradas
 - como-calcular-gasto-calorico-tmb-tdee: sem revisor identificado
-- como-dividir-macros-cutting-bulking-manutencao: 438 palavras (abaixo da meta editorial de 800)
-- como-dividir-macros-cutting-bulking-manutencao: sem fontes declaradas
 - como-dividir-macros-cutting-bulking-manutencao: sem revisor identificado
 - quanta-agua-beber-por-dia-calculo-por-peso: 361 palavras (abaixo da meta editorial de 800)
 - quanta-agua-beber-por-dia-calculo-por-peso: sem fontes declaradas
 - quanta-agua-beber-por-dia-calculo-por-peso: sem revisor identificado
 - economizar-300-reais-suplementacao: sem fontes declaradas
 - economizar-300-reais-suplementacao: sem revisor identificado
-- whey-isolado-vs-concentrado: sem fontes declaradas
 - whey-isolado-vs-concentrado: sem revisor identificado
 - 5-suplementos-mais-vendidos: sem fontes declaradas
 - 5-suplementos-mais-vendidos: sem revisor identificado
@@ -137,3 +126,14 @@ Este relatório não inventa autores, revisores ou referências. Alertas devem s
 - plateau-dieta-como-sair: sem revisor identificado
 - cutting-modelo-calorias-macros: 444 palavras (abaixo da meta editorial de 800)
 - cutting-modelo-calorias-macros: sem fontes declaradas
+- cutting-modelo-calorias-macros: sem revisor identificado
+- bulking-calorias-superavit: 286 palavras (abaixo da meta editorial de 800)
+- bulking-calorias-superavit: sem fontes declaradas
+- bulking-calorias-superavit: sem revisor identificado
+- dieta-reversa-como-fazer: 289 palavras (abaixo da meta editorial de 800)
+- dieta-reversa-como-fazer: sem fontes declaradas
+- dieta-reversa-como-fazer: sem revisor identificado
+- refeed-day-como-fazer: sem revisor identificado
+- erros-contagem-calorias: 402 palavras (abaixo da meta editorial de 800)
+- erros-contagem-calorias: sem fontes declaradas
+- erros-contagem-calorias: sem revisor identificado

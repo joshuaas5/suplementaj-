@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/Badge'
 import { Star, ExternalLink, Award, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Top 8 Melhores Suplementos 2025 | Suplementa Já',
+  title: 'Melhores Suplementos: Como Escolher por Objetivo',
   description: 'Ranking dos 8 melhores suplementos de 2025 baseado em ciência.',
   alternates: {
     canonical: '/melhores-suplementos',
