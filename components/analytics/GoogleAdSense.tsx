@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 declare global {
   interface Window {
@@ -9,7 +10,7 @@ declare global {
 }
 
 export function GoogleAdSense() {
-  const adsenseId = 'ca-pub-4642150915962893'
+  const adsenseId = ADSENSE_CLIENT_ID
   const [shouldLoad, setShouldLoad] = useState(false)
 
   useEffect(() => {
@@ -39,26 +40,10 @@ export function GoogleAdSense() {
   useEffect(() => {
     if (!shouldLoad) return
 
-    const enableMobileAnchorAd = () => {
-      const isMobile = window.matchMedia('(max-width: 768px)').matches
-      if (!isMobile) return
-
-      try {
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: adsenseId,
-          enable_page_level_ads: true,
-          overlays: { bottom: true },
-        })
-      } catch {
-        // AdSense can reject duplicate page-level pushes on navigation.
-      }
-    }
-
     const script = document.createElement('script')
     script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`
     script.async = true
     script.crossOrigin = 'anonymous'
-    script.onload = enableMobileAnchorAd
     script.onerror = () => console.error('Erro ao carregar AdSense')
     document.head.appendChild(script)
   }, [shouldLoad, adsenseId])

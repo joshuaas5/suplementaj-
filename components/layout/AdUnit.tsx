@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 interface AdUnitProps {
   slot: string
@@ -41,7 +42,7 @@ export function AdUnit({ slot, format = 'auto', responsive = true, className = '
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_ID}
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive={responsive ? 'true' : 'false'}

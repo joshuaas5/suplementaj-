@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Calculadora de IMC Grátis 2026 - Descubra Seu Peso Ideal | Suplementa Já',
   description: 'CALCULE GRÁTIS seu IMC em 10 segundos! Descubra se você está no peso ideal, sobrepeso ou obesidade. Sem cadastro, resultado instantâneo.',
   keywords: ['calculadora imc', 'imc online', 'calcular imc', 'índice massa corporal', 'peso ideal', 'imc grátis', 'obesidade', 'sobrepeso'],
+  alternates: {
+    canonical: '/calculadoras/imc',
+  },
   openGraph: {
     title: 'Calculadora de IMC Online Grátis',
     description: 'Descubra seu Índice de Massa Corporal em segundos. Ferramenta gratuita e sem cadastro.',

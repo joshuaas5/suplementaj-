@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Calculadora de Creatina Grátis 2026 - Dose Por Peso | Suplementa Já',
   description: 'CALCULE GRÁTIS sua dose ideal de creatina! Quanto tomar por kg de peso? Precisa de fase de carga? Descubra em segundos.',
   keywords: ['calculadora creatina', 'dose creatina', 'quantos gramas creatina', 'creatina por kg', 'saturação creatina', 'creatina monohidratada'],
+  alternates: {
+    canonical: '/calculadoras/creatina',
+  },
   openGraph: {
     title: 'Calculadora de Creatina - Dose Ideal Por Peso',
     description: 'Descubra quantos gramas de creatina você deve tomar por dia baseado no seu peso corporal.',

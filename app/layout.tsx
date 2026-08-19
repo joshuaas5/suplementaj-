@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics'
 import { GoogleAdSense } from '@/components/analytics/GoogleAdSense'
+import { EngagementAnalytics } from '@/components/analytics/EngagementAnalytics'
 import { FacebookPixel } from '@/components/analytics/FacebookPixel'
 import { ExitIntentPopup } from '@/components/marketing/ExitIntentPopup'
 import { Analytics } from "@vercel/analytics/next"
@@ -97,6 +98,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <GoogleAdSense />
+        <EngagementAnalytics />
         <FacebookPixel />
         <ExitIntentPopup />
         <Header />

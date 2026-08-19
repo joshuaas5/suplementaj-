@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 declare global {
   interface Window {
@@ -39,7 +40,7 @@ export function AdSenseUnit({ slot, format = 'auto', className = '' }: AdSlotPro
         ref={adRef}
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-4642150915962893"
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
@@ -95,7 +96,7 @@ export function InFeedAd({ className = '' }: { className?: string }) {
         style={{ display: 'block' }}
         data-ad-format="fluid"
         data-ad-layout-key="-ef+6q-36-dw+111"
-        data-ad-client="ca-pub-4642150915962893"
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot="2615832690"
       />
     </div>
@@ -129,7 +130,7 @@ export function ArticleAd({ className = '' }: { className?: string }) {
         style={{ display: 'block', textAlign: 'center' }}
         data-ad-layout="in-article"
         data-ad-format="fluid"
-        data-ad-client="ca-pub-4642150915962893"
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot="3939796306"
       />
     </div>
@@ -162,7 +163,7 @@ export function MultiplexAd({ className = '' }: { className?: string }) {
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-format="autorelaxed"
-        data-ad-client="ca-pub-4642150915962893"
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot="2826025183"
       />
     </div>

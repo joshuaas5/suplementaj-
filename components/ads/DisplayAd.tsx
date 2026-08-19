@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 declare global {
   interface Window {
@@ -23,7 +24,7 @@ export function DisplayAd({
   className = '',
   style,
 }: DisplayAdProps) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = ADSENSE_CLIENT_ID
   const adRef = useRef<HTMLModElement>(null)
   const isLoaded = useRef(false)
 
@@ -72,7 +73,7 @@ export function DisplayAd({
 
 // Componente para anúncio horizontal (banner)
 export function HorizontalAd({ className = '' }: { className?: string }) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = ADSENSE_CLIENT_ID
   const adRef = useRef<HTMLModElement>(null)
 
   useEffect(() => {
@@ -104,7 +105,7 @@ export function HorizontalAd({ className = '' }: { className?: string }) {
 
 // Componente para anúncio in-article (dentro do conteúdo)
 export function InArticleAd({ className = '' }: { className?: string }) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = ADSENSE_CLIENT_ID
   const adRef = useRef<HTMLModElement>(null)
   
   useEffect(() => {
@@ -136,7 +137,7 @@ export function InArticleAd({ className = '' }: { className?: string }) {
 
 // Componente para anúncio retangular (sidebar ou meio)
 export function RectangleAd({ className = '' }: { className?: string }) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = ADSENSE_CLIENT_ID
   const adRef = useRef<HTMLModElement>(null)
   
   useEffect(() => {

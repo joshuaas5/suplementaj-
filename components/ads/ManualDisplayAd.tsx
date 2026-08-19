@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 declare global {
   interface Window {
@@ -50,7 +51,7 @@ export function ManualDisplayAd({ className = '' }: ManualDisplayAdProps) {
         ref={adRef}
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-4642150915962893"
+        data-ad-client={ADSENSE_CLIENT_ID}
         data-ad-slot="3400740255"
         data-ad-format="auto"
         data-full-width-responsive="true"

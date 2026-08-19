@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Calculadora de Água Grátis 2026 - Quantos Litros Por Dia? | Suplementa Já',
   description: 'CALCULE GRÁTIS quantos litros de água você deve beber por dia! Baseado no seu peso e atividade física. Resultado instantâneo.',
   keywords: ['calculadora agua', 'quantos litros agua', 'hidratação', 'agua por dia', 'beber agua', 'IOM agua', 'hidratação diária'],
+  alternates: {
+    canonical: '/calculadoras/agua',
+  },
   openGraph: {
     title: 'Calculadora de Água - Quantos Litros Por Dia?',
     description: 'Descubra sua necessidade hídrica diária baseada em estudos do Institute of Medicine.',

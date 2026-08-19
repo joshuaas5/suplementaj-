@@ -5,6 +5,7 @@
 declare global {
   interface Window {
     gtag?: (command: string, eventName: string, params?: Record<string, unknown>) => void
+    dataLayer?: unknown[]
   }
 }
 
@@ -19,9 +20,16 @@ export function trackEvent(
   eventName: string,
   eventParams?: EventParams
 ) {
-  if (typeof window !== 'undefined' && window.gtag) {
+  if (typeof window === 'undefined') return
+
+  if (window.gtag) {
     window.gtag('event', eventName, eventParams)
+    return
   }
+
+  // O script do GA4 pode ainda estar em lazyOnload. Enfileirar no dataLayer
+  // evita perder o primeiro uso da calculadora sem bloquear a página.
+  window.dataLayer?.push(['event', eventName, eventParams || {}])
 }
 
 /**
@@ -37,17 +45,35 @@ export function trackQuizStart() {
 /**
  * Rastreia conclusão do quiz
  */
-export function trackQuizComplete(perfil: {
-  sexo?: string | number
-  idade?: string | number
-  dieta?: string
-}) {
+export function trackQuizComplete(_perfil?: unknown) {
+  void _perfil
   trackEvent('quiz_complete', {
     event_category: 'engagement',
     event_label: 'avaliacao_concluida',
-    sexo: perfil.sexo?.toString(),
-    idade: perfil.idade?.toString(),
-    dieta: perfil.dieta,
+  })
+}
+
+/** Registra que uma ferramenta foi aberta, sem registrar os valores digitados. */
+export function trackCalculatorView(calculatorName: string) {
+  trackEvent('calculator_view', {
+    calculator_name: calculatorName,
+    engagement_type: 'tool_open',
+  })
+}
+
+/** Registra somente a conclusão e o tipo da ferramenta, nunca o resultado. */
+export function trackCalculatorComplete(calculatorName: string) {
+  trackEvent('calculator_complete', {
+    calculator_name: calculatorName,
+    engagement_type: 'tool_result',
+  })
+}
+
+/** Mede cliques de saída de forma agregada, sem capturar URLs com query strings. */
+export function trackUsefulClick(clickType: 'affiliate' | 'internal_cta' | 'download' | 'share') {
+  trackEvent('useful_click', {
+    click_type: clickType,
+    engagement_type: 'conversion_intent',
   })
 }
 
@@ -71,6 +97,9 @@ export function trackProductClick(
     event_label: productName,
     value: productPrice,
   })
+
+  // Evento agregado para comparar CTAs comerciais sem repetir nome/preço no funil.
+  trackUsefulClick('affiliate')
 }
 
 /**
