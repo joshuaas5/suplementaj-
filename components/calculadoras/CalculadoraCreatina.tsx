@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraCreatina() {
+  const trackComplete = useCalculatorAnalytics('creatina')
   const [peso, setPeso] = useState('')
   const [fase, setFase] = useState<'manutencao' | 'saturacao'>('manutencao')
   const [resultado, setResultado] = useState<{
@@ -17,6 +19,8 @@ export function CalculadoraCreatina() {
   const calcular = () => {
     const pesoNum = parseFloat(peso)
     if (isNaN(pesoNum) || pesoNum <= 0) return
+
+    trackComplete()
 
     if (fase === 'manutencao') {
       // 0.03g a 0.05g por kg - usando 0.04g como média (ou mínimo de 3g)

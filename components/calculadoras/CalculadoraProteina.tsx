@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraProteina() {
+  const trackComplete = useCalculatorAnalytics('proteina')
   const [peso, setPeso] = useState('')
   const [sexo, setSexo] = useState<'M' | 'F'>('M')
   const [idade, setIdade] = useState<'jovem' | 'adulto' | 'idoso'>('adulto')
@@ -22,6 +24,8 @@ export function CalculadoraProteina() {
   const calcular = () => {
     const pesoNum = parseFloat(peso)
     if (isNaN(pesoNum) || pesoNum <= 0) return
+
+    trackComplete()
 
     // Base científica: ISSN (International Society of Sports Nutrition) 2017
     // RDA básico: 0.8g/kg (sedentário saudável)

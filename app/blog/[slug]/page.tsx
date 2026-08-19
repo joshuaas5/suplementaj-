@@ -10,7 +10,6 @@ import nutrientesData from '@/data/nutrientes.json'
 import type { Artigo, BlocoConteudo } from '@/types/artigo'
 import type { Nutriente } from '@/types/nutriente'
 import { HorizontalAd } from '@/components/ads/DisplayAd'
-import { ManualDisplayAd } from '@/components/ads/ManualDisplayAd'
 import { ArticleAd } from '@/components/ads/AdSenseUnits'
 import { formatMarkdown } from '@/lib/markdown'
 import { RelatedContent } from '@/components/content/RelatedContent'
@@ -21,6 +20,14 @@ import { TopicHubLinks } from '@/components/content/TopicHubLinks'
 import { getHubForArticle } from '@/lib/topic-hubs'
 
 const artigos = artigosData as Artigo[]
+
+function articleHasSources(artigo: Artigo) {
+  return Array.isArray(artigo.fontes) && artigo.fontes.length > 0
+}
+
+function articleHasReviewer(artigo: Artigo) {
+  return typeof artigo.revisor === 'string' && artigo.revisor.trim().length > 0
+}
 
 function formatDateBR(dateValue: string) {
   const [year, month, day] = dateValue.split('-').map(Number)
@@ -58,6 +65,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     alternates: {
       canonical: `https://www.suplementaja.com/blog/${params.slug}`,
     },
+    robots: { index: true, follow: true },
     openGraph: {
       title: artigo.titulo,
       description: artigo.descricao,
@@ -172,6 +180,7 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
       name: artigo.revisor || 'Equipe editorial Suplementa Já',
       url: 'https://www.suplementaja.com/editorial',
     },
+      ...(articleHasReviewer(artigo) ? {} : { reviewedBy: undefined }),
       publisher: {
         '@type': 'Organization',
         name: 'Suplementa Já',
@@ -306,8 +315,13 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               </div>
               <div className="flex items-center gap-2 text-black font-bold">
                 <span className="text-lime-600">✓</span>
-                <span>Revisado por {artigo.revisor || artigo.autor}</span>
+                <span>{articleHasReviewer(artigo) ? `Revisado por ${artigo.revisor}` : 'Revisão editorial em atualização'}</span>
               </div>
+              {!articleHasSources(artigo) && (
+                <div className="w-full text-sm text-gray-800 font-bold border-t-2 border-lime-500 pt-3">
+                  As referências deste artigo estão em atualização. Use o conteúdo como informação geral e confira decisões de dose, medicamento ou tratamento com um profissional.
+                </div>
+              )}
               <Link
                 href="/editorial"
                 className="flex items-center gap-1 text-lime-700 font-bold hover:underline ml-auto"
@@ -325,7 +339,6 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
 
         {/* Anúncio no topo (antes do artigo) */}
         <HorizontalAd className="mb-8" />
-        <ManualDisplayAd className="mb-8" />
         {topicHub && <TopicHubLinks hub={topicHub} />}
 
         {/* Conteúdo do Artigo */}
@@ -336,7 +349,6 @@ export default function ArtigoPage({ params }: { params: { slug: string } }) {
               {/* Anúncio no meio do artigo (após 3º bloco) */}
               {index === 2 && <ArticleAd className="my-8" />}
               {/* Anúncio no meio-fim (após 6º bloco) */}
-              {index === 5 && <ArticleAd className="my-8" />}
             </div>
           ))}
         </article>

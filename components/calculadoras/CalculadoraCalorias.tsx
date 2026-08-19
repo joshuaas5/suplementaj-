@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraCalorias() {
+  const trackComplete = useCalculatorAnalytics('calorias')
   const [peso, setPeso] = useState('')
   const [altura, setAltura] = useState('')
   const [idade, setIdade] = useState('')
@@ -25,6 +27,7 @@ export function CalculadoraCalorias() {
     const fa = parseFloat(atividade)
 
     if (p > 0 && a > 0 && i > 0) {
+      trackComplete()
       // Fórmula Mifflin-St Jeor (mais precisa que Harris-Benedict)
       // Fonte: Mifflin MD et al. Am J Clin Nutr 1990
       let tmb: number

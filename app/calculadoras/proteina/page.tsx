@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Calculadora de Proteína Grátis 2026 - Quantas Gramas Por Dia? | Suplementa Já',
   description: 'CALCULE GRÁTIS quanta proteína você precisa! Descubra os gramas ideais para seu peso e objetivo (emagrecer/ganhar massa). Baseado no ISSN.',
   keywords: ['calculadora proteina', 'quantos gramas proteina', 'proteina por kg', 'proteina hipertrofia', 'proteina para emagrecer', 'whey protein', 'necessidade proteica'],
+  alternates: {
+    canonical: '/calculadoras/proteina',
+  },
   openGraph: {
     title: 'Calculadora de Proteína - Quantos Gramas Você Precisa?',
     description: 'Descubra sua necessidade diária de proteína baseada em estudos científicos do ISSN.',

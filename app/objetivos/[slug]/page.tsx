@@ -94,7 +94,6 @@ export default function ObjetivoPage({ params }: Props) {
         { nome: 'Calculadora de Proteína', slug: 'proteina', relevante: ['ganho-de-massa', 'emagrecimento', 'performance', 'imunidade'] },
         { nome: 'Calculadora de Creatina', slug: 'creatina', relevante: ['performance', 'ganho-de-massa'] },
         { nome: 'Calculadora de Água', slug: 'agua', relevante: ['performance', 'emagrecimento', 'imunidade'] },
-        { nome: 'Calculadora de Sono', slug: 'sono', relevante: ['sono', 'performance', 'imunidade'] }, // Supondo que existe ou existirá
         { nome: 'Calculadora de IMC', slug: 'imc', relevante: ['emagrecimento'] }
     ].filter(c => c.relevante.includes(objetivo.slug))
 

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Calculadora de Calorias Diárias (Precisa): Para Perder Peso ou Ganhar Massa',
   description: 'Descubra EXATAMENTE quantas calorias comer por dia. Calculadora científica (Mifflin-St Jeor) para quem quer secar (cutting) ou ganhar músculos (bulking). Grátis e sem cadastro.',
   keywords: ['calculadora calorias', 'tmb', 'tdee', 'gasto calorico', 'quantas calorias', 'metabolismo basal', 'calorias para emagrecer', 'calorias para ganhar massa', 'deficit calorico', 'calcular tdee', 'cutting', 'bulking', 'dieta'],
+  alternates: {
+    canonical: '/calculadoras/calorias',
+  },
   openGraph: {
     title: 'Calculadora de Calorias (Cutting e Bulking) - Resultado Exato',
     description: 'Descubra quantas calorias comer para secar ou ganhar massa. Fórmula científica gratuita.',

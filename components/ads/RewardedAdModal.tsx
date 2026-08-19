@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
+import { ADSENSE_CLIENT_ID } from '@/lib/adsense'
 
 interface RewardedAdModalProps {
   onComplete: () => void
@@ -12,7 +13,7 @@ interface RewardedAdModalProps {
 export function RewardedAdModal({ onComplete, waitTime = 8 }: RewardedAdModalProps) {
   const [timeLeft, setTimeLeft] = useState(waitTime)
   const [canClose, setCanClose] = useState(false)
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID
+  const adsenseId = ADSENSE_CLIENT_ID
 
   useEffect(() => {
     // Carrega o ad

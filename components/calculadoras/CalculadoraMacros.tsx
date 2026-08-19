@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraMacros() {
+  const trackComplete = useCalculatorAnalytics('macros')
   const [calorias, setCalorias] = useState('')
   const [objetivo, setObjetivo] = useState('manutencao')
   const [resultado, setResultado] = useState<{
@@ -26,6 +28,8 @@ export function CalculadoraMacros() {
   const calcular = () => {
     const cal = parseFloat(calorias)
     if (cal <= 0) return
+
+    trackComplete()
 
     const dist = distribuicoes[objetivo]
     

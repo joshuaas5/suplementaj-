@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraAgua() {
+  const trackComplete = useCalculatorAnalytics('agua')
   const [peso, setPeso] = useState('')
   const [sexo, setSexo] = useState<'M' | 'F'>('M')
   const [atividade, setAtividade] = useState<'sedentario' | 'leve' | 'moderado' | 'intenso'>('moderado')
@@ -20,6 +22,8 @@ export function CalculadoraAgua() {
   const calcular = () => {
     const pesoNum = parseFloat(peso)
     if (isNaN(pesoNum) || pesoNum <= 0) return
+
+    trackComplete()
 
     // Base científica: Institute of Medicine (IOM) recomenda:
     // Homens: 3.7L/dia (incluindo alimentos ~20%)

@@ -3,8 +3,10 @@
 import { useState } from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
+import { useCalculatorAnalytics } from '@/components/analytics/CalculatorAnalytics'
 
 export function CalculadoraIMC() {
+  const trackComplete = useCalculatorAnalytics('imc')
   const [peso, setPeso] = useState('')
   const [altura, setAltura] = useState('')
   const [resultado, setResultado] = useState<{
@@ -20,6 +22,7 @@ export function CalculadoraIMC() {
     const alturaNum = parseFloat(altura) / 100 // converter cm para metros
 
     if (pesoNum > 0 && alturaNum > 0) {
+      trackComplete()
       const imc = pesoNum / (alturaNum * alturaNum)
       
       let classificacao = ''
