@@ -48,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/guias`, lastModified: mostRecentBlogDate },
     { url: `${baseUrl}/nutrientes`, lastModified: nutrientesCreationDate },
     { url: `${baseUrl}/calculadoras`, lastModified: calculadorasCreationDate },
+    { url: `${baseUrl}/melhores-suplementos`, lastModified: mostRecentBlogDate },
     { url: `${baseUrl}/sobre`, lastModified: legalPagesDate },
     { url: `${baseUrl}/faq`, lastModified: legalPagesDate },
     { url: `${baseUrl}/editorial`, lastModified: legalPagesDate },

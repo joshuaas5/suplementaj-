@@ -5,13 +5,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Avaliação Personalizada',
   description: 'Responda 10 perguntas e descubra quais vitaminas e minerais você realmente precisa. Baseado em mais de 1.000 estudos científicos. Gratuito e sem cadastro.',
-  alternates: {
-    canonical: '/avaliacao',
-  },
-  openGraph: {
-    title: 'Avaliação Personalizada de Suplementos',
-    description: 'Descubra quais vitaminas e minerais você realmente precisa em 3 minutos',
-    url: 'https://www.suplementaja.com/avaliacao',
+  robots: {
+    index: false,
+    follow: true,
   },
 }
 
